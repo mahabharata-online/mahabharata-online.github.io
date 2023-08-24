@@ -1,3 +1,3 @@
 {
-    "search_server": "http://aasi.pythonanywhere.com/api/search"
+    "search_server": "https://aasi.pythonanywhere.com/api/search"
 }
