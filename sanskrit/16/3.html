@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/16/2.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१६:३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/16/4.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/16/2.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१६:३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/16/4.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.२</sup>एवं प्रयतमानानां वृष्णीनामन्धकैः सह<br>कालो गृहाणि सर्वेषां परिचक्राम नित्यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.३</sup>करालो विकटो मुण्डः पुरुषः कृष्णपिङ्गलः<br>गृहाण्यवेक्ष्य वृष्णीनां नादृश्यत पुनः क्वचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.४</sup>उत्पेदिरे महावाता दारुणाश्चा दिने दिने<br>वृष्ण्यन्धकविनाशाय बहवो रोमहर्षणाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.५</sup>विवृद्धमूषका रथ्या विभिन्नमणिकास्तथा<br>चीचीकूचीति वाश्यन्त्यः सारिका वृष्णिवेश्मसु<br>नोपशाम्यति शब्दश्च स दिवारात्रमेव हि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.६</sup>अनुकुर्वन्नुलूकानां सारसा विरुतं तथा<br>अजाः शिवानां च रुतमन्वकुर्वत भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.७</sup>पाण्डुरा रक्तपादाश्च विहगाः कालचोदिताः<br>वृष्ण्यन्धकानां गेहेषु कपोता व्यचरंस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.८</sup>व्यजायन्त खरा गोषु करभाश्वतरीषु च<br>शुनीष्वपि बिडालाश्च मूषका नकुलीषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.९</sup>नापत्रपन्त पापानि कुर्वन्तो वृष्णयस्तदा<br>प्राद्विषन्ब्राह्मणांश्चापि पितॄन्देवांस्तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१०</sup>गुरूंश्चाप्यवमन्यन्त न तु रामजनार्दनौ<br>पत्न्यः पतीन्व्युच्चरन्त पत्नीश्च पतयस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.११</sup>विभावसुः प्रज्वलितो वामं विपरिवर्तते<br>नीललोहितमाञ्जिष्ठा विसृजन्नर्चिषः पृथक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१२</sup>उदयास्तमने नित्यं पुर्यां तस्यां दिवाकरः<br>व्यदृश्यतासकृत्पुंभिः कबन्धैः परिवारितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१३</sup>महानसेषु सिद्धेऽन्ने संस्कृतेऽतीव भारत<br>आहार्यमाणे कृमयो व्यदृश्यन्त नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१४</sup>पुण्याहे वाच्यमाने च जपत्सु च महात्मसु<br>अभिधावन्तः श्रूयन्ते न चादृश्यत कश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१५</sup>परस्परं च नक्षत्रं हन्यमानं पुनः पुनः<br>ग्रहैरपश्यन्सर्वे ते नात्मनस्तु कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१६</sup>नदन्तं पाञ्चजन्यं च वृष्ण्यन्धकनिवेशने<br>समन्तात्प्रत्यवाश्यन्त रासभा दारुणस्वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१७</sup>एवं पश्यन्हृषीकेशः संप्राप्तं कालपर्ययम्<br>त्रयोदश्याममावास्यां तां दृष्ट्वा प्राब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१८</sup>चतुर्दशी पञ्चदशी कृतेयं राहुणा पुनः<br>तदा च भारते युद्धे प्राप्ता चाद्य क्षयाय नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.१९</sup>विमृशन्नेव कालं तं परिचिन्त्य जनार्दनः<br>मेने प्राप्तं स षट्त्रिंशं वर्षं वै केशिसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.२०</sup>पुत्रशोकाभिसंतप्ता गान्धारी हतबान्धवा<br>यदनुव्याजहारार्ता तदिदं समुपागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.२१</sup>इदं च तदनुप्राप्तमब्रवीद्यद्युधिष्ठिरः<br>पुरा व्यूढेष्वनीकेषु दृष्ट्वोत्पातान्सुदारुणान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.२२</sup>इत्युक्त्वा वासुदेवस्तु चिकीर्षन्सत्यमेव तत्<br>आज्ञापयामास तदा तीर्थयात्रामरिंदम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.३.२३</sup>अघोषयन्त पुरुषास्तत्र केशवशासनात्<br>तीर्थयात्रा समुद्रे वः कार्येति पुरुषर्षभाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.२</sup>एवं प्रयतमानानां वृष्णीनामन्धकैः सह<br>कालो गृहाणि सर्वेषां परिचक्राम नित्यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.३</sup>करालो विकटो मुण्डः पुरुषः कृष्णपिङ्गलः<br>गृहाण्यवेक्ष्य वृष्णीनां नादृश्यत पुनः क्वचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.४</sup>उत्पेदिरे महावाता दारुणाश्चा दिने दिने<br>वृष्ण्यन्धकविनाशाय बहवो रोमहर्षणाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.५</sup>विवृद्धमूषका रथ्या विभिन्नमणिकास्तथा<br>चीचीकूचीति वाश्यन्त्यः सारिका वृष्णिवेश्मसु<br>नोपशाम्यति शब्दश्च स दिवारात्रमेव हि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.६</sup>अनुकुर्वन्नुलूकानां सारसा विरुतं तथा<br>अजाः शिवानां च रुतमन्वकुर्वत भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.७</sup>पाण्डुरा रक्तपादाश्च विहगाः कालचोदिताः<br>वृष्ण्यन्धकानां गेहेषु कपोता व्यचरंस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.८</sup>व्यजायन्त खरा गोषु करभाश्वतरीषु च<br>शुनीष्वपि बिडालाश्च मूषका नकुलीषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.९</sup>नापत्रपन्त पापानि कुर्वन्तो वृष्णयस्तदा<br>प्राद्विषन्ब्राह्मणांश्चापि पितॄन्देवांस्तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१०</sup>गुरूंश्चाप्यवमन्यन्त न तु रामजनार्दनौ<br>पत्न्यः पतीन्व्युच्चरन्त पत्नीश्च पतयस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.११</sup>विभावसुः प्रज्वलितो वामं विपरिवर्तते<br>नीललोहितमाञ्जिष्ठा विसृजन्नर्चिषः पृथक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१२</sup>उदयास्तमने नित्यं पुर्यां तस्यां दिवाकरः<br>व्यदृश्यतासकृत्पुंभिः कबन्धैः परिवारितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१३</sup>महानसेषु सिद्धेऽन्ने संस्कृतेऽतीव भारत<br>आहार्यमाणे कृमयो व्यदृश्यन्त नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१४</sup>पुण्याहे वाच्यमाने च जपत्सु च महात्मसु<br>अभिधावन्तः श्रूयन्ते न चादृश्यत कश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१५</sup>परस्परं च नक्षत्रं हन्यमानं पुनः पुनः<br>ग्रहैरपश्यन्सर्वे ते नात्मनस्तु कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१६</sup>नदन्तं पाञ्चजन्यं च वृष्ण्यन्धकनिवेशने<br>समन्तात्प्रत्यवाश्यन्त रासभा दारुणस्वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१७</sup>एवं पश्यन्हृषीकेशः संप्राप्तं कालपर्ययम्<br>त्रयोदश्याममावास्यां तां दृष्ट्वा प्राब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१८</sup>चतुर्दशी पञ्चदशी कृतेयं राहुणा पुनः<br>तदा च भारते युद्धे प्राप्ता चाद्य क्षयाय नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.१९</sup>विमृशन्नेव कालं तं परिचिन्त्य जनार्दनः<br>मेने प्राप्तं स षट्त्रिंशं वर्षं वै केशिसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.२०</sup>पुत्रशोकाभिसंतप्ता गान्धारी हतबान्धवा<br>यदनुव्याजहारार्ता तदिदं समुपागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.२१</sup>इदं च तदनुप्राप्तमब्रवीद्यद्युधिष्ठिरः<br>पुरा व्यूढेष्वनीकेषु दृष्ट्वोत्पातान्सुदारुणान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.२२</sup>इत्युक्त्वा वासुदेवस्तु चिकीर्षन्सत्यमेव तत्<br>आज्ञापयामास तदा तीर्थयात्रामरिंदम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.३.२३</sup>अघोषयन्त पुरुषास्तत्र केशवशासनात्<br>तीर्थयात्रा समुद्रे वः कार्येति पुरुषर्षभाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

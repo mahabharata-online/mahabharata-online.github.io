@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/115.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:११६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/117.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/115.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:११६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/117.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२</sup>पितामह महाप्राज्ञ संशयो मे महानयम्<br>स च्छेत्तव्यस्त्वया राजन्भवान्कुलकरो हि नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.३</sup>पुरुषाणामयं तात दुर्वृत्तानां दुरात्मनाम्<br>कथितो वाक्यसंचारस्ततो विज्ञापयामि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.४</sup>यद्धितं राज्यतन्त्रस्य कुलस्य च सुखोदयम्<br>आयत्यां च तदात्वे च क्षेमवृद्धिकरं च यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.५</sup>पुत्रपौत्राभिरामं च राष्ट्रवृद्धिकरं च यत्<br>अन्नपाने शरीरे च हितं यत्तद्ब्रवीहि मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.६</sup>अभिषिक्तो हि यो राजा राज्यस्थो मित्रसंवृतः<br>असुहृत्समुपेतो वा स कथं रञ्जयेत्प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.७</sup>यो ह्यसत्प्रग्रहरतिः स्नेहरागबलात्कृतः<br>इन्द्रियाणामनीशत्वादसज्जनबुभूषकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.८</sup>तस्य भृत्या विगुणतां यान्ति सर्वे कुलोद्गताः<br>न च भृत्यफलैरर्थैः स राजा संप्रयुज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.९</sup>एतान्मे संशयस्थस्य राजधर्मान्सुदुर्लभान्<br>बृहस्पतिसमो बुद्ध्या भवाञ्शंसितुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१०</sup>शंसिता पुरुषव्याघ्र त्वं नः कुलहिते रतः<br>क्षत्ता चैव पटुप्रज्ञो यो नः शंसति सर्वदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.११</sup>त्वत्तः कुलहितं वाक्यं श्रुत्वा राज्यहितोदयम्<br>अमृतस्याव्ययस्येव तृप्तः स्वप्स्याम्यहं सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१२</sup>कीदृषाः संनिकर्षस्था भृत्याः स्युर्वा गुणान्विताः<br>कीदृशैः किंकुलीनैर्वा सह यात्रा विधीयते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१३</sup>न ह्येको भृत्यरहितो राजा भवति रक्षिता<br>राज्यं चेदं जनः सर्वस्तत्कुलीनोऽभिशंसति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१४</sup>न हि प्रशास्तुं राज्यं हि शक्यमेकेन भारत<br>असहायवता तात नैवार्थाः केचिदप्युत<br>लब्धुं लब्ध्वा चापि सदा रक्षितुं भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१५</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१६</sup>यस्य भृत्यजनः सर्वो ज्ञानविज्ञानकोविदः<br>हितैषी कुलजः स्निग्धः स राज्यफलमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१७</sup>मन्त्रिणो यस्य कुलजा असंहार्याः सहोषिताः<br>नृपतेर्मतिदाः सन्ति संबन्धज्ञानकोविदाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१८</sup>अनागतविधातारः कालज्ञानविशारदाः<br>अतिक्रान्तमशोचन्तः स राज्यफलमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.१९</sup>समदुःखसुखा यस्य सहायाः सत्यकारिणः<br>अर्थचिन्तापरा यस्य स राज्यफलमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२०</sup>यस्य नार्तो जनपदः संनिकर्षगतः सदा<br>अक्षुद्रः सत्पथालम्बी स राज्यफलभाग्भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२१</sup>कोशाक्षपटलं यस्य कोशवृद्धिकरैर्जनैः<br>आप्तैस्तुष्टैश्च सततं धार्यते स नृपोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२२</sup>कोष्ठागारमसंहार्यैराप्तैः संचयतत्परैः<br>पात्रभूतैरलुब्धैश्च पाल्यमानं गुणीभवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२३</sup>व्यवहारश्च नगरे यस्य कर्मफलोदयः<br>दृश्यते शङ्खलिखितः स धर्मफलभाग्भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.११६.२४</sup>संगृहीतमनुष्यश्च यो राजा राजधर्मवित्<br>षड्वर्गं प्रतिगृह्णन्स धर्मात्फलमुपाश्नुते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२</sup>पितामह महाप्राज्ञ संशयो मे महानयम्<br>स च्छेत्तव्यस्त्वया राजन्भवान्कुलकरो हि नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.३</sup>पुरुषाणामयं तात दुर्वृत्तानां दुरात्मनाम्<br>कथितो वाक्यसंचारस्ततो विज्ञापयामि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.४</sup>यद्धितं राज्यतन्त्रस्य कुलस्य च सुखोदयम्<br>आयत्यां च तदात्वे च क्षेमवृद्धिकरं च यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.५</sup>पुत्रपौत्राभिरामं च राष्ट्रवृद्धिकरं च यत्<br>अन्नपाने शरीरे च हितं यत्तद्ब्रवीहि मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.६</sup>अभिषिक्तो हि यो राजा राज्यस्थो मित्रसंवृतः<br>असुहृत्समुपेतो वा स कथं रञ्जयेत्प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.७</sup>यो ह्यसत्प्रग्रहरतिः स्नेहरागबलात्कृतः<br>इन्द्रियाणामनीशत्वादसज्जनबुभूषकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.८</sup>तस्य भृत्या विगुणतां यान्ति सर्वे कुलोद्गताः<br>न च भृत्यफलैरर्थैः स राजा संप्रयुज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.९</sup>एतान्मे संशयस्थस्य राजधर्मान्सुदुर्लभान्<br>बृहस्पतिसमो बुद्ध्या भवाञ्शंसितुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१०</sup>शंसिता पुरुषव्याघ्र त्वं नः कुलहिते रतः<br>क्षत्ता चैव पटुप्रज्ञो यो नः शंसति सर्वदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.११</sup>त्वत्तः कुलहितं वाक्यं श्रुत्वा राज्यहितोदयम्<br>अमृतस्याव्ययस्येव तृप्तः स्वप्स्याम्यहं सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१२</sup>कीदृषाः संनिकर्षस्था भृत्याः स्युर्वा गुणान्विताः<br>कीदृशैः किंकुलीनैर्वा सह यात्रा विधीयते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१३</sup>न ह्येको भृत्यरहितो राजा भवति रक्षिता<br>राज्यं चेदं जनः सर्वस्तत्कुलीनोऽभिशंसति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१४</sup>न हि प्रशास्तुं राज्यं हि शक्यमेकेन भारत<br>असहायवता तात नैवार्थाः केचिदप्युत<br>लब्धुं लब्ध्वा चापि सदा रक्षितुं भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१५</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१६</sup>यस्य भृत्यजनः सर्वो ज्ञानविज्ञानकोविदः<br>हितैषी कुलजः स्निग्धः स राज्यफलमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१७</sup>मन्त्रिणो यस्य कुलजा असंहार्याः सहोषिताः<br>नृपतेर्मतिदाः सन्ति संबन्धज्ञानकोविदाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१८</sup>अनागतविधातारः कालज्ञानविशारदाः<br>अतिक्रान्तमशोचन्तः स राज्यफलमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.१९</sup>समदुःखसुखा यस्य सहायाः सत्यकारिणः<br>अर्थचिन्तापरा यस्य स राज्यफलमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२०</sup>यस्य नार्तो जनपदः संनिकर्षगतः सदा<br>अक्षुद्रः सत्पथालम्बी स राज्यफलभाग्भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२१</sup>कोशाक्षपटलं यस्य कोशवृद्धिकरैर्जनैः<br>आप्तैस्तुष्टैश्च सततं धार्यते स नृपोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२२</sup>कोष्ठागारमसंहार्यैराप्तैः संचयतत्परैः<br>पात्रभूतैरलुब्धैश्च पाल्यमानं गुणीभवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२३</sup>व्यवहारश्च नगरे यस्य कर्मफलोदयः<br>दृश्यते शङ्खलिखितः स धर्मफलभाग्भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.११६.२४</sup>संगृहीतमनुष्यश्च यो राजा राजधर्मवित्<br>षड्वर्गं प्रतिगृह्णन्स धर्मात्फलमुपाश्नुते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

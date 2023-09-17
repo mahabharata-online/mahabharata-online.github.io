@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/8.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/10.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,82 +64,47 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/8.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/10.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.९.१</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.२</sup>धृतराष्ट्र महाप्राज्ञ निबोध वचनं मम<br>वक्ष्यामि त्वा कौरवाणां सर्वेषां हितमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.३</sup>न मे प्रियं महाबाहो यद्गताः पाण्डवा वनम्<br>निकृत्या निर्जिताश्चैव दुर्योधनवशानुगैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.४</sup>ते स्मरन्तः परिक्लेशान्वर्षे पूर्णे त्रयोदशे<br>विमोक्ष्यन्ति विषं क्रुद्धाः कौरवेयेषु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.५</sup>तदयं किं नु पापात्मा तव पुत्रः सुमन्दधीः<br>पाण्डवान्नित्यसंक्रुद्धो राज्यहेतोर्जिघांसति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.६</sup>वार्यतां साध्वयं मूढः शमं गच्छतु ते सुतः<br>वनस्थांस्तानयं हन्तुमिच्छन्प्राणैर्विमोक्ष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.७</sup>यथाह विदुरः प्राज्ञो यथा भीष्मो यथा वयम्<br>यथा कृपश्च द्रोणश्च तथा साधु विधीयताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.८</sup>विग्रहो हि महाप्राज्ञ स्वजनेन विगर्हितः<br>अधर्म्यमयशस्यं च मा राजन्प्रतिपद्यथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.९</sup>समीक्षा यादृशी ह्यस्य पाण्डवान्प्रति भारत<br>उपेक्ष्यमाणा सा राजन्महान्तमनयं स्पृशेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.१०</sup>अथ वायं सुमन्दात्मा वनं गच्छतु ते सुतः<br>पाण्डवैः सहितो राजन्नेक एवासहायवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.११</sup>ततः संसर्गजः स्नेहः पुत्रस्य तव पाण्डवैः<br>यदि स्यात्कृतकार्योऽद्य भवेस्त्वं मनुजेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.१२</sup>अथ वा जायमानस्य यच्छीलमनुजायते<br>श्रूयते तन्महाराज नामृतस्यापसर्पति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९.१३</sup>कथं वा मन्यते भीष्मो द्रोणो वा विदुरोऽपि वा<br>भवान्वात्र क्षमं कार्यं पुरा चार्थोऽतिवर्तते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.९.१</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.२</sup>धृतराष्ट्र महाप्राज्ञ निबोध वचनं मम<br>वक्ष्यामि त्वा कौरवाणां सर्वेषां हितमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.३</sup>न मे प्रियं महाबाहो यद्गताः पाण्डवा वनम्<br>निकृत्या निर्जिताश्चैव दुर्योधनवशानुगैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.४</sup>ते स्मरन्तः परिक्लेशान्वर्षे पूर्णे त्रयोदशे<br>विमोक्ष्यन्ति विषं क्रुद्धाः कौरवेयेषु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.५</sup>तदयं किं नु पापात्मा तव पुत्रः सुमन्दधीः<br>पाण्डवान्नित्यसंक्रुद्धो राज्यहेतोर्जिघांसति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.६</sup>वार्यतां साध्वयं मूढः शमं गच्छतु ते सुतः<br>वनस्थांस्तानयं हन्तुमिच्छन्प्राणैर्विमोक्ष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.७</sup>यथाह विदुरः प्राज्ञो यथा भीष्मो यथा वयम्<br>यथा कृपश्च द्रोणश्च तथा साधु विधीयताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.८</sup>विग्रहो हि महाप्राज्ञ स्वजनेन विगर्हितः<br>अधर्म्यमयशस्यं च मा राजन्प्रतिपद्यथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.९</sup>समीक्षा यादृशी ह्यस्य पाण्डवान्प्रति भारत<br>उपेक्ष्यमाणा सा राजन्महान्तमनयं स्पृशेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.१०</sup>अथ वायं सुमन्दात्मा वनं गच्छतु ते सुतः<br>पाण्डवैः सहितो राजन्नेक एवासहायवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.११</sup>ततः संसर्गजः स्नेहः पुत्रस्य तव पाण्डवैः<br>यदि स्यात्कृतकार्योऽद्य भवेस्त्वं मनुजेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.१२</sup>अथ वा जायमानस्य यच्छीलमनुजायते<br>श्रूयते तन्महाराज नामृतस्यापसर्पति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९.१३</sup>कथं वा मन्यते भीष्मो द्रोणो वा विदुरोऽपि वा<br>भवान्वात्र क्षमं कार्यं पुरा चार्थोऽतिवर्तते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -120,8 +113,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

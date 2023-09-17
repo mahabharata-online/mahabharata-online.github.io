@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/63.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:६४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/65.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,94 +64,59 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/63.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:६४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/65.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.२</sup>एवमुक्त्वा महाप्राज्ञो धृतराष्ट्रः सुयोधनम्<br>पुनरेव महाभागः संजयं पर्यपृच्छत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.३</sup>ब्रूहि संजय यच्छेषं वासुदेवादनन्तरम्<br>यदर्जुन उवाच त्वां परं कौतूहलं हि मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.४</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.५</sup>वासुदेववचः श्रुत्वा कुन्तीपुत्रो धनंजयः<br>उवाच काले दुर्धर्षो वासुदेवस्य शृण्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.६</sup>पितामहं शांतनवं धृतराष्ट्रं च संजय<br>द्रोणं कृपं च कर्णं च महाराजं च बाह्लिकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.७</sup>द्रौणिं च सोमदत्तं च शकुनिं चापि सौबलम्<br>दुःशासनं शलं चैव पुरुमित्रं विविंशतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.८</sup>विकर्णं चित्रसेनं च जयत्सेनं च पार्थिवम्<br>विन्दानुविन्दावावन्त्यौ दुर्मुखं चापि कौरवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.९</sup>सैन्धवं दुःसहं चैव भूरिश्रवसमेव च<br>भगदत्तं च राजानं जलसंधं च पार्थिवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१०</sup>ये चाप्यन्ये पार्थिवास्तत्र योद्धुं; समागताः कौरवाणां प्रियार्थम्<br>मुमूर्षवः पाण्डवाग्नौ प्रदीप्ते; समानीता धार्तराष्ट्रेण सूत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.११</sup>यथान्यायं कौशलं वन्दनं च; समागता मद्वचनेन वाच्याः<br>इदं ब्रूयाः संजय राजमध्ये; सुयोधनं पापकृतां प्रधानम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१२</sup>अमर्षणं दुर्मतिं राजपुत्रं; पापात्मानं धार्तराष्ट्रं सुलुब्धम्<br>सर्वं ममैतद्वचनं समग्रं; सहामात्यं संजय श्रावयेथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१३</sup>एवं प्रतिष्ठाप्य धनंजयो मां; ततोऽर्थवद्धर्मवच्चापि वाक्यम्<br>प्रोवाचेदं वासुदेवं समीक्ष्य; पार्थो धीमाँल्लोहितान्तायताक्षः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१४</sup>यथा श्रुतं ते वदतो महात्मनो; मधुप्रवीरस्य वचः समाहितम्<br>तथैव वाच्यं भवता हि मद्वचः; समागतेषु क्षितिपेषु सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१५</sup>शराग्निधूमे रथनेमिनादिते; धनुःस्रुवेणास्त्रबलापहारिणा<br>यथा न होमः क्रियते महामृधे; तथा समेत्य प्रयतध्वमादृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१६</sup>न चेत्प्रयच्छध्वममित्रघातिनो; युधिष्ठिरस्यांशमभीप्सितं स्वकम्<br>नयामि वः स्वाश्वपदातिकुञ्जरा;न्दिशं पितॄणामशिवां शितैः शरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.६४.१७</sup>ततोऽहमामन्त्र्य चतुर्भुजं हरिं; धनंजयं चैव नमस्य सत्वरः<br>जवेन संप्राप्त इहामरद्युते; तवान्तिकं प्रापयितुं वचो महत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.२</sup>एवमुक्त्वा महाप्राज्ञो धृतराष्ट्रः सुयोधनम्<br>पुनरेव महाभागः संजयं पर्यपृच्छत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.३</sup>ब्रूहि संजय यच्छेषं वासुदेवादनन्तरम्<br>यदर्जुन उवाच त्वां परं कौतूहलं हि मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.४</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.५</sup>वासुदेववचः श्रुत्वा कुन्तीपुत्रो धनंजयः<br>उवाच काले दुर्धर्षो वासुदेवस्य शृण्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.६</sup>पितामहं शांतनवं धृतराष्ट्रं च संजय<br>द्रोणं कृपं च कर्णं च महाराजं च बाह्लिकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.७</sup>द्रौणिं च सोमदत्तं च शकुनिं चापि सौबलम्<br>दुःशासनं शलं चैव पुरुमित्रं विविंशतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.८</sup>विकर्णं चित्रसेनं च जयत्सेनं च पार्थिवम्<br>विन्दानुविन्दावावन्त्यौ दुर्मुखं चापि कौरवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.९</sup>सैन्धवं दुःसहं चैव भूरिश्रवसमेव च<br>भगदत्तं च राजानं जलसंधं च पार्थिवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१०</sup>ये चाप्यन्ये पार्थिवास्तत्र योद्धुं; समागताः कौरवाणां प्रियार्थम्<br>मुमूर्षवः पाण्डवाग्नौ प्रदीप्ते; समानीता धार्तराष्ट्रेण सूत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.११</sup>यथान्यायं कौशलं वन्दनं च; समागता मद्वचनेन वाच्याः<br>इदं ब्रूयाः संजय राजमध्ये; सुयोधनं पापकृतां प्रधानम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१२</sup>अमर्षणं दुर्मतिं राजपुत्रं; पापात्मानं धार्तराष्ट्रं सुलुब्धम्<br>सर्वं ममैतद्वचनं समग्रं; सहामात्यं संजय श्रावयेथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१३</sup>एवं प्रतिष्ठाप्य धनंजयो मां; ततोऽर्थवद्धर्मवच्चापि वाक्यम्<br>प्रोवाचेदं वासुदेवं समीक्ष्य; पार्थो धीमाँल्लोहितान्तायताक्षः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१४</sup>यथा श्रुतं ते वदतो महात्मनो; मधुप्रवीरस्य वचः समाहितम्<br>तथैव वाच्यं भवता हि मद्वचः; समागतेषु क्षितिपेषु सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१५</sup>शराग्निधूमे रथनेमिनादिते; धनुःस्रुवेणास्त्रबलापहारिणा<br>यथा न होमः क्रियते महामृधे; तथा समेत्य प्रयतध्वमादृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१६</sup>न चेत्प्रयच्छध्वममित्रघातिनो; युधिष्ठिरस्यांशमभीप्सितं स्वकम्<br>नयामि वः स्वाश्वपदातिकुञ्जरा;न्दिशं पितॄणामशिवां शितैः शरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.६४.१७</sup>ततोऽहमामन्त्र्य चतुर्भुजं हरिं; धनंजयं चैव नमस्य सत्वरः<br>जवेन संप्राप्त इहामरद्युते; तवान्तिकं प्रापयितुं वचो महत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -132,8 +125,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

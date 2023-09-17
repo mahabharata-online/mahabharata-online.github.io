@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/52.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:५३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/54.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/52.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:५३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/54.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१</sup>उत्तङ्क उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२</sup>ब्रूहि केशव तत्त्वेन त्वमध्यात्ममनिन्दितम्<br>श्रुत्वा श्रेयोऽभिधास्यामि शापं वा ते जनार्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.३</sup>वासुदेव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.४</sup>तमो रजश्च सत्त्वं च विद्धि भावान्मदाश्रयान्<br>तथा रुद्रान्वसूंश्चापि विद्धि मत्प्रभवान्द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.५</sup>मयि सर्वाणि भूतानि सर्वभूतेषु चाप्यहम्<br>स्थित इत्यभिजानीहि मा तेऽभूदत्र संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.६</sup>तथा दैत्यगणान्सर्वान्यक्षराक्षसपन्नगान्<br>गन्धर्वाप्सरसश्चैव विद्धि मत्प्रभवान्द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.७</sup>सदसच्चैव यत्प्राहुरव्यक्तं व्यक्तमेव च<br>अक्षरं च क्षरं चैव सर्वमेतन्मदात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.८</sup>ये चाश्रमेषु वै धर्माश्चतुर्षु विहिता मुने<br>दैवानि चैव कर्माणि विद्धि सर्वं मदात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.९</sup>असच्च सदसच्चैव यद्विश्वं सदसतः परम्<br>ततः परं नास्ति चैव देवदेवात्सनातनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१०</sup>ओंकारप्रभवान्वेदान्विद्धि मां त्वं भृगूद्वह<br>यूपं सोमं तथैवेह त्रिदशाप्यायनं मखे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.११</sup>होतारमपि हव्यं च विद्धि मां भृगुनन्दन<br>अध्वर्युः कल्पकश्चापि हविः परमसंस्कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१२</sup>उद्गाता चापि मां स्तौति गीतघोषैर्महाध्वरे<br>प्रायश्चित्तेषु मां ब्रह्मञ्शान्तिमङ्गलवाचकाः<br>स्तुवन्ति विश्वकर्माणं सततं द्विजसत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१३</sup>विद्धि मह्यं सुतं धर्ममग्रजं द्विजसत्तम<br>मानसं दयितं विप्र सर्वभूतदयात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१४</sup>तत्राहं वर्तमानैश्च निवृत्तैश्चैव मानवैः<br>बह्वीः संसरमाणो वै योनीर्हि द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१५</sup>धर्मसंरक्षणार्थाय धर्मसंस्थापनाय च<br>तैस्तैर्वेषैश्च रूपैश्च त्रिषु लोकेषु भार्गव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१६</sup>अहं विष्णुरहं ब्रह्मा शक्रोऽथ प्रभवाप्ययः<br>भूतग्रामस्य सर्वस्य स्रष्टा संहार एव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१७</sup>अधर्मे वर्तमानानां सर्वेषामहमप्युत<br>धर्मस्य सेतुं बध्नामि चलिते चलिते युगे<br>तास्ता योनीः प्रविश्याहं प्रजानां हितकाम्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१८</sup>यदा त्वहं देवयोनौ वर्तामि भृगुनन्दन<br>तदाहं देववत्सर्वमाचरामि न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.१९</sup>यदा गन्धर्वयोनौ तु वर्तामि भृगुनन्दन<br>तदा गन्धर्ववच्चेष्टाः सर्वाश्चेष्टामि भार्गव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२०</sup>नागयोनौ यदा चैव तदा वर्तामि नागवत्<br>यक्षराक्षसयोनीश्च यथावद्विचराम्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२१</sup>मानुष्ये वर्तमाने तु कृपणं याचिता मया<br>न च ते जातसंमोहा वचो गृह्णन्ति मे हितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२२</sup>भयं च महदुद्दिश्य त्रासिताः कुरवो मया<br>क्रुद्धेव भूत्वा च पुनर्यथावदनुदर्शिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२३</sup>तेऽधर्मेणेह संयुक्ताः परीताः कालधर्मणा<br>धर्मेण निहता युद्धे गताः स्वर्गं न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५३.२४</sup>लोकेषु पाण्डवाश्चैव गताः ख्यातिं द्विजोत्तम<br>एतत्ते सर्वमाख्यातं यन्मां त्वं परिपृच्छसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१</sup>उत्तङ्क उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२</sup>ब्रूहि केशव तत्त्वेन त्वमध्यात्ममनिन्दितम्<br>श्रुत्वा श्रेयोऽभिधास्यामि शापं वा ते जनार्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.३</sup>वासुदेव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.४</sup>तमो रजश्च सत्त्वं च विद्धि भावान्मदाश्रयान्<br>तथा रुद्रान्वसूंश्चापि विद्धि मत्प्रभवान्द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.५</sup>मयि सर्वाणि भूतानि सर्वभूतेषु चाप्यहम्<br>स्थित इत्यभिजानीहि मा तेऽभूदत्र संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.६</sup>तथा दैत्यगणान्सर्वान्यक्षराक्षसपन्नगान्<br>गन्धर्वाप्सरसश्चैव विद्धि मत्प्रभवान्द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.७</sup>सदसच्चैव यत्प्राहुरव्यक्तं व्यक्तमेव च<br>अक्षरं च क्षरं चैव सर्वमेतन्मदात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.८</sup>ये चाश्रमेषु वै धर्माश्चतुर्षु विहिता मुने<br>दैवानि चैव कर्माणि विद्धि सर्वं मदात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.९</sup>असच्च सदसच्चैव यद्विश्वं सदसतः परम्<br>ततः परं नास्ति चैव देवदेवात्सनातनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१०</sup>ओंकारप्रभवान्वेदान्विद्धि मां त्वं भृगूद्वह<br>यूपं सोमं तथैवेह त्रिदशाप्यायनं मखे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.११</sup>होतारमपि हव्यं च विद्धि मां भृगुनन्दन<br>अध्वर्युः कल्पकश्चापि हविः परमसंस्कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१२</sup>उद्गाता चापि मां स्तौति गीतघोषैर्महाध्वरे<br>प्रायश्चित्तेषु मां ब्रह्मञ्शान्तिमङ्गलवाचकाः<br>स्तुवन्ति विश्वकर्माणं सततं द्विजसत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१३</sup>विद्धि मह्यं सुतं धर्ममग्रजं द्विजसत्तम<br>मानसं दयितं विप्र सर्वभूतदयात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१४</sup>तत्राहं वर्तमानैश्च निवृत्तैश्चैव मानवैः<br>बह्वीः संसरमाणो वै योनीर्हि द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१५</sup>धर्मसंरक्षणार्थाय धर्मसंस्थापनाय च<br>तैस्तैर्वेषैश्च रूपैश्च त्रिषु लोकेषु भार्गव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१६</sup>अहं विष्णुरहं ब्रह्मा शक्रोऽथ प्रभवाप्ययः<br>भूतग्रामस्य सर्वस्य स्रष्टा संहार एव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१७</sup>अधर्मे वर्तमानानां सर्वेषामहमप्युत<br>धर्मस्य सेतुं बध्नामि चलिते चलिते युगे<br>तास्ता योनीः प्रविश्याहं प्रजानां हितकाम्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१८</sup>यदा त्वहं देवयोनौ वर्तामि भृगुनन्दन<br>तदाहं देववत्सर्वमाचरामि न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.१९</sup>यदा गन्धर्वयोनौ तु वर्तामि भृगुनन्दन<br>तदा गन्धर्ववच्चेष्टाः सर्वाश्चेष्टामि भार्गव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२०</sup>नागयोनौ यदा चैव तदा वर्तामि नागवत्<br>यक्षराक्षसयोनीश्च यथावद्विचराम्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२१</sup>मानुष्ये वर्तमाने तु कृपणं याचिता मया<br>न च ते जातसंमोहा वचो गृह्णन्ति मे हितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२२</sup>भयं च महदुद्दिश्य त्रासिताः कुरवो मया<br>क्रुद्धेव भूत्वा च पुनर्यथावदनुदर्शिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२३</sup>तेऽधर्मेणेह संयुक्ताः परीताः कालधर्मणा<br>धर्मेण निहता युद्धे गताः स्वर्गं न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५३.२४</sup>लोकेषु पाण्डवाश्चैव गताः ख्यातिं द्विजोत्तम<br>एतत्ते सर्वमाख्यातं यन्मां त्वं परिपृच्छसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

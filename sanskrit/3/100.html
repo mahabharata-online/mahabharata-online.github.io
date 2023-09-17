@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/99.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१००</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/101.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/99.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१००</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/101.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१</sup>लोमश उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२</sup>समुद्रं ते समाश्रित्य वारुणं निधिमम्भसाम्<br>कालेयाः संप्रवर्तन्त त्रैलोक्यस्य विनाशने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.३</sup>ते रात्रौ समभिक्रुद्धा भक्षयन्ति सदा मुनीन्<br>आश्रमेषु च ये सन्ति पुन्येष्वायतनेषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.४</sup>वसिष्ठस्याश्रमे विप्रा भक्षितास्तैर्दुरात्मभिः<br>अशीतिशतमष्टौ च नव चान्ये तपस्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.५</sup>च्यवनस्याश्रमं गत्वा पुण्यं द्विजनिषेवितम्<br>फलमूलाशनानां हि मुनीनां भक्षितं शतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.६</sup>एवं रात्रौ स्म कुर्वन्ति विविशुश्चार्णवं दिवा<br>भरद्वाजाश्रमे चैव नियता ब्रह्मचारिणः<br>वाय्वाहाराम्बुभक्षाश्च विंशतिः संनिपातिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.७</sup>एवं क्रमेण सर्वांस्तानाश्रमान्दानवास्तदा<br>निशायां परिधावन्ति मत्ता भुजबलाश्रयात्<br>कालोपसृष्टाः कालेया घ्नन्तो द्विजगणान्बहून्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.८</sup>न चैनानन्वबुध्यन्त मनुजा मनुजोत्तम<br>एवं प्रवृत्तान्दैत्यांस्तांस्तापसेषु तपस्विषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.९</sup>प्रभाते समदृश्यन्त नियताहारकर्शिताः<br>महीतलस्था मुनयः शरीरैर्गतजीवितैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१०</sup>क्षीणमांसैर्विरुधिरैर्विमज्जान्त्रैर्विसंधिभिः<br>आकीर्णैराचिता भूमिः शङ्खानामिव राशिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.११</sup>कलशैर्विप्रविद्धैश्च स्रुवैर्भग्नैस्तथैव च<br>विकीर्णैरग्निहोत्रैश्च भूर्बभूव समावृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१२</sup>निःस्वाध्यायवषट्कारं नष्टयज्ञोत्सवक्रियम्<br>जगदासीन्निरुत्साहं कालेयभयपीडितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१३</sup>एवं प्रक्षीयमाणाश्च मानवा मनुजेश्वर<br>आत्मत्राणपरा भीताः प्राद्रवन्त दिशो भयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१४</sup>केचिद्गुहाः प्रविविशुर्निर्झरांश्चापरे श्रिताः<br>अपरे मरणोद्विग्ना भयात्प्रानान्समुत्सृजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१५</sup>केचिदत्र महेष्वासाः शूराः परमदर्पिताः<br>मार्गमाणाः परं यत्नं दानवानां प्रचक्रिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१६</sup>न चैतानधिजग्मुस्ते समुद्रं समुपाश्रितान्<br>श्रमं जग्मुश्च परममाजग्मुः क्षयमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१७</sup>जगत्युपशमं याते नष्टयज्ञोत्सवक्रिये<br>आजग्मुः परमामार्तिं त्रिदशा मनुजेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१८</sup>समेत्य समहेन्द्राश्च भयान्मन्त्रं प्रचक्रिरे<br>नारायणं पुरस्कृत्य वैकुण्ठमपराजितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.१९</sup>ततो देवाः समेतास्ते तदोचुर्मधुसूदनम्<br>त्वं नः स्रष्टा च पाता च भर्ता च जगतः प्रभो<br>त्वया सृष्टमिदं सर्वं यच्चेङ्गं यच्च नेङ्गति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२०</sup>त्वया भूमिः पुरा नष्टा समुद्रात्पुष्करेक्षण<br>वाराहं रूपमास्थाय जगदर्थे समुद्धृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२१</sup>आदिदैत्यो महावीर्यो हिरण्यकशिपुस्त्वया<br>नारसिंहं वपुः कृत्वा सूदितः पुरुषोत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२२</sup>अवध्यः सर्वभूतानां बलिश्चापि महासुरः<br>वामनं वपुराश्रित्य त्रैलोक्याद्भ्रंशितस्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२३</sup>असुरश्च महेष्वासो जम्भ इत्यभिविश्रुतः<br>यज्ञक्षोभकरः क्रूरस्त्वयैव विनिपातितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२४</sup>एवमादीनि कर्माणि येषां संख्या न विद्यते<br>अस्माकं भयभीतानां त्वं गतिर्मधुसूदन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१००.२५</sup>तस्मात्त्वां देव देवेश लोकार्थं ज्ञापयामहे<br>रक्ष लोकांश्च देवांश्च शक्रं च महतो भयात्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१</sup>लोमश उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२</sup>समुद्रं ते समाश्रित्य वारुणं निधिमम्भसाम्<br>कालेयाः संप्रवर्तन्त त्रैलोक्यस्य विनाशने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.३</sup>ते रात्रौ समभिक्रुद्धा भक्षयन्ति सदा मुनीन्<br>आश्रमेषु च ये सन्ति पुन्येष्वायतनेषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.४</sup>वसिष्ठस्याश्रमे विप्रा भक्षितास्तैर्दुरात्मभिः<br>अशीतिशतमष्टौ च नव चान्ये तपस्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.५</sup>च्यवनस्याश्रमं गत्वा पुण्यं द्विजनिषेवितम्<br>फलमूलाशनानां हि मुनीनां भक्षितं शतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.६</sup>एवं रात्रौ स्म कुर्वन्ति विविशुश्चार्णवं दिवा<br>भरद्वाजाश्रमे चैव नियता ब्रह्मचारिणः<br>वाय्वाहाराम्बुभक्षाश्च विंशतिः संनिपातिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.७</sup>एवं क्रमेण सर्वांस्तानाश्रमान्दानवास्तदा<br>निशायां परिधावन्ति मत्ता भुजबलाश्रयात्<br>कालोपसृष्टाः कालेया घ्नन्तो द्विजगणान्बहून्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.८</sup>न चैनानन्वबुध्यन्त मनुजा मनुजोत्तम<br>एवं प्रवृत्तान्दैत्यांस्तांस्तापसेषु तपस्विषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.९</sup>प्रभाते समदृश्यन्त नियताहारकर्शिताः<br>महीतलस्था मुनयः शरीरैर्गतजीवितैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१०</sup>क्षीणमांसैर्विरुधिरैर्विमज्जान्त्रैर्विसंधिभिः<br>आकीर्णैराचिता भूमिः शङ्खानामिव राशिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.११</sup>कलशैर्विप्रविद्धैश्च स्रुवैर्भग्नैस्तथैव च<br>विकीर्णैरग्निहोत्रैश्च भूर्बभूव समावृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१२</sup>निःस्वाध्यायवषट्कारं नष्टयज्ञोत्सवक्रियम्<br>जगदासीन्निरुत्साहं कालेयभयपीडितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१३</sup>एवं प्रक्षीयमाणाश्च मानवा मनुजेश्वर<br>आत्मत्राणपरा भीताः प्राद्रवन्त दिशो भयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१४</sup>केचिद्गुहाः प्रविविशुर्निर्झरांश्चापरे श्रिताः<br>अपरे मरणोद्विग्ना भयात्प्रानान्समुत्सृजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१५</sup>केचिदत्र महेष्वासाः शूराः परमदर्पिताः<br>मार्गमाणाः परं यत्नं दानवानां प्रचक्रिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१६</sup>न चैतानधिजग्मुस्ते समुद्रं समुपाश्रितान्<br>श्रमं जग्मुश्च परममाजग्मुः क्षयमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१७</sup>जगत्युपशमं याते नष्टयज्ञोत्सवक्रिये<br>आजग्मुः परमामार्तिं त्रिदशा मनुजेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१८</sup>समेत्य समहेन्द्राश्च भयान्मन्त्रं प्रचक्रिरे<br>नारायणं पुरस्कृत्य वैकुण्ठमपराजितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.१९</sup>ततो देवाः समेतास्ते तदोचुर्मधुसूदनम्<br>त्वं नः स्रष्टा च पाता च भर्ता च जगतः प्रभो<br>त्वया सृष्टमिदं सर्वं यच्चेङ्गं यच्च नेङ्गति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२०</sup>त्वया भूमिः पुरा नष्टा समुद्रात्पुष्करेक्षण<br>वाराहं रूपमास्थाय जगदर्थे समुद्धृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२१</sup>आदिदैत्यो महावीर्यो हिरण्यकशिपुस्त्वया<br>नारसिंहं वपुः कृत्वा सूदितः पुरुषोत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२२</sup>अवध्यः सर्वभूतानां बलिश्चापि महासुरः<br>वामनं वपुराश्रित्य त्रैलोक्याद्भ्रंशितस्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२३</sup>असुरश्च महेष्वासो जम्भ इत्यभिविश्रुतः<br>यज्ञक्षोभकरः क्रूरस्त्वयैव विनिपातितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२४</sup>एवमादीनि कर्माणि येषां संख्या न विद्यते<br>अस्माकं भयभीतानां त्वं गतिर्मधुसूदन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१००.२५</sup>तस्मात्त्वां देव देवेश लोकार्थं ज्ञापयामहे<br>रक्ष लोकांश्च देवांश्च शक्रं च महतो भयात्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

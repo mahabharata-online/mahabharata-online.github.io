@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/75.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:७६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/77.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,142 +64,107 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/75.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:७६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/77.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२</sup>सैन्धवैरभवद्युद्धं ततस्तस्य किरीटिनः<br>हतशेषैर्महाराज हतानां च सुतैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.३</sup>तेऽवतीर्णमुपश्रुत्य विषयं श्वेतवाहनम्<br>प्रत्युद्ययुरमृष्यन्तो राजानः पाण्डवर्षभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.४</sup>अश्वं च तं परामृश्य विषयान्ते विषोपमाः<br>न भयं चक्रिरे पार्थाद्भीमसेनादनन्तरात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.५</sup>तेऽविदूराद्धनुष्पाणिं यज्ञियस्य हयस्य च<br>बीभत्सुं प्रत्यपद्यन्त पदातिनमवस्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.६</sup>ततस्ते तु महावीर्या राजानः पर्यवारयन्<br>जिगीषन्तो नरव्याघ्राः पूर्वं विनिकृता युधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.७</sup>ते नामान्यथ गोत्राणि कर्माणि विविधानि च<br>कीर्तयन्तस्तदा पार्थं शरवर्षैरवाकिरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.८</sup>ते किरन्तः शरांस्तीक्ष्णान्वारणेन्द्रनिवारणान्<br>रणे जयमभीप्सन्तः कौन्तेयं पर्यवारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.९</sup>तेऽसमीक्ष्यैव तं वीरमुग्रकर्माणमाहवे<br>सर्वे युयुधिरे वीरा रथस्थास्तं पदातिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१०</sup>ते तमाजघ्निरे वीरं निवातकवचान्तकम्<br>संशप्तकनिहन्तारं हन्तारं सैन्धवस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.११</sup>ततो रथसहस्रेण हयानामयुतेन च<br>कोष्ठकीकृत्य कौन्तेयं संप्रहृष्टमयोधयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१२</sup>संस्मरन्तो वधं वीराः सिन्धुराजस्य धीमतः<br>जयद्रथस्य कौरव्य समरे सव्यसाचिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१३</sup>ततः पर्जन्यवत्सर्वे शरवृष्टिमवासृजन्<br>तैः कीर्णः शुशुभे पार्थो रविर्मेघान्तरे यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१४</sup>स शरैः समवच्छन्नो ददृशे पाण्डवर्षभः<br>पञ्जरान्तरसंचारी शकुन्त इव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१५</sup>ततो हाहाकृतं सर्वं कौन्तेये शरपीडिते<br>त्रैलोक्यमभवद्राजन्रविश्चासीद्रजोरुणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१६</sup>ततो ववौ महाराज मारुतो रोमहर्षणः<br>राहुरग्रसदादित्यं युगपत्सोममेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१७</sup>उल्काश्च जघ्निरे सूर्यं विकीर्यन्त्यः समन्ततः<br>वेपथुश्चाभवद्राजन्कैलासस्य महागिरेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१८</sup>मुमुचुश्चास्रमत्युष्णं दुःखशोकसमन्विताः<br>सप्तर्षयो जातभयास्तथा देवर्षयोऽपि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.१९</sup>शशश्चाशु विनिर्भिद्य मण्डलं शशिनोऽपतत्<br>विपरीतस्तदा राजंस्तस्मिन्नुत्पातलक्षणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२०</sup>रासभारुणसंकाशा धनुष्मन्तः सविद्युतः<br>आवृत्य गगनं मेघा मुमुचुर्मांसशोणितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२१</sup>एवमासीत्तदा वीरे शरवर्षाभिसंवृते<br>लोकेऽस्मिन्भरतश्रेष्ठ तदद्भुतमिवाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२२</sup>तस्य तेनावकीर्णस्य शरजालेन सर्वशः<br>मोहात्पपात गाण्डीवमावापश्च करादपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२३</sup>तस्मिन्मोहमनुप्राप्ते शरजालं महत्तरम्<br>सैन्धवा मुमुचुस्तूर्णं गतसत्त्वे महारथे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२४</sup>ततो मोहसमापन्नं ज्ञात्वा पार्थं दिवौकसः<br>सर्वे वित्रस्तमनसस्तस्य शान्तिपराभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२५</sup>ततो देवर्षयः सर्वे तथा सप्तर्षयोऽपि च<br>ब्रह्मर्षयश्च विजयं जेपुः पार्थस्य धीमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२६</sup>ततः प्रदीपिते देवैः पार्थतेजसि पार्थिव<br>तस्थावचलवद्धीमान्संग्रामे परमास्त्रवित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२७</sup>विचकर्ष धनुर्दिव्यं ततः कौरवनन्दनः<br>यन्त्रस्येवेह शब्दोऽभून्महांस्तस्य पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२८</sup>ततः स शरवर्षाणि प्रत्यमित्रान्प्रति प्रभुः<br>ववर्ष धनुषा पार्थो वर्षाणीव सुरेश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.२९</sup>ततस्ते सैन्धवा योधाः सर्व एव सराजकाः<br>नादृश्यन्त शरैः कीर्णाः शलभैरिव पावकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.३०</sup>तस्य शब्देन वित्रेसुर्भयार्ताश्च विदुद्रुवुः<br>मुमुचुश्चाश्रु शोकार्ताः सुषुपुश्चापि सैन्धवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.३१</sup>तांस्तु सर्वान्नरश्रेष्ठः सर्वतो विचरन्बली<br>अलातचक्रवद्राजञ्शरजालैः समर्पयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.३२</sup>तदिन्द्रजालप्रतिमं बाणजालममित्रहा<br>व्यसृजद्दिक्षु सर्वासु महेन्द्र इव वज्रभृत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७६.३३</sup>मेघजालनिभं सैन्यं विदार्य स रविप्रभः<br>विबभौ कौरवश्रेष्ठः शरदीव दिवाकरः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२</sup>सैन्धवैरभवद्युद्धं ततस्तस्य किरीटिनः<br>हतशेषैर्महाराज हतानां च सुतैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.३</sup>तेऽवतीर्णमुपश्रुत्य विषयं श्वेतवाहनम्<br>प्रत्युद्ययुरमृष्यन्तो राजानः पाण्डवर्षभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.४</sup>अश्वं च तं परामृश्य विषयान्ते विषोपमाः<br>न भयं चक्रिरे पार्थाद्भीमसेनादनन्तरात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.५</sup>तेऽविदूराद्धनुष्पाणिं यज्ञियस्य हयस्य च<br>बीभत्सुं प्रत्यपद्यन्त पदातिनमवस्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.६</sup>ततस्ते तु महावीर्या राजानः पर्यवारयन्<br>जिगीषन्तो नरव्याघ्राः पूर्वं विनिकृता युधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.७</sup>ते नामान्यथ गोत्राणि कर्माणि विविधानि च<br>कीर्तयन्तस्तदा पार्थं शरवर्षैरवाकिरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.८</sup>ते किरन्तः शरांस्तीक्ष्णान्वारणेन्द्रनिवारणान्<br>रणे जयमभीप्सन्तः कौन्तेयं पर्यवारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.९</sup>तेऽसमीक्ष्यैव तं वीरमुग्रकर्माणमाहवे<br>सर्वे युयुधिरे वीरा रथस्थास्तं पदातिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१०</sup>ते तमाजघ्निरे वीरं निवातकवचान्तकम्<br>संशप्तकनिहन्तारं हन्तारं सैन्धवस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.११</sup>ततो रथसहस्रेण हयानामयुतेन च<br>कोष्ठकीकृत्य कौन्तेयं संप्रहृष्टमयोधयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१२</sup>संस्मरन्तो वधं वीराः सिन्धुराजस्य धीमतः<br>जयद्रथस्य कौरव्य समरे सव्यसाचिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१३</sup>ततः पर्जन्यवत्सर्वे शरवृष्टिमवासृजन्<br>तैः कीर्णः शुशुभे पार्थो रविर्मेघान्तरे यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१४</sup>स शरैः समवच्छन्नो ददृशे पाण्डवर्षभः<br>पञ्जरान्तरसंचारी शकुन्त इव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१५</sup>ततो हाहाकृतं सर्वं कौन्तेये शरपीडिते<br>त्रैलोक्यमभवद्राजन्रविश्चासीद्रजोरुणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१६</sup>ततो ववौ महाराज मारुतो रोमहर्षणः<br>राहुरग्रसदादित्यं युगपत्सोममेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१७</sup>उल्काश्च जघ्निरे सूर्यं विकीर्यन्त्यः समन्ततः<br>वेपथुश्चाभवद्राजन्कैलासस्य महागिरेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१८</sup>मुमुचुश्चास्रमत्युष्णं दुःखशोकसमन्विताः<br>सप्तर्षयो जातभयास्तथा देवर्षयोऽपि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.१९</sup>शशश्चाशु विनिर्भिद्य मण्डलं शशिनोऽपतत्<br>विपरीतस्तदा राजंस्तस्मिन्नुत्पातलक्षणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२०</sup>रासभारुणसंकाशा धनुष्मन्तः सविद्युतः<br>आवृत्य गगनं मेघा मुमुचुर्मांसशोणितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२१</sup>एवमासीत्तदा वीरे शरवर्षाभिसंवृते<br>लोकेऽस्मिन्भरतश्रेष्ठ तदद्भुतमिवाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२२</sup>तस्य तेनावकीर्णस्य शरजालेन सर्वशः<br>मोहात्पपात गाण्डीवमावापश्च करादपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२३</sup>तस्मिन्मोहमनुप्राप्ते शरजालं महत्तरम्<br>सैन्धवा मुमुचुस्तूर्णं गतसत्त्वे महारथे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२४</sup>ततो मोहसमापन्नं ज्ञात्वा पार्थं दिवौकसः<br>सर्वे वित्रस्तमनसस्तस्य शान्तिपराभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२५</sup>ततो देवर्षयः सर्वे तथा सप्तर्षयोऽपि च<br>ब्रह्मर्षयश्च विजयं जेपुः पार्थस्य धीमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२६</sup>ततः प्रदीपिते देवैः पार्थतेजसि पार्थिव<br>तस्थावचलवद्धीमान्संग्रामे परमास्त्रवित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२७</sup>विचकर्ष धनुर्दिव्यं ततः कौरवनन्दनः<br>यन्त्रस्येवेह शब्दोऽभून्महांस्तस्य पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२८</sup>ततः स शरवर्षाणि प्रत्यमित्रान्प्रति प्रभुः<br>ववर्ष धनुषा पार्थो वर्षाणीव सुरेश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.२९</sup>ततस्ते सैन्धवा योधाः सर्व एव सराजकाः<br>नादृश्यन्त शरैः कीर्णाः शलभैरिव पावकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.३०</sup>तस्य शब्देन वित्रेसुर्भयार्ताश्च विदुद्रुवुः<br>मुमुचुश्चाश्रु शोकार्ताः सुषुपुश्चापि सैन्धवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.३१</sup>तांस्तु सर्वान्नरश्रेष्ठः सर्वतो विचरन्बली<br>अलातचक्रवद्राजञ्शरजालैः समर्पयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.३२</sup>तदिन्द्रजालप्रतिमं बाणजालममित्रहा<br>व्यसृजद्दिक्षु सर्वासु महेन्द्र इव वज्रभृत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७६.३३</sup>मेघजालनिभं सैन्यं विदार्य स रविप्रभः<br>विबभौ कौरवश्रेष्ठः शरदीव दिवाकरः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -180,8 +173,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

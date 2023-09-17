@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/10/17.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१०:१८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/11/1.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,124 +64,89 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/10/17.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१०:१८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/11/1.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१</sup>वासुदेव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२</sup>ततो देवयुगेऽतीते देवा वै समकल्पयन्<br>यज्ञं वेदप्रमाणेन विधिवद्यष्टुमीप्सवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.३</sup>कल्पयामासुरव्यग्रा देशान्यज्ञोचितांस्ततः<br>भागार्हा देवताश्चैव यज्ञियं द्रव्यमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.४</sup>ता वै रुद्रमजानन्त्यो याथातथ्येन देवताः<br>नाकल्पयन्त देवस्य स्थाणोर्भागं नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.५</sup>सोऽकल्प्यमाने भागे तु कृत्तिवासा मखेऽमरैः<br>तरसा भागमन्विच्छन्धनुरादौ ससर्ज ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.६</sup>लोकयज्ञः क्रियायज्ञो गृहयज्ञः सनातनः<br>पञ्चभूतमयो यज्ञो नृयज्ञश्चैव पञ्चमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.७</sup>लोकयज्ञेन यज्ञैषी कपर्दी विदधे धनुः<br>धनुः सृष्टमभूत्तस्य पञ्चकिष्कुप्रमाणतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.८</sup>वषट्कारोऽभवज्ज्या तु धनुषस्तस्य भारत<br>यज्ञाङ्गानि च चत्वारि तस्य संहननेऽभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.९</sup>ततः क्रुद्धो महादेवस्तदुपादाय कार्मुकम्<br>आजगामाथ तत्रैव यत्र देवाः समीजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१०</sup>तमात्तकार्मुकं दृष्ट्वा ब्रह्मचारिणमव्ययम्<br>विव्यथे पृथिवी देवी पर्वताश्च चकम्पिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.११</sup>न ववौ पवनश्चैव नाग्निर्जज्वाल चैधितः<br>व्यभ्रमच्चापि संविग्नं दिवि नक्षत्रमण्डलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१२</sup>न बभौ भास्करश्चापि सोमः श्रीमुक्तमण्डलः<br>तिमिरेणाकुलं सर्वमाकाशं चाभवद्वृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१३</sup>अभिभूतास्ततो देवा विषयान्न प्रजज्ञिरे<br>न प्रत्यभाच्च यज्ञस्तान्वेदा बभ्रंशिरे तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१४</sup>ततः स यज्ञं रौद्रेण विव्याध हृदि पत्रिणा<br>अपक्रान्तस्ततो यज्ञो मृगो भूत्वा सपावकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१५</sup>स तु तेनैव रूपेण दिवं प्राप्य व्यरोचत<br>अन्वीयमानो रुद्रेण युधिष्ठिर नभस्तले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१६</sup>अपक्रान्ते ततो यज्ञे संज्ञा न प्रत्यभात्सुरान्<br>नष्टसंज्ञेषु देवेषु न प्रज्ञायत किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१७</sup>त्र्यम्बकः सवितुर्बाहू भगस्य नयने तथा<br>पूष्णश्च दशनान्क्रुद्धो धनुष्कोट्या व्यशातयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१८</sup>प्राद्रवन्त ततो देवा यज्ञाङ्गानि च सर्वशः<br>केचित्तत्रैव घूर्णन्तो गतासव इवाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.१९</sup>स तु विद्राव्य तत्सर्वं शितिकण्ठोऽवहस्य च<br>अवष्टभ्य धनुष्कोटिं रुरोध विबुधांस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२०</sup>ततो वागमरैरुक्ता ज्यां तस्य धनुषोऽच्छिनत्<br>अथ तत्सहसा राजंश्छिन्नज्यं विस्फुरद्धनुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२१</sup>ततो विधनुषं देवा देवश्रेष्ठमुपागमन्<br>शरणं सह यज्ञेन प्रसादं चाकरोत्प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२२</sup>ततः प्रसन्नो भगवान्प्रास्यत्कोपं जलाशये<br>स जलं पावको भूत्वा शोषयत्यनिशं प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२३</sup>भगस्य नयने चैव बाहू च सवितुस्तथा<br>प्रादात्पूष्णश्च दशनान्पुनर्यज्ञं च पाण्डव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२४</sup>ततः सर्वमिदं स्वस्थं बभूव पुनरेव ह<br>सर्वाणि च हवींष्यस्य देवा भागमकल्पयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२५</sup>तस्मिन्क्रुद्धेऽभवत्सर्वमस्वस्थं भुवनं विभो<br>प्रसन्ने च पुनः स्वस्थं स प्रसन्नोऽस्य वीर्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२६</sup>ततस्ते निहताः सर्वे तव पुत्रा महारथाः<br>अन्ये च बहवः शूराः पाञ्चालाश्च सहानुगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१८.२७</sup>न तन्मनसि कर्तव्यं न हि तद्द्रौणिना कृतम्<br>महादेवप्रसादः स कुरु कार्यमनन्तरम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१</sup>वासुदेव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२</sup>ततो देवयुगेऽतीते देवा वै समकल्पयन्<br>यज्ञं वेदप्रमाणेन विधिवद्यष्टुमीप्सवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.३</sup>कल्पयामासुरव्यग्रा देशान्यज्ञोचितांस्ततः<br>भागार्हा देवताश्चैव यज्ञियं द्रव्यमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.४</sup>ता वै रुद्रमजानन्त्यो याथातथ्येन देवताः<br>नाकल्पयन्त देवस्य स्थाणोर्भागं नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.५</sup>सोऽकल्प्यमाने भागे तु कृत्तिवासा मखेऽमरैः<br>तरसा भागमन्विच्छन्धनुरादौ ससर्ज ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.६</sup>लोकयज्ञः क्रियायज्ञो गृहयज्ञः सनातनः<br>पञ्चभूतमयो यज्ञो नृयज्ञश्चैव पञ्चमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.७</sup>लोकयज्ञेन यज्ञैषी कपर्दी विदधे धनुः<br>धनुः सृष्टमभूत्तस्य पञ्चकिष्कुप्रमाणतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.८</sup>वषट्कारोऽभवज्ज्या तु धनुषस्तस्य भारत<br>यज्ञाङ्गानि च चत्वारि तस्य संहननेऽभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.९</sup>ततः क्रुद्धो महादेवस्तदुपादाय कार्मुकम्<br>आजगामाथ तत्रैव यत्र देवाः समीजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१०</sup>तमात्तकार्मुकं दृष्ट्वा ब्रह्मचारिणमव्ययम्<br>विव्यथे पृथिवी देवी पर्वताश्च चकम्पिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.११</sup>न ववौ पवनश्चैव नाग्निर्जज्वाल चैधितः<br>व्यभ्रमच्चापि संविग्नं दिवि नक्षत्रमण्डलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१२</sup>न बभौ भास्करश्चापि सोमः श्रीमुक्तमण्डलः<br>तिमिरेणाकुलं सर्वमाकाशं चाभवद्वृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१३</sup>अभिभूतास्ततो देवा विषयान्न प्रजज्ञिरे<br>न प्रत्यभाच्च यज्ञस्तान्वेदा बभ्रंशिरे तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१४</sup>ततः स यज्ञं रौद्रेण विव्याध हृदि पत्रिणा<br>अपक्रान्तस्ततो यज्ञो मृगो भूत्वा सपावकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१५</sup>स तु तेनैव रूपेण दिवं प्राप्य व्यरोचत<br>अन्वीयमानो रुद्रेण युधिष्ठिर नभस्तले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१६</sup>अपक्रान्ते ततो यज्ञे संज्ञा न प्रत्यभात्सुरान्<br>नष्टसंज्ञेषु देवेषु न प्रज्ञायत किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१७</sup>त्र्यम्बकः सवितुर्बाहू भगस्य नयने तथा<br>पूष्णश्च दशनान्क्रुद्धो धनुष्कोट्या व्यशातयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१८</sup>प्राद्रवन्त ततो देवा यज्ञाङ्गानि च सर्वशः<br>केचित्तत्रैव घूर्णन्तो गतासव इवाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.१९</sup>स तु विद्राव्य तत्सर्वं शितिकण्ठोऽवहस्य च<br>अवष्टभ्य धनुष्कोटिं रुरोध विबुधांस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२०</sup>ततो वागमरैरुक्ता ज्यां तस्य धनुषोऽच्छिनत्<br>अथ तत्सहसा राजंश्छिन्नज्यं विस्फुरद्धनुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२१</sup>ततो विधनुषं देवा देवश्रेष्ठमुपागमन्<br>शरणं सह यज्ञेन प्रसादं चाकरोत्प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२२</sup>ततः प्रसन्नो भगवान्प्रास्यत्कोपं जलाशये<br>स जलं पावको भूत्वा शोषयत्यनिशं प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२३</sup>भगस्य नयने चैव बाहू च सवितुस्तथा<br>प्रादात्पूष्णश्च दशनान्पुनर्यज्ञं च पाण्डव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२४</sup>ततः सर्वमिदं स्वस्थं बभूव पुनरेव ह<br>सर्वाणि च हवींष्यस्य देवा भागमकल्पयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२५</sup>तस्मिन्क्रुद्धेऽभवत्सर्वमस्वस्थं भुवनं विभो<br>प्रसन्ने च पुनः स्वस्थं स प्रसन्नोऽस्य वीर्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२६</sup>ततस्ते निहताः सर्वे तव पुत्रा महारथाः<br>अन्ये च बहवः शूराः पाञ्चालाश्च सहानुगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१८.२७</sup>न तन्मनसि कर्तव्यं न हि तद्द्रौणिना कृतम्<br>महादेवप्रसादः स कुरु कार्यमनन्तरम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -162,8 +155,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

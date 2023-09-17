@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/89.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:९०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/91.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/89.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:९०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/91.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२</sup>वनस्पतीन्भक्ष्यफलान्न छिन्द्युर्विषये तव<br>ब्राह्मणानां मूलफलं धर्म्यमाहुर्मनीषिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.३</sup>ब्राह्मणेभ्योऽतिरिक्तं च भुञ्जीरन्नितरे जनाः<br>न ब्राह्मणोपरोधेन हरेदन्यः कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.४</sup>विप्रश्चेत्त्यागमातिष्ठेदाख्यायावृत्तिकर्शितः<br>परिकल्प्यास्य वृत्तिः स्यात्सदारस्य नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.५</sup>स चेन्नोपनिवर्तेत वाच्यो ब्राह्मणसंसदि<br>कस्मिन्निदानीं मर्यादामयं लोकः करिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.६</sup>असंशयं निवर्तेत न चेद्वक्ष्यत्यतः परम्<br>पूर्वं परोक्षं कर्तव्यमेतत्कौन्तेय शासनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.७</sup>आहुरेतज्जना ब्रह्मन्न चैतच्छ्रद्दधाम्यहम्<br>निमन्त्र्यश्च भवेद्भोगैरवृत्त्या चेत्तदाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.८</sup>कृषिगोरक्ष्यवाणिज्यं लोकानामिह जीवनम्<br>ऊर्ध्वं चैव त्रयी विद्या सा भूतान्भावयत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.९</sup>तस्यां प्रयतमानायां ये स्युस्तत्परिपन्थिनः<br>दस्यवस्तद्वधायेह ब्रह्मा क्षत्रमथासृजत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१०</sup>शत्रूञ्जहि प्रजा रक्ष यजस्व क्रतुभिर्नृप<br>युध्यस्व समरे वीरो भूत्वा कौरवनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.११</sup>संरक्ष्यान्पालयेद्राजा यः स राजार्यकृत्तमः<br>ये केचित्तान्न रक्षन्ति तैरर्थो नास्ति कश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१२</sup>सदैव राज्ञा बोद्धव्यं सर्वलोकाद्युधिष्ठिर<br>तस्माद्धेतोर्हि भुञ्जीत मनुष्यानेव मानवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१३</sup>अन्तरेभ्यः परान्रक्षन्परेभ्यः पुनरन्तरान्<br>परान्परेभ्यः स्वान्स्वेभ्यः सर्वान्पालय नित्यदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१४</sup>आत्मानं सर्वतो रक्षन्राजा रक्षेत मेदिनीम्<br>आत्ममूलमिदं सर्वमाहुर्हि विदुषो जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१५</sup>किं छिद्रं कोऽनुषङ्गो मे किं वास्त्यविनिपातितम्<br>कुतो मामास्रवेद्दोष इति नित्यं विचिन्तयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१६</sup>गुप्तैश्चारैरनुमतैः पृथिवीमनुचारयेत्<br>सुनीतं यदि मे वृत्तं प्रशंसन्ति न वा पुनः<br>कच्चिद्रोचेज्जनपदे कच्चिद्राष्ट्रे च मे यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१७</sup>धर्मज्ञानां धृतिमतां संग्रामेष्वपलायिनाम्<br>राष्ट्रं च येऽनुजीवन्ति ये च राज्ञोऽनुजीविनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१८</sup>अमात्यानां च सर्वेषां मध्यस्थानां च सर्वशः<br>ये च त्वाभिप्रशंसेयुर्निन्देयुरथ वा पुनः<br>सर्वान्सुपरिणीतांस्तान्कारयेत युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.१९</sup>एकान्तेन हि सर्वेषां न शक्यं तात रोचितुम्<br>मित्रामित्रमथो मध्यं सर्वभूतेषु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२०</sup>तुल्यबाहुबलानां च गुणैरपि निषेविनाम्<br>कथं स्यादधिकः कश्चित्स तु भुञ्जीत मानवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२१</sup>ये चरा ह्यचरानद्युरदंष्ट्रान्दंष्ट्रिणस्तथा<br>आशीविषा इव क्रुद्धा भुजगा भुजगानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२२</sup>एतेभ्यश्चाप्रमत्तः स्यात्सदा यत्तो युधिष्ठिर<br>भारुण्डसदृशा ह्येते निपतन्ति प्रमाद्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२३</sup>कच्चित्ते वणिजो राष्ट्रे नोद्विजन्ते करार्दिताः<br>क्रीणन्तो बहु वाल्पेन कान्तारकृतनिश्रमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२४</sup>कच्चित्कृषिकरा राष्ट्रं न जहत्यतिपीडिताः<br>ये वहन्ति धुरं राज्ञां संभरन्तीतरानपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२५</sup>इतो दत्तेन जीवन्ति देवाः पितृगणास्तथा<br>मनुष्योरगरक्षांसि वयांसि पशवस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९०.२६</sup>एषा ते राष्ट्रवृत्तिश्च राष्ट्रगुप्तिश्च भारत<br>एतमेवार्थमाश्रित्य भूयो वक्ष्यामि पाण्डव
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२</sup>वनस्पतीन्भक्ष्यफलान्न छिन्द्युर्विषये तव<br>ब्राह्मणानां मूलफलं धर्म्यमाहुर्मनीषिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.३</sup>ब्राह्मणेभ्योऽतिरिक्तं च भुञ्जीरन्नितरे जनाः<br>न ब्राह्मणोपरोधेन हरेदन्यः कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.४</sup>विप्रश्चेत्त्यागमातिष्ठेदाख्यायावृत्तिकर्शितः<br>परिकल्प्यास्य वृत्तिः स्यात्सदारस्य नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.५</sup>स चेन्नोपनिवर्तेत वाच्यो ब्राह्मणसंसदि<br>कस्मिन्निदानीं मर्यादामयं लोकः करिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.६</sup>असंशयं निवर्तेत न चेद्वक्ष्यत्यतः परम्<br>पूर्वं परोक्षं कर्तव्यमेतत्कौन्तेय शासनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.७</sup>आहुरेतज्जना ब्रह्मन्न चैतच्छ्रद्दधाम्यहम्<br>निमन्त्र्यश्च भवेद्भोगैरवृत्त्या चेत्तदाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.८</sup>कृषिगोरक्ष्यवाणिज्यं लोकानामिह जीवनम्<br>ऊर्ध्वं चैव त्रयी विद्या सा भूतान्भावयत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.९</sup>तस्यां प्रयतमानायां ये स्युस्तत्परिपन्थिनः<br>दस्यवस्तद्वधायेह ब्रह्मा क्षत्रमथासृजत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१०</sup>शत्रूञ्जहि प्रजा रक्ष यजस्व क्रतुभिर्नृप<br>युध्यस्व समरे वीरो भूत्वा कौरवनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.११</sup>संरक्ष्यान्पालयेद्राजा यः स राजार्यकृत्तमः<br>ये केचित्तान्न रक्षन्ति तैरर्थो नास्ति कश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१२</sup>सदैव राज्ञा बोद्धव्यं सर्वलोकाद्युधिष्ठिर<br>तस्माद्धेतोर्हि भुञ्जीत मनुष्यानेव मानवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१३</sup>अन्तरेभ्यः परान्रक्षन्परेभ्यः पुनरन्तरान्<br>परान्परेभ्यः स्वान्स्वेभ्यः सर्वान्पालय नित्यदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१४</sup>आत्मानं सर्वतो रक्षन्राजा रक्षेत मेदिनीम्<br>आत्ममूलमिदं सर्वमाहुर्हि विदुषो जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१५</sup>किं छिद्रं कोऽनुषङ्गो मे किं वास्त्यविनिपातितम्<br>कुतो मामास्रवेद्दोष इति नित्यं विचिन्तयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१६</sup>गुप्तैश्चारैरनुमतैः पृथिवीमनुचारयेत्<br>सुनीतं यदि मे वृत्तं प्रशंसन्ति न वा पुनः<br>कच्चिद्रोचेज्जनपदे कच्चिद्राष्ट्रे च मे यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१७</sup>धर्मज्ञानां धृतिमतां संग्रामेष्वपलायिनाम्<br>राष्ट्रं च येऽनुजीवन्ति ये च राज्ञोऽनुजीविनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१८</sup>अमात्यानां च सर्वेषां मध्यस्थानां च सर्वशः<br>ये च त्वाभिप्रशंसेयुर्निन्देयुरथ वा पुनः<br>सर्वान्सुपरिणीतांस्तान्कारयेत युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.१९</sup>एकान्तेन हि सर्वेषां न शक्यं तात रोचितुम्<br>मित्रामित्रमथो मध्यं सर्वभूतेषु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२०</sup>तुल्यबाहुबलानां च गुणैरपि निषेविनाम्<br>कथं स्यादधिकः कश्चित्स तु भुञ्जीत मानवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२१</sup>ये चरा ह्यचरानद्युरदंष्ट्रान्दंष्ट्रिणस्तथा<br>आशीविषा इव क्रुद्धा भुजगा भुजगानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२२</sup>एतेभ्यश्चाप्रमत्तः स्यात्सदा यत्तो युधिष्ठिर<br>भारुण्डसदृशा ह्येते निपतन्ति प्रमाद्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२३</sup>कच्चित्ते वणिजो राष्ट्रे नोद्विजन्ते करार्दिताः<br>क्रीणन्तो बहु वाल्पेन कान्तारकृतनिश्रमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२४</sup>कच्चित्कृषिकरा राष्ट्रं न जहत्यतिपीडिताः<br>ये वहन्ति धुरं राज्ञां संभरन्तीतरानपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२५</sup>इतो दत्तेन जीवन्ति देवाः पितृगणास्तथा<br>मनुष्योरगरक्षांसि वयांसि पशवस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९०.२६</sup>एषा ते राष्ट्रवृत्तिश्च राष्ट्रगुप्तिश्च भारत<br>एतमेवार्थमाश्रित्य भूयो वक्ष्यामि पाण्डव
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

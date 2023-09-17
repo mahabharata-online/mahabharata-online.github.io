@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/8/60.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>८:६१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/8/62.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,97 +64,62 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/8/60.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">८:६१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/8/62.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.२</sup>तत्राकरोद्दुष्करं राजपुत्रो; दुःशासनस्तुमुले युध्यमानः<br>चिच्छेद भीमस्य धनुः क्षुरेण; षड्भिः शरैः सारथिमप्यविध्यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.३</sup>ततोऽभिनद्बहुभिः क्षिप्रमेव; वरेषुभिर्भीमसेनं महात्मा<br>स विक्षरन्नाग इव प्रभिन्नो; गदामस्मै तुमुले प्राहिणोद्वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.४</sup>तयाहरद्दश धन्वन्तराणि; दुःशासनं भीमसेनः प्रसह्य<br>तया हतः पतितो वेपमानो; दुःशासनो गदया वेगवत्या
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.५</sup>हयाः ससूताश्च हता नरेन्द्र; चूर्णीकृतश्चास्य रथः पतन्त्या<br>विध्वस्तवर्माभरणाम्बरस्र;ग्विचेष्टमानो भृशवेदनार्तः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.६</sup>ततः स्मृत्वा भीमसेनस्तरस्वी; सापत्नकं यत्प्रयुक्तं सुतैस्ते<br>रथादवप्लुत्य गतः स भूमौ; यत्नेन तस्मिन्प्रणिधाय चक्षुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.७</sup>असिं समुद्धृत्य शितं सुधारं; कण्ठे समाक्रम्य च वेपमानम्<br>उत्कृत्य वक्षः पतितस्य भूमा;वथापिबच्छोणितमस्य कोष्णम्<br>आस्वाद्य चास्वाद्य च वीक्षमाणः; क्रुद्धोऽतिवेलं प्रजगाद वाक्यम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.८</sup>स्तन्यस्य मातुर्मधुसर्पिषो वा; माध्वीकपानस्य च सत्कृतस्य<br>दिव्यस्य वा तोयरसस्य पाना;त्पयोदधिभ्यां मथिताच्च मुख्यात्<br>सर्वेभ्य एवाभ्यधिको रसोऽयं; मतो ममाद्याहितलोहितस्य
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.९</sup>एवं ब्रुवाणं पुनराद्रवन्त;मास्वाद्य वल्गन्तमतिप्रहृष्टम्<br>ये भीमसेनं ददृशुस्तदानीं; भयेन तेऽपि व्यथिता निपेतुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१०</sup>ये चापि तत्रापतिता मनुष्या;स्तेषां करेभ्यः पतितं च शस्त्रम्<br>भयाच्च संचुक्रुशुरुच्चकैस्ते; निमीलिताक्षा ददृशुश्च तन्न
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.११</sup>ये तत्र भीमं ददृशुः समन्ता;द्दौःशासनं तद्रुधिरं पिबन्तम्<br>सर्वे पलायन्त भयाभिपन्ना; नायं मनुष्य इति भाषमाणाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१२</sup>शृण्वतां लोकवीराणामिदं वचनमब्रवीत्<br>एष ते रुधिरं कण्ठात्पिबामि पुरुषाधम<br>ब्रूहीदानीं सुसंरब्धः पुनर्गौरिति गौरिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१३</sup>प्रमाणकोट्यां शयनं कालकूटस्य भोजनम्<br>दशनं चाहिभिः कष्टं दाहं च जतुवेश्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१४</sup>द्यूतेन राज्यहरणमरण्ये वसतिश्च या<br>इष्वस्त्राणि च संग्रामेष्वसुखानि च वेश्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१५</sup>दुःखान्येतानि जानीमो न सुखानि कदाचन<br>धृतराष्ट्रस्य दौरात्म्यात्सपुत्रस्य सदा वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१६</sup>इत्युक्त्वा वचनं राजञ्जयं प्राप्य वृकोदरः<br>पुनराह महाराज स्मयंस्तौ केशवार्जुनौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१७</sup>दुःशासने यद्रणे संश्रुतं मे; तद्वै सर्वं कृतमद्येह वीरौ<br>अद्यैव दास्याम्यपरं द्वितीयं; दुर्योधनं यज्ञपशुं विशस्य<br>शिरो मृदित्वा च पदा दुरात्मनः; शान्तिं लप्स्ये कौरवाणां समक्षम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.६१.१८</sup>एतावदुक्त्वा वचनं प्रहृष्टो; ननाद चोच्चै रुधिरार्द्रगात्रः<br>ननर्त चैवातिबलो महात्मा; वृत्रं निहत्येव सहस्रनेत्रः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.२</sup>तत्राकरोद्दुष्करं राजपुत्रो; दुःशासनस्तुमुले युध्यमानः<br>चिच्छेद भीमस्य धनुः क्षुरेण; षड्भिः शरैः सारथिमप्यविध्यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.३</sup>ततोऽभिनद्बहुभिः क्षिप्रमेव; वरेषुभिर्भीमसेनं महात्मा<br>स विक्षरन्नाग इव प्रभिन्नो; गदामस्मै तुमुले प्राहिणोद्वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.४</sup>तयाहरद्दश धन्वन्तराणि; दुःशासनं भीमसेनः प्रसह्य<br>तया हतः पतितो वेपमानो; दुःशासनो गदया वेगवत्या
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.५</sup>हयाः ससूताश्च हता नरेन्द्र; चूर्णीकृतश्चास्य रथः पतन्त्या<br>विध्वस्तवर्माभरणाम्बरस्र;ग्विचेष्टमानो भृशवेदनार्तः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.६</sup>ततः स्मृत्वा भीमसेनस्तरस्वी; सापत्नकं यत्प्रयुक्तं सुतैस्ते<br>रथादवप्लुत्य गतः स भूमौ; यत्नेन तस्मिन्प्रणिधाय चक्षुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.७</sup>असिं समुद्धृत्य शितं सुधारं; कण्ठे समाक्रम्य च वेपमानम्<br>उत्कृत्य वक्षः पतितस्य भूमा;वथापिबच्छोणितमस्य कोष्णम्<br>आस्वाद्य चास्वाद्य च वीक्षमाणः; क्रुद्धोऽतिवेलं प्रजगाद वाक्यम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.८</sup>स्तन्यस्य मातुर्मधुसर्पिषो वा; माध्वीकपानस्य च सत्कृतस्य<br>दिव्यस्य वा तोयरसस्य पाना;त्पयोदधिभ्यां मथिताच्च मुख्यात्<br>सर्वेभ्य एवाभ्यधिको रसोऽयं; मतो ममाद्याहितलोहितस्य
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.९</sup>एवं ब्रुवाणं पुनराद्रवन्त;मास्वाद्य वल्गन्तमतिप्रहृष्टम्<br>ये भीमसेनं ददृशुस्तदानीं; भयेन तेऽपि व्यथिता निपेतुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१०</sup>ये चापि तत्रापतिता मनुष्या;स्तेषां करेभ्यः पतितं च शस्त्रम्<br>भयाच्च संचुक्रुशुरुच्चकैस्ते; निमीलिताक्षा ददृशुश्च तन्न
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.११</sup>ये तत्र भीमं ददृशुः समन्ता;द्दौःशासनं तद्रुधिरं पिबन्तम्<br>सर्वे पलायन्त भयाभिपन्ना; नायं मनुष्य इति भाषमाणाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१२</sup>शृण्वतां लोकवीराणामिदं वचनमब्रवीत्<br>एष ते रुधिरं कण्ठात्पिबामि पुरुषाधम<br>ब्रूहीदानीं सुसंरब्धः पुनर्गौरिति गौरिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१३</sup>प्रमाणकोट्यां शयनं कालकूटस्य भोजनम्<br>दशनं चाहिभिः कष्टं दाहं च जतुवेश्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१४</sup>द्यूतेन राज्यहरणमरण्ये वसतिश्च या<br>इष्वस्त्राणि च संग्रामेष्वसुखानि च वेश्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१५</sup>दुःखान्येतानि जानीमो न सुखानि कदाचन<br>धृतराष्ट्रस्य दौरात्म्यात्सपुत्रस्य सदा वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१६</sup>इत्युक्त्वा वचनं राजञ्जयं प्राप्य वृकोदरः<br>पुनराह महाराज स्मयंस्तौ केशवार्जुनौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१७</sup>दुःशासने यद्रणे संश्रुतं मे; तद्वै सर्वं कृतमद्येह वीरौ<br>अद्यैव दास्याम्यपरं द्वितीयं; दुर्योधनं यज्ञपशुं विशस्य<br>शिरो मृदित्वा च पदा दुरात्मनः; शान्तिं लप्स्ये कौरवाणां समक्षम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.६१.१८</sup>एतावदुक्त्वा वचनं प्रहृष्टो; ननाद चोच्चै रुधिरार्द्रगात्रः<br>ननर्त चैवातिबलो महात्मा; वृत्रं निहत्येव सहस्रनेत्रः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -135,8 +128,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

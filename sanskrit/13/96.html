@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/95.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:९६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/97.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,298 +64,263 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/95.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:९६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/97.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२</sup>अत्रैवोदाहरन्तीममितिहासं पुरातनम्<br>यद्वृत्तं तीर्थयात्रायां शपथं प्रति तच्छृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३</sup>पुष्करार्थं कृतं स्तैन्यं पुरा भरतसत्तम<br>राजर्षिभिर्महाराज तथैव च द्विजर्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४</sup>ऋषयः समेताः पश्चिमे वै प्रभासे; समागता मन्त्रममन्त्रयन्त<br>चराम सर्वे पृथिवीं पुण्यतीर्थां; तन्नः कार्यं हन्त गच्छाम सर्वे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५</sup>शुक्रोऽङ्गिराश्चैव कविश्च विद्वां;स्तथागस्त्यो नारदपर्वतौ च<br>भृगुर्वसिष्ठः कश्यपो गौतमश्च; विश्वामित्रो जमदग्निश्च राजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६</sup>ऋषिस्तथा गालवोऽथाष्टकश्च; भरद्वाजोऽरुन्धती वालखिल्याः<br>शिबिर्दिलीपो नहुषोऽम्बरीषो; राजा ययातिर्धुन्धुमारोऽथ पूरुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७</sup>जग्मुः पुरस्कृत्य महानुभावं; शतक्रतुं वृत्रहणं नरेन्द्र<br>तीर्थानि सर्वाणि परिक्रमन्तो; माघ्यां ययुः कौशिकीं पुण्यतीर्थाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८</sup>सर्वेषु तीर्थेष्वथ धूतपापा; जग्मुस्ततो ब्रह्मसरः सुपुण्यम्<br>देवस्य तीर्थे जलमग्निकल्पा; विगाह्य ते भुक्तबिसप्रसूनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.९</sup>केचिद्बिसान्यखनंस्तत्र राज;न्नन्ये मृणालान्यखनंस्तत्र विप्राः<br>अथापश्यन्पुष्करं ते ह्रियन्तं; ह्रदादगस्त्येन समुद्धृतं वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१०</sup>तानाह सर्वानृषिमुख्यानगस्त्यः; केनादत्तं पुष्करं मे सुजातम्<br>युष्माञ्शङ्के दीयतां पुष्करं मे; न वै भवन्तो हर्तुमर्हन्ति पद्मम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.११</sup>शृणोमि कालो हिंसते धर्मवीर्यं; सेयं प्राप्ता वर्धते धर्मपीडा<br>पुराधर्मो वर्धते नेह याव;त्तावद्गच्छामि परलोकं चिराय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१२</sup>पुरा वेदान्ब्राह्मणा ग्राममध्ये; घुष्टस्वरा वृषलाञ्श्रावयन्ति<br>पुरा राजा व्यवहारानधर्म्या;न्पश्यत्यहं परलोकं व्रजामि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१३</sup>पुरावरान्प्रत्यवरान्गरीयसो; यावन्नरा नावमंस्यन्ति सर्वे<br>तमोत्तरं यावदिदं न वर्तते; तावद्व्रजामि परलोकं चिराय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१४</sup>पुरा प्रपश्यामि परेण मर्त्या;न्बलीयसा दुर्बलान्भुज्यमानान्<br>तस्माद्यास्यामि परलोकं चिराय; न ह्युत्सहे द्रष्टुमीदृङ्नृलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१५</sup>तमाहुरार्ता ऋषयो महर्षिं; न ते वयं पुष्करं चोरयामः<br>मिथ्याभिषङ्गो भवता न कार्यः; शपाम तीक्ष्णाञ्शपथान्महर्षे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१६</sup>ते निश्चितास्तत्र महर्षयस्तु; संमन्यन्तो धर्ममेवं नरेन्द्र<br>ततोऽशपञ्शपथान्पर्ययेण; सहैव ते पार्थिव पुत्रपौत्रैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१७</sup>भृगुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१८</sup>प्रत्याक्रोशेदिहाक्रुष्टस्ताडितः प्रतिताडयेत्<br>खादेच्च पृष्ठमांसानि यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.१९</sup>वसिष्ठ उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२०</sup>अस्वाध्यायपरो लोके श्वानं च परिकर्षतु<br>पुरे च भिक्षुर्भवतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२१</sup>कश्यप उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२२</sup>सर्वत्र सर्वं पणतु न्यासे लोभं करोतु च<br>कूटसाक्षित्वमभ्येतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२३</sup>गौतम उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२४</sup>जीवत्वहंकृतो बुद्ध्या विपणत्वधमेन सः<br>कर्षको मत्सरी चास्तु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२५</sup>अङ्गिरा उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२६</sup>अशुचिर्ब्रह्मकूटोऽस्तु श्वानं च परिकर्षतु<br>ब्रह्महानिकृतिश्चास्तु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२७</sup>धुन्धुमार उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२८</sup>अकृतज्ञोऽस्तु मित्राणां शूद्रायां तु प्रजायतु<br>एकः संपन्नमश्नातु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.२९</sup>पूरुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३०</sup>चिकित्सायां प्रचरतु भार्यया चैव पुष्यतु<br>श्वशुरात्तस्य वृत्तिः स्याद्यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३१</sup>दिलीप उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३२</sup>उदपानप्लवे ग्रामे ब्राह्मणो वृषलीपतिः<br>तस्य लोकान्स व्रजतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३३</sup>शुक्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३४</sup>पृष्ठमांसं समश्नातु दिवा गच्छतु मैथुनम्<br>प्रेष्यो भवतु राज्ञश्च यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३५</sup>जमदग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३६</sup>अनध्यायेष्वधीयीत मित्रं श्राद्धे च भोजयेत्<br>श्राद्धे शूद्रस्य चाश्नीयाद्यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३७</sup>शिबिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३८</sup>अनाहिताग्निर्म्रियतां यज्ञे विघ्नं करोतु च<br>तपस्विभिर्विरुध्येत यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.३९</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४०</sup>अनृतौ जटी व्रतिन्यां वै भार्यायां संप्रजायतु<br>निराकरोतु वेदांश्च यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४१</sup>नहुष उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४२</sup>अतिथिं गृहस्थो नुदतु कामवृत्तोऽस्तु दीक्षितः<br>विद्यां प्रयच्छतु भृतो यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४३</sup>अम्बरीष उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४४</sup>नृशंसस्त्यक्तधर्मोऽस्तु स्त्रीषु ज्ञातिषु गोषु च<br>ब्राह्मणं चापि जहतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४५</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४६</sup>गूढोऽज्ञानी बहिः शास्त्रं पठतां विस्वरं पदम्<br>गरीयसोऽवजानातु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४७</sup>नाभाग उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४८</sup>अनृतं भाषतु सदा सद्भिश्चैव विरुध्यतु<br>शुल्केन कन्यां ददतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.४९</sup>कविरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५०</sup>पदा स गां ताडयतु सूर्यं च प्रति मेहतु<br>शरणागतं च त्यजतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५१</sup>विश्वामित्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५२</sup>करोतु भृतकोऽवर्षां राज्ञश्चास्तु पुरोहितः<br>ऋत्विगस्तु ह्ययाज्यस्य यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५३</sup>पर्वत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५४</sup>ग्रामे चाधिकृतः सोऽस्तु खरयानेन गच्छतु<br>शुनः कर्षतु वृत्त्यर्थे यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५५</sup>भरद्वाज उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५६</sup>सर्वपापसमादानं नृशंसे चानृते च यत्<br>तत्तस्यास्तु सदा पापं यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५७</sup>अष्टक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५८</sup>स राजास्त्वकृतप्रज्ञः कामवृत्तिश्च पापकृत्<br>अधर्मेणानुशास्तूर्वीं यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.५९</sup>गालव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६०</sup>पापिष्ठेभ्यस्त्वनर्घार्हः स नरोऽस्तु स्वपापकृत्<br>दत्त्वा दानं कीर्तयतु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६१</sup>अरुन्धत्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६२</sup>श्वश्र्वापवादं वदतु भर्तुर्भवतु दुर्मनाः<br>एका स्वादु समश्नातु या ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६३</sup>वालखिल्या ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६४</sup>एकपादेन वृत्त्यर्थं ग्रामद्वारे स तिष्ठतु<br>धर्मज्ञस्त्यक्तधर्मोऽस्तु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६५</sup>पशुसख उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६६</sup>अग्निहोत्रमनादृत्य सुखं स्वपतु स द्विजः<br>परिव्राट्कामवृत्तोऽस्तु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६७</sup>सुरभ्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६८</sup>बाल्वजेन निदानेन कांस्यं भवतु दोहनम्<br>दुह्येत परवत्सेन या ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.६९</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७०</sup>ततस्तु तैः शपथैः शप्यमानै;र्नानाविधैर्बहुभिः कौरवेन्द्र<br>सहस्राक्षो देवराट्संप्रहृष्टः; समीक्ष्य तं कोपनं विप्रमुख्यम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७१</sup>अथाब्रवीन्मघवा प्रत्ययं स्वं; समाभाष्य तमृषिं जातरोषम्<br>ब्रह्मर्षिदेवर्षिनृपर्षिमध्ये; यत्तन्निबोधेह ममाद्य राजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७२</sup>शक्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७३</sup>अध्वर्यवे दुहितरं ददातु; च्छन्दोगे वा चरितब्रह्मचर्ये<br>आथर्वणं वेदमधीत्य विप्रः; स्नायीत यः पुष्करमाददाति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७४</sup>सर्वान्वेदानधीयीत पुण्यशीलोऽस्तु धार्मिकः<br>ब्रह्मणः सदनं यातु यस्ते हरति पुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७५</sup>अगस्त्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७६</sup>आशीर्वादस्त्वया प्रोक्तः शपथो बलसूदन<br>दीयतां पुष्करं मह्यमेष धर्मः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७७</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७८</sup>न मया भगवँल्लोभाद्धृतं पुष्करमद्य वै<br>धर्मं तु श्रोतुकामेन हृतं न क्रोद्धुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.७९</sup>धर्मः श्रुतिसमुत्कर्षो धर्मसेतुरनामयः<br>आर्षो वै शाश्वतो नित्यमव्ययोऽयं मया श्रुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८०</sup>तदिदं गृह्यतां विद्वन्पुष्करं मुनिसत्तम<br>अतिक्रमं मे भगवन्क्षन्तुमर्हस्यनिन्दित
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८१</sup>इत्युक्तः स महेन्द्रेण तपस्वी कोपनो भृशम्<br>जग्राह पुष्करं धीमान्प्रसन्नश्चाभवन्मुनिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८२</sup>प्रययुस्ते ततो भूयस्तीर्थानि वनगोचराः<br>पुण्यतीर्थेषु च तथा गात्राण्याप्लावयन्ति ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८३</sup>आख्यानं य इदं युक्तः पठेत्पर्वणि पर्वणि<br>न मूर्खं जनयेत्पुत्रं न भवेच्च निराकृतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८४</sup>न तमापत्स्पृशेत्काचिन्न ज्वरो न रुजश्च ह<br>विरजाः श्रेयसा युक्तः प्रेत्य स्वर्गमवाप्नुयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.९६.८५</sup>यश्च शास्त्रमनुध्यायेदृषिभिः परिपालितम्<br>स गच्छेद्ब्रह्मणो लोकमव्ययं च नरोत्तम
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२</sup>अत्रैवोदाहरन्तीममितिहासं पुरातनम्<br>यद्वृत्तं तीर्थयात्रायां शपथं प्रति तच्छृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३</sup>पुष्करार्थं कृतं स्तैन्यं पुरा भरतसत्तम<br>राजर्षिभिर्महाराज तथैव च द्विजर्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४</sup>ऋषयः समेताः पश्चिमे वै प्रभासे; समागता मन्त्रममन्त्रयन्त<br>चराम सर्वे पृथिवीं पुण्यतीर्थां; तन्नः कार्यं हन्त गच्छाम सर्वे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५</sup>शुक्रोऽङ्गिराश्चैव कविश्च विद्वां;स्तथागस्त्यो नारदपर्वतौ च<br>भृगुर्वसिष्ठः कश्यपो गौतमश्च; विश्वामित्रो जमदग्निश्च राजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६</sup>ऋषिस्तथा गालवोऽथाष्टकश्च; भरद्वाजोऽरुन्धती वालखिल्याः<br>शिबिर्दिलीपो नहुषोऽम्बरीषो; राजा ययातिर्धुन्धुमारोऽथ पूरुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७</sup>जग्मुः पुरस्कृत्य महानुभावं; शतक्रतुं वृत्रहणं नरेन्द्र<br>तीर्थानि सर्वाणि परिक्रमन्तो; माघ्यां ययुः कौशिकीं पुण्यतीर्थाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८</sup>सर्वेषु तीर्थेष्वथ धूतपापा; जग्मुस्ततो ब्रह्मसरः सुपुण्यम्<br>देवस्य तीर्थे जलमग्निकल्पा; विगाह्य ते भुक्तबिसप्रसूनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.९</sup>केचिद्बिसान्यखनंस्तत्र राज;न्नन्ये मृणालान्यखनंस्तत्र विप्राः<br>अथापश्यन्पुष्करं ते ह्रियन्तं; ह्रदादगस्त्येन समुद्धृतं वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१०</sup>तानाह सर्वानृषिमुख्यानगस्त्यः; केनादत्तं पुष्करं मे सुजातम्<br>युष्माञ्शङ्के दीयतां पुष्करं मे; न वै भवन्तो हर्तुमर्हन्ति पद्मम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.११</sup>शृणोमि कालो हिंसते धर्मवीर्यं; सेयं प्राप्ता वर्धते धर्मपीडा<br>पुराधर्मो वर्धते नेह याव;त्तावद्गच्छामि परलोकं चिराय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१२</sup>पुरा वेदान्ब्राह्मणा ग्राममध्ये; घुष्टस्वरा वृषलाञ्श्रावयन्ति<br>पुरा राजा व्यवहारानधर्म्या;न्पश्यत्यहं परलोकं व्रजामि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१३</sup>पुरावरान्प्रत्यवरान्गरीयसो; यावन्नरा नावमंस्यन्ति सर्वे<br>तमोत्तरं यावदिदं न वर्तते; तावद्व्रजामि परलोकं चिराय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१४</sup>पुरा प्रपश्यामि परेण मर्त्या;न्बलीयसा दुर्बलान्भुज्यमानान्<br>तस्माद्यास्यामि परलोकं चिराय; न ह्युत्सहे द्रष्टुमीदृङ्नृलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१५</sup>तमाहुरार्ता ऋषयो महर्षिं; न ते वयं पुष्करं चोरयामः<br>मिथ्याभिषङ्गो भवता न कार्यः; शपाम तीक्ष्णाञ्शपथान्महर्षे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१६</sup>ते निश्चितास्तत्र महर्षयस्तु; संमन्यन्तो धर्ममेवं नरेन्द्र<br>ततोऽशपञ्शपथान्पर्ययेण; सहैव ते पार्थिव पुत्रपौत्रैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१७</sup>भृगुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१८</sup>प्रत्याक्रोशेदिहाक्रुष्टस्ताडितः प्रतिताडयेत्<br>खादेच्च पृष्ठमांसानि यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.१९</sup>वसिष्ठ उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२०</sup>अस्वाध्यायपरो लोके श्वानं च परिकर्षतु<br>पुरे च भिक्षुर्भवतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२१</sup>कश्यप उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२२</sup>सर्वत्र सर्वं पणतु न्यासे लोभं करोतु च<br>कूटसाक्षित्वमभ्येतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२३</sup>गौतम उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२४</sup>जीवत्वहंकृतो बुद्ध्या विपणत्वधमेन सः<br>कर्षको मत्सरी चास्तु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२५</sup>अङ्गिरा उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२६</sup>अशुचिर्ब्रह्मकूटोऽस्तु श्वानं च परिकर्षतु<br>ब्रह्महानिकृतिश्चास्तु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२७</sup>धुन्धुमार उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२८</sup>अकृतज्ञोऽस्तु मित्राणां शूद्रायां तु प्रजायतु<br>एकः संपन्नमश्नातु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.२९</sup>पूरुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३०</sup>चिकित्सायां प्रचरतु भार्यया चैव पुष्यतु<br>श्वशुरात्तस्य वृत्तिः स्याद्यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३१</sup>दिलीप उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३२</sup>उदपानप्लवे ग्रामे ब्राह्मणो वृषलीपतिः<br>तस्य लोकान्स व्रजतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३३</sup>शुक्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३४</sup>पृष्ठमांसं समश्नातु दिवा गच्छतु मैथुनम्<br>प्रेष्यो भवतु राज्ञश्च यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३५</sup>जमदग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३६</sup>अनध्यायेष्वधीयीत मित्रं श्राद्धे च भोजयेत्<br>श्राद्धे शूद्रस्य चाश्नीयाद्यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३७</sup>शिबिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३८</sup>अनाहिताग्निर्म्रियतां यज्ञे विघ्नं करोतु च<br>तपस्विभिर्विरुध्येत यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.३९</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४०</sup>अनृतौ जटी व्रतिन्यां वै भार्यायां संप्रजायतु<br>निराकरोतु वेदांश्च यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४१</sup>नहुष उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४२</sup>अतिथिं गृहस्थो नुदतु कामवृत्तोऽस्तु दीक्षितः<br>विद्यां प्रयच्छतु भृतो यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४३</sup>अम्बरीष उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४४</sup>नृशंसस्त्यक्तधर्मोऽस्तु स्त्रीषु ज्ञातिषु गोषु च<br>ब्राह्मणं चापि जहतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४५</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४६</sup>गूढोऽज्ञानी बहिः शास्त्रं पठतां विस्वरं पदम्<br>गरीयसोऽवजानातु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४७</sup>नाभाग उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४८</sup>अनृतं भाषतु सदा सद्भिश्चैव विरुध्यतु<br>शुल्केन कन्यां ददतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.४९</sup>कविरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५०</sup>पदा स गां ताडयतु सूर्यं च प्रति मेहतु<br>शरणागतं च त्यजतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५१</sup>विश्वामित्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५२</sup>करोतु भृतकोऽवर्षां राज्ञश्चास्तु पुरोहितः<br>ऋत्विगस्तु ह्ययाज्यस्य यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५३</sup>पर्वत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५४</sup>ग्रामे चाधिकृतः सोऽस्तु खरयानेन गच्छतु<br>शुनः कर्षतु वृत्त्यर्थे यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५५</sup>भरद्वाज उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५६</sup>सर्वपापसमादानं नृशंसे चानृते च यत्<br>तत्तस्यास्तु सदा पापं यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५७</sup>अष्टक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५८</sup>स राजास्त्वकृतप्रज्ञः कामवृत्तिश्च पापकृत्<br>अधर्मेणानुशास्तूर्वीं यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.५९</sup>गालव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६०</sup>पापिष्ठेभ्यस्त्वनर्घार्हः स नरोऽस्तु स्वपापकृत्<br>दत्त्वा दानं कीर्तयतु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६१</sup>अरुन्धत्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६२</sup>श्वश्र्वापवादं वदतु भर्तुर्भवतु दुर्मनाः<br>एका स्वादु समश्नातु या ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६३</sup>वालखिल्या ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६४</sup>एकपादेन वृत्त्यर्थं ग्रामद्वारे स तिष्ठतु<br>धर्मज्ञस्त्यक्तधर्मोऽस्तु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६५</sup>पशुसख उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६६</sup>अग्निहोत्रमनादृत्य सुखं स्वपतु स द्विजः<br>परिव्राट्कामवृत्तोऽस्तु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६७</sup>सुरभ्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६८</sup>बाल्वजेन निदानेन कांस्यं भवतु दोहनम्<br>दुह्येत परवत्सेन या ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.६९</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७०</sup>ततस्तु तैः शपथैः शप्यमानै;र्नानाविधैर्बहुभिः कौरवेन्द्र<br>सहस्राक्षो देवराट्संप्रहृष्टः; समीक्ष्य तं कोपनं विप्रमुख्यम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७१</sup>अथाब्रवीन्मघवा प्रत्ययं स्वं; समाभाष्य तमृषिं जातरोषम्<br>ब्रह्मर्षिदेवर्षिनृपर्षिमध्ये; यत्तन्निबोधेह ममाद्य राजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७२</sup>शक्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७३</sup>अध्वर्यवे दुहितरं ददातु; च्छन्दोगे वा चरितब्रह्मचर्ये<br>आथर्वणं वेदमधीत्य विप्रः; स्नायीत यः पुष्करमाददाति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७४</sup>सर्वान्वेदानधीयीत पुण्यशीलोऽस्तु धार्मिकः<br>ब्रह्मणः सदनं यातु यस्ते हरति पुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७५</sup>अगस्त्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७६</sup>आशीर्वादस्त्वया प्रोक्तः शपथो बलसूदन<br>दीयतां पुष्करं मह्यमेष धर्मः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७७</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७८</sup>न मया भगवँल्लोभाद्धृतं पुष्करमद्य वै<br>धर्मं तु श्रोतुकामेन हृतं न क्रोद्धुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.७९</sup>धर्मः श्रुतिसमुत्कर्षो धर्मसेतुरनामयः<br>आर्षो वै शाश्वतो नित्यमव्ययोऽयं मया श्रुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८०</sup>तदिदं गृह्यतां विद्वन्पुष्करं मुनिसत्तम<br>अतिक्रमं मे भगवन्क्षन्तुमर्हस्यनिन्दित
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८१</sup>इत्युक्तः स महेन्द्रेण तपस्वी कोपनो भृशम्<br>जग्राह पुष्करं धीमान्प्रसन्नश्चाभवन्मुनिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८२</sup>प्रययुस्ते ततो भूयस्तीर्थानि वनगोचराः<br>पुण्यतीर्थेषु च तथा गात्राण्याप्लावयन्ति ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८३</sup>आख्यानं य इदं युक्तः पठेत्पर्वणि पर्वणि<br>न मूर्खं जनयेत्पुत्रं न भवेच्च निराकृतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८४</sup>न तमापत्स्पृशेत्काचिन्न ज्वरो न रुजश्च ह<br>विरजाः श्रेयसा युक्तः प्रेत्य स्वर्गमवाप्नुयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.९६.८५</sup>यश्च शास्त्रमनुध्यायेदृषिभिः परिपालितम्<br>स गच्छेद्ब्रह्मणो लोकमव्ययं च नरोत्तम
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -336,8 +329,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

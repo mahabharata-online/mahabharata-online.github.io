@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/96.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:९७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/98.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/96.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:९७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/98.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२</sup>नाधर्मेण महीं जेतुं लिप्सेत जगतीपतिः<br>अधर्मविजयं लब्ध्वा कोऽनुमन्येत भूमिपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.३</sup>अधर्मयुक्तो विजयो ह्यध्रुवोऽस्वर्ग्य एव च<br>सादयत्येष राजानं महीं च भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.४</sup>विशीर्णकवचं चैव तवास्मीति च वादिनम्<br>कृताञ्जलिं न्यस्तशस्त्रं गृहीत्वा न विहिंसयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.५</sup>बलेनावजितो यश्च न तं युध्येत भूमिपः<br>संवत्सरं विप्रणयेत्तस्माज्जातः पुनर्भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.६</sup>नार्वाक्संवत्सरात्कन्या स्प्रष्टव्या विक्रमाहृता<br>एवमेव धनं सर्वं यच्चान्यत्सहसाहृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.७</sup>न तु वन्ध्यं धनं तिष्ठेत्पिबेयुर्ब्राह्मणाः पयः<br>युञ्जीरन्वाप्यनडुहः क्षन्तव्यं वा तदा भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.८</sup>राज्ञा राजैव योद्धव्यस्तथा धर्मो विधीयते<br>नान्यो राजानमभ्यसेदराजन्यः कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.९</sup>अनीकयोः संहतयोर्यदीयाद्ब्राह्मणोऽन्तरा<br>शान्तिमिच्छन्नुभयतो न योद्धव्यं तदा भवेत्<br>मर्यादां शाश्वतीं भिन्द्याद्ब्राह्मणं योऽभिलङ्घयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१०</sup>अथ चेल्लङ्घयेदेनां मर्यादां क्षत्रियब्रुवः<br>अप्रशस्यस्तदूर्ध्वं स्यादनादेयश्च संसदि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.११</sup>या तु धर्मविलोपेन मर्यादाभेदनेन च<br>तां वृत्तिं नानुवर्तेत विजिगीषुर्महीपतिः<br>धर्मलब्धाद्धि विजयात्को लाभोऽभ्यधिको भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१२</sup>सहसा नाम्य भूतानि क्षिप्रमेव प्रसादयेत्<br>सान्त्वेन भोगदानेन स राज्ञां परमो नयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१३</sup>भुज्यमाना ह्ययोगेन स्वराष्ट्रादभितापिताः<br>अमित्रान्पर्युपासीरन्व्यसनौघप्रतीक्षिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१४</sup>अमित्रोपग्रहं चास्य ते कुर्युः क्षिप्रमापदि<br>संदुष्टाः सर्वतो राजन्राजव्यसनकाङ्क्षिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१५</sup>नामित्रो विनिकर्तव्यो नातिच्छेद्यः कथंचन<br>जीवितं ह्यप्यतिच्छिन्नः संत्यजत्येकदा नरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१६</sup>अल्पेनापि हि संयुक्तस्तुष्यत्येवापराधिकः<br>शुद्धं जीवितमेवापि तादृशो बहु मन्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१७</sup>यस्य स्फीतो जनपदः संपन्नः प्रियराजकः<br>संतुष्टभृत्यसचिवो दृढमूलः स पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१८</sup>ऋत्विक्पुरोहिताचार्या ये चान्ये श्रुतसंमताः<br>पूजार्हाः पूजिता यस्य स वै लोकजिदुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.१९</sup>एतेनैव च वृत्तेन महीं प्राप सुरोत्तमः<br>अन्वेव चैन्द्रं विजयं व्यजिगीषन्त पार्थिवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२०</sup>भूमिवर्जं पुरं राजा जित्वा राजानमाहवे<br>अमृताश्चौषधीः शश्वदाजहार प्रतर्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२१</sup>अग्निहोत्राण्यग्निशेषं हविर्भाजनमेव च<br>आजहार दिवोदासस्ततो विप्रकृतोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२२</sup>सराजकानि राष्ट्राणि नाभागो दक्षिणां ददौ<br>अन्यत्र श्रोत्रियस्वाच्च तापसस्वाच्च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२३</sup>उच्चावचानि वृत्तानि धर्मज्ञानां युधिष्ठिर<br>आसन्राज्ञां पुराणानां सर्वं तन्मम रोचते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९७.२४</sup>सर्वविद्यातिरेकाद्वा जयमिच्छेन्महीपतिः<br>न मायया न दम्भेन य इच्छेद्भूतिमात्मनः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२</sup>नाधर्मेण महीं जेतुं लिप्सेत जगतीपतिः<br>अधर्मविजयं लब्ध्वा कोऽनुमन्येत भूमिपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.३</sup>अधर्मयुक्तो विजयो ह्यध्रुवोऽस्वर्ग्य एव च<br>सादयत्येष राजानं महीं च भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.४</sup>विशीर्णकवचं चैव तवास्मीति च वादिनम्<br>कृताञ्जलिं न्यस्तशस्त्रं गृहीत्वा न विहिंसयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.५</sup>बलेनावजितो यश्च न तं युध्येत भूमिपः<br>संवत्सरं विप्रणयेत्तस्माज्जातः पुनर्भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.६</sup>नार्वाक्संवत्सरात्कन्या स्प्रष्टव्या विक्रमाहृता<br>एवमेव धनं सर्वं यच्चान्यत्सहसाहृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.७</sup>न तु वन्ध्यं धनं तिष्ठेत्पिबेयुर्ब्राह्मणाः पयः<br>युञ्जीरन्वाप्यनडुहः क्षन्तव्यं वा तदा भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.८</sup>राज्ञा राजैव योद्धव्यस्तथा धर्मो विधीयते<br>नान्यो राजानमभ्यसेदराजन्यः कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.९</sup>अनीकयोः संहतयोर्यदीयाद्ब्राह्मणोऽन्तरा<br>शान्तिमिच्छन्नुभयतो न योद्धव्यं तदा भवेत्<br>मर्यादां शाश्वतीं भिन्द्याद्ब्राह्मणं योऽभिलङ्घयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१०</sup>अथ चेल्लङ्घयेदेनां मर्यादां क्षत्रियब्रुवः<br>अप्रशस्यस्तदूर्ध्वं स्यादनादेयश्च संसदि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.११</sup>या तु धर्मविलोपेन मर्यादाभेदनेन च<br>तां वृत्तिं नानुवर्तेत विजिगीषुर्महीपतिः<br>धर्मलब्धाद्धि विजयात्को लाभोऽभ्यधिको भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१२</sup>सहसा नाम्य भूतानि क्षिप्रमेव प्रसादयेत्<br>सान्त्वेन भोगदानेन स राज्ञां परमो नयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१३</sup>भुज्यमाना ह्ययोगेन स्वराष्ट्रादभितापिताः<br>अमित्रान्पर्युपासीरन्व्यसनौघप्रतीक्षिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१४</sup>अमित्रोपग्रहं चास्य ते कुर्युः क्षिप्रमापदि<br>संदुष्टाः सर्वतो राजन्राजव्यसनकाङ्क्षिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१५</sup>नामित्रो विनिकर्तव्यो नातिच्छेद्यः कथंचन<br>जीवितं ह्यप्यतिच्छिन्नः संत्यजत्येकदा नरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१६</sup>अल्पेनापि हि संयुक्तस्तुष्यत्येवापराधिकः<br>शुद्धं जीवितमेवापि तादृशो बहु मन्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१७</sup>यस्य स्फीतो जनपदः संपन्नः प्रियराजकः<br>संतुष्टभृत्यसचिवो दृढमूलः स पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१८</sup>ऋत्विक्पुरोहिताचार्या ये चान्ये श्रुतसंमताः<br>पूजार्हाः पूजिता यस्य स वै लोकजिदुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.१९</sup>एतेनैव च वृत्तेन महीं प्राप सुरोत्तमः<br>अन्वेव चैन्द्रं विजयं व्यजिगीषन्त पार्थिवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२०</sup>भूमिवर्जं पुरं राजा जित्वा राजानमाहवे<br>अमृताश्चौषधीः शश्वदाजहार प्रतर्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२१</sup>अग्निहोत्राण्यग्निशेषं हविर्भाजनमेव च<br>आजहार दिवोदासस्ततो विप्रकृतोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२२</sup>सराजकानि राष्ट्राणि नाभागो दक्षिणां ददौ<br>अन्यत्र श्रोत्रियस्वाच्च तापसस्वाच्च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२३</sup>उच्चावचानि वृत्तानि धर्मज्ञानां युधिष्ठिर<br>आसन्राज्ञां पुराणानां सर्वं तन्मम रोचते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९७.२४</sup>सर्वविद्यातिरेकाद्वा जयमिच्छेन्महीपतिः<br>न मायया न दम्भेन य इच्छेद्भूतिमात्मनः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/14.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:१५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/16.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,124 +64,89 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/14.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:१५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/16.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२</sup>एवमुक्तास्तु ते तेन पौरजानपदा जनाः<br>वृद्धेन राज्ञा कौरव्य नष्टसंज्ञा इवाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.३</sup>तूष्णींभूतांस्ततस्तांस्तु बाष्पकण्ठान्महीपतिः<br>धृतराष्ट्रो महीपालः पुनरेवाभ्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.४</sup>वृद्धं मां हतपुत्रं च धर्मपत्न्या सहानया<br>विलपन्तं बहुविधं कृपणं चैव सत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.५</sup>पित्रा स्वयमनुज्ञातं कृष्णद्वैपायनेन वै<br>वनवासाय धर्मज्ञा धर्मज्ञेन नृपेण च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.६</sup>सोऽहं पुनः पुनर्याचे शिरसावनतोऽनघाः<br>गान्धार्या सहितं तन्मां समनुज्ञातुमर्हथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.७</sup>श्रुत्वा तु कुरुराजस्य वाक्यानि करुणानि ते<br>रुरुदुः सर्वतो राजन्समेताः कुरुजाङ्गलाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.८</sup>उत्तरीयैः करैश्चापि संछाद्य वदनानि ते<br>रुरुदुः शोकसंतप्ता मुहूर्तं पितृमातृवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.९</sup>हृदयैः शून्यभूतैस्ते धृतराष्ट्रप्रवासजम्<br>दुःखं संधारयन्तः स्म नष्टसंज्ञा इवाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१०</sup>ते विनीय तमायासं कुरुराजवियोगजम्<br>शनैः शनैस्तदान्योन्यमब्रुवन्स्वमतान्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.११</sup>ततः संधाय ते सर्वे वाक्यान्यथ समासतः<br>एकस्मिन्ब्राह्मणे राजन्नावेश्योचुर्नराधिपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१२</sup>ततः स्वचरणे वृद्धः संमतोऽर्थविशारदः<br>साम्बाख्यो बह्वृचो राजन्वक्तुं समुपचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१३</sup>अनुमान्य महाराजं तत्सदः संप्रभाष्य च<br>विप्रः प्रगल्भो मेधावी स राजानमुवाच ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१४</sup>राजन्वाक्यं जनस्यास्य मयि सर्वं समर्पितम्<br>वक्ष्यामि तदहं वीर तज्जुषस्व नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१५</sup>यथा वदसि राजेन्द्र सर्वमेतत्तथा विभो<br>नात्र मिथ्या वचः किंचित्सुहृत्त्वं नः परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१६</sup>न जात्वस्य तु वंशस्य राज्ञां कश्चित्कदाचन<br>राजासीद्यः प्रजापालः प्रजानामप्रियो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१७</sup>पितृवद्भ्रातृवच्चैव भवन्तः पालयन्ति नः<br>न च दुर्योधनः किंचिदयुक्तं कृतवान्नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१८</sup>यथा ब्रवीति धर्मज्ञो मुनिः सत्यवतीसुतः<br>तथा कुरु महाराज स हि नः परमो गुरुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.१९</sup>त्यक्ता वयं तु भवता दुःखशोकपरायणाः<br>भविष्यामश्चिरं राजन्भवद्गुणशतैर्हृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२०</sup>यथा शंतनुना गुप्ता राज्ञा चित्राङ्गदेन च<br>भीष्मवीर्योपगूढेन पित्रा च तव पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२१</sup>भवद्बुद्धियुजा चैव पाण्डुना पृथिवीक्षिता<br>तथा दुर्योधनेनापि राज्ञा सुपरिपालिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२२</sup>न स्वल्पमपि पुत्रस्ते व्यलीकं कृतवान्नृप<br>पितरीव सुविश्वस्तास्तस्मिन्नपि नराधिपे<br>वयमास्म यथा सम्यग्भवतो विदितं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२३</sup>तथा वर्षसहस्राय कुन्तीपुत्रेण धीमता<br>पाल्यमाना धृतिमता सुखं विन्दामहे नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२४</sup>राजर्षीणां पुराणानां भवतां वंशधारिणाम्<br>कुरुसंवरणादीनां भरतस्य च धीमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२५</sup>वृत्तं समनुयात्येष धर्मात्मा भूरिदक्षिणः<br>नात्र वाच्यं महाराज सुसूक्ष्ममपि विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२६</sup>उषिताः स्म सुखं नित्यं भवता परिपालिताः<br>सुसूक्ष्मं च व्यलीकं ते सपुत्रस्य न विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१५.२७</sup>यत्तु ज्ञातिविमर्देऽस्मिन्नात्थ दुर्योधनं प्रति<br>भवन्तमनुनेष्यामि तत्रापि कुरुनन्दन
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२</sup>एवमुक्तास्तु ते तेन पौरजानपदा जनाः<br>वृद्धेन राज्ञा कौरव्य नष्टसंज्ञा इवाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.३</sup>तूष्णींभूतांस्ततस्तांस्तु बाष्पकण्ठान्महीपतिः<br>धृतराष्ट्रो महीपालः पुनरेवाभ्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.४</sup>वृद्धं मां हतपुत्रं च धर्मपत्न्या सहानया<br>विलपन्तं बहुविधं कृपणं चैव सत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.५</sup>पित्रा स्वयमनुज्ञातं कृष्णद्वैपायनेन वै<br>वनवासाय धर्मज्ञा धर्मज्ञेन नृपेण च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.६</sup>सोऽहं पुनः पुनर्याचे शिरसावनतोऽनघाः<br>गान्धार्या सहितं तन्मां समनुज्ञातुमर्हथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.७</sup>श्रुत्वा तु कुरुराजस्य वाक्यानि करुणानि ते<br>रुरुदुः सर्वतो राजन्समेताः कुरुजाङ्गलाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.८</sup>उत्तरीयैः करैश्चापि संछाद्य वदनानि ते<br>रुरुदुः शोकसंतप्ता मुहूर्तं पितृमातृवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.९</sup>हृदयैः शून्यभूतैस्ते धृतराष्ट्रप्रवासजम्<br>दुःखं संधारयन्तः स्म नष्टसंज्ञा इवाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१०</sup>ते विनीय तमायासं कुरुराजवियोगजम्<br>शनैः शनैस्तदान्योन्यमब्रुवन्स्वमतान्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.११</sup>ततः संधाय ते सर्वे वाक्यान्यथ समासतः<br>एकस्मिन्ब्राह्मणे राजन्नावेश्योचुर्नराधिपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१२</sup>ततः स्वचरणे वृद्धः संमतोऽर्थविशारदः<br>साम्बाख्यो बह्वृचो राजन्वक्तुं समुपचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१३</sup>अनुमान्य महाराजं तत्सदः संप्रभाष्य च<br>विप्रः प्रगल्भो मेधावी स राजानमुवाच ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१४</sup>राजन्वाक्यं जनस्यास्य मयि सर्वं समर्पितम्<br>वक्ष्यामि तदहं वीर तज्जुषस्व नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१५</sup>यथा वदसि राजेन्द्र सर्वमेतत्तथा विभो<br>नात्र मिथ्या वचः किंचित्सुहृत्त्वं नः परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१६</sup>न जात्वस्य तु वंशस्य राज्ञां कश्चित्कदाचन<br>राजासीद्यः प्रजापालः प्रजानामप्रियो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१७</sup>पितृवद्भ्रातृवच्चैव भवन्तः पालयन्ति नः<br>न च दुर्योधनः किंचिदयुक्तं कृतवान्नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१८</sup>यथा ब्रवीति धर्मज्ञो मुनिः सत्यवतीसुतः<br>तथा कुरु महाराज स हि नः परमो गुरुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.१९</sup>त्यक्ता वयं तु भवता दुःखशोकपरायणाः<br>भविष्यामश्चिरं राजन्भवद्गुणशतैर्हृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२०</sup>यथा शंतनुना गुप्ता राज्ञा चित्राङ्गदेन च<br>भीष्मवीर्योपगूढेन पित्रा च तव पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२१</sup>भवद्बुद्धियुजा चैव पाण्डुना पृथिवीक्षिता<br>तथा दुर्योधनेनापि राज्ञा सुपरिपालिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२२</sup>न स्वल्पमपि पुत्रस्ते व्यलीकं कृतवान्नृप<br>पितरीव सुविश्वस्तास्तस्मिन्नपि नराधिपे<br>वयमास्म यथा सम्यग्भवतो विदितं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२३</sup>तथा वर्षसहस्राय कुन्तीपुत्रेण धीमता<br>पाल्यमाना धृतिमता सुखं विन्दामहे नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२४</sup>राजर्षीणां पुराणानां भवतां वंशधारिणाम्<br>कुरुसंवरणादीनां भरतस्य च धीमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२५</sup>वृत्तं समनुयात्येष धर्मात्मा भूरिदक्षिणः<br>नात्र वाच्यं महाराज सुसूक्ष्ममपि विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२६</sup>उषिताः स्म सुखं नित्यं भवता परिपालिताः<br>सुसूक्ष्मं च व्यलीकं ते सपुत्रस्य न विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१५.२७</sup>यत्तु ज्ञातिविमर्देऽस्मिन्नात्थ दुर्योधनं प्रति<br>भवन्तमनुनेष्यामि तत्रापि कुरुनन्दन
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -162,8 +155,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

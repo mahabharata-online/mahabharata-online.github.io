@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/9/52.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>९:५३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/9/54.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,163 +64,128 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/9/52.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">९:५३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/9/54.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२</sup>कुरुक्षेत्रं ततो दृष्ट्वा दत्त्वा दायांश्च सात्वतः<br>आश्रमं सुमहद्दिव्यमगमज्जनमेजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३</sup>मधूकाम्रवनोपेतं प्लक्षन्यग्रोधसंकुलम्<br>चिरिबिल्वयुतं पुण्यं पनसार्जुनसंकुलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.४</sup>तं दृष्ट्वा यादवश्रेष्ठः प्रवरं पुण्यलक्षणम्<br>पप्रच्छ तानृषीन्सर्वान्कस्याश्रमवरस्त्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.५</sup>ते तु सर्वे महात्मानमूचू राजन्हलायुधम्<br>शृणु विस्तरतो राम यस्यायं पूर्वमाश्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.६</sup>अत्र विष्णुः पुरा देवस्तप्तवांस्तप उत्तमम्<br>अत्रास्य विधिवद्यज्ञाः सर्वे वृत्ताः सनातनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.७</sup>अत्रैव ब्राह्मणी सिद्धा कौमारब्रह्मचारिणी<br>योगयुक्ता दिवं याता तपःसिद्धा तपस्विनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.८</sup>बभूव श्रीमती राजञ्शाण्डिल्यस्य महात्मनः<br>सुता धृतव्रता साध्वी नियता ब्रह्मचारिणी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.९</sup>सा तु प्राप्य परं योगं गता स्वर्गमनुत्तमम्<br>भुक्त्वाश्रमेऽश्वमेधस्य फलं फलवतां शुभा<br>गता स्वर्गं महाभागा पूजिता नियतात्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१०</sup>अभिगम्याश्रमं पुण्यं दृष्ट्वा च यदुपुंगवः<br>ऋषींस्तानभिवाद्याथ पार्श्वे हिमवतोऽच्युतः<br>स्कन्धावाराणि सर्वाणि निवर्त्यारुरुहेऽचलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.११</sup>नातिदूरं ततो गत्वा नगं तालध्वजो बली<br>पुण्यं तीर्थवरं दृष्ट्वा विस्मयं परमं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१२</sup>प्रभवं च सरस्वत्याः प्लक्षप्रस्रवणं बलः<br>संप्राप्तः कारपचनं तीर्थप्रवरमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१३</sup>हलायुधस्तत्र चापि दत्त्वा दानं महाबलः<br>आप्लुतः सलिले शीते तस्माच्चापि जगाम ह<br>आश्रमं परमप्रीतो मित्रस्य वरुणस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१४</sup>इन्द्रोऽग्निरर्यमा चैव यत्र प्राक्प्रीतिमाप्नुवन्<br>तं देशं कारपचनाद्यमुनायां जगाम ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१५</sup>स्नात्वा तत्रापि धर्मात्मा परां तुष्टिमवाप्य च<br>ऋषिभिश्चैव सिद्धैश्च सहितो वै महाबलः<br>उपविष्टः कथाः शुभ्राः शुश्राव यदुपुंगवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१६</sup>तथा तु तिष्ठतां तेषां नारदो भगवानृषिः<br>आजगामाथ तं देशं यत्र रामो व्यवस्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१७</sup>जटामण्डलसंवीतः स्वर्णचीरी महातपाः<br>हेमदण्डधरो राजन्कमण्डलुधरस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१८</sup>कच्छपीं सुखशब्दां तां गृह्य वीणां मनोरमाम्<br>नृत्ये गीते च कुशलो देवब्राह्मणपूजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.१९</sup>प्रकर्ता कलहानां च नित्यं च कलहप्रियः<br>तं देशमगमद्यत्र श्रीमान्रामो व्यवस्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२०</sup>प्रत्युत्थाय तु ते सर्वे पूजयित्वा यतव्रतम्<br>देवर्षिं पर्यपृच्छन्त यथावृत्तं कुरून्प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२१</sup>ततोऽस्याकथयद्राजन्नारदः सर्वधर्मवित्<br>सर्वमेव यथावृत्तमतीतं कुरुसंक्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२२</sup>ततोऽब्रवीद्रौहिणेयो नारदं दीनया गिरा<br>किमवस्थं तु तत्क्षत्रं ये च तत्राभवन्नृपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२३</sup>श्रुतमेतन्मया पूर्वं सर्वमेव तपोधन<br>विस्तरश्रवणे जातं कौतूहलमतीव मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२४</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२५</sup>पूर्वमेव हतो भीष्मो द्रोणः सिन्धुपतिस्तथा<br>हतो वैकर्तनः कर्णः पुत्राश्चास्य महारथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२६</sup>भूरिश्रवा रौहिणेय मद्रराजश्च वीर्यवान्<br>एते चान्ये च बहवस्तत्र तत्र महाबलाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२७</sup>प्रियान्प्राणान्परित्यज्य प्रियार्थं कौरवस्य वै<br>राजानो राजपुत्राश्च समरेष्वनिवर्तिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२८</sup>अहतांस्तु महाबाहो शृणु मे तत्र माधव<br>धार्तराष्ट्रबले शेषाः कृपो भोजश्च वीर्यवान्<br>अश्वत्थामा च विक्रान्तो भग्नसैन्या दिशो गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.२९</sup>दुर्योधनो हते सैन्ये प्रद्रुतेषु कृपादिषु<br>ह्रदं द्वैपायनं नाम विवेश भृशदुःखितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३०</sup>शयानं धार्तराष्ट्रं तु स्तम्भिते सलिले तदा<br>पाण्डवाः सह कृष्णेन वाग्भिरुग्राभिरार्दयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३१</sup>स तुद्यमानो बलवान्वाग्भी राम समन्ततः<br>उत्थितः प्राग्घ्रदाद्वीरः प्रगृह्य महतीं गदाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३२</sup>स चाप्युपगतो युद्धं भीमेन सह सांप्रतम्<br>भविष्यति च तत्सद्यस्तयो राम सुदारुणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३३</sup>यदि कौतूहलं तेऽस्ति व्रज माधव मा चिरम्<br>पश्य युद्धं महाघोरं शिष्ययोर्यदि मन्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३४</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३५</sup>नारदस्य वचः श्रुत्वा तानभ्यर्च्य द्विजर्षभान्<br>सर्वान्विसर्जयामास ये तेनाभ्यागताः सह<br>गम्यतां द्वारकां चेति सोऽन्वशादनुयायिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३६</sup>सोऽवतीर्याचलश्रेष्ठात्प्लक्षप्रस्रवणाच्छुभात्<br>ततः प्रीतमना रामः श्रुत्वा तीर्थफलं महत्<br>विप्राणां संनिधौ श्लोकमगायदिदमच्युतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३७</sup>सरस्वतीवाससमा कुतो रतिः; सरस्वतीवाससमाः कुतो गुणाः<br>सरस्वतीं प्राप्य दिवं गता जनाः; सदा स्मरिष्यन्ति नदीं सरस्वतीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३८</sup>सरस्वती सर्वनदीषु पुण्या; सरस्वती लोकसुखावहा सदा<br>सरस्वतीं प्राप्य जनाः सुदुष्कृताः; सदा न शोचन्ति परत्र चेह च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.३९</sup>ततो मुहुर्मुहुः प्रीत्या प्रेक्षमाणः सरस्वतीम्<br>हयैर्युक्तं रथं शुभ्रमातिष्ठत परंतपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.५३.४०</sup>स शीघ्रगामिना तेन रथेन यदुपुंगवः<br>दिदृक्षुरभिसंप्राप्तः शिष्ययुद्धमुपस्थितम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२</sup>कुरुक्षेत्रं ततो दृष्ट्वा दत्त्वा दायांश्च सात्वतः<br>आश्रमं सुमहद्दिव्यमगमज्जनमेजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३</sup>मधूकाम्रवनोपेतं प्लक्षन्यग्रोधसंकुलम्<br>चिरिबिल्वयुतं पुण्यं पनसार्जुनसंकुलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.४</sup>तं दृष्ट्वा यादवश्रेष्ठः प्रवरं पुण्यलक्षणम्<br>पप्रच्छ तानृषीन्सर्वान्कस्याश्रमवरस्त्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.५</sup>ते तु सर्वे महात्मानमूचू राजन्हलायुधम्<br>शृणु विस्तरतो राम यस्यायं पूर्वमाश्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.६</sup>अत्र विष्णुः पुरा देवस्तप्तवांस्तप उत्तमम्<br>अत्रास्य विधिवद्यज्ञाः सर्वे वृत्ताः सनातनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.७</sup>अत्रैव ब्राह्मणी सिद्धा कौमारब्रह्मचारिणी<br>योगयुक्ता दिवं याता तपःसिद्धा तपस्विनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.८</sup>बभूव श्रीमती राजञ्शाण्डिल्यस्य महात्मनः<br>सुता धृतव्रता साध्वी नियता ब्रह्मचारिणी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.९</sup>सा तु प्राप्य परं योगं गता स्वर्गमनुत्तमम्<br>भुक्त्वाश्रमेऽश्वमेधस्य फलं फलवतां शुभा<br>गता स्वर्गं महाभागा पूजिता नियतात्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१०</sup>अभिगम्याश्रमं पुण्यं दृष्ट्वा च यदुपुंगवः<br>ऋषींस्तानभिवाद्याथ पार्श्वे हिमवतोऽच्युतः<br>स्कन्धावाराणि सर्वाणि निवर्त्यारुरुहेऽचलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.११</sup>नातिदूरं ततो गत्वा नगं तालध्वजो बली<br>पुण्यं तीर्थवरं दृष्ट्वा विस्मयं परमं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१२</sup>प्रभवं च सरस्वत्याः प्लक्षप्रस्रवणं बलः<br>संप्राप्तः कारपचनं तीर्थप्रवरमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१३</sup>हलायुधस्तत्र चापि दत्त्वा दानं महाबलः<br>आप्लुतः सलिले शीते तस्माच्चापि जगाम ह<br>आश्रमं परमप्रीतो मित्रस्य वरुणस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१४</sup>इन्द्रोऽग्निरर्यमा चैव यत्र प्राक्प्रीतिमाप्नुवन्<br>तं देशं कारपचनाद्यमुनायां जगाम ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१५</sup>स्नात्वा तत्रापि धर्मात्मा परां तुष्टिमवाप्य च<br>ऋषिभिश्चैव सिद्धैश्च सहितो वै महाबलः<br>उपविष्टः कथाः शुभ्राः शुश्राव यदुपुंगवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१६</sup>तथा तु तिष्ठतां तेषां नारदो भगवानृषिः<br>आजगामाथ तं देशं यत्र रामो व्यवस्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१७</sup>जटामण्डलसंवीतः स्वर्णचीरी महातपाः<br>हेमदण्डधरो राजन्कमण्डलुधरस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१८</sup>कच्छपीं सुखशब्दां तां गृह्य वीणां मनोरमाम्<br>नृत्ये गीते च कुशलो देवब्राह्मणपूजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.१९</sup>प्रकर्ता कलहानां च नित्यं च कलहप्रियः<br>तं देशमगमद्यत्र श्रीमान्रामो व्यवस्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२०</sup>प्रत्युत्थाय तु ते सर्वे पूजयित्वा यतव्रतम्<br>देवर्षिं पर्यपृच्छन्त यथावृत्तं कुरून्प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२१</sup>ततोऽस्याकथयद्राजन्नारदः सर्वधर्मवित्<br>सर्वमेव यथावृत्तमतीतं कुरुसंक्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२२</sup>ततोऽब्रवीद्रौहिणेयो नारदं दीनया गिरा<br>किमवस्थं तु तत्क्षत्रं ये च तत्राभवन्नृपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२३</sup>श्रुतमेतन्मया पूर्वं सर्वमेव तपोधन<br>विस्तरश्रवणे जातं कौतूहलमतीव मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२४</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२५</sup>पूर्वमेव हतो भीष्मो द्रोणः सिन्धुपतिस्तथा<br>हतो वैकर्तनः कर्णः पुत्राश्चास्य महारथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२६</sup>भूरिश्रवा रौहिणेय मद्रराजश्च वीर्यवान्<br>एते चान्ये च बहवस्तत्र तत्र महाबलाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२७</sup>प्रियान्प्राणान्परित्यज्य प्रियार्थं कौरवस्य वै<br>राजानो राजपुत्राश्च समरेष्वनिवर्तिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२८</sup>अहतांस्तु महाबाहो शृणु मे तत्र माधव<br>धार्तराष्ट्रबले शेषाः कृपो भोजश्च वीर्यवान्<br>अश्वत्थामा च विक्रान्तो भग्नसैन्या दिशो गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.२९</sup>दुर्योधनो हते सैन्ये प्रद्रुतेषु कृपादिषु<br>ह्रदं द्वैपायनं नाम विवेश भृशदुःखितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३०</sup>शयानं धार्तराष्ट्रं तु स्तम्भिते सलिले तदा<br>पाण्डवाः सह कृष्णेन वाग्भिरुग्राभिरार्दयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३१</sup>स तुद्यमानो बलवान्वाग्भी राम समन्ततः<br>उत्थितः प्राग्घ्रदाद्वीरः प्रगृह्य महतीं गदाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३२</sup>स चाप्युपगतो युद्धं भीमेन सह सांप्रतम्<br>भविष्यति च तत्सद्यस्तयो राम सुदारुणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३३</sup>यदि कौतूहलं तेऽस्ति व्रज माधव मा चिरम्<br>पश्य युद्धं महाघोरं शिष्ययोर्यदि मन्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३४</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३५</sup>नारदस्य वचः श्रुत्वा तानभ्यर्च्य द्विजर्षभान्<br>सर्वान्विसर्जयामास ये तेनाभ्यागताः सह<br>गम्यतां द्वारकां चेति सोऽन्वशादनुयायिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३६</sup>सोऽवतीर्याचलश्रेष्ठात्प्लक्षप्रस्रवणाच्छुभात्<br>ततः प्रीतमना रामः श्रुत्वा तीर्थफलं महत्<br>विप्राणां संनिधौ श्लोकमगायदिदमच्युतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३७</sup>सरस्वतीवाससमा कुतो रतिः; सरस्वतीवाससमाः कुतो गुणाः<br>सरस्वतीं प्राप्य दिवं गता जनाः; सदा स्मरिष्यन्ति नदीं सरस्वतीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३८</sup>सरस्वती सर्वनदीषु पुण्या; सरस्वती लोकसुखावहा सदा<br>सरस्वतीं प्राप्य जनाः सुदुष्कृताः; सदा न शोचन्ति परत्र चेह च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.३९</sup>ततो मुहुर्मुहुः प्रीत्या प्रेक्षमाणः सरस्वतीम्<br>हयैर्युक्तं रथं शुभ्रमातिष्ठत परंतपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.५३.४०</sup>स शीघ्रगामिना तेन रथेन यदुपुंगवः<br>दिदृक्षुरभिसंप्राप्तः शिष्ययुद्धमुपस्थितम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/163.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१६४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/165.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,232 +64,197 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/163.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१६४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/165.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२</sup>ततस्तामवसं प्रीतो रजनीं तत्र भारत<br>प्रसादाद्देवदेवस्य त्र्यम्बकस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३</sup>व्युषितो रजनीं चाहं कृत्वा पूर्वाह्णिकक्रियाम्<br>अपश्यं तं द्विजश्रेष्ठं दृष्टवानस्मि यं पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४</sup>तस्मै चाहं यथावृत्तं सर्वमेव न्यवेदयम्<br>भगवन्तं महादेवं समेतोऽस्मीति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५</sup>स मामुवाच राजेन्द्र प्रीयमाणो द्विजोत्तमः<br>दृष्टस्त्वया महादेवो यथा नान्येन केनचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.६</sup>समेत्य लोकपालैस्तु सर्वैर्वैवस्वतादिभिः<br>द्रष्टास्यनघ देवेन्द्रं स च तेऽस्त्राणि दास्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.७</sup>एवमुक्त्वा स मां राजन्नाश्लिष्य च पुनः पुनः<br>अगच्छत्स यथाकामं ब्राह्मणः सूर्यसंनिभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.८</sup>अथापराह्णे तस्याह्नः प्रावात्पुण्यः समीरणः<br>पुनर्नवमिमं लोकं कुर्वन्निव सपत्नहन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.९</sup>दिव्यानि चैव माल्यानि सुगन्धीनि नवानि च<br>शैशिरस्य गिरेः पादे प्रादुरासन्समीपतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१०</sup>वादित्राणि च दिव्यानि सुघोषाणि समन्ततः<br>स्तुतयश्चेन्द्रसंयुक्ता अश्रूयन्त मनोहराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.११</sup>गणाश्चाप्सरसां तत्र गन्धर्वाणां तथैव च<br>पुरस्ताद्देवदेवस्य जगुर्गीतानि सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१२</sup>मरुतां च गणास्तत्र देवयानैरुपागमन्<br>महेन्द्रानुचरा ये च देवसद्मनिवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१३</sup>ततो मरुत्वान्हरिभिर्युक्तैर्वाहैः स्वलंकृतैः<br>शचीसहायस्तत्रायात्सह सर्वैस्तदामरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१४</sup>एतस्मिन्नेव काले तु कुबेरो नरवाहनः<br>दर्शयामास मां राजँल्लक्ष्म्या परमया युतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१५</sup>दक्षिणस्यां दिशि यमं प्रत्यपश्यं व्यवस्थितम्<br>वरुणं देवराजं च यथास्थानमवस्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१६</sup>ते मामूचुर्महाराज सान्त्वयित्वा सुरर्षभाः<br>सव्यसाचिन्समीक्षस्व लोकपालानवस्थितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१७</sup>सुरकार्यार्थसिद्ध्यर्थं दृष्टवानसि शंकरम्<br>अस्मत्तोऽपि गृहाण त्वमस्त्राणीति समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१८</sup>ततोऽहं प्रयतो भूत्वा प्रणिपत्य सुरर्षभान्<br>प्रत्यगृह्णं तदास्त्राणि महान्ति विधिवत्प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.१९</sup>गृहीतास्त्रस्ततो देवैरनुज्ञातोऽस्मि भारत<br>अथ देवा ययुः सर्वे यथागतमरिंदम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२०</sup>मघवानपि देवेशो रथमारुह्य सुप्रभम्<br>उवाच भगवान्वाक्यं स्मयन्निव सुरारिहा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२१</sup>पुरैवागमनादस्माद्वेदाहं त्वां धनंजय<br>अतः परं त्वहं वै त्वां दर्शये भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२२</sup>त्वया हि तीर्थेषु पुरा समाप्लावः कृतोऽसकृत्<br>तपश्चेदं पुरा तप्तं स्वर्गं गन्तासि पाण्डव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२३</sup>भूयश्चैव तु तप्तव्यं तपः परमदारुणम्<br>उवाच भगवान्सर्वं तपसश्चोपपादनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२४</sup>मातलिर्मन्नियोगात्त्वां त्रिदिवं प्रापयिष्यति<br>विदितस्त्वं हि देवानामृषीणां च महात्मनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२५</sup>ततोऽहमब्रुवं शक्रं प्रसीद भगवन्मम<br>आचार्यं वरये त्वाहमस्त्रार्थं त्रिदशेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२६</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२७</sup>क्रूरं कर्मास्त्रवित्तात करिष्यसि परंतप<br>यदर्थमस्त्राणीप्सुस्त्वं तं कामं पाण्डवाप्नुहि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२८</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.२९</sup>ततोऽहमब्रुवं नाहं दिव्यान्यस्त्राणि शत्रुहन्<br>मानुषेषु प्रयोक्ष्यामि विनास्त्रप्रतिघातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३०</sup>तानि दिव्यानि मेऽस्त्राणि प्रयच्छ विबुधाधिप<br>लोकांश्चास्त्रजितान्पश्चाल्लभेयं सुरपुंगव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३१</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३२</sup>परीक्षार्थं मयैतत्ते वाक्यमुक्तं धनंजय<br>ममात्मजस्य वचनं सूपपन्नमिदं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३३</sup>शिक्ष मे भवनं गत्वा सर्वाण्यस्त्राणि भारत<br>वायोरग्नेर्वसुभ्योऽथ वरुणात्समरुद्गणात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३४</sup>साध्यं पैतामहं चैव गन्धर्वोरगरक्षसाम्<br>वैष्णवानि च सर्वाणि नैरृतानि तथैव च<br>मद्गतानि च यानीह सर्वास्त्राणि कुरूद्वह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३५</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३६</sup>एवमुक्त्वा तु मां शक्रस्तत्रैवान्तरधीयत<br>अथापश्यं हरियुजं रथमैन्द्रमुपस्थितम्<br>दिव्यं मायामयं पुण्यं यत्तं मातलिना नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३७</sup>लोकपालेषु यातेषु मामुवाचाथ मातलिः<br>द्रष्टुमिच्छति शक्रस्त्वां देवराजो महाद्युते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३८</sup>संसिद्धस्त्वं महाबाहो कुरु कार्यमनुत्तमम्<br>पश्य पुण्यकृतां लोकान्सशरीरो दिवं व्रज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.३९</sup>इत्युक्तोऽहं मातलिना गिरिमामन्त्र्य शैशिरम्<br>प्रदक्षिणमुपावृत्य समारोहं रथोत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४०</sup>चोदयामास स हयान्मनोमारुतरंहसः<br>मातलिर्हयशास्त्रज्ञो यथावद्भूरिदक्षिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४१</sup>अवैक्षत च मे वक्त्रं स्थितस्याथ स सारथिः<br>तथा भ्रान्ते रथे राजन्विस्मितश्चेदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४२</sup>अत्यद्भुतमिदं मेऽद्य विचित्रं प्रतिभाति माम्<br>यदास्थितो रथं दिव्यं पदा न चलितो भवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४३</sup>देवराजोऽपि हि मया नित्यमत्रोपलक्षितः<br>विचलन्प्रथमोत्पाते हयानां भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४४</sup>त्वं पुनः स्थित एवात्र रथे भ्रान्ते कुरूद्वह<br>अतिशक्रमिदं सत्त्वं तवेति प्रतिभाति मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४५</sup>इत्युक्त्वाकाशमाविश्य मातलिर्विबुधालयान्<br>दर्शयामास मे राजन्विमानानि च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४६</sup>नन्दनादीनि देवानां वनानि बहुलान्युत<br>दर्शयामास मे प्रीत्या मातलिः शक्रसारथिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४७</sup>ततः शक्रस्य भवनमपश्यममरावतीम्<br>दिव्यैः कामफलैर्वृक्षै रत्नैश्च समलंकृताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४८</sup>न तां भासयते सूर्यो न शीतोष्णे न च क्लमः<br>रजः पङ्को न च तमस्तत्रास्ति न जरा नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.४९</sup>न तत्र शोको दैन्यं वा वैवर्ण्यं चोपलक्ष्यते<br>दिवौकसां महाराज न च ग्लानिररिंदम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५०</sup>न क्रोधलोभौ तत्रास्तामशुभं च विशां पते<br>नित्यतुष्टाश्च हृष्टाश्च प्राणिनः सुरवेश्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५१</sup>नित्यपुष्पफलास्तत्र पादपा हरितच्छदाः<br>पुष्करिण्यश्च विविधाः पद्मसौगन्धिकायुताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५२</sup>शीतस्तत्र ववौ वायुः सुगन्धो जीवनः शुचिः<br>सर्वरत्नविचित्रा च भूमिः पुष्पविभूषिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५३</sup>मृगद्विजाश्च बहवो रुचिरा मधुरस्वराः<br>विमानयायिनश्चात्र दृश्यन्ते बहवोऽमराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५४</sup>ततोऽपश्यं वसून्रुद्रान्साध्यांश्च समरुद्गणान्<br>आदित्यानश्विनौ चैव तान्सर्वान्प्रत्यपूजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५५</sup>ते मां वीर्येण यशसा तेजसा च बलेन च<br>अस्त्रैश्चाप्यन्वजानन्त संग्रामविजयेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५६</sup>प्रविश्य तां पुरीं रम्यां देवगन्धर्वसेविताम्<br>देवराजं सहस्राक्षमुपातिष्ठं कृताञ्जलिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५७</sup>ददावर्धासनं प्रीतः शक्रो मे ददतां वरः<br>बहुमानाच्च गात्राणि पस्पर्श मम वासवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५८</sup>तत्राहं देवगन्धर्वैः सहितो भूरिदक्षिण<br>अस्त्रार्थमवसं स्वर्गे कुर्वाणोऽस्त्राणि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.५९</sup>विश्वावसोश्च मे पुत्रश्चित्रसेनोऽभवत्सखा<br>स च गान्धर्वमखिलं ग्राहयामास मां नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.६०</sup>ततोऽहमवसं राजन्गृहीतास्त्रः सुपूजितः<br>सुखं शक्रस्य भवने सर्वकामसमन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.६१</sup>शृण्वन्वै गीतशब्दं च तूर्यशब्दं च पुष्कलम्<br>पश्यंश्चाप्सरसः श्रेष्ठा नृत्यमानाः परंतप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.६२</sup>तत्सर्वमनवज्ञाय तथ्यं विज्ज्ञाय भारत<br>अत्यर्थं प्रतिगृह्याहमस्त्रेष्वेव व्यवस्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१६४.६३</sup>ततोऽतुष्यत्सहस्राक्षस्तेन कामेन मे विभुः<br>एवं मे वसतो राजन्नेष कालोऽत्यगाद्दिवि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२</sup>ततस्तामवसं प्रीतो रजनीं तत्र भारत<br>प्रसादाद्देवदेवस्य त्र्यम्बकस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३</sup>व्युषितो रजनीं चाहं कृत्वा पूर्वाह्णिकक्रियाम्<br>अपश्यं तं द्विजश्रेष्ठं दृष्टवानस्मि यं पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४</sup>तस्मै चाहं यथावृत्तं सर्वमेव न्यवेदयम्<br>भगवन्तं महादेवं समेतोऽस्मीति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५</sup>स मामुवाच राजेन्द्र प्रीयमाणो द्विजोत्तमः<br>दृष्टस्त्वया महादेवो यथा नान्येन केनचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.६</sup>समेत्य लोकपालैस्तु सर्वैर्वैवस्वतादिभिः<br>द्रष्टास्यनघ देवेन्द्रं स च तेऽस्त्राणि दास्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.७</sup>एवमुक्त्वा स मां राजन्नाश्लिष्य च पुनः पुनः<br>अगच्छत्स यथाकामं ब्राह्मणः सूर्यसंनिभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.८</sup>अथापराह्णे तस्याह्नः प्रावात्पुण्यः समीरणः<br>पुनर्नवमिमं लोकं कुर्वन्निव सपत्नहन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.९</sup>दिव्यानि चैव माल्यानि सुगन्धीनि नवानि च<br>शैशिरस्य गिरेः पादे प्रादुरासन्समीपतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१०</sup>वादित्राणि च दिव्यानि सुघोषाणि समन्ततः<br>स्तुतयश्चेन्द्रसंयुक्ता अश्रूयन्त मनोहराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.११</sup>गणाश्चाप्सरसां तत्र गन्धर्वाणां तथैव च<br>पुरस्ताद्देवदेवस्य जगुर्गीतानि सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१२</sup>मरुतां च गणास्तत्र देवयानैरुपागमन्<br>महेन्द्रानुचरा ये च देवसद्मनिवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१३</sup>ततो मरुत्वान्हरिभिर्युक्तैर्वाहैः स्वलंकृतैः<br>शचीसहायस्तत्रायात्सह सर्वैस्तदामरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१४</sup>एतस्मिन्नेव काले तु कुबेरो नरवाहनः<br>दर्शयामास मां राजँल्लक्ष्म्या परमया युतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१५</sup>दक्षिणस्यां दिशि यमं प्रत्यपश्यं व्यवस्थितम्<br>वरुणं देवराजं च यथास्थानमवस्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१६</sup>ते मामूचुर्महाराज सान्त्वयित्वा सुरर्षभाः<br>सव्यसाचिन्समीक्षस्व लोकपालानवस्थितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१७</sup>सुरकार्यार्थसिद्ध्यर्थं दृष्टवानसि शंकरम्<br>अस्मत्तोऽपि गृहाण त्वमस्त्राणीति समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१८</sup>ततोऽहं प्रयतो भूत्वा प्रणिपत्य सुरर्षभान्<br>प्रत्यगृह्णं तदास्त्राणि महान्ति विधिवत्प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.१९</sup>गृहीतास्त्रस्ततो देवैरनुज्ञातोऽस्मि भारत<br>अथ देवा ययुः सर्वे यथागतमरिंदम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२०</sup>मघवानपि देवेशो रथमारुह्य सुप्रभम्<br>उवाच भगवान्वाक्यं स्मयन्निव सुरारिहा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२१</sup>पुरैवागमनादस्माद्वेदाहं त्वां धनंजय<br>अतः परं त्वहं वै त्वां दर्शये भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२२</sup>त्वया हि तीर्थेषु पुरा समाप्लावः कृतोऽसकृत्<br>तपश्चेदं पुरा तप्तं स्वर्गं गन्तासि पाण्डव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२३</sup>भूयश्चैव तु तप्तव्यं तपः परमदारुणम्<br>उवाच भगवान्सर्वं तपसश्चोपपादनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२४</sup>मातलिर्मन्नियोगात्त्वां त्रिदिवं प्रापयिष्यति<br>विदितस्त्वं हि देवानामृषीणां च महात्मनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२५</sup>ततोऽहमब्रुवं शक्रं प्रसीद भगवन्मम<br>आचार्यं वरये त्वाहमस्त्रार्थं त्रिदशेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२६</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२७</sup>क्रूरं कर्मास्त्रवित्तात करिष्यसि परंतप<br>यदर्थमस्त्राणीप्सुस्त्वं तं कामं पाण्डवाप्नुहि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२८</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.२९</sup>ततोऽहमब्रुवं नाहं दिव्यान्यस्त्राणि शत्रुहन्<br>मानुषेषु प्रयोक्ष्यामि विनास्त्रप्रतिघातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३०</sup>तानि दिव्यानि मेऽस्त्राणि प्रयच्छ विबुधाधिप<br>लोकांश्चास्त्रजितान्पश्चाल्लभेयं सुरपुंगव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३१</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३२</sup>परीक्षार्थं मयैतत्ते वाक्यमुक्तं धनंजय<br>ममात्मजस्य वचनं सूपपन्नमिदं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३३</sup>शिक्ष मे भवनं गत्वा सर्वाण्यस्त्राणि भारत<br>वायोरग्नेर्वसुभ्योऽथ वरुणात्समरुद्गणात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३४</sup>साध्यं पैतामहं चैव गन्धर्वोरगरक्षसाम्<br>वैष्णवानि च सर्वाणि नैरृतानि तथैव च<br>मद्गतानि च यानीह सर्वास्त्राणि कुरूद्वह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३५</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३६</sup>एवमुक्त्वा तु मां शक्रस्तत्रैवान्तरधीयत<br>अथापश्यं हरियुजं रथमैन्द्रमुपस्थितम्<br>दिव्यं मायामयं पुण्यं यत्तं मातलिना नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३७</sup>लोकपालेषु यातेषु मामुवाचाथ मातलिः<br>द्रष्टुमिच्छति शक्रस्त्वां देवराजो महाद्युते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३८</sup>संसिद्धस्त्वं महाबाहो कुरु कार्यमनुत्तमम्<br>पश्य पुण्यकृतां लोकान्सशरीरो दिवं व्रज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.३९</sup>इत्युक्तोऽहं मातलिना गिरिमामन्त्र्य शैशिरम्<br>प्रदक्षिणमुपावृत्य समारोहं रथोत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४०</sup>चोदयामास स हयान्मनोमारुतरंहसः<br>मातलिर्हयशास्त्रज्ञो यथावद्भूरिदक्षिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४१</sup>अवैक्षत च मे वक्त्रं स्थितस्याथ स सारथिः<br>तथा भ्रान्ते रथे राजन्विस्मितश्चेदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४२</sup>अत्यद्भुतमिदं मेऽद्य विचित्रं प्रतिभाति माम्<br>यदास्थितो रथं दिव्यं पदा न चलितो भवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४३</sup>देवराजोऽपि हि मया नित्यमत्रोपलक्षितः<br>विचलन्प्रथमोत्पाते हयानां भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४४</sup>त्वं पुनः स्थित एवात्र रथे भ्रान्ते कुरूद्वह<br>अतिशक्रमिदं सत्त्वं तवेति प्रतिभाति मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४५</sup>इत्युक्त्वाकाशमाविश्य मातलिर्विबुधालयान्<br>दर्शयामास मे राजन्विमानानि च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४६</sup>नन्दनादीनि देवानां वनानि बहुलान्युत<br>दर्शयामास मे प्रीत्या मातलिः शक्रसारथिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४७</sup>ततः शक्रस्य भवनमपश्यममरावतीम्<br>दिव्यैः कामफलैर्वृक्षै रत्नैश्च समलंकृताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४८</sup>न तां भासयते सूर्यो न शीतोष्णे न च क्लमः<br>रजः पङ्को न च तमस्तत्रास्ति न जरा नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.४९</sup>न तत्र शोको दैन्यं वा वैवर्ण्यं चोपलक्ष्यते<br>दिवौकसां महाराज न च ग्लानिररिंदम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५०</sup>न क्रोधलोभौ तत्रास्तामशुभं च विशां पते<br>नित्यतुष्टाश्च हृष्टाश्च प्राणिनः सुरवेश्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५१</sup>नित्यपुष्पफलास्तत्र पादपा हरितच्छदाः<br>पुष्करिण्यश्च विविधाः पद्मसौगन्धिकायुताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५२</sup>शीतस्तत्र ववौ वायुः सुगन्धो जीवनः शुचिः<br>सर्वरत्नविचित्रा च भूमिः पुष्पविभूषिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५३</sup>मृगद्विजाश्च बहवो रुचिरा मधुरस्वराः<br>विमानयायिनश्चात्र दृश्यन्ते बहवोऽमराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५४</sup>ततोऽपश्यं वसून्रुद्रान्साध्यांश्च समरुद्गणान्<br>आदित्यानश्विनौ चैव तान्सर्वान्प्रत्यपूजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५५</sup>ते मां वीर्येण यशसा तेजसा च बलेन च<br>अस्त्रैश्चाप्यन्वजानन्त संग्रामविजयेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५६</sup>प्रविश्य तां पुरीं रम्यां देवगन्धर्वसेविताम्<br>देवराजं सहस्राक्षमुपातिष्ठं कृताञ्जलिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५७</sup>ददावर्धासनं प्रीतः शक्रो मे ददतां वरः<br>बहुमानाच्च गात्राणि पस्पर्श मम वासवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५८</sup>तत्राहं देवगन्धर्वैः सहितो भूरिदक्षिण<br>अस्त्रार्थमवसं स्वर्गे कुर्वाणोऽस्त्राणि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.५९</sup>विश्वावसोश्च मे पुत्रश्चित्रसेनोऽभवत्सखा<br>स च गान्धर्वमखिलं ग्राहयामास मां नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.६०</sup>ततोऽहमवसं राजन्गृहीतास्त्रः सुपूजितः<br>सुखं शक्रस्य भवने सर्वकामसमन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.६१</sup>शृण्वन्वै गीतशब्दं च तूर्यशब्दं च पुष्कलम्<br>पश्यंश्चाप्सरसः श्रेष्ठा नृत्यमानाः परंतप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.६२</sup>तत्सर्वमनवज्ञाय तथ्यं विज्ज्ञाय भारत<br>अत्यर्थं प्रतिगृह्याहमस्त्रेष्वेव व्यवस्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१६४.६३</sup>ततोऽतुष्यत्सहस्राक्षस्तेन कामेन मे विभुः<br>एवं मे वसतो राजन्नेष कालोऽत्यगाद्दिवि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -270,8 +263,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

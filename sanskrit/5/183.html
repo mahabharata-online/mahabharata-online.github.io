@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/182.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१८३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/184.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,127 +64,92 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/182.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१८३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/184.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२</sup>ततः प्रभाते राजेन्द्र सूर्ये विमल उद्गते<br>भार्गवस्य मया सार्धं पुनर्युद्धमवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.३</sup>ततो भ्रान्ते रथे तिष्ठन्रामः प्रहरतां वरः<br>ववर्ष शरवर्षाणि मयि शक्र इवाचले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.४</sup>तेन सूतो मम सुहृच्छरवर्षेण ताडितः<br>निपपात रथोपस्थे मनो मम विषादयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.५</sup>ततः सूतः स मेऽत्यर्थं कश्मलं प्राविशन्महत्<br>पृथिव्यां च शराघातान्निपपात मुमोह च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.६</sup>ततः सूतोऽजहात्प्राणान्रामबाणप्रपीडितः<br>मुहूर्तादिव राजेन्द्र मां च भीराविशत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.७</sup>ततः सूते हते राजन्क्षिपतस्तस्य मे शरान्<br>प्रमत्तमनसो रामः प्राहिणोन्मृत्युसंमितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.८</sup>ततः सूतव्यसनिनं विप्लुतं मां स भार्गवः<br>शरेणाभ्यहनद्गाढं विकृष्य बलवद्धनुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.९</sup>स मे जत्र्वन्तरे राजन्निपत्य रुधिराशनः<br>मयैव सह राजेन्द्र जगाम वसुधातलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१०</sup>मत्वा तु निहतं रामस्ततो मां भरतर्षभ<br>मेघवद्व्यनदच्चोच्चैर्जहृषे च पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.११</sup>तथा तु पतिते राजन्मयि रामो मुदा युतः<br>उदक्रोशन्महानादं सह तैरनुयायिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१२</sup>मम तत्राभवन्ये तु कौरवाः पार्श्वतः स्थिताः<br>आगता ये च युद्धं तज्जनास्तत्र दिदृक्षवः<br>आर्तिं परमिकां जग्मुस्ते तदा मयि पातिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१३</sup>ततोऽपश्यं पातितो राजसिंह; द्विजानष्टौ सूर्यहुताशनाभान्<br>ते मां समन्तात्परिवार्य तस्थुः; स्वबाहुभिः परिगृह्याजिमध्ये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१४</sup>रक्ष्यमाणश्च तैर्विप्रैर्नाहं भूमिमुपास्पृशम्<br>अन्तरिक्षे स्थितो ह्यस्मि तैर्विप्रैर्बान्धवैरिव<br>स्वपन्निवान्तरिक्षे च जलबिन्दुभिरुक्षितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१५</sup>ततस्ते ब्राह्मणा राजन्नब्रुवन्परिगृह्य माम्<br>मा भैरिति समं सर्वे स्वस्ति तेऽस्त्विति चासकृत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१६</sup>ततस्तेषामहं वाग्भिस्तर्पितः सहसोत्थितः<br>मातरं सरितां श्रेष्ठामपश्यं रथमास्थिताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१७</sup>हयाश्च मे संगृहीतास्तया वै; महानद्या संयति कौरवेन्द्र<br>पादौ जनन्याः प्रतिपूज्य चाहं; तथार्ष्टिषेणं रथमभ्यरोहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१८</sup>ररक्ष सा मम रथं हयांश्चोपस्कराणि च<br>तामहं प्राञ्जलिर्भूत्वा पुनरेव व्यसर्जयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.१९</sup>ततोऽहं स्वयमुद्यम्य हयांस्तान्वातरंहसः<br>अयुध्यं जामदग्न्येन निवृत्तेऽहनि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२०</sup>ततोऽहं भरतश्रेष्ठ वेगवन्तं महाबलम्<br>अमुञ्चं समरे बाणं रामाय हृदयच्छिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२१</sup>ततो जगाम वसुधां बाणवेगप्रपीडितः<br>जानुभ्यां धनुरुत्सृज्य रामो मोहवशं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२२</sup>ततस्तस्मिन्निपतिते रामे भूरिसहस्रदे<br>आवव्रुर्जलदा व्योम क्षरन्तो रुधिरं बहु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२३</sup>उल्काश्च शतशः पेतुः सनिर्घाताः सकम्पनाः<br>अर्कं च सहसा दीप्तं स्वर्भानुरभिसंवृणोत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२४</sup>ववुश्च वाताः परुषाश्चलिता च वसुंधरा<br>गृध्रा बडाश्च कङ्काश्च परिपेतुर्मुदा युताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२५</sup>दीप्तायां दिशि गोमायुर्दारुणं मुहुरुन्नदत्<br>अनाहता दुन्दुभयो विनेदुर्भृशनिस्वनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२६</sup>एतदौत्पातिकं घोरमासीद्भरतसत्तम<br>विसंज्ञकल्पे धरणीं गते रामे महात्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२७</sup>ततो रविर्मन्दमरीचिमण्डलो; जगामास्तं पांसुपुञ्जावगाढः<br>निशा व्यगाहत्सुखशीतमारुता; ततो युद्धं प्रत्यवहारयावः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८३.२८</sup>एवं राजन्नवहारो बभूव; ततः पुनर्विमलेऽभूत्सुघोरम्<br>काल्यं काल्यं विंशतिं वै दिनानि; तथैव चान्यानि दिनानि त्रीणि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२</sup>ततः प्रभाते राजेन्द्र सूर्ये विमल उद्गते<br>भार्गवस्य मया सार्धं पुनर्युद्धमवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.३</sup>ततो भ्रान्ते रथे तिष्ठन्रामः प्रहरतां वरः<br>ववर्ष शरवर्षाणि मयि शक्र इवाचले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.४</sup>तेन सूतो मम सुहृच्छरवर्षेण ताडितः<br>निपपात रथोपस्थे मनो मम विषादयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.५</sup>ततः सूतः स मेऽत्यर्थं कश्मलं प्राविशन्महत्<br>पृथिव्यां च शराघातान्निपपात मुमोह च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.६</sup>ततः सूतोऽजहात्प्राणान्रामबाणप्रपीडितः<br>मुहूर्तादिव राजेन्द्र मां च भीराविशत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.७</sup>ततः सूते हते राजन्क्षिपतस्तस्य मे शरान्<br>प्रमत्तमनसो रामः प्राहिणोन्मृत्युसंमितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.८</sup>ततः सूतव्यसनिनं विप्लुतं मां स भार्गवः<br>शरेणाभ्यहनद्गाढं विकृष्य बलवद्धनुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.९</sup>स मे जत्र्वन्तरे राजन्निपत्य रुधिराशनः<br>मयैव सह राजेन्द्र जगाम वसुधातलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१०</sup>मत्वा तु निहतं रामस्ततो मां भरतर्षभ<br>मेघवद्व्यनदच्चोच्चैर्जहृषे च पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.११</sup>तथा तु पतिते राजन्मयि रामो मुदा युतः<br>उदक्रोशन्महानादं सह तैरनुयायिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१२</sup>मम तत्राभवन्ये तु कौरवाः पार्श्वतः स्थिताः<br>आगता ये च युद्धं तज्जनास्तत्र दिदृक्षवः<br>आर्तिं परमिकां जग्मुस्ते तदा मयि पातिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१३</sup>ततोऽपश्यं पातितो राजसिंह; द्विजानष्टौ सूर्यहुताशनाभान्<br>ते मां समन्तात्परिवार्य तस्थुः; स्वबाहुभिः परिगृह्याजिमध्ये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१४</sup>रक्ष्यमाणश्च तैर्विप्रैर्नाहं भूमिमुपास्पृशम्<br>अन्तरिक्षे स्थितो ह्यस्मि तैर्विप्रैर्बान्धवैरिव<br>स्वपन्निवान्तरिक्षे च जलबिन्दुभिरुक्षितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१५</sup>ततस्ते ब्राह्मणा राजन्नब्रुवन्परिगृह्य माम्<br>मा भैरिति समं सर्वे स्वस्ति तेऽस्त्विति चासकृत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१६</sup>ततस्तेषामहं वाग्भिस्तर्पितः सहसोत्थितः<br>मातरं सरितां श्रेष्ठामपश्यं रथमास्थिताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१७</sup>हयाश्च मे संगृहीतास्तया वै; महानद्या संयति कौरवेन्द्र<br>पादौ जनन्याः प्रतिपूज्य चाहं; तथार्ष्टिषेणं रथमभ्यरोहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१८</sup>ररक्ष सा मम रथं हयांश्चोपस्कराणि च<br>तामहं प्राञ्जलिर्भूत्वा पुनरेव व्यसर्जयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.१९</sup>ततोऽहं स्वयमुद्यम्य हयांस्तान्वातरंहसः<br>अयुध्यं जामदग्न्येन निवृत्तेऽहनि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२०</sup>ततोऽहं भरतश्रेष्ठ वेगवन्तं महाबलम्<br>अमुञ्चं समरे बाणं रामाय हृदयच्छिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२१</sup>ततो जगाम वसुधां बाणवेगप्रपीडितः<br>जानुभ्यां धनुरुत्सृज्य रामो मोहवशं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२२</sup>ततस्तस्मिन्निपतिते रामे भूरिसहस्रदे<br>आवव्रुर्जलदा व्योम क्षरन्तो रुधिरं बहु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२३</sup>उल्काश्च शतशः पेतुः सनिर्घाताः सकम्पनाः<br>अर्कं च सहसा दीप्तं स्वर्भानुरभिसंवृणोत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२४</sup>ववुश्च वाताः परुषाश्चलिता च वसुंधरा<br>गृध्रा बडाश्च कङ्काश्च परिपेतुर्मुदा युताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२५</sup>दीप्तायां दिशि गोमायुर्दारुणं मुहुरुन्नदत्<br>अनाहता दुन्दुभयो विनेदुर्भृशनिस्वनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२६</sup>एतदौत्पातिकं घोरमासीद्भरतसत्तम<br>विसंज्ञकल्पे धरणीं गते रामे महात्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२७</sup>ततो रविर्मन्दमरीचिमण्डलो; जगामास्तं पांसुपुञ्जावगाढः<br>निशा व्यगाहत्सुखशीतमारुता; ततो युद्धं प्रत्यवहारयावः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८३.२८</sup>एवं राजन्नवहारो बभूव; ततः पुनर्विमलेऽभूत्सुघोरम्<br>काल्यं काल्यं विंशतिं वै दिनानि; तथैव चान्यानि दिनानि त्रीणि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -165,8 +158,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

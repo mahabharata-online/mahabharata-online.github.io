@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/49.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:५०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/51.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/49.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:५०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/51.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२</sup>ततो रामस्य तत्कर्म श्रुत्वा राजा युधिष्ठिरः<br>विस्मयं परमं गत्वा प्रत्युवाच जनार्दनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३</sup>अहो रामस्य वार्ष्णेय शक्रस्येव महात्मनः<br>विक्रमो येन वसुधा क्रोधान्निःक्षत्रिया कृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.४</sup>गोभिः समुद्रेण तथा गोलाङ्गूलर्क्षवानरैः<br>गुप्ता रामभयोद्विग्नाः क्षत्रियाणां कुलोद्वहाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.५</sup>अहो धन्यो हि लोकोऽयं सभाग्याश्च नरा भुवि<br>यत्र कर्मेदृशं धर्म्यं द्विजेन कृतमच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.६</sup>तथा यान्तौ तदा तात तावच्युतयुधिष्ठिरौ<br>जग्मतुर्यत्र गाङ्गेयः शरतल्पगतः प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.७</sup>ततस्ते ददृशुर्भीष्मं शरप्रस्तरशायिनम्<br>स्वरश्मिजालसंवीतं सायंसूर्यमिवानलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.८</sup>उपास्यमानं मुनिभिर्देवैरिव शतक्रतुम्<br>देशे परमधर्मिष्ठे नदीमोघवतीमनु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.९</sup>दूरादेव तमालोक्य कृष्णो राजा च धर्मराट्<br>चत्वारः पाण्डवाश्चैव ते च शारद्वतादयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१०</sup>अवस्कन्द्याथ वाहेभ्यः संयम्य प्रचलं मनः<br>एकीकृत्येन्द्रियग्राममुपतस्थुर्महामुनीन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.११</sup>अभिवाद्य च गोविन्दः सात्यकिस्ते च कौरवाः<br>व्यासादींस्तानृषीन्पश्चाद्गाङ्गेयमुपतस्थिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१२</sup>तपोवृद्धिं ततः पृष्ट्वा गाङ्गेयं यदुकौरवाः<br>परिवार्य ततः सर्वे निषेदुः पुरुषर्षभाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१३</sup>ततो निशम्य गाङ्गेयं शाम्यमानमिवानलम्<br>किंचिद्दीनमना भीष्ममिति होवाच केशवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१४</sup>कच्चिज्ज्ञानानि ते राजन्प्रसन्नानि यथा पुरा<br>कच्चिदव्याकुला चैव बुद्धिस्ते वदतां वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१५</sup>शराभिघातदुःखात्ते कच्चिद्गात्रं न दूयते<br>मानसादपि दुःखाद्धि शारीरं बलवत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१६</sup>वरदानात्पितुः कामं छन्दमृत्युरसि प्रभो<br>शंतनोर्धर्मशीलस्य न त्वेतच्छमकारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१७</sup>सुसूक्ष्मोऽपीह देहे वै शल्यो जनयते रुजम्<br>किं पुनः शरसंघातैश्चितस्य तव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१८</sup>कामं नैतत्तवाख्येयं प्राणिनां प्रभवाप्ययौ<br>भवान्ह्युपदिशेच्छ्रेयो देवानामपि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.१९</sup>यद्धि भूतं भविष्यच्च भवच्च पुरुषर्षभ<br>सर्वं तज्ज्ञानवृद्धस्य तव पाणाविवाहितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२०</sup>संसारश्चैव भूतानां धर्मस्य च फलोदयः<br>विदितस्ते महाप्राज्ञ त्वं हि ब्रह्ममयो निधिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२१</sup>त्वां हि राज्ये स्थितं स्फीते समग्राङ्गमरोगिणम्<br>स्त्रीसहस्रैः परिवृतं पश्यामीहोर्ध्वरेतसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२२</sup>ऋते शांतनवाद्भीष्मात्त्रिषु लोकेषु पार्थिव<br>सत्यसंधान्महावीर्याच्छूराद्धर्मैकतत्परात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२३</sup>मृत्युमावार्य तरसा शरप्रस्तरशायिनः<br>निसर्गप्रभवं किंचिन्न च तातानुशुश्रुम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२४</sup>सत्ये तपसि दाने च यज्ञाधिकरणे तथा<br>धनुर्वेदे च वेदे च नित्यं चैवान्ववेक्षणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२५</sup>अनृशंसं शुचिं दान्तं सर्वभूतहिते रतम्<br>महारथं त्वत्सदृशं न कंचिदनुशुश्रुम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२६</sup>त्वं हि देवान्सगन्धर्वान्ससुरासुरराक्षसान्<br>शक्त एकरथेनैव विजेतुं नात्र संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२७</sup>त्वं हि भीष्म महाबाहो वसूनां वासवोपमः<br>नित्यं विप्रैः समाख्यातो नवमोऽनवमो गुणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२८</sup>अहं हि त्वाभिजानामि यस्त्वं पुरुषसत्तम<br>त्रिदशेष्वपि विख्यातः स्वशक्त्या सुमहाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.२९</sup>मनुष्येषु मनुष्येन्द्र न दृष्टो न च मे श्रुतः<br>भवतो यो गुणैस्तुल्यः पृथिव्यां पुरुषः क्वचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३०</sup>त्वं हि सर्वैर्गुणै राजन्देवानप्यतिरिच्यसे<br>तपसा हि भवाञ्शक्तः स्रष्टुं लोकांश्चराचरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३१</sup>तदस्य तप्यमानस्य ज्ञातीनां संक्षयेण वै<br>ज्येष्ठस्य पाण्डुपुत्रस्य शोकं भीष्म व्यपानुद
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३२</sup>ये हि धर्माः समाख्याताश्चातुर्वर्ण्यस्य भारत<br>चातुराश्रम्यसंसृष्टास्ते सर्वे विदितास्तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३३</sup>चातुर्वेद्ये च ये प्रोक्ताश्चातुर्होत्रे च भारत<br>सांख्ये योगे च नियता ये च धर्माः सनातनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३४</sup>चातुर्वर्ण्येन यश्चैको धर्मो न स्म विरुध्यते<br>सेव्यमानः स चैवाद्यो गाङ्गेय विदितस्तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३५</sup>इतिहासपुराणं च कार्त्स्न्येन विदितं तव<br>धर्मशास्त्रं च सकलं नित्यं मनसि ते स्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३६</sup>ये च केचन लोकेऽस्मिन्नर्थाः संशयकारकाः<br>तेषां छेत्ता नास्ति लोके त्वदन्यः पुरुषर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.५०.३७</sup>स पाण्डवेयस्य मनःसमुत्थितं; नरेन्द्र शोकं व्यपकर्ष मेधया<br>भवद्विधा ह्युत्तमबुद्धिविस्तरा; विमुह्यमानस्य जनस्य शान्तये
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२</sup>ततो रामस्य तत्कर्म श्रुत्वा राजा युधिष्ठिरः<br>विस्मयं परमं गत्वा प्रत्युवाच जनार्दनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३</sup>अहो रामस्य वार्ष्णेय शक्रस्येव महात्मनः<br>विक्रमो येन वसुधा क्रोधान्निःक्षत्रिया कृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.४</sup>गोभिः समुद्रेण तथा गोलाङ्गूलर्क्षवानरैः<br>गुप्ता रामभयोद्विग्नाः क्षत्रियाणां कुलोद्वहाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.५</sup>अहो धन्यो हि लोकोऽयं सभाग्याश्च नरा भुवि<br>यत्र कर्मेदृशं धर्म्यं द्विजेन कृतमच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.६</sup>तथा यान्तौ तदा तात तावच्युतयुधिष्ठिरौ<br>जग्मतुर्यत्र गाङ्गेयः शरतल्पगतः प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.७</sup>ततस्ते ददृशुर्भीष्मं शरप्रस्तरशायिनम्<br>स्वरश्मिजालसंवीतं सायंसूर्यमिवानलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.८</sup>उपास्यमानं मुनिभिर्देवैरिव शतक्रतुम्<br>देशे परमधर्मिष्ठे नदीमोघवतीमनु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.९</sup>दूरादेव तमालोक्य कृष्णो राजा च धर्मराट्<br>चत्वारः पाण्डवाश्चैव ते च शारद्वतादयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१०</sup>अवस्कन्द्याथ वाहेभ्यः संयम्य प्रचलं मनः<br>एकीकृत्येन्द्रियग्राममुपतस्थुर्महामुनीन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.११</sup>अभिवाद्य च गोविन्दः सात्यकिस्ते च कौरवाः<br>व्यासादींस्तानृषीन्पश्चाद्गाङ्गेयमुपतस्थिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१२</sup>तपोवृद्धिं ततः पृष्ट्वा गाङ्गेयं यदुकौरवाः<br>परिवार्य ततः सर्वे निषेदुः पुरुषर्षभाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१३</sup>ततो निशम्य गाङ्गेयं शाम्यमानमिवानलम्<br>किंचिद्दीनमना भीष्ममिति होवाच केशवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१४</sup>कच्चिज्ज्ञानानि ते राजन्प्रसन्नानि यथा पुरा<br>कच्चिदव्याकुला चैव बुद्धिस्ते वदतां वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१५</sup>शराभिघातदुःखात्ते कच्चिद्गात्रं न दूयते<br>मानसादपि दुःखाद्धि शारीरं बलवत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१६</sup>वरदानात्पितुः कामं छन्दमृत्युरसि प्रभो<br>शंतनोर्धर्मशीलस्य न त्वेतच्छमकारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१७</sup>सुसूक्ष्मोऽपीह देहे वै शल्यो जनयते रुजम्<br>किं पुनः शरसंघातैश्चितस्य तव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१८</sup>कामं नैतत्तवाख्येयं प्राणिनां प्रभवाप्ययौ<br>भवान्ह्युपदिशेच्छ्रेयो देवानामपि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.१९</sup>यद्धि भूतं भविष्यच्च भवच्च पुरुषर्षभ<br>सर्वं तज्ज्ञानवृद्धस्य तव पाणाविवाहितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२०</sup>संसारश्चैव भूतानां धर्मस्य च फलोदयः<br>विदितस्ते महाप्राज्ञ त्वं हि ब्रह्ममयो निधिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२१</sup>त्वां हि राज्ये स्थितं स्फीते समग्राङ्गमरोगिणम्<br>स्त्रीसहस्रैः परिवृतं पश्यामीहोर्ध्वरेतसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२२</sup>ऋते शांतनवाद्भीष्मात्त्रिषु लोकेषु पार्थिव<br>सत्यसंधान्महावीर्याच्छूराद्धर्मैकतत्परात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२३</sup>मृत्युमावार्य तरसा शरप्रस्तरशायिनः<br>निसर्गप्रभवं किंचिन्न च तातानुशुश्रुम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२४</sup>सत्ये तपसि दाने च यज्ञाधिकरणे तथा<br>धनुर्वेदे च वेदे च नित्यं चैवान्ववेक्षणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२५</sup>अनृशंसं शुचिं दान्तं सर्वभूतहिते रतम्<br>महारथं त्वत्सदृशं न कंचिदनुशुश्रुम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२६</sup>त्वं हि देवान्सगन्धर्वान्ससुरासुरराक्षसान्<br>शक्त एकरथेनैव विजेतुं नात्र संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२७</sup>त्वं हि भीष्म महाबाहो वसूनां वासवोपमः<br>नित्यं विप्रैः समाख्यातो नवमोऽनवमो गुणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२८</sup>अहं हि त्वाभिजानामि यस्त्वं पुरुषसत्तम<br>त्रिदशेष्वपि विख्यातः स्वशक्त्या सुमहाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.२९</sup>मनुष्येषु मनुष्येन्द्र न दृष्टो न च मे श्रुतः<br>भवतो यो गुणैस्तुल्यः पृथिव्यां पुरुषः क्वचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३०</sup>त्वं हि सर्वैर्गुणै राजन्देवानप्यतिरिच्यसे<br>तपसा हि भवाञ्शक्तः स्रष्टुं लोकांश्चराचरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३१</sup>तदस्य तप्यमानस्य ज्ञातीनां संक्षयेण वै<br>ज्येष्ठस्य पाण्डुपुत्रस्य शोकं भीष्म व्यपानुद
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३२</sup>ये हि धर्माः समाख्याताश्चातुर्वर्ण्यस्य भारत<br>चातुराश्रम्यसंसृष्टास्ते सर्वे विदितास्तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३३</sup>चातुर्वेद्ये च ये प्रोक्ताश्चातुर्होत्रे च भारत<br>सांख्ये योगे च नियता ये च धर्माः सनातनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३४</sup>चातुर्वर्ण्येन यश्चैको धर्मो न स्म विरुध्यते<br>सेव्यमानः स चैवाद्यो गाङ्गेय विदितस्तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३५</sup>इतिहासपुराणं च कार्त्स्न्येन विदितं तव<br>धर्मशास्त्रं च सकलं नित्यं मनसि ते स्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३६</sup>ये च केचन लोकेऽस्मिन्नर्थाः संशयकारकाः<br>तेषां छेत्ता नास्ति लोके त्वदन्यः पुरुषर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.५०.३७</sup>स पाण्डवेयस्य मनःसमुत्थितं; नरेन्द्र शोकं व्यपकर्ष मेधया<br>भवद्विधा ह्युत्तमबुद्धिविस्तरा; विमुह्यमानस्य जनस्य शान्तये
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/62.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:६३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/64.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,136 +64,101 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/62.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:६३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/64.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२</sup>ज्याकर्षणं शत्रुनिबर्हणं च; कृषिर्वणिज्या पशुपालनं च<br>शुश्रूषणं चापि तथार्थहेतो;रकार्यमेतत्परमं द्विजस्य
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.३</sup>सेव्यं तु ब्रह्मषट्कर्म गृहस्थेन मनीषिणा<br>कृतकृत्यस्य चारण्ये वासो विप्रस्य शस्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.४</sup>राजप्रैष्यं कृषिधनं जीवनं च वणिज्यया<br>कौटिल्यं कौलटेयं च कुसीदं च विवर्जयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.५</sup>शूद्रो राजन्भवति ब्रह्मबन्धु;र्दुश्चारित्र्यो यश्च धर्मादपेतः<br>वृषलीपतिः पिशुनो नर्तकश्च; ग्रामप्रैष्यो यश्च भवेद्विकर्मा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.६</sup>जपन्वेदानजपंश्चापि राज;न्समः शूद्रैर्दासवच्चापि भोज्यः<br>एते सर्वे शूद्रसमा भवन्ति; राजन्नेतान्वर्जयेद्देवकृत्ये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.७</sup>निर्मर्यादे चाशने क्रूरवृत्तौ; हिंसात्मके त्यक्तधर्मस्ववृत्ते<br>हव्यं कव्यं यानि चान्यानि राज;न्देयान्यदेयानि भवन्ति तस्मिन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.८</sup>तस्माद्धर्मो विहितो ब्राह्मणस्य; दमः शौचं चार्जवं चापि राजन्<br>तथा विप्रस्याश्रमाः सर्व एव; पुरा राजन्ब्रह्मणा वै निसृष्टाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.९</sup>यः स्याद्दान्तः सोमप आर्यशीलः; सानुक्रोशः सर्वसहो निराशीः<br>ऋजुर्मृदुरनृशंसः क्षमावा;न्स वै विप्रो नेतरः पापकर्मा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१०</sup>शूद्रं वैश्यं राजपुत्रं च राजँ;ल्लोकाः सर्वे संश्रिता धर्मकामाः<br>तस्माद्वर्णाञ्जातिधर्मेषु सक्ता;न्मत्वा विष्णुर्नेच्छति पाण्डुपुत्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.११</sup>लोके चेदं सर्वलोकस्य न स्या;च्चातुर्वर्ण्यं वेदवादाश्च न स्युः<br>सर्वाश्चेज्याः सर्वलोकक्रियाश्च; सद्यः सर्वे चाश्रमस्था न वै स्युः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१२</sup>यश्च त्रयाणां वर्णानामिच्छेदाश्रमसेवनम्<br>कर्तुमाश्रमदृष्टांश्च धर्मांस्ताञ्शृणु पाण्डव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१३</sup>शुश्रूषाकृतकृत्यस्य कृतसंतानकर्मणः<br>अभ्यनुज्ञाप्य राजानं शूद्रस्य जगतीपते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१४</sup>अल्पान्तरगतस्यापि दशधर्मगतस्य वा<br>आश्रमा विहिताः सर्वे वर्जयित्वा निराशिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१५</sup>भैक्षचर्यां न तु प्राहुस्तस्य तद्धर्मचारिणः<br>तथा वैश्यस्य राजेन्द्र राजपुत्रस्य चैव हि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१६</sup>कृतकृत्यो वयोतीतो राज्ञः कृतपरिश्रमः<br>वैश्यो गच्छेदनुज्ञातो नृपेणाश्रममण्डलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१७</sup>वेदानधीत्य धर्मेण राजशास्त्राणि चानघ<br>संतानादीनि कर्माणि कृत्वा सोमं निषेव्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१८</sup>पालयित्वा प्रजाः सर्वा धर्मेण वदतां वर<br>राजसूयाश्वमेधादीन्मखानन्यांस्तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.१९</sup>समानीय यथापाठं विप्रेभ्यो दत्तदक्षिणः<br>संग्रामे विजयं प्राप्य तथाल्पं यदि वा बहु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२०</sup>स्थापयित्वा प्रजापालं पुत्रं राज्ये च पाण्डव<br>अन्यगोत्रं प्रशस्तं वा क्षत्रियं क्षत्रियर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२१</sup>अर्चयित्वा पितॄन्सम्यक्पितृयज्ञैर्यथाविधि<br>देवान्यज्ञैरृषीन्वेदैरर्चित्वा चैव यत्नतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२२</sup>अन्तकाले च संप्राप्ते य इच्छेदाश्रमान्तरम्<br>आनुपूर्व्याश्रमान्राजन्गत्वा सिद्धिमवाप्नुयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२३</sup>राजर्षित्वेन राजेन्द्र भैक्षचर्याध्वसेवया<br>अपेतगृहधर्मोऽपि चरेज्जीवितकाम्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२४</sup>न चैतन्नैष्ठिकं कर्म त्रयाणां भरतर्षभ<br>चतुर्णां राजशार्दूल प्राहुराश्रमवासिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२५</sup>बह्वायत्तं क्षत्रियैर्मानवानां; लोकश्रेष्ठं धर्ममासेवमानैः<br>सर्वे धर्माः सोपधर्मास्त्रयाणां; राज्ञो धर्मादिति वेदाच्छृणोमि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२६</sup>यथा राजन्हस्तिपदे पदानि; संलीयन्ते सर्वसत्त्वोद्भवानि<br>एवं धर्मान्राजधर्मेषु सर्वा;न्सर्वावस्थं संप्रलीनान्निबोध
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२७</sup>अल्पाश्रयानल्पफलान्वदन्ति; धर्मानन्यान्धर्मविदो मनुष्याः<br>महाश्रयं बहुकल्याणरूपं; क्षात्रं धर्मं नेतरं प्राहुरार्याः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२८</sup>सर्वे धर्मा राजधर्मप्रधानाः; सर्वे धर्माः पाल्यमाना भवन्ति<br>सर्वत्यागो राजधर्मेषु राजं;स्त्यागे चाहुर्धर्ममग्र्यं पुराणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.२९</sup>मज्जेत्त्रयी दण्डनीतौ हतायां; सर्वे धर्मा न भवेयुर्विरुद्धाः<br>सर्वे धर्माश्चाश्रमाणां गताः स्युः; क्षात्रे त्यक्ते राजधर्मे पुराणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.३०</sup>सर्वे त्यागा राजधर्मेषु दृष्टाः; सर्वा दीक्षा राजधर्मेषु चोक्ताः<br>सर्वे योगा राजधर्मेषु चोक्ताः; सर्वे लोका राजधर्मान्प्रविष्टाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६३.३१</sup>यथा जीवाः प्रकृतौ वध्यमाना; धर्माश्रितानामुपपीडनाय<br>एवं धर्मा राजधर्मैर्वियुक्ताः; सर्वावस्थं नाद्रियन्ते स्वधर्मम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२</sup>ज्याकर्षणं शत्रुनिबर्हणं च; कृषिर्वणिज्या पशुपालनं च<br>शुश्रूषणं चापि तथार्थहेतो;रकार्यमेतत्परमं द्विजस्य
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.३</sup>सेव्यं तु ब्रह्मषट्कर्म गृहस्थेन मनीषिणा<br>कृतकृत्यस्य चारण्ये वासो विप्रस्य शस्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.४</sup>राजप्रैष्यं कृषिधनं जीवनं च वणिज्यया<br>कौटिल्यं कौलटेयं च कुसीदं च विवर्जयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.५</sup>शूद्रो राजन्भवति ब्रह्मबन्धु;र्दुश्चारित्र्यो यश्च धर्मादपेतः<br>वृषलीपतिः पिशुनो नर्तकश्च; ग्रामप्रैष्यो यश्च भवेद्विकर्मा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.६</sup>जपन्वेदानजपंश्चापि राज;न्समः शूद्रैर्दासवच्चापि भोज्यः<br>एते सर्वे शूद्रसमा भवन्ति; राजन्नेतान्वर्जयेद्देवकृत्ये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.७</sup>निर्मर्यादे चाशने क्रूरवृत्तौ; हिंसात्मके त्यक्तधर्मस्ववृत्ते<br>हव्यं कव्यं यानि चान्यानि राज;न्देयान्यदेयानि भवन्ति तस्मिन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.८</sup>तस्माद्धर्मो विहितो ब्राह्मणस्य; दमः शौचं चार्जवं चापि राजन्<br>तथा विप्रस्याश्रमाः सर्व एव; पुरा राजन्ब्रह्मणा वै निसृष्टाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.९</sup>यः स्याद्दान्तः सोमप आर्यशीलः; सानुक्रोशः सर्वसहो निराशीः<br>ऋजुर्मृदुरनृशंसः क्षमावा;न्स वै विप्रो नेतरः पापकर्मा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१०</sup>शूद्रं वैश्यं राजपुत्रं च राजँ;ल्लोकाः सर्वे संश्रिता धर्मकामाः<br>तस्माद्वर्णाञ्जातिधर्मेषु सक्ता;न्मत्वा विष्णुर्नेच्छति पाण्डुपुत्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.११</sup>लोके चेदं सर्वलोकस्य न स्या;च्चातुर्वर्ण्यं वेदवादाश्च न स्युः<br>सर्वाश्चेज्याः सर्वलोकक्रियाश्च; सद्यः सर्वे चाश्रमस्था न वै स्युः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१२</sup>यश्च त्रयाणां वर्णानामिच्छेदाश्रमसेवनम्<br>कर्तुमाश्रमदृष्टांश्च धर्मांस्ताञ्शृणु पाण्डव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१३</sup>शुश्रूषाकृतकृत्यस्य कृतसंतानकर्मणः<br>अभ्यनुज्ञाप्य राजानं शूद्रस्य जगतीपते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१४</sup>अल्पान्तरगतस्यापि दशधर्मगतस्य वा<br>आश्रमा विहिताः सर्वे वर्जयित्वा निराशिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१५</sup>भैक्षचर्यां न तु प्राहुस्तस्य तद्धर्मचारिणः<br>तथा वैश्यस्य राजेन्द्र राजपुत्रस्य चैव हि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१६</sup>कृतकृत्यो वयोतीतो राज्ञः कृतपरिश्रमः<br>वैश्यो गच्छेदनुज्ञातो नृपेणाश्रममण्डलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१७</sup>वेदानधीत्य धर्मेण राजशास्त्राणि चानघ<br>संतानादीनि कर्माणि कृत्वा सोमं निषेव्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१८</sup>पालयित्वा प्रजाः सर्वा धर्मेण वदतां वर<br>राजसूयाश्वमेधादीन्मखानन्यांस्तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.१९</sup>समानीय यथापाठं विप्रेभ्यो दत्तदक्षिणः<br>संग्रामे विजयं प्राप्य तथाल्पं यदि वा बहु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२०</sup>स्थापयित्वा प्रजापालं पुत्रं राज्ये च पाण्डव<br>अन्यगोत्रं प्रशस्तं वा क्षत्रियं क्षत्रियर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२१</sup>अर्चयित्वा पितॄन्सम्यक्पितृयज्ञैर्यथाविधि<br>देवान्यज्ञैरृषीन्वेदैरर्चित्वा चैव यत्नतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२२</sup>अन्तकाले च संप्राप्ते य इच्छेदाश्रमान्तरम्<br>आनुपूर्व्याश्रमान्राजन्गत्वा सिद्धिमवाप्नुयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२३</sup>राजर्षित्वेन राजेन्द्र भैक्षचर्याध्वसेवया<br>अपेतगृहधर्मोऽपि चरेज्जीवितकाम्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२४</sup>न चैतन्नैष्ठिकं कर्म त्रयाणां भरतर्षभ<br>चतुर्णां राजशार्दूल प्राहुराश्रमवासिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२५</sup>बह्वायत्तं क्षत्रियैर्मानवानां; लोकश्रेष्ठं धर्ममासेवमानैः<br>सर्वे धर्माः सोपधर्मास्त्रयाणां; राज्ञो धर्मादिति वेदाच्छृणोमि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२६</sup>यथा राजन्हस्तिपदे पदानि; संलीयन्ते सर्वसत्त्वोद्भवानि<br>एवं धर्मान्राजधर्मेषु सर्वा;न्सर्वावस्थं संप्रलीनान्निबोध
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२७</sup>अल्पाश्रयानल्पफलान्वदन्ति; धर्मानन्यान्धर्मविदो मनुष्याः<br>महाश्रयं बहुकल्याणरूपं; क्षात्रं धर्मं नेतरं प्राहुरार्याः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२८</sup>सर्वे धर्मा राजधर्मप्रधानाः; सर्वे धर्माः पाल्यमाना भवन्ति<br>सर्वत्यागो राजधर्मेषु राजं;स्त्यागे चाहुर्धर्ममग्र्यं पुराणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.२९</sup>मज्जेत्त्रयी दण्डनीतौ हतायां; सर्वे धर्मा न भवेयुर्विरुद्धाः<br>सर्वे धर्माश्चाश्रमाणां गताः स्युः; क्षात्रे त्यक्ते राजधर्मे पुराणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.३०</sup>सर्वे त्यागा राजधर्मेषु दृष्टाः; सर्वा दीक्षा राजधर्मेषु चोक्ताः<br>सर्वे योगा राजधर्मेषु चोक्ताः; सर्वे लोका राजधर्मान्प्रविष्टाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६३.३१</sup>यथा जीवाः प्रकृतौ वध्यमाना; धर्माश्रितानामुपपीडनाय<br>एवं धर्मा राजधर्मैर्वियुक्ताः; सर्वावस्थं नाद्रियन्ते स्वधर्मम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -174,8 +167,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

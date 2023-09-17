@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/11/17.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>११:१८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/11/19.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,130 +64,95 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/11/17.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">११:१८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/11/19.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१</sup>गान्धार्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२</sup>पश्य माधव पुत्रान्मे शतसंख्याञ्जितक्लमान्<br>गदया भीमसेनेन भूयिष्ठं निहतान्रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.३</sup>इदं दुःखतरं मेऽद्य यदिमा मुक्तमूर्धजाः<br>हतपुत्रा रणे बालाः परिधावन्ति मे स्नुषाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.४</sup>प्रासादतलचारिण्यश्चरणैर्भूषणान्वितैः<br>आपन्ना यत्स्पृशन्तीमा रुधिरार्द्रां वसुंधराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.५</sup>गृध्रानुत्सारयन्त्यश्च गोमायून्वायसांस्तथा<br>शोकेनार्ता विघूर्णन्त्यो मत्ता इव चरन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.६</sup>एषान्या त्वनवद्याङ्गी करसंमितमध्यमा<br>घोरं तद्वैशसं दृष्ट्वा निपतत्यतिदुःखिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.७</sup>दृष्ट्वा मे पार्थिवसुतामेतां लक्ष्मणमातरम्<br>राजपुत्रीं महाबाहो मनो न व्युपशाम्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.८</sup>भ्रातॄंश्चान्याः पतींश्चान्याः पुत्रांश्च निहतान्भुवि<br>दृष्ट्वा परिपतन्त्येताः प्रगृह्य सुभुजा भुजान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.९</sup>मध्यमानां तु नारीणां वृद्धानां चापराजित<br>आक्रन्दं हतबन्धूनां दारुणे वैशसे शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१०</sup>रथनीडानि देहांश्च हतानां गजवाजिनाम्<br>आश्रिताः श्रममोहार्ताः स्थिताः पश्य महाबल
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.११</sup>अन्या चापहृतं कायाच्चारुकुण्डलमुन्नसम्<br>स्वस्य बन्धोः शिरः कृष्ण गृहीत्वा पश्य तिष्ठति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१२</sup>पूर्वजातिकृतं पापं मन्ये नाल्पमिवानघ<br>एताभिरनवद्याभिर्मया चैवाल्पमेधया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१३</sup>तदिदं धर्मराजेन यातितं नो जनार्दन<br>न हि नाशोऽस्ति वार्ष्णेय कर्मणोः शुभपापयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१४</sup>प्रत्यग्रवयसः पश्य दर्शनीयकुचोदराः<br>कुलेषु जाता ह्रीमत्यः कृष्णपक्षाक्षिमूर्धजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१५</sup>हंसगद्गदभाषिण्यो दुःखशोकप्रमोहिताः<br>सारस्य इव वाशन्त्यः पतिताः पश्य माधव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१६</sup>फुल्लपद्मप्रकाशानि पुण्डरीकाक्ष योषिताम्<br>अनवद्यानि वक्त्राणि तपत्यसुखरश्मिवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१७</sup>ईर्षूणां मम पुत्राणां वासुदेवावरोधनम्<br>मत्तमातङ्गदर्पाणां पश्यन्त्यद्य पृथग्जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१८</sup>शतचन्द्राणि चर्माणि ध्वजांश्चादित्यसंनिभान्<br>रौक्माणि चैव वर्माणि निष्कानपि च काञ्चनान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.१९</sup>शीर्षत्राणानि चैतानि पुत्राणां मे महीतले<br>पश्य दीप्तानि गोविन्द पावकान्सुहुतानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२०</sup>एष दुःशासनः शेते शूरेणामित्रघातिना<br>पीतशोणितसर्वाङ्गो भीमसेनेन पातितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२१</sup>गदया वीरघातिन्या पश्य माधव मे सुतम्<br>द्यूतक्लेशाननुस्मृत्य द्रौपद्या चोदितेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२२</sup>उक्ता ह्यनेन पाञ्चाली सभायां द्यूतनिर्जिता<br>प्रियं चिकीर्षता भ्रातुः कर्णस्य च जनार्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२३</sup>सहैव सहदेवेन नकुलेनार्जुनेन च<br>दासभार्यासि पाञ्चालि क्षिप्रं प्रविश नो गृहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२४</sup>ततोऽहमब्रुवं कृष्ण तदा दुर्योधनं नृपम्<br>मृत्युपाशपरिक्षिप्तं शकुनिं पुत्र वर्जय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२५</sup>निबोधैनं सुदुर्बुद्धिं मातुलं कलहप्रियम्<br>क्षिप्रमेनं परित्यज्य पुत्र शाम्यस्व पाण्डवैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२६</sup>न बुध्यसे त्वं दुर्बुद्धे भीमसेनममर्षणम्<br>वाङ्नाराचैस्तुदंस्तीक्ष्णैरुल्काभिरिव कुञ्जरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२७</sup>तानेष रभसः क्रूरो वाक्शल्यानवधारयन्<br>उत्ससर्ज विषं तेषु सर्पो गोवृषभेष्विव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२८</sup>एष दुःशासनः शेते विक्षिप्य विपुलौ भुजौ<br>निहतो भीमसेनेन सिंहेनेव महर्षभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.१८.२९</sup>अत्यर्थमकरोद्रौद्रं भीमसेनोऽत्यमर्षणः<br>दुःशासनस्य यत्क्रुद्धोऽपिबच्छोणितमाहवे
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१</sup>गान्धार्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२</sup>पश्य माधव पुत्रान्मे शतसंख्याञ्जितक्लमान्<br>गदया भीमसेनेन भूयिष्ठं निहतान्रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.३</sup>इदं दुःखतरं मेऽद्य यदिमा मुक्तमूर्धजाः<br>हतपुत्रा रणे बालाः परिधावन्ति मे स्नुषाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.४</sup>प्रासादतलचारिण्यश्चरणैर्भूषणान्वितैः<br>आपन्ना यत्स्पृशन्तीमा रुधिरार्द्रां वसुंधराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.५</sup>गृध्रानुत्सारयन्त्यश्च गोमायून्वायसांस्तथा<br>शोकेनार्ता विघूर्णन्त्यो मत्ता इव चरन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.६</sup>एषान्या त्वनवद्याङ्गी करसंमितमध्यमा<br>घोरं तद्वैशसं दृष्ट्वा निपतत्यतिदुःखिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.७</sup>दृष्ट्वा मे पार्थिवसुतामेतां लक्ष्मणमातरम्<br>राजपुत्रीं महाबाहो मनो न व्युपशाम्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.८</sup>भ्रातॄंश्चान्याः पतींश्चान्याः पुत्रांश्च निहतान्भुवि<br>दृष्ट्वा परिपतन्त्येताः प्रगृह्य सुभुजा भुजान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.९</sup>मध्यमानां तु नारीणां वृद्धानां चापराजित<br>आक्रन्दं हतबन्धूनां दारुणे वैशसे शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१०</sup>रथनीडानि देहांश्च हतानां गजवाजिनाम्<br>आश्रिताः श्रममोहार्ताः स्थिताः पश्य महाबल
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.११</sup>अन्या चापहृतं कायाच्चारुकुण्डलमुन्नसम्<br>स्वस्य बन्धोः शिरः कृष्ण गृहीत्वा पश्य तिष्ठति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१२</sup>पूर्वजातिकृतं पापं मन्ये नाल्पमिवानघ<br>एताभिरनवद्याभिर्मया चैवाल्पमेधया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१३</sup>तदिदं धर्मराजेन यातितं नो जनार्दन<br>न हि नाशोऽस्ति वार्ष्णेय कर्मणोः शुभपापयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१४</sup>प्रत्यग्रवयसः पश्य दर्शनीयकुचोदराः<br>कुलेषु जाता ह्रीमत्यः कृष्णपक्षाक्षिमूर्धजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१५</sup>हंसगद्गदभाषिण्यो दुःखशोकप्रमोहिताः<br>सारस्य इव वाशन्त्यः पतिताः पश्य माधव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१६</sup>फुल्लपद्मप्रकाशानि पुण्डरीकाक्ष योषिताम्<br>अनवद्यानि वक्त्राणि तपत्यसुखरश्मिवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१७</sup>ईर्षूणां मम पुत्राणां वासुदेवावरोधनम्<br>मत्तमातङ्गदर्पाणां पश्यन्त्यद्य पृथग्जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१८</sup>शतचन्द्राणि चर्माणि ध्वजांश्चादित्यसंनिभान्<br>रौक्माणि चैव वर्माणि निष्कानपि च काञ्चनान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.१९</sup>शीर्षत्राणानि चैतानि पुत्राणां मे महीतले<br>पश्य दीप्तानि गोविन्द पावकान्सुहुतानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२०</sup>एष दुःशासनः शेते शूरेणामित्रघातिना<br>पीतशोणितसर्वाङ्गो भीमसेनेन पातितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२१</sup>गदया वीरघातिन्या पश्य माधव मे सुतम्<br>द्यूतक्लेशाननुस्मृत्य द्रौपद्या चोदितेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२२</sup>उक्ता ह्यनेन पाञ्चाली सभायां द्यूतनिर्जिता<br>प्रियं चिकीर्षता भ्रातुः कर्णस्य च जनार्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२३</sup>सहैव सहदेवेन नकुलेनार्जुनेन च<br>दासभार्यासि पाञ्चालि क्षिप्रं प्रविश नो गृहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२४</sup>ततोऽहमब्रुवं कृष्ण तदा दुर्योधनं नृपम्<br>मृत्युपाशपरिक्षिप्तं शकुनिं पुत्र वर्जय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२५</sup>निबोधैनं सुदुर्बुद्धिं मातुलं कलहप्रियम्<br>क्षिप्रमेनं परित्यज्य पुत्र शाम्यस्व पाण्डवैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२६</sup>न बुध्यसे त्वं दुर्बुद्धे भीमसेनममर्षणम्<br>वाङ्नाराचैस्तुदंस्तीक्ष्णैरुल्काभिरिव कुञ्जरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२७</sup>तानेष रभसः क्रूरो वाक्शल्यानवधारयन्<br>उत्ससर्ज विषं तेषु सर्पो गोवृषभेष्विव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२८</sup>एष दुःशासनः शेते विक्षिप्य विपुलौ भुजौ<br>निहतो भीमसेनेन सिंहेनेव महर्षभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.१८.२९</sup>अत्यर्थमकरोद्रौद्रं भीमसेनोऽत्यमर्षणः<br>दुःशासनस्य यत्क्रुद्धोऽपिबच्छोणितमाहवे
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -168,8 +161,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

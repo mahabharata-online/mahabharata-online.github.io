@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/7.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/9.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/7.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/9.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२</sup>युधिष्ठिर महाबाहो यदाह कुरुनन्दनः<br>धृतराष्ट्रो महात्मा त्वां तत्कुरुष्वाविचारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.३</sup>अयं हि वृद्धो नृपतिर्हतपुत्रो विशेषतः<br>नेदं कृच्छ्रं चिरतरं सहेदिति मतिर्मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.४</sup>गान्धारी च महाभागा प्राज्ञा करुणवेदिनी<br>पुत्रशोकं महाराज धैर्येणोद्वहते भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.५</sup>अहमप्येतदेव त्वां ब्रवीमि कुरु मे वचः<br>अनुज्ञां लभतां राजा मा वृथेह मरिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.६</sup>राजर्षीणां पुराणानामनुयातु गतिं नृपः<br>राजर्षीणां हि सर्वेषामन्ते वनमुपाश्रयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.७</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.८</sup>इत्युक्तः स तदा राजा व्यासेनाद्भुतकर्मणा<br>प्रत्युवाच महातेजा धर्मराजो युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.९</sup>भगवानेव नो मान्यो भगवानेव नो गुरुः<br>भगवानस्य राज्यस्य कुलस्य च परायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१०</sup>अहं तु पुत्रो भगवान्पिता राजा गुरुश्च मे<br>निदेशवर्ती च पितुः पुत्रो भवति धर्मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.११</sup>इत्युक्तः स तु तं प्राह व्यासो धर्मभृतां वरः<br>युधिष्ठिरं महातेजाः पुनरेव विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१२</sup>एवमेतन्महाबाहो यथा वदसि भारत<br>राजायं वृद्धतां प्राप्तः प्रमाणे परमे स्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१३</sup>सोऽयं मयाभ्यनुज्ञातस्त्वया च पृथिवीपते<br>करोतु स्वमभिप्रायं मास्य विघ्नकरो भव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१४</sup>एष एव परो धर्मो राजर्षीणां युधिष्ठिर<br>समरे वा भवेन्मृत्युर्वने वा विधिपूर्वकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१५</sup>पित्रा तु तव राजेन्द्र पाण्डुना पृथिवीक्षिता<br>शिष्यभूतेन राजायं गुरुवत्पर्युपासितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१६</sup>क्रतुभिर्दक्षिणावद्भिरन्नपर्वतशोभितैः<br>महद्भिरिष्टं भोगाश्च भुक्ताः पुत्राश्च पालिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१७</sup>पुत्रसंस्थं च विपुलं राज्यं विप्रोषिते त्वयि<br>त्रयोदशसमा भुक्तं दत्तं च विविधं वसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१८</sup>त्वया चायं नरव्याघ्र गुरुशुश्रूषया नृपः<br>आराधितः सभृत्येन गान्धारी च यशस्विनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.१९</sup>अनुजानीहि पितरं समयोऽस्य तपोविधौ<br>न मन्युर्विद्यते चास्य सुसूक्ष्मोऽपि युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२०</sup>एतावदुक्त्वा वचनमनुज्ञाप्य च पार्थिवम्<br>तथास्त्विति च तेनोक्तः कौन्तेयेन ययौ वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२१</sup>गते भगवति व्यासे राजा पाण्डुसुतस्ततः<br>प्रोवाच पितरं वृद्धं मन्दं मन्दमिवानतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२२</sup>यदाह भगवान्व्यासो यच्चापि भवतो मतम्<br>यदाह च महेष्वासः कृपो विदुर एव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२३</sup>युयुत्सुः संजयश्चैव तत्कर्तास्म्यहमञ्जसा<br>सर्वे ह्येतेऽनुमान्या मे कुलस्यास्य हितैषिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.८.२४</sup>इदं तु याचे नृपते त्वामहं शिरसा नतः<br>क्रियतां तावदाहारस्ततो गच्छाश्रमं प्रति
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२</sup>युधिष्ठिर महाबाहो यदाह कुरुनन्दनः<br>धृतराष्ट्रो महात्मा त्वां तत्कुरुष्वाविचारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.३</sup>अयं हि वृद्धो नृपतिर्हतपुत्रो विशेषतः<br>नेदं कृच्छ्रं चिरतरं सहेदिति मतिर्मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.४</sup>गान्धारी च महाभागा प्राज्ञा करुणवेदिनी<br>पुत्रशोकं महाराज धैर्येणोद्वहते भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.५</sup>अहमप्येतदेव त्वां ब्रवीमि कुरु मे वचः<br>अनुज्ञां लभतां राजा मा वृथेह मरिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.६</sup>राजर्षीणां पुराणानामनुयातु गतिं नृपः<br>राजर्षीणां हि सर्वेषामन्ते वनमुपाश्रयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.७</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.८</sup>इत्युक्तः स तदा राजा व्यासेनाद्भुतकर्मणा<br>प्रत्युवाच महातेजा धर्मराजो युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.९</sup>भगवानेव नो मान्यो भगवानेव नो गुरुः<br>भगवानस्य राज्यस्य कुलस्य च परायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१०</sup>अहं तु पुत्रो भगवान्पिता राजा गुरुश्च मे<br>निदेशवर्ती च पितुः पुत्रो भवति धर्मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.११</sup>इत्युक्तः स तु तं प्राह व्यासो धर्मभृतां वरः<br>युधिष्ठिरं महातेजाः पुनरेव विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१२</sup>एवमेतन्महाबाहो यथा वदसि भारत<br>राजायं वृद्धतां प्राप्तः प्रमाणे परमे स्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१३</sup>सोऽयं मयाभ्यनुज्ञातस्त्वया च पृथिवीपते<br>करोतु स्वमभिप्रायं मास्य विघ्नकरो भव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१४</sup>एष एव परो धर्मो राजर्षीणां युधिष्ठिर<br>समरे वा भवेन्मृत्युर्वने वा विधिपूर्वकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१५</sup>पित्रा तु तव राजेन्द्र पाण्डुना पृथिवीक्षिता<br>शिष्यभूतेन राजायं गुरुवत्पर्युपासितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१६</sup>क्रतुभिर्दक्षिणावद्भिरन्नपर्वतशोभितैः<br>महद्भिरिष्टं भोगाश्च भुक्ताः पुत्राश्च पालिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१७</sup>पुत्रसंस्थं च विपुलं राज्यं विप्रोषिते त्वयि<br>त्रयोदशसमा भुक्तं दत्तं च विविधं वसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१८</sup>त्वया चायं नरव्याघ्र गुरुशुश्रूषया नृपः<br>आराधितः सभृत्येन गान्धारी च यशस्विनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.१९</sup>अनुजानीहि पितरं समयोऽस्य तपोविधौ<br>न मन्युर्विद्यते चास्य सुसूक्ष्मोऽपि युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२०</sup>एतावदुक्त्वा वचनमनुज्ञाप्य च पार्थिवम्<br>तथास्त्विति च तेनोक्तः कौन्तेयेन ययौ वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२१</sup>गते भगवति व्यासे राजा पाण्डुसुतस्ततः<br>प्रोवाच पितरं वृद्धं मन्दं मन्दमिवानतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२२</sup>यदाह भगवान्व्यासो यच्चापि भवतो मतम्<br>यदाह च महेष्वासः कृपो विदुर एव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२३</sup>युयुत्सुः संजयश्चैव तत्कर्तास्म्यहमञ्जसा<br>सर्वे ह्येतेऽनुमान्या मे कुलस्यास्य हितैषिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.८.२४</sup>इदं तु याचे नृपते त्वामहं शिरसा नतः<br>क्रियतां तावदाहारस्ततो गच्छाश्रमं प्रति
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

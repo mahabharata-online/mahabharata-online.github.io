@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/132.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१३३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/134.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,142 +64,107 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/132.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१३३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/134.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२</sup>पाण्डवास्तु रथान्युक्त्वा सदश्वैरनिलोपमैः<br>आरोहमाणा भीष्मस्य पादौ जगृहुरार्तवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.३</sup>राज्ञश्च धृतराष्ट्रस्य द्रोणस्य च महात्मनः<br>अन्येषां चैव वृद्धानां विदुरस्य कृपस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.४</sup>एवं सर्वान्कुरून्वृद्धानभिवाद्य यतव्रताः<br>समालिङ्ग्य समानांश्च बालैश्चाप्यभिवादिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.५</sup>सर्वा मातॄस्तथापृष्ट्वा कृत्वा चैव प्रदक्षिणम्<br>सर्वाः प्रकृतयश्चैव प्रययुर्वारणावतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.६</sup>विदुरश्च महाप्राज्ञस्तथान्ये कुरुपुंगवाः<br>पौराश्च पुरुषव्याघ्रानन्वयुः शोककर्शिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.७</sup>तत्र केचिद्ब्रुवन्ति स्म ब्राह्मणा निर्भयास्तदा<br>शोचमानाः पाण्डुपुत्रानतीव भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.८</sup>विषमं पश्यते राजा सर्वथा तमसावृतः<br>धृतराष्ट्रः सुदुर्बुद्धिर्न च धर्मं प्रपश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.९</sup>न हि पापमपापात्मा रोचयिष्यति पाण्डवः<br>भीमो वा बलिनां श्रेष्ठः कौन्तेयो वा धनंजयः<br>कुत एव महाप्राज्ञौ माद्रीपुत्रौ करिष्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१०</sup>तद्राज्यं पितृतः प्राप्तं धृतराष्ट्रो न मृष्यते<br>अधर्ममखिलं किं नु भीष्मोऽयमनुमन्यते<br>विवास्यमानानस्थाने कौन्तेयान्भरतर्षभान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.११</sup>पितेव हि नृपोऽस्माकमभूच्छांतनवः पुरा<br>विचित्रवीर्यो राजर्षिः पाण्डुश्च कुरुनन्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१२</sup>स तस्मिन्पुरुषव्याघ्रे दिष्टभावं गते सति<br>राजपुत्रानिमान्बालान्धृतराष्ट्रो न मृष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१३</sup>वयमेतदमृष्यन्तः सर्व एव पुरोत्तमात्<br>गृहान्विहाय गच्छामो यत्र याति युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१४</sup>तांस्तथावादिनः पौरान्दुःखितान्दुःखकर्शितः<br>उवाच परमप्रीतो धर्मराजो युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१५</sup>पिता मान्यो गुरुः श्रेष्ठो यदाह पृथिवीपतिः<br>अशङ्कमानैस्तत्कार्यमस्माभिरिति नो व्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१६</sup>भवन्तः सुहृदोऽस्माकमस्मान्कृत्वा प्रदक्षिणम्<br>आशीर्भिरभिनन्द्यास्मान्निवर्तध्वं यथागृहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१७</sup>यदा तु कार्यमस्माकं भवद्भिरुपपत्स्यते<br>तदा करिष्यथ मम प्रियाणि च हितानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१८</sup>ते तथेति प्रतिज्ञाय कृत्वा चैतान्प्रदक्षिणम्<br>आशीर्भिरभिनन्द्यैनाञ्जग्मुर्नगरमेव हि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.१९</sup>पौरेषु तु निवृत्तेषु विदुरः सर्वधर्मवित्<br>बोधयन्पाण्डवश्रेष्ठमिदं वचनमब्रवीत्<br>प्राज्ञः प्राज्ञं प्रलापज्ञः सम्यग्धर्मार्थदर्शिवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२०</sup>विज्ञायेदं तथा कुर्यादापदं निस्तरेद्यथा<br>अलोहं निशितं शस्त्रं शरीरपरिकर्तनम्<br>यो वेत्ति न तमाघ्नन्ति प्रतिघातविदं द्विषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२१</sup>कक्षघ्नः शिशिरघ्नश्च महाकक्षे बिलौकसः<br>न दहेदिति चात्मानं यो रक्षति स जीवति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२२</sup>नाचक्षुर्वेत्ति पन्थानं नाचक्षुर्विन्दते दिशः<br>नाधृतिर्भूतिमाप्नोति बुध्यस्वैवं प्रबोधितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२३</sup>अनाप्तैर्दत्तमादत्ते नरः शस्त्रमलोहजम्<br>श्वाविच्छरणमासाद्य प्रमुच्येत हुताशनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२४</sup>चरन्मार्गान्विजानाति नक्षत्रैर्विन्दते दिशः<br>आत्मना चात्मनः पञ्च पीडयन्नानुपीड्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२५</sup>अनुशिष्ट्वानुगत्वा च कृत्वा चैनान्प्रदक्षिणम्<br>पाण्डवानभ्यनुज्ञाय विदुरः प्रययौ गृहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२६</sup>निवृत्ते विदुरे चैव भीष्मे पौरजने तथा<br>अजातशत्रुमामन्त्र्य कुन्ती वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२७</sup>क्षत्ता यदब्रवीद्वाक्यं जनमध्येऽब्रुवन्निव<br>त्वया च तत्तथेत्युक्तो जानीमो न च तद्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२८</sup>यदि तच्छक्यमस्माभिः श्रोतुं न च सदोषवत्<br>श्रोतुमिच्छामि तत्सर्वं संवादं तव तस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.२९</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.३०</sup>विषादग्नेश्च बोद्धव्यमिति मां विदुरोऽब्रवीत्<br>पन्थाश्च वो नाविदितः कश्चित्स्यादिति चाब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.३१</sup>जितेन्द्रियश्च वसुधां प्राप्स्यसीति च माब्रवीत्<br>विज्ञातमिति तत्सर्वमित्युक्तो विदुरो मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.३२</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१३३.३३</sup>अष्टमेऽहनि रोहिण्यां प्रयाताः फल्गुनस्य ते<br>वारणावतमासाद्य ददृशुर्नागरं जनम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२</sup>पाण्डवास्तु रथान्युक्त्वा सदश्वैरनिलोपमैः<br>आरोहमाणा भीष्मस्य पादौ जगृहुरार्तवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.३</sup>राज्ञश्च धृतराष्ट्रस्य द्रोणस्य च महात्मनः<br>अन्येषां चैव वृद्धानां विदुरस्य कृपस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.४</sup>एवं सर्वान्कुरून्वृद्धानभिवाद्य यतव्रताः<br>समालिङ्ग्य समानांश्च बालैश्चाप्यभिवादिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.५</sup>सर्वा मातॄस्तथापृष्ट्वा कृत्वा चैव प्रदक्षिणम्<br>सर्वाः प्रकृतयश्चैव प्रययुर्वारणावतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.६</sup>विदुरश्च महाप्राज्ञस्तथान्ये कुरुपुंगवाः<br>पौराश्च पुरुषव्याघ्रानन्वयुः शोककर्शिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.७</sup>तत्र केचिद्ब्रुवन्ति स्म ब्राह्मणा निर्भयास्तदा<br>शोचमानाः पाण्डुपुत्रानतीव भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.८</sup>विषमं पश्यते राजा सर्वथा तमसावृतः<br>धृतराष्ट्रः सुदुर्बुद्धिर्न च धर्मं प्रपश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.९</sup>न हि पापमपापात्मा रोचयिष्यति पाण्डवः<br>भीमो वा बलिनां श्रेष्ठः कौन्तेयो वा धनंजयः<br>कुत एव महाप्राज्ञौ माद्रीपुत्रौ करिष्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१०</sup>तद्राज्यं पितृतः प्राप्तं धृतराष्ट्रो न मृष्यते<br>अधर्ममखिलं किं नु भीष्मोऽयमनुमन्यते<br>विवास्यमानानस्थाने कौन्तेयान्भरतर्षभान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.११</sup>पितेव हि नृपोऽस्माकमभूच्छांतनवः पुरा<br>विचित्रवीर्यो राजर्षिः पाण्डुश्च कुरुनन्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१२</sup>स तस्मिन्पुरुषव्याघ्रे दिष्टभावं गते सति<br>राजपुत्रानिमान्बालान्धृतराष्ट्रो न मृष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१३</sup>वयमेतदमृष्यन्तः सर्व एव पुरोत्तमात्<br>गृहान्विहाय गच्छामो यत्र याति युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१४</sup>तांस्तथावादिनः पौरान्दुःखितान्दुःखकर्शितः<br>उवाच परमप्रीतो धर्मराजो युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१५</sup>पिता मान्यो गुरुः श्रेष्ठो यदाह पृथिवीपतिः<br>अशङ्कमानैस्तत्कार्यमस्माभिरिति नो व्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१६</sup>भवन्तः सुहृदोऽस्माकमस्मान्कृत्वा प्रदक्षिणम्<br>आशीर्भिरभिनन्द्यास्मान्निवर्तध्वं यथागृहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१७</sup>यदा तु कार्यमस्माकं भवद्भिरुपपत्स्यते<br>तदा करिष्यथ मम प्रियाणि च हितानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१८</sup>ते तथेति प्रतिज्ञाय कृत्वा चैतान्प्रदक्षिणम्<br>आशीर्भिरभिनन्द्यैनाञ्जग्मुर्नगरमेव हि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.१९</sup>पौरेषु तु निवृत्तेषु विदुरः सर्वधर्मवित्<br>बोधयन्पाण्डवश्रेष्ठमिदं वचनमब्रवीत्<br>प्राज्ञः प्राज्ञं प्रलापज्ञः सम्यग्धर्मार्थदर्शिवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२०</sup>विज्ञायेदं तथा कुर्यादापदं निस्तरेद्यथा<br>अलोहं निशितं शस्त्रं शरीरपरिकर्तनम्<br>यो वेत्ति न तमाघ्नन्ति प्रतिघातविदं द्विषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२१</sup>कक्षघ्नः शिशिरघ्नश्च महाकक्षे बिलौकसः<br>न दहेदिति चात्मानं यो रक्षति स जीवति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२२</sup>नाचक्षुर्वेत्ति पन्थानं नाचक्षुर्विन्दते दिशः<br>नाधृतिर्भूतिमाप्नोति बुध्यस्वैवं प्रबोधितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२३</sup>अनाप्तैर्दत्तमादत्ते नरः शस्त्रमलोहजम्<br>श्वाविच्छरणमासाद्य प्रमुच्येत हुताशनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२४</sup>चरन्मार्गान्विजानाति नक्षत्रैर्विन्दते दिशः<br>आत्मना चात्मनः पञ्च पीडयन्नानुपीड्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२५</sup>अनुशिष्ट्वानुगत्वा च कृत्वा चैनान्प्रदक्षिणम्<br>पाण्डवानभ्यनुज्ञाय विदुरः प्रययौ गृहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२६</sup>निवृत्ते विदुरे चैव भीष्मे पौरजने तथा<br>अजातशत्रुमामन्त्र्य कुन्ती वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२७</sup>क्षत्ता यदब्रवीद्वाक्यं जनमध्येऽब्रुवन्निव<br>त्वया च तत्तथेत्युक्तो जानीमो न च तद्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२८</sup>यदि तच्छक्यमस्माभिः श्रोतुं न च सदोषवत्<br>श्रोतुमिच्छामि तत्सर्वं संवादं तव तस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.२९</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.३०</sup>विषादग्नेश्च बोद्धव्यमिति मां विदुरोऽब्रवीत्<br>पन्थाश्च वो नाविदितः कश्चित्स्यादिति चाब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.३१</sup>जितेन्द्रियश्च वसुधां प्राप्स्यसीति च माब्रवीत्<br>विज्ञातमिति तत्सर्वमित्युक्तो विदुरो मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.३२</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१३३.३३</sup>अष्टमेऽहनि रोहिण्यां प्रयाताः फल्गुनस्य ते<br>वारणावतमासाद्य ददृशुर्नागरं जनम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -180,8 +173,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

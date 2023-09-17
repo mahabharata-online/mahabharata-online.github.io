@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/2/32.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>२:३३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/2/34.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,148 +64,113 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/2/32.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">२:३३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/2/34.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२</sup>ततोऽभिषेचनीयेऽह्नि ब्राह्मणा राजभिः सह<br>अन्तर्वेदीं प्रविविशुः सत्कारार्थं महर्षयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३</sup>नारदप्रमुखास्तस्यामन्तर्वेद्यां महात्मनः<br>समासीनाः शुशुभिरे सह राजर्षिभिस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.४</sup>समेता ब्रह्मभवने देवा देवर्षयो यथा<br>कर्मान्तरमुपासन्तो जजल्पुरमितौजसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.५</sup>इदमेवं न चाप्येवमेवमेतन्न चान्यथा<br>इत्यूचुर्बहवस्तत्र वितण्डानाः परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.६</sup>कृशानर्थांस्तथा केचिदकृशांस्तत्र कुर्वते<br>अकृशांश्च कृशांश्चक्रुर्हेतुभिः शास्त्रनिश्चितैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.७</sup>तत्र मेधाविनः केचिदर्थमन्यैः प्रपूरितम्<br>विचिक्षिपुर्यथा श्येना नभोगतमिवामिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.८</sup>केचिद्धर्मार्थसंयुक्ताः कथास्तत्र महाव्रताः<br>रेमिरे कथयन्तश्च सर्ववेदविदां वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.९</sup>सा वेदिर्वेदसंपन्नैर्देवद्विजमहर्षिभिः<br>आबभासे समाकीर्णा नक्षत्रैर्द्यौरिवामला
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१०</sup>न तस्यां संनिधौ शूद्रः कश्चिदासीन्न चाव्रतः<br>अन्तर्वेद्यां तदा राजन्युधिष्ठिरनिवेशने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.११</sup>तां तु लक्ष्मीवतो लक्ष्मीं तदा यज्ञविधानजाम्<br>तुतोष नारदः पश्यन्धर्मराजस्य धीमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१२</sup>अथ चिन्तां समापेदे स मुनिर्मनुजाधिप<br>नारदस्तं तदा पश्यन्सर्वक्षत्रसमागमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१३</sup>सस्मार च पुरावृत्तां कथां तां भरतर्षभ<br>अंशावतरणे यासौ ब्रह्मणो भवनेऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१४</sup>देवानां संगमं तं तु विज्ञाय कुरुनन्दन<br>नारदः पुण्डरीकाक्षं सस्मार मनसा हरिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१५</sup>साक्षात्स विबुधारिघ्नः क्षत्रे नारायणो विभुः<br>प्रतिज्ञां पालयन्धीमाञ्जातः परपुरंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१६</sup>संदिदेश पुरा योऽसौ विबुधान्भूतकृत्स्वयम्<br>अन्योन्यमभिनिघ्नन्तः पुनर्लोकानवाप्स्यथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१७</sup>इति नारायणः शंभुर्भगवाञ्जगतः प्रभुः<br>आदिश्य विबुधान्सर्वानजायत यदुक्षये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१८</sup>क्षितावन्धकवृष्णीनां वंशे वंशभृतां वरः<br>परया शुशुभे लक्ष्म्या नक्षत्राणामिवोडुराट्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.१९</sup>यस्य बाहुबलं सेन्द्राः सुराः सर्व उपासते<br>सोऽयं मानुषवन्नाम हरिरास्तेऽरिमर्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२०</sup>अहो बत महद्भूतं स्वयंभूर्यदिदं स्वयम्<br>आदास्यति पुनः क्षत्रमेवं बलसमन्वितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२१</sup>इत्येतां नारदश्चिन्तां चिन्तयामास धर्मवित्<br>हरिं नारायणं ज्ञात्वा यज्ञैरीड्यं तमीश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२२</sup>तस्मिन्धर्मविदां श्रेष्ठो धर्मराजस्य धीमतः<br>महाध्वरे महाबुद्धिस्तस्थौ स बहुमानतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२३</sup>ततो भीष्मोऽब्रवीद्राजन्धर्मराजं युधिष्ठिरम्<br>क्रियतामर्हणं राज्ञां यथार्हमिति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२४</sup>आचार्यमृत्विजं चैव संयुक्तं च युधिष्ठिर<br>स्नातकं च प्रियं चाहुः षडर्घ्यार्हान्नृपं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२५</sup>एतानर्हानभिगतानाहुः संवत्सरोषितान्<br>त इमे कालपूगस्य महतोऽस्मानुपागताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२६</sup>एषामेकैकशो राजन्नर्घ्यमानीयतामिति<br>अथ चैषां वरिष्ठाय समर्थायोपनीयताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२७</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२८</sup>कस्मै भवान्मन्यतेऽर्घमेकस्मै कुरुनन्दन<br>उपनीयमानं युक्तं च तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.२९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३०</sup>ततो भीष्मः शांतनवो बुद्ध्या निश्चित्य भारत<br>वार्ष्णेयं मन्यते कृष्णमर्हणीयतमं भुवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३१</sup>एष ह्येषां समेतानां तेजोबलपराक्रमैः<br>मध्ये तपन्निवाभाति ज्योतिषामिव भास्करः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३२</sup>असूर्यमिव सूर्येण निवातमिव वायुना<br>भासितं ह्लादितं चैव कृष्णेनेदं सदो हि नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३३</sup>तस्मै भीष्माभ्यनुज्ञातः सहदेवः प्रतापवान्<br>उपजह्रेऽथ विधिवद्वार्ष्णेयायार्घ्यमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३४</sup>प्रतिजग्राह तत्कृष्णः शास्त्रदृष्टेन कर्मणा<br>शिशुपालस्तु तां पूजां वासुदेवे न चक्षमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३३.३५</sup>स उपालभ्य भीष्मं च धर्मराजं च संसदि<br>अपाक्षिपद्वासुदेवं चेदिराजो महाबलः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२</sup>ततोऽभिषेचनीयेऽह्नि ब्राह्मणा राजभिः सह<br>अन्तर्वेदीं प्रविविशुः सत्कारार्थं महर्षयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३</sup>नारदप्रमुखास्तस्यामन्तर्वेद्यां महात्मनः<br>समासीनाः शुशुभिरे सह राजर्षिभिस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.४</sup>समेता ब्रह्मभवने देवा देवर्षयो यथा<br>कर्मान्तरमुपासन्तो जजल्पुरमितौजसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.५</sup>इदमेवं न चाप्येवमेवमेतन्न चान्यथा<br>इत्यूचुर्बहवस्तत्र वितण्डानाः परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.६</sup>कृशानर्थांस्तथा केचिदकृशांस्तत्र कुर्वते<br>अकृशांश्च कृशांश्चक्रुर्हेतुभिः शास्त्रनिश्चितैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.७</sup>तत्र मेधाविनः केचिदर्थमन्यैः प्रपूरितम्<br>विचिक्षिपुर्यथा श्येना नभोगतमिवामिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.८</sup>केचिद्धर्मार्थसंयुक्ताः कथास्तत्र महाव्रताः<br>रेमिरे कथयन्तश्च सर्ववेदविदां वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.९</sup>सा वेदिर्वेदसंपन्नैर्देवद्विजमहर्षिभिः<br>आबभासे समाकीर्णा नक्षत्रैर्द्यौरिवामला
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१०</sup>न तस्यां संनिधौ शूद्रः कश्चिदासीन्न चाव्रतः<br>अन्तर्वेद्यां तदा राजन्युधिष्ठिरनिवेशने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.११</sup>तां तु लक्ष्मीवतो लक्ष्मीं तदा यज्ञविधानजाम्<br>तुतोष नारदः पश्यन्धर्मराजस्य धीमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१२</sup>अथ चिन्तां समापेदे स मुनिर्मनुजाधिप<br>नारदस्तं तदा पश्यन्सर्वक्षत्रसमागमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१३</sup>सस्मार च पुरावृत्तां कथां तां भरतर्षभ<br>अंशावतरणे यासौ ब्रह्मणो भवनेऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१४</sup>देवानां संगमं तं तु विज्ञाय कुरुनन्दन<br>नारदः पुण्डरीकाक्षं सस्मार मनसा हरिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१५</sup>साक्षात्स विबुधारिघ्नः क्षत्रे नारायणो विभुः<br>प्रतिज्ञां पालयन्धीमाञ्जातः परपुरंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१६</sup>संदिदेश पुरा योऽसौ विबुधान्भूतकृत्स्वयम्<br>अन्योन्यमभिनिघ्नन्तः पुनर्लोकानवाप्स्यथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१७</sup>इति नारायणः शंभुर्भगवाञ्जगतः प्रभुः<br>आदिश्य विबुधान्सर्वानजायत यदुक्षये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१८</sup>क्षितावन्धकवृष्णीनां वंशे वंशभृतां वरः<br>परया शुशुभे लक्ष्म्या नक्षत्राणामिवोडुराट्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.१९</sup>यस्य बाहुबलं सेन्द्राः सुराः सर्व उपासते<br>सोऽयं मानुषवन्नाम हरिरास्तेऽरिमर्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२०</sup>अहो बत महद्भूतं स्वयंभूर्यदिदं स्वयम्<br>आदास्यति पुनः क्षत्रमेवं बलसमन्वितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२१</sup>इत्येतां नारदश्चिन्तां चिन्तयामास धर्मवित्<br>हरिं नारायणं ज्ञात्वा यज्ञैरीड्यं तमीश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२२</sup>तस्मिन्धर्मविदां श्रेष्ठो धर्मराजस्य धीमतः<br>महाध्वरे महाबुद्धिस्तस्थौ स बहुमानतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२३</sup>ततो भीष्मोऽब्रवीद्राजन्धर्मराजं युधिष्ठिरम्<br>क्रियतामर्हणं राज्ञां यथार्हमिति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२४</sup>आचार्यमृत्विजं चैव संयुक्तं च युधिष्ठिर<br>स्नातकं च प्रियं चाहुः षडर्घ्यार्हान्नृपं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२५</sup>एतानर्हानभिगतानाहुः संवत्सरोषितान्<br>त इमे कालपूगस्य महतोऽस्मानुपागताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२६</sup>एषामेकैकशो राजन्नर्घ्यमानीयतामिति<br>अथ चैषां वरिष्ठाय समर्थायोपनीयताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२७</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२८</sup>कस्मै भवान्मन्यतेऽर्घमेकस्मै कुरुनन्दन<br>उपनीयमानं युक्तं च तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.२९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३०</sup>ततो भीष्मः शांतनवो बुद्ध्या निश्चित्य भारत<br>वार्ष्णेयं मन्यते कृष्णमर्हणीयतमं भुवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३१</sup>एष ह्येषां समेतानां तेजोबलपराक्रमैः<br>मध्ये तपन्निवाभाति ज्योतिषामिव भास्करः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३२</sup>असूर्यमिव सूर्येण निवातमिव वायुना<br>भासितं ह्लादितं चैव कृष्णेनेदं सदो हि नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३३</sup>तस्मै भीष्माभ्यनुज्ञातः सहदेवः प्रतापवान्<br>उपजह्रेऽथ विधिवद्वार्ष्णेयायार्घ्यमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३४</sup>प्रतिजग्राह तत्कृष्णः शास्त्रदृष्टेन कर्मणा<br>शिशुपालस्तु तां पूजां वासुदेवे न चक्षमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३३.३५</sup>स उपालभ्य भीष्मं च धर्मराजं च संसदि<br>अपाक्षिपद्वासुदेवं चेदिराजो महाबलः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -186,8 +179,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

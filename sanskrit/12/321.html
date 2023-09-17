@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/320.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:३२१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/322.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,181 +64,146 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/320.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:३२१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/322.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२</sup>गृहस्थो ब्रह्मचारी वा वानप्रस्थोऽथ भिक्षुकः<br>य इच्छेत्सिद्धिमास्थातुं देवतां कां यजेत सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३</sup>कुतो ह्यस्य ध्रुवः स्वर्गः कुतो निःश्रेयसं परम्<br>विधिना केन जुहुयाद्दैवं पित्र्यं तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४</sup>मुक्तश्च कां गतिं गच्छेन्मोक्षश्चैव किमात्मकः<br>स्वर्गतश्चैव किं कुर्याद्येन न च्यवते दिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.५</sup>देवतानां च को देवः पितॄणां च तथा पिता<br>तस्मात्परतरं यच्च तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.६</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.७</sup>गूढं मां प्रश्नवित्प्रश्नं पृच्छसे त्वमिहानघ<br>न ह्येष तर्कया शक्यो वक्तुं वर्षशतैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.८</sup>ऋते देवप्रसादाद्वा राजञ्ज्ञानागमेन वा<br>गहनं ह्येतदाख्यानं व्याख्यातव्यं तवारिहन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.९</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>नारदस्य च संवादमृषेर्नारायणस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१०</sup>नारायणो हि विश्वात्मा चतुर्मूर्तिः सनातनः<br>धर्मात्मजः संबभूव पितैवं मेऽभ्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.११</sup>कृते युगे महाराज पुरा स्वायंभुवेऽन्तरे<br>नरो नारायणश्चैव हरिः कृष्णस्तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१२</sup>तेभ्यो नारायणनरौ तपस्तेपतुरव्ययौ<br>बदर्याश्रममासाद्य शकटे कनकामये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१३</sup>अष्टचक्रं हि तद्यानं भूतयुक्तं मनोरमम्<br>तत्राद्यौ लोकनाथौ तौ कृशौ धमनिसंततौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१४</sup>तपसा तेजसा चैव दुर्निरीक्षौ सुरैरपि<br>यस्य प्रसादं कुर्वाते स देवौ द्रष्टुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१५</sup>नूनं तयोरनुमते हृदि हृच्छयचोदितः<br>महामेरोर्गिरेः शृङ्गात्प्रच्युतो गन्धमादनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१६</sup>नारदः सुमहद्भूतं लोकान्सर्वानचीचरत्<br>तं देशमगमद्राजन्बदर्याश्रममाशुगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१७</sup>तयोराह्निकवेलायां तस्य कौतूहलं त्वभूत्<br>इदं तदास्पदं कृत्स्नं यस्मिँल्लोकाः प्रतिष्ठिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१८</sup>सदेवासुरगन्धर्वाः सर्षिकिंनरलेलिहाः<br>एका मूर्तिरियं पूर्वं जाता भूयश्चतुर्विधा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.१९</sup>धर्मस्य कुलसंतानो महानेभिर्विवर्धितः<br>अहो ह्यनुगृहीतोऽद्य धर्म एभिः सुरैरिह<br>नरनारायणाभ्यां च कृष्णेन हरिणा तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२०</sup>तत्र कृष्णो हरिश्चैव कस्मिंश्चित्कारणान्तरे<br>स्थितौ धर्मोत्तरौ ह्येतौ तथा तपसि धिष्ठितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२१</sup>एतौ हि परमं धाम कानयोराह्निकक्रिया<br>पितरौ सर्वभूतानां दैवतं च यशस्विनौ<br>कां देवतां नु यजतः पितॄन्वा कान्महामती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२२</sup>इति संचिन्त्य मनसा भक्त्या नारायणस्य ह<br>सहसा प्रादुरभवत्समीपे देवयोस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२३</sup>कृते दैवे च पित्र्ये च ततस्ताभ्यां निरीक्षितः<br>पूजितश्चैव विधिना यथाप्रोक्तेन शास्त्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२४</sup>तं दृष्ट्वा महदाश्चर्यमपूर्वं विधिविस्तरम्<br>उपोपविष्टः सुप्रीतो नारदो भगवानृषिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२५</sup>नारायणं संनिरीक्ष्य प्रसन्नेनान्तरात्मना<br>नमस्कृत्वा महादेवमिदं वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२६</sup>वेदेषु सपुराणेषु साङ्गोपाङ्गेषु गीयसे<br>त्वमजः शाश्वतो धाता मतोऽमृतमनुत्तमम्<br>प्रतिष्ठितं भूतभव्यं त्वयि सर्वमिदं जगत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२७</sup>चत्वारो ह्याश्रमा देव सर्वे गार्हस्थ्यमूलकाः<br>यजन्ते त्वामहरहर्नानामूर्तिसमास्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२८</sup>पिता माता च सर्वस्य जगतः शाश्वतो गुरुः<br>कं त्वद्य यजसे देवं पितरं कं न विद्महे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.२९</sup>श्रीभगवानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३०</sup>अवाच्यमेतद्वक्तव्यमात्मगुह्यं सनातनम्<br>तव भक्तिमतो ब्रह्मन्वक्ष्यामि तु यथातथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३१</sup>यत्तत्सूक्ष्ममविज्ञेयमव्यक्तमचलं ध्रुवम्<br>इन्द्रियैरिन्द्रियार्थैश्च सर्वभूतैश्च वर्जितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३२</sup>स ह्यन्तरात्मा भूतानां क्षेत्रज्ञश्चेति कथ्यते<br>त्रिगुणव्यतिरिक्तोऽसौ पुरुषश्चेति कल्पितः<br>तस्मादव्यक्तमुत्पन्नं त्रिगुणं द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३३</sup>अव्यक्ता व्यक्तभावस्था या सा प्रकृतिरव्यया<br>तां योनिमावयोर्विद्धि योऽसौ सदसदात्मकः<br>आवाभ्यां पूज्यतेऽसौ हि दैवे पित्र्ये च कल्पिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३४</sup>नास्ति तस्मात्परोऽन्यो हि पिता देवोऽथ वा द्विजः<br>आत्मा हि नौ स विज्ञेयस्ततस्तं पूजयावहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३५</sup>तेनैषा प्रथिता ब्रह्मन्मर्यादा लोकभाविनी<br>दैवं पित्र्यं च कर्तव्यमिति तस्यानुशासनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३६</sup>ब्रह्मा स्थाणुर्मनुर्दक्षो भृगुर्धर्मस्तपो दमः<br>मरीचिरङ्गिरात्रिश्च पुलस्त्यः पुलहः क्रतुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३७</sup>वसिष्ठः परमेष्ठी च विवस्वान्सोम एव च<br>कर्दमश्चापि यः प्रोक्तः क्रोधो विक्रीत एव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३८</sup>एकविंशतिरुत्पन्नास्ते प्रजापतयः स्मृताः<br>तस्य देवस्य मर्यादां पूजयन्ति सनातनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.३९</sup>दैवं पित्र्यं च सततं तस्य विज्ञाय तत्त्वतः<br>आत्मप्राप्तानि च ततो जानन्ति द्विजसत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४०</sup>स्वर्गस्था अपि ये केचित्तं नमस्यन्ति देहिनः<br>ते तत्प्रसादाद्गच्छन्ति तेनादिष्टफलां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४१</sup>ये हीनाः सप्तदशभिर्गुणैः कर्मभिरेव च<br>कलाः पञ्चदश त्यक्त्वा ते मुक्ता इति निश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४२</sup>मुक्तानां तु गतिर्ब्रह्मन्क्षेत्रज्ञ इति कल्पितः<br>स हि सर्वगतश्चैव निर्गुणश्चैव कथ्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४३</sup>दृश्यते ज्ञानयोगेन आवां च प्रसृतौ ततः<br>एवं ज्ञात्वा तमात्मानं पूजयावः सनातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४४</sup>तं वेदाश्चाश्रमाश्चैव नानातनुसमास्थिताः<br>भक्त्या संपूजयन्त्याद्यं गतिं चैषां ददाति सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४५</sup>ये तु तद्भाविता लोके एकान्तित्वं समास्थिताः<br>एतदभ्यधिकं तेषां यत्ते तं प्रविशन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२१.४६</sup>इति गुह्यसमुद्देशस्तव नारद कीर्तितः<br>भक्त्या प्रेम्णा च विप्रर्षे अस्मद्भक्त्या च ते श्रुतः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२</sup>गृहस्थो ब्रह्मचारी वा वानप्रस्थोऽथ भिक्षुकः<br>य इच्छेत्सिद्धिमास्थातुं देवतां कां यजेत सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३</sup>कुतो ह्यस्य ध्रुवः स्वर्गः कुतो निःश्रेयसं परम्<br>विधिना केन जुहुयाद्दैवं पित्र्यं तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४</sup>मुक्तश्च कां गतिं गच्छेन्मोक्षश्चैव किमात्मकः<br>स्वर्गतश्चैव किं कुर्याद्येन न च्यवते दिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.५</sup>देवतानां च को देवः पितॄणां च तथा पिता<br>तस्मात्परतरं यच्च तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.६</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.७</sup>गूढं मां प्रश्नवित्प्रश्नं पृच्छसे त्वमिहानघ<br>न ह्येष तर्कया शक्यो वक्तुं वर्षशतैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.८</sup>ऋते देवप्रसादाद्वा राजञ्ज्ञानागमेन वा<br>गहनं ह्येतदाख्यानं व्याख्यातव्यं तवारिहन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.९</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>नारदस्य च संवादमृषेर्नारायणस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१०</sup>नारायणो हि विश्वात्मा चतुर्मूर्तिः सनातनः<br>धर्मात्मजः संबभूव पितैवं मेऽभ्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.११</sup>कृते युगे महाराज पुरा स्वायंभुवेऽन्तरे<br>नरो नारायणश्चैव हरिः कृष्णस्तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१२</sup>तेभ्यो नारायणनरौ तपस्तेपतुरव्ययौ<br>बदर्याश्रममासाद्य शकटे कनकामये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१३</sup>अष्टचक्रं हि तद्यानं भूतयुक्तं मनोरमम्<br>तत्राद्यौ लोकनाथौ तौ कृशौ धमनिसंततौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१४</sup>तपसा तेजसा चैव दुर्निरीक्षौ सुरैरपि<br>यस्य प्रसादं कुर्वाते स देवौ द्रष्टुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१५</sup>नूनं तयोरनुमते हृदि हृच्छयचोदितः<br>महामेरोर्गिरेः शृङ्गात्प्रच्युतो गन्धमादनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१६</sup>नारदः सुमहद्भूतं लोकान्सर्वानचीचरत्<br>तं देशमगमद्राजन्बदर्याश्रममाशुगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१७</sup>तयोराह्निकवेलायां तस्य कौतूहलं त्वभूत्<br>इदं तदास्पदं कृत्स्नं यस्मिँल्लोकाः प्रतिष्ठिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१८</sup>सदेवासुरगन्धर्वाः सर्षिकिंनरलेलिहाः<br>एका मूर्तिरियं पूर्वं जाता भूयश्चतुर्विधा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.१९</sup>धर्मस्य कुलसंतानो महानेभिर्विवर्धितः<br>अहो ह्यनुगृहीतोऽद्य धर्म एभिः सुरैरिह<br>नरनारायणाभ्यां च कृष्णेन हरिणा तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२०</sup>तत्र कृष्णो हरिश्चैव कस्मिंश्चित्कारणान्तरे<br>स्थितौ धर्मोत्तरौ ह्येतौ तथा तपसि धिष्ठितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२१</sup>एतौ हि परमं धाम कानयोराह्निकक्रिया<br>पितरौ सर्वभूतानां दैवतं च यशस्विनौ<br>कां देवतां नु यजतः पितॄन्वा कान्महामती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२२</sup>इति संचिन्त्य मनसा भक्त्या नारायणस्य ह<br>सहसा प्रादुरभवत्समीपे देवयोस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२३</sup>कृते दैवे च पित्र्ये च ततस्ताभ्यां निरीक्षितः<br>पूजितश्चैव विधिना यथाप्रोक्तेन शास्त्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२४</sup>तं दृष्ट्वा महदाश्चर्यमपूर्वं विधिविस्तरम्<br>उपोपविष्टः सुप्रीतो नारदो भगवानृषिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२५</sup>नारायणं संनिरीक्ष्य प्रसन्नेनान्तरात्मना<br>नमस्कृत्वा महादेवमिदं वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२६</sup>वेदेषु सपुराणेषु साङ्गोपाङ्गेषु गीयसे<br>त्वमजः शाश्वतो धाता मतोऽमृतमनुत्तमम्<br>प्रतिष्ठितं भूतभव्यं त्वयि सर्वमिदं जगत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२७</sup>चत्वारो ह्याश्रमा देव सर्वे गार्हस्थ्यमूलकाः<br>यजन्ते त्वामहरहर्नानामूर्तिसमास्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२८</sup>पिता माता च सर्वस्य जगतः शाश्वतो गुरुः<br>कं त्वद्य यजसे देवं पितरं कं न विद्महे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.२९</sup>श्रीभगवानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३०</sup>अवाच्यमेतद्वक्तव्यमात्मगुह्यं सनातनम्<br>तव भक्तिमतो ब्रह्मन्वक्ष्यामि तु यथातथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३१</sup>यत्तत्सूक्ष्ममविज्ञेयमव्यक्तमचलं ध्रुवम्<br>इन्द्रियैरिन्द्रियार्थैश्च सर्वभूतैश्च वर्जितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३२</sup>स ह्यन्तरात्मा भूतानां क्षेत्रज्ञश्चेति कथ्यते<br>त्रिगुणव्यतिरिक्तोऽसौ पुरुषश्चेति कल्पितः<br>तस्मादव्यक्तमुत्पन्नं त्रिगुणं द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३३</sup>अव्यक्ता व्यक्तभावस्था या सा प्रकृतिरव्यया<br>तां योनिमावयोर्विद्धि योऽसौ सदसदात्मकः<br>आवाभ्यां पूज्यतेऽसौ हि दैवे पित्र्ये च कल्पिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३४</sup>नास्ति तस्मात्परोऽन्यो हि पिता देवोऽथ वा द्विजः<br>आत्मा हि नौ स विज्ञेयस्ततस्तं पूजयावहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३५</sup>तेनैषा प्रथिता ब्रह्मन्मर्यादा लोकभाविनी<br>दैवं पित्र्यं च कर्तव्यमिति तस्यानुशासनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३६</sup>ब्रह्मा स्थाणुर्मनुर्दक्षो भृगुर्धर्मस्तपो दमः<br>मरीचिरङ्गिरात्रिश्च पुलस्त्यः पुलहः क्रतुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३७</sup>वसिष्ठः परमेष्ठी च विवस्वान्सोम एव च<br>कर्दमश्चापि यः प्रोक्तः क्रोधो विक्रीत एव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३८</sup>एकविंशतिरुत्पन्नास्ते प्रजापतयः स्मृताः<br>तस्य देवस्य मर्यादां पूजयन्ति सनातनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.३९</sup>दैवं पित्र्यं च सततं तस्य विज्ञाय तत्त्वतः<br>आत्मप्राप्तानि च ततो जानन्ति द्विजसत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४०</sup>स्वर्गस्था अपि ये केचित्तं नमस्यन्ति देहिनः<br>ते तत्प्रसादाद्गच्छन्ति तेनादिष्टफलां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४१</sup>ये हीनाः सप्तदशभिर्गुणैः कर्मभिरेव च<br>कलाः पञ्चदश त्यक्त्वा ते मुक्ता इति निश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४२</sup>मुक्तानां तु गतिर्ब्रह्मन्क्षेत्रज्ञ इति कल्पितः<br>स हि सर्वगतश्चैव निर्गुणश्चैव कथ्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४३</sup>दृश्यते ज्ञानयोगेन आवां च प्रसृतौ ततः<br>एवं ज्ञात्वा तमात्मानं पूजयावः सनातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४४</sup>तं वेदाश्चाश्रमाश्चैव नानातनुसमास्थिताः<br>भक्त्या संपूजयन्त्याद्यं गतिं चैषां ददाति सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४५</sup>ये तु तद्भाविता लोके एकान्तित्वं समास्थिताः<br>एतदभ्यधिकं तेषां यत्ते तं प्रविशन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२१.४६</sup>इति गुह्यसमुद्देशस्तव नारद कीर्तितः<br>भक्त्या प्रेम्णा च विप्रर्षे अस्मद्भक्त्या च ते श्रुतः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -219,8 +212,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

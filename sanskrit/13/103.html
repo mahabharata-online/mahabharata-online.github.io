@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/102.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:१०३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/104.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,166 +64,131 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/102.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:१०३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/104.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२</sup>कथं स वै विपन्नश्च कथं वै पातितो भुवि<br>कथं चानिन्द्रतां प्राप्तस्तद्भवान्वक्तुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.४</sup>एवं तयोः संवदतोः क्रियास्तस्य महात्मनः<br>सर्वा एवाभ्यवर्तन्त या दिव्या याश्च मानुषाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.५</sup>तथैव दीपदानानि सर्वोपकरणानि च<br>बलिकर्म च यच्चान्यदुत्सेकाश्च पृथग्विधाः<br>सर्वास्तस्य समुत्पन्ना देवराज्ञो महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.६</sup>देवलोके नृलोके च सदाचारा बुधैः स्मृताः<br>ते चेद्भवन्ति राजेन्द्र ऋध्यन्ते गृहमेधिनः<br>धूपप्रदानैर्दीपैश्च नमस्कारैस्तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.७</sup>यथा सिद्धस्य चान्नस्य द्विजायाग्रं प्रदीयते<br>बलयश्च गृहोद्देशे अतः प्रीयन्ति देवताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.८</sup>यथा च गृहिणस्तोषो भवेद्वै बलिकर्मणा<br>तथा शतगुणा प्रीतिर्देवतानां स्म जायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.९</sup>एवं धूपप्रदानं च दीपदानं च साधवः<br>प्रशंसन्ति नमस्कारैर्युक्तमात्मगुणावहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१०</sup>स्नानेनाद्भिश्च यत्कर्म क्रियते वै विपश्चिता<br>नमस्कारप्रयुक्तेन तेन प्रीयन्ति देवताः<br>गृह्याश्च देवताः सर्वाः प्रीयन्ते विधिनार्चिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.११</sup>इत्येतां बुद्धिमास्थाय नहुषः स नरेश्वरः<br>सुरेन्द्रत्वं महत्प्राप्य कृतवानेतदद्भुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१२</sup>कस्यचित्त्वथ कालस्य भाग्यक्षय उपस्थिते<br>सर्वमेतदवज्ञाय न चकारैतदीदृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१३</sup>ततः स परिहीणोऽभूत्सुरेन्द्रो बलिकर्मतः<br>धूपदीपोदकविधिं न यथावच्चकार ह<br>ततोऽस्य यज्ञविषयो रक्षोभिः पर्यबाध्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१४</sup>अथागस्त्यमृषिश्रेष्ठं वाहनायाजुहाव ह<br>द्रुतं सरस्वतीकूलात्स्मयन्निव महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१५</sup>ततो भृगुर्महातेजा मैत्रावरुणिमब्रवीत्<br>निमीलयस्व नयने जटा यावद्विशामि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१६</sup>स्थाणुभूतस्य तस्याथ जटाः प्राविशदच्युतः<br>भृगुः स सुमहातेजाः पातनाय नृपस्य ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१७</sup>ततः स देवराट्प्राप्तस्तमृषिं वाहनाय वै<br>ततोऽगस्त्यः सुरपतिं वाक्यमाह विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१८</sup>योजयस्वेन्द्र मां क्षिप्रं कं च देशं वहामि ते<br>यत्र वक्ष्यसि तत्र त्वां नयिष्यामि सुराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.१९</sup>इत्युक्तो नहुषस्तेन योजयामास तं मुनिम्<br>भृगुस्तस्य जटासंस्थो बभूव हृषितो भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२०</sup>न चापि दर्शनं तस्य चकार स भृगुस्तदा<br>वरदानप्रभावज्ञो नहुषस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२१</sup>न चुकोप स चागस्त्यो युक्तोऽपि नहुषेण वै<br>तं तु राजा प्रतोदेन चोदयामास भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२२</sup>न चुकोप स धर्मात्मा ततः पादेन देवराट्<br>अगस्त्यस्य तदा क्रुद्धो वामेनाभ्यहनच्छिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२३</sup>तस्मिञ्शिरस्यभिहते स जटान्तर्गतो भृगुः<br>शशाप बलवत्क्रुद्धो नहुषं पापचेतसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२४</sup>भृगुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२५</sup>यस्मात्पदाहनः क्रोधाच्छिरसीमं महामुनिम्<br>तस्मादाशु महीं गच्छ सर्पो भूत्वा सुदुर्मते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२६</sup>इत्युक्तः स तदा तेन सर्पो भूत्वा पपात ह<br>अदृष्टेनाथ भृगुणा भूतले भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२७</sup>भृगुं हि यदि सोऽद्राक्षीन्नहुषः पृथिवीपते<br>न स शक्तोऽभविष्यद्वै पातने तस्य तेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२८</sup>स तु तैस्तैः प्रदानैश्च तपोभिर्नियमैस्तथा<br>पतितोऽपि महाराज भूतले स्मृतिमानभूत्<br>प्रसादयामास भृगुं शापान्तो मे भवेदिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.२९</sup>ततोऽगस्त्यः कृपाविष्टः प्रासादयत तं भृगुम्<br>शापान्तार्थं महाराज स च प्रादात्कृपान्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३०</sup>भृगुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३१</sup>राजा युधिष्ठिरो नाम भविष्यति कुरूद्वहः<br>स त्वां मोक्षयिता शापादित्युक्त्वान्तरधीयत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३२</sup>अगस्त्योऽपि महातेजाः कृत्वा कार्यं शतक्रतोः<br>स्वमाश्रमपदं प्रायात्पूज्यमानो द्विजातिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३३</sup>नहुषोऽपि त्वया राजंस्तस्माच्छापात्समुद्धृतः<br>जगाम ब्रह्मसदनं पश्यतस्ते जनाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३४</sup>तदा तु पातयित्वा तं नहुषं भूतले भृगुः<br>जगाम ब्रह्मसदनं ब्रह्मणे च न्यवेदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३५</sup>ततः शक्रं समानाय्य देवानाह पितामहः<br>वरदानान्मम सुरा नहुषो राज्यमाप्तवान्<br>स चागस्त्येन क्रुद्धेन भ्रंशितो भूतलं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३६</sup>न च शक्यं विना राज्ञा सुरा वर्तयितुं क्वचित्<br>तस्मादयं पुनः शक्रो देवराज्येऽभिषिच्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३७</sup>एवं संभाषमाणं तु देवाः पार्थ पितामहम्<br>एवमस्त्विति संहृष्टाः प्रत्यूचुस्ते पितामहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३८</sup>सोऽभिषिक्तो भगवता देवराज्येन वासवः<br>ब्रह्मणा राजशार्दूल यथापूर्वं व्यरोचत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.३९</sup>एवमेतत्पुरावृत्तं नहुषस्य व्यतिक्रमात्<br>स च तैरेव संसिद्धो नहुषः कर्मभिः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.४०</sup>तस्माद्दीपाः प्रदातव्याः सायं वै गृहमेधिभिः<br>दिव्यं चक्षुरवाप्नोति प्रेत्य दीपप्रदायकः<br>पूर्णचन्द्रप्रतीकाशा दीपदाश्च भवन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१०३.४१</sup>यावदक्षिनिमेषाणि ज्वलते तावतीः समाः<br>रूपवान्धनवांश्चापि नरो भवति दीपदः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२</sup>कथं स वै विपन्नश्च कथं वै पातितो भुवि<br>कथं चानिन्द्रतां प्राप्तस्तद्भवान्वक्तुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.४</sup>एवं तयोः संवदतोः क्रियास्तस्य महात्मनः<br>सर्वा एवाभ्यवर्तन्त या दिव्या याश्च मानुषाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.५</sup>तथैव दीपदानानि सर्वोपकरणानि च<br>बलिकर्म च यच्चान्यदुत्सेकाश्च पृथग्विधाः<br>सर्वास्तस्य समुत्पन्ना देवराज्ञो महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.६</sup>देवलोके नृलोके च सदाचारा बुधैः स्मृताः<br>ते चेद्भवन्ति राजेन्द्र ऋध्यन्ते गृहमेधिनः<br>धूपप्रदानैर्दीपैश्च नमस्कारैस्तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.७</sup>यथा सिद्धस्य चान्नस्य द्विजायाग्रं प्रदीयते<br>बलयश्च गृहोद्देशे अतः प्रीयन्ति देवताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.८</sup>यथा च गृहिणस्तोषो भवेद्वै बलिकर्मणा<br>तथा शतगुणा प्रीतिर्देवतानां स्म जायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.९</sup>एवं धूपप्रदानं च दीपदानं च साधवः<br>प्रशंसन्ति नमस्कारैर्युक्तमात्मगुणावहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१०</sup>स्नानेनाद्भिश्च यत्कर्म क्रियते वै विपश्चिता<br>नमस्कारप्रयुक्तेन तेन प्रीयन्ति देवताः<br>गृह्याश्च देवताः सर्वाः प्रीयन्ते विधिनार्चिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.११</sup>इत्येतां बुद्धिमास्थाय नहुषः स नरेश्वरः<br>सुरेन्द्रत्वं महत्प्राप्य कृतवानेतदद्भुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१२</sup>कस्यचित्त्वथ कालस्य भाग्यक्षय उपस्थिते<br>सर्वमेतदवज्ञाय न चकारैतदीदृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१३</sup>ततः स परिहीणोऽभूत्सुरेन्द्रो बलिकर्मतः<br>धूपदीपोदकविधिं न यथावच्चकार ह<br>ततोऽस्य यज्ञविषयो रक्षोभिः पर्यबाध्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१४</sup>अथागस्त्यमृषिश्रेष्ठं वाहनायाजुहाव ह<br>द्रुतं सरस्वतीकूलात्स्मयन्निव महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१५</sup>ततो भृगुर्महातेजा मैत्रावरुणिमब्रवीत्<br>निमीलयस्व नयने जटा यावद्विशामि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१६</sup>स्थाणुभूतस्य तस्याथ जटाः प्राविशदच्युतः<br>भृगुः स सुमहातेजाः पातनाय नृपस्य ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१७</sup>ततः स देवराट्प्राप्तस्तमृषिं वाहनाय वै<br>ततोऽगस्त्यः सुरपतिं वाक्यमाह विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१८</sup>योजयस्वेन्द्र मां क्षिप्रं कं च देशं वहामि ते<br>यत्र वक्ष्यसि तत्र त्वां नयिष्यामि सुराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.१९</sup>इत्युक्तो नहुषस्तेन योजयामास तं मुनिम्<br>भृगुस्तस्य जटासंस्थो बभूव हृषितो भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२०</sup>न चापि दर्शनं तस्य चकार स भृगुस्तदा<br>वरदानप्रभावज्ञो नहुषस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२१</sup>न चुकोप स चागस्त्यो युक्तोऽपि नहुषेण वै<br>तं तु राजा प्रतोदेन चोदयामास भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२२</sup>न चुकोप स धर्मात्मा ततः पादेन देवराट्<br>अगस्त्यस्य तदा क्रुद्धो वामेनाभ्यहनच्छिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२३</sup>तस्मिञ्शिरस्यभिहते स जटान्तर्गतो भृगुः<br>शशाप बलवत्क्रुद्धो नहुषं पापचेतसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२४</sup>भृगुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२५</sup>यस्मात्पदाहनः क्रोधाच्छिरसीमं महामुनिम्<br>तस्मादाशु महीं गच्छ सर्पो भूत्वा सुदुर्मते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२६</sup>इत्युक्तः स तदा तेन सर्पो भूत्वा पपात ह<br>अदृष्टेनाथ भृगुणा भूतले भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२७</sup>भृगुं हि यदि सोऽद्राक्षीन्नहुषः पृथिवीपते<br>न स शक्तोऽभविष्यद्वै पातने तस्य तेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२८</sup>स तु तैस्तैः प्रदानैश्च तपोभिर्नियमैस्तथा<br>पतितोऽपि महाराज भूतले स्मृतिमानभूत्<br>प्रसादयामास भृगुं शापान्तो मे भवेदिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.२९</sup>ततोऽगस्त्यः कृपाविष्टः प्रासादयत तं भृगुम्<br>शापान्तार्थं महाराज स च प्रादात्कृपान्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३०</sup>भृगुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३१</sup>राजा युधिष्ठिरो नाम भविष्यति कुरूद्वहः<br>स त्वां मोक्षयिता शापादित्युक्त्वान्तरधीयत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३२</sup>अगस्त्योऽपि महातेजाः कृत्वा कार्यं शतक्रतोः<br>स्वमाश्रमपदं प्रायात्पूज्यमानो द्विजातिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३३</sup>नहुषोऽपि त्वया राजंस्तस्माच्छापात्समुद्धृतः<br>जगाम ब्रह्मसदनं पश्यतस्ते जनाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३४</sup>तदा तु पातयित्वा तं नहुषं भूतले भृगुः<br>जगाम ब्रह्मसदनं ब्रह्मणे च न्यवेदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३५</sup>ततः शक्रं समानाय्य देवानाह पितामहः<br>वरदानान्मम सुरा नहुषो राज्यमाप्तवान्<br>स चागस्त्येन क्रुद्धेन भ्रंशितो भूतलं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३६</sup>न च शक्यं विना राज्ञा सुरा वर्तयितुं क्वचित्<br>तस्मादयं पुनः शक्रो देवराज्येऽभिषिच्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३७</sup>एवं संभाषमाणं तु देवाः पार्थ पितामहम्<br>एवमस्त्विति संहृष्टाः प्रत्यूचुस्ते पितामहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३८</sup>सोऽभिषिक्तो भगवता देवराज्येन वासवः<br>ब्रह्मणा राजशार्दूल यथापूर्वं व्यरोचत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.३९</sup>एवमेतत्पुरावृत्तं नहुषस्य व्यतिक्रमात्<br>स च तैरेव संसिद्धो नहुषः कर्मभिः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.४०</sup>तस्माद्दीपाः प्रदातव्याः सायं वै गृहमेधिभिः<br>दिव्यं चक्षुरवाप्नोति प्रेत्य दीपप्रदायकः<br>पूर्णचन्द्रप्रतीकाशा दीपदाश्च भवन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१०३.४१</sup>यावदक्षिनिमेषाणि ज्वलते तावतीः समाः<br>रूपवान्धनवांश्चापि नरो भवति दीपदः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -204,8 +197,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/13.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/15.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,163 +64,128 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/13.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/15.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२</sup>अव्याहरति कौन्तेये धर्मराजे युधिष्ठिरे<br>भ्रातॄणां ब्रुवतां तांस्तान्विविधान्वेदनिश्चयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३</sup>महाभिजनसंपन्ना श्रीमत्यायतलोचना<br>अभ्यभाषत राजेन्द्रं द्रौपदी योषितां वरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.४</sup>आसीनमृषभं राज्ञां भ्रातृभिः परिवारितम्<br>सिंहशार्दूलसदृशैर्वारणैरिव यूथपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.५</sup>अभिमानवती नित्यं विशेषेण युधिष्ठिरे<br>लालिता सततं राज्ञा धर्मज्ञा धर्मदर्शिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.६</sup>आमन्त्र्य विपुलश्रोणी साम्ना परमवल्गुना<br>भर्तारमभिसंप्रेक्ष्य ततो वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.७</sup>इमे ते भ्रातरः पार्थ शुष्यन्त स्तोकका इव<br>वावाश्यमानास्तिष्ठन्ति न चैनानभिनन्दसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.८</sup>नन्दयैतान्महाराज मत्तानिव महाद्विपान्<br>उपपन्नेन वाक्येन सततं दुःखभागिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.९</sup>कथं द्वैतवने राजन्पूर्वमुक्त्वा तथा वचः<br>भ्रातॄनेतान्स्म सहिताञ्शीतवातातपार्दितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१०</sup>वयं दुर्योधनं हत्वा मृधे भोक्ष्याम मेदिनीम्<br>संपूर्णां सर्वकामानामाहवे विजयैषिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.११</sup>विरथांश्च रथान्कृत्वा निहत्य च महागजान्<br>संस्तीर्य च रथैर्भूमिं ससादिभिररिंदमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१२</sup>यजतां विविधैर्यज्ञैः समृद्धैराप्तदक्षिणैः<br>वनवासकृतं दुःखं भविष्यति सुखाय नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१३</sup>इत्येतानेवमुक्त्वा त्वं स्वयं धर्मभृतां वर<br>कथमद्य पुनर्वीर विनिहंसि मनांस्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१४</sup>न क्लीबो वसुधां भुङ्क्ते न क्लीबो धनमश्नुते<br>न क्लीबस्य गृहे पुत्रा मत्स्याः पङ्क इवासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१५</sup>नादण्डः क्षत्रियो भाति नादण्डो भूतिमश्नुते<br>नादण्डस्य प्रजा राज्ञः सुखमेधन्ति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१६</sup>मित्रता सर्वभूतेषु दानमध्ययनं तपः<br>ब्राह्मणस्यैष धर्मः स्यान्न राज्ञो राजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१७</sup>असतां प्रतिषेधश्च सतां च परिपालनम्<br>एष राज्ञां परो धर्मः समरे चापलायनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१८</sup>यस्मिन्क्षमा च क्रोधश्च दानादाने भयाभये<br>निग्रहानुग्रहौ चोभौ स वै धर्मविदुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.१९</sup>न श्रुतेन न दानेन न सान्त्वेन न चेज्यया<br>त्वयेयं पृथिवी लब्धा नोत्कोचेन तथाप्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२०</sup>यत्तद्बलममित्राणां तथा वीरसमुद्यतम्<br>हस्त्यश्वरथसंपन्नं त्रिभिरङ्गैर्महत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२१</sup>रक्षितं द्रोणकर्णाभ्यामश्वत्थाम्ना कृपेण च<br>तत्त्वया निहतं वीर तस्माद्भुङ्क्ष्व वसुंधराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२२</sup>जम्बूद्वीपो महाराज नानाजनपदायुतः<br>त्वया पुरुषशार्दूल दण्डेन मृदितः प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२३</sup>जम्बूद्वीपेन सदृशः क्रौञ्चद्वीपो नराधिप<br>अपरेण महामेरोर्दण्डेन मृदितस्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२४</sup>क्रौञ्चद्वीपेन सदृशः शाकद्वीपो नराधिप<br>पूर्वेण तु महामेरोर्दण्डेन मृदितस्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२५</sup>उत्तरेण महामेरोः शाकद्वीपेन संमितः<br>भद्राश्वः पुरुषव्याघ्र दण्डेन मृदितस्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२६</sup>द्वीपाश्च सान्तरद्वीपा नानाजनपदालयाः<br>विगाह्य सागरं वीर दण्डेन मृदितास्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२७</sup>एतान्यप्रतिमानि त्वं कृत्वा कर्माणि भारत<br>न प्रीयसे महाराज पूज्यमानो द्विजातिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२८</sup>स त्वं भ्रातॄनिमान्दृष्ट्वा प्रतिनन्दस्व भारत<br>ऋषभानिव संमत्तान्गजेन्द्रानूर्जितानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.२९</sup>अमरप्रतिमाः सर्वे शत्रुसाहाः परंतपाः<br>एकोऽपि हि सुखायैषां क्षमः स्यादिति मे मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३०</sup>किं पुनः पुरुषव्याघ्राः पतयो मे नरर्षभाः<br>समस्तानीन्द्रियाणीव शरीरस्य विचेष्टने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३१</sup>अनृतं माब्रवीच्छ्वश्रूः सर्वज्ञा सर्वदर्शिनी<br>युधिष्ठिरस्त्वां पाञ्चालि सुखे धास्यत्यनुत्तमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३२</sup>हत्वा राजसहस्राणि बहून्याशुपराक्रमः<br>तद्व्यर्थं संप्रपश्यामि मोहात्तव जनाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३३</sup>येषामुन्मत्तको ज्येष्ठः सर्वे तस्योपचारिणः<br>तवोन्मादेन राजेन्द्र सोन्मादाः सर्वपाण्डवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३४</sup>यदि हि स्युरनुन्मत्ता भ्रातरस्ते जनाधिप<br>बद्ध्वा त्वां नास्तिकैः सार्धं प्रशासेयुर्वसुंधराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३५</sup>कुरुते मूढमेवं हि यः श्रेयो नाधिगच्छति<br>धूपैरञ्जनयोगैश्च नस्यकर्मभिरेव च<br>भेषजैः स चिकित्स्यः स्याद्य उन्मार्गेण गच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३६</sup>साहं सर्वाधमा लोके स्त्रीणां भरतसत्तम<br>तथा विनिकृतामित्रैर्याहमिच्छामि जीवितुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३७</sup>एतेषां यतमानानामुत्पद्यन्ते तु संपदः<br>त्वं तु सर्वां महीं लब्ध्वा कुरुषे स्वयमापदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३८</sup>यथास्तां संमतौ राज्ञां पृथिव्यां राजसत्तमौ<br>मान्धाता चाम्बरीषश्च तथा राजन्विराजसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.३९</sup>प्रशाधि पृथिवीं देवीं प्रजा धर्मेण पालयन्<br>सपर्वतवनद्वीपां मा राजन्विमना भव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४.४०</sup>यजस्व विविधैर्यज्ञैर्जुह्वन्नग्नीन्प्रयच्छ च<br>पुराणि भोगान्वासांसि द्विजातिभ्यो नृपोत्तम
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२</sup>अव्याहरति कौन्तेये धर्मराजे युधिष्ठिरे<br>भ्रातॄणां ब्रुवतां तांस्तान्विविधान्वेदनिश्चयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३</sup>महाभिजनसंपन्ना श्रीमत्यायतलोचना<br>अभ्यभाषत राजेन्द्रं द्रौपदी योषितां वरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.४</sup>आसीनमृषभं राज्ञां भ्रातृभिः परिवारितम्<br>सिंहशार्दूलसदृशैर्वारणैरिव यूथपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.५</sup>अभिमानवती नित्यं विशेषेण युधिष्ठिरे<br>लालिता सततं राज्ञा धर्मज्ञा धर्मदर्शिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.६</sup>आमन्त्र्य विपुलश्रोणी साम्ना परमवल्गुना<br>भर्तारमभिसंप्रेक्ष्य ततो वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.७</sup>इमे ते भ्रातरः पार्थ शुष्यन्त स्तोकका इव<br>वावाश्यमानास्तिष्ठन्ति न चैनानभिनन्दसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.८</sup>नन्दयैतान्महाराज मत्तानिव महाद्विपान्<br>उपपन्नेन वाक्येन सततं दुःखभागिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.९</sup>कथं द्वैतवने राजन्पूर्वमुक्त्वा तथा वचः<br>भ्रातॄनेतान्स्म सहिताञ्शीतवातातपार्दितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१०</sup>वयं दुर्योधनं हत्वा मृधे भोक्ष्याम मेदिनीम्<br>संपूर्णां सर्वकामानामाहवे विजयैषिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.११</sup>विरथांश्च रथान्कृत्वा निहत्य च महागजान्<br>संस्तीर्य च रथैर्भूमिं ससादिभिररिंदमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१२</sup>यजतां विविधैर्यज्ञैः समृद्धैराप्तदक्षिणैः<br>वनवासकृतं दुःखं भविष्यति सुखाय नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१३</sup>इत्येतानेवमुक्त्वा त्वं स्वयं धर्मभृतां वर<br>कथमद्य पुनर्वीर विनिहंसि मनांस्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१४</sup>न क्लीबो वसुधां भुङ्क्ते न क्लीबो धनमश्नुते<br>न क्लीबस्य गृहे पुत्रा मत्स्याः पङ्क इवासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१५</sup>नादण्डः क्षत्रियो भाति नादण्डो भूतिमश्नुते<br>नादण्डस्य प्रजा राज्ञः सुखमेधन्ति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१६</sup>मित्रता सर्वभूतेषु दानमध्ययनं तपः<br>ब्राह्मणस्यैष धर्मः स्यान्न राज्ञो राजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१७</sup>असतां प्रतिषेधश्च सतां च परिपालनम्<br>एष राज्ञां परो धर्मः समरे चापलायनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१८</sup>यस्मिन्क्षमा च क्रोधश्च दानादाने भयाभये<br>निग्रहानुग्रहौ चोभौ स वै धर्मविदुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.१९</sup>न श्रुतेन न दानेन न सान्त्वेन न चेज्यया<br>त्वयेयं पृथिवी लब्धा नोत्कोचेन तथाप्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२०</sup>यत्तद्बलममित्राणां तथा वीरसमुद्यतम्<br>हस्त्यश्वरथसंपन्नं त्रिभिरङ्गैर्महत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२१</sup>रक्षितं द्रोणकर्णाभ्यामश्वत्थाम्ना कृपेण च<br>तत्त्वया निहतं वीर तस्माद्भुङ्क्ष्व वसुंधराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२२</sup>जम्बूद्वीपो महाराज नानाजनपदायुतः<br>त्वया पुरुषशार्दूल दण्डेन मृदितः प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२३</sup>जम्बूद्वीपेन सदृशः क्रौञ्चद्वीपो नराधिप<br>अपरेण महामेरोर्दण्डेन मृदितस्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२४</sup>क्रौञ्चद्वीपेन सदृशः शाकद्वीपो नराधिप<br>पूर्वेण तु महामेरोर्दण्डेन मृदितस्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२५</sup>उत्तरेण महामेरोः शाकद्वीपेन संमितः<br>भद्राश्वः पुरुषव्याघ्र दण्डेन मृदितस्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२६</sup>द्वीपाश्च सान्तरद्वीपा नानाजनपदालयाः<br>विगाह्य सागरं वीर दण्डेन मृदितास्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२७</sup>एतान्यप्रतिमानि त्वं कृत्वा कर्माणि भारत<br>न प्रीयसे महाराज पूज्यमानो द्विजातिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२८</sup>स त्वं भ्रातॄनिमान्दृष्ट्वा प्रतिनन्दस्व भारत<br>ऋषभानिव संमत्तान्गजेन्द्रानूर्जितानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.२९</sup>अमरप्रतिमाः सर्वे शत्रुसाहाः परंतपाः<br>एकोऽपि हि सुखायैषां क्षमः स्यादिति मे मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३०</sup>किं पुनः पुरुषव्याघ्राः पतयो मे नरर्षभाः<br>समस्तानीन्द्रियाणीव शरीरस्य विचेष्टने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३१</sup>अनृतं माब्रवीच्छ्वश्रूः सर्वज्ञा सर्वदर्शिनी<br>युधिष्ठिरस्त्वां पाञ्चालि सुखे धास्यत्यनुत्तमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३२</sup>हत्वा राजसहस्राणि बहून्याशुपराक्रमः<br>तद्व्यर्थं संप्रपश्यामि मोहात्तव जनाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३३</sup>येषामुन्मत्तको ज्येष्ठः सर्वे तस्योपचारिणः<br>तवोन्मादेन राजेन्द्र सोन्मादाः सर्वपाण्डवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३४</sup>यदि हि स्युरनुन्मत्ता भ्रातरस्ते जनाधिप<br>बद्ध्वा त्वां नास्तिकैः सार्धं प्रशासेयुर्वसुंधराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३५</sup>कुरुते मूढमेवं हि यः श्रेयो नाधिगच्छति<br>धूपैरञ्जनयोगैश्च नस्यकर्मभिरेव च<br>भेषजैः स चिकित्स्यः स्याद्य उन्मार्गेण गच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३६</sup>साहं सर्वाधमा लोके स्त्रीणां भरतसत्तम<br>तथा विनिकृतामित्रैर्याहमिच्छामि जीवितुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३७</sup>एतेषां यतमानानामुत्पद्यन्ते तु संपदः<br>त्वं तु सर्वां महीं लब्ध्वा कुरुषे स्वयमापदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३८</sup>यथास्तां संमतौ राज्ञां पृथिव्यां राजसत्तमौ<br>मान्धाता चाम्बरीषश्च तथा राजन्विराजसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.३९</sup>प्रशाधि पृथिवीं देवीं प्रजा धर्मेण पालयन्<br>सपर्वतवनद्वीपां मा राजन्विमना भव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४.४०</sup>यजस्व विविधैर्यज्ञैर्जुह्वन्नग्नीन्प्रयच्छ च<br>पुराणि भोगान्वासांसि द्विजातिभ्यो नृपोत्तम
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

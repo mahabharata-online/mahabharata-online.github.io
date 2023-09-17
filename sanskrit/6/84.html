@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/6/83.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>६:८४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/6/85.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,175 +64,140 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/6/83.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">६:८४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/6/85.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२</sup>भीष्मं तु समरे क्रुद्धं प्रतपन्तं समन्ततः<br>न शेकुः पाण्डवा द्रष्टुं तपन्तमिव भास्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३</sup>ततः सर्वाणि सैन्यानि धर्मपुत्रस्य शासनात्<br>अभ्यद्रवन्त गाङ्गेयं मर्दयन्तं शितैः शरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४</sup>स तु भीष्मो रणश्लाघी सोमकान्सहसृञ्जयान्<br>पाञ्चालांश्च महेष्वासान्पातयामास सायकैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.५</sup>ते वध्यमाना भीष्मेण पाञ्चालाः सोमकैः सह<br>भीष्ममेवाभ्ययुस्तूर्णं त्यक्त्वा मृत्युकृतं भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.६</sup>स तेषां रथिनां वीरो भीष्मः शांतनवो युधि<br>चिच्छेद सहसा राजन्बाहूनथ शिरांसि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.७</sup>विरथान्रथिनश्चक्रे पिता देवव्रतस्तव<br>पतितान्युत्तमाङ्गानि हयेभ्यो हयसादिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.८</sup>निर्मनुष्यांश्च मातङ्गाञ्शयानान्पर्वतोपमान्<br>अपश्याम महाराज भीष्मास्त्रेण प्रमोहितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.९</sup>न तत्रासीत्पुमान्कश्चित्पाण्डवानां विशां पते<br>अन्यत्र रथिनां श्रेष्ठाद्भीमसेनान्महाबलात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१०</sup>स हि भीष्मं समासाद्य ताडयामास संयुगे<br>ततो निष्टानको घोरो भीष्मभीमसमागमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.११</sup>बभूव सर्वसैन्यानां घोररूपो भयानकः<br>तथैव पाण्डवा हृष्टाः सिंहनादमथानदन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१२</sup>ततो दुर्योधनो राजा सोदर्यैः परिवारितः<br>भीष्मं जुगोप समरे वर्तमाने जनक्षये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१३</sup>भीमस्तु सारथिं हत्वा भीष्मस्य रथिनां वरः<br>विद्रुताश्वे रथे तस्मिन्द्रवमाणे समन्ततः<br>सुनाभस्य शरेणाशु शिरश्चिच्छेद चारिहा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१४</sup>क्षुरप्रेण सुतीक्ष्णेन स हतो न्यपतद्भुवि<br>हते तस्मिन्महाराज तव पुत्रे महारथे<br>नामृष्यन्त रणे शूराः सोदर्याः सप्त संयुगे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१५</sup>आदित्यकेतुर्बह्वाशी कुण्डधारो महोदरः<br>अपराजितः पण्डितको विशालाक्षः सुदुर्जयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१६</sup>पाण्डवं चित्रसंनाहा विचित्रकवचध्वजाः<br>अभ्यद्रवन्त संग्रामे योद्धुकामारिमर्दनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१७</sup>महोदरस्तु समरे भीमं विव्याध पत्रिभिः<br>नवभिर्वज्रसंकाशैर्नमुचिं वृत्रहा यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१८</sup>आदित्यकेतुः सप्तत्या बह्वाशी चापि पञ्चभिः<br>नवत्या कुण्डधारस्तु विशालाक्षश्च सप्तभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.१९</sup>अपराजितो महाराज पराजिष्णुर्महारथः<br>शरैर्बहुभिरानर्छद्भीमसेनं महाबलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२०</sup>रणे पण्डितकश्चैनं त्रिभिर्बाणैः समर्दयत्<br>स तन्न ममृषे भीमः शत्रुभिर्वधमाहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२१</sup>धनुः प्रपीड्य वामेन करेणामित्रकर्शनः<br>शिरश्चिच्छेद समरे शरेण नतपर्वणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२२</sup>अपराजितस्य सुनसं तव पुत्रस्य संयुगे<br>पराजितस्य भीमेन निपपात शिरो महीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२३</sup>अथापरेण भल्लेन कुण्डधारं महारथम्<br>प्राहिणोन्मृत्युलोकाय सर्वलोकस्य पश्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२४</sup>ततः पुनरमेयात्मा प्रसंधाय शिलीमुखम्<br>प्रेषयामास समरे पण्डितं प्रति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२५</sup>स शरः पण्डितं हत्वा विवेश धरणीतलम्<br>यथा नरं निहत्याशु भुजगः कालचोदितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२६</sup>विशालाक्षशिरश्छित्त्वा पातयामास भूतले<br>त्रिभिः शरैरदीनात्मा स्मरन्क्लेशं पुरातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२७</sup>महोदरं महेष्वासं नाराचेन स्तनान्तरे<br>विव्याध समरे राजन्स हतो न्यपतद्भुवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२८</sup>आदित्यकेतोः केतुं च छित्त्वा बाणेन संयुगे<br>भल्लेन भृशतीक्ष्णेन शिरश्चिच्छेद चारिहा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.२९</sup>बह्वाशिनं ततो भीमः शरेण नतपर्वणा<br>प्रेषयामास संक्रुद्धो यमस्य सदनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३०</sup>प्रदुद्रुवुस्ततस्तेऽन्ये पुत्रास्तव विशां पते<br>मन्यमाना हि तत्सत्यं सभायां तस्य भाषितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३१</sup>ततो दुर्योधनो राजा भ्रातृव्यसनकर्शितः<br>अब्रवीत्तावकान्योधान्भीमोऽयं युधि वध्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३२</sup>एवमेते महेष्वासाः पुत्रास्तव विशां पते<br>भ्रातॄन्संदृश्य निहतान्प्रास्मरंस्ते हि तद्वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३३</sup>यदुक्तवान्महाप्राज्ञः क्षत्ता हितमनामयम्<br>तदिदं समनुप्राप्तं वचनं दिव्यदर्शिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३४</sup>लोभमोहसमाविष्टः पुत्रप्रीत्या जनाधिप<br>न बुध्यसे पुरा यत्तत्तथ्यमुक्तं वचो महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३५</sup>तथैव हि वधार्थाय पुत्राणां पाण्डवो बली<br>नूनं जातो महाबाहुर्यथा हन्ति स्म कौरवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३६</sup>ततो दुर्योधनो राजा भीष्ममासाद्य मारिष<br>दुःखेन महताविष्टो विललापातिकर्शितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३७</sup>निहता भ्रातरः शूरा भीमसेनेन मे युधि<br>यतमानास्तथान्येऽपि हन्यन्ते सर्वसैनिकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३८</sup>भवांश्च मध्यस्थतया नित्यमस्मानुपेक्षते<br>सोऽहं कापथमारूढः पश्य दैवमिदं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.३९</sup>एतच्छ्रुत्वा वचः क्रूरं पिता देवव्रतस्तव<br>दुर्योधनमिदं वाक्यमब्रवीत्साश्रुलोचनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४०</sup>उक्तमेतन्मया पूर्वं द्रोणेन विदुरेण च<br>गान्धार्या च यशस्विन्या तत्त्वं तात न बुद्धवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४१</sup>समयश्च मया पूर्वं कृतो वः शत्रुकर्शन<br>नाहं युधि विमोक्तव्यो नाप्याचार्यः कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४२</sup>यं यं हि धार्तराष्ट्राणां भीमो द्रक्ष्यति संयुगे<br>हनिष्यति रणे तं तं सत्यमेतद्ब्रवीमि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४३</sup>स त्वं राजन्स्थिरो भूत्वा दृढां कृत्वा रणे मतिम्<br>योधयस्व रणे पार्थान्स्वर्गं कृत्वा परायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.८४.४४</sup>न शक्याः पाण्डवा जेतुं सेन्द्रैरपि सुरासुरैः<br>तस्माद्युद्धे मतिं कृत्वा स्थिरां युध्यस्व भारत
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२</sup>भीष्मं तु समरे क्रुद्धं प्रतपन्तं समन्ततः<br>न शेकुः पाण्डवा द्रष्टुं तपन्तमिव भास्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३</sup>ततः सर्वाणि सैन्यानि धर्मपुत्रस्य शासनात्<br>अभ्यद्रवन्त गाङ्गेयं मर्दयन्तं शितैः शरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४</sup>स तु भीष्मो रणश्लाघी सोमकान्सहसृञ्जयान्<br>पाञ्चालांश्च महेष्वासान्पातयामास सायकैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.५</sup>ते वध्यमाना भीष्मेण पाञ्चालाः सोमकैः सह<br>भीष्ममेवाभ्ययुस्तूर्णं त्यक्त्वा मृत्युकृतं भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.६</sup>स तेषां रथिनां वीरो भीष्मः शांतनवो युधि<br>चिच्छेद सहसा राजन्बाहूनथ शिरांसि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.७</sup>विरथान्रथिनश्चक्रे पिता देवव्रतस्तव<br>पतितान्युत्तमाङ्गानि हयेभ्यो हयसादिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.८</sup>निर्मनुष्यांश्च मातङ्गाञ्शयानान्पर्वतोपमान्<br>अपश्याम महाराज भीष्मास्त्रेण प्रमोहितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.९</sup>न तत्रासीत्पुमान्कश्चित्पाण्डवानां विशां पते<br>अन्यत्र रथिनां श्रेष्ठाद्भीमसेनान्महाबलात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१०</sup>स हि भीष्मं समासाद्य ताडयामास संयुगे<br>ततो निष्टानको घोरो भीष्मभीमसमागमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.११</sup>बभूव सर्वसैन्यानां घोररूपो भयानकः<br>तथैव पाण्डवा हृष्टाः सिंहनादमथानदन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१२</sup>ततो दुर्योधनो राजा सोदर्यैः परिवारितः<br>भीष्मं जुगोप समरे वर्तमाने जनक्षये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१३</sup>भीमस्तु सारथिं हत्वा भीष्मस्य रथिनां वरः<br>विद्रुताश्वे रथे तस्मिन्द्रवमाणे समन्ततः<br>सुनाभस्य शरेणाशु शिरश्चिच्छेद चारिहा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१४</sup>क्षुरप्रेण सुतीक्ष्णेन स हतो न्यपतद्भुवि<br>हते तस्मिन्महाराज तव पुत्रे महारथे<br>नामृष्यन्त रणे शूराः सोदर्याः सप्त संयुगे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१५</sup>आदित्यकेतुर्बह्वाशी कुण्डधारो महोदरः<br>अपराजितः पण्डितको विशालाक्षः सुदुर्जयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१६</sup>पाण्डवं चित्रसंनाहा विचित्रकवचध्वजाः<br>अभ्यद्रवन्त संग्रामे योद्धुकामारिमर्दनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१७</sup>महोदरस्तु समरे भीमं विव्याध पत्रिभिः<br>नवभिर्वज्रसंकाशैर्नमुचिं वृत्रहा यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१८</sup>आदित्यकेतुः सप्तत्या बह्वाशी चापि पञ्चभिः<br>नवत्या कुण्डधारस्तु विशालाक्षश्च सप्तभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.१९</sup>अपराजितो महाराज पराजिष्णुर्महारथः<br>शरैर्बहुभिरानर्छद्भीमसेनं महाबलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२०</sup>रणे पण्डितकश्चैनं त्रिभिर्बाणैः समर्दयत्<br>स तन्न ममृषे भीमः शत्रुभिर्वधमाहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२१</sup>धनुः प्रपीड्य वामेन करेणामित्रकर्शनः<br>शिरश्चिच्छेद समरे शरेण नतपर्वणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२२</sup>अपराजितस्य सुनसं तव पुत्रस्य संयुगे<br>पराजितस्य भीमेन निपपात शिरो महीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२३</sup>अथापरेण भल्लेन कुण्डधारं महारथम्<br>प्राहिणोन्मृत्युलोकाय सर्वलोकस्य पश्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२४</sup>ततः पुनरमेयात्मा प्रसंधाय शिलीमुखम्<br>प्रेषयामास समरे पण्डितं प्रति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२५</sup>स शरः पण्डितं हत्वा विवेश धरणीतलम्<br>यथा नरं निहत्याशु भुजगः कालचोदितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२६</sup>विशालाक्षशिरश्छित्त्वा पातयामास भूतले<br>त्रिभिः शरैरदीनात्मा स्मरन्क्लेशं पुरातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२७</sup>महोदरं महेष्वासं नाराचेन स्तनान्तरे<br>विव्याध समरे राजन्स हतो न्यपतद्भुवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२८</sup>आदित्यकेतोः केतुं च छित्त्वा बाणेन संयुगे<br>भल्लेन भृशतीक्ष्णेन शिरश्चिच्छेद चारिहा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.२९</sup>बह्वाशिनं ततो भीमः शरेण नतपर्वणा<br>प्रेषयामास संक्रुद्धो यमस्य सदनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३०</sup>प्रदुद्रुवुस्ततस्तेऽन्ये पुत्रास्तव विशां पते<br>मन्यमाना हि तत्सत्यं सभायां तस्य भाषितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३१</sup>ततो दुर्योधनो राजा भ्रातृव्यसनकर्शितः<br>अब्रवीत्तावकान्योधान्भीमोऽयं युधि वध्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३२</sup>एवमेते महेष्वासाः पुत्रास्तव विशां पते<br>भ्रातॄन्संदृश्य निहतान्प्रास्मरंस्ते हि तद्वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३३</sup>यदुक्तवान्महाप्राज्ञः क्षत्ता हितमनामयम्<br>तदिदं समनुप्राप्तं वचनं दिव्यदर्शिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३४</sup>लोभमोहसमाविष्टः पुत्रप्रीत्या जनाधिप<br>न बुध्यसे पुरा यत्तत्तथ्यमुक्तं वचो महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३५</sup>तथैव हि वधार्थाय पुत्राणां पाण्डवो बली<br>नूनं जातो महाबाहुर्यथा हन्ति स्म कौरवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३६</sup>ततो दुर्योधनो राजा भीष्ममासाद्य मारिष<br>दुःखेन महताविष्टो विललापातिकर्शितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३७</sup>निहता भ्रातरः शूरा भीमसेनेन मे युधि<br>यतमानास्तथान्येऽपि हन्यन्ते सर्वसैनिकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३८</sup>भवांश्च मध्यस्थतया नित्यमस्मानुपेक्षते<br>सोऽहं कापथमारूढः पश्य दैवमिदं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.३९</sup>एतच्छ्रुत्वा वचः क्रूरं पिता देवव्रतस्तव<br>दुर्योधनमिदं वाक्यमब्रवीत्साश्रुलोचनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४०</sup>उक्तमेतन्मया पूर्वं द्रोणेन विदुरेण च<br>गान्धार्या च यशस्विन्या तत्त्वं तात न बुद्धवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४१</sup>समयश्च मया पूर्वं कृतो वः शत्रुकर्शन<br>नाहं युधि विमोक्तव्यो नाप्याचार्यः कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४२</sup>यं यं हि धार्तराष्ट्राणां भीमो द्रक्ष्यति संयुगे<br>हनिष्यति रणे तं तं सत्यमेतद्ब्रवीमि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४३</sup>स त्वं राजन्स्थिरो भूत्वा दृढां कृत्वा रणे मतिम्<br>योधयस्व रणे पार्थान्स्वर्गं कृत्वा परायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.८४.४४</sup>न शक्याः पाण्डवा जेतुं सेन्द्रैरपि सुरासुरैः<br>तस्माद्युद्धे मतिं कृत्वा स्थिरां युध्यस्व भारत
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -213,8 +206,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

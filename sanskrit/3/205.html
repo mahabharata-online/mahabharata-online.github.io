@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/204.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२०५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/206.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,151 +64,116 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/204.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२०५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/206.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२</sup>गुरू निवेद्य विप्राय तौ मातापितरावुभौ<br>पुनरेव स धर्मात्मा व्याधो ब्राह्मणमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३</sup>प्रवृत्तचक्षुर्जातोऽस्मि संपश्य तपसो बलम्<br>यदर्थमुक्तोऽसि तया गच्छस्व मिथिलामिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.४</sup>पतिशुश्रूषपरया दान्तया सत्यशीलया<br>मिथिलायां वसन्व्याधः स ते धर्मान्प्रवक्ष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.५</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.६</sup>पतिव्रतायाः सत्यायाः शीलाढ्याया यतव्रत<br>संस्मृत्य वाक्यं धर्मज्ञ गुणवानसि मे मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.७</sup>व्याध उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.८</sup>यत्तदा त्वं द्विजश्रेष्ठ तयोक्तो मां प्रति प्रभो<br>दृष्टमेतत्तया सम्यगेकपत्न्या न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.९</sup>त्वदनुग्रहबुद्ध्या तु विप्रैतद्दर्शितं मया<br>वाक्यं च शृणु मे तात यत्ते वक्ष्ये हितं द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१०</sup>त्वया विनिकृता माता पिता च द्विजसत्तम<br>अनिसृष्टोऽसि निष्क्रान्तो गृहात्ताभ्यामनिन्दित<br>वेदोच्चारणकार्यार्थमयुक्तं तत्त्वया कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.११</sup>तव शोकेन वृद्धौ तावन्धौ जातौ तपस्विनौ<br>तौ प्रसादयितुं गच्छ मा त्वा धर्मोऽत्यगान्महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१२</sup>तपस्वी त्वं महात्मा च धर्मे च निरतः सदा<br>सर्वमेतदपार्थं ते क्षिप्रं तौ संप्रसादय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१३</sup>श्रद्दधस्व मम ब्रह्मन्नान्यथा कर्तुमर्हसि<br>गम्यतामद्य विप्रर्षे श्रेयस्ते कथयाम्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१४</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१५</sup>यदेतदुक्तं भवता सर्वं सत्यमसंशयम्<br>प्रीतोऽस्मि तव धर्मज्ञ साध्वाचार गुणान्वित
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१६</sup>व्याध उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१७</sup>दैवतप्रतिमो हि त्वं यस्त्वं धर्ममनुव्रतः<br>पुराणं शाश्वतं दिव्यं दुष्प्रापमकृतात्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१८</sup>अतन्द्रितः कुरु क्षिप्रं मातापित्रोर्हि पूजनम्<br>अतः परमहं धर्मं नान्यं पश्यामि कंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.१९</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२०</sup>इहाहमागतो दिष्ट्या दिष्ट्या मे संगतं त्वया<br>ईदृशा दुर्लभा लोके नरा धर्मप्रदर्शकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२१</sup>एको नरसहस्रेषु धर्मविद्विद्यते न वा<br>प्रीतोऽस्मि तव सत्येन भद्रं ते पुरुषोत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२२</sup>पतमानो हि नरके भवतास्मि समुद्धृतः<br>भवितव्यमथैवं च यद्दृष्टोऽसि मयानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२३</sup>राजा ययातिर्दौहित्रैः पतितस्तारितो यथा<br>सद्भिः पुरुषशार्दूल तथाहं भवता त्विह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२४</sup>मातापितृभ्यां शुश्रूषां करिष्ये वचनात्तव<br>नाकृतात्मा वेदयति धर्माधर्मविनिश्चयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२५</sup>दुर्ज्ञेयः शाश्वतो धर्मः शूद्रयोनौ हि वर्तता<br>न त्वां शूद्रमहं मन्ये भवितव्यं हि कारणम्<br>येन कर्मविपाकेन प्राप्तेयं शूद्रता त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२६</sup>एतदिच्छामि विज्ञातुं तत्त्वेन हि महामते<br>कामया ब्रूहि मे तथ्यं सर्वं त्वं प्रयतात्मवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२७</sup>व्याध उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२८</sup>अनतिक्रमणीया हि ब्राह्मणा वै द्विजोत्तम<br>शृणु सर्वमिदं वृत्तं पूर्वदेहे ममानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.२९</sup>अहं हि ब्राह्मणः पूर्वमासं द्विजवरात्मज<br>वेदाध्यायी सुकुशलो वेदाङ्गानां च पारगः<br>आत्मदोषकृतैर्ब्रह्मन्नवस्थां प्राप्तवानिमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३०</sup>कश्चिद्राजा मम सखा धनुर्वेदपरायणः<br>संसर्गाद्धनुषि श्रेष्ठस्ततोऽहमभवं द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३१</sup>एतस्मिन्नेव काले तु मृगयां निर्गतो नृपः<br>सहितो योधमुख्यैश्च मन्त्रिभिश्च सुसंवृतः<br>ततोऽभ्यहन्मृगांस्तत्र सुबहूनाश्रमं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३२</sup>अथ क्षिप्तः शरो घोरो मयापि द्विजसत्तम<br>ताडितश्च मुनिस्तेन शरेणानतपर्वणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३३</sup>भूमौ निपतितो ब्रह्मन्नुवाच प्रतिनादयन्<br>नापराध्याम्यहं किंचित्केन पापमिदं कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३४</sup>मन्वानस्तं मृगं चाहं संप्राप्तः सहसा मुनिम्<br>अपश्यं तमृषिं विद्धं शरेणानतपर्वणा<br>तमुग्रतपसं विप्रं निष्टनन्तं महीतले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३५</sup>अकार्यकरणाच्चापि भृशं मे व्यथितं मनः<br>अजानता कृतमिदं मयेत्यथ तमब्रुवम्<br>क्षन्तुमर्हसि मे ब्रह्मन्निति चोक्तो मया मुनिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२०५.३६</sup>ततः प्रत्यब्रवीद्वाक्यमृषिर्मां क्रोधमूर्छितः<br>व्याधस्त्वं भविता क्रूर शूद्रयोनाविति द्विज
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२</sup>गुरू निवेद्य विप्राय तौ मातापितरावुभौ<br>पुनरेव स धर्मात्मा व्याधो ब्राह्मणमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३</sup>प्रवृत्तचक्षुर्जातोऽस्मि संपश्य तपसो बलम्<br>यदर्थमुक्तोऽसि तया गच्छस्व मिथिलामिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.४</sup>पतिशुश्रूषपरया दान्तया सत्यशीलया<br>मिथिलायां वसन्व्याधः स ते धर्मान्प्रवक्ष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.५</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.६</sup>पतिव्रतायाः सत्यायाः शीलाढ्याया यतव्रत<br>संस्मृत्य वाक्यं धर्मज्ञ गुणवानसि मे मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.७</sup>व्याध उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.८</sup>यत्तदा त्वं द्विजश्रेष्ठ तयोक्तो मां प्रति प्रभो<br>दृष्टमेतत्तया सम्यगेकपत्न्या न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.९</sup>त्वदनुग्रहबुद्ध्या तु विप्रैतद्दर्शितं मया<br>वाक्यं च शृणु मे तात यत्ते वक्ष्ये हितं द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१०</sup>त्वया विनिकृता माता पिता च द्विजसत्तम<br>अनिसृष्टोऽसि निष्क्रान्तो गृहात्ताभ्यामनिन्दित<br>वेदोच्चारणकार्यार्थमयुक्तं तत्त्वया कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.११</sup>तव शोकेन वृद्धौ तावन्धौ जातौ तपस्विनौ<br>तौ प्रसादयितुं गच्छ मा त्वा धर्मोऽत्यगान्महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१२</sup>तपस्वी त्वं महात्मा च धर्मे च निरतः सदा<br>सर्वमेतदपार्थं ते क्षिप्रं तौ संप्रसादय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१३</sup>श्रद्दधस्व मम ब्रह्मन्नान्यथा कर्तुमर्हसि<br>गम्यतामद्य विप्रर्षे श्रेयस्ते कथयाम्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१४</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१५</sup>यदेतदुक्तं भवता सर्वं सत्यमसंशयम्<br>प्रीतोऽस्मि तव धर्मज्ञ साध्वाचार गुणान्वित
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१६</sup>व्याध उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१७</sup>दैवतप्रतिमो हि त्वं यस्त्वं धर्ममनुव्रतः<br>पुराणं शाश्वतं दिव्यं दुष्प्रापमकृतात्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१८</sup>अतन्द्रितः कुरु क्षिप्रं मातापित्रोर्हि पूजनम्<br>अतः परमहं धर्मं नान्यं पश्यामि कंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.१९</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२०</sup>इहाहमागतो दिष्ट्या दिष्ट्या मे संगतं त्वया<br>ईदृशा दुर्लभा लोके नरा धर्मप्रदर्शकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२१</sup>एको नरसहस्रेषु धर्मविद्विद्यते न वा<br>प्रीतोऽस्मि तव सत्येन भद्रं ते पुरुषोत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२२</sup>पतमानो हि नरके भवतास्मि समुद्धृतः<br>भवितव्यमथैवं च यद्दृष्टोऽसि मयानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२३</sup>राजा ययातिर्दौहित्रैः पतितस्तारितो यथा<br>सद्भिः पुरुषशार्दूल तथाहं भवता त्विह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२४</sup>मातापितृभ्यां शुश्रूषां करिष्ये वचनात्तव<br>नाकृतात्मा वेदयति धर्माधर्मविनिश्चयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२५</sup>दुर्ज्ञेयः शाश्वतो धर्मः शूद्रयोनौ हि वर्तता<br>न त्वां शूद्रमहं मन्ये भवितव्यं हि कारणम्<br>येन कर्मविपाकेन प्राप्तेयं शूद्रता त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२६</sup>एतदिच्छामि विज्ञातुं तत्त्वेन हि महामते<br>कामया ब्रूहि मे तथ्यं सर्वं त्वं प्रयतात्मवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२७</sup>व्याध उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२८</sup>अनतिक्रमणीया हि ब्राह्मणा वै द्विजोत्तम<br>शृणु सर्वमिदं वृत्तं पूर्वदेहे ममानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.२९</sup>अहं हि ब्राह्मणः पूर्वमासं द्विजवरात्मज<br>वेदाध्यायी सुकुशलो वेदाङ्गानां च पारगः<br>आत्मदोषकृतैर्ब्रह्मन्नवस्थां प्राप्तवानिमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३०</sup>कश्चिद्राजा मम सखा धनुर्वेदपरायणः<br>संसर्गाद्धनुषि श्रेष्ठस्ततोऽहमभवं द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३१</sup>एतस्मिन्नेव काले तु मृगयां निर्गतो नृपः<br>सहितो योधमुख्यैश्च मन्त्रिभिश्च सुसंवृतः<br>ततोऽभ्यहन्मृगांस्तत्र सुबहूनाश्रमं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३२</sup>अथ क्षिप्तः शरो घोरो मयापि द्विजसत्तम<br>ताडितश्च मुनिस्तेन शरेणानतपर्वणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३३</sup>भूमौ निपतितो ब्रह्मन्नुवाच प्रतिनादयन्<br>नापराध्याम्यहं किंचित्केन पापमिदं कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३४</sup>मन्वानस्तं मृगं चाहं संप्राप्तः सहसा मुनिम्<br>अपश्यं तमृषिं विद्धं शरेणानतपर्वणा<br>तमुग्रतपसं विप्रं निष्टनन्तं महीतले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३५</sup>अकार्यकरणाच्चापि भृशं मे व्यथितं मनः<br>अजानता कृतमिदं मयेत्यथ तमब्रुवम्<br>क्षन्तुमर्हसि मे ब्रह्मन्निति चोक्तो मया मुनिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२०५.३६</sup>ततः प्रत्यब्रवीद्वाक्यमृषिर्मां क्रोधमूर्छितः<br>व्याधस्त्वं भविता क्रूर शूद्रयोनाविति द्विज
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -189,8 +182,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

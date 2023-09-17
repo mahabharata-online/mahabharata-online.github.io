@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/285.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२८६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/287.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/285.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२८६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/287.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१</sup>पराशर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२</sup>पिता सखायो गुरवः स्त्रियश्च; न निर्गुणा नाम भवन्ति लोके<br>अनन्यभक्ताः प्रियवादिनश्च; हिताश्च वश्याश्च तथैव राजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३</sup>पिता परं दैवतं मानवानां; मातुर्विशिष्टं पितरं वदन्ति<br>ज्ञानस्य लाभं परमं वदन्ति; जितेन्द्रियार्थाः परमाप्नुवन्ति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.४</sup>रणाजिरे यत्र शराग्निसंस्तरे; नृपात्मजो घातमवाप्य दह्यते<br>प्रयाति लोकानमरैः सुदुर्लभा;न्निषेवते स्वर्गफलं यथासुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.५</sup>श्रान्तं भीतं भ्रष्टशस्त्रं रुदन्तं; पराङ्मुखं परिबर्हैश्च हीनम्<br>अनुद्यतं रोगिणं याचमानं; न वै हिंस्याद्बालवृद्धौ च राजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.६</sup>परिबर्हैः सुसंपन्नमुद्यतं तुल्यतां गतम्<br>अतिक्रमेत नृपतिः संग्रामे क्षत्रियात्मजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.७</sup>तुल्यादिह वधः श्रेयान्विशिष्टाच्चेति निश्चयः<br>निहीनात्कातराच्चैव नृपाणां गर्हितो वधः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.८</sup>पापात्पापसमाचारान्निहीनाच्च नराधिप<br>पाप एव वधः प्रोक्तो नरकायेति निश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.९</sup>न कश्चित्त्राति वै राजन्दिष्टान्तवशमागतम्<br>सावशेषायुषं चापि कश्चिदेवापकर्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१०</sup>स्निग्धैश्च क्रियमाणानि कर्माणीह निवर्तयेत्<br>हिंसात्मकानि कर्माणि नायुरिच्छेत्परायुषा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.११</sup>गृहस्थानां तु सर्वेषां विनाशमभिकाङ्क्षताम्<br>निधनं शोभनं तात पुलिनेषु क्रियावताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१२</sup>आयुषि क्षयमापन्ने पञ्चत्वमुपगच्छति<br>नाकारणात्तद्भवति कारणैरुपपादितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१३</sup>तथा शरीरं भवति देहाद्येनोपपादितम्<br>अध्वानं गतकश्चायं प्राप्तश्चायं गृहाद्गृहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१४</sup>द्वितीयं कारणं तत्र नान्यत्किंचन विद्यते<br>तद्देहं देहिनां युक्तं मोक्षभूतेषु वर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१५</sup>सिरास्नाय्वस्थिसंघातं बीभत्सामेध्यसंकुलम्<br>भूतानामिन्द्रियाणां च गुणानां च समागमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१६</sup>त्वगन्तं देहमित्याहुर्विद्वांसोऽध्यात्मचिन्तकाः<br>गुणैरपि परिक्षीणं शरीरं मर्त्यतां गतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१७</sup>शरीरिणा परित्यक्तं निश्चेष्टं गतचेतनम्<br>भूतैः प्रकृतिमापन्नैस्ततो भूमौ निमज्जति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१८</sup>भावितं कर्मयोगेन जायते तत्र तत्र ह<br>इदं शरीरं वैदेह म्रियते यत्र तत्र ह<br>तत्स्वभावोऽपरो दृष्टो विसर्गः कर्मणस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.१९</sup>न जायते तु नृपते कंचित्कालमयं पुनः<br>परिभ्रमति भूतात्मा द्यामिवाम्बुधरो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२०</sup>स पुनर्जायते राजन्प्राप्येहायतनं नृप<br>मनसः परमो ह्यात्मा इन्द्रियेभ्यः परं मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२१</sup>द्विविधानां च भूतानां जङ्गमाः परमा नृप<br>जङ्गमानामपि तथा द्विपदाः परमा मताः<br>द्विपदानामपि तथा द्विजा वै परमाः स्मृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२२</sup>द्विजानामपि राजेन्द्र प्रज्ञावन्तः परा मताः<br>प्राज्ञानामात्मसंबुद्धाः संबुद्धानाममानिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२३</sup>जातमन्वेति मरणं नृणामिति विनिश्चयः<br>अन्तवन्ति हि कर्माणि सेवन्ते गुणतः प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२४</sup>आपन्ने तूत्तरां काष्ठां सूर्ये यो निधनं व्रजेत्<br>नक्षत्रे च मुहूर्ते च पुण्ये राजन्स पुण्यकृत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२५</sup>अयोजयित्वा क्लेशेन जनं प्लाव्य च दुष्कृतम्<br>मृत्युनाप्राकृतेनेह कर्म कृत्वात्मशक्तितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२६</sup>विषमुद्बन्धनं दाहो दस्युहस्तात्तथा वधः<br>दंष्ट्रिभ्यश्च पशुभ्यश्च प्राकृतो वध उच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२७</sup>न चैभिः पुण्यकर्माणो युज्यन्ते नाभिसंधिजैः<br>एवंविधैश्च बहुभिरपरैः प्राकृतैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२८</sup>ऊर्ध्वं हित्वा प्रतिष्ठन्ते प्राणाः पुण्यकृतां नृप<br>मध्यतो मध्यपुण्यानामधो दुष्कृतकर्मणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.२९</sup>एकः शत्रुर्न द्वितीयोऽस्ति शत्रु;रज्ञानतुल्यः पुरुषस्य राजन्<br>येनावृतः कुरुते संप्रयुक्तो; घोराणि कर्माणि सुदारुणानि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३०</sup>प्रबोधनार्थं श्रुतिधर्मयुक्तं; वृद्धानुपास्यं च भवेत यस्य<br>प्रयत्नसाध्यो हि स राजपुत्र; प्रज्ञाशरेणोन्मथितः परैति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३१</sup>अधीत्य वेदांस्तपसा ब्रह्मचारी; यज्ञाञ्शक्त्या संनिसृज्येह पञ्च<br>वनं गच्छेत्पुरुषो धर्मकामः; श्रेयश्चित्वा स्थापयित्वा स्ववंशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३२</sup>उपभोगैरपि त्यक्तं नात्मानमवसादयेत्<br>चण्डालत्वेऽपि मानुष्यं सर्वथा तात दुर्लभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३३</sup>इयं हि योनिः प्रथमा यां प्राप्य जगतीपते<br>आत्मा वै शक्यते त्रातुं कर्मभिः शुभलक्षणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३४</sup>कथं न विप्रणश्येम योनितोऽस्या इति प्रभो<br>कुर्वन्ति धर्मं मनुजाः श्रुतिप्रामाण्यदर्शनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३५</sup>यो दुर्लभतरं प्राप्य मानुष्यमिह वै नरः<br>धर्मावमन्ता कामात्मा भवेत्स खलु वञ्च्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३६</sup>यस्तु प्रीतिपुरोगेण चक्षुषा तात पश्यति<br>दीपोपमानि भूतानि यावदर्चिर्न नश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३७</sup>सान्त्वेनानुप्रदानेन प्रियवादेन चाप्युत<br>समदुःखसुखो भूत्वा स परत्र महीयते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३८</sup>दानं त्यागः शोभना मूर्तिरद्भ्यो; भूयः प्लाव्यं तपसा वै शरीरम्<br>सरस्वतीनैमिषपुष्करेषु; ये चाप्यन्ये पुण्यदेशाः पृथिव्याम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.३९</sup>गृहेषु येषामसवः पतन्ति; तेषामथो निर्हरणं प्रशस्तम्<br>यानेन वै प्रापणं च श्मशाने; शौचेन नूनं विधिना चैव दाहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.४०</sup>इष्टिः पुष्टिर्यजनं याजनं च; दानं पुण्यानां कर्मणां च प्रयोगः<br>शक्त्या पित्र्यं यच्च किंचित्प्रशस्तं; सर्वाण्यात्मार्थे मानवो यः करोति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.४१</sup>धर्मशास्त्राणि वेदाश्च षडङ्गानि नराधिप<br>श्रेयसोऽर्थे विधीयन्ते नरस्याक्लिष्टकर्मणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.४२</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८६.४३</sup>एतद्वै सर्वमाख्यातं मुनिना सुमहात्मना<br>विदेहराजाय पुरा श्रेयसोऽर्थे नराधिप
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१</sup>पराशर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२</sup>पिता सखायो गुरवः स्त्रियश्च; न निर्गुणा नाम भवन्ति लोके<br>अनन्यभक्ताः प्रियवादिनश्च; हिताश्च वश्याश्च तथैव राजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३</sup>पिता परं दैवतं मानवानां; मातुर्विशिष्टं पितरं वदन्ति<br>ज्ञानस्य लाभं परमं वदन्ति; जितेन्द्रियार्थाः परमाप्नुवन्ति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.४</sup>रणाजिरे यत्र शराग्निसंस्तरे; नृपात्मजो घातमवाप्य दह्यते<br>प्रयाति लोकानमरैः सुदुर्लभा;न्निषेवते स्वर्गफलं यथासुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.५</sup>श्रान्तं भीतं भ्रष्टशस्त्रं रुदन्तं; पराङ्मुखं परिबर्हैश्च हीनम्<br>अनुद्यतं रोगिणं याचमानं; न वै हिंस्याद्बालवृद्धौ च राजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.६</sup>परिबर्हैः सुसंपन्नमुद्यतं तुल्यतां गतम्<br>अतिक्रमेत नृपतिः संग्रामे क्षत्रियात्मजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.७</sup>तुल्यादिह वधः श्रेयान्विशिष्टाच्चेति निश्चयः<br>निहीनात्कातराच्चैव नृपाणां गर्हितो वधः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.८</sup>पापात्पापसमाचारान्निहीनाच्च नराधिप<br>पाप एव वधः प्रोक्तो नरकायेति निश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.९</sup>न कश्चित्त्राति वै राजन्दिष्टान्तवशमागतम्<br>सावशेषायुषं चापि कश्चिदेवापकर्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१०</sup>स्निग्धैश्च क्रियमाणानि कर्माणीह निवर्तयेत्<br>हिंसात्मकानि कर्माणि नायुरिच्छेत्परायुषा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.११</sup>गृहस्थानां तु सर्वेषां विनाशमभिकाङ्क्षताम्<br>निधनं शोभनं तात पुलिनेषु क्रियावताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१२</sup>आयुषि क्षयमापन्ने पञ्चत्वमुपगच्छति<br>नाकारणात्तद्भवति कारणैरुपपादितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१३</sup>तथा शरीरं भवति देहाद्येनोपपादितम्<br>अध्वानं गतकश्चायं प्राप्तश्चायं गृहाद्गृहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१४</sup>द्वितीयं कारणं तत्र नान्यत्किंचन विद्यते<br>तद्देहं देहिनां युक्तं मोक्षभूतेषु वर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१५</sup>सिरास्नाय्वस्थिसंघातं बीभत्सामेध्यसंकुलम्<br>भूतानामिन्द्रियाणां च गुणानां च समागमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१६</sup>त्वगन्तं देहमित्याहुर्विद्वांसोऽध्यात्मचिन्तकाः<br>गुणैरपि परिक्षीणं शरीरं मर्त्यतां गतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१७</sup>शरीरिणा परित्यक्तं निश्चेष्टं गतचेतनम्<br>भूतैः प्रकृतिमापन्नैस्ततो भूमौ निमज्जति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१८</sup>भावितं कर्मयोगेन जायते तत्र तत्र ह<br>इदं शरीरं वैदेह म्रियते यत्र तत्र ह<br>तत्स्वभावोऽपरो दृष्टो विसर्गः कर्मणस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.१९</sup>न जायते तु नृपते कंचित्कालमयं पुनः<br>परिभ्रमति भूतात्मा द्यामिवाम्बुधरो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२०</sup>स पुनर्जायते राजन्प्राप्येहायतनं नृप<br>मनसः परमो ह्यात्मा इन्द्रियेभ्यः परं मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२१</sup>द्विविधानां च भूतानां जङ्गमाः परमा नृप<br>जङ्गमानामपि तथा द्विपदाः परमा मताः<br>द्विपदानामपि तथा द्विजा वै परमाः स्मृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२२</sup>द्विजानामपि राजेन्द्र प्रज्ञावन्तः परा मताः<br>प्राज्ञानामात्मसंबुद्धाः संबुद्धानाममानिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२३</sup>जातमन्वेति मरणं नृणामिति विनिश्चयः<br>अन्तवन्ति हि कर्माणि सेवन्ते गुणतः प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२४</sup>आपन्ने तूत्तरां काष्ठां सूर्ये यो निधनं व्रजेत्<br>नक्षत्रे च मुहूर्ते च पुण्ये राजन्स पुण्यकृत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२५</sup>अयोजयित्वा क्लेशेन जनं प्लाव्य च दुष्कृतम्<br>मृत्युनाप्राकृतेनेह कर्म कृत्वात्मशक्तितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२६</sup>विषमुद्बन्धनं दाहो दस्युहस्तात्तथा वधः<br>दंष्ट्रिभ्यश्च पशुभ्यश्च प्राकृतो वध उच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२७</sup>न चैभिः पुण्यकर्माणो युज्यन्ते नाभिसंधिजैः<br>एवंविधैश्च बहुभिरपरैः प्राकृतैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२८</sup>ऊर्ध्वं हित्वा प्रतिष्ठन्ते प्राणाः पुण्यकृतां नृप<br>मध्यतो मध्यपुण्यानामधो दुष्कृतकर्मणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.२९</sup>एकः शत्रुर्न द्वितीयोऽस्ति शत्रु;रज्ञानतुल्यः पुरुषस्य राजन्<br>येनावृतः कुरुते संप्रयुक्तो; घोराणि कर्माणि सुदारुणानि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३०</sup>प्रबोधनार्थं श्रुतिधर्मयुक्तं; वृद्धानुपास्यं च भवेत यस्य<br>प्रयत्नसाध्यो हि स राजपुत्र; प्रज्ञाशरेणोन्मथितः परैति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३१</sup>अधीत्य वेदांस्तपसा ब्रह्मचारी; यज्ञाञ्शक्त्या संनिसृज्येह पञ्च<br>वनं गच्छेत्पुरुषो धर्मकामः; श्रेयश्चित्वा स्थापयित्वा स्ववंशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३२</sup>उपभोगैरपि त्यक्तं नात्मानमवसादयेत्<br>चण्डालत्वेऽपि मानुष्यं सर्वथा तात दुर्लभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३३</sup>इयं हि योनिः प्रथमा यां प्राप्य जगतीपते<br>आत्मा वै शक्यते त्रातुं कर्मभिः शुभलक्षणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३४</sup>कथं न विप्रणश्येम योनितोऽस्या इति प्रभो<br>कुर्वन्ति धर्मं मनुजाः श्रुतिप्रामाण्यदर्शनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३५</sup>यो दुर्लभतरं प्राप्य मानुष्यमिह वै नरः<br>धर्मावमन्ता कामात्मा भवेत्स खलु वञ्च्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३६</sup>यस्तु प्रीतिपुरोगेण चक्षुषा तात पश्यति<br>दीपोपमानि भूतानि यावदर्चिर्न नश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३७</sup>सान्त्वेनानुप्रदानेन प्रियवादेन चाप्युत<br>समदुःखसुखो भूत्वा स परत्र महीयते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३८</sup>दानं त्यागः शोभना मूर्तिरद्भ्यो; भूयः प्लाव्यं तपसा वै शरीरम्<br>सरस्वतीनैमिषपुष्करेषु; ये चाप्यन्ये पुण्यदेशाः पृथिव्याम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.३९</sup>गृहेषु येषामसवः पतन्ति; तेषामथो निर्हरणं प्रशस्तम्<br>यानेन वै प्रापणं च श्मशाने; शौचेन नूनं विधिना चैव दाहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.४०</sup>इष्टिः पुष्टिर्यजनं याजनं च; दानं पुण्यानां कर्मणां च प्रयोगः<br>शक्त्या पित्र्यं यच्च किंचित्प्रशस्तं; सर्वाण्यात्मार्थे मानवो यः करोति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.४१</sup>धर्मशास्त्राणि वेदाश्च षडङ्गानि नराधिप<br>श्रेयसोऽर्थे विधीयन्ते नरस्याक्लिष्टकर्मणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.४२</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८६.४३</sup>एतद्वै सर्वमाख्यातं मुनिना सुमहात्मना<br>विदेहराजाय पुरा श्रेयसोऽर्थे नराधिप
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/26.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:२७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/28.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,136 +64,101 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/26.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:२७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/28.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२</sup>यियासतस्ततः कृष्णः पार्थस्याश्वान्मनोजवान्<br>अप्रैषीद्धेमसंछन्नान्द्रोणानीकाय पाण्डुरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.३</sup>तं प्रयान्तं कुरुश्रेष्ठं स्वांस्त्रातुं द्रोणतापितान्<br>सुशर्मा भ्रातृभिः सार्धं युद्धार्थी पृष्ठतोऽन्वयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.४</sup>ततः श्वेतहयः कृष्णमब्रवीदजितं जयः<br>एष मां भ्रातृभिः सार्धं सुशर्माह्वयतेऽच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.५</sup>दीर्यते चोत्तरेणैतत्सैन्यं नः शत्रुसूदन<br>द्वैधीभूतं मनो मेऽद्य कृतं संशप्तकैरिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.६</sup>किं नु संशप्तकान्हन्मि स्वान्रक्षाम्यहितार्दितान्<br>इति मे त्वं मतं वेत्थ तत्र किं सुकृतं भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.७</sup>एवमुक्तस्तु दाशार्हः स्यन्दनं प्रत्यवर्तयत्<br>येन त्रिगर्ताधिपतिः पाण्डवं समुपाह्वयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.८</sup>ततोऽर्जुनः सुशर्माणं विद्ध्वा सप्तभिराशुगैः<br>ध्वजं धनुश्चास्य तथा क्षुराभ्यां समकृन्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.९</sup>त्रिगर्ताधिपतेश्चापि भ्रातरं षड्भिरायसैः<br>साश्वं ससूतं त्वरितः पार्थः प्रैषीद्यमक्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१०</sup>ततो भुजगसंकाशां सुशर्मा शक्तिमायसीम्<br>चिक्षेपार्जुनमादिश्य वासुदेवाय तोमरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.११</sup>शक्तिं त्रिभिः शरैश्छित्त्वा तोमरं त्रिभिरर्जुनः<br>सुशर्माणं शरव्रातैर्मोहयित्वा न्यवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१२</sup>तं वासवमिवायान्तं भूरिवर्षशरौघिणम्<br>राजंस्तावकसैन्यानां नोग्रं कश्चिदवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१३</sup>ततो धनंजयो बाणैस्तत एव महारथान्<br>आयाद्विनिघ्नन्कौरव्यान्दहन्कक्षमिवानलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१४</sup>तस्य वेगमसह्यं तु कुन्तीपुत्रस्य धीमतः<br>नाशक्नुवंस्ते संसोढुं स्पर्शमग्नेरिव प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१५</sup>संवेष्टयन्ननीकानि शरवर्षेण पाण्डवः<br>सुपर्णपातवद्राजन्नायात्प्राग्ज्योतिषं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१६</sup>यत्तदानामयज्जिष्णुर्भरतानामपायिनाम्<br>धनुः क्षेमकरं संख्ये द्विषतामश्रुवर्धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१७</sup>तदेव तव पुत्रस्य राजन्दुर्द्यूतदेविनः<br>कृते क्षत्रविनाशाय धनुरायच्छदर्जुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१८</sup>तथा विक्षोभ्यमाणा सा पार्थेन तव वाहिनी<br>व्यदीर्यत महाराज नौरिवासाद्य पर्वतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.१९</sup>ततो दश सहस्राणि न्यवर्तन्त धनुष्मताम्<br>मतिं कृत्वा रणे क्रुद्धा वीरा जयपराजये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२०</sup>व्यपेतहृदयत्रास आपद्धर्मातिगो रथः<br>आर्छत्पार्थो गुरुं भारं सर्वभारसहो युधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२१</sup>यथा नडवनं क्रुद्धः प्रभिन्नः षष्टिहायनः<br>मृद्नीयात्तद्वदायस्तः पार्थोऽमृद्नाच्चमूं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२२</sup>तस्मिन्प्रमथिते सैन्ये भगदत्तो नराधिपः<br>तेन नागेन सहसा धनंजयमुपाद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२३</sup>तं रथेन नरव्याघ्रः प्रत्यगृह्णादभीतवत्<br>स संनिपातस्तुमुलो बभूव रथनागयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२४</sup>कल्पिताभ्यां यथाशास्त्रं रथेन च गजेन च<br>संग्रामे चेरतुर्वीरौ भगदत्तधनंजयौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२५</sup>ततो जीमूतसंकाशान्नागादिन्द्र इवाभिभूः<br>अभ्यवर्षच्छरौघेण भगदत्तो धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२६</sup>स चापि शरवर्षं तच्छरवर्षेण वासविः<br>अप्राप्तमेव चिच्छेद भगदत्तस्य वीर्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२७</sup>ततः प्राग्ज्योतिषो राजा शरवर्षं निवार्य तत्<br>शरैर्जघ्ने महाबाहुं पार्थं कृष्णं च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२८</sup>ततः स शरजालेन महताभ्यवकीर्य तौ<br>चोदयामास तं नागं वधायाच्युतपार्थयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.२९</sup>तमापतन्तं द्विरदं दृष्ट्वा क्रुद्धमिवान्तकम्<br>चक्रेऽपसव्यं त्वरितः स्यन्दनेन जनार्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.३०</sup>संप्राप्तमपि नेयेष परावृत्तं महाद्विपम्<br>सारोहं मृत्युसात्कर्तुं स्मरन्धर्मं धनंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.२७.३१</sup>स तु नागो द्विपरथान्हयांश्चारुज्य मारिष<br>प्राहिणोन्मृत्युलोकाय ततोऽक्रुध्यद्धनंजयः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२</sup>यियासतस्ततः कृष्णः पार्थस्याश्वान्मनोजवान्<br>अप्रैषीद्धेमसंछन्नान्द्रोणानीकाय पाण्डुरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.३</sup>तं प्रयान्तं कुरुश्रेष्ठं स्वांस्त्रातुं द्रोणतापितान्<br>सुशर्मा भ्रातृभिः सार्धं युद्धार्थी पृष्ठतोऽन्वयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.४</sup>ततः श्वेतहयः कृष्णमब्रवीदजितं जयः<br>एष मां भ्रातृभिः सार्धं सुशर्माह्वयतेऽच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.५</sup>दीर्यते चोत्तरेणैतत्सैन्यं नः शत्रुसूदन<br>द्वैधीभूतं मनो मेऽद्य कृतं संशप्तकैरिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.६</sup>किं नु संशप्तकान्हन्मि स्वान्रक्षाम्यहितार्दितान्<br>इति मे त्वं मतं वेत्थ तत्र किं सुकृतं भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.७</sup>एवमुक्तस्तु दाशार्हः स्यन्दनं प्रत्यवर्तयत्<br>येन त्रिगर्ताधिपतिः पाण्डवं समुपाह्वयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.८</sup>ततोऽर्जुनः सुशर्माणं विद्ध्वा सप्तभिराशुगैः<br>ध्वजं धनुश्चास्य तथा क्षुराभ्यां समकृन्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.९</sup>त्रिगर्ताधिपतेश्चापि भ्रातरं षड्भिरायसैः<br>साश्वं ससूतं त्वरितः पार्थः प्रैषीद्यमक्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१०</sup>ततो भुजगसंकाशां सुशर्मा शक्तिमायसीम्<br>चिक्षेपार्जुनमादिश्य वासुदेवाय तोमरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.११</sup>शक्तिं त्रिभिः शरैश्छित्त्वा तोमरं त्रिभिरर्जुनः<br>सुशर्माणं शरव्रातैर्मोहयित्वा न्यवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१२</sup>तं वासवमिवायान्तं भूरिवर्षशरौघिणम्<br>राजंस्तावकसैन्यानां नोग्रं कश्चिदवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१३</sup>ततो धनंजयो बाणैस्तत एव महारथान्<br>आयाद्विनिघ्नन्कौरव्यान्दहन्कक्षमिवानलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१४</sup>तस्य वेगमसह्यं तु कुन्तीपुत्रस्य धीमतः<br>नाशक्नुवंस्ते संसोढुं स्पर्शमग्नेरिव प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१५</sup>संवेष्टयन्ननीकानि शरवर्षेण पाण्डवः<br>सुपर्णपातवद्राजन्नायात्प्राग्ज्योतिषं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१६</sup>यत्तदानामयज्जिष्णुर्भरतानामपायिनाम्<br>धनुः क्षेमकरं संख्ये द्विषतामश्रुवर्धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१७</sup>तदेव तव पुत्रस्य राजन्दुर्द्यूतदेविनः<br>कृते क्षत्रविनाशाय धनुरायच्छदर्जुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१८</sup>तथा विक्षोभ्यमाणा सा पार्थेन तव वाहिनी<br>व्यदीर्यत महाराज नौरिवासाद्य पर्वतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.१९</sup>ततो दश सहस्राणि न्यवर्तन्त धनुष्मताम्<br>मतिं कृत्वा रणे क्रुद्धा वीरा जयपराजये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२०</sup>व्यपेतहृदयत्रास आपद्धर्मातिगो रथः<br>आर्छत्पार्थो गुरुं भारं सर्वभारसहो युधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२१</sup>यथा नडवनं क्रुद्धः प्रभिन्नः षष्टिहायनः<br>मृद्नीयात्तद्वदायस्तः पार्थोऽमृद्नाच्चमूं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२२</sup>तस्मिन्प्रमथिते सैन्ये भगदत्तो नराधिपः<br>तेन नागेन सहसा धनंजयमुपाद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२३</sup>तं रथेन नरव्याघ्रः प्रत्यगृह्णादभीतवत्<br>स संनिपातस्तुमुलो बभूव रथनागयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२४</sup>कल्पिताभ्यां यथाशास्त्रं रथेन च गजेन च<br>संग्रामे चेरतुर्वीरौ भगदत्तधनंजयौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२५</sup>ततो जीमूतसंकाशान्नागादिन्द्र इवाभिभूः<br>अभ्यवर्षच्छरौघेण भगदत्तो धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२६</sup>स चापि शरवर्षं तच्छरवर्षेण वासविः<br>अप्राप्तमेव चिच्छेद भगदत्तस्य वीर्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२७</sup>ततः प्राग्ज्योतिषो राजा शरवर्षं निवार्य तत्<br>शरैर्जघ्ने महाबाहुं पार्थं कृष्णं च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२८</sup>ततः स शरजालेन महताभ्यवकीर्य तौ<br>चोदयामास तं नागं वधायाच्युतपार्थयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.२९</sup>तमापतन्तं द्विरदं दृष्ट्वा क्रुद्धमिवान्तकम्<br>चक्रेऽपसव्यं त्वरितः स्यन्दनेन जनार्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.३०</sup>संप्राप्तमपि नेयेष परावृत्तं महाद्विपम्<br>सारोहं मृत्युसात्कर्तुं स्मरन्धर्मं धनंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.२७.३१</sup>स तु नागो द्विपरथान्हयांश्चारुज्य मारिष<br>प्राहिणोन्मृत्युलोकाय ततोऽक्रुध्यद्धनंजयः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -174,8 +167,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/11.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:१२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/13.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/11.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:१२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/13.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२</sup>संधिविग्रहमप्यत्र पश्येथा राजसत्तम<br>द्वियोनिं त्रिविधोपायं बहुकल्पं युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.३</sup>राजेन्द्र पर्युपासीथाश्छित्त्वा द्वैविध्यमात्मनः<br>तुष्टपुष्टबलः शत्रुरात्मवानिति च स्मरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.४</sup>पर्युपासनकाले तु विपरीतं विधीयते<br>आमर्दकाले राजेन्द्र व्यपसर्पस्ततो वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.५</sup>व्यसनं भेदनं चैव शत्रूणां कारयेत्ततः<br>कर्शनं भीषणं चैव युद्धे चापि बहुक्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.६</sup>प्रयास्यमानो नृपतिस्त्रिविधं परिचिन्तयेत्<br>आत्मनश्चैव शत्रोश्च शक्तिं शास्त्रविशारदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.७</sup>उत्साहप्रभुशक्तिभ्यां मन्त्रशक्त्या च भारत<br>उपपन्नो नरो यायाद्विपरीतमतोऽन्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.८</sup>आददीत बलं राजा मौलं मित्रबलं तथा<br>अटवीबलं भृतं चैव तथा श्रेणीबलं च यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.९</sup>तत्र मित्रबलं राजन्मौलेन न विशिष्यते<br>श्रेणीबलं भृतं चैव तुल्य एवेति मे मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१०</sup>तथा चारबलं चैव परस्परसमं नृप<br>विज्ञेयं बलकालेषु राज्ञा काल उपस्थिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.११</sup>आपदश्चापि बोद्धव्या बहुरूपा नराधिप<br>भवन्ति राज्ञां कौरव्य यास्ताः पृथगतः शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१२</sup>विकल्पा बहवो राजन्नापदां पाण्डुनन्दन<br>सामादिभिरुपन्यस्य शमयेत्तान्नृपः सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१३</sup>यात्रां यायाद्बलैर्युक्तो राजा षड्भिः परंतप<br>संयुक्तो देशकालाभ्यां बलैरात्मगुणैस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१४</sup>तुष्टपुष्टबलो यायाद्राजा वृद्ध्युदये रतः<br>आहूतश्चाप्यथो यायादनृतावपि पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१५</sup>स्थूणाश्मानं वाजिरथप्रधानां; ध्वजद्रुमैः संवृतकूलरोधसम्<br>पदातिनागैर्बहुकर्दमां नदीं; सपत्ननाशे नृपतिः प्रयायात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१६</sup>अथोपपत्त्या शकटं पद्मं वज्रं च भारत<br>उशना वेद यच्छास्त्रं तत्रैतद्विहितं विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१७</sup>सादयित्वा परबलं कृत्वा च बलहर्षणम्<br>स्वभूमौ योजयेद्युद्धं परभूमौ तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१८</sup>लब्धं प्रशमयेद्राजा निक्षिपेद्धनिनो नरान्<br>ज्ञात्वा स्वविषयं तं च सामादिभिरुपक्रमेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.१९</sup>सर्वथैव महाराज शरीरं धारयेदिह<br>प्रेत्येह चैव कर्तव्यमात्मनिःश्रेयसं परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२०</sup>एवं कुर्वञ्शुभा वाचो लोकेऽस्मिञ्शृणुते नृपः<br>प्रेत्य स्वर्गं तथाप्नोति प्रजा धर्मेण पालयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२१</sup>एवं त्वया कुरुश्रेष्ठ वर्तितव्यं प्रजाहितम्<br>उभयोर्लोकयोस्तात प्राप्तये नित्यमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२२</sup>भीष्मेण पूर्वमुक्तोऽसि कृष्णेन विदुरेण च<br>मयाप्यवश्यं वक्तव्यं प्रीत्या ते नृपसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२३</sup>एतत्सर्वं यथान्यायं कुर्वीथा भूरिदक्षिण<br>प्रियस्तथा प्रजानां त्वं स्वर्गे सुखमवाप्स्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१२.२४</sup>अश्वमेधसहस्रेण यो यजेत्पृथिवीपतिः<br>पालयेद्वापि धर्मेण प्रजास्तुल्यं फलं लभेत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२</sup>संधिविग्रहमप्यत्र पश्येथा राजसत्तम<br>द्वियोनिं त्रिविधोपायं बहुकल्पं युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.३</sup>राजेन्द्र पर्युपासीथाश्छित्त्वा द्वैविध्यमात्मनः<br>तुष्टपुष्टबलः शत्रुरात्मवानिति च स्मरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.४</sup>पर्युपासनकाले तु विपरीतं विधीयते<br>आमर्दकाले राजेन्द्र व्यपसर्पस्ततो वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.५</sup>व्यसनं भेदनं चैव शत्रूणां कारयेत्ततः<br>कर्शनं भीषणं चैव युद्धे चापि बहुक्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.६</sup>प्रयास्यमानो नृपतिस्त्रिविधं परिचिन्तयेत्<br>आत्मनश्चैव शत्रोश्च शक्तिं शास्त्रविशारदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.७</sup>उत्साहप्रभुशक्तिभ्यां मन्त्रशक्त्या च भारत<br>उपपन्नो नरो यायाद्विपरीतमतोऽन्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.८</sup>आददीत बलं राजा मौलं मित्रबलं तथा<br>अटवीबलं भृतं चैव तथा श्रेणीबलं च यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.९</sup>तत्र मित्रबलं राजन्मौलेन न विशिष्यते<br>श्रेणीबलं भृतं चैव तुल्य एवेति मे मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१०</sup>तथा चारबलं चैव परस्परसमं नृप<br>विज्ञेयं बलकालेषु राज्ञा काल उपस्थिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.११</sup>आपदश्चापि बोद्धव्या बहुरूपा नराधिप<br>भवन्ति राज्ञां कौरव्य यास्ताः पृथगतः शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१२</sup>विकल्पा बहवो राजन्नापदां पाण्डुनन्दन<br>सामादिभिरुपन्यस्य शमयेत्तान्नृपः सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१३</sup>यात्रां यायाद्बलैर्युक्तो राजा षड्भिः परंतप<br>संयुक्तो देशकालाभ्यां बलैरात्मगुणैस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१४</sup>तुष्टपुष्टबलो यायाद्राजा वृद्ध्युदये रतः<br>आहूतश्चाप्यथो यायादनृतावपि पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१५</sup>स्थूणाश्मानं वाजिरथप्रधानां; ध्वजद्रुमैः संवृतकूलरोधसम्<br>पदातिनागैर्बहुकर्दमां नदीं; सपत्ननाशे नृपतिः प्रयायात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१६</sup>अथोपपत्त्या शकटं पद्मं वज्रं च भारत<br>उशना वेद यच्छास्त्रं तत्रैतद्विहितं विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१७</sup>सादयित्वा परबलं कृत्वा च बलहर्षणम्<br>स्वभूमौ योजयेद्युद्धं परभूमौ तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१८</sup>लब्धं प्रशमयेद्राजा निक्षिपेद्धनिनो नरान्<br>ज्ञात्वा स्वविषयं तं च सामादिभिरुपक्रमेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.१९</sup>सर्वथैव महाराज शरीरं धारयेदिह<br>प्रेत्येह चैव कर्तव्यमात्मनिःश्रेयसं परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२०</sup>एवं कुर्वञ्शुभा वाचो लोकेऽस्मिञ्शृणुते नृपः<br>प्रेत्य स्वर्गं तथाप्नोति प्रजा धर्मेण पालयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२१</sup>एवं त्वया कुरुश्रेष्ठ वर्तितव्यं प्रजाहितम्<br>उभयोर्लोकयोस्तात प्राप्तये नित्यमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२२</sup>भीष्मेण पूर्वमुक्तोऽसि कृष्णेन विदुरेण च<br>मयाप्यवश्यं वक्तव्यं प्रीत्या ते नृपसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२३</sup>एतत्सर्वं यथान्यायं कुर्वीथा भूरिदक्षिण<br>प्रियस्तथा प्रजानां त्वं स्वर्गे सुखमवाप्स्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१२.२४</sup>अश्वमेधसहस्रेण यो यजेत्पृथिवीपतिः<br>पालयेद्वापि धर्मेण प्रजास्तुल्यं फलं लभेत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

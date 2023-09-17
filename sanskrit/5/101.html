@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/100.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१०१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/102.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,127 +64,92 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/100.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१०१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/102.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२</sup>इयं भोगवती नाम पुरी वासुकिपालिता<br>यादृशी देवराजस्य पुरीवर्यामरावती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.३</sup>एष शेषः स्थितो नागो येनेयं धार्यते सदा<br>तपसा लोकमुख्येन प्रभावमहता मही
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.४</sup>श्वेतोच्चयनिभाकारो नानाविधविभूषणः<br>सहस्रं धारयन्मूर्ध्नां ज्वालाजिह्वो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.५</sup>इह नानाविधाकारा नानाविधविभूषणाः<br>सुरसायाः सुता नागा निवसन्ति गतव्यथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.६</sup>मणिस्वस्तिकचक्राङ्काः कमण्डलुकलक्षणाः<br>सहस्रसंख्या बलिनः सर्वे रौद्राः स्वभावतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.७</sup>सहस्रशिरसः केचित्केचित्पञ्चशताननाः<br>शतशीर्षास्तथा केचित्केचित्त्रिशिरसोऽपि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.८</sup>द्विपञ्चशिरसः केचित्केचित्सप्तमुखास्तथा<br>महाभोगा महाकायाः पर्वताभोगभोगिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.९</sup>बहूनीह सहस्राणि प्रयुतान्यर्बुदानि च<br>नागानामेकवंशानां यथाश्रेष्ठांस्तु मे शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१०</sup>वासुकिस्तक्षकश्चैव कर्कोटकधनंजयौ<br>कालीयो नहुषश्चैव कम्बलाश्वतरावुभौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.११</sup>बाह्यकुण्डो मणिर्नागस्तथैवापूरणः खगः<br>वामनश्चैलपत्रश्च कुकुरः कुकुणस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१२</sup>आर्यको नन्दकश्चैव तथा कलशपोतकौ<br>कैलासकः पिञ्जरको नागश्चैरावतस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१३</sup>सुमनोमुखो दधिमुखः शङ्खो नन्दोपनन्दकौ<br>आप्तः कोटनकश्चैव शिखी निष्ठूरिकस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१४</sup>तित्तिरिर्हस्तिभद्रश्च कुमुदो माल्यपिण्डकः<br>द्वौ पद्मौ पुण्डरीकश्च पुष्पो मुद्गरपर्णकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१५</sup>करवीरः पीठरकः संवृत्तो वृत्त एव च<br>पिण्डारो बिल्वपत्रश्च मूषिकादः शिरीषकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१६</sup>दिलीपः शङ्खशीर्षश्च ज्योतिष्कोऽथापराजितः<br>कौरव्यो धृतराष्ट्रश्च कुमारः कुशकस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१७</sup>विरजा धारणश्चैव सुबाहुर्मुखरो जयः<br>बधिरान्धौ विकुण्डश्च विरसः सुरसस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१८</sup>एते चान्ये च बहवः कश्यपस्यात्मजाः स्मृताः<br>मातले पश्य यद्यत्र कश्चित्ते रोचते वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.१९</sup>कण्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२०</sup>मातलिस्त्वेकमव्यग्रः सततं संनिरीक्ष्य वै<br>पप्रच्छ नारदं तत्र प्रीतिमानिव चाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२१</sup>स्थितो य एष पुरतः कौरव्यस्यार्यकस्य च<br>द्युतिमान्दर्शनीयश्च कस्यैष कुलनन्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२२</sup>कः पिता जननी चास्य कतमस्यैष भोगिनः<br>वंशस्य कस्यैष महान्केतुभूत इव स्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२३</sup>प्रणिधानेन धैर्येण रूपेण वयसा च मे<br>मनः प्रविष्टो देवर्षे गुणकेश्याः पतिर्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२४</sup>मातलिं प्रीतिमनसं दृष्ट्वा सुमुखदर्शनात्<br>निवेदयामास तदा माहात्म्यं जन्म कर्म च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२५</sup>ऐरावतकुले जातः सुमुखो नाम नागराट्<br>आर्यकस्य मतः पौत्रो दौहित्रो वामनस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२६</sup>एतस्य हि पिता नागश्चिकुरो नाम मातले<br>नचिराद्वैनतेयेन पञ्चत्वमुपपादितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२७</sup>ततोऽब्रवीत्प्रीतमना मातलिर्नारदं वचः<br>एष मे रुचितस्तात जामाता भुजगोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१०१.२८</sup>क्रियतामत्र यत्नो हि प्रीतिमानस्म्यनेन वै<br>अस्य नागपतेर्दातुं प्रियां दुहितरं मुने
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२</sup>इयं भोगवती नाम पुरी वासुकिपालिता<br>यादृशी देवराजस्य पुरीवर्यामरावती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.३</sup>एष शेषः स्थितो नागो येनेयं धार्यते सदा<br>तपसा लोकमुख्येन प्रभावमहता मही
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.४</sup>श्वेतोच्चयनिभाकारो नानाविधविभूषणः<br>सहस्रं धारयन्मूर्ध्नां ज्वालाजिह्वो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.५</sup>इह नानाविधाकारा नानाविधविभूषणाः<br>सुरसायाः सुता नागा निवसन्ति गतव्यथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.६</sup>मणिस्वस्तिकचक्राङ्काः कमण्डलुकलक्षणाः<br>सहस्रसंख्या बलिनः सर्वे रौद्राः स्वभावतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.७</sup>सहस्रशिरसः केचित्केचित्पञ्चशताननाः<br>शतशीर्षास्तथा केचित्केचित्त्रिशिरसोऽपि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.८</sup>द्विपञ्चशिरसः केचित्केचित्सप्तमुखास्तथा<br>महाभोगा महाकायाः पर्वताभोगभोगिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.९</sup>बहूनीह सहस्राणि प्रयुतान्यर्बुदानि च<br>नागानामेकवंशानां यथाश्रेष्ठांस्तु मे शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१०</sup>वासुकिस्तक्षकश्चैव कर्कोटकधनंजयौ<br>कालीयो नहुषश्चैव कम्बलाश्वतरावुभौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.११</sup>बाह्यकुण्डो मणिर्नागस्तथैवापूरणः खगः<br>वामनश्चैलपत्रश्च कुकुरः कुकुणस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१२</sup>आर्यको नन्दकश्चैव तथा कलशपोतकौ<br>कैलासकः पिञ्जरको नागश्चैरावतस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१३</sup>सुमनोमुखो दधिमुखः शङ्खो नन्दोपनन्दकौ<br>आप्तः कोटनकश्चैव शिखी निष्ठूरिकस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१४</sup>तित्तिरिर्हस्तिभद्रश्च कुमुदो माल्यपिण्डकः<br>द्वौ पद्मौ पुण्डरीकश्च पुष्पो मुद्गरपर्णकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१५</sup>करवीरः पीठरकः संवृत्तो वृत्त एव च<br>पिण्डारो बिल्वपत्रश्च मूषिकादः शिरीषकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१६</sup>दिलीपः शङ्खशीर्षश्च ज्योतिष्कोऽथापराजितः<br>कौरव्यो धृतराष्ट्रश्च कुमारः कुशकस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१७</sup>विरजा धारणश्चैव सुबाहुर्मुखरो जयः<br>बधिरान्धौ विकुण्डश्च विरसः सुरसस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१८</sup>एते चान्ये च बहवः कश्यपस्यात्मजाः स्मृताः<br>मातले पश्य यद्यत्र कश्चित्ते रोचते वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.१९</sup>कण्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२०</sup>मातलिस्त्वेकमव्यग्रः सततं संनिरीक्ष्य वै<br>पप्रच्छ नारदं तत्र प्रीतिमानिव चाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२१</sup>स्थितो य एष पुरतः कौरव्यस्यार्यकस्य च<br>द्युतिमान्दर्शनीयश्च कस्यैष कुलनन्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२२</sup>कः पिता जननी चास्य कतमस्यैष भोगिनः<br>वंशस्य कस्यैष महान्केतुभूत इव स्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२३</sup>प्रणिधानेन धैर्येण रूपेण वयसा च मे<br>मनः प्रविष्टो देवर्षे गुणकेश्याः पतिर्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२४</sup>मातलिं प्रीतिमनसं दृष्ट्वा सुमुखदर्शनात्<br>निवेदयामास तदा माहात्म्यं जन्म कर्म च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२५</sup>ऐरावतकुले जातः सुमुखो नाम नागराट्<br>आर्यकस्य मतः पौत्रो दौहित्रो वामनस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२६</sup>एतस्य हि पिता नागश्चिकुरो नाम मातले<br>नचिराद्वैनतेयेन पञ्चत्वमुपपादितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२७</sup>ततोऽब्रवीत्प्रीतमना मातलिर्नारदं वचः<br>एष मे रुचितस्तात जामाता भुजगोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१०१.२८</sup>क्रियतामत्र यत्नो हि प्रीतिमानस्म्यनेन वै<br>अस्य नागपतेर्दातुं प्रियां दुहितरं मुने
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -165,8 +158,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

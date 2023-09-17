@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/6/36.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>६:३७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/6/38.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/6/36.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">६:३७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/6/38.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१</sup>श्रीभगवानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.२</sup>ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्<br>छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.३</sup>अधश्चोर्ध्वं प्रसृतास्तस्य शाखा; गुणप्रवृद्धा विषयप्रवालाः<br>अधश्च मूलान्यनुसंततानि; कर्मानुबन्धीनि मनुष्यलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.४</sup>न रूपमस्येह तथोपलभ्यते; नान्तो न चादिर्न च संप्रतिष्ठा<br>अश्वत्थमेनं सुविरूढमूल;मसङ्गशस्त्रेण दृढेन छित्त्वा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.५</sup>ततः पदं तत्परिमार्गितव्यं; यस्मिन्गता न निवर्तन्ति भूयः<br>तमेव चाद्यं पुरुषं प्रपद्ये; यतः प्रवृत्तिः प्रसृता पुराणी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.६</sup>निर्मानमोहा जितसङ्गदोषा; अध्यात्मनित्या विनिवृत्तकामाः<br>द्वंद्वैर्विमुक्ताः सुखदुःखसंज्ञै;र्गच्छन्त्यमूढाः पदमव्ययं तत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.७</sup>न तद्भासयते सूर्यो न शशाङ्को न पावकः<br>यद्गत्वा न निवर्तन्ते तद्धाम परमं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.८</sup>ममैवांशो जीवलोके जीवभूतः सनातनः<br>मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.९</sup>शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः<br>गृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१०</sup>श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च<br>अधिष्ठाय मनश्चायं विषयानुपसेवते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.११</sup>उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्<br>विमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१२</sup>यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्<br>यतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१३</sup>यदादित्यगतं तेजो जगद्भासयतेऽखिलम्<br>यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१४</sup>गामाविश्य च भूतानि धारयाम्यहमोजसा<br>पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१५</sup>अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः<br>प्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१६</sup>सर्वस्य चाहं हृदि संनिविष्टो; मत्तः स्मृतिर्ज्ञानमपोहनं च<br>वेदैश्च सर्वैरहमेव वेद्यो; वेदान्तकृद्वेदविदेव चाहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१७</sup>द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च<br>क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१८</sup>उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः<br>यो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.१९</sup>यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः<br>अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.२०</sup>यो मामेवमसंमूढो जानाति पुरुषोत्तमम्<br>स सर्वविद्भजति मां सर्वभावेन भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३७.२१</sup>इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ<br>एतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१</sup>श्रीभगवानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.२</sup>ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्<br>छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.३</sup>अधश्चोर्ध्वं प्रसृतास्तस्य शाखा; गुणप्रवृद्धा विषयप्रवालाः<br>अधश्च मूलान्यनुसंततानि; कर्मानुबन्धीनि मनुष्यलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.४</sup>न रूपमस्येह तथोपलभ्यते; नान्तो न चादिर्न च संप्रतिष्ठा<br>अश्वत्थमेनं सुविरूढमूल;मसङ्गशस्त्रेण दृढेन छित्त्वा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.५</sup>ततः पदं तत्परिमार्गितव्यं; यस्मिन्गता न निवर्तन्ति भूयः<br>तमेव चाद्यं पुरुषं प्रपद्ये; यतः प्रवृत्तिः प्रसृता पुराणी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.६</sup>निर्मानमोहा जितसङ्गदोषा; अध्यात्मनित्या विनिवृत्तकामाः<br>द्वंद्वैर्विमुक्ताः सुखदुःखसंज्ञै;र्गच्छन्त्यमूढाः पदमव्ययं तत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.७</sup>न तद्भासयते सूर्यो न शशाङ्को न पावकः<br>यद्गत्वा न निवर्तन्ते तद्धाम परमं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.८</sup>ममैवांशो जीवलोके जीवभूतः सनातनः<br>मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.९</sup>शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः<br>गृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१०</sup>श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च<br>अधिष्ठाय मनश्चायं विषयानुपसेवते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.११</sup>उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्<br>विमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१२</sup>यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्<br>यतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१३</sup>यदादित्यगतं तेजो जगद्भासयतेऽखिलम्<br>यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१४</sup>गामाविश्य च भूतानि धारयाम्यहमोजसा<br>पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१५</sup>अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः<br>प्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१६</sup>सर्वस्य चाहं हृदि संनिविष्टो; मत्तः स्मृतिर्ज्ञानमपोहनं च<br>वेदैश्च सर्वैरहमेव वेद्यो; वेदान्तकृद्वेदविदेव चाहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१७</sup>द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च<br>क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१८</sup>उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः<br>यो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.१९</sup>यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः<br>अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.२०</sup>यो मामेवमसंमूढो जानाति पुरुषोत्तमम्<br>स सर्वविद्भजति मां सर्वभावेन भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३७.२१</sup>इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ<br>एतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

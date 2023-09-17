@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/166.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१६७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/168.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/166.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१६७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/168.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२</sup>ततश्चितां बकपतेः कारयामास राक्षसः<br>रत्नैर्गन्धैश्च बहुभिर्वस्त्रैश्च समलंकृताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.३</sup>तत्र प्रज्वाल्य नृपते बकराजं प्रतापवान्<br>प्रेतकार्याणि विधिवद्राक्षसेन्द्रश्चकार ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.४</sup>तस्मिन्कालेऽथ सुरभिर्देवी दाक्षायणी शुभा<br>उपरिष्टात्ततस्तस्य सा बभूव पयस्विनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.५</sup>तस्या वक्त्राच्च्युतः फेनः क्षीरमिश्रस्तदानघ<br>सोऽपतद्वै ततस्तस्यां चितायां राजधर्मणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.६</sup>ततः संजीवितस्तेन बकराजस्तदानघ<br>उत्पत्य च समेयाय विरूपाक्षं बकाधिपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.७</sup>ततोऽभ्ययाद्देवराजो विरूपाक्षपुरं तदा<br>प्राह चेदं विरूपाक्षं दिष्ट्यायं जीवतीत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.८</sup>श्रावयामास चेन्द्रस्तं विरूपाक्षं पुरातनम्<br>यथा शापः पुरा दत्तो ब्रह्मणा राजधर्मणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.९</sup>यदा बकपती राजन्ब्रह्माणं नोपसर्पति<br>ततो रोषादिदं प्राह बकेन्द्राय पितामहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१०</sup>यस्मान्मूढो मम सदो नागतोऽसौ बकाधमः<br>तस्माद्वधं स दुष्टात्मा नचिरात्समवाप्स्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.११</sup>तदायं तस्य वचनान्निहतो गौतमेन वै<br>तेनैवामृतसिक्तश्च पुनः संजीवितो बकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१२</sup>राजधर्मा ततः प्राह प्रणिपत्य पुरंदरम्<br>यदि तेऽनुग्रहकृता मयि बुद्धिः पुरंदर<br>सखायं मे सुदयितं गौतमं जीवयेत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१३</sup>तस्य वाक्यं समाज्ञाय वासवः पुरुषर्षभ<br>संजीवयित्वा सख्ये वै प्रादात्तं गौतमं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१४</sup>सभाण्डोपस्करं राजंस्तमासाद्य बकाधिपः<br>संपरिष्वज्य सुहृदं प्रीत्या परमया युतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१५</sup>अथ तं पापकर्माणं राजधर्मा बकाधिपः<br>विसर्जयित्वा सधनं प्रविवेश स्वमालयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१६</sup>यथोचितं च स बको ययौ ब्रह्मसदस्तदा<br>ब्रह्मा च तं महात्मानमातिथ्येनाभ्यपूजयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१७</sup>गौतमश्चापि संप्राप्य पुनस्तं शबरालयम्<br>शूद्रायां जनयामास पुत्रान्दुष्कृतकारिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१८</sup>शापश्च सुमहांस्तस्य दत्तः सुरगणैस्तदा<br>कुक्षौ पुनर्भ्वां भार्यायां जनयित्वा चिरात्सुतान्<br>निरयं प्राप्स्यति महत्कृतघ्नोऽयमिति प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.१९</sup>एतत्प्राह पुरा सर्वं नारदो मम भारत<br>संस्मृत्य चापि सुमहदाख्यानं पुरुषर्षभ<br>मयापि भवते सर्वं यथावदुपवर्णितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२०</sup>कुतः कृतघ्नस्य यशः कुतः स्थानं कुतः सुखम्<br>अश्रद्धेयः कृतघ्नो हि कृतघ्ने नास्ति निष्कृतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२१</sup>मित्रद्रोहो न कर्तव्यः पुरुषेण विशेषतः<br>मित्रध्रुङ्निरयं घोरमनन्तं प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२२</sup>कृतज्ञेन सदा भाव्यं मित्रकामेन चानघ<br>मित्रात्प्रभवते सत्यं मित्रात्प्रभवते बलम्<br>सत्कारैरुत्तमैर्मित्रं पूजयेत विचक्षणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२३</sup>परित्याज्यो बुधैः पापः कृतघ्नो निरपत्रपः<br>मित्रद्रोही कुलाङ्गारः पापकर्मा नराधमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२४</sup>एष धर्मभृतां श्रेष्ठ प्रोक्तः पापो मया तव<br>मित्रद्रोही कृतघ्नो वै किं भूयः श्रोतुमिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६७.२६</sup>एतच्छ्रुत्वा तदा वाक्यं भीष्मेणोक्तं महात्मना<br>युधिष्ठिरः प्रीतमना बभूव जनमेजय
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२</sup>ततश्चितां बकपतेः कारयामास राक्षसः<br>रत्नैर्गन्धैश्च बहुभिर्वस्त्रैश्च समलंकृताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.३</sup>तत्र प्रज्वाल्य नृपते बकराजं प्रतापवान्<br>प्रेतकार्याणि विधिवद्राक्षसेन्द्रश्चकार ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.४</sup>तस्मिन्कालेऽथ सुरभिर्देवी दाक्षायणी शुभा<br>उपरिष्टात्ततस्तस्य सा बभूव पयस्विनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.५</sup>तस्या वक्त्राच्च्युतः फेनः क्षीरमिश्रस्तदानघ<br>सोऽपतद्वै ततस्तस्यां चितायां राजधर्मणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.६</sup>ततः संजीवितस्तेन बकराजस्तदानघ<br>उत्पत्य च समेयाय विरूपाक्षं बकाधिपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.७</sup>ततोऽभ्ययाद्देवराजो विरूपाक्षपुरं तदा<br>प्राह चेदं विरूपाक्षं दिष्ट्यायं जीवतीत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.८</sup>श्रावयामास चेन्द्रस्तं विरूपाक्षं पुरातनम्<br>यथा शापः पुरा दत्तो ब्रह्मणा राजधर्मणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.९</sup>यदा बकपती राजन्ब्रह्माणं नोपसर्पति<br>ततो रोषादिदं प्राह बकेन्द्राय पितामहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१०</sup>यस्मान्मूढो मम सदो नागतोऽसौ बकाधमः<br>तस्माद्वधं स दुष्टात्मा नचिरात्समवाप्स्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.११</sup>तदायं तस्य वचनान्निहतो गौतमेन वै<br>तेनैवामृतसिक्तश्च पुनः संजीवितो बकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१२</sup>राजधर्मा ततः प्राह प्रणिपत्य पुरंदरम्<br>यदि तेऽनुग्रहकृता मयि बुद्धिः पुरंदर<br>सखायं मे सुदयितं गौतमं जीवयेत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१३</sup>तस्य वाक्यं समाज्ञाय वासवः पुरुषर्षभ<br>संजीवयित्वा सख्ये वै प्रादात्तं गौतमं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१४</sup>सभाण्डोपस्करं राजंस्तमासाद्य बकाधिपः<br>संपरिष्वज्य सुहृदं प्रीत्या परमया युतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१५</sup>अथ तं पापकर्माणं राजधर्मा बकाधिपः<br>विसर्जयित्वा सधनं प्रविवेश स्वमालयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१६</sup>यथोचितं च स बको ययौ ब्रह्मसदस्तदा<br>ब्रह्मा च तं महात्मानमातिथ्येनाभ्यपूजयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१७</sup>गौतमश्चापि संप्राप्य पुनस्तं शबरालयम्<br>शूद्रायां जनयामास पुत्रान्दुष्कृतकारिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१८</sup>शापश्च सुमहांस्तस्य दत्तः सुरगणैस्तदा<br>कुक्षौ पुनर्भ्वां भार्यायां जनयित्वा चिरात्सुतान्<br>निरयं प्राप्स्यति महत्कृतघ्नोऽयमिति प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.१९</sup>एतत्प्राह पुरा सर्वं नारदो मम भारत<br>संस्मृत्य चापि सुमहदाख्यानं पुरुषर्षभ<br>मयापि भवते सर्वं यथावदुपवर्णितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२०</sup>कुतः कृतघ्नस्य यशः कुतः स्थानं कुतः सुखम्<br>अश्रद्धेयः कृतघ्नो हि कृतघ्ने नास्ति निष्कृतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२१</sup>मित्रद्रोहो न कर्तव्यः पुरुषेण विशेषतः<br>मित्रध्रुङ्निरयं घोरमनन्तं प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२२</sup>कृतज्ञेन सदा भाव्यं मित्रकामेन चानघ<br>मित्रात्प्रभवते सत्यं मित्रात्प्रभवते बलम्<br>सत्कारैरुत्तमैर्मित्रं पूजयेत विचक्षणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२३</sup>परित्याज्यो बुधैः पापः कृतघ्नो निरपत्रपः<br>मित्रद्रोही कुलाङ्गारः पापकर्मा नराधमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२४</sup>एष धर्मभृतां श्रेष्ठ प्रोक्तः पापो मया तव<br>मित्रद्रोही कृतघ्नो वै किं भूयः श्रोतुमिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६७.२६</sup>एतच्छ्रुत्वा तदा वाक्यं भीष्मेणोक्तं महात्मना<br>युधिष्ठिरः प्रीतमना बभूव जनमेजय
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

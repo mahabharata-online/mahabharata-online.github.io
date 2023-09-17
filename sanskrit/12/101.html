@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/100.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१०१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/102.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,190 +64,155 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/100.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१०१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/102.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२</sup>यथा जयार्थिनः सेनां नयन्ति भरतर्षभ<br>ईषद्धर्मं प्रपीड्यापि तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४</sup>सत्येन हि स्थिता धर्मा उपपत्त्या तथापरे<br>साध्वाचारतया केचित्तथैवौपयिका अपि<br>उपायधर्मान्वक्ष्यामि सिद्धार्थानर्थधर्मयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.५</sup>निर्मर्यादा दस्यवस्तु भवन्ति परिपन्थिनः<br>तेषां प्रतिविघातार्थं प्रवक्ष्याम्यथ नैगमम्<br>कार्याणां संप्रसिद्ध्यर्थं तानुपायान्निबोध मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.६</sup>उभे प्रज्ञे वेदितव्ये ऋज्वी वक्रा च भारत<br>जानन्वक्रां न सेवेत प्रतिबाधेत चागताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.७</sup>अमित्रा एव राजानं भेदेनोपचरन्त्युत<br>तां राजा निकृतिं जानन्यथामित्रान्प्रबाधते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.८</sup>गजानां पार्श्वचर्माणि गोवृषाजगराणि च<br>शल्यकङ्कटलोहानि तनुत्राणि मतानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.९</sup>शितपीतानि शस्त्राणि संनाहाः पीतलोहिताः<br>नानारञ्जनरक्ताः स्युः पताकाः केतवश्च ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१०</sup>ऋष्टयस्तोमराः खड्गा निशिताश्च परश्वधाः<br>फलकान्यथ चर्माणि प्रतिकल्प्यान्यनेकशः<br>अभिनीतानि शस्त्राणि योधाश्च कृतनिश्रमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.११</sup>चैत्र्यां वा मार्गशीर्ष्यां वा सेनायोगः प्रशस्यते<br>पक्वसस्या हि पृथिवी भवत्यम्बुमती तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१२</sup>नैवातिशीतो नात्युष्णः कालो भवति भारत<br>तस्मात्तदा योजयेत परेषां व्यसनेषु वा<br>एतेषु योगाः सेनायाः प्रशस्ताः परबाधने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१३</sup>जलवांस्तृणवान्मार्गः समो गम्यः प्रशस्यते<br>चारैर्हि विहिताभ्यासः कुशलैर्वनगोचरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१४</sup>नव्यारण्यैर्न शक्येत गन्तुं मृगगणैरिव<br>तस्मात्सर्वासु सेनासु योजयन्ति जयार्थिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१५</sup>आवासस्तोयवान्दुर्गः पर्याकाशः प्रशस्यते<br>परेषामुपसर्पाणां प्रतिषेधस्तथा भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१६</sup>आकाशं तु वनाभ्याशे मन्यन्ते गुणवत्तरम्<br>बहुभिर्गुणजातैस्तु ये युद्धकुशला जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१७</sup>उपन्यासोऽपसर्पाणां पदातीनां च गूहनम्<br>अथ शत्रुप्रतीघातमापदर्थं परायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१८</sup>सप्तर्षीन्पृष्ठतः कृत्वा युध्येरन्नचला इव<br>अनेन विधिना राजञ्जिगीषेतापि दुर्जयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.१९</sup>यतो वायुर्यतः सूर्यो यतः शुक्रस्ततो जयः<br>पूर्वं पूर्वं ज्याय एषां संनिपाते युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२०</sup>अकर्दमामनुदकाममर्यादामलोष्टकाम्<br>अश्वभूमिं प्रशंसन्ति ये युद्धकुशला जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२१</sup>समा निरुदकाकाशा रथभूमिः प्रशस्यते<br>नीचद्रुमा महाकक्षा सोदका हस्तियोधिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२२</sup>बहुदुर्गा महावृक्षा वेत्रवेणुभिरास्तृता<br>पदातीनां क्षमा भूमिः पर्वतोपवनानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२३</sup>पदातिबहुला सेना दृढा भवति भारत<br>रथाश्वबहुला सेना सुदिनेषु प्रशस्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२४</sup>पदातिनागबहुला प्रावृट्काले प्रशस्यते<br>गुणानेतान्प्रसंख्याय देशकालौ प्रयोजयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२५</sup>एवं संचिन्त्य यो याति तिथिनक्षत्रपूजितः<br>विजयं लभते नित्यं सेनां सम्यक्प्रयोजयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२६</sup>प्रसुप्तांस्तृषिताञ्श्रान्तान्प्रकीर्णान्नाभिघातयेत्<br>मोक्षे प्रयाणे चलने पानभोजनकालयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२७</sup>अतिक्षिप्तान्व्यतिक्षिप्तान्विहतान्प्रतनूकृतान्<br>सुविस्रम्भान्कृतारम्भानुपन्यासप्रतापितान्<br>बहिश्चरानुपन्यासान्कृत्वा वेश्मानुसारिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२८</sup>पारंपर्यागते द्वारे ये केचिदनुवर्तिनः<br>परिचर्यावरोद्धारो ये च केचन वल्गिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.२९</sup>अनीकं ये प्रभिन्दन्ति भिन्नं ये स्थगयन्ति च<br>समानाशनपानास्ते कार्या द्विगुणवेतनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३०</sup>दशाधिपतयः कार्याः शताधिपतयस्तथा<br>तेषां सहस्राधिपतिं कुर्याच्छूरमतन्द्रितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३१</sup>यथामुख्यं संनिपात्य वक्तव्याः स्म शपामहे<br>यथा जयार्थं संग्रामे न जह्याम परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३२</sup>इहैव ते निवर्तन्तां ये नः केचन भीरवः<br>न घातयेयुः प्रदरं कुर्वाणास्तुमुले सति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३३</sup>आत्मानं च स्वपक्षं च पलायन्हन्ति संयुगे<br>द्रव्यनाशो वधोऽकीर्तिरयशश्च पलायने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३४</sup>अमनोज्ञासुखा वाचः पुरुषस्य पलायतः<br>प्रतिस्पन्दौष्ठदन्तस्य न्यस्तसर्वायुधस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३५</sup>हित्वा पलायमानस्य सहायान्प्राणसंशये<br>अमित्रैरनुबद्धस्य द्विषतामस्तु नस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३६</sup>मनुष्यापसदा ह्येते ये भवन्ति पराङ्मुखाः<br>राशिवर्धनमात्रास्ते नैव ते प्रेत्य नो इह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३७</sup>अमित्रा हृष्टमनसः प्रत्युद्यान्ति पलायिनम्<br>जयिनं सुहृदस्तात वन्दनैर्मङ्गलेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३८</sup>यस्य स्म व्यसने राजन्ननुमोदन्ति शत्रवः<br>तदसह्यतरं दुःखमहं मन्ये वधादपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.३९</sup>श्रियं जानीत धर्मस्य मूलं सर्वसुखस्य च<br>सा भीरूणां परान्याति शूरस्तामधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४०</sup>ते वयं स्वर्गमिच्छन्तः संग्रामे त्यक्तजीविताः<br>जयन्तो वध्यमाना वा प्राप्तुमर्हाम सद्गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४१</sup>एवं संशप्तशपथाः समभित्यक्तजीविताः<br>अमित्रवाहिनीं वीराः संप्रगाहन्त्यभीरवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४२</sup>अग्रतः पुरुषानीकमसिचर्मवतां भवेत्<br>पृष्ठतः शकटानीकं कलत्रं मध्यतस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४३</sup>परेषां प्रतिघातार्थं पदातीनां च गूहनम्<br>अपि ह्यस्मिन्परे गृद्धा भवेयुर्ये पुरोगमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४४</sup>ये पुरस्तादभिमताः सत्त्ववन्तो मनस्विनः<br>ते पूर्वमभिवर्तेरंस्तानन्वगितरे जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४५</sup>अपि चोद्धर्षणं कार्यं भीरूणामपि यत्नतः<br>स्कन्धदर्शनमात्रं तु तिष्ठेयुर्वा समीपतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४६</sup>संहतान्योधयेदल्पान्कामं विस्तारयेद्बहून्<br>सूचीमुखमनीकं स्यादल्पानां बहुभिः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४७</sup>संप्रयुद्धे प्रहृष्टे वा सत्यं वा यदि वानृतम्<br>प्रगृह्य बाहून्क्रोशेत भग्ना भग्नाः परा इति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४८</sup>आगतं नो मित्रबलं प्रहरध्वमभीतवत्<br>शब्दवन्तोऽनुधावेयुः कुर्वन्तो भैरवं रवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०१.४९</sup>क्ष्वेडाः किलकिलाः शङ्खाः क्रकचा गोविषाणिकान्<br>भेरीमृदङ्गपणवान्नादयेयुश्च कुञ्जरान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२</sup>यथा जयार्थिनः सेनां नयन्ति भरतर्षभ<br>ईषद्धर्मं प्रपीड्यापि तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४</sup>सत्येन हि स्थिता धर्मा उपपत्त्या तथापरे<br>साध्वाचारतया केचित्तथैवौपयिका अपि<br>उपायधर्मान्वक्ष्यामि सिद्धार्थानर्थधर्मयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.५</sup>निर्मर्यादा दस्यवस्तु भवन्ति परिपन्थिनः<br>तेषां प्रतिविघातार्थं प्रवक्ष्याम्यथ नैगमम्<br>कार्याणां संप्रसिद्ध्यर्थं तानुपायान्निबोध मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.६</sup>उभे प्रज्ञे वेदितव्ये ऋज्वी वक्रा च भारत<br>जानन्वक्रां न सेवेत प्रतिबाधेत चागताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.७</sup>अमित्रा एव राजानं भेदेनोपचरन्त्युत<br>तां राजा निकृतिं जानन्यथामित्रान्प्रबाधते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.८</sup>गजानां पार्श्वचर्माणि गोवृषाजगराणि च<br>शल्यकङ्कटलोहानि तनुत्राणि मतानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.९</sup>शितपीतानि शस्त्राणि संनाहाः पीतलोहिताः<br>नानारञ्जनरक्ताः स्युः पताकाः केतवश्च ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१०</sup>ऋष्टयस्तोमराः खड्गा निशिताश्च परश्वधाः<br>फलकान्यथ चर्माणि प्रतिकल्प्यान्यनेकशः<br>अभिनीतानि शस्त्राणि योधाश्च कृतनिश्रमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.११</sup>चैत्र्यां वा मार्गशीर्ष्यां वा सेनायोगः प्रशस्यते<br>पक्वसस्या हि पृथिवी भवत्यम्बुमती तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१२</sup>नैवातिशीतो नात्युष्णः कालो भवति भारत<br>तस्मात्तदा योजयेत परेषां व्यसनेषु वा<br>एतेषु योगाः सेनायाः प्रशस्ताः परबाधने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१३</sup>जलवांस्तृणवान्मार्गः समो गम्यः प्रशस्यते<br>चारैर्हि विहिताभ्यासः कुशलैर्वनगोचरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१४</sup>नव्यारण्यैर्न शक्येत गन्तुं मृगगणैरिव<br>तस्मात्सर्वासु सेनासु योजयन्ति जयार्थिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१५</sup>आवासस्तोयवान्दुर्गः पर्याकाशः प्रशस्यते<br>परेषामुपसर्पाणां प्रतिषेधस्तथा भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१६</sup>आकाशं तु वनाभ्याशे मन्यन्ते गुणवत्तरम्<br>बहुभिर्गुणजातैस्तु ये युद्धकुशला जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१७</sup>उपन्यासोऽपसर्पाणां पदातीनां च गूहनम्<br>अथ शत्रुप्रतीघातमापदर्थं परायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१८</sup>सप्तर्षीन्पृष्ठतः कृत्वा युध्येरन्नचला इव<br>अनेन विधिना राजञ्जिगीषेतापि दुर्जयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.१९</sup>यतो वायुर्यतः सूर्यो यतः शुक्रस्ततो जयः<br>पूर्वं पूर्वं ज्याय एषां संनिपाते युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२०</sup>अकर्दमामनुदकाममर्यादामलोष्टकाम्<br>अश्वभूमिं प्रशंसन्ति ये युद्धकुशला जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२१</sup>समा निरुदकाकाशा रथभूमिः प्रशस्यते<br>नीचद्रुमा महाकक्षा सोदका हस्तियोधिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२२</sup>बहुदुर्गा महावृक्षा वेत्रवेणुभिरास्तृता<br>पदातीनां क्षमा भूमिः पर्वतोपवनानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२३</sup>पदातिबहुला सेना दृढा भवति भारत<br>रथाश्वबहुला सेना सुदिनेषु प्रशस्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२४</sup>पदातिनागबहुला प्रावृट्काले प्रशस्यते<br>गुणानेतान्प्रसंख्याय देशकालौ प्रयोजयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२५</sup>एवं संचिन्त्य यो याति तिथिनक्षत्रपूजितः<br>विजयं लभते नित्यं सेनां सम्यक्प्रयोजयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२६</sup>प्रसुप्तांस्तृषिताञ्श्रान्तान्प्रकीर्णान्नाभिघातयेत्<br>मोक्षे प्रयाणे चलने पानभोजनकालयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२७</sup>अतिक्षिप्तान्व्यतिक्षिप्तान्विहतान्प्रतनूकृतान्<br>सुविस्रम्भान्कृतारम्भानुपन्यासप्रतापितान्<br>बहिश्चरानुपन्यासान्कृत्वा वेश्मानुसारिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२८</sup>पारंपर्यागते द्वारे ये केचिदनुवर्तिनः<br>परिचर्यावरोद्धारो ये च केचन वल्गिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.२९</sup>अनीकं ये प्रभिन्दन्ति भिन्नं ये स्थगयन्ति च<br>समानाशनपानास्ते कार्या द्विगुणवेतनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३०</sup>दशाधिपतयः कार्याः शताधिपतयस्तथा<br>तेषां सहस्राधिपतिं कुर्याच्छूरमतन्द्रितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३१</sup>यथामुख्यं संनिपात्य वक्तव्याः स्म शपामहे<br>यथा जयार्थं संग्रामे न जह्याम परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३२</sup>इहैव ते निवर्तन्तां ये नः केचन भीरवः<br>न घातयेयुः प्रदरं कुर्वाणास्तुमुले सति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३३</sup>आत्मानं च स्वपक्षं च पलायन्हन्ति संयुगे<br>द्रव्यनाशो वधोऽकीर्तिरयशश्च पलायने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३४</sup>अमनोज्ञासुखा वाचः पुरुषस्य पलायतः<br>प्रतिस्पन्दौष्ठदन्तस्य न्यस्तसर्वायुधस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३५</sup>हित्वा पलायमानस्य सहायान्प्राणसंशये<br>अमित्रैरनुबद्धस्य द्विषतामस्तु नस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३६</sup>मनुष्यापसदा ह्येते ये भवन्ति पराङ्मुखाः<br>राशिवर्धनमात्रास्ते नैव ते प्रेत्य नो इह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३७</sup>अमित्रा हृष्टमनसः प्रत्युद्यान्ति पलायिनम्<br>जयिनं सुहृदस्तात वन्दनैर्मङ्गलेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३८</sup>यस्य स्म व्यसने राजन्ननुमोदन्ति शत्रवः<br>तदसह्यतरं दुःखमहं मन्ये वधादपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.३९</sup>श्रियं जानीत धर्मस्य मूलं सर्वसुखस्य च<br>सा भीरूणां परान्याति शूरस्तामधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४०</sup>ते वयं स्वर्गमिच्छन्तः संग्रामे त्यक्तजीविताः<br>जयन्तो वध्यमाना वा प्राप्तुमर्हाम सद्गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४१</sup>एवं संशप्तशपथाः समभित्यक्तजीविताः<br>अमित्रवाहिनीं वीराः संप्रगाहन्त्यभीरवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४२</sup>अग्रतः पुरुषानीकमसिचर्मवतां भवेत्<br>पृष्ठतः शकटानीकं कलत्रं मध्यतस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४३</sup>परेषां प्रतिघातार्थं पदातीनां च गूहनम्<br>अपि ह्यस्मिन्परे गृद्धा भवेयुर्ये पुरोगमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४४</sup>ये पुरस्तादभिमताः सत्त्ववन्तो मनस्विनः<br>ते पूर्वमभिवर्तेरंस्तानन्वगितरे जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४५</sup>अपि चोद्धर्षणं कार्यं भीरूणामपि यत्नतः<br>स्कन्धदर्शनमात्रं तु तिष्ठेयुर्वा समीपतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४६</sup>संहतान्योधयेदल्पान्कामं विस्तारयेद्बहून्<br>सूचीमुखमनीकं स्यादल्पानां बहुभिः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४७</sup>संप्रयुद्धे प्रहृष्टे वा सत्यं वा यदि वानृतम्<br>प्रगृह्य बाहून्क्रोशेत भग्ना भग्नाः परा इति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४८</sup>आगतं नो मित्रबलं प्रहरध्वमभीतवत्<br>शब्दवन्तोऽनुधावेयुः कुर्वन्तो भैरवं रवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०१.४९</sup>क्ष्वेडाः किलकिलाः शङ्खाः क्रकचा गोविषाणिकान्<br>भेरीमृदङ्गपणवान्नादयेयुश्च कुञ्जरान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -228,8 +221,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

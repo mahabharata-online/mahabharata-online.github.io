@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/222.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:२२३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/224.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/222.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:२२३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/224.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१</sup>जरितारिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२</sup>पुरतः कृच्छ्रकालस्य धीमाञ्जागर्ति पूरुषः<br>स कृच्छ्रकालं संप्राप्य व्यथां नैवैति कर्हिचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३</sup>यस्तु कृच्छ्रमसंप्राप्तं विचेता नावबुध्यते<br>स कृच्छ्रकाले व्यथितो न प्रजानाति किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.४</sup>सारिसृक्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.५</sup>धीरस्त्वमसि मेधावी प्राणकृच्छ्रमिदं च नः<br>शूरः प्राज्ञो बहूनां हि भवत्येको न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.६</sup>स्तम्बमित्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.७</sup>ज्येष्ठस्त्राता भवति वै ज्येष्ठो मुञ्चति कृच्छ्रतः<br>ज्येष्ठश्चेन्न प्रजानाति कनीयान्किं करिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.८</sup>द्रोण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.९</sup>हिरण्यरेतास्त्वरितो ज्वलन्नायाति नः क्षयम्<br>सप्तजिह्वोऽनलः क्षामो लेलिहानोपसर्पति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१०</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.११</sup>एवमुक्तो भ्रातृभिस्तु जरितारिर्विभावसुम्<br>तुष्टाव प्राञ्जलिर्भूत्वा यथा तच्छृणु पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१२</sup>जरितारिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१३</sup>आत्मासि वायोः पवनः शरीरमुत वीरुधाम्<br>योनिरापश्च ते शुक्र योनिस्त्वमसि चाम्भसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१४</sup>ऊर्ध्वं चाधश्च गच्छन्ति विसर्पन्ति च पार्श्वतः<br>अर्चिषस्ते महावीर्य रश्मयः सवितुर्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१५</sup>सारिसृक्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१६</sup>माता प्रपन्ना पितरं न विद्मः; पक्षाश्च नो न प्रजाताब्जकेतो<br>न नस्त्राता विद्यतेऽग्ने त्वदन्य;स्तस्माद्धि नः परिरक्षैकवीर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१७</sup>यदग्ने ते शिवं रूपं ये च ते सप्त हेतयः<br>तेन नः परिरक्षाद्य ईडितः शरणैषिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१८</sup>त्वमेवैकस्तपसे जातवेदो; नान्यस्तप्ता विद्यते गोषु देव<br>ऋषीनस्मान्बालकान्पालयस्व; परेणास्मान्प्रैहि वै हव्यवाह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.१९</sup>स्तम्बमित्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२०</sup>सर्वमग्ने त्वमेवैकस्त्वयि सर्वमिदं जगत्<br>त्वं धारयसि भूतानि भुवनं त्वं बिभर्षि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२१</sup>त्वमग्निर्हव्यवाहस्त्वं त्वमेव परमं हविः<br>मनीषिणस्त्वां यजन्ते बहुधा चैकधैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२२</sup>सृष्ट्वा लोकांस्त्रीनिमान्हव्यवाह; प्राप्ते काले पचसि पुनः समिद्धः<br>सर्वस्यास्य भुवनस्य प्रसूति;स्त्वमेवाग्ने भवसि पुनः प्रतिष्ठा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२३</sup>त्वमन्नं प्राणिनां भुक्तमन्तर्भूतो जगत्पते<br>नित्यं प्रवृद्धः पचसि त्वयि सर्वं प्रतिष्ठितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२४</sup>द्रोण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२५</sup>सूर्यो भूत्वा रश्मिभिर्जातवेदो; भूमेरम्भो भूमिजातान्रसांश्च<br>विश्वानादाय पुनरुत्सर्गकाले; सृष्ट्वा वृष्ट्या भावयसीह शुक्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२६</sup>त्वत्त एताः पुनः शुक्र वीरुधो हरितच्छदाः<br>जायन्ते पुष्करिण्यश्च समुद्रश्च महोदधिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२७</sup>इदं वै सद्म तिग्मांशो वरुणस्य परायणम्<br>शिवस्त्राता भवास्माकं मास्मानद्य विनाशय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२८</sup>पिङ्गाक्ष लोहितग्रीव कृष्णवर्त्मन्हुताशन<br>परेण प्रैहि मुञ्चास्मान्सागरस्य गृहानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.२९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३०</sup>एवमुक्तो जातवेदा द्रोणेनाक्लिष्टकर्मणा<br>द्रोणमाह प्रतीतात्मा मन्दपालप्रतिज्ञया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३१</sup>ऋषिर्द्रोणस्त्वमसि वै ब्रह्मैतद्व्याहृतं त्वया<br>ईप्सितं ते करिष्यामि न च ते विद्यते भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३२</sup>मन्दपालेन यूयं हि मम पूर्वं निवेदिताः<br>वर्जयेः पुत्रकान्मह्यं दहन्दावमिति स्म ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३३</sup>यच्च तद्वचनं तस्य त्वया यच्चेह भाषितम्<br>उभयं मे गरीयस्तद्ब्रूहि किं करवाणि ते<br>भृशं प्रीतोऽस्मि भद्रं ते ब्रह्मन्स्तोत्रेण ते विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३४</sup>द्रोण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३५</sup>इमे मार्जारकाः शुक्र नित्यमुद्वेजयन्ति नः<br>एतान्कुरुष्व दंष्ट्रासु हव्यवाह सबान्धवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३६</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२३.३७</sup>तथा तत्कृतवान्वह्निरभ्यनुज्ञाय शार्ङ्गकान्<br>ददाह खाण्डवं चैव समिद्धो जनमेजय
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१</sup>जरितारिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२</sup>पुरतः कृच्छ्रकालस्य धीमाञ्जागर्ति पूरुषः<br>स कृच्छ्रकालं संप्राप्य व्यथां नैवैति कर्हिचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३</sup>यस्तु कृच्छ्रमसंप्राप्तं विचेता नावबुध्यते<br>स कृच्छ्रकाले व्यथितो न प्रजानाति किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.४</sup>सारिसृक्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.५</sup>धीरस्त्वमसि मेधावी प्राणकृच्छ्रमिदं च नः<br>शूरः प्राज्ञो बहूनां हि भवत्येको न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.६</sup>स्तम्बमित्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.७</sup>ज्येष्ठस्त्राता भवति वै ज्येष्ठो मुञ्चति कृच्छ्रतः<br>ज्येष्ठश्चेन्न प्रजानाति कनीयान्किं करिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.८</sup>द्रोण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.९</sup>हिरण्यरेतास्त्वरितो ज्वलन्नायाति नः क्षयम्<br>सप्तजिह्वोऽनलः क्षामो लेलिहानोपसर्पति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१०</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.११</sup>एवमुक्तो भ्रातृभिस्तु जरितारिर्विभावसुम्<br>तुष्टाव प्राञ्जलिर्भूत्वा यथा तच्छृणु पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१२</sup>जरितारिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१३</sup>आत्मासि वायोः पवनः शरीरमुत वीरुधाम्<br>योनिरापश्च ते शुक्र योनिस्त्वमसि चाम्भसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१४</sup>ऊर्ध्वं चाधश्च गच्छन्ति विसर्पन्ति च पार्श्वतः<br>अर्चिषस्ते महावीर्य रश्मयः सवितुर्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१५</sup>सारिसृक्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१६</sup>माता प्रपन्ना पितरं न विद्मः; पक्षाश्च नो न प्रजाताब्जकेतो<br>न नस्त्राता विद्यतेऽग्ने त्वदन्य;स्तस्माद्धि नः परिरक्षैकवीर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१७</sup>यदग्ने ते शिवं रूपं ये च ते सप्त हेतयः<br>तेन नः परिरक्षाद्य ईडितः शरणैषिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१८</sup>त्वमेवैकस्तपसे जातवेदो; नान्यस्तप्ता विद्यते गोषु देव<br>ऋषीनस्मान्बालकान्पालयस्व; परेणास्मान्प्रैहि वै हव्यवाह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.१९</sup>स्तम्बमित्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२०</sup>सर्वमग्ने त्वमेवैकस्त्वयि सर्वमिदं जगत्<br>त्वं धारयसि भूतानि भुवनं त्वं बिभर्षि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२१</sup>त्वमग्निर्हव्यवाहस्त्वं त्वमेव परमं हविः<br>मनीषिणस्त्वां यजन्ते बहुधा चैकधैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२२</sup>सृष्ट्वा लोकांस्त्रीनिमान्हव्यवाह; प्राप्ते काले पचसि पुनः समिद्धः<br>सर्वस्यास्य भुवनस्य प्रसूति;स्त्वमेवाग्ने भवसि पुनः प्रतिष्ठा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२३</sup>त्वमन्नं प्राणिनां भुक्तमन्तर्भूतो जगत्पते<br>नित्यं प्रवृद्धः पचसि त्वयि सर्वं प्रतिष्ठितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२४</sup>द्रोण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२५</sup>सूर्यो भूत्वा रश्मिभिर्जातवेदो; भूमेरम्भो भूमिजातान्रसांश्च<br>विश्वानादाय पुनरुत्सर्गकाले; सृष्ट्वा वृष्ट्या भावयसीह शुक्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२६</sup>त्वत्त एताः पुनः शुक्र वीरुधो हरितच्छदाः<br>जायन्ते पुष्करिण्यश्च समुद्रश्च महोदधिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२७</sup>इदं वै सद्म तिग्मांशो वरुणस्य परायणम्<br>शिवस्त्राता भवास्माकं मास्मानद्य विनाशय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२८</sup>पिङ्गाक्ष लोहितग्रीव कृष्णवर्त्मन्हुताशन<br>परेण प्रैहि मुञ्चास्मान्सागरस्य गृहानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.२९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३०</sup>एवमुक्तो जातवेदा द्रोणेनाक्लिष्टकर्मणा<br>द्रोणमाह प्रतीतात्मा मन्दपालप्रतिज्ञया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३१</sup>ऋषिर्द्रोणस्त्वमसि वै ब्रह्मैतद्व्याहृतं त्वया<br>ईप्सितं ते करिष्यामि न च ते विद्यते भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३२</sup>मन्दपालेन यूयं हि मम पूर्वं निवेदिताः<br>वर्जयेः पुत्रकान्मह्यं दहन्दावमिति स्म ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३३</sup>यच्च तद्वचनं तस्य त्वया यच्चेह भाषितम्<br>उभयं मे गरीयस्तद्ब्रूहि किं करवाणि ते<br>भृशं प्रीतोऽस्मि भद्रं ते ब्रह्मन्स्तोत्रेण ते विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३४</sup>द्रोण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३५</sup>इमे मार्जारकाः शुक्र नित्यमुद्वेजयन्ति नः<br>एतान्कुरुष्व दंष्ट्रासु हव्यवाह सबान्धवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३६</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२३.३७</sup>तथा तत्कृतवान्वह्निरभ्यनुज्ञाय शार्ङ्गकान्<br>ददाह खाण्डवं चैव समिद्धो जनमेजय
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

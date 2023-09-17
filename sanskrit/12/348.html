@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/347.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:३४८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/349.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/347.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:३४८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/349.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१</sup>नाग उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.२</sup>अथ ब्राह्मणरूपेण कं तं समनुपश्यसि<br>मानुषं केवलं विप्रं देवं वाथ शुचिस्मिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.३</sup>को हि मां मानुषः शक्तो द्रष्टुकामो यशस्विनि<br>संदर्शनरुचिर्वाक्यमाज्ञापूर्वं वदिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.४</sup>सुरासुरगणानां च देवर्षीणां च भामिनि<br>ननु नागा महावीर्याः सौरसेयास्तरस्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.५</sup>वन्दनीयाश्च वरदा वयमप्यनुयायिनः<br>मनुष्याणां विशेषेण धनाध्यक्षा इति श्रुतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.६</sup>नागभार्योवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.७</sup>आर्जवेनाभिजानामि नासौ देवोऽनिलाशन<br>एकं त्वस्य विजानामि भक्तिमानतिरोषणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.८</sup>स हि कार्यान्तराकाङ्क्षी जलेप्सुः स्तोकको यथा<br>वर्षं वर्षप्रियः पक्षी दर्शनं तव काङ्क्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.९</sup>न हि त्वा दैवतं किंचिद्विविग्नं प्रतिपालयेत्<br>तुल्ये ह्यभिजने जातो न कश्चित्पर्युपासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१०</sup>तद्रोषं सहजं त्यक्त्वा त्वमेनं द्रष्टुमर्हसि<br>आशाछेदेन तस्याद्य नात्मानं दग्धुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.११</sup>आशया त्वभिपन्नानामकृत्वाश्रुप्रमार्जनम्<br>राजा वा राजपुत्रो वा भ्रूणहत्यैव युज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१२</sup>मौनाज्ज्ञानफलावाप्तिर्दानेन च यशो महत्<br>वाग्मित्वं सत्यवाक्येन परत्र च महीयते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१३</sup>भूमिप्रदानेन गतिं लभत्याश्रमसंमिताम्<br>नष्टस्यार्थस्य संप्राप्तिं कृत्वा फलमुपाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१४</sup>अभिप्रेतामसंक्लिष्टां कृत्वाकामवतीं क्रियाम्<br>न याति निरयं कश्चिदिति धर्मविदो विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१५</sup>नाग उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१६</sup>अभिमानेन मानो मे जातिदोषेण वै महान्<br>रोषः संकल्पजः साध्वि दग्धो वाचाग्निना त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१७</sup>न च रोषादहं साध्वि पश्येयमधिकं तमः<br>यस्य वक्तव्यतां यान्ति विशेषेण भुजंगमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१८</sup>दोषस्य हि वशं गत्वा दशग्रीवः प्रतापवान्<br>तथा शक्रप्रतिस्पर्धी हतो रामेण संयुगे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.१९</sup>अन्तःपुरगतं वत्सं श्रुत्वा रामेण निर्हृतम्<br>धर्षणाद्रोषसंविग्नाः कार्तवीर्यसुता हताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.२०</sup>जामदग्न्येन रामेण सहस्रनयनोपमः<br>संयुगे निहतो रोषात्कार्तवीर्यो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.२१</sup>तदेष तपसां शत्रुः श्रेयसश्च निपातनः<br>निगृहीतो मया रोषः श्रुत्वैव वचनं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.२२</sup>आत्मानं च विशेषेण प्रशंसाम्यनपायिनि<br>यस्य मे त्वं विशालाक्षि भार्या सर्वगुणान्विता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४८.२३</sup>एष तत्रैव गच्छामि यत्र तिष्ठत्यसौ द्विजः<br>सर्वथा चोक्तवान्वाक्यं नाकृतार्थः प्रयास्यति
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१</sup>नाग उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.२</sup>अथ ब्राह्मणरूपेण कं तं समनुपश्यसि<br>मानुषं केवलं विप्रं देवं वाथ शुचिस्मिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.३</sup>को हि मां मानुषः शक्तो द्रष्टुकामो यशस्विनि<br>संदर्शनरुचिर्वाक्यमाज्ञापूर्वं वदिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.४</sup>सुरासुरगणानां च देवर्षीणां च भामिनि<br>ननु नागा महावीर्याः सौरसेयास्तरस्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.५</sup>वन्दनीयाश्च वरदा वयमप्यनुयायिनः<br>मनुष्याणां विशेषेण धनाध्यक्षा इति श्रुतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.६</sup>नागभार्योवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.७</sup>आर्जवेनाभिजानामि नासौ देवोऽनिलाशन<br>एकं त्वस्य विजानामि भक्तिमानतिरोषणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.८</sup>स हि कार्यान्तराकाङ्क्षी जलेप्सुः स्तोकको यथा<br>वर्षं वर्षप्रियः पक्षी दर्शनं तव काङ्क्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.९</sup>न हि त्वा दैवतं किंचिद्विविग्नं प्रतिपालयेत्<br>तुल्ये ह्यभिजने जातो न कश्चित्पर्युपासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१०</sup>तद्रोषं सहजं त्यक्त्वा त्वमेनं द्रष्टुमर्हसि<br>आशाछेदेन तस्याद्य नात्मानं दग्धुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.११</sup>आशया त्वभिपन्नानामकृत्वाश्रुप्रमार्जनम्<br>राजा वा राजपुत्रो वा भ्रूणहत्यैव युज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१२</sup>मौनाज्ज्ञानफलावाप्तिर्दानेन च यशो महत्<br>वाग्मित्वं सत्यवाक्येन परत्र च महीयते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१३</sup>भूमिप्रदानेन गतिं लभत्याश्रमसंमिताम्<br>नष्टस्यार्थस्य संप्राप्तिं कृत्वा फलमुपाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१४</sup>अभिप्रेतामसंक्लिष्टां कृत्वाकामवतीं क्रियाम्<br>न याति निरयं कश्चिदिति धर्मविदो विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१५</sup>नाग उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१६</sup>अभिमानेन मानो मे जातिदोषेण वै महान्<br>रोषः संकल्पजः साध्वि दग्धो वाचाग्निना त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१७</sup>न च रोषादहं साध्वि पश्येयमधिकं तमः<br>यस्य वक्तव्यतां यान्ति विशेषेण भुजंगमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१८</sup>दोषस्य हि वशं गत्वा दशग्रीवः प्रतापवान्<br>तथा शक्रप्रतिस्पर्धी हतो रामेण संयुगे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.१९</sup>अन्तःपुरगतं वत्सं श्रुत्वा रामेण निर्हृतम्<br>धर्षणाद्रोषसंविग्नाः कार्तवीर्यसुता हताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.२०</sup>जामदग्न्येन रामेण सहस्रनयनोपमः<br>संयुगे निहतो रोषात्कार्तवीर्यो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.२१</sup>तदेष तपसां शत्रुः श्रेयसश्च निपातनः<br>निगृहीतो मया रोषः श्रुत्वैव वचनं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.२२</sup>आत्मानं च विशेषेण प्रशंसाम्यनपायिनि<br>यस्य मे त्वं विशालाक्षि भार्या सर्वगुणान्विता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४८.२३</sup>एष तत्रैव गच्छामि यत्र तिष्ठत्यसौ द्विजः<br>सर्वथा चोक्तवान्वाक्यं नाकृतार्थः प्रयास्यति
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

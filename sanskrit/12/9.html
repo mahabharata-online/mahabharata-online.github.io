@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/8.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/10.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,157 +64,122 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/8.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/10.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२</sup>मुहूर्तं तावदेकाग्रो मनःश्रोत्रेऽन्तरात्मनि<br>धारयित्वापि ते श्रुत्वा रोचतां वचनं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३</sup>सार्थगम्यमहं मार्गं न जातु त्वत्कृते पुनः<br>गच्छेयं तद्गमिष्यामि हित्वा ग्राम्यसुखान्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.४</sup>क्षेम्यश्चैकाकिना गम्यः पन्थाः कोऽस्तीति पृच्छ माम्<br>अथ वा नेच्छसि प्रष्टुमपृच्छन्नपि मे शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.५</sup>हित्वा ग्राम्यसुखाचारं तप्यमानो महत्तपः<br>अरण्ये फलमूलाशी चरिष्यामि मृगैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.६</sup>जुह्वानोऽग्निं यथाकालमुभौ कालावुपस्पृशन्<br>कृशः परिमिताहारश्चर्मचीरजटाधरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.७</sup>शीतवातातपसहः क्षुत्पिपासाश्रमक्षमः<br>तपसा विधिदृष्टेन शरीरमुपशोषयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.८</sup>मनःकर्णसुखा नित्यं शृण्वन्नुच्चावचा गिरः<br>मुदितानामरण्येषु वसतां मृगपक्षिणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.९</sup>आजिघ्रन्पेशलान्गन्धान्फुल्लानां वृक्षवीरुधाम्<br>नानारूपान्वने पश्यन्रमणीयान्वनौकसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१०</sup>वानप्रस्थजनस्यापि दर्शनं कुलवासिनः<br>नाप्रियाण्याचरिष्यामि किं पुनर्ग्रामवासिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.११</sup>एकान्तशीली विमृशन्पक्वापक्वेन वर्तयन्<br>पितॄन्देवांश्च वन्येन वाग्भिरद्भिश्च तर्पयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१२</sup>एवमारण्यशास्त्राणामुग्रमुग्रतरं विधिम्<br>सेवमानः प्रतीक्षिष्ये देहस्यास्य समापनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१३</sup>अथ वैकोऽहमेकाहमेकैकस्मिन्वनस्पतौ<br>चरन्भैक्ष्यं मुनिर्मुण्डः क्षपयिष्ये कलेवरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१४</sup>पांसुभिः समवच्छन्नः शून्यागारप्रतिश्रयः<br>वृक्षमूलनिकेतो वा त्यक्तसर्वप्रियाप्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१५</sup>न शोचन्न प्रहृष्यंश्च तुल्यनिन्दात्मसंस्तुतिः<br>निराशीर्निर्ममो भूत्वा निर्द्वंद्वो निष्परिग्रहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१६</sup>आत्मारामः प्रसन्नात्मा जडान्धबधिराकृतिः<br>अकुर्वाणः परैः कांचित्संविदं जातु केनचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१७</sup>जङ्गमाजङ्गमान्सर्वान्नविहिंसंश्चतुर्विधान्<br>प्रजाः सर्वाः स्वधर्मस्थाः समः प्राणभृतः प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१८</sup>न चाप्यवहसन्कंचिन्न कुर्वन्भ्रुकुटीं क्वचित्<br>प्रसन्नवदनो नित्यं सर्वेन्द्रियसुसंयतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.१९</sup>अपृच्छन्कस्यचिन्मार्गं व्रजन्येनैव केनचित्<br>न देशं न दिशं कांचिद्गन्तुमिच्छन्विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२०</sup>गमने निरपेक्षश्च पश्चादनवलोकयन्<br>ऋजुः प्रणिहितो गच्छंस्त्रसस्थावरवर्जकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२१</sup>स्वभावस्तु प्रयात्यग्रे प्रभवन्त्यशनान्यपि<br>द्वंद्वानि च विरुद्धानि तानि सर्वाण्यचिन्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२२</sup>अल्पं वास्वादु वा भोज्यं पूर्वालाभेन जातु चित्<br>अन्येष्वपि चरँल्लाभमलाभे सप्त पूरयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२३</sup>विधूमे न्यस्तमुसले व्यङ्गारे भुक्तवज्जने<br>अतीतपात्रसंचारे काले विगतभिक्षुके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२४</sup>एककालं चरन्भैक्ष्यं गृहे द्वे चैव पञ्च च<br>स्पृहापाशान्विमुच्याहं चरिष्यामि महीमिमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२५</sup>न जिजीविषुवत्किंचिन्न मुमूर्षुवदाचरन्<br>जीवितं मरणं चैव नाभिनन्दन्न च द्विषन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२६</sup>वास्यैकं तक्षतो बाहुं चन्दनेनैकमुक्षतः<br>नाकल्याणं न कल्याणं चिन्तयन्नुभयोस्तयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२७</sup>याः काश्चिज्जीवता शक्याः कर्तुमभ्युदयक्रियाः<br>सर्वास्ताः समभित्यज्य निमेषादिव्यवस्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२८</sup>तेषु नित्यमसक्तश्च त्यक्तसर्वेन्द्रियक्रियः<br>सुपरित्यक्तसंकल्पः सुनिर्णिक्तात्मकल्मषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.२९</sup>विमुक्तः सर्वसङ्गेभ्यो व्यतीतः सर्ववागुराः<br>न वशे कस्यचित्तिष्ठन्सधर्मा मातरिश्वनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३०</sup>वीतरागश्चरन्नेवं तुष्टिं प्राप्स्यामि शाश्वतीम्<br>तृष्णया हि महत्पापमज्ञानादस्मि कारितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३१</sup>कुशलाकुशलान्येके कृत्वा कर्माणि मानवाः<br>कार्यकारणसंश्लिष्टं स्वजनं नाम बिभ्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३२</sup>आयुषोऽन्ते प्रहायेदं क्षीणप्रायं कलेवरम्<br>प्रतिगृह्णाति तत्पापं कर्तुः कर्मफलं हि तत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३३</sup>एवं संसारचक्रेऽस्मिन्व्याविद्धे रथचक्रवत्<br>समेति भूतग्रामोऽयं भूतग्रामेण कार्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३४</sup>जन्ममृत्युजराव्याधिवेदनाभिरुपद्रुतम्<br>असारमिममस्वन्तं संसारं त्यजतः सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३५</sup>दिवः पतत्सु देवेषु स्थानेभ्यश्च महर्षिषु<br>को हि नाम भवेनार्थी भवेत्कारणतत्त्ववित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३६</sup>कृत्वा हि विविधं कर्म तत्तद्विविधलक्षणम्<br>पार्थिवैर्नृपतिः स्वल्पैः कारणैरेव बध्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३७</sup>तस्मात्प्रज्ञामृतमिदं चिरान्मां प्रत्युपस्थितम्<br>तत्प्राप्य प्रार्थये स्थानमव्ययं शाश्वतं ध्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.९.३८</sup>एतया सततं वृत्त्या चरन्नेवंप्रकारया<br>देहं संस्थापयिष्यामि निर्भयं मार्गमास्थितः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२</sup>मुहूर्तं तावदेकाग्रो मनःश्रोत्रेऽन्तरात्मनि<br>धारयित्वापि ते श्रुत्वा रोचतां वचनं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३</sup>सार्थगम्यमहं मार्गं न जातु त्वत्कृते पुनः<br>गच्छेयं तद्गमिष्यामि हित्वा ग्राम्यसुखान्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.४</sup>क्षेम्यश्चैकाकिना गम्यः पन्थाः कोऽस्तीति पृच्छ माम्<br>अथ वा नेच्छसि प्रष्टुमपृच्छन्नपि मे शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.५</sup>हित्वा ग्राम्यसुखाचारं तप्यमानो महत्तपः<br>अरण्ये फलमूलाशी चरिष्यामि मृगैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.६</sup>जुह्वानोऽग्निं यथाकालमुभौ कालावुपस्पृशन्<br>कृशः परिमिताहारश्चर्मचीरजटाधरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.७</sup>शीतवातातपसहः क्षुत्पिपासाश्रमक्षमः<br>तपसा विधिदृष्टेन शरीरमुपशोषयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.८</sup>मनःकर्णसुखा नित्यं शृण्वन्नुच्चावचा गिरः<br>मुदितानामरण्येषु वसतां मृगपक्षिणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.९</sup>आजिघ्रन्पेशलान्गन्धान्फुल्लानां वृक्षवीरुधाम्<br>नानारूपान्वने पश्यन्रमणीयान्वनौकसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१०</sup>वानप्रस्थजनस्यापि दर्शनं कुलवासिनः<br>नाप्रियाण्याचरिष्यामि किं पुनर्ग्रामवासिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.११</sup>एकान्तशीली विमृशन्पक्वापक्वेन वर्तयन्<br>पितॄन्देवांश्च वन्येन वाग्भिरद्भिश्च तर्पयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१२</sup>एवमारण्यशास्त्राणामुग्रमुग्रतरं विधिम्<br>सेवमानः प्रतीक्षिष्ये देहस्यास्य समापनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१३</sup>अथ वैकोऽहमेकाहमेकैकस्मिन्वनस्पतौ<br>चरन्भैक्ष्यं मुनिर्मुण्डः क्षपयिष्ये कलेवरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१४</sup>पांसुभिः समवच्छन्नः शून्यागारप्रतिश्रयः<br>वृक्षमूलनिकेतो वा त्यक्तसर्वप्रियाप्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१५</sup>न शोचन्न प्रहृष्यंश्च तुल्यनिन्दात्मसंस्तुतिः<br>निराशीर्निर्ममो भूत्वा निर्द्वंद्वो निष्परिग्रहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१६</sup>आत्मारामः प्रसन्नात्मा जडान्धबधिराकृतिः<br>अकुर्वाणः परैः कांचित्संविदं जातु केनचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१७</sup>जङ्गमाजङ्गमान्सर्वान्नविहिंसंश्चतुर्विधान्<br>प्रजाः सर्वाः स्वधर्मस्थाः समः प्राणभृतः प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१८</sup>न चाप्यवहसन्कंचिन्न कुर्वन्भ्रुकुटीं क्वचित्<br>प्रसन्नवदनो नित्यं सर्वेन्द्रियसुसंयतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.१९</sup>अपृच्छन्कस्यचिन्मार्गं व्रजन्येनैव केनचित्<br>न देशं न दिशं कांचिद्गन्तुमिच्छन्विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२०</sup>गमने निरपेक्षश्च पश्चादनवलोकयन्<br>ऋजुः प्रणिहितो गच्छंस्त्रसस्थावरवर्जकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२१</sup>स्वभावस्तु प्रयात्यग्रे प्रभवन्त्यशनान्यपि<br>द्वंद्वानि च विरुद्धानि तानि सर्वाण्यचिन्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२२</sup>अल्पं वास्वादु वा भोज्यं पूर्वालाभेन जातु चित्<br>अन्येष्वपि चरँल्लाभमलाभे सप्त पूरयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२३</sup>विधूमे न्यस्तमुसले व्यङ्गारे भुक्तवज्जने<br>अतीतपात्रसंचारे काले विगतभिक्षुके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२४</sup>एककालं चरन्भैक्ष्यं गृहे द्वे चैव पञ्च च<br>स्पृहापाशान्विमुच्याहं चरिष्यामि महीमिमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२५</sup>न जिजीविषुवत्किंचिन्न मुमूर्षुवदाचरन्<br>जीवितं मरणं चैव नाभिनन्दन्न च द्विषन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२६</sup>वास्यैकं तक्षतो बाहुं चन्दनेनैकमुक्षतः<br>नाकल्याणं न कल्याणं चिन्तयन्नुभयोस्तयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२७</sup>याः काश्चिज्जीवता शक्याः कर्तुमभ्युदयक्रियाः<br>सर्वास्ताः समभित्यज्य निमेषादिव्यवस्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२८</sup>तेषु नित्यमसक्तश्च त्यक्तसर्वेन्द्रियक्रियः<br>सुपरित्यक्तसंकल्पः सुनिर्णिक्तात्मकल्मषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.२९</sup>विमुक्तः सर्वसङ्गेभ्यो व्यतीतः सर्ववागुराः<br>न वशे कस्यचित्तिष्ठन्सधर्मा मातरिश्वनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३०</sup>वीतरागश्चरन्नेवं तुष्टिं प्राप्स्यामि शाश्वतीम्<br>तृष्णया हि महत्पापमज्ञानादस्मि कारितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३१</sup>कुशलाकुशलान्येके कृत्वा कर्माणि मानवाः<br>कार्यकारणसंश्लिष्टं स्वजनं नाम बिभ्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३२</sup>आयुषोऽन्ते प्रहायेदं क्षीणप्रायं कलेवरम्<br>प्रतिगृह्णाति तत्पापं कर्तुः कर्मफलं हि तत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३३</sup>एवं संसारचक्रेऽस्मिन्व्याविद्धे रथचक्रवत्<br>समेति भूतग्रामोऽयं भूतग्रामेण कार्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३४</sup>जन्ममृत्युजराव्याधिवेदनाभिरुपद्रुतम्<br>असारमिममस्वन्तं संसारं त्यजतः सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३५</sup>दिवः पतत्सु देवेषु स्थानेभ्यश्च महर्षिषु<br>को हि नाम भवेनार्थी भवेत्कारणतत्त्ववित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३६</sup>कृत्वा हि विविधं कर्म तत्तद्विविधलक्षणम्<br>पार्थिवैर्नृपतिः स्वल्पैः कारणैरेव बध्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३७</sup>तस्मात्प्रज्ञामृतमिदं चिरान्मां प्रत्युपस्थितम्<br>तत्प्राप्य प्रार्थये स्थानमव्ययं शाश्वतं ध्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.९.३८</sup>एतया सततं वृत्त्या चरन्नेवंप्रकारया<br>देहं संस्थापयिष्यामि निर्भयं मार्गमास्थितः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -195,8 +188,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

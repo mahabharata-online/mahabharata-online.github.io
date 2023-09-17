@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/53.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:५४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/55.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,166 +64,131 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/53.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:५४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/55.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१</sup>उत्तङ्क उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२</sup>अभिजानामि जगतः कर्तारं त्वां जनार्दन<br>नूनं भवत्प्रसादोऽयमिति मे नास्ति संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३</sup>चित्तं च सुप्रसन्नं मे त्वद्भावगतमच्युत<br>विनिवृत्तश्च मे कोप इति विद्धि परंतप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.४</sup>यदि त्वनुग्रहं कंचित्त्वत्तोऽर्होऽहं जनार्दन<br>द्रष्टुमिच्छामि ते रूपमैश्वरं तन्निदर्शय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.६</sup>ततः स तस्मै प्रीतात्मा दर्शयामास तद्वपुः<br>शाश्वतं वैष्णवं धीमान्ददृशे यद्धनंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.७</sup>स ददर्श महात्मानं विश्वरूपं महाभुजम्<br>विस्मयं च ययौ विप्रस्तद्दृष्ट्वा रूपमैश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.८</sup>उत्तङ्क उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.९</sup>विश्वकर्मन्नमस्तेऽस्तु यस्य ते रूपमीदृशम्<br>पद्भ्यां ते पृथिवी व्याप्ता शिरसा चावृतं नभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१०</sup>द्यावापृथिव्योर्यन्मध्यं जठरेण तदावृतम्<br>भुजाभ्यामावृताश्चाशास्त्वमिदं सर्वमच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.११</sup>संहरस्व पुनर्देव रूपमक्षय्यमुत्तमम्<br>पुनस्त्वां स्वेन रूपेण द्रष्टुमिच्छामि शाश्वतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१२</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१३</sup>तमुवाच प्रसन्नात्मा गोविन्दो जनमेजय<br>वरं वृणीष्वेति तदा तमुत्तङ्कोऽब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१४</sup>पर्याप्त एष एवाद्य वरस्त्वत्तो महाद्युते<br>यत्ते रूपमिदं कृष्ण पश्यामि प्रभवाप्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१५</sup>तमब्रवीत्पुनः कृष्णो मा त्वमत्र विचारय<br>अवश्यमेतत्कर्तव्यममोघं दर्शनं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१६</sup>उत्तङ्क उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१७</sup>अवश्यकरणीयं वै यद्येतन्मन्यसे विभो<br>तोयमिच्छामि यत्रेष्टं मरुष्वेतद्धि दुर्लभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१८</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.१९</sup>ततः संहृत्य तत्तेजः प्रोवाचोत्तङ्कमीश्वरः<br>एष्टव्ये सति चिन्त्योऽहमित्युक्त्वा द्वारकां ययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२०</sup>ततः कदाचिद्भगवानुत्तङ्कस्तोयकाङ्क्षया<br>तृषितः परिचक्राम मरौ सस्मार चाच्युतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२१</sup>ततो दिग्वाससं धीमान्मातङ्गं मलपङ्किनम्<br>अपश्यत मरौ तस्मिञ्श्वयूथपरिवारितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२२</sup>भीषणं बद्धनिस्त्रिंशं बाणकार्मुकधारिणम्<br>तस्याधः स्रोतसोऽपश्यद्वारि भूरि द्विजोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२३</sup>स्मरन्नेव च तं प्राह मातङ्गः प्रहसन्निव<br>एह्युत्तङ्क प्रतीच्छस्व मत्तो वारि भृगूद्वह<br>कृपा हि मे सुमहती त्वां दृष्ट्वा तृट्समाहतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२४</sup>इत्युक्तस्तेन स मुनिस्तत्तोयं नाभ्यनन्दत<br>चिक्षेप च स तं धीमान्वाग्भिरुग्राभिरच्युतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२५</sup>पुनः पुनश्च मातङ्गः पिबस्वेति तमब्रवीत्<br>न चापिबत्स सक्रोधः क्षुभितेनान्तरात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२६</sup>स तथा निश्चयात्तेन प्रत्याख्यातो महात्मना<br>श्वभिः सह महाराज तत्रैवान्तरधीयत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२७</sup>उत्तङ्कस्तं तथा दृष्ट्वा ततो व्रीडितमानसः<br>मेने प्रलब्धमात्मानं कृष्णेनामित्रघातिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२८</sup>अथ तेनैव मार्गेण शङ्खचक्रगदाधरः<br>आजगाम महाबाहुरुत्तङ्कश्चैनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.२९</sup>न युक्तं तादृशं दातुं त्वया पुरुषसत्तम<br>सलिलं विप्रमुख्येभ्यो मातङ्गस्रोतसा विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३०</sup>इत्युक्तवचनं धीमान्महाबुद्धिर्जनार्दनः<br>उत्तङ्कं श्लक्ष्णया वाचा सान्त्वयन्निदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३१</sup>यादृशेनेह रूपेण योग्यं दातुं वृतेन वै<br>तादृशं खलु मे दत्तं त्वं तु तन्नावबुध्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३२</sup>मया त्वदर्थमुक्तो हि वज्रपाणिः पुरंदरः<br>उत्तङ्कायामृतं देहि तोयरूपमिति प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३३</sup>स मामुवाच देवेन्द्रो न मर्त्योऽमर्त्यतां व्रजेत्<br>अन्यमस्मै वरं देहीत्यसकृद्भृगुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३४</sup>अमृतं देयमित्येव मयोक्तः स शचीपतिः<br>स मां प्रसाद्य देवेन्द्रः पुनरेवेदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३५</sup>यदि देयमवश्यं वै मातङ्गोऽहं महाद्युते<br>भूत्वामृतं प्रदास्यामि भार्गवाय महात्मने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३६</sup>यद्येवं प्रतिगृह्णाति भार्गवोऽमृतमद्य वै<br>प्रदातुमेष गच्छामि भार्गवायामृतं प्रभो<br>प्रत्याख्यातस्त्वहं तेन न दद्यामिति भार्गव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३७</sup>स तथा समयं कृत्वा तेन रूपेण वासवः<br>उपस्थितस्त्वया चापि प्रत्याख्यातोऽमृतं ददत्<br>चण्डालरूपी भगवान्सुमहांस्ते व्यतिक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३८</sup>यत्तु शक्यं मया कर्तुं भूय एव तवेप्सितम्<br>तोयेप्सां तव दुर्धर्ष करिष्ये सफलामहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.३९</sup>येष्वहःसु तव ब्रह्मन्सलिलेच्छा भविष्यति<br>तदा मरौ भविष्यन्ति जलपूर्णाः पयोधराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.४०</sup>रसवच्च प्रदास्यन्ति ते तोयं भृगुनन्दन<br>उत्तङ्कमेघा इत्युक्ताः ख्यातिं यास्यन्ति चापि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.५४.४१</sup>इत्युक्तः प्रीतिमान्विप्रः कृष्णेन स बभूव ह<br>अद्याप्युत्तङ्कमेघाश्च मरौ वर्षन्ति भारत
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१</sup>उत्तङ्क उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२</sup>अभिजानामि जगतः कर्तारं त्वां जनार्दन<br>नूनं भवत्प्रसादोऽयमिति मे नास्ति संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३</sup>चित्तं च सुप्रसन्नं मे त्वद्भावगतमच्युत<br>विनिवृत्तश्च मे कोप इति विद्धि परंतप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.४</sup>यदि त्वनुग्रहं कंचित्त्वत्तोऽर्होऽहं जनार्दन<br>द्रष्टुमिच्छामि ते रूपमैश्वरं तन्निदर्शय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.६</sup>ततः स तस्मै प्रीतात्मा दर्शयामास तद्वपुः<br>शाश्वतं वैष्णवं धीमान्ददृशे यद्धनंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.७</sup>स ददर्श महात्मानं विश्वरूपं महाभुजम्<br>विस्मयं च ययौ विप्रस्तद्दृष्ट्वा रूपमैश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.८</sup>उत्तङ्क उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.९</sup>विश्वकर्मन्नमस्तेऽस्तु यस्य ते रूपमीदृशम्<br>पद्भ्यां ते पृथिवी व्याप्ता शिरसा चावृतं नभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१०</sup>द्यावापृथिव्योर्यन्मध्यं जठरेण तदावृतम्<br>भुजाभ्यामावृताश्चाशास्त्वमिदं सर्वमच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.११</sup>संहरस्व पुनर्देव रूपमक्षय्यमुत्तमम्<br>पुनस्त्वां स्वेन रूपेण द्रष्टुमिच्छामि शाश्वतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१२</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१३</sup>तमुवाच प्रसन्नात्मा गोविन्दो जनमेजय<br>वरं वृणीष्वेति तदा तमुत्तङ्कोऽब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१४</sup>पर्याप्त एष एवाद्य वरस्त्वत्तो महाद्युते<br>यत्ते रूपमिदं कृष्ण पश्यामि प्रभवाप्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१५</sup>तमब्रवीत्पुनः कृष्णो मा त्वमत्र विचारय<br>अवश्यमेतत्कर्तव्यममोघं दर्शनं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१६</sup>उत्तङ्क उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१७</sup>अवश्यकरणीयं वै यद्येतन्मन्यसे विभो<br>तोयमिच्छामि यत्रेष्टं मरुष्वेतद्धि दुर्लभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१८</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.१९</sup>ततः संहृत्य तत्तेजः प्रोवाचोत्तङ्कमीश्वरः<br>एष्टव्ये सति चिन्त्योऽहमित्युक्त्वा द्वारकां ययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२०</sup>ततः कदाचिद्भगवानुत्तङ्कस्तोयकाङ्क्षया<br>तृषितः परिचक्राम मरौ सस्मार चाच्युतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२१</sup>ततो दिग्वाससं धीमान्मातङ्गं मलपङ्किनम्<br>अपश्यत मरौ तस्मिञ्श्वयूथपरिवारितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२२</sup>भीषणं बद्धनिस्त्रिंशं बाणकार्मुकधारिणम्<br>तस्याधः स्रोतसोऽपश्यद्वारि भूरि द्विजोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२३</sup>स्मरन्नेव च तं प्राह मातङ्गः प्रहसन्निव<br>एह्युत्तङ्क प्रतीच्छस्व मत्तो वारि भृगूद्वह<br>कृपा हि मे सुमहती त्वां दृष्ट्वा तृट्समाहतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२४</sup>इत्युक्तस्तेन स मुनिस्तत्तोयं नाभ्यनन्दत<br>चिक्षेप च स तं धीमान्वाग्भिरुग्राभिरच्युतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२५</sup>पुनः पुनश्च मातङ्गः पिबस्वेति तमब्रवीत्<br>न चापिबत्स सक्रोधः क्षुभितेनान्तरात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२६</sup>स तथा निश्चयात्तेन प्रत्याख्यातो महात्मना<br>श्वभिः सह महाराज तत्रैवान्तरधीयत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२७</sup>उत्तङ्कस्तं तथा दृष्ट्वा ततो व्रीडितमानसः<br>मेने प्रलब्धमात्मानं कृष्णेनामित्रघातिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२८</sup>अथ तेनैव मार्गेण शङ्खचक्रगदाधरः<br>आजगाम महाबाहुरुत्तङ्कश्चैनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.२९</sup>न युक्तं तादृशं दातुं त्वया पुरुषसत्तम<br>सलिलं विप्रमुख्येभ्यो मातङ्गस्रोतसा विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३०</sup>इत्युक्तवचनं धीमान्महाबुद्धिर्जनार्दनः<br>उत्तङ्कं श्लक्ष्णया वाचा सान्त्वयन्निदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३१</sup>यादृशेनेह रूपेण योग्यं दातुं वृतेन वै<br>तादृशं खलु मे दत्तं त्वं तु तन्नावबुध्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३२</sup>मया त्वदर्थमुक्तो हि वज्रपाणिः पुरंदरः<br>उत्तङ्कायामृतं देहि तोयरूपमिति प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३३</sup>स मामुवाच देवेन्द्रो न मर्त्योऽमर्त्यतां व्रजेत्<br>अन्यमस्मै वरं देहीत्यसकृद्भृगुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३४</sup>अमृतं देयमित्येव मयोक्तः स शचीपतिः<br>स मां प्रसाद्य देवेन्द्रः पुनरेवेदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३५</sup>यदि देयमवश्यं वै मातङ्गोऽहं महाद्युते<br>भूत्वामृतं प्रदास्यामि भार्गवाय महात्मने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३६</sup>यद्येवं प्रतिगृह्णाति भार्गवोऽमृतमद्य वै<br>प्रदातुमेष गच्छामि भार्गवायामृतं प्रभो<br>प्रत्याख्यातस्त्वहं तेन न दद्यामिति भार्गव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३७</sup>स तथा समयं कृत्वा तेन रूपेण वासवः<br>उपस्थितस्त्वया चापि प्रत्याख्यातोऽमृतं ददत्<br>चण्डालरूपी भगवान्सुमहांस्ते व्यतिक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३८</sup>यत्तु शक्यं मया कर्तुं भूय एव तवेप्सितम्<br>तोयेप्सां तव दुर्धर्ष करिष्ये सफलामहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.३९</sup>येष्वहःसु तव ब्रह्मन्सलिलेच्छा भविष्यति<br>तदा मरौ भविष्यन्ति जलपूर्णाः पयोधराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.४०</sup>रसवच्च प्रदास्यन्ति ते तोयं भृगुनन्दन<br>उत्तङ्कमेघा इत्युक्ताः ख्यातिं यास्यन्ति चापि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.५४.४१</sup>इत्युक्तः प्रीतिमान्विप्रः कृष्णेन स बभूव ह<br>अद्याप्युत्तङ्कमेघाश्च मरौ वर्षन्ति भारत
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -204,8 +197,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

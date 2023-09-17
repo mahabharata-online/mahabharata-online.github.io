@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/73.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:७४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/75.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/73.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:७४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/75.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.२</sup>प्राग्ज्योतिषमथाभ्येत्य व्यचरत्स हयोत्तमः<br>भगदत्तात्मजस्तत्र निर्ययौ रणकर्कशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.३</sup>स हयं पाण्डुपुत्रस्य विषयान्तमुपागतम्<br>युयुधे भरतश्रेष्ठ वज्रदत्तो महीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.४</sup>सोऽभिनिर्याय नगराद्भगदत्तसुतो नृपः<br>अश्वमायान्तमुन्मथ्य नगराभिमुखो ययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.५</sup>तमालक्ष्य महाबाहुः कुरूणामृषभस्तदा<br>गाण्डीवं विक्षिपंस्तूर्णं सहसा समुपाद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.६</sup>ततो गाण्डीवनिर्मुक्तैरिषुभिर्मोहितो नृपः<br>हयमुत्सृज्य तं वीरस्ततः पार्थमुपाद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.७</sup>पुनः प्रविश्य नगरं दंशितः स नृपोत्तमः<br>आरुह्य नागप्रवरं निर्ययौ युद्धकाङ्क्षया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.८</sup>पाण्डुरेणातपत्रेण ध्रियमाणेन मूर्धनि<br>दोधूयता चामरेण श्वेतेन च महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.९</sup>ततः पार्थं समासाद्य पाण्डवानां महारथम्<br>आह्वयामास कौरव्यं बाल्यान्मोहाच्च संयुगे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१०</sup>स वारणं नगप्रख्यं प्रभिन्नकरटामुखम्<br>प्रेषयामास संक्रुद्धस्ततः श्वेतहयं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.११</sup>विक्षरन्तं यथा मेघं परवारणवारणम्<br>शास्त्रवत्कल्पितं संख्ये त्रिसाहं युद्धदुर्मदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१२</sup>प्रचोद्यमानः स गजस्तेन राज्ञा महाबलः<br>तदाङ्कुशेन विबभावुत्पतिष्यन्निवाम्बरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१३</sup>तमापतन्तं संप्रेक्ष्य क्रुद्धो राजन्धनंजयः<br>भूमिष्ठो वारणगतं योधयामास भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१४</sup>वज्रदत्तस्तु संक्रुद्धो मुमोचाशु धनंजये<br>तोमरानग्निसंकाशाञ्शलभानिव वेगितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१५</sup>अर्जुनस्तानसंप्राप्तान्गाण्डीवप्रेषितैः शरैः<br>द्विधा त्रिधा च चिच्छेद ख एव खगमैस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१६</sup>स तान्दृष्ट्वा तथा छिन्नांस्तोमरान्भगदत्तजः<br>इषूनसक्तांस्त्वरितः प्राहिणोत्पाण्डवं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१७</sup>ततोऽर्जुनस्तूर्णतरं रुक्मपुङ्खानजिह्मगान्<br>प्रेषयामास संक्रुद्धो भगदत्तात्मजं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१८</sup>स तैर्विद्धो महातेजा वज्रदत्तो महाहवे<br>भृशाहतः पपातोर्व्यां न त्वेनमजहात्स्मृतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.१९</sup>ततः स पुनरारुह्य वारणप्रवरं रणे<br>अव्यग्रः प्रेषयामास जयार्थी विजयं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.२०</sup>तस्मै बाणांस्ततो जिष्णुर्निर्मुक्ताशीविषोपमान्<br>प्रेषयामास संक्रुद्धो ज्वलितानिव पावकान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.७४.२१</sup>स तैर्विद्धो महानागो विस्रवन्रुधिरं बभौ<br>हिमवानिव शैलेन्द्रो बहुप्रस्रवणस्तदा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.२</sup>प्राग्ज्योतिषमथाभ्येत्य व्यचरत्स हयोत्तमः<br>भगदत्तात्मजस्तत्र निर्ययौ रणकर्कशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.३</sup>स हयं पाण्डुपुत्रस्य विषयान्तमुपागतम्<br>युयुधे भरतश्रेष्ठ वज्रदत्तो महीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.४</sup>सोऽभिनिर्याय नगराद्भगदत्तसुतो नृपः<br>अश्वमायान्तमुन्मथ्य नगराभिमुखो ययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.५</sup>तमालक्ष्य महाबाहुः कुरूणामृषभस्तदा<br>गाण्डीवं विक्षिपंस्तूर्णं सहसा समुपाद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.६</sup>ततो गाण्डीवनिर्मुक्तैरिषुभिर्मोहितो नृपः<br>हयमुत्सृज्य तं वीरस्ततः पार्थमुपाद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.७</sup>पुनः प्रविश्य नगरं दंशितः स नृपोत्तमः<br>आरुह्य नागप्रवरं निर्ययौ युद्धकाङ्क्षया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.८</sup>पाण्डुरेणातपत्रेण ध्रियमाणेन मूर्धनि<br>दोधूयता चामरेण श्वेतेन च महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.९</sup>ततः पार्थं समासाद्य पाण्डवानां महारथम्<br>आह्वयामास कौरव्यं बाल्यान्मोहाच्च संयुगे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१०</sup>स वारणं नगप्रख्यं प्रभिन्नकरटामुखम्<br>प्रेषयामास संक्रुद्धस्ततः श्वेतहयं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.११</sup>विक्षरन्तं यथा मेघं परवारणवारणम्<br>शास्त्रवत्कल्पितं संख्ये त्रिसाहं युद्धदुर्मदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१२</sup>प्रचोद्यमानः स गजस्तेन राज्ञा महाबलः<br>तदाङ्कुशेन विबभावुत्पतिष्यन्निवाम्बरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१३</sup>तमापतन्तं संप्रेक्ष्य क्रुद्धो राजन्धनंजयः<br>भूमिष्ठो वारणगतं योधयामास भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१४</sup>वज्रदत्तस्तु संक्रुद्धो मुमोचाशु धनंजये<br>तोमरानग्निसंकाशाञ्शलभानिव वेगितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१५</sup>अर्जुनस्तानसंप्राप्तान्गाण्डीवप्रेषितैः शरैः<br>द्विधा त्रिधा च चिच्छेद ख एव खगमैस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१६</sup>स तान्दृष्ट्वा तथा छिन्नांस्तोमरान्भगदत्तजः<br>इषूनसक्तांस्त्वरितः प्राहिणोत्पाण्डवं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१७</sup>ततोऽर्जुनस्तूर्णतरं रुक्मपुङ्खानजिह्मगान्<br>प्रेषयामास संक्रुद्धो भगदत्तात्मजं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१८</sup>स तैर्विद्धो महातेजा वज्रदत्तो महाहवे<br>भृशाहतः पपातोर्व्यां न त्वेनमजहात्स्मृतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.१९</sup>ततः स पुनरारुह्य वारणप्रवरं रणे<br>अव्यग्रः प्रेषयामास जयार्थी विजयं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.२०</sup>तस्मै बाणांस्ततो जिष्णुर्निर्मुक्ताशीविषोपमान्<br>प्रेषयामास संक्रुद्धो ज्वलितानिव पावकान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.७४.२१</sup>स तैर्विद्धो महानागो विस्रवन्रुधिरं बभौ<br>हिमवानिव शैलेन्द्रो बहुप्रस्रवणस्तदा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

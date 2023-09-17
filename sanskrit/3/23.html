@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/22.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/24.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,202 +64,167 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/22.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/24.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१</sup>वासुदेव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२</sup>ततोऽहं भरतश्रेष्ठ प्रगृह्य रुचिरं धनुः<br>शरैरपातयं सौभाच्छिरांसि विबुधद्विषाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३</sup>शरांश्चाशीविषाकारानूर्ध्वगांस्तिग्मतेजसः<br>अप्रैषं शाल्वराजाय शार्ङ्गमुक्तान्सुवाससः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४</sup>ततो नादृश्यत तदा सौभं कुरुकुलोद्वह<br>अन्तर्हितं माययाभूत्ततोऽहं विस्मितोऽभवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.५</sup>अथ दानवसंघास्ते विकृताननमूर्धजाः<br>उदक्रोशन्महाराज विष्ठिते मयि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.६</sup>ततोऽस्त्रं शब्दसाहं वै त्वरमाणो महाहवे<br>अयोजयं तद्वधाय ततः शब्द उपारमत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.७</sup>हतास्ते दानवाः सर्वे यैः स शब्द उदीरितः<br>शरैरादित्यसंकाशैर्ज्वलितैः शब्दसाधनैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.८</sup>तस्मिन्नुपरते शब्दे पुनरेवान्यतोऽभवत्<br>शब्दोऽपरो महाराज तत्रापि प्राहरं शरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.९</sup>एवं दश दिशः सर्वास्तिर्यगूर्ध्वं च भारत<br>नादयामासुरसुरास्ते चापि निहता मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१०</sup>ततः प्राग्ज्योतिषं गत्वा पुनरेव व्यदृश्यत<br>सौभं कामगमं वीर मोहयन्मम चक्षुषी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.११</sup>ततो लोकान्तकरणो दानवो वानराकृतिः<br>शिलावर्षेण सहसा महता मां समावृणोत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१२</sup>सोऽहं पर्वतवर्षेण वध्यमानः समन्ततः<br>वल्मीक इव राजेन्द्र पर्वतोपचितोऽभवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१३</sup>ततोऽहं पर्वतचितः सहयः सहसारथिः<br>अप्रख्यातिमियां राजन्सध्वजः पर्वतैश्चितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१४</sup>ततो वृष्णिप्रवीरा ये ममासन्सैनिकास्तदा<br>ते भयार्ता दिशः सर्वाः सहसा विप्रदुद्रुवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१५</sup>ततो हाहाकृतं सर्वमभूत्किल विशां पते<br>द्यौश्च भूमिश्च खं चैवादृश्यमाने तथा मयि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१६</sup>ततो विषण्णमनसो मम राजन्सुहृज्जनाः<br>रुरुदुश्चुक्रुशुश्चैव दुःखशोकसमन्विताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१७</sup>द्विषतां च प्रहर्षोऽभूदार्तिश्चाद्विषतामपि<br>एवं विजितवान्वीर पश्चादश्रौषमच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१८</sup>ततोऽहमस्त्रं दयितं सर्वपाषाणभेदनम्<br>वज्रमुद्यम्य तान्सर्वान्पर्वतान्समशातयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.१९</sup>ततः पर्वतभारार्ता मन्दप्राणविचेष्टिताः<br>हया मम महाराज वेपमाना इवाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२०</sup>मेघजालमिवाकाशे विदार्याभ्युदितं रविम्<br>दृष्ट्वा मां बान्धवाः सर्वे हर्षमाहारयन्पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२१</sup>ततो मामब्रवीत्सूतः प्राञ्जलिः प्रणतो नृप<br>साधु संपश्य वार्ष्णेय शाल्वं सौभपतिं स्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२२</sup>अलं कृष्णावमन्यैनं साधु यत्नं समाचर<br>मार्दवं सखितां चैव शाल्वादद्य व्यपाहर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२३</sup>जहि शाल्वं महाबाहो मैनं जीवय केशव<br>सर्वैः पराक्रमैर्वीर वध्यः शत्रुरमित्रहन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२४</sup>न शत्रुरवमन्तव्यो दुर्बलोऽपि बलीयसा<br>योऽपि स्यात्पीठगः कश्चित्किं पुनः समरे स्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२५</sup>स त्वं पुरुषशार्दूल सर्वयत्नैरिमं प्रभो<br>जहि वृष्णिकुलश्रेष्ठ मा त्वां कालोऽत्यगात्पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२६</sup>नैष मार्दवसाध्यो वै मतो नापि सखा तव<br>येन त्वं योधितो वीर द्वारका चावमर्दिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२७</sup>एवमादि तु कौन्तेय श्रुत्वाहं सारथेर्वचः<br>तत्त्वमेतदिति ज्ञात्वा युद्धे मतिमधारयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२८</sup>वधाय शाल्वराजस्य सौभस्य च निपातने<br>दारुकं चाब्रुवं वीर मुहूर्तं स्थीयतामिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.२९</sup>ततोऽप्रतिहतं दिव्यमभेद्यमतिवीर्यवत्<br>आग्नेयमस्त्रं दयितं सर्वसाहं महाप्रभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३०</sup>यक्षाणां राक्षसानां च दानवानां च संयुगे<br>राज्ञां च प्रतिलोमानां भस्मान्तकरणं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३१</sup>क्षुरान्तममलं चक्रं कालान्तकयमोपमम्<br>अभिमन्त्र्याहमतुलं द्विषतां च निबर्हणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३२</sup>जहि सौभं स्ववीर्येण ये चात्र रिपवो मम<br>इत्युक्त्वा भुजवीर्येण तस्मै प्राहिणवं रुषा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३३</sup>रूपं सुदर्शनस्यासीदाकाशे पततस्तदा<br>द्वितीयस्येव सूर्यस्य युगान्ते परिविष्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३४</sup>तत्समासाद्य नगरं सौभं व्यपगतत्विषम्<br>मध्येन पाटयामास क्रकचो दार्विवोच्छ्रितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३५</sup>द्विधा कृतं ततः सौभं सुदर्शनबलाद्धतम्<br>महेश्वरशरोद्धूतं पपात त्रिपुरं यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३६</sup>तस्मिन्निपतिते सौभे चक्रमागात्करं मम<br>पुनश्चोद्धूय वेगेन शाल्वायेत्यहमब्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३७</sup>ततः शाल्वं गदां गुर्वीमाविध्यन्तं महाहवे<br>द्विधा चकार सहसा प्रजज्वाल च तेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३८</sup>तस्मिन्निपतिते वीरे दानवास्त्रस्तचेतसः<br>हाहाभूता दिशो जग्मुरर्दिता मम सायकैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.३९</sup>ततोऽहं समवस्थाप्य रथं सौभसमीपतः<br>शङ्खं प्रध्माप्य हर्षेण सुहृदः पर्यहर्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४०</sup>तन्मेरुशिखराकारं विध्वस्ताट्टालगोपुरम्<br>दह्यमानमभिप्रेक्ष्य स्त्रियस्ताः संप्रदुद्रुवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४१</sup>एवं निहत्य समरे शाल्वं सौभं निपात्य च<br>आनर्तान्पुनरागम्य सुहृदां प्रीतिमावहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४२</sup>एतस्मात्कारणाद्राजन्नागमं नागसाह्वयम्<br>यद्यगां परवीरघ्न न हि जीवेत्सुयोधनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४४</sup>एवमुक्त्वा महाबाहुः कौरवं पुरुषोत्तमः<br>आमन्त्र्य प्रययौ धीमान्पाण्डवान्मधुसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४५</sup>अभिवाद्य महाबाहुर्धर्मराजं युधिष्ठिरम्<br>राज्ञा मूर्धन्युपाघ्रातो भीमेन च महाभुजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४६</sup>सुभद्रामभिमन्युं च रथमारोप्य काञ्चनम्<br>आरुरोह रथं कृष्णः पाण्डवैरभिपूजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४७</sup>सैन्यसुग्रीवयुक्तेन रथेनादित्यवर्चसा<br>द्वारकां प्रययौ कृष्णः समाश्वास्य युधिष्ठिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४८</sup>ततः प्रयाते दाशार्हे धृष्टद्युम्नोऽपि पार्षतः<br>द्रौपदेयानुपादाय प्रययौ स्वपुरं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.४९</sup>धृष्टकेतुः स्वसारं च समादायाथ चेदिराट्<br>जगाम पाण्डवान्दृष्ट्वा रम्यां शुक्तिमतीं पुरीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.५०</sup>केकयाश्चाप्यनुज्ञाताः कौन्तेयेनामितौजसा<br>आमन्त्र्य पाण्डवान्सर्वान्प्रययुस्तेऽपि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.५१</sup>ब्राह्मणाश्च विशश्चैव तथा विषयवासिनः<br>विसृज्यमानाः सुभृशं न त्यजन्ति स्म पाण्डवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.५२</sup>समवायः स राजेन्द्र सुमहाद्भुतदर्शनः<br>आसीन्महात्मनां तेषां काम्यके भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२३.५३</sup>युधिष्ठिरस्तु विप्रांस्ताननुमान्य महामनाः<br>शशास पुरुषान्काले रथान्योजयतेति ह
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१</sup>वासुदेव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२</sup>ततोऽहं भरतश्रेष्ठ प्रगृह्य रुचिरं धनुः<br>शरैरपातयं सौभाच्छिरांसि विबुधद्विषाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३</sup>शरांश्चाशीविषाकारानूर्ध्वगांस्तिग्मतेजसः<br>अप्रैषं शाल्वराजाय शार्ङ्गमुक्तान्सुवाससः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४</sup>ततो नादृश्यत तदा सौभं कुरुकुलोद्वह<br>अन्तर्हितं माययाभूत्ततोऽहं विस्मितोऽभवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.५</sup>अथ दानवसंघास्ते विकृताननमूर्धजाः<br>उदक्रोशन्महाराज विष्ठिते मयि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.६</sup>ततोऽस्त्रं शब्दसाहं वै त्वरमाणो महाहवे<br>अयोजयं तद्वधाय ततः शब्द उपारमत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.७</sup>हतास्ते दानवाः सर्वे यैः स शब्द उदीरितः<br>शरैरादित्यसंकाशैर्ज्वलितैः शब्दसाधनैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.८</sup>तस्मिन्नुपरते शब्दे पुनरेवान्यतोऽभवत्<br>शब्दोऽपरो महाराज तत्रापि प्राहरं शरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.९</sup>एवं दश दिशः सर्वास्तिर्यगूर्ध्वं च भारत<br>नादयामासुरसुरास्ते चापि निहता मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१०</sup>ततः प्राग्ज्योतिषं गत्वा पुनरेव व्यदृश्यत<br>सौभं कामगमं वीर मोहयन्मम चक्षुषी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.११</sup>ततो लोकान्तकरणो दानवो वानराकृतिः<br>शिलावर्षेण सहसा महता मां समावृणोत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१२</sup>सोऽहं पर्वतवर्षेण वध्यमानः समन्ततः<br>वल्मीक इव राजेन्द्र पर्वतोपचितोऽभवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१३</sup>ततोऽहं पर्वतचितः सहयः सहसारथिः<br>अप्रख्यातिमियां राजन्सध्वजः पर्वतैश्चितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१४</sup>ततो वृष्णिप्रवीरा ये ममासन्सैनिकास्तदा<br>ते भयार्ता दिशः सर्वाः सहसा विप्रदुद्रुवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१५</sup>ततो हाहाकृतं सर्वमभूत्किल विशां पते<br>द्यौश्च भूमिश्च खं चैवादृश्यमाने तथा मयि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१६</sup>ततो विषण्णमनसो मम राजन्सुहृज्जनाः<br>रुरुदुश्चुक्रुशुश्चैव दुःखशोकसमन्विताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१७</sup>द्विषतां च प्रहर्षोऽभूदार्तिश्चाद्विषतामपि<br>एवं विजितवान्वीर पश्चादश्रौषमच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१८</sup>ततोऽहमस्त्रं दयितं सर्वपाषाणभेदनम्<br>वज्रमुद्यम्य तान्सर्वान्पर्वतान्समशातयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.१९</sup>ततः पर्वतभारार्ता मन्दप्राणविचेष्टिताः<br>हया मम महाराज वेपमाना इवाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२०</sup>मेघजालमिवाकाशे विदार्याभ्युदितं रविम्<br>दृष्ट्वा मां बान्धवाः सर्वे हर्षमाहारयन्पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२१</sup>ततो मामब्रवीत्सूतः प्राञ्जलिः प्रणतो नृप<br>साधु संपश्य वार्ष्णेय शाल्वं सौभपतिं स्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२२</sup>अलं कृष्णावमन्यैनं साधु यत्नं समाचर<br>मार्दवं सखितां चैव शाल्वादद्य व्यपाहर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२३</sup>जहि शाल्वं महाबाहो मैनं जीवय केशव<br>सर्वैः पराक्रमैर्वीर वध्यः शत्रुरमित्रहन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२४</sup>न शत्रुरवमन्तव्यो दुर्बलोऽपि बलीयसा<br>योऽपि स्यात्पीठगः कश्चित्किं पुनः समरे स्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२५</sup>स त्वं पुरुषशार्दूल सर्वयत्नैरिमं प्रभो<br>जहि वृष्णिकुलश्रेष्ठ मा त्वां कालोऽत्यगात्पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२६</sup>नैष मार्दवसाध्यो वै मतो नापि सखा तव<br>येन त्वं योधितो वीर द्वारका चावमर्दिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२७</sup>एवमादि तु कौन्तेय श्रुत्वाहं सारथेर्वचः<br>तत्त्वमेतदिति ज्ञात्वा युद्धे मतिमधारयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२८</sup>वधाय शाल्वराजस्य सौभस्य च निपातने<br>दारुकं चाब्रुवं वीर मुहूर्तं स्थीयतामिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.२९</sup>ततोऽप्रतिहतं दिव्यमभेद्यमतिवीर्यवत्<br>आग्नेयमस्त्रं दयितं सर्वसाहं महाप्रभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३०</sup>यक्षाणां राक्षसानां च दानवानां च संयुगे<br>राज्ञां च प्रतिलोमानां भस्मान्तकरणं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३१</sup>क्षुरान्तममलं चक्रं कालान्तकयमोपमम्<br>अभिमन्त्र्याहमतुलं द्विषतां च निबर्हणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३२</sup>जहि सौभं स्ववीर्येण ये चात्र रिपवो मम<br>इत्युक्त्वा भुजवीर्येण तस्मै प्राहिणवं रुषा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३३</sup>रूपं सुदर्शनस्यासीदाकाशे पततस्तदा<br>द्वितीयस्येव सूर्यस्य युगान्ते परिविष्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३४</sup>तत्समासाद्य नगरं सौभं व्यपगतत्विषम्<br>मध्येन पाटयामास क्रकचो दार्विवोच्छ्रितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३५</sup>द्विधा कृतं ततः सौभं सुदर्शनबलाद्धतम्<br>महेश्वरशरोद्धूतं पपात त्रिपुरं यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३६</sup>तस्मिन्निपतिते सौभे चक्रमागात्करं मम<br>पुनश्चोद्धूय वेगेन शाल्वायेत्यहमब्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३७</sup>ततः शाल्वं गदां गुर्वीमाविध्यन्तं महाहवे<br>द्विधा चकार सहसा प्रजज्वाल च तेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३८</sup>तस्मिन्निपतिते वीरे दानवास्त्रस्तचेतसः<br>हाहाभूता दिशो जग्मुरर्दिता मम सायकैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.३९</sup>ततोऽहं समवस्थाप्य रथं सौभसमीपतः<br>शङ्खं प्रध्माप्य हर्षेण सुहृदः पर्यहर्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४०</sup>तन्मेरुशिखराकारं विध्वस्ताट्टालगोपुरम्<br>दह्यमानमभिप्रेक्ष्य स्त्रियस्ताः संप्रदुद्रुवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४१</sup>एवं निहत्य समरे शाल्वं सौभं निपात्य च<br>आनर्तान्पुनरागम्य सुहृदां प्रीतिमावहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४२</sup>एतस्मात्कारणाद्राजन्नागमं नागसाह्वयम्<br>यद्यगां परवीरघ्न न हि जीवेत्सुयोधनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४४</sup>एवमुक्त्वा महाबाहुः कौरवं पुरुषोत्तमः<br>आमन्त्र्य प्रययौ धीमान्पाण्डवान्मधुसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४५</sup>अभिवाद्य महाबाहुर्धर्मराजं युधिष्ठिरम्<br>राज्ञा मूर्धन्युपाघ्रातो भीमेन च महाभुजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४६</sup>सुभद्रामभिमन्युं च रथमारोप्य काञ्चनम्<br>आरुरोह रथं कृष्णः पाण्डवैरभिपूजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४७</sup>सैन्यसुग्रीवयुक्तेन रथेनादित्यवर्चसा<br>द्वारकां प्रययौ कृष्णः समाश्वास्य युधिष्ठिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४८</sup>ततः प्रयाते दाशार्हे धृष्टद्युम्नोऽपि पार्षतः<br>द्रौपदेयानुपादाय प्रययौ स्वपुरं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.४९</sup>धृष्टकेतुः स्वसारं च समादायाथ चेदिराट्<br>जगाम पाण्डवान्दृष्ट्वा रम्यां शुक्तिमतीं पुरीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.५०</sup>केकयाश्चाप्यनुज्ञाताः कौन्तेयेनामितौजसा<br>आमन्त्र्य पाण्डवान्सर्वान्प्रययुस्तेऽपि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.५१</sup>ब्राह्मणाश्च विशश्चैव तथा विषयवासिनः<br>विसृज्यमानाः सुभृशं न त्यजन्ति स्म पाण्डवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.५२</sup>समवायः स राजेन्द्र सुमहाद्भुतदर्शनः<br>आसीन्महात्मनां तेषां काम्यके भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२३.५३</sup>युधिष्ठिरस्तु विप्रांस्ताननुमान्य महामनाः<br>शशास पुरुषान्काले रथान्योजयतेति ह
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -240,8 +233,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

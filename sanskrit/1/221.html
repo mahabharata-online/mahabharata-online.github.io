@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/220.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:२२१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/222.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/220.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:२२१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/222.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२</sup>ततः प्रज्वलिते शुक्रे शार्ङ्गकास्ते सुदुःखिताः<br>व्यथिताः परमोद्विग्ना नाधिजग्मुः परायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.३</sup>निशाम्य पुत्रकान्बालान्माता तेषां तपस्विनी<br>जरिता दुःखसंतप्ता विललाप नरेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.४</sup>अयमग्निर्दहन्कक्षमित आयाति भीषणः<br>जगत्संदीपयन्भीमो मम दुःखविवर्धनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.५</sup>इमे च मां कर्षयन्ति शिशवो मन्दचेतसः<br>अबर्हाश्चरणैर्हीनाः पूर्वेषां नः परायणम्<br>त्रासयंश्चायमायाति लेलिहानो महीरुहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.६</sup>अशक्तिमत्त्वाच्च सुता न शक्ताः सरणे मम<br>आदाय च न शक्तास्मि पुत्रान्सरितुमन्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.७</sup>न च त्यक्तुमहं शक्ता हृदयं दूयतीव मे<br>कं नु जह्यामहं पुत्रं कमादाय व्रजाम्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.८</sup>किं नु मे स्यात्कृतं कृत्वा मन्यध्वं पुत्रकाः कथम्<br>चिन्तयाना विमोक्षं वो नाधिगच्छामि किंचन<br>छादयित्वा च वो गात्रैः करिष्ये मरणं सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.९</sup>जरितारौ कुलं हीदं ज्येष्ठत्वेन प्रतिष्ठितम्<br>सारिसृक्वः प्रजायेत पितॄणां कुलवर्धनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१०</sup>स्तम्बमित्रस्तपः कुर्याद्द्रोणो ब्रह्मविदुत्तमः<br>इत्येवमुक्त्वा प्रययौ पिता वो निर्घृणः पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.११</sup>कमुपादाय शक्येत गन्तुं कस्यापदुत्तमा<br>किं नु कृत्वा कृतं कार्यं भवेदिति च विह्वला
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१२</sup>नापश्यत्स्वधिया मोक्षं स्वसुतानां तदानलात्<br>एवं ब्रुवन्तीं शार्ङ्गास्ते प्रत्यूचुरथ मातरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१३</sup>स्नेहमुत्सृज्य मातस्त्वं पत यत्र न हव्यवाट्<br>अस्मासु हि विनष्टेषु भवितारः सुतास्तव<br>त्वयि मातर्विनष्टायां न नः स्यात्कुलसंततिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१४</sup>अन्ववेक्ष्यैतदुभयं क्षमं स्याद्यत्कुलस्य नः<br>तद्वै कर्तुं परः कालो मातरेष भवेत्तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१५</sup>मा वै कुलविनाशाय स्नेहं कार्षीः सुतेषु नः<br>न हीदं कर्म मोघं स्याल्लोककामस्य नः पितुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१६</sup>जरितोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१७</sup>इदमाखोर्बिलं भूमौ वृक्षस्यास्य समीपतः<br>तदाविशध्वं त्वरिता वह्नेरत्र न वो भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१८</sup>ततोऽहं पांसुना छिद्रमपिधास्यामि पुत्रकाः<br>एवं प्रतिकृतं मन्ये ज्वलतः कृष्णवर्त्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.१९</sup>तत एष्याम्यतीतेऽग्नौ विहर्तुं पांसुसंचयम्<br>रोचतामेष वोपायो विमोक्षाय हुताशनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२०</sup>शार्ङ्गका ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२१</sup>अबर्हान्मांसभूतान्नः क्रव्यादाखुर्विनाशयेत्<br>पश्यमाना भयमिदं न शक्ष्यामो निषेवितुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२२</sup>कथमग्निर्न नो दह्यात्कथमाखुर्न भक्षयेत्<br>कथं न स्यात्पिता मोघः कथं माता ध्रियेत नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२३</sup>बिल आखोर्विनाशः स्यादग्नेराकाशचारिणाम्<br>अन्ववेक्ष्यैतदुभयं श्रेयान्दाहो न भक्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२२१.२४</sup>गर्हितं मरणं नः स्यादाखुना खादता बिले<br>शिष्टादिष्टः परित्यागः शरीरस्य हुताशनात्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२</sup>ततः प्रज्वलिते शुक्रे शार्ङ्गकास्ते सुदुःखिताः<br>व्यथिताः परमोद्विग्ना नाधिजग्मुः परायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.३</sup>निशाम्य पुत्रकान्बालान्माता तेषां तपस्विनी<br>जरिता दुःखसंतप्ता विललाप नरेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.४</sup>अयमग्निर्दहन्कक्षमित आयाति भीषणः<br>जगत्संदीपयन्भीमो मम दुःखविवर्धनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.५</sup>इमे च मां कर्षयन्ति शिशवो मन्दचेतसः<br>अबर्हाश्चरणैर्हीनाः पूर्वेषां नः परायणम्<br>त्रासयंश्चायमायाति लेलिहानो महीरुहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.६</sup>अशक्तिमत्त्वाच्च सुता न शक्ताः सरणे मम<br>आदाय च न शक्तास्मि पुत्रान्सरितुमन्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.७</sup>न च त्यक्तुमहं शक्ता हृदयं दूयतीव मे<br>कं नु जह्यामहं पुत्रं कमादाय व्रजाम्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.८</sup>किं नु मे स्यात्कृतं कृत्वा मन्यध्वं पुत्रकाः कथम्<br>चिन्तयाना विमोक्षं वो नाधिगच्छामि किंचन<br>छादयित्वा च वो गात्रैः करिष्ये मरणं सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.९</sup>जरितारौ कुलं हीदं ज्येष्ठत्वेन प्रतिष्ठितम्<br>सारिसृक्वः प्रजायेत पितॄणां कुलवर्धनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१०</sup>स्तम्बमित्रस्तपः कुर्याद्द्रोणो ब्रह्मविदुत्तमः<br>इत्येवमुक्त्वा प्रययौ पिता वो निर्घृणः पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.११</sup>कमुपादाय शक्येत गन्तुं कस्यापदुत्तमा<br>किं नु कृत्वा कृतं कार्यं भवेदिति च विह्वला
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१२</sup>नापश्यत्स्वधिया मोक्षं स्वसुतानां तदानलात्<br>एवं ब्रुवन्तीं शार्ङ्गास्ते प्रत्यूचुरथ मातरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१३</sup>स्नेहमुत्सृज्य मातस्त्वं पत यत्र न हव्यवाट्<br>अस्मासु हि विनष्टेषु भवितारः सुतास्तव<br>त्वयि मातर्विनष्टायां न नः स्यात्कुलसंततिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१४</sup>अन्ववेक्ष्यैतदुभयं क्षमं स्याद्यत्कुलस्य नः<br>तद्वै कर्तुं परः कालो मातरेष भवेत्तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१५</sup>मा वै कुलविनाशाय स्नेहं कार्षीः सुतेषु नः<br>न हीदं कर्म मोघं स्याल्लोककामस्य नः पितुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१६</sup>जरितोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१७</sup>इदमाखोर्बिलं भूमौ वृक्षस्यास्य समीपतः<br>तदाविशध्वं त्वरिता वह्नेरत्र न वो भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१८</sup>ततोऽहं पांसुना छिद्रमपिधास्यामि पुत्रकाः<br>एवं प्रतिकृतं मन्ये ज्वलतः कृष्णवर्त्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.१९</sup>तत एष्याम्यतीतेऽग्नौ विहर्तुं पांसुसंचयम्<br>रोचतामेष वोपायो विमोक्षाय हुताशनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२०</sup>शार्ङ्गका ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२१</sup>अबर्हान्मांसभूतान्नः क्रव्यादाखुर्विनाशयेत्<br>पश्यमाना भयमिदं न शक्ष्यामो निषेवितुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२२</sup>कथमग्निर्न नो दह्यात्कथमाखुर्न भक्षयेत्<br>कथं न स्यात्पिता मोघः कथं माता ध्रियेत नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२३</sup>बिल आखोर्विनाशः स्यादग्नेराकाशचारिणाम्<br>अन्ववेक्ष्यैतदुभयं श्रेयान्दाहो न भक्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२२१.२४</sup>गर्हितं मरणं नः स्यादाखुना खादता बिले<br>शिष्टादिष्टः परित्यागः शरीरस्य हुताशनात्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

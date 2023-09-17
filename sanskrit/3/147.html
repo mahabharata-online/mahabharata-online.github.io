@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/146.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१४७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/148.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,190 +64,155 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/146.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१४७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/148.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२</sup>एतच्छ्रुत्वा वचस्तस्य वानरेन्द्रस्य धीमतः<br>भीमसेनस्तदा वीरः प्रोवाचामित्रकर्शनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३</sup>को भवान्किंनिमित्तं वा वानरं वपुराश्रितः<br>ब्राह्मणानन्तरो वर्णः क्षत्रियस्त्वानुपृच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४</sup>कौरवः सोमवंशीयः कुन्त्या गर्भेण धारितः<br>पाण्डवो वायुतनयो भीमसेन इति श्रुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.५</sup>स वाक्यं भीमसेनस्य स्मितेन प्रतिगृह्य तत्<br>हनूमान्वायुतनयो वायुपुत्रमभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.६</sup>वानरोऽहं न ते मार्गं प्रदास्यामि यथेप्सितम्<br>साधु गच्छ निवर्तस्व मा त्वं प्राप्स्यसि वैशसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.७</sup>भीम उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.८</sup>वैशसं वास्तु यद्वान्यन्न त्वा पृच्छामि वानर<br>प्रयच्छोत्तिष्ठ मार्गं मे मा त्वं प्राप्स्यसि वैशसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.९</sup>हनूमानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१०</sup>नास्ति शक्तिर्ममोत्थातुं व्याधिना क्लेशितो ह्यहम्<br>यद्यवश्यं प्रयातव्यं लङ्घयित्वा प्रयाहि माम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.११</sup>भीम उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१२</sup>निर्गुणः परमात्मेति देहं ते व्याप्य तिष्ठति<br>तमहं ज्ञानविज्ञेयं नावमन्ये न लङ्घये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१३</sup>यद्यागमैर्न विन्देयं तमहं भूतभावनम्<br>क्रमेयं त्वां गिरिं चेमं हनूमानिव सागरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१४</sup>हनूमानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१५</sup>क एष हनुमान्नाम सागरो येन लङ्घितः<br>पृच्छामि त्वा कुरुश्रेष्ठ कथ्यतां यदि शक्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१६</sup>भीम उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१७</sup>भ्राता मम गुणश्लाघ्यो बुद्धिसत्त्वबलान्वितः<br>रामायणेऽतिविख्यातः शूरो वानरपुंगवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१८</sup>रामपत्नीकृते येन शतयोजनमायतः<br>सागरः प्लवगेन्द्रेण क्रमेणैकेन लङ्घितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.१९</sup>स मे भ्राता महावीर्यस्तुल्योऽहं तस्य तेजसा<br>बले पराक्रमे युद्धे शक्तोऽहं तव निग्रहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२०</sup>उत्तिष्ठ देहि मे मार्गं पश्य वा मेऽद्य पौरुषम्<br>मच्छासनमकुर्वाणं मा त्वा नेष्ये यमक्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२२</sup>विज्ञाय तं बलोन्मत्तं बाहुवीर्येण गर्वितम्<br>हृदयेनावहस्यैनं हनूमान्वाक्यमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२३</sup>प्रसीद नास्ति मे शक्तिरुत्थातुं जरयानघ<br>ममानुकम्पया त्वेतत्पुच्छमुत्सार्य गम्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२४</sup>सावज्ञमथ वामेन स्मयञ्जग्राह पाणिना<br>न चाशकच्चालयितुं भीमः पुच्छं महाकपेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२५</sup>उच्चिक्षेप पुनर्दोर्भ्यामिन्द्रायुधमिवोच्छ्रितम्<br>नोद्धर्तुमशकद्भीमो दोर्भ्यामपि महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२६</sup>उत्क्षिप्तभ्रूर्विवृत्ताक्षः संहतभ्रुकुटीमुखः<br>स्विन्नगात्रोऽभवद्भीमो न चोद्धर्तुं शशाक ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२७</sup>यत्नवानपि तु श्रीमाँल्लाङ्गूलोद्धरणोद्धुतः<br>कपेः पार्श्वगतो भीमस्तस्थौ व्रीडादधोमुखः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२८</sup>प्रणिपत्य च कौन्तेयः प्राञ्जलिर्वाक्यमब्रवीत्<br>प्रसीद कपिशार्दूल दुरुक्तं क्षम्यतां मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.२९</sup>सिद्धो वा यदि वा देवो गन्धर्वो वाथ गुह्यकः<br>पृष्टः सन्कामया ब्रूहि कस्त्वं वानररूपधृक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३०</sup>हनूमानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३१</sup>यत्ते मम परिज्ञाने कौतूहलमरिंदम<br>तत्सर्वमखिलेन त्वं शृणु पाण्डवनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३२</sup>अहं केसरिणः क्षेत्रे वायुना जगदायुषा<br>जातः कमलपत्राक्ष हनूमान्नाम वानरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३३</sup>सूर्यपुत्रं च सुग्रीवं शक्रपुत्रं च वालिनम्<br>सर्ववानरराजानौ सर्ववानरयूथपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३४</sup>उपतस्थुर्महावीर्या मम चामित्रकर्शन<br>सुग्रीवेणाभवत्प्रीतिरनिलस्याग्निना यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३५</sup>निकृतः स ततो भ्रात्रा कस्मिंश्चित्कारणान्तरे<br>ऋश्यमूके मया सार्धं सुग्रीवो न्यवसच्चिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३६</sup>अथ दाशरथिर्वीरो रामो नाम महाबलः<br>विष्णुर्मानुषरूपेण चचार वसुधामिमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३७</sup>स पितुः प्रियमन्विच्छन्सहभार्यः सहानुजः<br>सधनुर्धन्विनां श्रेष्ठो दण्डकारण्यमाश्रितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३८</sup>तस्य भार्या जनस्थानाद्रावणेन हृता बलात्<br>वञ्चयित्वा महाबुद्धिं मृगरूपेण राघवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.३९</sup>हृतदारः सह भ्रात्रा पत्नीं मार्गन्स राघवः<br>दृष्टवाञ्शैलशिखरे सुग्रीवं वानरर्षभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४०</sup>तेन तस्याभवत्सख्यं राघवस्य महात्मनः<br>स हत्वा वालिनं राज्ये सुग्रीवं प्रत्यपादयत्<br>स हरीन्प्रेषयामास सीतायाः परिमार्गणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४१</sup>ततो वानरकोटीभिर्यां वयं प्रस्थिता दिशम्<br>तत्र प्रवृत्तिः सीताया गृध्रेण प्रतिपादिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४२</sup>ततोऽहं कार्यसिद्ध्यर्थं रामस्याक्लिष्टकर्मणः<br>शतयोजनविस्तीर्णमर्णवं सहसाप्लुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४३</sup>दृष्टा सा च मया देवी रावणस्य निवेशने<br>प्रत्यागतश्चापि पुनर्नाम तत्र प्रकाश्य वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४४</sup>ततो रामेण वीरेण हत्वा तान्सर्वराक्षसान्<br>पुनः प्रत्याहृता भार्या नष्टा वेदश्रुतिर्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४५</sup>ततः प्रतिष्ठिते रामे वीरोऽयं याचितो मया<br>यावद्रामकथा वीर भवेल्लोकेषु शत्रुहन्<br>तावज्जीवेयमित्येवं तथास्त्विति च सोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४६</sup>दश वर्षसहस्राणि दश वर्षशतानि च<br>राज्यं कारितवान्रामस्ततस्तु त्रिदिवं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४७</sup>तदिहाप्सरसस्तात गन्धर्वाश्च सदानघ<br>तस्य वीरस्य चरितं गायन्त्यो रमयन्ति माम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४८</sup>अयं च मार्गो मर्त्यानामगम्यः कुरुनन्दन<br>ततोऽहं रुद्धवान्मार्गं तवेमं देवसेवितम्<br>धर्षयेद्वा शपेद्वापि मा कश्चिदिति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१४७.४९</sup>दिव्यो देवपथो ह्येष नात्र गच्छन्ति मानुषाः<br>यदर्थमागतश्चासि तत्सरोऽभ्यर्ण एव हि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२</sup>एतच्छ्रुत्वा वचस्तस्य वानरेन्द्रस्य धीमतः<br>भीमसेनस्तदा वीरः प्रोवाचामित्रकर्शनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३</sup>को भवान्किंनिमित्तं वा वानरं वपुराश्रितः<br>ब्राह्मणानन्तरो वर्णः क्षत्रियस्त्वानुपृच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४</sup>कौरवः सोमवंशीयः कुन्त्या गर्भेण धारितः<br>पाण्डवो वायुतनयो भीमसेन इति श्रुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.५</sup>स वाक्यं भीमसेनस्य स्मितेन प्रतिगृह्य तत्<br>हनूमान्वायुतनयो वायुपुत्रमभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.६</sup>वानरोऽहं न ते मार्गं प्रदास्यामि यथेप्सितम्<br>साधु गच्छ निवर्तस्व मा त्वं प्राप्स्यसि वैशसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.७</sup>भीम उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.८</sup>वैशसं वास्तु यद्वान्यन्न त्वा पृच्छामि वानर<br>प्रयच्छोत्तिष्ठ मार्गं मे मा त्वं प्राप्स्यसि वैशसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.९</sup>हनूमानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१०</sup>नास्ति शक्तिर्ममोत्थातुं व्याधिना क्लेशितो ह्यहम्<br>यद्यवश्यं प्रयातव्यं लङ्घयित्वा प्रयाहि माम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.११</sup>भीम उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१२</sup>निर्गुणः परमात्मेति देहं ते व्याप्य तिष्ठति<br>तमहं ज्ञानविज्ञेयं नावमन्ये न लङ्घये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१३</sup>यद्यागमैर्न विन्देयं तमहं भूतभावनम्<br>क्रमेयं त्वां गिरिं चेमं हनूमानिव सागरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१४</sup>हनूमानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१५</sup>क एष हनुमान्नाम सागरो येन लङ्घितः<br>पृच्छामि त्वा कुरुश्रेष्ठ कथ्यतां यदि शक्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१६</sup>भीम उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१७</sup>भ्राता मम गुणश्लाघ्यो बुद्धिसत्त्वबलान्वितः<br>रामायणेऽतिविख्यातः शूरो वानरपुंगवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१८</sup>रामपत्नीकृते येन शतयोजनमायतः<br>सागरः प्लवगेन्द्रेण क्रमेणैकेन लङ्घितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.१९</sup>स मे भ्राता महावीर्यस्तुल्योऽहं तस्य तेजसा<br>बले पराक्रमे युद्धे शक्तोऽहं तव निग्रहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२०</sup>उत्तिष्ठ देहि मे मार्गं पश्य वा मेऽद्य पौरुषम्<br>मच्छासनमकुर्वाणं मा त्वा नेष्ये यमक्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२२</sup>विज्ञाय तं बलोन्मत्तं बाहुवीर्येण गर्वितम्<br>हृदयेनावहस्यैनं हनूमान्वाक्यमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२३</sup>प्रसीद नास्ति मे शक्तिरुत्थातुं जरयानघ<br>ममानुकम्पया त्वेतत्पुच्छमुत्सार्य गम्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२४</sup>सावज्ञमथ वामेन स्मयञ्जग्राह पाणिना<br>न चाशकच्चालयितुं भीमः पुच्छं महाकपेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२५</sup>उच्चिक्षेप पुनर्दोर्भ्यामिन्द्रायुधमिवोच्छ्रितम्<br>नोद्धर्तुमशकद्भीमो दोर्भ्यामपि महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२६</sup>उत्क्षिप्तभ्रूर्विवृत्ताक्षः संहतभ्रुकुटीमुखः<br>स्विन्नगात्रोऽभवद्भीमो न चोद्धर्तुं शशाक ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२७</sup>यत्नवानपि तु श्रीमाँल्लाङ्गूलोद्धरणोद्धुतः<br>कपेः पार्श्वगतो भीमस्तस्थौ व्रीडादधोमुखः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२८</sup>प्रणिपत्य च कौन्तेयः प्राञ्जलिर्वाक्यमब्रवीत्<br>प्रसीद कपिशार्दूल दुरुक्तं क्षम्यतां मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.२९</sup>सिद्धो वा यदि वा देवो गन्धर्वो वाथ गुह्यकः<br>पृष्टः सन्कामया ब्रूहि कस्त्वं वानररूपधृक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३०</sup>हनूमानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३१</sup>यत्ते मम परिज्ञाने कौतूहलमरिंदम<br>तत्सर्वमखिलेन त्वं शृणु पाण्डवनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३२</sup>अहं केसरिणः क्षेत्रे वायुना जगदायुषा<br>जातः कमलपत्राक्ष हनूमान्नाम वानरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३३</sup>सूर्यपुत्रं च सुग्रीवं शक्रपुत्रं च वालिनम्<br>सर्ववानरराजानौ सर्ववानरयूथपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३४</sup>उपतस्थुर्महावीर्या मम चामित्रकर्शन<br>सुग्रीवेणाभवत्प्रीतिरनिलस्याग्निना यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३५</sup>निकृतः स ततो भ्रात्रा कस्मिंश्चित्कारणान्तरे<br>ऋश्यमूके मया सार्धं सुग्रीवो न्यवसच्चिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३६</sup>अथ दाशरथिर्वीरो रामो नाम महाबलः<br>विष्णुर्मानुषरूपेण चचार वसुधामिमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३७</sup>स पितुः प्रियमन्विच्छन्सहभार्यः सहानुजः<br>सधनुर्धन्विनां श्रेष्ठो दण्डकारण्यमाश्रितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३८</sup>तस्य भार्या जनस्थानाद्रावणेन हृता बलात्<br>वञ्चयित्वा महाबुद्धिं मृगरूपेण राघवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.३९</sup>हृतदारः सह भ्रात्रा पत्नीं मार्गन्स राघवः<br>दृष्टवाञ्शैलशिखरे सुग्रीवं वानरर्षभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४०</sup>तेन तस्याभवत्सख्यं राघवस्य महात्मनः<br>स हत्वा वालिनं राज्ये सुग्रीवं प्रत्यपादयत्<br>स हरीन्प्रेषयामास सीतायाः परिमार्गणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४१</sup>ततो वानरकोटीभिर्यां वयं प्रस्थिता दिशम्<br>तत्र प्रवृत्तिः सीताया गृध्रेण प्रतिपादिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४२</sup>ततोऽहं कार्यसिद्ध्यर्थं रामस्याक्लिष्टकर्मणः<br>शतयोजनविस्तीर्णमर्णवं सहसाप्लुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४३</sup>दृष्टा सा च मया देवी रावणस्य निवेशने<br>प्रत्यागतश्चापि पुनर्नाम तत्र प्रकाश्य वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४४</sup>ततो रामेण वीरेण हत्वा तान्सर्वराक्षसान्<br>पुनः प्रत्याहृता भार्या नष्टा वेदश्रुतिर्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४५</sup>ततः प्रतिष्ठिते रामे वीरोऽयं याचितो मया<br>यावद्रामकथा वीर भवेल्लोकेषु शत्रुहन्<br>तावज्जीवेयमित्येवं तथास्त्विति च सोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४६</sup>दश वर्षसहस्राणि दश वर्षशतानि च<br>राज्यं कारितवान्रामस्ततस्तु त्रिदिवं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४७</sup>तदिहाप्सरसस्तात गन्धर्वाश्च सदानघ<br>तस्य वीरस्य चरितं गायन्त्यो रमयन्ति माम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४८</sup>अयं च मार्गो मर्त्यानामगम्यः कुरुनन्दन<br>ततोऽहं रुद्धवान्मार्गं तवेमं देवसेवितम्<br>धर्षयेद्वा शपेद्वापि मा कश्चिदिति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१४७.४९</sup>दिव्यो देवपथो ह्येष नात्र गच्छन्ति मानुषाः<br>यदर्थमागतश्चासि तत्सरोऽभ्यर्ण एव हि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -228,8 +221,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

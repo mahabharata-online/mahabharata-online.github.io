@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/84.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:८५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/86.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/84.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:८५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/86.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२</sup>तान्सर्वानुत्सुकान्दृष्ट्वा पाण्डवान्दीनचेतसः<br>आश्वासयंस्तदा धौम्यो बृहस्पतिसमोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.३</sup>ब्राह्मणानुमतान्पुण्यानाश्रमान्भरतर्षभ<br>दिशस्तीर्थानि शैलांश्च शृणु मे गदतो नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.४</sup>पूर्वं प्राचीं दिशं राजन्राजर्षिगणसेविताम्<br>रम्यां ते कीर्तयिष्यामि युधिष्ठिर यथास्मृति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.५</sup>तस्यां देवर्षिजुष्टायां नैमिषं नाम भारत<br>यत्र तीर्थानि देवानां सुपुण्यानि पृथक्पृथक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.६</sup>यत्र सा गोमती पुण्या रम्या देवर्षिसेविता<br>यज्ञभूमिश्च देवानां शामित्रं च विवस्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.७</sup>तस्यां गिरिवरः पुण्यो गयो राजर्षिसत्कृतः<br>शिवं ब्रह्मसरो यत्र सेवितं त्रिदशर्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.८</sup>यदर्थं पुरुषव्याघ्र कीर्तयन्ति पुरातनाः<br>एष्टव्या बहवः पुत्रा यद्येकोऽपि गयां व्रजेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.९</sup>महानदी च तत्रैव तथा गयशिरोऽनघ<br>यत्रासौ कीर्त्यते विप्रैरक्षय्यकरणो वटः<br>यत्र दत्तं पितृभ्योऽन्नमक्षय्यं भवति प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१०</sup>सा च पुण्यजला यत्र फल्गुनामा महानदी<br>बहुमूलफला चापि कौशिकी भरतर्षभ<br>विश्वामित्रोऽभ्यगाद्यत्र ब्राह्मणत्वं तपोधनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.११</sup>गङ्गा यत्र नदी पुण्या यस्यास्तीरे भगीरथः<br>अयजत्तात बहुभिः क्रतुभिर्भूरिदक्षिणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१२</sup>पाञ्चालेषु च कौरव्य कथयन्त्युत्पलावतम्<br>विश्वामित्रोऽयजद्यत्र शक्रेण सह कौशिकः<br>यत्रानुवंशं भगवाञ्जामदग्न्यस्तथा जगौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१३</sup>विश्वामित्रस्य तां दृष्ट्वा विभूतिमतिमानुषीम्<br>कन्यकुब्जेऽपिबत्सोममिन्द्रेण सह कौशिकः<br>ततः क्षत्रादपाक्रामद्ब्राह्मणोऽस्मीति चाब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१४</sup>पवित्रमृषिभिर्जुष्टं पुण्यं पावनमुत्तमम्<br>गङ्गायमुनयोर्वीर संगमं लोकविश्रुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१५</sup>यत्रायजत भूतात्मा पूर्वमेव पितामहः<br>प्रयागमिति विख्यातं तस्माद्भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१६</sup>अगस्त्यस्य च राजेन्द्र तत्राश्रमवरो महान्<br>हिरण्यबिन्दुः कथितो गिरौ कालंजरे नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१७</sup>अत्यन्यान्पर्वतान्राजन्पुण्यो गिरिवरः शिवः<br>महेन्द्रो नाम कौरव्य भार्गवस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१८</sup>अयजद्यत्र कौन्तेय पूर्वमेव पितामहः<br>यत्र भागीरथी पुण्या सदस्यासीद्युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.१९</sup>यत्रासौ ब्रह्मशालेति पुण्या ख्याता विशां पते<br>धूतपाप्मभिराकीर्णा पुण्यं तस्याश्च दर्शनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२०</sup>पवित्रो मङ्गलीयश्च ख्यातो लोके सनातनः<br>केदारश्च मतङ्गस्य महानाश्रम उत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२१</sup>कुण्डोदः पर्वतो रम्यो बहुमूलफलोदकः<br>नैषधस्तृषितो यत्र जलं शर्म च लब्धवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२२</sup>यत्र देववनं रम्यं तापसैरुपशोभितम्<br>बाहुदा च नदी यत्र नन्दा च गिरिमूर्धनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२३</sup>तीर्थानि सरितः शैलाः पुण्यान्यायतनानि च<br>प्राच्यां दिशि महाराज कीर्तितानि मया तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.८५.२४</sup>तिसृष्वन्यासु पुण्यानि दिक्षु तीर्थानि मे शृणु<br>सरितः पर्वतांश्चैव पुण्यान्यायतनानि च
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२</sup>तान्सर्वानुत्सुकान्दृष्ट्वा पाण्डवान्दीनचेतसः<br>आश्वासयंस्तदा धौम्यो बृहस्पतिसमोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.३</sup>ब्राह्मणानुमतान्पुण्यानाश्रमान्भरतर्षभ<br>दिशस्तीर्थानि शैलांश्च शृणु मे गदतो नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.४</sup>पूर्वं प्राचीं दिशं राजन्राजर्षिगणसेविताम्<br>रम्यां ते कीर्तयिष्यामि युधिष्ठिर यथास्मृति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.५</sup>तस्यां देवर्षिजुष्टायां नैमिषं नाम भारत<br>यत्र तीर्थानि देवानां सुपुण्यानि पृथक्पृथक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.६</sup>यत्र सा गोमती पुण्या रम्या देवर्षिसेविता<br>यज्ञभूमिश्च देवानां शामित्रं च विवस्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.७</sup>तस्यां गिरिवरः पुण्यो गयो राजर्षिसत्कृतः<br>शिवं ब्रह्मसरो यत्र सेवितं त्रिदशर्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.८</sup>यदर्थं पुरुषव्याघ्र कीर्तयन्ति पुरातनाः<br>एष्टव्या बहवः पुत्रा यद्येकोऽपि गयां व्रजेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.९</sup>महानदी च तत्रैव तथा गयशिरोऽनघ<br>यत्रासौ कीर्त्यते विप्रैरक्षय्यकरणो वटः<br>यत्र दत्तं पितृभ्योऽन्नमक्षय्यं भवति प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१०</sup>सा च पुण्यजला यत्र फल्गुनामा महानदी<br>बहुमूलफला चापि कौशिकी भरतर्षभ<br>विश्वामित्रोऽभ्यगाद्यत्र ब्राह्मणत्वं तपोधनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.११</sup>गङ्गा यत्र नदी पुण्या यस्यास्तीरे भगीरथः<br>अयजत्तात बहुभिः क्रतुभिर्भूरिदक्षिणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१२</sup>पाञ्चालेषु च कौरव्य कथयन्त्युत्पलावतम्<br>विश्वामित्रोऽयजद्यत्र शक्रेण सह कौशिकः<br>यत्रानुवंशं भगवाञ्जामदग्न्यस्तथा जगौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१३</sup>विश्वामित्रस्य तां दृष्ट्वा विभूतिमतिमानुषीम्<br>कन्यकुब्जेऽपिबत्सोममिन्द्रेण सह कौशिकः<br>ततः क्षत्रादपाक्रामद्ब्राह्मणोऽस्मीति चाब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१४</sup>पवित्रमृषिभिर्जुष्टं पुण्यं पावनमुत्तमम्<br>गङ्गायमुनयोर्वीर संगमं लोकविश्रुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१५</sup>यत्रायजत भूतात्मा पूर्वमेव पितामहः<br>प्रयागमिति विख्यातं तस्माद्भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१६</sup>अगस्त्यस्य च राजेन्द्र तत्राश्रमवरो महान्<br>हिरण्यबिन्दुः कथितो गिरौ कालंजरे नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१७</sup>अत्यन्यान्पर्वतान्राजन्पुण्यो गिरिवरः शिवः<br>महेन्द्रो नाम कौरव्य भार्गवस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१८</sup>अयजद्यत्र कौन्तेय पूर्वमेव पितामहः<br>यत्र भागीरथी पुण्या सदस्यासीद्युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.१९</sup>यत्रासौ ब्रह्मशालेति पुण्या ख्याता विशां पते<br>धूतपाप्मभिराकीर्णा पुण्यं तस्याश्च दर्शनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२०</sup>पवित्रो मङ्गलीयश्च ख्यातो लोके सनातनः<br>केदारश्च मतङ्गस्य महानाश्रम उत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२१</sup>कुण्डोदः पर्वतो रम्यो बहुमूलफलोदकः<br>नैषधस्तृषितो यत्र जलं शर्म च लब्धवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२२</sup>यत्र देववनं रम्यं तापसैरुपशोभितम्<br>बाहुदा च नदी यत्र नन्दा च गिरिमूर्धनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२३</sup>तीर्थानि सरितः शैलाः पुण्यान्यायतनानि च<br>प्राच्यां दिशि महाराज कीर्तितानि मया तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.८५.२४</sup>तिसृष्वन्यासु पुण्यानि दिक्षु तीर्थानि मे शृणु<br>सरितः पर्वतांश्चैव पुण्यान्यायतनानि च
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

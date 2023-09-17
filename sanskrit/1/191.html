@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/190.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१९१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/192.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,103 +64,68 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/190.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१९१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/192.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.२</sup>पाण्डवैः सह संयोगं गतस्य द्रुपदस्य तु<br>न बभूव भयं किंचिद्देवेभ्योऽपि कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.३</sup>कुन्तीमासाद्य ता नार्यो द्रुपदस्य महात्मनः<br>नाम संकीर्तयन्त्यस्ताः पादौ जग्मुः स्वमूर्धभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.४</sup>कृष्णा च क्षौमसंवीता कृतकौतुकमङ्गला<br>कृताभिवादना श्वश्र्वास्तस्थौ प्रह्वा कृताञ्जलिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.५</sup>रूपलक्षणसंपन्नां शीलाचारसमन्विताम्<br>द्रौपदीमवदत्प्रेम्णा पृथाशीर्वचनं स्नुषाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.६</sup>यथेन्द्राणी हरिहये स्वाहा चैव विभावसौ<br>रोहिणी च यथा सोमे दमयन्ती यथा नले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.७</sup>यथा वैश्रवणे भद्रा वसिष्ठे चाप्यरुन्धती<br>यथा नारायणे लक्ष्मीस्तथा त्वं भव भर्तृषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.८</sup>जीवसूर्वीरसूर्भद्रे बहुसौख्यसमन्विता<br>सुभगा भोगसंपन्ना यज्ञपत्नी स्वनुव्रता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.९</sup>अतिथीनागतान्साधून्बालान्वृद्धान्गुरूंस्तथा<br>पूजयन्त्या यथान्यायं शश्वद्गच्छन्तु ते समाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१०</sup>कुरुजाङ्गलमुख्येषु राष्ट्रेषु नगरेषु च<br>अनु त्वमभिषिच्यस्व नृपतिं धर्मवत्सलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.११</sup>पतिभिर्निर्जितामुर्वीं विक्रमेण महाबलैः<br>कुरु ब्राह्मणसात्सर्वामश्वमेधे महाक्रतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१२</sup>पृथिव्यां यानि रत्नानि गुणवन्ति गुनान्विते<br>तान्याप्नुहि त्वं कल्याणि सुखिनी शरदां शतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१३</sup>यथा च त्वाभिनन्दामि वध्वद्य क्षौमसंवृताम्<br>तथा भूयोऽभिनन्दिष्ये सूतपुत्रां गुणान्विताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१४</sup>ततस्तु कृतदारेभ्यः पाण्डुभ्यः प्राहिणोद्धरिः<br>मुक्तावैडूर्यचित्राणि हैमान्याभरणानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१५</sup>वासांसि च महार्हाणि नानादेश्यानि माधवः<br>कम्बलाजिनरत्नानि स्पर्शवन्ति शुभानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१६</sup>शयनासनयानानि विविधानि महान्ति च<br>वैडूर्यवज्रचित्राणि शतशो भाजनानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१७</sup>रूपयौवनदाक्षिण्यैरुपेताश्च स्वलंकृताः<br>प्रेष्याः संप्रददौ कृष्णो नानादेश्याः सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१८</sup>गजान्विनीतान्भद्रांश्च सदश्वांश्च स्वलंकृतान्<br>रथांश्च दान्तान्सौवर्णैः शुभैः पट्टैरलंकृतान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.१९</sup>कोटिशश्च सुवर्णं स तेषामकृतकं तथा<br>वीतीकृतममेयात्मा प्राहिणोन्मधुसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९१.२०</sup>तत्सर्वं प्रतिजग्राह धर्मराजो युधिष्ठिरः<br>मुदा परमया युक्तो गोविन्दप्रियकाम्यया
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.२</sup>पाण्डवैः सह संयोगं गतस्य द्रुपदस्य तु<br>न बभूव भयं किंचिद्देवेभ्योऽपि कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.३</sup>कुन्तीमासाद्य ता नार्यो द्रुपदस्य महात्मनः<br>नाम संकीर्तयन्त्यस्ताः पादौ जग्मुः स्वमूर्धभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.४</sup>कृष्णा च क्षौमसंवीता कृतकौतुकमङ्गला<br>कृताभिवादना श्वश्र्वास्तस्थौ प्रह्वा कृताञ्जलिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.५</sup>रूपलक्षणसंपन्नां शीलाचारसमन्विताम्<br>द्रौपदीमवदत्प्रेम्णा पृथाशीर्वचनं स्नुषाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.६</sup>यथेन्द्राणी हरिहये स्वाहा चैव विभावसौ<br>रोहिणी च यथा सोमे दमयन्ती यथा नले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.७</sup>यथा वैश्रवणे भद्रा वसिष्ठे चाप्यरुन्धती<br>यथा नारायणे लक्ष्मीस्तथा त्वं भव भर्तृषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.८</sup>जीवसूर्वीरसूर्भद्रे बहुसौख्यसमन्विता<br>सुभगा भोगसंपन्ना यज्ञपत्नी स्वनुव्रता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.९</sup>अतिथीनागतान्साधून्बालान्वृद्धान्गुरूंस्तथा<br>पूजयन्त्या यथान्यायं शश्वद्गच्छन्तु ते समाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१०</sup>कुरुजाङ्गलमुख्येषु राष्ट्रेषु नगरेषु च<br>अनु त्वमभिषिच्यस्व नृपतिं धर्मवत्सलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.११</sup>पतिभिर्निर्जितामुर्वीं विक्रमेण महाबलैः<br>कुरु ब्राह्मणसात्सर्वामश्वमेधे महाक्रतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१२</sup>पृथिव्यां यानि रत्नानि गुणवन्ति गुनान्विते<br>तान्याप्नुहि त्वं कल्याणि सुखिनी शरदां शतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१३</sup>यथा च त्वाभिनन्दामि वध्वद्य क्षौमसंवृताम्<br>तथा भूयोऽभिनन्दिष्ये सूतपुत्रां गुणान्विताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१४</sup>ततस्तु कृतदारेभ्यः पाण्डुभ्यः प्राहिणोद्धरिः<br>मुक्तावैडूर्यचित्राणि हैमान्याभरणानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१५</sup>वासांसि च महार्हाणि नानादेश्यानि माधवः<br>कम्बलाजिनरत्नानि स्पर्शवन्ति शुभानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१६</sup>शयनासनयानानि विविधानि महान्ति च<br>वैडूर्यवज्रचित्राणि शतशो भाजनानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१७</sup>रूपयौवनदाक्षिण्यैरुपेताश्च स्वलंकृताः<br>प्रेष्याः संप्रददौ कृष्णो नानादेश्याः सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१८</sup>गजान्विनीतान्भद्रांश्च सदश्वांश्च स्वलंकृतान्<br>रथांश्च दान्तान्सौवर्णैः शुभैः पट्टैरलंकृतान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.१९</sup>कोटिशश्च सुवर्णं स तेषामकृतकं तथा<br>वीतीकृतममेयात्मा प्राहिणोन्मधुसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९१.२०</sup>तत्सर्वं प्रतिजग्राह धर्मराजो युधिष्ठिरः<br>मुदा परमया युक्तो गोविन्दप्रियकाम्यया
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -141,8 +134,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

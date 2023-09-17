@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/225.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२२६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/227.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/225.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२२६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/227.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.२</sup>धृतराष्ट्रस्य तद्वाक्यं निशम्य सहसौबलः<br>दुर्योधनमिदं काले कर्णो वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.३</sup>प्रव्राज्य पाण्डवान्वीरान्स्वेन वीर्येण भारत<br>भुङ्क्ष्वेमां पृथिवीमेको दिवं शम्बरहा यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.४</sup>प्राच्याश्च दाक्षिणात्याश्च प्रतीच्योदीच्यवासिनः<br>कृताः करप्रदाः सर्वे राजानस्ते नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.५</sup>या हि सा दीप्यमानेव पाण्डवान्भजते पुरा<br>साद्य लक्ष्मीस्त्वया राजन्नवाप्ता भ्रातृभिः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.६</sup>इन्द्रप्रस्थगते यां तां दीप्यमानां युधिष्ठिरे<br>अपश्याम श्रियं राजन्नचिरं शोककर्शिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.७</sup>सा तु बुद्धिबलेनेयं राज्ञस्तस्माद्युधिष्ठिरात्<br>त्वयाक्षिप्ता महाबाहो दीप्यमानेव दृश्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.८</sup>तथैव तव राजेन्द्र राजानः परवीरहन्<br>शासनेऽधिष्ठिताः सर्वे किं कुर्म इति वादिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.९</sup>तवाद्य पृथिवी राजन्निखिला सागराम्बरा<br>सपर्वतवना देवी सग्रामनगराकरा<br>नानावनोद्देशवती पत्तनैरुपशोभिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१०</sup>वन्द्यमानो द्विजै राजन्पूज्यमानश्च राजभिः<br>पौरुषाद्दिवि देवेषु भ्राजसे रश्मिवानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.११</sup>रुद्रैरिव यमो राजा मरुद्भिरिव वासवः<br>कुरुभिस्त्वं वृतो राजन्भासि नक्षत्रराडिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१२</sup>ये स्म ते नाद्रियन्तेऽऽज्ञा नोद्विजन्ते कदा च न<br>पश्यामस्ताञ्श्रिया हीनान्पाण्डवान्वनवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१३</sup>श्रूयन्ते हि महाराज सरो द्वैतवनं प्रति<br>वसन्तः पाण्डवाः सार्धं ब्राह्मणैर्वनवासिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१४</sup>स प्रयाहि महाराज श्रिया परमया युतः<br>प्रतपन्पाण्डुपुत्रांस्त्वं रश्मिवानिव तेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१५</sup>स्थितो राज्ये च्युतान्राज्याच्छ्रिया हीनाञ्श्रिया वृतः<br>असमृद्धान्समृद्धार्थः पश्य पाण्डुसुतान्नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१६</sup>महाभिजनसंपन्नं भद्रे महति संस्थितम्<br>पाण्डवास्त्वाभिवीक्षन्तां ययातिमिव नाहुषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१७</sup>यां श्रियं सुहृदश्चैव दुर्हृदश्च विशां पते<br>पश्यन्ति पुरुषे दीप्तां सा समर्था भवत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१८</sup>समस्थो विषमस्थान्हि दुर्हृदो योऽभिवीक्षते<br>जगतीस्थानिवाद्रिस्थः किं ततः परमं सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.१९</sup>न पुत्रधनलाभेन न राज्येनापि विन्दति<br>प्रीतिं नृपतिशार्दूल याममित्राघदर्शनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.२०</sup>किं नु तस्य सुखं न स्यादाश्रमे यो धनंजयम्<br>अभिवीक्षेत सिद्धार्थो वल्कलाजिनवाससम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.२१</sup>सुवाससो हि ते भार्या वल्कलाजिनवाससम्<br>पश्यन्त्वसुखितां कृष्णां सा च निर्विद्यतां पुनः<br>विनिन्दतां तथात्मानं जीवितं च धनच्युता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.२२</sup>न तथा हि सभामध्ये तस्या भवितुमर्हति<br>वैमनस्यं यथा दृष्ट्वा तव भार्याः स्वलंकृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२६.२३</sup>एवमुक्त्वा तु राजानं कर्णः शकुनिना सह<br>तूष्णीं बभूवतुरुभौ वाक्यान्ते जनमेजय
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.२</sup>धृतराष्ट्रस्य तद्वाक्यं निशम्य सहसौबलः<br>दुर्योधनमिदं काले कर्णो वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.३</sup>प्रव्राज्य पाण्डवान्वीरान्स्वेन वीर्येण भारत<br>भुङ्क्ष्वेमां पृथिवीमेको दिवं शम्बरहा यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.४</sup>प्राच्याश्च दाक्षिणात्याश्च प्रतीच्योदीच्यवासिनः<br>कृताः करप्रदाः सर्वे राजानस्ते नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.५</sup>या हि सा दीप्यमानेव पाण्डवान्भजते पुरा<br>साद्य लक्ष्मीस्त्वया राजन्नवाप्ता भ्रातृभिः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.६</sup>इन्द्रप्रस्थगते यां तां दीप्यमानां युधिष्ठिरे<br>अपश्याम श्रियं राजन्नचिरं शोककर्शिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.७</sup>सा तु बुद्धिबलेनेयं राज्ञस्तस्माद्युधिष्ठिरात्<br>त्वयाक्षिप्ता महाबाहो दीप्यमानेव दृश्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.८</sup>तथैव तव राजेन्द्र राजानः परवीरहन्<br>शासनेऽधिष्ठिताः सर्वे किं कुर्म इति वादिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.९</sup>तवाद्य पृथिवी राजन्निखिला सागराम्बरा<br>सपर्वतवना देवी सग्रामनगराकरा<br>नानावनोद्देशवती पत्तनैरुपशोभिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१०</sup>वन्द्यमानो द्विजै राजन्पूज्यमानश्च राजभिः<br>पौरुषाद्दिवि देवेषु भ्राजसे रश्मिवानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.११</sup>रुद्रैरिव यमो राजा मरुद्भिरिव वासवः<br>कुरुभिस्त्वं वृतो राजन्भासि नक्षत्रराडिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१२</sup>ये स्म ते नाद्रियन्तेऽऽज्ञा नोद्विजन्ते कदा च न<br>पश्यामस्ताञ्श्रिया हीनान्पाण्डवान्वनवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१३</sup>श्रूयन्ते हि महाराज सरो द्वैतवनं प्रति<br>वसन्तः पाण्डवाः सार्धं ब्राह्मणैर्वनवासिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१४</sup>स प्रयाहि महाराज श्रिया परमया युतः<br>प्रतपन्पाण्डुपुत्रांस्त्वं रश्मिवानिव तेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१५</sup>स्थितो राज्ये च्युतान्राज्याच्छ्रिया हीनाञ्श्रिया वृतः<br>असमृद्धान्समृद्धार्थः पश्य पाण्डुसुतान्नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१६</sup>महाभिजनसंपन्नं भद्रे महति संस्थितम्<br>पाण्डवास्त्वाभिवीक्षन्तां ययातिमिव नाहुषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१७</sup>यां श्रियं सुहृदश्चैव दुर्हृदश्च विशां पते<br>पश्यन्ति पुरुषे दीप्तां सा समर्था भवत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१८</sup>समस्थो विषमस्थान्हि दुर्हृदो योऽभिवीक्षते<br>जगतीस्थानिवाद्रिस्थः किं ततः परमं सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.१९</sup>न पुत्रधनलाभेन न राज्येनापि विन्दति<br>प्रीतिं नृपतिशार्दूल याममित्राघदर्शनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.२०</sup>किं नु तस्य सुखं न स्यादाश्रमे यो धनंजयम्<br>अभिवीक्षेत सिद्धार्थो वल्कलाजिनवाससम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.२१</sup>सुवाससो हि ते भार्या वल्कलाजिनवाससम्<br>पश्यन्त्वसुखितां कृष्णां सा च निर्विद्यतां पुनः<br>विनिन्दतां तथात्मानं जीवितं च धनच्युता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.२२</sup>न तथा हि सभामध्ये तस्या भवितुमर्हति<br>वैमनस्यं यथा दृष्ट्वा तव भार्याः स्वलंकृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२६.२३</sup>एवमुक्त्वा तु राजानं कर्णः शकुनिना सह<br>तूष्णीं बभूवतुरुभौ वाक्यान्ते जनमेजय
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

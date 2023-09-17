@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/11.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:१२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/13.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,145 +64,110 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/11.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:१२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/13.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२</sup>एवं मत्स्यस्य नगरे वसन्तस्तत्र पाण्डवाः<br>अत ऊर्ध्वं महावीर्याः किमकुर्वन्त वै द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.४</sup>एवं ते न्यवसंस्तत्र प्रच्छन्नाः कुरुनन्दनाः<br>आराधयन्तो राजानं यदकुर्वन्त तच्छृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.५</sup>युधिष्ठिरः सभास्तारः सभ्यानामभवत्प्रियः<br>तथैव च विराटस्य सपुत्रस्य विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.६</sup>स ह्यक्षहृदयज्ञस्तान्क्रीडयामास पाण्डवः<br>अक्षवत्यां यथाकामं सूत्रबद्धानिव द्विजान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.७</sup>अज्ञातं च विराटस्य विजित्य वसु धर्मराट्<br>भ्रातृभ्यः पुरुषव्याघ्रो यथार्हं स्म प्रयच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.८</sup>भीमसेनोऽपि मांसानि भक्ष्याणि विविधानि च<br>अतिसृष्टानि मत्स्येन विक्रीणाति युधिष्ठिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.९</sup>वासांसि परिजीर्णानि लब्धान्यन्तःपुरेऽर्जुनः<br>विक्रीणानश्च सर्वेभ्यः पाण्डवेभ्यः प्रयच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१०</sup>सहदेवोऽपि गोपानां वेषमास्थाय पाण्डवः<br>दधि क्षीरं घृतं चैव पाण्डवेभ्यः प्रयच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.११</sup>नकुलोऽपि धनं लब्ध्वा कृते कर्मणि वाजिनाम्<br>तुष्टे तस्मिन्नरपतौ पाण्डवेभ्यः प्रयच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१२</sup>कृष्णापि सर्वान्भ्रातॄंस्तान्निरीक्षन्ती तपस्विनी<br>यथा पुनरविज्ञाता तथा चरति भामिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१३</sup>एवं संपादयन्तस्ते तथान्योन्यं महारथाः<br>प्रेक्षमाणास्तदा कृष्णामूषुश्छन्ना नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१४</sup>अथ मासे चतुर्थे तु ब्रह्मणः सुमहोत्सवः<br>आसीत्समृद्धो मत्स्येषु पुरुषाणां सुसंमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१५</sup>तत्र मल्लाः समापेतुर्दिग्भ्यो राजन्सहस्रशः<br>महाकाया महावीर्याः कालखञ्जा इवासुराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१६</sup>वीर्योन्नद्धा बलोदग्रा राज्ञा समभिपूजिताः<br>सिंहस्कन्धकटिग्रीवाः स्ववदाता मनस्विनः<br>असकृल्लब्धलक्षास्ते रङ्गे पार्थिवसंनिधौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१७</sup>तेषामेको महानासीत्सर्वमल्लान्समाह्वयत्<br>आवल्गमानं तं रङ्गे नोपतिष्ठति कश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१८</sup>यदा सर्वे विमनसस्ते मल्ला हतचेतसः<br>अथ सूदेन तं मल्लं योधयामास मत्स्यराट्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.१९</sup>चोद्यमानस्ततो भीमो दुःखेनैवाकरोन्मतिम्<br>न हि शक्नोति विवृते प्रत्याख्यातुं नराधिपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२०</sup>ततः स पुरुषव्याघ्रः शार्दूलशिथिलं चरन्<br>प्रविवेश महारङ्गं विराटमभिहर्षयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२१</sup>बबन्ध कक्ष्यां कौन्तेयस्ततस्तं हर्षयञ्जनम्<br>ततस्तं वृत्रसंकाशं भीमो मल्लं समाह्वयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२२</sup>तावुभौ सुमहोत्साहावुभौ तीव्रपराक्रमौ<br>मत्ताविव महाकायौ वारणौ षष्टिहायनौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२३</sup>चकर्ष दोर्भ्यामुत्पाट्य भीमो मल्लममित्रहा<br>विनदन्तमभिक्रोशञ्शार्दूल इव वारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२४</sup>तमुद्यम्य महाबाहुर्भ्रामयामास वीर्यवान्<br>ततो मल्लाश्च मत्स्याश्च विस्मयं चक्रिरे परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२५</sup>भ्रामयित्वा शतगुणं गतसत्त्वमचेतनम्<br>प्रत्यपिंषन्महाबाहुर्मल्लं भुवि वृकोदरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२६</sup>तस्मिन्विनिहते मल्ले जीमूते लोकविश्रुते<br>विराटः परमं हर्षमगच्छद्बान्धवैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२७</sup>संहर्षात्प्रददौ वित्तं बहु राजा महामनाः<br>बल्लवाय महारङ्गे यथा वैश्रवणस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२८</sup>एवं स सुबहून्मल्लान्पुरुषांश्च महाबलान्<br>विनिघ्नन्मत्स्यराजस्य प्रीतिमावहदुत्तमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.२९</sup>यदास्य तुल्यः पुरुषो न कश्चित्तत्र विद्यते<br>ततो व्याघ्रैश्च सिंहैश्च द्विरदैश्चाप्ययोधयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३०</sup>पुनरन्तःपुरगतः स्त्रीणां मध्ये वृकोदरः<br>योध्यते स्म विराटेन सिंहैर्मत्तैर्महाबलैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३१</sup>बीभत्सुरपि गीतेन सुनृत्तेन च पाण्डवः<br>विराटं तोषयामास सर्वाश्चान्तःपुरस्त्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३२</sup>अश्वैर्विनीतैर्जवनैस्तत्र तत्र समागतैः<br>तोषयामास नकुलो राजानं राजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३३</sup>तस्मै प्रदेयं प्रायच्छत्प्रीतो राजा धनं बहु<br>विनीतान्वृषभान्दृष्ट्वा सहदेवस्य चाभिभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१२.३४</sup>एवं ते न्यवसंस्तत्र प्रच्छन्नाः पुरुषर्षभाः<br>कर्माणि तस्य कुर्वाणा विराटनृपतेस्तदा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२</sup>एवं मत्स्यस्य नगरे वसन्तस्तत्र पाण्डवाः<br>अत ऊर्ध्वं महावीर्याः किमकुर्वन्त वै द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.४</sup>एवं ते न्यवसंस्तत्र प्रच्छन्नाः कुरुनन्दनाः<br>आराधयन्तो राजानं यदकुर्वन्त तच्छृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.५</sup>युधिष्ठिरः सभास्तारः सभ्यानामभवत्प्रियः<br>तथैव च विराटस्य सपुत्रस्य विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.६</sup>स ह्यक्षहृदयज्ञस्तान्क्रीडयामास पाण्डवः<br>अक्षवत्यां यथाकामं सूत्रबद्धानिव द्विजान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.७</sup>अज्ञातं च विराटस्य विजित्य वसु धर्मराट्<br>भ्रातृभ्यः पुरुषव्याघ्रो यथार्हं स्म प्रयच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.८</sup>भीमसेनोऽपि मांसानि भक्ष्याणि विविधानि च<br>अतिसृष्टानि मत्स्येन विक्रीणाति युधिष्ठिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.९</sup>वासांसि परिजीर्णानि लब्धान्यन्तःपुरेऽर्जुनः<br>विक्रीणानश्च सर्वेभ्यः पाण्डवेभ्यः प्रयच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१०</sup>सहदेवोऽपि गोपानां वेषमास्थाय पाण्डवः<br>दधि क्षीरं घृतं चैव पाण्डवेभ्यः प्रयच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.११</sup>नकुलोऽपि धनं लब्ध्वा कृते कर्मणि वाजिनाम्<br>तुष्टे तस्मिन्नरपतौ पाण्डवेभ्यः प्रयच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१२</sup>कृष्णापि सर्वान्भ्रातॄंस्तान्निरीक्षन्ती तपस्विनी<br>यथा पुनरविज्ञाता तथा चरति भामिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१३</sup>एवं संपादयन्तस्ते तथान्योन्यं महारथाः<br>प्रेक्षमाणास्तदा कृष्णामूषुश्छन्ना नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१४</sup>अथ मासे चतुर्थे तु ब्रह्मणः सुमहोत्सवः<br>आसीत्समृद्धो मत्स्येषु पुरुषाणां सुसंमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१५</sup>तत्र मल्लाः समापेतुर्दिग्भ्यो राजन्सहस्रशः<br>महाकाया महावीर्याः कालखञ्जा इवासुराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१६</sup>वीर्योन्नद्धा बलोदग्रा राज्ञा समभिपूजिताः<br>सिंहस्कन्धकटिग्रीवाः स्ववदाता मनस्विनः<br>असकृल्लब्धलक्षास्ते रङ्गे पार्थिवसंनिधौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१७</sup>तेषामेको महानासीत्सर्वमल्लान्समाह्वयत्<br>आवल्गमानं तं रङ्गे नोपतिष्ठति कश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१८</sup>यदा सर्वे विमनसस्ते मल्ला हतचेतसः<br>अथ सूदेन तं मल्लं योधयामास मत्स्यराट्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.१९</sup>चोद्यमानस्ततो भीमो दुःखेनैवाकरोन्मतिम्<br>न हि शक्नोति विवृते प्रत्याख्यातुं नराधिपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२०</sup>ततः स पुरुषव्याघ्रः शार्दूलशिथिलं चरन्<br>प्रविवेश महारङ्गं विराटमभिहर्षयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२१</sup>बबन्ध कक्ष्यां कौन्तेयस्ततस्तं हर्षयञ्जनम्<br>ततस्तं वृत्रसंकाशं भीमो मल्लं समाह्वयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२२</sup>तावुभौ सुमहोत्साहावुभौ तीव्रपराक्रमौ<br>मत्ताविव महाकायौ वारणौ षष्टिहायनौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२३</sup>चकर्ष दोर्भ्यामुत्पाट्य भीमो मल्लममित्रहा<br>विनदन्तमभिक्रोशञ्शार्दूल इव वारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२४</sup>तमुद्यम्य महाबाहुर्भ्रामयामास वीर्यवान्<br>ततो मल्लाश्च मत्स्याश्च विस्मयं चक्रिरे परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२५</sup>भ्रामयित्वा शतगुणं गतसत्त्वमचेतनम्<br>प्रत्यपिंषन्महाबाहुर्मल्लं भुवि वृकोदरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२६</sup>तस्मिन्विनिहते मल्ले जीमूते लोकविश्रुते<br>विराटः परमं हर्षमगच्छद्बान्धवैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२७</sup>संहर्षात्प्रददौ वित्तं बहु राजा महामनाः<br>बल्लवाय महारङ्गे यथा वैश्रवणस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२८</sup>एवं स सुबहून्मल्लान्पुरुषांश्च महाबलान्<br>विनिघ्नन्मत्स्यराजस्य प्रीतिमावहदुत्तमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.२९</sup>यदास्य तुल्यः पुरुषो न कश्चित्तत्र विद्यते<br>ततो व्याघ्रैश्च सिंहैश्च द्विरदैश्चाप्ययोधयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३०</sup>पुनरन्तःपुरगतः स्त्रीणां मध्ये वृकोदरः<br>योध्यते स्म विराटेन सिंहैर्मत्तैर्महाबलैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३१</sup>बीभत्सुरपि गीतेन सुनृत्तेन च पाण्डवः<br>विराटं तोषयामास सर्वाश्चान्तःपुरस्त्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३२</sup>अश्वैर्विनीतैर्जवनैस्तत्र तत्र समागतैः<br>तोषयामास नकुलो राजानं राजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३३</sup>तस्मै प्रदेयं प्रायच्छत्प्रीतो राजा धनं बहु<br>विनीतान्वृषभान्दृष्ट्वा सहदेवस्य चाभिभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१२.३४</sup>एवं ते न्यवसंस्तत्र प्रच्छन्नाः पुरुषर्षभाः<br>कर्माणि तस्य कुर्वाणा विराटनृपतेस्तदा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -183,8 +176,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

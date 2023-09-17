@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/49.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:५०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/51.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,100 +64,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/49.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:५०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/51.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१</sup>आस्तीक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.२</sup>सोमस्य यज्ञो वरुणस्य यज्ञः; प्रजापतेर्यज्ञ आसीत्प्रयागे<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.३</sup>शक्रस्य यज्ञः शतसंख्य उक्त;स्तथापरस्तुल्यसंख्यः शतं वै<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.४</sup>यमस्य यज्ञो हरिमेधसश्च; यथा यज्ञो रन्तिदेवस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.५</sup>गयस्य यज्ञः शशबिन्दोश्च राज्ञो; यज्ञस्तथा वैश्रवणस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.६</sup>नृगस्य यज्ञस्त्वजमीढस्य चासी;द्यथा यज्ञो दाशरथेश्च राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.७</sup>यज्ञः श्रुतो नो दिवि देवसूनो;र्युधिष्ठिरस्याजमीढस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.८</sup>कृष्णस्य यज्ञः सत्यवत्याः सुतस्य; स्वयं च कर्म प्रचकार यत्र<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.९</sup>इमे हि ते सूर्यहुताशवर्चसः; समासते वृत्रहणः क्रतुं यथा<br>नैषां ज्ञानं विद्यते ज्ञातुमद्य; दत्तं येभ्यो न प्रणश्येत्कथंचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१०</sup>ऋत्विक्समो नास्ति लोकेषु चैव; द्वैपायनेनेति विनिश्चितं मे<br>एतस्य शिष्या हि क्षितिं चरन्ति; सर्वर्त्विजः कर्मसु स्वेषु दक्षाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.११</sup>विभावसुश्चित्रभानुर्महात्मा; हिरण्यरेता विश्वभुक्कृष्णवर्त्मा<br>प्रदक्षिणावर्तशिखः प्रदीप्तो; हव्यं तवेदं हुतभुग्वष्टि देवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१२</sup>नेह त्वदन्यो विद्यते जीवलोके; समो नृपः पालयिता प्रजानाम्<br>धृत्या च ते प्रीतमनाः सदाहं; त्वं वा राजा धर्मराजो यमो वा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१३</sup>शक्रः साक्षाद्वज्रपाणिर्यथेह; त्राता लोकेऽस्मिंस्त्वं तथेह प्रजानाम्<br>मतस्त्वं नः पुरुषेन्द्रेह लोके; न च त्वदन्यो गृहपतिरस्ति यज्ञे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१४</sup>खट्वाङ्गनाभागदिलीपकल्पो; ययातिमान्धातृसमप्रभावः<br>आदित्यतेजःप्रतिमानतेजा; भीष्मो यथा भ्राजसि सुव्रतस्त्वम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१५</sup>वाल्मीकिवत्ते निभृतं सुधैर्यं; वसिष्ठवत्ते नियतश्च कोपः<br>प्रभुत्वमिन्द्रेण समं मतं मे; द्युतिश्च नारायणवद्विभाति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१६</sup>यमो यथा धर्मविनिश्चयज्ञः; कृष्णो यथा सर्वगुणोपपन्नः<br>श्रियां निवासोऽसि यथा वसूनां; निधानभूतोऽसि तथा क्रतूनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१७</sup>दम्भोद्भवेनासि समो बलेन; रामो यथा शस्त्रविदस्त्रविच्च<br>और्वत्रिताभ्यामसि तुल्यतेजा; दुष्प्रेक्षणीयोऽसि भगीरथो वा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१८</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.५०.१९</sup>एवं स्तुताः सर्व एव प्रसन्ना; राजा सदस्या ऋत्विजो हव्यवाहः<br>तेषां दृष्ट्वा भावितानीङ्गितानि; प्रोवाच राजा जनमेजयोऽथ
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१</sup>आस्तीक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.२</sup>सोमस्य यज्ञो वरुणस्य यज्ञः; प्रजापतेर्यज्ञ आसीत्प्रयागे<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.३</sup>शक्रस्य यज्ञः शतसंख्य उक्त;स्तथापरस्तुल्यसंख्यः शतं वै<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.४</sup>यमस्य यज्ञो हरिमेधसश्च; यथा यज्ञो रन्तिदेवस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.५</sup>गयस्य यज्ञः शशबिन्दोश्च राज्ञो; यज्ञस्तथा वैश्रवणस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.६</sup>नृगस्य यज्ञस्त्वजमीढस्य चासी;द्यथा यज्ञो दाशरथेश्च राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.७</sup>यज्ञः श्रुतो नो दिवि देवसूनो;र्युधिष्ठिरस्याजमीढस्य राज्ञः<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.८</sup>कृष्णस्य यज्ञः सत्यवत्याः सुतस्य; स्वयं च कर्म प्रचकार यत्र<br>तथा यज्ञोऽयं तव भारताग्र्य; पारिक्षित स्वस्ति नोऽस्तु प्रियेभ्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.९</sup>इमे हि ते सूर्यहुताशवर्चसः; समासते वृत्रहणः क्रतुं यथा<br>नैषां ज्ञानं विद्यते ज्ञातुमद्य; दत्तं येभ्यो न प्रणश्येत्कथंचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१०</sup>ऋत्विक्समो नास्ति लोकेषु चैव; द्वैपायनेनेति विनिश्चितं मे<br>एतस्य शिष्या हि क्षितिं चरन्ति; सर्वर्त्विजः कर्मसु स्वेषु दक्षाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.११</sup>विभावसुश्चित्रभानुर्महात्मा; हिरण्यरेता विश्वभुक्कृष्णवर्त्मा<br>प्रदक्षिणावर्तशिखः प्रदीप्तो; हव्यं तवेदं हुतभुग्वष्टि देवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१२</sup>नेह त्वदन्यो विद्यते जीवलोके; समो नृपः पालयिता प्रजानाम्<br>धृत्या च ते प्रीतमनाः सदाहं; त्वं वा राजा धर्मराजो यमो वा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१३</sup>शक्रः साक्षाद्वज्रपाणिर्यथेह; त्राता लोकेऽस्मिंस्त्वं तथेह प्रजानाम्<br>मतस्त्वं नः पुरुषेन्द्रेह लोके; न च त्वदन्यो गृहपतिरस्ति यज्ञे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१४</sup>खट्वाङ्गनाभागदिलीपकल्पो; ययातिमान्धातृसमप्रभावः<br>आदित्यतेजःप्रतिमानतेजा; भीष्मो यथा भ्राजसि सुव्रतस्त्वम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१५</sup>वाल्मीकिवत्ते निभृतं सुधैर्यं; वसिष्ठवत्ते नियतश्च कोपः<br>प्रभुत्वमिन्द्रेण समं मतं मे; द्युतिश्च नारायणवद्विभाति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१६</sup>यमो यथा धर्मविनिश्चयज्ञः; कृष्णो यथा सर्वगुणोपपन्नः<br>श्रियां निवासोऽसि यथा वसूनां; निधानभूतोऽसि तथा क्रतूनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१७</sup>दम्भोद्भवेनासि समो बलेन; रामो यथा शस्त्रविदस्त्रविच्च<br>और्वत्रिताभ्यामसि तुल्यतेजा; दुष्प्रेक्षणीयोऽसि भगीरथो वा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१८</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.५०.१९</sup>एवं स्तुताः सर्व एव प्रसन्ना; राजा सदस्या ऋत्विजो हव्यवाहः<br>तेषां दृष्ट्वा भावितानीङ्गितानि; प्रोवाच राजा जनमेजयोऽथ
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -138,8 +131,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

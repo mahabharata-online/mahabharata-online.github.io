@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/167.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१६८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/169.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,226 +64,191 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/167.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१६८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/169.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२</sup>धर्माः पितामहेनोक्ता राजधर्माश्रिताः शुभाः<br>धर्ममाश्रमिणां श्रेष्ठं वक्तुमर्हसि पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४</sup>सर्वत्र विहितो धर्मः स्वर्ग्यः सत्यफलं तपः<br>बहुद्वारस्य धर्मस्य नेहास्ति विफला क्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५</sup>यस्मिन्यस्मिंस्तु विनये यो यो याति विनिश्चयम्<br>स तमेवाभिजानाति नान्यं भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.६</sup>यथा यथा च पर्येति लोकतन्त्रमसारवत्<br>तथा तथा विरागोऽत्र जायते नात्र संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.७</sup>एवं व्यवसिते लोके बहुदोषे युधिष्ठिर<br>आत्ममोक्षनिमित्तं वै यतेत मतिमान्नरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.८</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.९</sup>नष्टे धने वा दारे वा पुत्रे पितरि वा मृते<br>यया बुद्ध्या नुदेच्छोकं तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१०</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.११</sup>नष्टे धने वा दारे वा पुत्रे पितरि वा मृते<br>अहो दुःखमिति ध्यायञ्शोकस्यापचितिं चरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१२</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>यथा सेनजितं विप्रः कश्चिदित्यब्रवीद्वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१३</sup>पुत्रशोकाभिसंतप्तं राजानं शोकविह्वलम्<br>विषण्णवदनं दृष्ट्वा विप्रो वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१४</sup>किं नु खल्वसि मूढस्त्वं शोच्यः किमनुशोचसि<br>यदा त्वामपि शोचन्तः शोच्या यास्यन्ति तां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१५</sup>त्वं चैवाहं च ये चान्ये त्वां राजन्पर्युपासते<br>सर्वे तत्र गमिष्यामो यत एवागता वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१६</sup>सेनजिदुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१७</sup>का बुद्धिः किं तपो विप्र कः समाधिस्तपोधन<br>किं ज्ञानं किं श्रुतं वा ते यत्प्राप्य न विषीदसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१८</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.१९</sup>पश्य भूतानि दुःखेन व्यतिषक्तानि सर्वशः<br>आत्मापि चायं न मम सर्वा वा पृथिवी मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२०</sup>यथा मम तथान्येषामिति बुद्ध्या न मे व्यथा<br>एतां बुद्धिमहं प्राप्य न प्रहृष्ये न च व्यथे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२१</sup>यथा काष्ठं च काष्ठं च समेयातां महोदधौ<br>समेत्य च व्यपेयातां तद्वद्भूतसमागमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२२</sup>एवं पुत्राश्च पौत्राश्च ज्ञातयो बान्धवास्तथा<br>तेषु स्नेहो न कर्तव्यो विप्रयोगो हि तैर्ध्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२३</sup>अदर्शनादापतितः पुनश्चादर्शनं गतः<br>न त्वासौ वेद न त्वं तं कः सन्कमनुशोचसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२४</sup>तृष्णार्तिप्रभवं दुःखं दुःखार्तिप्रभवं सुखम्<br>सुखात्संजायते दुःखमेवमेतत्पुनः पुनः<br>सुखस्यानन्तरं दुःखं दुःखस्यानन्तरं सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२५</sup>सुखात्त्वं दुःखमापन्नः पुनरापत्स्यसे सुखम्<br>न नित्यं लभते दुःखं न नित्यं लभते सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२६</sup>नालं सुखाय सुहृदो नालं दुःखाय शत्रवः<br>न च प्रज्ञालमर्थानां न सुखानामलं धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२७</sup>न बुद्धिर्धनलाभाय न जाड्यमसमृद्धये<br>लोकपर्यायवृत्तान्तं प्राज्ञो जानाति नेतरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२८</sup>बुद्धिमन्तं च मूढं च शूरं भीरुं जडं कविम्<br>दुर्बलं बलवन्तं च भागिनं भजते सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.२९</sup>धेनुर्वत्सस्य गोपस्य स्वामिनस्तस्करस्य च<br>पयः पिबति यस्तस्या धेनुस्तस्येति निश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३०</sup>ये च मूढतमा लोके ये च बुद्धेः परं गताः<br>ते नराः सुखमेधन्ते क्लिश्यत्यन्तरितो जनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३१</sup>अन्त्येषु रेमिरे धीरा न ते मध्येषु रेमिरे<br>अन्त्यप्राप्तिं सुखामाहुर्दुःखमन्तरमन्तयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३२</sup>ये तु बुद्धिसुखं प्राप्ता द्वंद्वातीता विमत्सराः<br>तान्नैवार्था न चानर्था व्यथयन्ति कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३३</sup>अथ ये बुद्धिमप्राप्ता व्यतिक्रान्ताश्च मूढताम्<br>तेऽतिवेलं प्रहृष्यन्ति संतापमुपयान्ति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३४</sup>नित्यप्रमुदिता मूढा दिवि देवगणा इव<br>अवलेपेन महता परिदृब्धा विचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३५</sup>सुखं दुःखान्तमालस्यं दुःखं दाक्ष्यं सुखोदयम्<br>भूतिश्चैव श्रिया सार्धं दक्षे वसति नालसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३६</sup>सुखं वा यदि वा दुःखं द्वेष्यं वा यदि वा प्रियम्<br>प्राप्तं प्राप्तमुपासीत हृदयेनापराजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३७</sup>शोकस्थानसहस्राणि हर्षस्थानशतानि च<br>दिवसे दिवसे मूढमाविशन्ति न पण्डितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३८</sup>बुद्धिमन्तं कृतप्रज्ञं शुश्रूषुमनसूयकम्<br>दान्तं जितेन्द्रियं चापि शोको न स्पृशते नरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.३९</sup>एतां बुद्धिं समास्थाय गुप्तचित्तश्चरेद्बुधः<br>उदयास्तमयज्ञं हि न शोकः स्प्रष्टुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४०</sup>यन्निमित्तं भवेच्छोकस्त्रासो वा दुःखमेव वा<br>आयासो वा यतोमूलस्तदेकाङ्गमपि त्यजेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४१</sup>यद्यत्त्यजति कामानां तत्सुखस्याभिपूर्यते<br>कामानुसारी पुरुषः कामाननु विनश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४२</sup>यच्च कामसुखं लोके यच्च दिव्यं महत्सुखम्<br>तृष्णाक्षयसुखस्यैते नार्हतः षोडशीं कलाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४३</sup>पूर्वदेहकृतं कर्म शुभं वा यदि वाशुभम्<br>प्राज्ञं मूढं तथा शूरं भजते यादृशं कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४४</sup>एवमेव किलैतानि प्रियाण्येवाप्रियाणि च<br>जीवेषु परिवर्तन्ते दुःखानि च सुखानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४५</sup>तदेवं बुद्धिमास्थाय सुखं जीवेद्गुणान्वितः<br>सर्वान्कामाञ्जुगुप्सेत सङ्गान्कुर्वीत पृष्ठतः<br>वृत्त एष हृदि प्रौढो मृत्युरेष मनोमयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४६</sup>यदा संहरते कामान्कूर्मोऽङ्गानीव सर्वशः<br>तदात्मज्योतिरात्मा च आत्मन्येव प्रसीदति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४७</sup>किंचिदेव ममत्वेन यदा भवति कल्पितम्<br>तदेव परितापार्थं सर्वं संपद्यते तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४८</sup>न बिभेति यदा चायं यदा चास्मान्न बिभ्यति<br>यदा नेच्छति न द्वेष्टि ब्रह्म संपद्यते तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.४९</sup>उभे सत्यानृते त्यक्त्वा शोकानन्दौ भयाभये<br>प्रियाप्रिये परित्यज्य प्रशान्तात्मा भविष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५०</sup>यदा न कुरुते धीरः सर्वभूतेषु पापकम्<br>कर्मणा मनसा वाचा ब्रह्म संपद्यते तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५१</sup>या दुस्त्यजा दुर्मतिभिर्या न जीर्यति जीर्यतः<br>योऽसौ प्राणान्तिको रोगस्तां तृष्णां त्यजतः सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५२</sup>अत्र पिङ्गलया गीता गाथाः श्रूयन्ति पार्थिव<br>यथा सा कृच्छ्रकालेऽपि लेभे धर्मं सनातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५३</sup>संकेते पिङ्गला वेश्या कान्तेनासीद्विनाकृता<br>अथ कृच्छ्रगता शान्तां बुद्धिमास्थापयत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५४</sup>पिङ्गलोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५५</sup>उन्मत्ताहमनुन्मत्तं कान्तमन्ववसं चिरम्<br>अन्तिके रमणं सन्तं नैनमध्यगमं पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५६</sup>एकस्थूणं नवद्वारमपिधास्याम्यगारकम्<br>का हि कान्तमिहायान्तमयं कान्तेति मंस्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५७</sup>अकामाः कामरूपेण धूर्ता नरकरूपिणः<br>न पुनर्वञ्चयिष्यन्ति प्रतिबुद्धास्मि जागृमि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५८</sup>अनर्थोऽपि भवत्यर्थो दैवात्पूर्वकृतेन वा<br>संबुद्धाहं निराकारा नाहमद्याजितेन्द्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.५९</sup>सुखं निराशः स्वपिति नैराश्यं परमं सुखम्<br>आशामनाशां कृत्वा हि सुखं स्वपिति पिङ्गला
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.६०</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६८.६१</sup>एतैश्चान्यैश्च विप्रस्य हेतुमद्भिः प्रभाषितैः<br>पर्यवस्थापितो राजा सेनजिन्मुमुदे सुखम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२</sup>धर्माः पितामहेनोक्ता राजधर्माश्रिताः शुभाः<br>धर्ममाश्रमिणां श्रेष्ठं वक्तुमर्हसि पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४</sup>सर्वत्र विहितो धर्मः स्वर्ग्यः सत्यफलं तपः<br>बहुद्वारस्य धर्मस्य नेहास्ति विफला क्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५</sup>यस्मिन्यस्मिंस्तु विनये यो यो याति विनिश्चयम्<br>स तमेवाभिजानाति नान्यं भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.६</sup>यथा यथा च पर्येति लोकतन्त्रमसारवत्<br>तथा तथा विरागोऽत्र जायते नात्र संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.७</sup>एवं व्यवसिते लोके बहुदोषे युधिष्ठिर<br>आत्ममोक्षनिमित्तं वै यतेत मतिमान्नरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.८</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.९</sup>नष्टे धने वा दारे वा पुत्रे पितरि वा मृते<br>यया बुद्ध्या नुदेच्छोकं तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१०</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.११</sup>नष्टे धने वा दारे वा पुत्रे पितरि वा मृते<br>अहो दुःखमिति ध्यायञ्शोकस्यापचितिं चरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१२</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>यथा सेनजितं विप्रः कश्चिदित्यब्रवीद्वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१३</sup>पुत्रशोकाभिसंतप्तं राजानं शोकविह्वलम्<br>विषण्णवदनं दृष्ट्वा विप्रो वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१४</sup>किं नु खल्वसि मूढस्त्वं शोच्यः किमनुशोचसि<br>यदा त्वामपि शोचन्तः शोच्या यास्यन्ति तां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१५</sup>त्वं चैवाहं च ये चान्ये त्वां राजन्पर्युपासते<br>सर्वे तत्र गमिष्यामो यत एवागता वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१६</sup>सेनजिदुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१७</sup>का बुद्धिः किं तपो विप्र कः समाधिस्तपोधन<br>किं ज्ञानं किं श्रुतं वा ते यत्प्राप्य न विषीदसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१८</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.१९</sup>पश्य भूतानि दुःखेन व्यतिषक्तानि सर्वशः<br>आत्मापि चायं न मम सर्वा वा पृथिवी मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२०</sup>यथा मम तथान्येषामिति बुद्ध्या न मे व्यथा<br>एतां बुद्धिमहं प्राप्य न प्रहृष्ये न च व्यथे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२१</sup>यथा काष्ठं च काष्ठं च समेयातां महोदधौ<br>समेत्य च व्यपेयातां तद्वद्भूतसमागमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२२</sup>एवं पुत्राश्च पौत्राश्च ज्ञातयो बान्धवास्तथा<br>तेषु स्नेहो न कर्तव्यो विप्रयोगो हि तैर्ध्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२३</sup>अदर्शनादापतितः पुनश्चादर्शनं गतः<br>न त्वासौ वेद न त्वं तं कः सन्कमनुशोचसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२४</sup>तृष्णार्तिप्रभवं दुःखं दुःखार्तिप्रभवं सुखम्<br>सुखात्संजायते दुःखमेवमेतत्पुनः पुनः<br>सुखस्यानन्तरं दुःखं दुःखस्यानन्तरं सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२५</sup>सुखात्त्वं दुःखमापन्नः पुनरापत्स्यसे सुखम्<br>न नित्यं लभते दुःखं न नित्यं लभते सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२६</sup>नालं सुखाय सुहृदो नालं दुःखाय शत्रवः<br>न च प्रज्ञालमर्थानां न सुखानामलं धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२७</sup>न बुद्धिर्धनलाभाय न जाड्यमसमृद्धये<br>लोकपर्यायवृत्तान्तं प्राज्ञो जानाति नेतरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२८</sup>बुद्धिमन्तं च मूढं च शूरं भीरुं जडं कविम्<br>दुर्बलं बलवन्तं च भागिनं भजते सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.२९</sup>धेनुर्वत्सस्य गोपस्य स्वामिनस्तस्करस्य च<br>पयः पिबति यस्तस्या धेनुस्तस्येति निश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३०</sup>ये च मूढतमा लोके ये च बुद्धेः परं गताः<br>ते नराः सुखमेधन्ते क्लिश्यत्यन्तरितो जनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३१</sup>अन्त्येषु रेमिरे धीरा न ते मध्येषु रेमिरे<br>अन्त्यप्राप्तिं सुखामाहुर्दुःखमन्तरमन्तयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३२</sup>ये तु बुद्धिसुखं प्राप्ता द्वंद्वातीता विमत्सराः<br>तान्नैवार्था न चानर्था व्यथयन्ति कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३३</sup>अथ ये बुद्धिमप्राप्ता व्यतिक्रान्ताश्च मूढताम्<br>तेऽतिवेलं प्रहृष्यन्ति संतापमुपयान्ति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३४</sup>नित्यप्रमुदिता मूढा दिवि देवगणा इव<br>अवलेपेन महता परिदृब्धा विचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३५</sup>सुखं दुःखान्तमालस्यं दुःखं दाक्ष्यं सुखोदयम्<br>भूतिश्चैव श्रिया सार्धं दक्षे वसति नालसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३६</sup>सुखं वा यदि वा दुःखं द्वेष्यं वा यदि वा प्रियम्<br>प्राप्तं प्राप्तमुपासीत हृदयेनापराजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३७</sup>शोकस्थानसहस्राणि हर्षस्थानशतानि च<br>दिवसे दिवसे मूढमाविशन्ति न पण्डितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३८</sup>बुद्धिमन्तं कृतप्रज्ञं शुश्रूषुमनसूयकम्<br>दान्तं जितेन्द्रियं चापि शोको न स्पृशते नरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.३९</sup>एतां बुद्धिं समास्थाय गुप्तचित्तश्चरेद्बुधः<br>उदयास्तमयज्ञं हि न शोकः स्प्रष्टुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४०</sup>यन्निमित्तं भवेच्छोकस्त्रासो वा दुःखमेव वा<br>आयासो वा यतोमूलस्तदेकाङ्गमपि त्यजेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४१</sup>यद्यत्त्यजति कामानां तत्सुखस्याभिपूर्यते<br>कामानुसारी पुरुषः कामाननु विनश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४२</sup>यच्च कामसुखं लोके यच्च दिव्यं महत्सुखम्<br>तृष्णाक्षयसुखस्यैते नार्हतः षोडशीं कलाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४३</sup>पूर्वदेहकृतं कर्म शुभं वा यदि वाशुभम्<br>प्राज्ञं मूढं तथा शूरं भजते यादृशं कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४४</sup>एवमेव किलैतानि प्रियाण्येवाप्रियाणि च<br>जीवेषु परिवर्तन्ते दुःखानि च सुखानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४५</sup>तदेवं बुद्धिमास्थाय सुखं जीवेद्गुणान्वितः<br>सर्वान्कामाञ्जुगुप्सेत सङ्गान्कुर्वीत पृष्ठतः<br>वृत्त एष हृदि प्रौढो मृत्युरेष मनोमयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४६</sup>यदा संहरते कामान्कूर्मोऽङ्गानीव सर्वशः<br>तदात्मज्योतिरात्मा च आत्मन्येव प्रसीदति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४७</sup>किंचिदेव ममत्वेन यदा भवति कल्पितम्<br>तदेव परितापार्थं सर्वं संपद्यते तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४८</sup>न बिभेति यदा चायं यदा चास्मान्न बिभ्यति<br>यदा नेच्छति न द्वेष्टि ब्रह्म संपद्यते तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.४९</sup>उभे सत्यानृते त्यक्त्वा शोकानन्दौ भयाभये<br>प्रियाप्रिये परित्यज्य प्रशान्तात्मा भविष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५०</sup>यदा न कुरुते धीरः सर्वभूतेषु पापकम्<br>कर्मणा मनसा वाचा ब्रह्म संपद्यते तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५१</sup>या दुस्त्यजा दुर्मतिभिर्या न जीर्यति जीर्यतः<br>योऽसौ प्राणान्तिको रोगस्तां तृष्णां त्यजतः सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५२</sup>अत्र पिङ्गलया गीता गाथाः श्रूयन्ति पार्थिव<br>यथा सा कृच्छ्रकालेऽपि लेभे धर्मं सनातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५३</sup>संकेते पिङ्गला वेश्या कान्तेनासीद्विनाकृता<br>अथ कृच्छ्रगता शान्तां बुद्धिमास्थापयत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५४</sup>पिङ्गलोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५५</sup>उन्मत्ताहमनुन्मत्तं कान्तमन्ववसं चिरम्<br>अन्तिके रमणं सन्तं नैनमध्यगमं पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५६</sup>एकस्थूणं नवद्वारमपिधास्याम्यगारकम्<br>का हि कान्तमिहायान्तमयं कान्तेति मंस्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५७</sup>अकामाः कामरूपेण धूर्ता नरकरूपिणः<br>न पुनर्वञ्चयिष्यन्ति प्रतिबुद्धास्मि जागृमि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५८</sup>अनर्थोऽपि भवत्यर्थो दैवात्पूर्वकृतेन वा<br>संबुद्धाहं निराकारा नाहमद्याजितेन्द्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.५९</sup>सुखं निराशः स्वपिति नैराश्यं परमं सुखम्<br>आशामनाशां कृत्वा हि सुखं स्वपिति पिङ्गला
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.६०</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६८.६१</sup>एतैश्चान्यैश्च विप्रस्य हेतुमद्भिः प्रभाषितैः<br>पर्यवस्थापितो राजा सेनजिन्मुमुदे सुखम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -264,8 +257,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/65.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:६६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/67.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,97 +64,62 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/65.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:६६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/67.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१</sup>शकुन्तलोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.२</sup>एवमुक्तस्तया शक्रः संदिदेश सदागतिम्<br>प्रातिष्ठत तदा काले मेनका वायुना सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.३</sup>अथापश्यद्वरारोहा तपसा दग्धकिल्बिषम्<br>विश्वामित्रं तपस्यन्तं मेनका भीरुराश्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.४</sup>अभिवाद्य ततः सा तं प्राक्रीडदृषिसंनिधौ<br>अपोवाह च वासोऽस्या मारुतः शशिसंनिभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.५</sup>सागच्छत्त्वरिता भूमिं वासस्तदभिलिङ्गती<br>उत्स्मयन्तीव सव्रीडं मारुतं वरवर्णिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.६</sup>गृद्धां वाससि संभ्रान्तां मेनकां मुनिसत्तमः<br>अनिर्देश्यवयोरूपामपश्यद्विवृतां तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.७</sup>तस्या रूपगुणं दृष्ट्वा स तु विप्रर्षभस्तदा<br>चकार भावं संसर्गे तया कामवशं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.८</sup>न्यमन्त्रयत चाप्येनां सा चाप्यैच्छदनिन्दिता<br>तौ तत्र सुचिरं कालं वने व्यहरतामुभौ<br>रममाणौ यथाकामं यथैकदिवसं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.९</sup>जनयामास स मुनिर्मेनकायां शकुन्तलाम्<br>प्रस्थे हिमवतो रम्ये मालिनीमभितो नदीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१०</sup>जातमुत्सृज्य तं गर्भं मेनका मालिनीमनु<br>कृतकार्या ततस्तूर्णमगच्छच्छक्रसंसदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.११</sup>तं वने विजने गर्भं सिंहव्याघ्रसमाकुले<br>दृष्ट्वा शयानं शकुनाः समन्तात्पर्यवारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१२</sup>नेमां हिंस्युर्वने बालां क्रव्यादा मांसगृद्धिनः<br>पर्यरक्षन्त तां तत्र शकुन्ता मेनकात्मजाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१३</sup>उपस्प्रष्टुं गतश्चाहमपश्यं शयितामिमाम्<br>निर्जने विपिनेऽरण्ये शकुन्तैः परिवारिताम्<br>आनयित्वा ततश्चैनां दुहितृत्वे न्ययोजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१४</sup>शरीरकृत्प्राणदाता यस्य चान्नानि भुञ्जते<br>क्रमेण ते त्रयोऽप्युक्ताः पितरो धर्मनिश्चये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१५</sup>निर्जने च वने यस्माच्छकुन्तैः परिरक्षिता<br>शकुन्तलेति नामास्याः कृतं चापि ततो मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१६</sup>एवं दुहितरं विद्धि मम सौम्य शकुन्तलाम्<br>शकुन्तला च पितरं मन्यते मामनिन्दिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१७</sup>एतदाचष्ट पृष्टः सन्मम जन्म महर्षये<br>सुतां कण्वस्य मामेवं विद्धि त्वं मनुजाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६६.१८</sup>कण्वं हि पितरं मन्ये पितरं स्वमजानती<br>इति ते कथितं राजन्यथावृत्तं श्रुतं मया
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१</sup>शकुन्तलोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.२</sup>एवमुक्तस्तया शक्रः संदिदेश सदागतिम्<br>प्रातिष्ठत तदा काले मेनका वायुना सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.३</sup>अथापश्यद्वरारोहा तपसा दग्धकिल्बिषम्<br>विश्वामित्रं तपस्यन्तं मेनका भीरुराश्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.४</sup>अभिवाद्य ततः सा तं प्राक्रीडदृषिसंनिधौ<br>अपोवाह च वासोऽस्या मारुतः शशिसंनिभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.५</sup>सागच्छत्त्वरिता भूमिं वासस्तदभिलिङ्गती<br>उत्स्मयन्तीव सव्रीडं मारुतं वरवर्णिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.६</sup>गृद्धां वाससि संभ्रान्तां मेनकां मुनिसत्तमः<br>अनिर्देश्यवयोरूपामपश्यद्विवृतां तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.७</sup>तस्या रूपगुणं दृष्ट्वा स तु विप्रर्षभस्तदा<br>चकार भावं संसर्गे तया कामवशं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.८</sup>न्यमन्त्रयत चाप्येनां सा चाप्यैच्छदनिन्दिता<br>तौ तत्र सुचिरं कालं वने व्यहरतामुभौ<br>रममाणौ यथाकामं यथैकदिवसं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.९</sup>जनयामास स मुनिर्मेनकायां शकुन्तलाम्<br>प्रस्थे हिमवतो रम्ये मालिनीमभितो नदीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१०</sup>जातमुत्सृज्य तं गर्भं मेनका मालिनीमनु<br>कृतकार्या ततस्तूर्णमगच्छच्छक्रसंसदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.११</sup>तं वने विजने गर्भं सिंहव्याघ्रसमाकुले<br>दृष्ट्वा शयानं शकुनाः समन्तात्पर्यवारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१२</sup>नेमां हिंस्युर्वने बालां क्रव्यादा मांसगृद्धिनः<br>पर्यरक्षन्त तां तत्र शकुन्ता मेनकात्मजाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१३</sup>उपस्प्रष्टुं गतश्चाहमपश्यं शयितामिमाम्<br>निर्जने विपिनेऽरण्ये शकुन्तैः परिवारिताम्<br>आनयित्वा ततश्चैनां दुहितृत्वे न्ययोजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१४</sup>शरीरकृत्प्राणदाता यस्य चान्नानि भुञ्जते<br>क्रमेण ते त्रयोऽप्युक्ताः पितरो धर्मनिश्चये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१५</sup>निर्जने च वने यस्माच्छकुन्तैः परिरक्षिता<br>शकुन्तलेति नामास्याः कृतं चापि ततो मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१६</sup>एवं दुहितरं विद्धि मम सौम्य शकुन्तलाम्<br>शकुन्तला च पितरं मन्यते मामनिन्दिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१७</sup>एतदाचष्ट पृष्टः सन्मम जन्म महर्षये<br>सुतां कण्वस्य मामेवं विद्धि त्वं मनुजाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६६.१८</sup>कण्वं हि पितरं मन्ये पितरं स्वमजानती<br>इति ते कथितं राजन्यथावृत्तं श्रुतं मया
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -135,8 +128,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

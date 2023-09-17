@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/161.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१६२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/163.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,100 +64,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/161.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१६२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/163.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१</sup>गन्धर्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.२</sup>एवमुक्त्वा ततस्तूर्णं जगामोर्ध्वमनिन्दिता<br>स तु राजा पुनर्भूमौ तत्रैव निपपात ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.३</sup>अमात्यः सानुयात्रस्तु तं ददर्श महावने<br>क्षितौ निपतितं काले शक्रध्वजमिवोच्छ्रितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.४</sup>तं हि दृष्ट्वा महेष्वासं निरश्वं पतितं क्षितौ<br>बभूव सोऽस्य सचिवः संप्रदीप्त इवाग्निना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.५</sup>त्वरया चोपसंगम्य स्नेहादागतसंभ्रमः<br>तं समुत्थापयामास नृपतिं काममोहितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.६</sup>भूतलाद्भूमिपालेशं पितेव पतितं सुतम्<br>प्रज्ञया वयसा चैव वृद्धः कीर्त्या दमेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.७</sup>अमात्यस्तं समुत्थाप्य बभूव विगतज्वरः<br>उवाच चैनं कल्याण्या वाचा मधुरयोत्थितम्<br>मा भैर्मनुजशार्दूल भद्रं चास्तु तवानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.८</sup>क्षुत्पिपासापरिश्रान्तं तर्कयामास तं नृपम्<br>पतितं पातनं संख्ये शात्रवाणां महीतले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.९</sup>वारिणाथ सुशीतेन शिरस्तस्याभ्यषेचयत्<br>अस्पृशन्मुकुटं राज्ञः पुण्डरीकसुगन्धिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१०</sup>ततः प्रत्यागतप्राणस्तद्बलं बलवान्नृपः<br>सर्वं विसर्जयामास तमेकं सचिवं विना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.११</sup>ततस्तस्याज्ञया राज्ञो विप्रतस्थे महद्बलम्<br>स तु राजा गिरिप्रस्थे तस्मिन्पुनरुपाविशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१२</sup>ततस्तस्मिन्गिरिवरे शुचिर्भूत्वा कृताञ्जलिः<br>आरिराधयिषुः सूर्यं तस्थावूर्ध्वभुजः क्षितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१३</sup>जगाम मनसा चैव वसिष्ठमृषिसत्तमम्<br>पुरोहितममित्रघ्नस्तदा संवरणो नृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१४</sup>नक्तंदिनमथैकस्थे स्थिते तस्मिञ्जनाधिपे<br>अथाजगाम विप्रर्षिस्तदा द्वादशमेऽहनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१५</sup>स विदित्वैव नृपतिं तपत्या हृतमानसम्<br>दिव्येन विधिना ज्ञात्वा भावितात्मा महानृषिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१६</sup>तथा तु नियतात्मानं स तं नृपतिसत्तमम्<br>आबभाषे स धर्मात्मा तस्यैवार्थचिकीर्षया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१७</sup>स तस्य मनुजेन्द्रस्य पश्यतो भगवानृषिः<br>ऊर्ध्वमाचक्रमे द्रष्टुं भास्करं भास्करद्युतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१८</sup>सहस्रांशुं ततो विप्रः कृताञ्जलिरुपस्थितः<br>वसिष्ठोऽहमिति प्रीत्या स चात्मानं न्यवेदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१६२.१९</sup>तमुवाच महातेजा विवस्वान्मुनिसत्तमम्<br>महर्षे स्वागतं तेऽस्तु कथयस्व यथेच्छसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१</sup>गन्धर्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.२</sup>एवमुक्त्वा ततस्तूर्णं जगामोर्ध्वमनिन्दिता<br>स तु राजा पुनर्भूमौ तत्रैव निपपात ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.३</sup>अमात्यः सानुयात्रस्तु तं ददर्श महावने<br>क्षितौ निपतितं काले शक्रध्वजमिवोच्छ्रितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.४</sup>तं हि दृष्ट्वा महेष्वासं निरश्वं पतितं क्षितौ<br>बभूव सोऽस्य सचिवः संप्रदीप्त इवाग्निना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.५</sup>त्वरया चोपसंगम्य स्नेहादागतसंभ्रमः<br>तं समुत्थापयामास नृपतिं काममोहितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.६</sup>भूतलाद्भूमिपालेशं पितेव पतितं सुतम्<br>प्रज्ञया वयसा चैव वृद्धः कीर्त्या दमेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.७</sup>अमात्यस्तं समुत्थाप्य बभूव विगतज्वरः<br>उवाच चैनं कल्याण्या वाचा मधुरयोत्थितम्<br>मा भैर्मनुजशार्दूल भद्रं चास्तु तवानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.८</sup>क्षुत्पिपासापरिश्रान्तं तर्कयामास तं नृपम्<br>पतितं पातनं संख्ये शात्रवाणां महीतले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.९</sup>वारिणाथ सुशीतेन शिरस्तस्याभ्यषेचयत्<br>अस्पृशन्मुकुटं राज्ञः पुण्डरीकसुगन्धिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१०</sup>ततः प्रत्यागतप्राणस्तद्बलं बलवान्नृपः<br>सर्वं विसर्जयामास तमेकं सचिवं विना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.११</sup>ततस्तस्याज्ञया राज्ञो विप्रतस्थे महद्बलम्<br>स तु राजा गिरिप्रस्थे तस्मिन्पुनरुपाविशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१२</sup>ततस्तस्मिन्गिरिवरे शुचिर्भूत्वा कृताञ्जलिः<br>आरिराधयिषुः सूर्यं तस्थावूर्ध्वभुजः क्षितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१३</sup>जगाम मनसा चैव वसिष्ठमृषिसत्तमम्<br>पुरोहितममित्रघ्नस्तदा संवरणो नृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१४</sup>नक्तंदिनमथैकस्थे स्थिते तस्मिञ्जनाधिपे<br>अथाजगाम विप्रर्षिस्तदा द्वादशमेऽहनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१५</sup>स विदित्वैव नृपतिं तपत्या हृतमानसम्<br>दिव्येन विधिना ज्ञात्वा भावितात्मा महानृषिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१६</sup>तथा तु नियतात्मानं स तं नृपतिसत्तमम्<br>आबभाषे स धर्मात्मा तस्यैवार्थचिकीर्षया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१७</sup>स तस्य मनुजेन्द्रस्य पश्यतो भगवानृषिः<br>ऊर्ध्वमाचक्रमे द्रष्टुं भास्करं भास्करद्युतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१८</sup>सहस्रांशुं ततो विप्रः कृताञ्जलिरुपस्थितः<br>वसिष्ठोऽहमिति प्रीत्या स चात्मानं न्यवेदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१६२.१९</sup>तमुवाच महातेजा विवस्वान्मुनिसत्तमम्<br>महर्षे स्वागतं तेऽस्तु कथयस्व यथेच्छसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -138,8 +131,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

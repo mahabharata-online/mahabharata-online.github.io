@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/149.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१५०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/151.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,139 +64,104 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/149.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१५०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/151.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२</sup>करिष्य इति भीमेन प्रतिज्ञाते तु भारत<br>आजग्मुस्ते ततः सर्वे भैक्षमादाय पाण्डवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.३</sup>आकारेणैव तं ज्ञात्वा पाण्डुपुत्रो युधिष्ठिरः<br>रहः समुपविश्यैकस्ततः पप्रच्छ मातरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.४</sup>किं चिकीर्षत्ययं कर्म भीमो भीमपराक्रमः<br>भवत्यनुमते कच्चिदयं कर्तुमिहेच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.५</sup>कुन्त्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.६</sup>ममैव वचनादेष करिष्यति परंतपः<br>ब्राह्मणार्थे महत्कृत्यं मोष्काय नगरस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.७</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.८</sup>किमिदं साहसं तीक्ष्णं भवत्या दुष्कृतं कृतम्<br>परित्यागं हि पुत्रस्य न प्रशंसन्ति साधवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.९</sup>कथं परसुतस्यार्थे स्वसुतं त्यक्तुमिच्छसि<br>लोकवृत्तिविरुद्धं वै पुत्रत्यागात्कृतं त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१०</sup>यस्य बाहू समाश्रित्य सुखं सर्वे स्वपामहे<br>राज्यं चापहृतं क्षुद्रैराजिहीर्षामहे पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.११</sup>यस्य दुर्योधनो वीर्यं चिन्तयन्नमितौजसः<br>न शेते वसतीः सर्वा दुःखाच्छकुनिना सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१२</sup>यस्य वीरस्य वीर्येण मुक्ता जतुगृहाद्वयम्<br>अन्येभ्यश्चैव पापेभ्यो निहतश्च पुरोचनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१३</sup>यस्य वीर्यं समाश्रित्य वसुपूर्णां वसुंधराम्<br>इमां मन्यामहे प्राप्तां निहत्य धृतराष्ट्रजान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१४</sup>तस्य व्यवसितस्त्यागो बुद्धिमास्थाय कां त्वया<br>कच्चिन्न दुःखैर्बुद्धिस्ते विप्लुता गतचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१५</sup>कुन्त्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१६</sup>युधिष्ठिर न संतापः कार्यः प्रति वृकोदरम्<br>न चायं बुद्धिदौर्बल्याद्व्यवसायः कृतो मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१७</sup>इह विप्रस्य भवने वयं पुत्र सुखोषिताः<br>तस्य प्रतिक्रिया तात मयेयं प्रसमीक्षिता<br>एतावानेव पुरुषः कृतं यस्मिन्न नश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१८</sup>दृष्ट्वा भीमस्य विक्रान्तं तदा जतुगृहे महत्<br>हिडिम्बस्य वधाच्चैव विश्वासो मे वृकोदरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.१९</sup>बाह्वोर्बलं हि भीमस्य नागायुतसमं महत्<br>येन यूयं गजप्रख्या निर्व्यूढा वारणावतात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२०</sup>वृकोदरबलो नान्यो न भूतो न भविष्यति<br>योऽभ्युदीयाद्युधि श्रेष्ठमपि वज्रधरं स्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२१</sup>जातमात्रः पुरा चैष ममाङ्कात्पतितो गिरौ<br>शरीरगौरवात्तस्य शिला गात्रैर्विचूर्णिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२२</sup>तदहं प्रज्ञया स्मृत्वा बलं भीमस्य पाण्डव<br>प्रतीकारं च विप्रस्य ततः कृतवती मतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२३</sup>नेदं लोभान्न चाज्ञानान्न च मोहाद्विनिश्चितम्<br>बुद्धिपूर्वं तु धर्मस्य व्यवसायः कृतो मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२४</sup>अर्थौ द्वावपि निष्पन्नौ युधिष्ठिर भविष्यतः<br>प्रतीकारश्च वासस्य धर्मश्च चरितो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२५</sup>यो ब्राह्मणस्य साहाय्यं कुर्यादर्थेषु कर्हिचित्<br>क्षत्रियः स शुभाँल्लोकान्प्राप्नुयादिति मे श्रुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२६</sup>क्षत्रियः क्षत्रियस्यैव कुर्वाणो वधमोक्षणम्<br>विपुलां कीर्तिमाप्नोति लोकेऽस्मिंश्च परत्र च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२७</sup>वैश्यस्यैव तु साहाय्यं कुर्वाणः क्षत्रियो युधि<br>स सर्वेष्वपि लोकेषु प्रजा रञ्जयते ध्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२८</sup>शूद्रं तु मोक्षयन्राजा शरणार्थिनमागतम्<br>प्राप्नोतीह कुले जन्म सद्रव्ये राजसत्कृते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.२९</sup>एवं स भगवान्व्यासः पुरा कौरवनन्दन<br>प्रोवाच सुतरां प्राज्ञस्तस्मादेतच्चिकीर्षितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.३०</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.३१</sup>उपपन्नमिदं मातस्त्वया यद्बुद्धिपूर्वकम्<br>आर्तस्य ब्राह्मणस्यैवमनुक्रोशादिदं कृतम्<br>ध्रुवमेष्यति भीमोऽयं निहत्य पुरुषादकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१५०.३२</sup>यथा त्विदं न विन्देयुर्नरा नगरवासिनः<br>तथायं ब्राह्मणो वाच्यः परिग्राह्यश्च यत्नतः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२</sup>करिष्य इति भीमेन प्रतिज्ञाते तु भारत<br>आजग्मुस्ते ततः सर्वे भैक्षमादाय पाण्डवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.३</sup>आकारेणैव तं ज्ञात्वा पाण्डुपुत्रो युधिष्ठिरः<br>रहः समुपविश्यैकस्ततः पप्रच्छ मातरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.४</sup>किं चिकीर्षत्ययं कर्म भीमो भीमपराक्रमः<br>भवत्यनुमते कच्चिदयं कर्तुमिहेच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.५</sup>कुन्त्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.६</sup>ममैव वचनादेष करिष्यति परंतपः<br>ब्राह्मणार्थे महत्कृत्यं मोष्काय नगरस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.७</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.८</sup>किमिदं साहसं तीक्ष्णं भवत्या दुष्कृतं कृतम्<br>परित्यागं हि पुत्रस्य न प्रशंसन्ति साधवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.९</sup>कथं परसुतस्यार्थे स्वसुतं त्यक्तुमिच्छसि<br>लोकवृत्तिविरुद्धं वै पुत्रत्यागात्कृतं त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१०</sup>यस्य बाहू समाश्रित्य सुखं सर्वे स्वपामहे<br>राज्यं चापहृतं क्षुद्रैराजिहीर्षामहे पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.११</sup>यस्य दुर्योधनो वीर्यं चिन्तयन्नमितौजसः<br>न शेते वसतीः सर्वा दुःखाच्छकुनिना सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१२</sup>यस्य वीरस्य वीर्येण मुक्ता जतुगृहाद्वयम्<br>अन्येभ्यश्चैव पापेभ्यो निहतश्च पुरोचनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१३</sup>यस्य वीर्यं समाश्रित्य वसुपूर्णां वसुंधराम्<br>इमां मन्यामहे प्राप्तां निहत्य धृतराष्ट्रजान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१४</sup>तस्य व्यवसितस्त्यागो बुद्धिमास्थाय कां त्वया<br>कच्चिन्न दुःखैर्बुद्धिस्ते विप्लुता गतचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१५</sup>कुन्त्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१६</sup>युधिष्ठिर न संतापः कार्यः प्रति वृकोदरम्<br>न चायं बुद्धिदौर्बल्याद्व्यवसायः कृतो मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१७</sup>इह विप्रस्य भवने वयं पुत्र सुखोषिताः<br>तस्य प्रतिक्रिया तात मयेयं प्रसमीक्षिता<br>एतावानेव पुरुषः कृतं यस्मिन्न नश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१८</sup>दृष्ट्वा भीमस्य विक्रान्तं तदा जतुगृहे महत्<br>हिडिम्बस्य वधाच्चैव विश्वासो मे वृकोदरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.१९</sup>बाह्वोर्बलं हि भीमस्य नागायुतसमं महत्<br>येन यूयं गजप्रख्या निर्व्यूढा वारणावतात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२०</sup>वृकोदरबलो नान्यो न भूतो न भविष्यति<br>योऽभ्युदीयाद्युधि श्रेष्ठमपि वज्रधरं स्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२१</sup>जातमात्रः पुरा चैष ममाङ्कात्पतितो गिरौ<br>शरीरगौरवात्तस्य शिला गात्रैर्विचूर्णिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२२</sup>तदहं प्रज्ञया स्मृत्वा बलं भीमस्य पाण्डव<br>प्रतीकारं च विप्रस्य ततः कृतवती मतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२३</sup>नेदं लोभान्न चाज्ञानान्न च मोहाद्विनिश्चितम्<br>बुद्धिपूर्वं तु धर्मस्य व्यवसायः कृतो मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२४</sup>अर्थौ द्वावपि निष्पन्नौ युधिष्ठिर भविष्यतः<br>प्रतीकारश्च वासस्य धर्मश्च चरितो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२५</sup>यो ब्राह्मणस्य साहाय्यं कुर्यादर्थेषु कर्हिचित्<br>क्षत्रियः स शुभाँल्लोकान्प्राप्नुयादिति मे श्रुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२६</sup>क्षत्रियः क्षत्रियस्यैव कुर्वाणो वधमोक्षणम्<br>विपुलां कीर्तिमाप्नोति लोकेऽस्मिंश्च परत्र च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२७</sup>वैश्यस्यैव तु साहाय्यं कुर्वाणः क्षत्रियो युधि<br>स सर्वेष्वपि लोकेषु प्रजा रञ्जयते ध्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२८</sup>शूद्रं तु मोक्षयन्राजा शरणार्थिनमागतम्<br>प्राप्नोतीह कुले जन्म सद्रव्ये राजसत्कृते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.२९</sup>एवं स भगवान्व्यासः पुरा कौरवनन्दन<br>प्रोवाच सुतरां प्राज्ञस्तस्मादेतच्चिकीर्षितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.३०</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.३१</sup>उपपन्नमिदं मातस्त्वया यद्बुद्धिपूर्वकम्<br>आर्तस्य ब्राह्मणस्यैवमनुक्रोशादिदं कृतम्<br>ध्रुवमेष्यति भीमोऽयं निहत्य पुरुषादकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१५०.३२</sup>यथा त्विदं न विन्देयुर्नरा नगरवासिनः<br>तथायं ब्राह्मणो वाच्यः परिग्राह्यश्च यत्नतः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -177,8 +170,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

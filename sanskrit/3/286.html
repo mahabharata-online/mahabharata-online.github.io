@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/285.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२८६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/287.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/285.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२८६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/287.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.२</sup>भगवन्तमहं भक्तो यथा मां वेत्थ गोपते<br>तथा परमतिग्मांशो नान्यं देवं कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.३</sup>न मे दारा न मे पुत्रा न चात्मा सुहृदो न च<br>तथेष्टा वै सदा भक्त्या यथा त्वं गोपते मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.४</sup>इष्टानां च महात्मानो भक्तानां च न संशयः<br>कुर्वन्ति भक्तिमिष्टां च जानीषे त्वं च भास्कर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.५</sup>इष्टो भक्तश्च मे कर्णो न चान्यद्दैवतं दिवि<br>जानीत इति वै कृत्वा भगवानाह मद्धितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.६</sup>भूयश्च शिरसा याचे प्रसाद्य च पुनः पुनः<br>इति ब्रवीमि तिग्मांशो त्वं तु मे क्षन्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.७</sup>बिभेमि न तथा मृत्योर्यथा बिभ्येऽनृतादहम्<br>विशेषेण द्विजातीनां सर्वेषां सर्वदा सताम्<br>प्रदाने जीवितस्यापि न मेऽत्रास्ति विचारणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.८</sup>यच्च मामात्थ देव त्वं पाण्डवं फल्गुनं प्रति<br>व्येतु संतापजं दुःखं तव भास्कर मानसम्<br>अर्जुनं प्रति मां चैव विजेष्यामि रणेऽर्जुनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.९</sup>तवापि विदितं देव ममाप्यस्त्रबलं महत्<br>जामदग्न्यादुपात्तं यत्तथा द्रोणान्महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१०</sup>इदं त्वमनुजानीहि सुरश्रेष्ठ व्रतं मम<br>भिक्षते वज्रिणे दद्यामपि जीवितमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.११</sup>सूर्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१२</sup>यदि तात ददास्येते वज्रिणे कुण्डले शुभे<br>त्वमप्येनमथो ब्रूया विजयार्थं महाबल
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१३</sup>नियमेन प्रदद्यास्त्वं कुण्डले वै शतक्रतोः<br>अवध्यो ह्यसि भूतानां कुण्डलाभ्यां समन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१४</sup>अर्जुनेन विनाशं हि तव दानवसूदनः<br>प्रार्थयानो रणे वत्स कुण्डले ते जिहीर्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१५</sup>स त्वमप्येनमाराध्य सूनृताभिः पुनः पुनः<br>अभ्यर्थयेथा देवेशममोघार्थं पुरंदरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१६</sup>अमोघां देहि मे शक्तिममित्रविनिबर्हिणीम्<br>दास्यामि ते सहस्राक्ष कुण्डले वर्म चोत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१७</sup>इत्येवं नियमेन त्वं दद्याः शक्राय कुण्डले<br>तया त्वं कर्ण संग्रामे हनिष्यसि रणे रिपून्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१८</sup>नाहत्वा हि महाबाहो शत्रूनेति करं पुनः<br>सा शक्तिर्देवराजस्य शतशोऽथ सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.१९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.२०</sup>एवमुक्त्वा सहस्रांशुः सहसान्तरधीयत<br>ततः सूर्याय जप्यान्ते कर्णः स्वप्नं न्यवेदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.२१</sup>यथादृष्टं यथातत्त्वं यथोक्तमुभयोर्निशि<br>तत्सर्वमानुपूर्व्येण शशंसास्मै वृषस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.२२</sup>तच्छ्रुत्वा भगवान्देवो भानुः स्वर्भानुसूदनः<br>उवाच तं तथेत्येव कर्णं सूर्यः स्मयन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२८६.२३</sup>ततस्तत्त्वमिति ज्ञात्वा राधेयः परवीरहा<br>शक्तिमेवाभिकाङ्क्षन्वै वासवं प्रत्यपालयत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.२</sup>भगवन्तमहं भक्तो यथा मां वेत्थ गोपते<br>तथा परमतिग्मांशो नान्यं देवं कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.३</sup>न मे दारा न मे पुत्रा न चात्मा सुहृदो न च<br>तथेष्टा वै सदा भक्त्या यथा त्वं गोपते मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.४</sup>इष्टानां च महात्मानो भक्तानां च न संशयः<br>कुर्वन्ति भक्तिमिष्टां च जानीषे त्वं च भास्कर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.५</sup>इष्टो भक्तश्च मे कर्णो न चान्यद्दैवतं दिवि<br>जानीत इति वै कृत्वा भगवानाह मद्धितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.६</sup>भूयश्च शिरसा याचे प्रसाद्य च पुनः पुनः<br>इति ब्रवीमि तिग्मांशो त्वं तु मे क्षन्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.७</sup>बिभेमि न तथा मृत्योर्यथा बिभ्येऽनृतादहम्<br>विशेषेण द्विजातीनां सर्वेषां सर्वदा सताम्<br>प्रदाने जीवितस्यापि न मेऽत्रास्ति विचारणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.८</sup>यच्च मामात्थ देव त्वं पाण्डवं फल्गुनं प्रति<br>व्येतु संतापजं दुःखं तव भास्कर मानसम्<br>अर्जुनं प्रति मां चैव विजेष्यामि रणेऽर्जुनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.९</sup>तवापि विदितं देव ममाप्यस्त्रबलं महत्<br>जामदग्न्यादुपात्तं यत्तथा द्रोणान्महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१०</sup>इदं त्वमनुजानीहि सुरश्रेष्ठ व्रतं मम<br>भिक्षते वज्रिणे दद्यामपि जीवितमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.११</sup>सूर्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१२</sup>यदि तात ददास्येते वज्रिणे कुण्डले शुभे<br>त्वमप्येनमथो ब्रूया विजयार्थं महाबल
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१३</sup>नियमेन प्रदद्यास्त्वं कुण्डले वै शतक्रतोः<br>अवध्यो ह्यसि भूतानां कुण्डलाभ्यां समन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१४</sup>अर्जुनेन विनाशं हि तव दानवसूदनः<br>प्रार्थयानो रणे वत्स कुण्डले ते जिहीर्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१५</sup>स त्वमप्येनमाराध्य सूनृताभिः पुनः पुनः<br>अभ्यर्थयेथा देवेशममोघार्थं पुरंदरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१६</sup>अमोघां देहि मे शक्तिममित्रविनिबर्हिणीम्<br>दास्यामि ते सहस्राक्ष कुण्डले वर्म चोत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१७</sup>इत्येवं नियमेन त्वं दद्याः शक्राय कुण्डले<br>तया त्वं कर्ण संग्रामे हनिष्यसि रणे रिपून्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१८</sup>नाहत्वा हि महाबाहो शत्रूनेति करं पुनः<br>सा शक्तिर्देवराजस्य शतशोऽथ सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.१९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.२०</sup>एवमुक्त्वा सहस्रांशुः सहसान्तरधीयत<br>ततः सूर्याय जप्यान्ते कर्णः स्वप्नं न्यवेदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.२१</sup>यथादृष्टं यथातत्त्वं यथोक्तमुभयोर्निशि<br>तत्सर्वमानुपूर्व्येण शशंसास्मै वृषस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.२२</sup>तच्छ्रुत्वा भगवान्देवो भानुः स्वर्भानुसूदनः<br>उवाच तं तथेत्येव कर्णं सूर्यः स्मयन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२८६.२३</sup>ततस्तत्त्वमिति ज्ञात्वा राधेयः परवीरहा<br>शक्तिमेवाभिकाङ्क्षन्वै वासवं प्रत्यपालयत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

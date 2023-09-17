@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/91.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:९२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/93.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/91.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:९२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/93.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२</sup>न वै निर्गुणमात्मानं मन्ये देवर्षिसत्तम<br>तथास्मि दुःखसंतप्तो यथा नान्यो महीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.३</sup>परांश्च निर्गुणान्मन्ये न च धर्मरतानपि<br>ते च लोमश लोकेऽस्मिन्नृध्यन्ते केन केतुना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.४</sup>लोमश उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.५</sup>नात्र दुःखं त्वया राजन्कार्यं पार्थ कथंचन<br>यदधर्मेण वर्धेरन्नधर्मरुचयो जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.६</sup>वर्धत्यधर्मेण नरस्ततो भद्राणि पश्यति<br>ततः सपत्नाञ्जयति समूलस्तु विनश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.७</sup>मया हि दृष्टा दैतेया दानवाश्च महीपते<br>वर्धमाना ह्यधर्मेण क्षयं चोपगताः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.८</sup>पुरा देवयुगे चैव दृष्टं सर्वं मया विभो<br>अरोचयन्सुरा धर्मं धर्मं तत्यजिरेऽसुराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.९</sup>तीर्थानि देवा विविशुर्नाविशन्भारतासुराः<br>तानधर्मकृतो दर्पः पूर्वमेव समाविशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१०</sup>दर्पान्मानः समभवन्मानात्क्रोधो व्यजायत<br>क्रोधादह्रीस्ततोऽलज्जा वृत्तं तेषां ततोऽनशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.११</sup>तानलज्जान्गतह्रीकान्हीनवृत्तान्वृथाव्रतान्<br>क्षमा लक्ष्मीश्च धर्मश्च नचिरात्प्रजहुस्ततः<br>लक्ष्मीस्तु देवानगमदलक्ष्मीरसुरान्नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१२</sup>तानलक्ष्मीसमाविष्टान्दर्पोपहतचेतसः<br>दैतेयान्दानवांश्चैव कलिरप्याविशत्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१३</sup>तानलक्ष्मीसमाविष्टान्दानवान्कलिना तथा<br>दर्पाभिभूतान्कौन्तेय क्रियाहीनानचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१४</sup>मानाभिभूतानचिराद्विनाशः प्रत्यपद्यत<br>निर्यशस्यास्ततो दैत्याः कृत्स्नशो विलयं गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१५</sup>देवास्तु सागरांश्चैव सरितश्च सरांसि च<br>अभ्यगच्छन्धर्मशीलाः पुण्यान्यायतनानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१६</sup>तपोभिः क्रतुभिर्दानैराशीर्वादैश्च पाण्डव<br>प्रजहुः सर्वपापानि श्रेयश्च प्रतिपेदिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१७</sup>एवं हि दानवन्तश्च क्रियावन्तश्च सर्वशः<br>तीर्थान्यगच्छन्विबुधास्तेनापुर्भूतिमुत्तमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१८</sup>तथा त्वमपि राजेन्द्र स्नात्वा तीर्थेषु सानुजः<br>पुनर्वेत्स्यसि तां लक्ष्मीमेष पन्थाः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.१९</sup>यथैव हि नृगो राजा शिबिरौशीनरो यथा<br>भगीरथो वसुमना गयः पूरुः पुरूरवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२०</sup>चरमाणास्तपो नित्यं स्पर्शनादम्भसश्च ते<br>तीर्थाभिगमनात्पूता दर्शनाच्च महात्मनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२१</sup>अलभन्त यशः पुण्यं धनानि च विशां पते<br>तथा त्वमपि राजेन्द्र लब्धासि विपुलां श्रियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२२</sup>यथा चेक्ष्वाकुरचरत्सपुत्रजनबान्धवः<br>मुचुकुन्दोऽथ मान्धाता मरुत्तश्च महीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२३</sup>कीर्तिं पुण्यामविन्दन्त यथा देवास्तपोबलात्<br>देवर्षयश्च कार्त्स्न्येन तथा त्वमपि वेत्स्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.९२.२४</sup>धार्तराष्ट्रास्तु दर्पेण मोहेन च वशीकृताः<br>नचिराद्विनशिष्यन्ति दैत्या इव न संशयः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२</sup>न वै निर्गुणमात्मानं मन्ये देवर्षिसत्तम<br>तथास्मि दुःखसंतप्तो यथा नान्यो महीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.३</sup>परांश्च निर्गुणान्मन्ये न च धर्मरतानपि<br>ते च लोमश लोकेऽस्मिन्नृध्यन्ते केन केतुना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.४</sup>लोमश उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.५</sup>नात्र दुःखं त्वया राजन्कार्यं पार्थ कथंचन<br>यदधर्मेण वर्धेरन्नधर्मरुचयो जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.६</sup>वर्धत्यधर्मेण नरस्ततो भद्राणि पश्यति<br>ततः सपत्नाञ्जयति समूलस्तु विनश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.७</sup>मया हि दृष्टा दैतेया दानवाश्च महीपते<br>वर्धमाना ह्यधर्मेण क्षयं चोपगताः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.८</sup>पुरा देवयुगे चैव दृष्टं सर्वं मया विभो<br>अरोचयन्सुरा धर्मं धर्मं तत्यजिरेऽसुराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.९</sup>तीर्थानि देवा विविशुर्नाविशन्भारतासुराः<br>तानधर्मकृतो दर्पः पूर्वमेव समाविशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१०</sup>दर्पान्मानः समभवन्मानात्क्रोधो व्यजायत<br>क्रोधादह्रीस्ततोऽलज्जा वृत्तं तेषां ततोऽनशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.११</sup>तानलज्जान्गतह्रीकान्हीनवृत्तान्वृथाव्रतान्<br>क्षमा लक्ष्मीश्च धर्मश्च नचिरात्प्रजहुस्ततः<br>लक्ष्मीस्तु देवानगमदलक्ष्मीरसुरान्नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१२</sup>तानलक्ष्मीसमाविष्टान्दर्पोपहतचेतसः<br>दैतेयान्दानवांश्चैव कलिरप्याविशत्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१३</sup>तानलक्ष्मीसमाविष्टान्दानवान्कलिना तथा<br>दर्पाभिभूतान्कौन्तेय क्रियाहीनानचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१४</sup>मानाभिभूतानचिराद्विनाशः प्रत्यपद्यत<br>निर्यशस्यास्ततो दैत्याः कृत्स्नशो विलयं गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१५</sup>देवास्तु सागरांश्चैव सरितश्च सरांसि च<br>अभ्यगच्छन्धर्मशीलाः पुण्यान्यायतनानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१६</sup>तपोभिः क्रतुभिर्दानैराशीर्वादैश्च पाण्डव<br>प्रजहुः सर्वपापानि श्रेयश्च प्रतिपेदिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१७</sup>एवं हि दानवन्तश्च क्रियावन्तश्च सर्वशः<br>तीर्थान्यगच्छन्विबुधास्तेनापुर्भूतिमुत्तमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१८</sup>तथा त्वमपि राजेन्द्र स्नात्वा तीर्थेषु सानुजः<br>पुनर्वेत्स्यसि तां लक्ष्मीमेष पन्थाः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.१९</sup>यथैव हि नृगो राजा शिबिरौशीनरो यथा<br>भगीरथो वसुमना गयः पूरुः पुरूरवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२०</sup>चरमाणास्तपो नित्यं स्पर्शनादम्भसश्च ते<br>तीर्थाभिगमनात्पूता दर्शनाच्च महात्मनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२१</sup>अलभन्त यशः पुण्यं धनानि च विशां पते<br>तथा त्वमपि राजेन्द्र लब्धासि विपुलां श्रियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२२</sup>यथा चेक्ष्वाकुरचरत्सपुत्रजनबान्धवः<br>मुचुकुन्दोऽथ मान्धाता मरुत्तश्च महीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२३</sup>कीर्तिं पुण्यामविन्दन्त यथा देवास्तपोबलात्<br>देवर्षयश्च कार्त्स्न्येन तथा त्वमपि वेत्स्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.९२.२४</sup>धार्तराष्ट्रास्तु दर्पेण मोहेन च वशीकृताः<br>नचिराद्विनशिष्यन्ति दैत्या इव न संशयः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

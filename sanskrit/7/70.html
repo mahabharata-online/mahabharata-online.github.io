@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/69.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:७०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/71.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,199 +64,164 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/69.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:७०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/71.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२</sup>प्रविष्टयोर्महाराज पार्थवार्ष्णेययोस्तदा<br>दुर्योधने प्रयाते च पृष्ठतः पुरुषर्षभे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३</sup>जवेनाभ्यद्रवन्द्रोणं महता निस्वनेन च<br>पाण्डवाः सोमकैः सार्धं ततो युद्धमवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४</sup>तद्युद्धमभवद्घोरं तुमुलं लोमहर्षणम्<br>पाञ्चालानां कुरूणां च व्यूहस्य पुरतोऽद्भुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.५</sup>राजन्कदाचिन्नास्माभिर्दृष्टं तादृङ्न च श्रुतम्<br>यादृङ्मध्यगते सूर्ये युद्धमासीद्विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.६</sup>धृष्टद्युम्नमुखाः पार्था व्यूढानीकाः प्रहारिणः<br>द्रोणस्य सैन्यं ते सर्वे शरवर्षैरवाकिरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.७</sup>वयं द्रोणं पुरस्कृत्य सर्वशस्त्रभृतां वरम्<br>पार्षतप्रमुखान्पार्थानभ्यवर्षाम सायकैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.८</sup>महामेघाविवोदीर्णौ मिश्रवातौ हिमात्यये<br>सेनाग्रे विप्रकाशेते रुचिरे रथभूषिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.९</sup>समेत्य तु महासेने चक्रतुर्वेगमुत्तमम्<br>जाह्नवीयमुने नद्यौ प्रावृषीवोल्बणोदके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१०</sup>नानाशस्त्रपुरोवातो द्विपाश्वरथसंवृतः<br>गदाविद्युन्महारौद्रः संग्रामजलदो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.११</sup>भारद्वाजानिलोद्धूतः शरधारासहस्रवान्<br>अभ्यवर्षन्महारौद्रः पाण्डुसेनाग्निमुद्धतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१२</sup>समुद्रमिव घर्मान्ते विवान्घोरो महानिलः<br>व्यक्षोभयदनीकानि पाण्डवानां द्विजोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१३</sup>तेऽपि सर्वप्रयत्नेन द्रोणमेव समाद्रवन्<br>बिभित्सन्तो महासेतुं वार्योघाः प्रबला इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१४</sup>वारयामास तान्द्रोणो जलौघानचलो यथा<br>पाण्डवान्समरे क्रुद्धान्पाञ्चालांश्च सकेकयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१५</sup>अथापरेऽपि राजानः परावृत्य समन्ततः<br>महाबला रणे शूराः पाञ्चालानन्ववारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१६</sup>ततो रणे नरव्याघ्रः पार्षतः पाण्डवैः सह<br>संजघानासकृद्द्रोणं बिभित्सुररिवाहिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१७</sup>यथैव शरवर्षाणि द्रोणो वर्षति पार्षते<br>तथैव शरवर्षाणि धृष्टद्युम्नोऽभ्यवर्षत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१८</sup>सनिस्त्रिंशपुरोवातः शक्तिप्रासर्ष्टिसंवृतः<br>ज्याविद्युच्चापसंह्रादो धृष्टद्युम्नबलाहकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.१९</sup>शरधाराश्मवर्षाणि व्यसृजत्सर्वतोदिशम्<br>निघ्नन्रथवराश्वौघांश्छादयामास वाहिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२०</sup>यं यमार्छच्छरैर्द्रोणः पाण्डवानां रथव्रजम्<br>ततस्ततः शरैर्द्रोणमपाकर्षत पार्षतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२१</sup>तथा तु यतमानस्य द्रोणस्य युधि भारत<br>धृष्टद्युम्नं समासाद्य त्रिधा सैन्यमभिद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२२</sup>भोजमेके न्यवर्तन्त जलसंधमथापरे<br>पाण्डवैर्हन्यमानाश्च द्रोणमेवापरेऽव्रजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२३</sup>सैन्यान्यघटयद्यानि द्रोणस्तु रथिनां वरः<br>व्यधमच्चापि तान्यस्य धृष्टद्युम्नो महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२४</sup>धार्तराष्ट्रास्त्रिधाभूता वध्यन्ते पाण्डुसृञ्जयैः<br>अगोपाः पशवोऽरण्ये बहुभिः श्वापदैरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२५</sup>कालः संग्रसते योधान्धृष्टद्युम्नेन मोहितान्<br>संग्रामे तुमुले तस्मिन्निति संमेनिरे जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२६</sup>कुनृपस्य यथा राष्ट्रं दुर्भिक्षव्याधितस्करैः<br>द्राव्यते तद्वदापन्ना पाण्डवैस्तव वाहिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२७</sup>अर्करश्मिप्रभिन्नेषु शस्त्रेषु कवचेषु च<br>चक्षूंषि प्रतिहन्यन्ते सैन्येन रजसा तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२८</sup>त्रिधाभूतेषु सैन्येषु वध्यमानेषु पाण्डवैः<br>अमर्षितस्ततो द्रोणः पाञ्चालान्व्यधमच्छरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.२९</sup>मृद्नतस्तान्यनीकानि निघ्नतश्चापि सायकैः<br>बभूव रूपं द्रोणस्य कालाग्नेरिव दीप्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३०</sup>रथं नागं हयं चापि पत्तिनश्च विशां पते<br>एकैकेनेषुणा संख्ये निर्बिभेद महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३१</sup>पाण्डवानां तु सैन्येषु नास्ति कश्चित्स भारत<br>दधार यो रणे बाणान्द्रोणचापच्युताञ्शितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३२</sup>तत्पच्यमानमर्केण द्रोणसायकतापितम्<br>बभ्राम पार्षतं सैन्यं तत्र तत्रैव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३३</sup>तथैव पार्षतेनापि काल्यमानं बलं तव<br>अभवत्सर्वतो दीप्तं शुष्कं वनमिवाग्निना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३४</sup>वध्यमानेषु सैन्येषु द्रोणपार्षतसायकैः<br>त्यक्त्वा प्राणान्परं शक्त्या प्रायुध्यन्त स्म सैनिकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३५</sup>तावकानां परेषां च युध्यतां भरतर्षभ<br>नासीत्कश्चिन्महाराज योऽत्याक्षीत्संयुगं भयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३६</sup>भीमसेनं तु कौन्तेयं सोदर्याः पर्यवारयन्<br>विविंशतिश्चित्रसेनो विकर्णश्च महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३७</sup>विन्दानुविन्दावावन्त्यौ क्षेमधूर्तिश्च वीर्यवान्<br>त्रयाणां तव पुत्राणां त्रय एवानुयायिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३८</sup>बाह्लीकराजस्तेजस्वी कुलपुत्रो महारथः<br>सहसेनः सहामात्यो द्रौपदेयानवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.३९</sup>शैब्यो गोवासनो राजा योधैर्दशशतावरैः<br>काश्यस्याभिभुवः पुत्रं पराक्रान्तमवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४०</sup>अजातशत्रुं कौन्तेयं ज्वलन्तमिव पावकम्<br>मद्राणामीश्वरः शल्यो राजा राजानमावृणोत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४१</sup>दुःशासनस्त्ववस्थाप्य स्वमनीकममर्षणः<br>सात्यकिं प्रययौ क्रुद्धः शूरो रथवरं युधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४२</sup>स्वकेनाहमनीकेन संनद्धकवचावृतः<br>चतुःशतैर्महेष्वासैश्चेकितानमवारयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४३</sup>शकुनिस्तु सहानीको माद्रीपुत्रमवारयत्<br>गान्धारकैः सप्तशतैश्चापशक्तिशरासिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४४</sup>विन्दानुविन्दावावन्त्यौ विराटं मत्स्यमार्छताम्<br>प्राणांस्त्यक्त्वा महेष्वासौ मित्रार्थेऽभ्युद्यतौ युधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४५</sup>शिखण्डिनं याज्ञसेनिं रुन्धानमपराजितम्<br>बाह्लिकः प्रतिसंयत्तः पराक्रान्तमवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४६</sup>धृष्टद्युम्नं च पाञ्चाल्यं क्रूरैः सार्धं प्रभद्रकैः<br>आवन्त्यः सह सौवीरैः क्रुद्धरूपमवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४७</sup>घटोत्कचं तथा शूरं राक्षसं क्रूरयोधिनम्<br>अलायुधोऽद्रवत्तूर्णं क्रुद्धमायान्तमाहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४८</sup>अलम्बुसं राक्षसेन्द्रं कुन्तिभोजो महारथः<br>सैन्येन महता युक्तः क्रुद्धरूपमवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.४९</sup>सैन्धवः पृष्ठतस्त्वासीत्सर्वसैन्यस्य भारत<br>रक्षितः परमेष्वासैः कृपप्रभृतिभी रथैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.५०</sup>तस्यास्तां चक्ररक्षौ द्वौ सैन्धवस्य बृहत्तमौ<br>द्रौणिर्दक्षिणतो राजन्सूतपुत्रश्च वामतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.५१</sup>पृष्ठगोपास्तु तस्यासन्सौमदत्तिपुरोगमाः<br>कृपश्च वृषसेनश्च शलः शल्यश्च दुर्जयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७०.५२</sup>नीतिमन्तो महेष्वासाः सर्वे युद्धविशारदाः<br>सैन्धवस्य विधायैवं रक्षां युयुधिरे तदा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२</sup>प्रविष्टयोर्महाराज पार्थवार्ष्णेययोस्तदा<br>दुर्योधने प्रयाते च पृष्ठतः पुरुषर्षभे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३</sup>जवेनाभ्यद्रवन्द्रोणं महता निस्वनेन च<br>पाण्डवाः सोमकैः सार्धं ततो युद्धमवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४</sup>तद्युद्धमभवद्घोरं तुमुलं लोमहर्षणम्<br>पाञ्चालानां कुरूणां च व्यूहस्य पुरतोऽद्भुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.५</sup>राजन्कदाचिन्नास्माभिर्दृष्टं तादृङ्न च श्रुतम्<br>यादृङ्मध्यगते सूर्ये युद्धमासीद्विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.६</sup>धृष्टद्युम्नमुखाः पार्था व्यूढानीकाः प्रहारिणः<br>द्रोणस्य सैन्यं ते सर्वे शरवर्षैरवाकिरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.७</sup>वयं द्रोणं पुरस्कृत्य सर्वशस्त्रभृतां वरम्<br>पार्षतप्रमुखान्पार्थानभ्यवर्षाम सायकैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.८</sup>महामेघाविवोदीर्णौ मिश्रवातौ हिमात्यये<br>सेनाग्रे विप्रकाशेते रुचिरे रथभूषिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.९</sup>समेत्य तु महासेने चक्रतुर्वेगमुत्तमम्<br>जाह्नवीयमुने नद्यौ प्रावृषीवोल्बणोदके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१०</sup>नानाशस्त्रपुरोवातो द्विपाश्वरथसंवृतः<br>गदाविद्युन्महारौद्रः संग्रामजलदो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.११</sup>भारद्वाजानिलोद्धूतः शरधारासहस्रवान्<br>अभ्यवर्षन्महारौद्रः पाण्डुसेनाग्निमुद्धतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१२</sup>समुद्रमिव घर्मान्ते विवान्घोरो महानिलः<br>व्यक्षोभयदनीकानि पाण्डवानां द्विजोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१३</sup>तेऽपि सर्वप्रयत्नेन द्रोणमेव समाद्रवन्<br>बिभित्सन्तो महासेतुं वार्योघाः प्रबला इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१४</sup>वारयामास तान्द्रोणो जलौघानचलो यथा<br>पाण्डवान्समरे क्रुद्धान्पाञ्चालांश्च सकेकयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१५</sup>अथापरेऽपि राजानः परावृत्य समन्ततः<br>महाबला रणे शूराः पाञ्चालानन्ववारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१६</sup>ततो रणे नरव्याघ्रः पार्षतः पाण्डवैः सह<br>संजघानासकृद्द्रोणं बिभित्सुररिवाहिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१७</sup>यथैव शरवर्षाणि द्रोणो वर्षति पार्षते<br>तथैव शरवर्षाणि धृष्टद्युम्नोऽभ्यवर्षत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१८</sup>सनिस्त्रिंशपुरोवातः शक्तिप्रासर्ष्टिसंवृतः<br>ज्याविद्युच्चापसंह्रादो धृष्टद्युम्नबलाहकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.१९</sup>शरधाराश्मवर्षाणि व्यसृजत्सर्वतोदिशम्<br>निघ्नन्रथवराश्वौघांश्छादयामास वाहिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२०</sup>यं यमार्छच्छरैर्द्रोणः पाण्डवानां रथव्रजम्<br>ततस्ततः शरैर्द्रोणमपाकर्षत पार्षतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२१</sup>तथा तु यतमानस्य द्रोणस्य युधि भारत<br>धृष्टद्युम्नं समासाद्य त्रिधा सैन्यमभिद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२२</sup>भोजमेके न्यवर्तन्त जलसंधमथापरे<br>पाण्डवैर्हन्यमानाश्च द्रोणमेवापरेऽव्रजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२३</sup>सैन्यान्यघटयद्यानि द्रोणस्तु रथिनां वरः<br>व्यधमच्चापि तान्यस्य धृष्टद्युम्नो महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२४</sup>धार्तराष्ट्रास्त्रिधाभूता वध्यन्ते पाण्डुसृञ्जयैः<br>अगोपाः पशवोऽरण्ये बहुभिः श्वापदैरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२५</sup>कालः संग्रसते योधान्धृष्टद्युम्नेन मोहितान्<br>संग्रामे तुमुले तस्मिन्निति संमेनिरे जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२६</sup>कुनृपस्य यथा राष्ट्रं दुर्भिक्षव्याधितस्करैः<br>द्राव्यते तद्वदापन्ना पाण्डवैस्तव वाहिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२७</sup>अर्करश्मिप्रभिन्नेषु शस्त्रेषु कवचेषु च<br>चक्षूंषि प्रतिहन्यन्ते सैन्येन रजसा तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२८</sup>त्रिधाभूतेषु सैन्येषु वध्यमानेषु पाण्डवैः<br>अमर्षितस्ततो द्रोणः पाञ्चालान्व्यधमच्छरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.२९</sup>मृद्नतस्तान्यनीकानि निघ्नतश्चापि सायकैः<br>बभूव रूपं द्रोणस्य कालाग्नेरिव दीप्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३०</sup>रथं नागं हयं चापि पत्तिनश्च विशां पते<br>एकैकेनेषुणा संख्ये निर्बिभेद महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३१</sup>पाण्डवानां तु सैन्येषु नास्ति कश्चित्स भारत<br>दधार यो रणे बाणान्द्रोणचापच्युताञ्शितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३२</sup>तत्पच्यमानमर्केण द्रोणसायकतापितम्<br>बभ्राम पार्षतं सैन्यं तत्र तत्रैव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३३</sup>तथैव पार्षतेनापि काल्यमानं बलं तव<br>अभवत्सर्वतो दीप्तं शुष्कं वनमिवाग्निना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३४</sup>वध्यमानेषु सैन्येषु द्रोणपार्षतसायकैः<br>त्यक्त्वा प्राणान्परं शक्त्या प्रायुध्यन्त स्म सैनिकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३५</sup>तावकानां परेषां च युध्यतां भरतर्षभ<br>नासीत्कश्चिन्महाराज योऽत्याक्षीत्संयुगं भयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३६</sup>भीमसेनं तु कौन्तेयं सोदर्याः पर्यवारयन्<br>विविंशतिश्चित्रसेनो विकर्णश्च महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३७</sup>विन्दानुविन्दावावन्त्यौ क्षेमधूर्तिश्च वीर्यवान्<br>त्रयाणां तव पुत्राणां त्रय एवानुयायिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३८</sup>बाह्लीकराजस्तेजस्वी कुलपुत्रो महारथः<br>सहसेनः सहामात्यो द्रौपदेयानवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.३९</sup>शैब्यो गोवासनो राजा योधैर्दशशतावरैः<br>काश्यस्याभिभुवः पुत्रं पराक्रान्तमवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४०</sup>अजातशत्रुं कौन्तेयं ज्वलन्तमिव पावकम्<br>मद्राणामीश्वरः शल्यो राजा राजानमावृणोत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४१</sup>दुःशासनस्त्ववस्थाप्य स्वमनीकममर्षणः<br>सात्यकिं प्रययौ क्रुद्धः शूरो रथवरं युधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४२</sup>स्वकेनाहमनीकेन संनद्धकवचावृतः<br>चतुःशतैर्महेष्वासैश्चेकितानमवारयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४३</sup>शकुनिस्तु सहानीको माद्रीपुत्रमवारयत्<br>गान्धारकैः सप्तशतैश्चापशक्तिशरासिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४४</sup>विन्दानुविन्दावावन्त्यौ विराटं मत्स्यमार्छताम्<br>प्राणांस्त्यक्त्वा महेष्वासौ मित्रार्थेऽभ्युद्यतौ युधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४५</sup>शिखण्डिनं याज्ञसेनिं रुन्धानमपराजितम्<br>बाह्लिकः प्रतिसंयत्तः पराक्रान्तमवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४६</sup>धृष्टद्युम्नं च पाञ्चाल्यं क्रूरैः सार्धं प्रभद्रकैः<br>आवन्त्यः सह सौवीरैः क्रुद्धरूपमवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४७</sup>घटोत्कचं तथा शूरं राक्षसं क्रूरयोधिनम्<br>अलायुधोऽद्रवत्तूर्णं क्रुद्धमायान्तमाहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४८</sup>अलम्बुसं राक्षसेन्द्रं कुन्तिभोजो महारथः<br>सैन्येन महता युक्तः क्रुद्धरूपमवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.४९</sup>सैन्धवः पृष्ठतस्त्वासीत्सर्वसैन्यस्य भारत<br>रक्षितः परमेष्वासैः कृपप्रभृतिभी रथैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.५०</sup>तस्यास्तां चक्ररक्षौ द्वौ सैन्धवस्य बृहत्तमौ<br>द्रौणिर्दक्षिणतो राजन्सूतपुत्रश्च वामतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.५१</sup>पृष्ठगोपास्तु तस्यासन्सौमदत्तिपुरोगमाः<br>कृपश्च वृषसेनश्च शलः शल्यश्च दुर्जयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७०.५२</sup>नीतिमन्तो महेष्वासाः सर्वे युद्धविशारदाः<br>सैन्धवस्य विधायैवं रक्षां युयुधिरे तदा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -237,8 +230,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

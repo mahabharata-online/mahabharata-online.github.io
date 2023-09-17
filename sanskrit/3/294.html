@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/293.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२९४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/295.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,220 +64,185 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/293.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२९४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/295.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२</sup>देवराजमनुप्राप्तं ब्राह्मणच्छद्मना वृषः<br>दृष्ट्वा स्वागतमित्याह न बुबोधास्य मानसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३</sup>हिरण्यकण्ठीः प्रमदा ग्रामान्वा बहुगोकुलान्<br>किं ददानीति तं विप्रमुवाचाधिरथिस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५</sup>हिरण्यकण्ठ्यः प्रमदा यच्चान्यत्प्रीतिवर्धनम्<br>नाहं दत्तमिहेच्छामि तदर्थिभ्यः प्रदीयताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.६</sup>यदेतत्सहजं वर्म कुण्डले च तवानघ<br>एतदुत्कृत्य मे देहि यदि सत्यव्रतो भवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.७</sup>एतदिच्छाम्यहं क्षिप्रं त्वया दत्तं परंतप<br>एष मे सर्वलाभानां लाभः परमको मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.८</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.९</sup>अवनिं प्रमदा गाश्च निर्वापं बहुवार्षिकम्<br>तत्ते विप्र प्रदास्यामि न तु वर्म न कुण्डले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१०</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.११</sup>एवं बहुविधैर्वाक्यैर्याच्यमानः स तु द्विजः<br>कर्णेन भरतश्रेष्ठ नान्यं वरमयाचत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१२</sup>सान्त्वितश्च यथाशक्ति पूजितश्च यथाविधि<br>नैवान्यं स द्विजश्रेष्ठः कामयामास वै वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१३</sup>यदा नान्यं प्रवृणुते वरं वै द्विजसत्तमः<br>तदैनमब्रवीद्भूयो राधेयः प्रहसन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१४</sup>सहजं वर्म मे विप्र कुण्डले चामृतोद्भवे<br>तेनावध्योऽस्मि लोकेषु ततो नैतद्ददाम्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१५</sup>विशालं पृथिवीराज्यं क्षेमं निहतकण्टकम्<br>प्रतिगृह्णीष्व मत्तस्त्वं साधु ब्राह्मणपुंगव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१६</sup>कुण्डलाभ्यां विमुक्तोऽहं वर्मणा सहजेन च<br>गमनीयो भविष्यामि शत्रूणां द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१७</sup>यदा नान्यं वरं वव्रे भगवान्पाकशासनः<br>ततः प्रहस्य कर्णस्तं पुनरित्यब्रवीद्वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१८</sup>विदितो देवदेवेश प्रागेवासि मम प्रभो<br>न तु न्याय्यं मया दातुं तव शक्र वृथा वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.१९</sup>त्वं हि देवेश्वरः साक्षात्त्वया देयो वरो मम<br>अन्येषां चैव भूतानामीश्वरो ह्यसि भूतकृत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२०</sup>यदि दास्यामि ते देव कुण्डले कवचं तथा<br>वध्यतामुपयास्यामि त्वं च शक्रावहास्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२१</sup>तस्माद्विनिमयं कृत्वा कुण्डले वर्म चोत्तमम्<br>हरस्व शक्र कामं मे न दद्यामहमन्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२२</sup>शक्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२३</sup>विदितोऽहं रवेः पूर्वमायन्नेव तवान्तिकम्<br>तेन ते सर्वमाख्यातमेवमेतन्न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२४</sup>काममस्तु तथा तात तव कर्ण यथेच्छसि<br>वर्जयित्वा तु मे वज्रं प्रवृणीष्व यदिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२६</sup>ततः कर्णः प्रहृष्टस्तु उपसंगम्य वासवम्<br>अमोघां शक्तिमभ्येत्य वव्रे संपूर्णमानसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२७</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२८</sup>वर्मणा कुण्डलाभ्यां च शक्तिं मे देहि वासव<br>अमोघां शत्रुसंघानां घातनीं पृतनामुखे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.२९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३०</sup>ततः संचिन्त्य मनसा मुहूर्तमिव वासवः<br>शक्त्यर्थं पृथिवीपाल कर्णं वाक्यमथाब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३१</sup>कुण्डले मे प्रयच्छस्व वर्म चैव शरीरजम्<br>गृहाण कर्ण शक्तिं त्वमनेन समयेन मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३२</sup>अमोघा हन्ति शतशः शत्रून्मम करच्युता<br>पुनश्च पाणिमभ्येति मम दैत्यान्विनिघ्नतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३३</sup>सेयं तव करं प्राप्य हत्वैकं रिपुमूर्जितम्<br>गर्जन्तं प्रतपन्तं च मामेवैष्यति सूतज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३४</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३५</sup>एकमेवाहमिच्छामि रिपुं हन्तुं महाहवे<br>गर्जन्तं प्रतपन्तं च यतो मम भयं भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३६</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३७</sup>एकं हनिष्यसि रिपुं गर्जन्तं बलिनं रणे<br>त्वं तु यं प्रार्थयस्येकं रक्ष्यते स महात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३८</sup>यमाहुर्वेदविद्वांसो वराहमजितं हरिम्<br>नारायणमचिन्त्यं च तेन कृष्णेन रक्ष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.३९</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४०</sup>एवमप्यस्तु भगवन्नेकवीरवधे मम<br>अमोघा प्रवरा शक्तिर्येन हन्यां प्रतापिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४१</sup>उत्कृत्य तु प्रदास्यामि कुण्डले कवचं च ते<br>निकृत्तेषु च गात्रेषु न मे बीभत्सता भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४२</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४३</sup>न ते बीभत्सता कर्ण भविष्यति कथंचन<br>व्रणश्चापि न गात्रेषु यस्त्वं नानृतमिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४४</sup>यादृशस्ते पितुर्वर्णस्तेजश्च वदतां वर<br>तादृशेनैव वर्णेन त्वं कर्ण भविता पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४५</sup>विद्यमानेषु शस्त्रेषु यद्यमोघामसंशये<br>प्रमत्तो मोक्ष्यसे चापि त्वय्येवैषा पतिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४६</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४७</sup>संशयं परमं प्राप्य विमोक्ष्ये वासवीमिमाम्<br>यथा मामात्थ शक्र त्वं सत्यमेतद्ब्रवीमि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४८</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.४९</sup>ततः शक्तिं प्रज्वलितां प्रतिगृह्य विशां पते<br>शस्त्रं गृहीत्वा निशितं सर्वगात्राण्यकृन्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५०</sup>ततो देवा मानवा दानवाश्च; निकृन्तन्तं कर्णमात्मानमेवम्<br>दृष्ट्वा सर्वे सिद्धसंघाश्च नेदु;र्न ह्यस्यासीद्दुःखजो वै विकारः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५१</sup>ततो दिव्या दुन्दुभयः प्रणेदुः; पपातोच्चैः पुष्पवर्षं च दिव्यम्<br>दृष्ट्वा कर्णं शस्त्रसंकृत्तगात्रं; मुहुश्चापि स्मयमानं नृवीरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५२</sup>ततश्छित्त्वा कवचं दिव्यमङ्गा;त्तथैवार्द्रं प्रददौ वासवाय<br>तथोत्कृत्य प्रददौ कुण्डले ते; वैकर्तनः कर्मणा तेन कर्णः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५३</sup>ततः शक्रः प्रहसन्वञ्चयित्वा; कर्णं लोके यशसा योजयित्वा<br>कृतं कार्यं पाण्डवानां हि मेने; ततः पश्चाद्दिवमेवोत्पपात
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५४</sup>श्रुत्वा कर्णं मुषितं धार्तराष्ट्रा; दीनाः सर्वे भग्नदर्पा इवासन्<br>तां चावस्थां गमितं सूतपुत्रं; श्रुत्वा पार्था जहृषुः काननस्थाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५५</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५६</sup>क्वस्था वीराः पाण्डवास्ते बभूवुः; कुतश्चैतच्छ्रुतवन्तः प्रियं ते<br>किं वाकार्षुर्द्वादशेऽब्दे व्यतीते; तन्मे सर्वं भगवान्व्याकरोतु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५७</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५८</sup>लब्ध्वा कृष्णां सैन्धवं द्रावयित्वा; विप्रैः सार्धं काम्यकादाश्रमात्ते<br>मार्कण्डेयाच्छ्रुतवन्तः पुराणं; देवर्षीणां चरितं विस्तरेण
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२९४.५९</sup>प्रत्याजग्मुः सरथाः सानुयात्राः; सर्वैः सार्धं सूदपौरोगवैश्च<br>ततः पुण्यं द्वैतवनं नृवीरा; निस्तीर्योग्रं वनवासं समग्रम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२</sup>देवराजमनुप्राप्तं ब्राह्मणच्छद्मना वृषः<br>दृष्ट्वा स्वागतमित्याह न बुबोधास्य मानसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३</sup>हिरण्यकण्ठीः प्रमदा ग्रामान्वा बहुगोकुलान्<br>किं ददानीति तं विप्रमुवाचाधिरथिस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५</sup>हिरण्यकण्ठ्यः प्रमदा यच्चान्यत्प्रीतिवर्धनम्<br>नाहं दत्तमिहेच्छामि तदर्थिभ्यः प्रदीयताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.६</sup>यदेतत्सहजं वर्म कुण्डले च तवानघ<br>एतदुत्कृत्य मे देहि यदि सत्यव्रतो भवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.७</sup>एतदिच्छाम्यहं क्षिप्रं त्वया दत्तं परंतप<br>एष मे सर्वलाभानां लाभः परमको मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.८</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.९</sup>अवनिं प्रमदा गाश्च निर्वापं बहुवार्षिकम्<br>तत्ते विप्र प्रदास्यामि न तु वर्म न कुण्डले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१०</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.११</sup>एवं बहुविधैर्वाक्यैर्याच्यमानः स तु द्विजः<br>कर्णेन भरतश्रेष्ठ नान्यं वरमयाचत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१२</sup>सान्त्वितश्च यथाशक्ति पूजितश्च यथाविधि<br>नैवान्यं स द्विजश्रेष्ठः कामयामास वै वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१३</sup>यदा नान्यं प्रवृणुते वरं वै द्विजसत्तमः<br>तदैनमब्रवीद्भूयो राधेयः प्रहसन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१४</sup>सहजं वर्म मे विप्र कुण्डले चामृतोद्भवे<br>तेनावध्योऽस्मि लोकेषु ततो नैतद्ददाम्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१५</sup>विशालं पृथिवीराज्यं क्षेमं निहतकण्टकम्<br>प्रतिगृह्णीष्व मत्तस्त्वं साधु ब्राह्मणपुंगव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१६</sup>कुण्डलाभ्यां विमुक्तोऽहं वर्मणा सहजेन च<br>गमनीयो भविष्यामि शत्रूणां द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१७</sup>यदा नान्यं वरं वव्रे भगवान्पाकशासनः<br>ततः प्रहस्य कर्णस्तं पुनरित्यब्रवीद्वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१८</sup>विदितो देवदेवेश प्रागेवासि मम प्रभो<br>न तु न्याय्यं मया दातुं तव शक्र वृथा वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.१९</sup>त्वं हि देवेश्वरः साक्षात्त्वया देयो वरो मम<br>अन्येषां चैव भूतानामीश्वरो ह्यसि भूतकृत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२०</sup>यदि दास्यामि ते देव कुण्डले कवचं तथा<br>वध्यतामुपयास्यामि त्वं च शक्रावहास्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२१</sup>तस्माद्विनिमयं कृत्वा कुण्डले वर्म चोत्तमम्<br>हरस्व शक्र कामं मे न दद्यामहमन्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२२</sup>शक्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२३</sup>विदितोऽहं रवेः पूर्वमायन्नेव तवान्तिकम्<br>तेन ते सर्वमाख्यातमेवमेतन्न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२४</sup>काममस्तु तथा तात तव कर्ण यथेच्छसि<br>वर्जयित्वा तु मे वज्रं प्रवृणीष्व यदिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२६</sup>ततः कर्णः प्रहृष्टस्तु उपसंगम्य वासवम्<br>अमोघां शक्तिमभ्येत्य वव्रे संपूर्णमानसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२७</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२८</sup>वर्मणा कुण्डलाभ्यां च शक्तिं मे देहि वासव<br>अमोघां शत्रुसंघानां घातनीं पृतनामुखे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.२९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३०</sup>ततः संचिन्त्य मनसा मुहूर्तमिव वासवः<br>शक्त्यर्थं पृथिवीपाल कर्णं वाक्यमथाब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३१</sup>कुण्डले मे प्रयच्छस्व वर्म चैव शरीरजम्<br>गृहाण कर्ण शक्तिं त्वमनेन समयेन मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३२</sup>अमोघा हन्ति शतशः शत्रून्मम करच्युता<br>पुनश्च पाणिमभ्येति मम दैत्यान्विनिघ्नतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३३</sup>सेयं तव करं प्राप्य हत्वैकं रिपुमूर्जितम्<br>गर्जन्तं प्रतपन्तं च मामेवैष्यति सूतज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३४</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३५</sup>एकमेवाहमिच्छामि रिपुं हन्तुं महाहवे<br>गर्जन्तं प्रतपन्तं च यतो मम भयं भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३६</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३७</sup>एकं हनिष्यसि रिपुं गर्जन्तं बलिनं रणे<br>त्वं तु यं प्रार्थयस्येकं रक्ष्यते स महात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३८</sup>यमाहुर्वेदविद्वांसो वराहमजितं हरिम्<br>नारायणमचिन्त्यं च तेन कृष्णेन रक्ष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.३९</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४०</sup>एवमप्यस्तु भगवन्नेकवीरवधे मम<br>अमोघा प्रवरा शक्तिर्येन हन्यां प्रतापिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४१</sup>उत्कृत्य तु प्रदास्यामि कुण्डले कवचं च ते<br>निकृत्तेषु च गात्रेषु न मे बीभत्सता भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४२</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४३</sup>न ते बीभत्सता कर्ण भविष्यति कथंचन<br>व्रणश्चापि न गात्रेषु यस्त्वं नानृतमिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४४</sup>यादृशस्ते पितुर्वर्णस्तेजश्च वदतां वर<br>तादृशेनैव वर्णेन त्वं कर्ण भविता पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४५</sup>विद्यमानेषु शस्त्रेषु यद्यमोघामसंशये<br>प्रमत्तो मोक्ष्यसे चापि त्वय्येवैषा पतिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४६</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४७</sup>संशयं परमं प्राप्य विमोक्ष्ये वासवीमिमाम्<br>यथा मामात्थ शक्र त्वं सत्यमेतद्ब्रवीमि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४८</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.४९</sup>ततः शक्तिं प्रज्वलितां प्रतिगृह्य विशां पते<br>शस्त्रं गृहीत्वा निशितं सर्वगात्राण्यकृन्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५०</sup>ततो देवा मानवा दानवाश्च; निकृन्तन्तं कर्णमात्मानमेवम्<br>दृष्ट्वा सर्वे सिद्धसंघाश्च नेदु;र्न ह्यस्यासीद्दुःखजो वै विकारः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५१</sup>ततो दिव्या दुन्दुभयः प्रणेदुः; पपातोच्चैः पुष्पवर्षं च दिव्यम्<br>दृष्ट्वा कर्णं शस्त्रसंकृत्तगात्रं; मुहुश्चापि स्मयमानं नृवीरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५२</sup>ततश्छित्त्वा कवचं दिव्यमङ्गा;त्तथैवार्द्रं प्रददौ वासवाय<br>तथोत्कृत्य प्रददौ कुण्डले ते; वैकर्तनः कर्मणा तेन कर्णः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५३</sup>ततः शक्रः प्रहसन्वञ्चयित्वा; कर्णं लोके यशसा योजयित्वा<br>कृतं कार्यं पाण्डवानां हि मेने; ततः पश्चाद्दिवमेवोत्पपात
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५४</sup>श्रुत्वा कर्णं मुषितं धार्तराष्ट्रा; दीनाः सर्वे भग्नदर्पा इवासन्<br>तां चावस्थां गमितं सूतपुत्रं; श्रुत्वा पार्था जहृषुः काननस्थाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५५</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५६</sup>क्वस्था वीराः पाण्डवास्ते बभूवुः; कुतश्चैतच्छ्रुतवन्तः प्रियं ते<br>किं वाकार्षुर्द्वादशेऽब्दे व्यतीते; तन्मे सर्वं भगवान्व्याकरोतु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५७</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५८</sup>लब्ध्वा कृष्णां सैन्धवं द्रावयित्वा; विप्रैः सार्धं काम्यकादाश्रमात्ते<br>मार्कण्डेयाच्छ्रुतवन्तः पुराणं; देवर्षीणां चरितं विस्तरेण
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२९४.५९</sup>प्रत्याजग्मुः सरथाः सानुयात्राः; सर्वैः सार्धं सूदपौरोगवैश्च<br>ततः पुण्यं द्वैतवनं नृवीरा; निस्तीर्योग्रं वनवासं समग्रम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -258,8 +251,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

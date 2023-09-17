@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/148.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१४९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/150.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/148.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१४९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/150.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१</sup>कुन्त्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२</sup>न विषादस्त्वया कार्यो भयादस्मात्कथंचन<br>उपायः परिदृष्टोऽत्र तस्मान्मोक्षाय रक्षसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.३</sup>एकस्तव सुतो बालः कन्या चैका तपस्विनी<br>न ते तयोस्तथा पत्न्या गमनं तत्र रोचये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.४</sup>मम पञ्च सुता ब्रह्मंस्तेषामेको गमिष्यति<br>त्वदर्थं बलिमादाय तस्य पापस्य रक्षसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.५</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.६</sup>नाहमेतत्करिष्यामि जीवितार्थी कथंचन<br>ब्राह्मणस्यातिथेश्चैव स्वार्थे प्राणैर्वियोजनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.७</sup>न त्वेतदकुलीनासु नाधर्मिष्ठासु विद्यते<br>यद्ब्राह्मणार्थे विसृजेदात्मानमपि चात्मजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.८</sup>आत्मनस्तु मया श्रेयो बोद्धव्यमिति रोचये<br>ब्रह्मवध्यात्मवध्या वा श्रेय आत्मवधो मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.९</sup>ब्रह्मवध्या परं पापं निष्कृतिर्नात्र विद्यते<br>अबुद्धिपूर्वं कृत्वापि श्रेय आत्मवधो मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१०</sup>न त्वहं वधमाकाङ्क्षे स्वयमेवात्मनः शुभे<br>परैः कृते वधे पापं न किंचिन्मयि विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.११</sup>अभिसंधिकृते तस्मिन्ब्राह्मणस्य वधे मया<br>निष्कृतिं न प्रपश्यामि नृशंसं क्षुद्रमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१२</sup>आगतस्य गृहे त्यागस्तथैव शरणार्थिनः<br>याचमानस्य च वधो नृशंसं परमं मतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१३</sup>कुर्यान्न निन्दितं कर्म न नृशंसं कदाचन<br>इति पूर्वे महात्मान आपद्धर्मविदो विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१४</sup>श्रेयांस्तु सहदारस्य विनाशोऽद्य मम स्वयम्<br>ब्राह्मणस्य वधं नाहमनुमंस्ये कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१५</sup>कुन्त्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१६</sup>ममाप्येषा मतिर्ब्रह्मन्विप्रा रक्ष्या इति स्थिरा<br>न चाप्यनिष्टः पुत्रो मे यदि पुत्रशतं भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१७</sup>न चासौ राक्षसः शक्तो मम पुत्रविनाशने<br>वीर्यवान्मन्त्रसिद्धश्च तेजस्वी च सुतो मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१८</sup>राक्षसाय च तत्सर्वं प्रापयिष्यति भोजनम्<br>मोक्षयिष्यति चात्मानमिति मे निश्चिता मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.१९</sup>समागताश्च वीरेण दृष्टपूर्वाश्च राक्षसाः<br>बलवन्तो महाकाया निहताश्चाप्यनेकशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२०</sup>न त्विदं केषुचिद्ब्रह्मन्व्याहर्तव्यं कथंचन<br>विद्यार्थिनो हि मे पुत्रान्विप्रकुर्युः कुतूहलात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२१</sup>गुरुणा चाननुज्ञातो ग्राहयेद्यं सुतो मम<br>न स कुर्यात्तया कार्यं विद्ययेति सतां मतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२२</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२३</sup>एवमुक्तस्तु पृथया स विप्रो भार्यया सह<br>हृष्टः संपूजयामास तद्वाक्यममृतोपमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४९.२४</sup>ततः कुन्ती च विप्रश्च सहितावनिलात्मजम्<br>तमब्रूतां कुरुष्वेति स तथेत्यब्रवीच्च तौ
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१</sup>कुन्त्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२</sup>न विषादस्त्वया कार्यो भयादस्मात्कथंचन<br>उपायः परिदृष्टोऽत्र तस्मान्मोक्षाय रक्षसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.३</sup>एकस्तव सुतो बालः कन्या चैका तपस्विनी<br>न ते तयोस्तथा पत्न्या गमनं तत्र रोचये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.४</sup>मम पञ्च सुता ब्रह्मंस्तेषामेको गमिष्यति<br>त्वदर्थं बलिमादाय तस्य पापस्य रक्षसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.५</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.६</sup>नाहमेतत्करिष्यामि जीवितार्थी कथंचन<br>ब्राह्मणस्यातिथेश्चैव स्वार्थे प्राणैर्वियोजनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.७</sup>न त्वेतदकुलीनासु नाधर्मिष्ठासु विद्यते<br>यद्ब्राह्मणार्थे विसृजेदात्मानमपि चात्मजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.८</sup>आत्मनस्तु मया श्रेयो बोद्धव्यमिति रोचये<br>ब्रह्मवध्यात्मवध्या वा श्रेय आत्मवधो मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.९</sup>ब्रह्मवध्या परं पापं निष्कृतिर्नात्र विद्यते<br>अबुद्धिपूर्वं कृत्वापि श्रेय आत्मवधो मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१०</sup>न त्वहं वधमाकाङ्क्षे स्वयमेवात्मनः शुभे<br>परैः कृते वधे पापं न किंचिन्मयि विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.११</sup>अभिसंधिकृते तस्मिन्ब्राह्मणस्य वधे मया<br>निष्कृतिं न प्रपश्यामि नृशंसं क्षुद्रमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१२</sup>आगतस्य गृहे त्यागस्तथैव शरणार्थिनः<br>याचमानस्य च वधो नृशंसं परमं मतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१३</sup>कुर्यान्न निन्दितं कर्म न नृशंसं कदाचन<br>इति पूर्वे महात्मान आपद्धर्मविदो विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१४</sup>श्रेयांस्तु सहदारस्य विनाशोऽद्य मम स्वयम्<br>ब्राह्मणस्य वधं नाहमनुमंस्ये कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१५</sup>कुन्त्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१६</sup>ममाप्येषा मतिर्ब्रह्मन्विप्रा रक्ष्या इति स्थिरा<br>न चाप्यनिष्टः पुत्रो मे यदि पुत्रशतं भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१७</sup>न चासौ राक्षसः शक्तो मम पुत्रविनाशने<br>वीर्यवान्मन्त्रसिद्धश्च तेजस्वी च सुतो मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१८</sup>राक्षसाय च तत्सर्वं प्रापयिष्यति भोजनम्<br>मोक्षयिष्यति चात्मानमिति मे निश्चिता मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.१९</sup>समागताश्च वीरेण दृष्टपूर्वाश्च राक्षसाः<br>बलवन्तो महाकाया निहताश्चाप्यनेकशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२०</sup>न त्विदं केषुचिद्ब्रह्मन्व्याहर्तव्यं कथंचन<br>विद्यार्थिनो हि मे पुत्रान्विप्रकुर्युः कुतूहलात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२१</sup>गुरुणा चाननुज्ञातो ग्राहयेद्यं सुतो मम<br>न स कुर्यात्तया कार्यं विद्ययेति सतां मतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२२</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२३</sup>एवमुक्तस्तु पृथया स विप्रो भार्यया सह<br>हृष्टः संपूजयामास तद्वाक्यममृतोपमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४९.२४</sup>ततः कुन्ती च विप्रश्च सहितावनिलात्मजम्<br>तमब्रूतां कुरुष्वेति स तथेत्यब्रवीच्च तौ
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

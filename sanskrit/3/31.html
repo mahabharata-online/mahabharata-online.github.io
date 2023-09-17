@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/30.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:३१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/32.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/30.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:३१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/32.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१</sup>द्रौपद्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२</sup>नमो धात्रे विधात्रे च यौ मोहं चक्रतुस्तव<br>पितृपैतामहे वृत्ते वोढव्ये तेऽन्यथा मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३</sup>नेह धर्मानृशंस्याभ्यां न क्षान्त्या नार्जवेन च<br>पुरुषः श्रियमाप्नोति न घृणित्वेन कर्हिचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.४</sup>त्वां चेद्व्यसनमभ्यागादिदं भारत दुःसहम्<br>यत्त्वं नार्हसि नापीमे भ्रातरस्ते महौजसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.५</sup>न हि तेऽध्यगमञ्जातु तदानीं नाद्य भारत<br>धर्मात्प्रियतरं किंचिदपि चेज्जीवितादिह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.६</sup>धर्मार्थमेव ते राज्यं धर्मार्थं जीवितं च ते<br>ब्राह्मणा गुरवश्चैव जानन्त्यपि च देवताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.७</sup>भीमसेनार्जुनौ चैव माद्रेयौ च मया सह<br>त्यजेस्त्वमिति मे बुद्धिर्न तु धर्मं परित्यजेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.८</sup>राजानं धर्मगोप्तारं धर्मो रक्षति रक्षितः<br>इति मे श्रुतमार्याणां त्वां तु मन्ये न रक्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.९</sup>अनन्या हि नरव्याघ्र नित्यदा धर्ममेव ते<br>बुद्धिः सततमन्वेति छायेव पुरुषं निजा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१०</sup>नावमंस्था हि सदृशान्नावराञ्श्रेयसः कुतः<br>अवाप्य पृथिवीं कृत्स्नां न ते शृङ्गमवर्धत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.११</sup>स्वाहाकारैः स्वधाभिश्च पूजाभिरपि च द्विजान्<br>दैवतानि पितॄंश्चैव सततं पार्थ सेवसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१२</sup>ब्राह्मणाः सर्वकामैस्ते सततं पार्थ तर्पिताः<br>यतयो मोक्षिणश्चैव गृहस्थाश्चैव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१३</sup>आरण्यकेभ्यो लौहानि भाजनानि प्रयच्छसि<br>नादेयं ब्राह्मणेभ्यस्ते गृहे किंचन विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१४</sup>यदिदं वैश्वदेवान्ते सायंप्रातः प्रदीयते<br>तद्दत्त्वातिथिभृत्येभ्यो राजञ्शेषेण जीवसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१५</sup>इष्टयः पशुबन्धाश्च काम्यनैमित्तिकाश्च ये<br>वर्तन्ते पाकयज्ञाश्च यज्ञकर्म च नित्यदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१६</sup>अस्मिन्नपि महारण्ये विजने दस्युसेविते<br>राष्ट्रादपेत्य वसतो धार्मस्ते नावसीदति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१७</sup>अश्वमेधो राजसूयः पुण्डरीकोऽथ गोसवः<br>एतैरपि महायज्ञैरिष्टं ते भूरिदक्षिणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१८</sup>राजन्परीतया बुद्ध्या विषमेऽक्षपराजये<br>राज्यं वसून्यायुधानि भ्रातॄन्मां चासि निर्जितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.१९</sup>ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः<br>कथमक्षव्यसनजा बुद्धिरापतिता तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२०</sup>अतीव मोहमायाति मनश्च परिदूयते<br>निशाम्य ते दुःखमिदमिमां चापदमीदृशीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२१</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>ईश्वरस्य वशे लोकस्तिष्ठते नात्मनो यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२२</sup>धातैव खलु भूतानां सुखदुःखे प्रियाप्रिये<br>दधाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२३</sup>यथा दारुमयी योषा नरवीर समाहिता<br>ईरयत्यङ्गमङ्गानि तथा राजन्निमाः प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२४</sup>आकाश इव भूतानि व्याप्य सर्वाणि भारत<br>ईश्वरो विदधातीह कल्याणं यच्च पापकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२५</sup>शकुनिस्तन्तुबद्धो वा नियतोऽयमनीश्वरः<br>ईश्वरस्य वशे तिष्ठन्नान्येषां नात्मनः प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२६</sup>मणिः सूत्र इव प्रोतो नस्योत इव गोवृषः<br>धातुरादेशमन्वेति तन्मयो हि तदर्पणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२७</sup>नात्माधीनो मनुष्योऽयं कालं भवति कंचन<br>स्रोतसो मध्यमापन्नः कूलाद्वृक्ष इव च्युतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२८</sup>अज्ञो जन्तुरनीशोऽयमात्मनः सुखदुःखयोः<br>ईश्वरप्रेरितो गच्छेत्स्वर्गं नरकमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.२९</sup>यथा वायोस्तृणाग्राणि वशं यान्ति बलीयसः<br>धातुरेवं वशं यान्ति सर्वभूतानि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३०</sup>आर्यकर्मणि युञ्जानः पापे वा पुनरीश्वरः<br>व्याप्य भूतानि चरते न चायमिति लक्ष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३१</sup>हेतुमात्रमिदं धातुः शरीरं क्षेत्रसंज्ञितम्<br>येन कारयते कर्म शुभाशुभफलं विभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३२</sup>पश्य मायाप्रभावोऽयमीश्वरेण यथा कृतः<br>यो हन्ति भूतैर्भूतानि मोहयित्वात्ममायया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३३</sup>अन्यथा परिदृष्टानि मुनिभिर्वेददर्शिभिः<br>अन्यथा परिवर्तन्ते वेगा इव नभस्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३४</sup>अन्यथैव हि मन्यन्ते पुरुषास्तानि तानि च<br>अन्यथैव प्रभुस्तानि करोति विकरोति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३५</sup>यथा काष्ठेन वा काष्ठमश्मानं चाश्मना पुनः<br>अयसा चाप्ययश्छिन्द्यान्निर्विचेष्टमचेतनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३६</sup>एवं स भगवान्देवः स्वयम्भूः प्रपितामहः<br>हिनस्ति भूतैर्भूतानि छद्म कृत्वा युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३७</sup>संप्रयोज्य वियोज्यायं कामकारकरः प्रभुः<br>क्रीडते भगवान्भूतैर्बालः क्रीडनकैरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३८</sup>न मातृपितृवद्राजन्धाता भूतेषु वर्तते<br>रोषादिव प्रवृत्तोऽयं यथायमितरो जनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.३९</sup>आर्याञ्शीलवतो दृष्ट्वा ह्रीमतो वृत्तिकर्शितान्<br>अनार्यान्सुखिनश्चैव विह्वलामीव चिन्तया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.४०</sup>तवेमामापदं दृष्ट्वा समृद्धिं च सुयोधने<br>धातारं गर्हये पार्थ विषमं योऽनुपश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.४१</sup>आर्यशास्त्रातिगे क्रूरे लुब्धे धर्मापचायिनि<br>धार्तराष्ट्रे श्रियं दत्त्वा धाता किं फलमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.४२</sup>कर्म चेत्कृतमन्वेति कर्तारं नान्यमृच्छति<br>कर्मणा तेन पापेन लिप्यते नूनमीश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३१.४३</sup>अथ कर्म कृतं पापं न चेत्कर्तारमृच्छति<br>कारणं बलमेवेह जनाञ्शोचामि दुर्बलान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१</sup>द्रौपद्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२</sup>नमो धात्रे विधात्रे च यौ मोहं चक्रतुस्तव<br>पितृपैतामहे वृत्ते वोढव्ये तेऽन्यथा मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३</sup>नेह धर्मानृशंस्याभ्यां न क्षान्त्या नार्जवेन च<br>पुरुषः श्रियमाप्नोति न घृणित्वेन कर्हिचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.४</sup>त्वां चेद्व्यसनमभ्यागादिदं भारत दुःसहम्<br>यत्त्वं नार्हसि नापीमे भ्रातरस्ते महौजसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.५</sup>न हि तेऽध्यगमञ्जातु तदानीं नाद्य भारत<br>धर्मात्प्रियतरं किंचिदपि चेज्जीवितादिह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.६</sup>धर्मार्थमेव ते राज्यं धर्मार्थं जीवितं च ते<br>ब्राह्मणा गुरवश्चैव जानन्त्यपि च देवताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.७</sup>भीमसेनार्जुनौ चैव माद्रेयौ च मया सह<br>त्यजेस्त्वमिति मे बुद्धिर्न तु धर्मं परित्यजेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.८</sup>राजानं धर्मगोप्तारं धर्मो रक्षति रक्षितः<br>इति मे श्रुतमार्याणां त्वां तु मन्ये न रक्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.९</sup>अनन्या हि नरव्याघ्र नित्यदा धर्ममेव ते<br>बुद्धिः सततमन्वेति छायेव पुरुषं निजा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१०</sup>नावमंस्था हि सदृशान्नावराञ्श्रेयसः कुतः<br>अवाप्य पृथिवीं कृत्स्नां न ते शृङ्गमवर्धत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.११</sup>स्वाहाकारैः स्वधाभिश्च पूजाभिरपि च द्विजान्<br>दैवतानि पितॄंश्चैव सततं पार्थ सेवसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१२</sup>ब्राह्मणाः सर्वकामैस्ते सततं पार्थ तर्पिताः<br>यतयो मोक्षिणश्चैव गृहस्थाश्चैव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१३</sup>आरण्यकेभ्यो लौहानि भाजनानि प्रयच्छसि<br>नादेयं ब्राह्मणेभ्यस्ते गृहे किंचन विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१४</sup>यदिदं वैश्वदेवान्ते सायंप्रातः प्रदीयते<br>तद्दत्त्वातिथिभृत्येभ्यो राजञ्शेषेण जीवसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१५</sup>इष्टयः पशुबन्धाश्च काम्यनैमित्तिकाश्च ये<br>वर्तन्ते पाकयज्ञाश्च यज्ञकर्म च नित्यदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१६</sup>अस्मिन्नपि महारण्ये विजने दस्युसेविते<br>राष्ट्रादपेत्य वसतो धार्मस्ते नावसीदति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१७</sup>अश्वमेधो राजसूयः पुण्डरीकोऽथ गोसवः<br>एतैरपि महायज्ञैरिष्टं ते भूरिदक्षिणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१८</sup>राजन्परीतया बुद्ध्या विषमेऽक्षपराजये<br>राज्यं वसून्यायुधानि भ्रातॄन्मां चासि निर्जितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.१९</sup>ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः<br>कथमक्षव्यसनजा बुद्धिरापतिता तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२०</sup>अतीव मोहमायाति मनश्च परिदूयते<br>निशाम्य ते दुःखमिदमिमां चापदमीदृशीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२१</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>ईश्वरस्य वशे लोकस्तिष्ठते नात्मनो यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२२</sup>धातैव खलु भूतानां सुखदुःखे प्रियाप्रिये<br>दधाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२३</sup>यथा दारुमयी योषा नरवीर समाहिता<br>ईरयत्यङ्गमङ्गानि तथा राजन्निमाः प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२४</sup>आकाश इव भूतानि व्याप्य सर्वाणि भारत<br>ईश्वरो विदधातीह कल्याणं यच्च पापकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२५</sup>शकुनिस्तन्तुबद्धो वा नियतोऽयमनीश्वरः<br>ईश्वरस्य वशे तिष्ठन्नान्येषां नात्मनः प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२६</sup>मणिः सूत्र इव प्रोतो नस्योत इव गोवृषः<br>धातुरादेशमन्वेति तन्मयो हि तदर्पणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२७</sup>नात्माधीनो मनुष्योऽयं कालं भवति कंचन<br>स्रोतसो मध्यमापन्नः कूलाद्वृक्ष इव च्युतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२८</sup>अज्ञो जन्तुरनीशोऽयमात्मनः सुखदुःखयोः<br>ईश्वरप्रेरितो गच्छेत्स्वर्गं नरकमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.२९</sup>यथा वायोस्तृणाग्राणि वशं यान्ति बलीयसः<br>धातुरेवं वशं यान्ति सर्वभूतानि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३०</sup>आर्यकर्मणि युञ्जानः पापे वा पुनरीश्वरः<br>व्याप्य भूतानि चरते न चायमिति लक्ष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३१</sup>हेतुमात्रमिदं धातुः शरीरं क्षेत्रसंज्ञितम्<br>येन कारयते कर्म शुभाशुभफलं विभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३२</sup>पश्य मायाप्रभावोऽयमीश्वरेण यथा कृतः<br>यो हन्ति भूतैर्भूतानि मोहयित्वात्ममायया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३३</sup>अन्यथा परिदृष्टानि मुनिभिर्वेददर्शिभिः<br>अन्यथा परिवर्तन्ते वेगा इव नभस्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३४</sup>अन्यथैव हि मन्यन्ते पुरुषास्तानि तानि च<br>अन्यथैव प्रभुस्तानि करोति विकरोति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३५</sup>यथा काष्ठेन वा काष्ठमश्मानं चाश्मना पुनः<br>अयसा चाप्ययश्छिन्द्यान्निर्विचेष्टमचेतनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३६</sup>एवं स भगवान्देवः स्वयम्भूः प्रपितामहः<br>हिनस्ति भूतैर्भूतानि छद्म कृत्वा युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३७</sup>संप्रयोज्य वियोज्यायं कामकारकरः प्रभुः<br>क्रीडते भगवान्भूतैर्बालः क्रीडनकैरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३८</sup>न मातृपितृवद्राजन्धाता भूतेषु वर्तते<br>रोषादिव प्रवृत्तोऽयं यथायमितरो जनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.३९</sup>आर्याञ्शीलवतो दृष्ट्वा ह्रीमतो वृत्तिकर्शितान्<br>अनार्यान्सुखिनश्चैव विह्वलामीव चिन्तया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.४०</sup>तवेमामापदं दृष्ट्वा समृद्धिं च सुयोधने<br>धातारं गर्हये पार्थ विषमं योऽनुपश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.४१</sup>आर्यशास्त्रातिगे क्रूरे लुब्धे धर्मापचायिनि<br>धार्तराष्ट्रे श्रियं दत्त्वा धाता किं फलमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.४२</sup>कर्म चेत्कृतमन्वेति कर्तारं नान्यमृच्छति<br>कर्मणा तेन पापेन लिप्यते नूनमीश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३१.४३</sup>अथ कर्म कृतं पापं न चेत्कर्तारमृच्छति<br>कारणं बलमेवेह जनाञ्शोचामि दुर्बलान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

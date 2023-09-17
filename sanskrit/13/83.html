@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/82.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:८३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/84.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,223 +64,188 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/82.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:८३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/84.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२</sup>उक्तं पितामहेनेदं गवां दानमनुत्तमम्<br>विशेषेण नरेन्द्राणामिति धर्ममवेक्षताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३</sup>राज्यं हि सततं दुःखमाश्रमाश्च सुदुर्विदाः<br>परिवारेण वै दुःखं दुर्धरं चाकृतात्मभिः<br>भूयिष्ठं च नरेन्द्राणां विद्यते न शुभा गतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४</sup>पूयन्ते तेऽत्र नियतं प्रयच्छन्तो वसुंधराम्<br>पूर्वं च कथिता धर्मास्त्वया मे कुरुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५</sup>एवमेव गवामुक्तं प्रदानं ते नृगेण ह<br>ऋषिणा नाचिकेतेन पूर्वमेव निदर्शितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.६</sup>वेदोपनिषदे चैव सर्वकर्मसु दक्षिणा<br>सर्वक्रतुषु चोद्दिष्टं भूमिर्गावोऽथ काञ्चनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.७</sup>तत्र श्रुतिस्तु परमा सुवर्णं दक्षिणेति वै<br>एतदिच्छाम्यहं श्रोतुं पितामह यथातथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.८</sup>किं सुवर्णं कथं जातं कस्मिन्काले किमात्मकम्<br>किं दानं किं फलं चैव कस्माच्च परमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.९</sup>कस्माद्दानं सुवर्णस्य पूजयन्ति मनीषिणः<br>कस्माच्च दक्षिणार्थं तद्यज्ञकर्मसु शस्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१०</sup>कस्माच्च पावनं श्रेष्ठं भूमेर्गोभ्यश्च काञ्चनम्<br>परमं दक्षिणार्थे च तद्ब्रवीहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.११</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१२</sup>शृणु राजन्नवहितो बहुकारणविस्तरम्<br>जातरूपसमुत्पत्तिमनुभूतं च यन्मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१३</sup>पिता मम महातेजाः शंतनुर्निधनं गतः<br>तस्य दित्सुरहं श्राद्धं गङ्गाद्वारमुपागमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१४</sup>तत्रागम्य पितुः पुत्र श्राद्धकर्म समारभम्<br>माता मे जाह्नवी चैव साहाय्यमकरोत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१५</sup>ततोऽग्रतस्तपःसिद्धानुपवेश्य बहूनृषीन्<br>तोयप्रदानात्प्रभृति कार्याण्यहमथारभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१६</sup>तत्समाप्य यथोद्दिष्टं पूर्वकर्म समाहितः<br>दातुं निर्वपणं सम्यग्यथावदहमारभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१७</sup>ततस्तं दर्भविन्यासं भित्त्वा सुरुचिराङ्गदः<br>प्रलम्बाभरणो बाहुरुदतिष्ठद्विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१८</sup>तमुत्थितमहं दृष्ट्वा परं विस्मयमागमम्<br>प्रतिग्रहीता साक्षान्मे पितेति भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.१९</sup>ततो मे पुनरेवासीत्संज्ञा संचिन्त्य शास्त्रतः<br>नायं वेदेषु विहितो विधिर्हस्त इति प्रभो<br>पिण्डो देयो नरेणेह ततो मतिरभून्मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२०</sup>साक्षान्नेह मनुष्यस्य पितरोऽन्तर्हिताः क्वचित्<br>गृह्णन्ति विहितं त्वेवं पिण्डो देयः कुशेष्विति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२१</sup>ततोऽहं तदनादृत्य पितुर्हस्तनिदर्शनम्<br>शास्त्रप्रमाणात्सूक्ष्मं तु विधिं पार्थिव संस्मरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२२</sup>ततो दर्भेषु तत्सर्वमददं भरतर्षभ<br>शास्त्रमार्गानुसारेण तद्विद्धि मनुजर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२३</sup>ततः सोऽन्तर्हितो बाहुः पितुर्मम नराधिप<br>ततो मां दर्शयामासुः स्वप्नान्ते पितरस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२४</sup>प्रीयमाणास्तु मामूचुः प्रीताः स्म भरतर्षभ<br>विज्ञानेन तवानेन यन्न मुह्यसि धर्मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२५</sup>त्वया हि कुर्वता शास्त्रं प्रमाणमिह पार्थिव<br>आत्मा धर्मः श्रुतं वेदाः पितरश्च महर्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२६</sup>साक्षात्पितामहो ब्रह्मा गुरवोऽथ प्रजापतिः<br>प्रमाणमुपनीता वै स्थितिश्च न विचालिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२७</sup>तदिदं सम्यगारब्धं त्वयाद्य भरतर्षभ<br>किं तु भूमेर्गवां चार्थे सुवर्णं दीयतामिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२८</sup>एवं वयं च धर्मश्च सर्वे चास्मत्पितामहाः<br>पाविता वै भविष्यन्ति पावनं परमं हि तत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.२९</sup>दश पूर्वान्दश परांस्तथा संतारयन्ति ते<br>सुवर्णं ये प्रयच्छन्ति एवं मे पितरोऽब्रुवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३०</sup>ततोऽहं विस्मितो राजन्प्रतिबुद्धो विशां पते<br>सुवर्णदानेऽकरवं मतिं भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३१</sup>इतिहासमिमं चापि शृणु राजन्पुरातनम्<br>जामदग्न्यं प्रति विभो धन्यमायुष्यमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३२</sup>जामदग्न्येन रामेण तीव्ररोषान्वितेन वै<br>त्रिःसप्तकृत्वः पृथिवी कृता निःक्षत्रिया पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३३</sup>ततो जित्वा महीं कृत्स्नां रामो राजीवलोचनः<br>आजहार क्रतुं वीरो ब्रह्मक्षत्रेण पूजितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३४</sup>वाजिमेधं महाराज सर्वकामसमन्वितम्<br>पावनं सर्वभूतानां तेजोद्युतिविवर्धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३५</sup>विपाप्मापि स तेजस्वी तेन क्रतुफलेन वै<br>नैवात्मनोऽथ लघुतां जामदग्न्योऽभ्यगच्छत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३६</sup>स तु क्रतुवरेणेष्ट्वा महात्मा दक्षिणावता<br>पप्रच्छागमसंपन्नानृषीन्देवांश्च भार्गवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३७</sup>पावनं यत्परं नॄणामुग्रे कर्मणि वर्तताम्<br>तदुच्यतां महाभागा इति जातघृणोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३८</sup>वसिष्ठ उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.३९</sup>देवतास्ते प्रयच्छन्ति सुवर्णं ये ददत्युत<br>अग्निर्हि देवताः सर्वाः सुवर्णं च तदात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४०</sup>तस्मात्सुवर्णं ददता दत्ताः सर्वाश्च देवताः<br>भवन्ति पुरुषव्याघ्र न ह्यतः परमं विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४१</sup>भूय एव च माहात्म्यं सुवर्णस्य निबोध मे<br>गदतो मम विप्रर्षे सर्वशस्त्रभृतां वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४२</sup>मया श्रुतमिदं पूर्वं पुराणे भृगुनन्दन<br>प्रजापतेः कथयतो मनोः स्वायंभुवस्य वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४३</sup>शूलपाणेर्भगवतो रुद्रस्य च महात्मनः<br>गिरौ हिमवति श्रेष्ठे तदा भृगुकुलोद्वह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४४</sup>देव्या विवाहे निर्वृत्ते रुद्राण्या भृगुनन्दन<br>समागमे भगवतो देव्या सह महात्मनः<br>ततः सर्वे समुद्विग्ना भगवन्तमुपागमन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४५</sup>ते महादेवमासीनं देवीं च वरदामुमाम्<br>प्रसाद्य शिरसा सर्वे रुद्रमूचुर्भृगूद्वह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४६</sup>अयं समागमो देव देव्या सह तवानघ<br>तपस्विनस्तपस्विन्या तेजस्विन्यातितेजसः<br>अमोघतेजास्त्वं देव देवी चेयमुमा तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४७</sup>अपत्यं युवयोर्देव बलवद्भविता प्रभो<br>तन्नूनं त्रिषु लोकेषु न किंचिच्छेषयिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४८</sup>तदेभ्यः प्रणतेभ्यस्त्वं देवेभ्यः पृथुलोचन<br>वरं प्रयच्छ लोकेश त्रैलोक्यहितकाम्यया<br>अपत्यार्थं निगृह्णीष्व तेजो ज्वलितमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.४९</sup>इति तेषां कथयतां भगवान्गोवृषध्वजः<br>एवमस्त्विति देवांस्तान्विप्रर्षे प्रत्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५०</sup>इत्युक्त्वा चोर्ध्वमनयत्तद्रेतो वृषवाहनः<br>ऊर्ध्वरेताः समभवत्ततःप्रभृति चापि सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५१</sup>रुद्राणी तु ततः क्रुद्धा प्रजोच्छेदे तथा कृते<br>देवानथाब्रवीत्तत्र स्त्रीभावात्परुषं वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५२</sup>यस्मादपत्यकामो वै भर्ता मे विनिवर्तितः<br>तस्मात्सर्वे सुरा यूयमनपत्या भविष्यथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५३</sup>प्रजोच्छेदो मम कृतो यस्माद्युष्माभिरद्य वै<br>तस्मात्प्रजा वः खगमाः सर्वेषां न भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५४</sup>पावकस्तु न तत्रासीच्छापकाले भृगूद्वह<br>देवा देव्यास्तथा शापादनपत्यास्तदाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५५</sup>रुद्रस्तु तेजोऽप्रतिमं धारयामास तत्तदा<br>प्रस्कन्नं तु ततस्तस्मात्किंचित्तत्रापतद्भुवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५६</sup>तत्पपात तदा चाग्नौ ववृधे चाद्भुतोपमम्<br>तेजस्तेजसि संपृक्तमेकयोनित्वमागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५७</sup>एतस्मिन्नेव काले तु देवाः शक्रपुरोगमाः<br>असुरस्तारको नाम तेन संतापिता भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५८</sup>आदित्या वसवो रुद्रा मरुतोऽथाश्विनावपि<br>साध्याश्च सर्वे संत्रस्ता दैतेयस्य पराक्रमात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.५९</sup>स्थानानि देवतानां हि विमानानि पुराणि च<br>ऋषीणामाश्रमाश्चैव बभूवुरसुरैर्हृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.८३.६०</sup>ते दीनमनसः सर्वे देवाश्च ऋषयश्च ह<br>प्रजग्मुः शरणं देवं ब्रह्माणमजरं प्रभुम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२</sup>उक्तं पितामहेनेदं गवां दानमनुत्तमम्<br>विशेषेण नरेन्द्राणामिति धर्ममवेक्षताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३</sup>राज्यं हि सततं दुःखमाश्रमाश्च सुदुर्विदाः<br>परिवारेण वै दुःखं दुर्धरं चाकृतात्मभिः<br>भूयिष्ठं च नरेन्द्राणां विद्यते न शुभा गतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४</sup>पूयन्ते तेऽत्र नियतं प्रयच्छन्तो वसुंधराम्<br>पूर्वं च कथिता धर्मास्त्वया मे कुरुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५</sup>एवमेव गवामुक्तं प्रदानं ते नृगेण ह<br>ऋषिणा नाचिकेतेन पूर्वमेव निदर्शितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.६</sup>वेदोपनिषदे चैव सर्वकर्मसु दक्षिणा<br>सर्वक्रतुषु चोद्दिष्टं भूमिर्गावोऽथ काञ्चनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.७</sup>तत्र श्रुतिस्तु परमा सुवर्णं दक्षिणेति वै<br>एतदिच्छाम्यहं श्रोतुं पितामह यथातथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.८</sup>किं सुवर्णं कथं जातं कस्मिन्काले किमात्मकम्<br>किं दानं किं फलं चैव कस्माच्च परमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.९</sup>कस्माद्दानं सुवर्णस्य पूजयन्ति मनीषिणः<br>कस्माच्च दक्षिणार्थं तद्यज्ञकर्मसु शस्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१०</sup>कस्माच्च पावनं श्रेष्ठं भूमेर्गोभ्यश्च काञ्चनम्<br>परमं दक्षिणार्थे च तद्ब्रवीहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.११</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१२</sup>शृणु राजन्नवहितो बहुकारणविस्तरम्<br>जातरूपसमुत्पत्तिमनुभूतं च यन्मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१३</sup>पिता मम महातेजाः शंतनुर्निधनं गतः<br>तस्य दित्सुरहं श्राद्धं गङ्गाद्वारमुपागमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१४</sup>तत्रागम्य पितुः पुत्र श्राद्धकर्म समारभम्<br>माता मे जाह्नवी चैव साहाय्यमकरोत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१५</sup>ततोऽग्रतस्तपःसिद्धानुपवेश्य बहूनृषीन्<br>तोयप्रदानात्प्रभृति कार्याण्यहमथारभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१६</sup>तत्समाप्य यथोद्दिष्टं पूर्वकर्म समाहितः<br>दातुं निर्वपणं सम्यग्यथावदहमारभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१७</sup>ततस्तं दर्भविन्यासं भित्त्वा सुरुचिराङ्गदः<br>प्रलम्बाभरणो बाहुरुदतिष्ठद्विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१८</sup>तमुत्थितमहं दृष्ट्वा परं विस्मयमागमम्<br>प्रतिग्रहीता साक्षान्मे पितेति भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.१९</sup>ततो मे पुनरेवासीत्संज्ञा संचिन्त्य शास्त्रतः<br>नायं वेदेषु विहितो विधिर्हस्त इति प्रभो<br>पिण्डो देयो नरेणेह ततो मतिरभून्मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२०</sup>साक्षान्नेह मनुष्यस्य पितरोऽन्तर्हिताः क्वचित्<br>गृह्णन्ति विहितं त्वेवं पिण्डो देयः कुशेष्विति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२१</sup>ततोऽहं तदनादृत्य पितुर्हस्तनिदर्शनम्<br>शास्त्रप्रमाणात्सूक्ष्मं तु विधिं पार्थिव संस्मरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२२</sup>ततो दर्भेषु तत्सर्वमददं भरतर्षभ<br>शास्त्रमार्गानुसारेण तद्विद्धि मनुजर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२३</sup>ततः सोऽन्तर्हितो बाहुः पितुर्मम नराधिप<br>ततो मां दर्शयामासुः स्वप्नान्ते पितरस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२४</sup>प्रीयमाणास्तु मामूचुः प्रीताः स्म भरतर्षभ<br>विज्ञानेन तवानेन यन्न मुह्यसि धर्मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२५</sup>त्वया हि कुर्वता शास्त्रं प्रमाणमिह पार्थिव<br>आत्मा धर्मः श्रुतं वेदाः पितरश्च महर्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२६</sup>साक्षात्पितामहो ब्रह्मा गुरवोऽथ प्रजापतिः<br>प्रमाणमुपनीता वै स्थितिश्च न विचालिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२७</sup>तदिदं सम्यगारब्धं त्वयाद्य भरतर्षभ<br>किं तु भूमेर्गवां चार्थे सुवर्णं दीयतामिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२८</sup>एवं वयं च धर्मश्च सर्वे चास्मत्पितामहाः<br>पाविता वै भविष्यन्ति पावनं परमं हि तत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.२९</sup>दश पूर्वान्दश परांस्तथा संतारयन्ति ते<br>सुवर्णं ये प्रयच्छन्ति एवं मे पितरोऽब्रुवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३०</sup>ततोऽहं विस्मितो राजन्प्रतिबुद्धो विशां पते<br>सुवर्णदानेऽकरवं मतिं भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३१</sup>इतिहासमिमं चापि शृणु राजन्पुरातनम्<br>जामदग्न्यं प्रति विभो धन्यमायुष्यमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३२</sup>जामदग्न्येन रामेण तीव्ररोषान्वितेन वै<br>त्रिःसप्तकृत्वः पृथिवी कृता निःक्षत्रिया पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३३</sup>ततो जित्वा महीं कृत्स्नां रामो राजीवलोचनः<br>आजहार क्रतुं वीरो ब्रह्मक्षत्रेण पूजितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३४</sup>वाजिमेधं महाराज सर्वकामसमन्वितम्<br>पावनं सर्वभूतानां तेजोद्युतिविवर्धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३५</sup>विपाप्मापि स तेजस्वी तेन क्रतुफलेन वै<br>नैवात्मनोऽथ लघुतां जामदग्न्योऽभ्यगच्छत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३६</sup>स तु क्रतुवरेणेष्ट्वा महात्मा दक्षिणावता<br>पप्रच्छागमसंपन्नानृषीन्देवांश्च भार्गवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३७</sup>पावनं यत्परं नॄणामुग्रे कर्मणि वर्तताम्<br>तदुच्यतां महाभागा इति जातघृणोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३८</sup>वसिष्ठ उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.३९</sup>देवतास्ते प्रयच्छन्ति सुवर्णं ये ददत्युत<br>अग्निर्हि देवताः सर्वाः सुवर्णं च तदात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४०</sup>तस्मात्सुवर्णं ददता दत्ताः सर्वाश्च देवताः<br>भवन्ति पुरुषव्याघ्र न ह्यतः परमं विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४१</sup>भूय एव च माहात्म्यं सुवर्णस्य निबोध मे<br>गदतो मम विप्रर्षे सर्वशस्त्रभृतां वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४२</sup>मया श्रुतमिदं पूर्वं पुराणे भृगुनन्दन<br>प्रजापतेः कथयतो मनोः स्वायंभुवस्य वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४३</sup>शूलपाणेर्भगवतो रुद्रस्य च महात्मनः<br>गिरौ हिमवति श्रेष्ठे तदा भृगुकुलोद्वह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४४</sup>देव्या विवाहे निर्वृत्ते रुद्राण्या भृगुनन्दन<br>समागमे भगवतो देव्या सह महात्मनः<br>ततः सर्वे समुद्विग्ना भगवन्तमुपागमन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४५</sup>ते महादेवमासीनं देवीं च वरदामुमाम्<br>प्रसाद्य शिरसा सर्वे रुद्रमूचुर्भृगूद्वह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४६</sup>अयं समागमो देव देव्या सह तवानघ<br>तपस्विनस्तपस्विन्या तेजस्विन्यातितेजसः<br>अमोघतेजास्त्वं देव देवी चेयमुमा तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४७</sup>अपत्यं युवयोर्देव बलवद्भविता प्रभो<br>तन्नूनं त्रिषु लोकेषु न किंचिच्छेषयिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४८</sup>तदेभ्यः प्रणतेभ्यस्त्वं देवेभ्यः पृथुलोचन<br>वरं प्रयच्छ लोकेश त्रैलोक्यहितकाम्यया<br>अपत्यार्थं निगृह्णीष्व तेजो ज्वलितमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.४९</sup>इति तेषां कथयतां भगवान्गोवृषध्वजः<br>एवमस्त्विति देवांस्तान्विप्रर्षे प्रत्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५०</sup>इत्युक्त्वा चोर्ध्वमनयत्तद्रेतो वृषवाहनः<br>ऊर्ध्वरेताः समभवत्ततःप्रभृति चापि सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५१</sup>रुद्राणी तु ततः क्रुद्धा प्रजोच्छेदे तथा कृते<br>देवानथाब्रवीत्तत्र स्त्रीभावात्परुषं वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५२</sup>यस्मादपत्यकामो वै भर्ता मे विनिवर्तितः<br>तस्मात्सर्वे सुरा यूयमनपत्या भविष्यथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५३</sup>प्रजोच्छेदो मम कृतो यस्माद्युष्माभिरद्य वै<br>तस्मात्प्रजा वः खगमाः सर्वेषां न भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५४</sup>पावकस्तु न तत्रासीच्छापकाले भृगूद्वह<br>देवा देव्यास्तथा शापादनपत्यास्तदाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५५</sup>रुद्रस्तु तेजोऽप्रतिमं धारयामास तत्तदा<br>प्रस्कन्नं तु ततस्तस्मात्किंचित्तत्रापतद्भुवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५६</sup>तत्पपात तदा चाग्नौ ववृधे चाद्भुतोपमम्<br>तेजस्तेजसि संपृक्तमेकयोनित्वमागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५७</sup>एतस्मिन्नेव काले तु देवाः शक्रपुरोगमाः<br>असुरस्तारको नाम तेन संतापिता भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५८</sup>आदित्या वसवो रुद्रा मरुतोऽथाश्विनावपि<br>साध्याश्च सर्वे संत्रस्ता दैतेयस्य पराक्रमात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.५९</sup>स्थानानि देवतानां हि विमानानि पुराणि च<br>ऋषीणामाश्रमाश्चैव बभूवुरसुरैर्हृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.८३.६०</sup>ते दीनमनसः सर्वे देवाश्च ऋषयश्च ह<br>प्रजग्मुः शरणं देवं ब्रह्माणमजरं प्रभुम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -261,8 +254,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

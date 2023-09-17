@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/112.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:११३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/114.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,109 +64,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/112.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:११३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/114.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.२</sup>एवमुक्तः सुपर्णेन तथ्यं वचनमुत्तमम्<br>विमृश्यावहितो राजा निश्चित्य च पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.३</sup>यष्टा क्रतुसहस्राणां दाता दानपतिः प्रभुः<br>ययातिर्वत्सकाशीश इदं वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.४</sup>दृष्ट्वा प्रियसखं तार्क्ष्यं गालवं च द्विजर्षभम्<br>निदर्शनं च तपसो भिक्षां श्लाघ्यां च कीर्तिताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.५</sup>अतीत्य च नृपानन्यानादित्यकुलसंभवान्<br>मत्सकाशमनुप्राप्तावेतौ बुद्धिमवेक्ष्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.६</sup>अद्य मे सफलं जन्म तारितं चाद्य मे कुलम्<br>अद्यायं तारितो देशो मम तार्क्ष्य त्वयानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.७</sup>वक्तुमिच्छामि तु सखे यथा जानासि मां पुरा<br>न तथा वित्तवानस्मि क्षीणं वित्तं हि मे सखे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.८</sup>न च शक्तोऽस्मि ते कर्तुं मोघमागमनं खग<br>न चाशामस्य विप्रर्षेर्वितथां कर्तुमुत्सहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.९</sup>तत्तु दास्यामि यत्कार्यमिदं संपादयिष्यति<br>अभिगम्य हताशो हि निवृत्तो दहते कुलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१०</sup>नातः परं वैनतेय किंचित्पापिष्ठमुच्यते<br>यथाशानाशनं लोके देहि नास्तीति वा वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.११</sup>हताशो ह्यकृतार्थः सन्हतः संभावितो नरः<br>हिनस्ति तस्य पुत्रांश्च पौत्रांश्चाकुर्वतोऽर्थिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१२</sup>तस्माच्चतुर्णां वंशानां स्थापयित्री सुता मम<br>इयं सुरसुतप्रख्या सर्वधर्मोपचायिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१३</sup>सदा देवमनुष्याणामसुराणां च गालव<br>काङ्क्षिता रूपतो बाला सुता मे प्रतिगृह्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१४</sup>अस्याः शुल्कं प्रदास्यन्ति नृपा राज्यमपि ध्रुवम्<br>किं पुनः श्यामकर्णानां हयानां द्वे चतुःशते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१५</sup>स भवान्प्रतिगृह्णातु ममेमां माधवीं सुताम्<br>अहं दौहित्रवान्स्यां वै वर एष मम प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१६</sup>प्रतिगृह्य च तां कन्यां गालवः सह पक्षिणा<br>पुनर्द्रक्ष्याव इत्युक्त्वा प्रतस्थे सह कन्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१७</sup>उपलब्धमिदं द्वारमश्वानामिति चाण्डजः<br>उक्त्वा गालवमापृच्छ्य जगाम भवनं स्वकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१८</sup>गते पतगराजे तु गालवः सह कन्यया<br>चिन्तयानः क्षमं दाने राज्ञां वै शुल्कतोऽगमत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.१९</sup>सोऽगच्छन्मनसेक्ष्वाकुं हर्यश्वं राजसत्तमम्<br>अयोध्यायां महावीर्यं चतुरङ्गबलान्वितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.२०</sup>कोशधान्यबलोपेतं प्रियपौरं द्विजप्रियम्<br>प्रजाभिकामं शाम्यन्तं कुर्वाणं तप उत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.२१</sup>तमुपागम्य विप्रः स हर्यश्वं गालवोऽब्रवीत्<br>कन्येयं मम राजेन्द्र प्रसवैः कुलवर्धिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.११३.२२</sup>इयं शुल्केन भार्यार्थे हर्यश्व प्रतिगृह्यताम्<br>शुल्कं ते कीर्तयिष्यामि तच्छ्रुत्वा संप्रधार्यताम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.२</sup>एवमुक्तः सुपर्णेन तथ्यं वचनमुत्तमम्<br>विमृश्यावहितो राजा निश्चित्य च पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.३</sup>यष्टा क्रतुसहस्राणां दाता दानपतिः प्रभुः<br>ययातिर्वत्सकाशीश इदं वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.४</sup>दृष्ट्वा प्रियसखं तार्क्ष्यं गालवं च द्विजर्षभम्<br>निदर्शनं च तपसो भिक्षां श्लाघ्यां च कीर्तिताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.५</sup>अतीत्य च नृपानन्यानादित्यकुलसंभवान्<br>मत्सकाशमनुप्राप्तावेतौ बुद्धिमवेक्ष्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.६</sup>अद्य मे सफलं जन्म तारितं चाद्य मे कुलम्<br>अद्यायं तारितो देशो मम तार्क्ष्य त्वयानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.७</sup>वक्तुमिच्छामि तु सखे यथा जानासि मां पुरा<br>न तथा वित्तवानस्मि क्षीणं वित्तं हि मे सखे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.८</sup>न च शक्तोऽस्मि ते कर्तुं मोघमागमनं खग<br>न चाशामस्य विप्रर्षेर्वितथां कर्तुमुत्सहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.९</sup>तत्तु दास्यामि यत्कार्यमिदं संपादयिष्यति<br>अभिगम्य हताशो हि निवृत्तो दहते कुलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१०</sup>नातः परं वैनतेय किंचित्पापिष्ठमुच्यते<br>यथाशानाशनं लोके देहि नास्तीति वा वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.११</sup>हताशो ह्यकृतार्थः सन्हतः संभावितो नरः<br>हिनस्ति तस्य पुत्रांश्च पौत्रांश्चाकुर्वतोऽर्थिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१२</sup>तस्माच्चतुर्णां वंशानां स्थापयित्री सुता मम<br>इयं सुरसुतप्रख्या सर्वधर्मोपचायिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१३</sup>सदा देवमनुष्याणामसुराणां च गालव<br>काङ्क्षिता रूपतो बाला सुता मे प्रतिगृह्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१४</sup>अस्याः शुल्कं प्रदास्यन्ति नृपा राज्यमपि ध्रुवम्<br>किं पुनः श्यामकर्णानां हयानां द्वे चतुःशते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१५</sup>स भवान्प्रतिगृह्णातु ममेमां माधवीं सुताम्<br>अहं दौहित्रवान्स्यां वै वर एष मम प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१६</sup>प्रतिगृह्य च तां कन्यां गालवः सह पक्षिणा<br>पुनर्द्रक्ष्याव इत्युक्त्वा प्रतस्थे सह कन्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१७</sup>उपलब्धमिदं द्वारमश्वानामिति चाण्डजः<br>उक्त्वा गालवमापृच्छ्य जगाम भवनं स्वकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१८</sup>गते पतगराजे तु गालवः सह कन्यया<br>चिन्तयानः क्षमं दाने राज्ञां वै शुल्कतोऽगमत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.१९</sup>सोऽगच्छन्मनसेक्ष्वाकुं हर्यश्वं राजसत्तमम्<br>अयोध्यायां महावीर्यं चतुरङ्गबलान्वितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.२०</sup>कोशधान्यबलोपेतं प्रियपौरं द्विजप्रियम्<br>प्रजाभिकामं शाम्यन्तं कुर्वाणं तप उत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.२१</sup>तमुपागम्य विप्रः स हर्यश्वं गालवोऽब्रवीत्<br>कन्येयं मम राजेन्द्र प्रसवैः कुलवर्धिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.११३.२२</sup>इयं शुल्केन भार्यार्थे हर्यश्व प्रतिगृह्यताम्<br>शुल्कं ते कीर्तयिष्यामि तच्छ्रुत्वा संप्रधार्यताम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -147,8 +140,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

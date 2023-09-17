@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/135.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१३६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/137.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/135.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१३६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/137.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१</sup>यवक्रीरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२</sup>प्रतिभास्यन्ति वै वेदा मम तातस्य चोभयोः<br>अति चान्यान्भविष्यावो वरा लब्धास्तथा मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.३</sup>भरद्वाज उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.४</sup>दर्पस्ते भविता तात वराँल्लब्ध्वा यथेप्सितान्<br>स दर्पपूर्णः कृपणः क्षिप्रमेव विनश्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.५</sup>अत्राप्युदाहरन्तीमा गाथा देवैरुदाहृताः<br>ऋषिरासीत्पुरा पुत्र बालधिर्नाम वीर्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.६</sup>स पुत्रशोकादुद्विग्नस्तपस्तेपे सुदुश्चरम्<br>भवेन्मम सुतोऽमर्त्य इति तं लब्धवांश्च सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.७</sup>तस्य प्रसादो देवैश्च कृतो न त्वमरैः समः<br>नामर्त्यो विद्यते मर्त्यो निमित्तायुर्भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.८</sup>बालधिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.९</sup>यथेमे पर्वताः शश्वत्तिष्ठन्ति सुरसत्तमाः<br>अक्षयास्तन्निमित्तं मे सुतस्यायुर्भवेदिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१०</sup>भरद्वाज उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.११</sup>तस्य पुत्रस्तदा जज्ञे मेधावी क्रोधनः सदा<br>स तच्छ्रुत्वाकरोद्दर्पमृषींश्चैवावमन्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१२</sup>विकुर्वाणो मुनीनां तु चरमाणो महीमिमाम्<br>आससाद महावीर्यं धनुषाक्षं मनीषिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१३</sup>तस्यापचक्रे मेधावी तं शशाप स वीर्यवान्<br>भव भस्मेति चोक्तः स न भस्म समपद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१४</sup>धनुषाक्षस्तु तं दृष्ट्वा मेधाविनमनामयम्<br>निमित्तमस्य महिषैर्भेदयामास वीर्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१५</sup>स निमित्ते विनष्टे तु ममार सहसा शिशुः<br>तं मृतं पुत्रमादाय विललाप ततः पिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१६</sup>लालप्यमानं तं दृष्ट्वा मुनयः पुनरार्तवत्<br>ऊचुर्वेदोक्तया पूर्वं गाथया तन्निबोध मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१७</sup>न दिष्टमर्थमत्येतुमीशो मर्त्यः कथंचन<br>महिषैर्भेदयामास धनुषाक्षो महीधरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१८</sup>एवं लब्ध्वा वरान्बाला दर्पपूर्णास्तरस्विनः<br>क्षिप्रमेव विनश्यन्ति यथा न स्यात्तथा भवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.१९</sup>एष रैभ्यो महावीर्यः पुत्रौ चास्य तथाविधौ<br>तं यथा पुत्र नाभ्येषि तथा कुर्यास्त्वतन्द्रितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२०</sup>स हि क्रुद्धः समर्थस्त्वां पुत्र पीडयितुं रुषा<br>वैद्यश्चापि तपस्वी च कोपनश्च महानृषिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२१</sup>यवक्रीरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२२</sup>एवं करिष्ये मा तापं तात कार्षीः कथंचन<br>यथा हि मे भवान्मान्यस्तथा रैभ्यः पिता मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२३</sup>लोमश उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३६.२४</sup>उक्त्वा स पितरं श्लक्ष्णं यवक्रीरकुतोभयः<br>विप्रकुर्वन्नृषीनन्यानतुष्यत्परया मुदा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१</sup>यवक्रीरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२</sup>प्रतिभास्यन्ति वै वेदा मम तातस्य चोभयोः<br>अति चान्यान्भविष्यावो वरा लब्धास्तथा मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.३</sup>भरद्वाज उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.४</sup>दर्पस्ते भविता तात वराँल्लब्ध्वा यथेप्सितान्<br>स दर्पपूर्णः कृपणः क्षिप्रमेव विनश्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.५</sup>अत्राप्युदाहरन्तीमा गाथा देवैरुदाहृताः<br>ऋषिरासीत्पुरा पुत्र बालधिर्नाम वीर्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.६</sup>स पुत्रशोकादुद्विग्नस्तपस्तेपे सुदुश्चरम्<br>भवेन्मम सुतोऽमर्त्य इति तं लब्धवांश्च सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.७</sup>तस्य प्रसादो देवैश्च कृतो न त्वमरैः समः<br>नामर्त्यो विद्यते मर्त्यो निमित्तायुर्भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.८</sup>बालधिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.९</sup>यथेमे पर्वताः शश्वत्तिष्ठन्ति सुरसत्तमाः<br>अक्षयास्तन्निमित्तं मे सुतस्यायुर्भवेदिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१०</sup>भरद्वाज उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.११</sup>तस्य पुत्रस्तदा जज्ञे मेधावी क्रोधनः सदा<br>स तच्छ्रुत्वाकरोद्दर्पमृषींश्चैवावमन्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१२</sup>विकुर्वाणो मुनीनां तु चरमाणो महीमिमाम्<br>आससाद महावीर्यं धनुषाक्षं मनीषिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१३</sup>तस्यापचक्रे मेधावी तं शशाप स वीर्यवान्<br>भव भस्मेति चोक्तः स न भस्म समपद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१४</sup>धनुषाक्षस्तु तं दृष्ट्वा मेधाविनमनामयम्<br>निमित्तमस्य महिषैर्भेदयामास वीर्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१५</sup>स निमित्ते विनष्टे तु ममार सहसा शिशुः<br>तं मृतं पुत्रमादाय विललाप ततः पिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१६</sup>लालप्यमानं तं दृष्ट्वा मुनयः पुनरार्तवत्<br>ऊचुर्वेदोक्तया पूर्वं गाथया तन्निबोध मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१७</sup>न दिष्टमर्थमत्येतुमीशो मर्त्यः कथंचन<br>महिषैर्भेदयामास धनुषाक्षो महीधरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१८</sup>एवं लब्ध्वा वरान्बाला दर्पपूर्णास्तरस्विनः<br>क्षिप्रमेव विनश्यन्ति यथा न स्यात्तथा भवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.१९</sup>एष रैभ्यो महावीर्यः पुत्रौ चास्य तथाविधौ<br>तं यथा पुत्र नाभ्येषि तथा कुर्यास्त्वतन्द्रितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२०</sup>स हि क्रुद्धः समर्थस्त्वां पुत्र पीडयितुं रुषा<br>वैद्यश्चापि तपस्वी च कोपनश्च महानृषिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२१</sup>यवक्रीरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२२</sup>एवं करिष्ये मा तापं तात कार्षीः कथंचन<br>यथा हि मे भवान्मान्यस्तथा रैभ्यः पिता मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२३</sup>लोमश उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३६.२४</sup>उक्त्वा स पितरं श्लक्ष्णं यवक्रीरकुतोभयः<br>विप्रकुर्वन्नृषीनन्यानतुष्यत्परया मुदा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

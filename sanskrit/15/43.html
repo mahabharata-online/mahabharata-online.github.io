@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/42.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:४३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/44.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/42.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:४३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/44.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.२</sup>अदृष्ट्वा तु नृपः पुत्रान्दर्शनं प्रतिलब्धवान्<br>ऋषिप्रसादात्पुत्राणां स्वरूपाणां कुरूद्वह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.३</sup>स राजा राजधर्मांश्च ब्रह्मोपनिषदं तथा<br>अवाप्तवान्नरश्रेष्ठो बुद्धिनिश्चयमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.४</sup>विदुरश्च महाप्राज्ञो ययौ सिद्धिं तपोबलात्<br>धृतराष्ट्रः समासाद्य व्यासं चापि तपस्विनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.५</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.६</sup>ममापि वरदो व्यासो दर्शयेत्पितरं यदि<br>तद्रूपवेषवयसं श्रद्दध्यां सर्वमेव ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.७</sup>प्रियं मे स्यात्कृतार्थश्च स्यामहं कृतनिश्चयः<br>प्रसादादृषिपुत्रस्य मम कामः समृध्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.८</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.९</sup>इत्युक्तवचने तस्मिन्नृपे व्यासः प्रतापवान्<br>प्रसादमकरोद्धीमानानयच्च परिक्षितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१०</sup>ततस्तद्रूपवयसमागतं नृपतिं दिवः<br>श्रीमन्तं पितरं राजा ददर्श जनमेजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.११</sup>शमीकं च महात्मानं पुत्रं तं चास्य शृङ्गिणम्<br>अमात्या ये बभूवुश्च राज्ञस्तांश्च ददर्श ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१२</sup>ततः सोऽवभृथे राजा मुदितो जनमेजयः<br>पितरं स्नापयामास स्वयं सस्नौ च पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१३</sup>स्नात्वा च भरतश्रेष्ठः सोऽऽस्तीकमिदमब्रवीत्<br>यायावरकुलोत्पन्नं जरत्कारुसुतं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१४</sup>आस्तीक विविधाश्चर्यो यज्ञोऽयमिति मे मतिः<br>यदद्यायं पिता प्राप्तो मम शोकप्रणाशनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१५</sup>आस्तीक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१६</sup>ऋषिर्द्वैपायनो यत्र पुराणस्तपसो निधिः<br>यज्ञे कुरुकुलश्रेष्ठ तस्य लोकावुभौ जितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१७</sup>श्रुतं विचित्रमाख्यानं त्वया पाण्डवनन्दन<br>सर्पाश्च भस्मसान्नीता गताश्च पदवीं पितुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१८</sup>कथंचित्तक्षको मुक्तः सत्यत्वात्तव पार्थिव<br>ऋषयः पूजिताः सर्वे गतिं दृष्ट्वा महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.१९</sup>प्राप्तः सुविपुलो धर्मः श्रुत्वा पापविनाशनम्<br>विमुक्तो हृदयग्रन्थिरुदारजनदर्शनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.२०</sup>ये च पक्षधरा धर्मे सद्वृत्तरुचयश्च ये<br>यान्दृष्ट्वा हीयते पापं तेभ्यः कार्या नमस्क्रियाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.२१</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.२२</sup>एतच्छ्रुत्वा द्विजश्रेष्ठात्स राजा जनमेजयः<br>पूजयामास तमृषिमनुमान्य पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४३.२३</sup>पप्रच्छ तमृषिं चापि वैशंपायनमच्युतम्<br>कथावशेषं धर्मज्ञो वनवासस्य सत्तम
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.२</sup>अदृष्ट्वा तु नृपः पुत्रान्दर्शनं प्रतिलब्धवान्<br>ऋषिप्रसादात्पुत्राणां स्वरूपाणां कुरूद्वह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.३</sup>स राजा राजधर्मांश्च ब्रह्मोपनिषदं तथा<br>अवाप्तवान्नरश्रेष्ठो बुद्धिनिश्चयमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.४</sup>विदुरश्च महाप्राज्ञो ययौ सिद्धिं तपोबलात्<br>धृतराष्ट्रः समासाद्य व्यासं चापि तपस्विनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.५</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.६</sup>ममापि वरदो व्यासो दर्शयेत्पितरं यदि<br>तद्रूपवेषवयसं श्रद्दध्यां सर्वमेव ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.७</sup>प्रियं मे स्यात्कृतार्थश्च स्यामहं कृतनिश्चयः<br>प्रसादादृषिपुत्रस्य मम कामः समृध्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.८</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.९</sup>इत्युक्तवचने तस्मिन्नृपे व्यासः प्रतापवान्<br>प्रसादमकरोद्धीमानानयच्च परिक्षितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१०</sup>ततस्तद्रूपवयसमागतं नृपतिं दिवः<br>श्रीमन्तं पितरं राजा ददर्श जनमेजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.११</sup>शमीकं च महात्मानं पुत्रं तं चास्य शृङ्गिणम्<br>अमात्या ये बभूवुश्च राज्ञस्तांश्च ददर्श ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१२</sup>ततः सोऽवभृथे राजा मुदितो जनमेजयः<br>पितरं स्नापयामास स्वयं सस्नौ च पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१३</sup>स्नात्वा च भरतश्रेष्ठः सोऽऽस्तीकमिदमब्रवीत्<br>यायावरकुलोत्पन्नं जरत्कारुसुतं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१४</sup>आस्तीक विविधाश्चर्यो यज्ञोऽयमिति मे मतिः<br>यदद्यायं पिता प्राप्तो मम शोकप्रणाशनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१५</sup>आस्तीक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१६</sup>ऋषिर्द्वैपायनो यत्र पुराणस्तपसो निधिः<br>यज्ञे कुरुकुलश्रेष्ठ तस्य लोकावुभौ जितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१७</sup>श्रुतं विचित्रमाख्यानं त्वया पाण्डवनन्दन<br>सर्पाश्च भस्मसान्नीता गताश्च पदवीं पितुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१८</sup>कथंचित्तक्षको मुक्तः सत्यत्वात्तव पार्थिव<br>ऋषयः पूजिताः सर्वे गतिं दृष्ट्वा महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.१९</sup>प्राप्तः सुविपुलो धर्मः श्रुत्वा पापविनाशनम्<br>विमुक्तो हृदयग्रन्थिरुदारजनदर्शनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.२०</sup>ये च पक्षधरा धर्मे सद्वृत्तरुचयश्च ये<br>यान्दृष्ट्वा हीयते पापं तेभ्यः कार्या नमस्क्रियाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.२१</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.२२</sup>एतच्छ्रुत्वा द्विजश्रेष्ठात्स राजा जनमेजयः<br>पूजयामास तमृषिमनुमान्य पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४३.२३</sup>पप्रच्छ तमृषिं चापि वैशंपायनमच्युतम्<br>कथावशेषं धर्मज्ञो वनवासस्य सत्तम
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

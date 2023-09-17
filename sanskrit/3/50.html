@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/49.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:५०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/51.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,139 +64,104 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/49.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:५०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/51.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१</sup>बृहदश्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२</sup>आसीद्राजा नलो नाम वीरसेनसुतो बली<br>उपपन्नो गुणैरिष्टै रूपवानश्वकोविदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.३</sup>अतिष्ठन्मनुजेन्द्राणां मूर्ध्नि देवपतिर्यथा<br>उपर्युपरि सर्वेषामादित्य इव तेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.४</sup>ब्रह्मण्यो वेदविच्छूरो निषधेषु महीपतिः<br>अक्षप्रियः सत्यवादी महानक्षौहिणीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.५</sup>ईप्सितो वरनारीणामुदारः संयतेन्द्रियः<br>रक्षिता धन्विनां श्रेष्ठः साक्षादिव मनुः स्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.६</sup>तथैवासीद्विदर्भेषु भीमो भीमपराक्रमः<br>शूरः सर्वगुणैर्युक्तः प्रजाकामः स चाप्रजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.७</sup>स प्रजार्थे परं यत्नमकरोत्सुसमाहितः<br>तमभ्यगच्छद्ब्रह्मर्षिर्दमनो नाम भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.८</sup>तं स भीमः प्रजाकामस्तोषयामास धर्मवित्<br>महिष्या सह राजेन्द्र सत्कारेण सुवर्चसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.९</sup>तस्मै प्रसन्नो दमनः सभार्याय वरं ददौ<br>कन्यारत्नं कुमारांश्च त्रीनुदारान्महायशाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१०</sup>दमयन्तीं दमं दान्तं दमनं च सुवर्चसम्<br>उपपन्नान्गुणैः सर्वैर्भीमान्भीमपराक्रमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.११</sup>दमयन्ती तु रूपेण तेजसा यशसा श्रिया<br>सौभाग्येन च लोकेषु यशः प्राप सुमध्यमा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१२</sup>अथ तां वयसि प्राप्ते दासीनां समलंकृतम्<br>शतं सखीनां च तथा पर्युपास्ते शचीमिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१३</sup>तत्र स्म भ्राजते भैमी सर्वाभरणभूषिता<br>सखीमध्येऽनवद्याङ्गी विद्युत्सौदामिनी यथा<br>अतीव रूपसंपन्ना श्रीरिवायतलोचना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१४</sup>न देवेषु न यक्षेषु तादृग्रूपवती क्वचित्<br>मानुषेष्वपि चान्येषु दृष्टपूर्वा न च श्रुता<br>चित्तप्रमाथिनी बाला देवानामपि सुन्दरी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१५</sup>नलश्च नरशार्दूलो रूपेणाप्रतिमो भुवि<br>कन्दर्प इव रूपेण मूर्तिमानभवत्स्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१६</sup>तस्याः समीपे तु नलं प्रशशंसुः कुतूहलात्<br>नैषधस्य समीपे तु दमयन्तीं पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१७</sup>तयोरदृष्टकामोऽभूच्छृण्वतोः सततं गुणान्<br>अन्योन्यं प्रति कौन्तेय स व्यवर्धत हृच्छयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१८</sup>अशक्नुवन्नलः कामं तदा धारयितुं हृदा<br>अन्तःपुरसमीपस्थे वन आस्ते रहोगतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.१९</sup>स ददर्श तदा हंसाञ्जातरूपपरिच्छदान्<br>वने विचरतां तेषामेकं जग्राह पक्षिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२०</sup>ततोऽन्तरिक्षगो वाचं व्याजहार तदा नलम्<br>न हन्तव्योऽस्मि ते राजन्करिष्यामि हि ते प्रियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२१</sup>दमयन्तीसकाशे त्वां कथयिष्यामि नैषध<br>यथा त्वदन्यं पुरुषं न सा मंस्यति कर्हिचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२२</sup>एवमुक्तस्ततो हंसमुत्ससर्ज महीपतिः<br>ते तु हंसाः समुत्पत्य विदर्भानगमंस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२३</sup>विदर्भनगरीं गत्वा दमयन्त्यास्तदान्तिके<br>निपेतुस्ते गरुत्मन्तः सा ददर्शाथ तान्खगान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२४</sup>सा तानद्भुतरूपान्वै दृष्ट्वा सखिगणावृता<br>हृष्टा ग्रहीतुं खगमांस्त्वरमाणोपचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२५</sup>अथ हंसा विससृपुः सर्वतः प्रमदावने<br>एकैकशस्ततः कन्यास्तान्हंसान्समुपाद्रवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२६</sup>दमयन्ती तु यं हंसं समुपाधावदन्तिके<br>स मानुषीं गिरं कृत्वा दमयन्तीमथाब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२७</sup>दमयन्ति नलो नाम निषधेषु महीपतिः<br>अश्विनोः सदृशो रूपे न समास्तस्य मानुषाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२८</sup>तस्य वै यदि भार्या त्वं भवेथा वरवर्णिनि<br>सफलं ते भवेज्जन्म रूपं चेदं सुमध्यमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.२९</sup>वयं हि देवगन्धर्वमनुष्योरगराक्षसान्<br>दृष्टवन्तो न चास्माभिर्दृष्टपूर्वस्तथाविधः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.३०</sup>त्वं चापि रत्नं नारीणां नरेषु च नलो वरः<br>विशिष्टाया विशिष्टेन संगमो गुणवान्भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.३१</sup>एवमुक्ता तु हंसेन दमयन्ती विशां पते<br>अब्रवीत्तत्र तं हंसं तमप्येवं नलं वद
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.५०.३२</sup>तथेत्युक्त्वाण्डजः कन्यां वैदर्भस्य विशां पते<br>पुनरागम्य निषधान्नले सर्वं न्यवेदयत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१</sup>बृहदश्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२</sup>आसीद्राजा नलो नाम वीरसेनसुतो बली<br>उपपन्नो गुणैरिष्टै रूपवानश्वकोविदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.३</sup>अतिष्ठन्मनुजेन्द्राणां मूर्ध्नि देवपतिर्यथा<br>उपर्युपरि सर्वेषामादित्य इव तेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.४</sup>ब्रह्मण्यो वेदविच्छूरो निषधेषु महीपतिः<br>अक्षप्रियः सत्यवादी महानक्षौहिणीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.५</sup>ईप्सितो वरनारीणामुदारः संयतेन्द्रियः<br>रक्षिता धन्विनां श्रेष्ठः साक्षादिव मनुः स्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.६</sup>तथैवासीद्विदर्भेषु भीमो भीमपराक्रमः<br>शूरः सर्वगुणैर्युक्तः प्रजाकामः स चाप्रजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.७</sup>स प्रजार्थे परं यत्नमकरोत्सुसमाहितः<br>तमभ्यगच्छद्ब्रह्मर्षिर्दमनो नाम भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.८</sup>तं स भीमः प्रजाकामस्तोषयामास धर्मवित्<br>महिष्या सह राजेन्द्र सत्कारेण सुवर्चसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.९</sup>तस्मै प्रसन्नो दमनः सभार्याय वरं ददौ<br>कन्यारत्नं कुमारांश्च त्रीनुदारान्महायशाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१०</sup>दमयन्तीं दमं दान्तं दमनं च सुवर्चसम्<br>उपपन्नान्गुणैः सर्वैर्भीमान्भीमपराक्रमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.११</sup>दमयन्ती तु रूपेण तेजसा यशसा श्रिया<br>सौभाग्येन च लोकेषु यशः प्राप सुमध्यमा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१२</sup>अथ तां वयसि प्राप्ते दासीनां समलंकृतम्<br>शतं सखीनां च तथा पर्युपास्ते शचीमिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१३</sup>तत्र स्म भ्राजते भैमी सर्वाभरणभूषिता<br>सखीमध्येऽनवद्याङ्गी विद्युत्सौदामिनी यथा<br>अतीव रूपसंपन्ना श्रीरिवायतलोचना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१४</sup>न देवेषु न यक्षेषु तादृग्रूपवती क्वचित्<br>मानुषेष्वपि चान्येषु दृष्टपूर्वा न च श्रुता<br>चित्तप्रमाथिनी बाला देवानामपि सुन्दरी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१५</sup>नलश्च नरशार्दूलो रूपेणाप्रतिमो भुवि<br>कन्दर्प इव रूपेण मूर्तिमानभवत्स्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१६</sup>तस्याः समीपे तु नलं प्रशशंसुः कुतूहलात्<br>नैषधस्य समीपे तु दमयन्तीं पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१७</sup>तयोरदृष्टकामोऽभूच्छृण्वतोः सततं गुणान्<br>अन्योन्यं प्रति कौन्तेय स व्यवर्धत हृच्छयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१८</sup>अशक्नुवन्नलः कामं तदा धारयितुं हृदा<br>अन्तःपुरसमीपस्थे वन आस्ते रहोगतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.१९</sup>स ददर्श तदा हंसाञ्जातरूपपरिच्छदान्<br>वने विचरतां तेषामेकं जग्राह पक्षिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२०</sup>ततोऽन्तरिक्षगो वाचं व्याजहार तदा नलम्<br>न हन्तव्योऽस्मि ते राजन्करिष्यामि हि ते प्रियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२१</sup>दमयन्तीसकाशे त्वां कथयिष्यामि नैषध<br>यथा त्वदन्यं पुरुषं न सा मंस्यति कर्हिचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२२</sup>एवमुक्तस्ततो हंसमुत्ससर्ज महीपतिः<br>ते तु हंसाः समुत्पत्य विदर्भानगमंस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२३</sup>विदर्भनगरीं गत्वा दमयन्त्यास्तदान्तिके<br>निपेतुस्ते गरुत्मन्तः सा ददर्शाथ तान्खगान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२४</sup>सा तानद्भुतरूपान्वै दृष्ट्वा सखिगणावृता<br>हृष्टा ग्रहीतुं खगमांस्त्वरमाणोपचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२५</sup>अथ हंसा विससृपुः सर्वतः प्रमदावने<br>एकैकशस्ततः कन्यास्तान्हंसान्समुपाद्रवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२६</sup>दमयन्ती तु यं हंसं समुपाधावदन्तिके<br>स मानुषीं गिरं कृत्वा दमयन्तीमथाब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२७</sup>दमयन्ति नलो नाम निषधेषु महीपतिः<br>अश्विनोः सदृशो रूपे न समास्तस्य मानुषाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२८</sup>तस्य वै यदि भार्या त्वं भवेथा वरवर्णिनि<br>सफलं ते भवेज्जन्म रूपं चेदं सुमध्यमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.२९</sup>वयं हि देवगन्धर्वमनुष्योरगराक्षसान्<br>दृष्टवन्तो न चास्माभिर्दृष्टपूर्वस्तथाविधः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.३०</sup>त्वं चापि रत्नं नारीणां नरेषु च नलो वरः<br>विशिष्टाया विशिष्टेन संगमो गुणवान्भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.३१</sup>एवमुक्ता तु हंसेन दमयन्ती विशां पते<br>अब्रवीत्तत्र तं हंसं तमप्येवं नलं वद
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.५०.३२</sup>तथेत्युक्त्वाण्डजः कन्यां वैदर्भस्य विशां पते<br>पुनरागम्य निषधान्नले सर्वं न्यवेदयत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -177,8 +170,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

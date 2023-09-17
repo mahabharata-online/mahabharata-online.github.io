@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/319.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:३२०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/321.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,169 +64,134 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/319.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:३२०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/321.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२</sup>इत्येवमुक्त्वा वचनं ब्रह्मर्षिः सुमहातपाः<br>प्रातिष्ठत शुकः सिद्धिं हित्वा लोकांश्चतुर्विधान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३</sup>तमो ह्यष्टविधं हित्वा जहौ पञ्चविधं रजः<br>ततः सत्त्वं जहौ धीमांस्तदद्भुतमिवाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.४</sup>ततस्तस्मिन्पदे नित्ये निर्गुणे लिङ्गवर्जिते<br>ब्रह्मणि प्रत्यतिष्ठत्स विधूमोऽग्निरिव ज्वलन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.५</sup>उल्कापाता दिशां दाहा भूमिकम्पास्तथैव च<br>प्रादुर्भूताः क्षणे तस्मिंस्तदद्भुतमिवाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.६</sup>द्रुमाः शाखाश्च मुमुचुः शिखराणि च पर्वताः<br>निर्घातशब्दैश्च गिरिर्हिमवान्दीर्यतीव ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.७</sup>न बभासे सहस्रांशुर्न जज्वाल च पावकः<br>ह्रदाश्च सरितश्चैव चुक्षुभुः सागरास्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.८</sup>ववर्ष वासवस्तोयं रसवच्च सुगन्धि च<br>ववौ समीरणश्चापि दिव्यगन्धवहः शुचिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.९</sup>स शृङ्गेऽप्रतिमे दिव्ये हिमवन्मेरुसंभवे<br>संश्लिष्टे श्वेतपीते द्वे रुक्मरूप्यमये शुभे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१०</sup>शतयोजनविस्तारे तिर्यगूर्ध्वं च भारत<br>उदीचीं दिशमाश्रित्य रुचिरे संददर्श ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.११</sup>सोऽविशङ्केन मनसा तथैवाभ्यपतच्छुकः<br>ततः पर्वतशृङ्गे द्वे सहसैव द्विधाकृते<br>अदृश्येतां महाराज तदद्भुतमिवाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१२</sup>ततः पर्वतशृङ्गाभ्यां सहसैव विनिःसृतः<br>न च प्रतिजघानास्य स गतिं पर्वतोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१३</sup>ततो महानभूच्छब्दो दिवि सर्वदिवौकसाम्<br>गन्धर्वाणामृषीणां च ये च शैलनिवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१४</sup>दृष्ट्वा शुकमतिक्रान्तं पर्वतं च द्विधाकृतम्<br>साधु साध्विति तत्रासीन्नादः सर्वत्र भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१५</sup>स पूज्यमानो देवैश्च गन्धर्वैरृषिभिस्तथा<br>यक्षराक्षससंघैश्च विद्याधरगणैस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१६</sup>दिव्यैः पुष्पैः समाकीर्णमन्तरिक्षं समन्ततः<br>आसीत्किल महाराज शुकाभिपतने तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१७</sup>ततो मन्दाकिनीं रम्यामुपरिष्टादभिव्रजन्<br>शुको ददर्श धर्मात्मा पुष्पितद्रुमकाननाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१८</sup>तस्यां क्रीडन्त्यभिरताः स्नान्ति चैवाप्सरोगणाः<br>शून्याकारं निराकाराः शुकं दृष्ट्वा विवाससः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.१९</sup>तं प्रक्रमन्तमाज्ञाय पिता स्नेहसमन्वितः<br>उत्तमां गतिमास्थाय पृष्ठतोऽनुससार ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२०</sup>शुकस्तु मारुतादूर्ध्वं गतिं कृत्वान्तरिक्षगाम्<br>दर्शयित्वा प्रभावं स्वं सर्वभूतोऽभवत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२१</sup>महायोगगतिं त्वग्र्यां व्यासोत्थाय महातपाः<br>निमेषान्तरमात्रेण शुकाभिपतनं ययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२२</sup>स ददर्श द्विधा कृत्वा पर्वताग्रं शुकं गतम्<br>शशंसुरृषयस्तस्मै कर्म पुत्रस्य तत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२३</sup>ततः शुकेति दीर्घेण शैक्षेणाक्रन्दितस्तदा<br>स्वयं पित्रा स्वरेणोच्चैस्त्रीँल्लोकाननुनाद्य वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२४</sup>शुकः सर्वगतो भूत्वा सर्वात्मा सर्वतोमुखः<br>प्रत्यभाषत धर्मात्मा भोःशब्देनानुनादयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२५</sup>तत एकाक्षरं नादं भो इत्येव समीरयन्<br>प्रत्याहरज्जगत्सर्वमुच्चैः स्थावरजङ्गमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२६</sup>ततः प्रभृति चाद्यापि शब्दानुच्चारितान्पृथक्<br>गिरिगह्वरपृष्ठेषु व्याजहार शुकं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२७</sup>अन्तर्हितः प्रभावं तु दर्शयित्वा शुकस्तदा<br>गुणान्संत्यज्य शब्दादीन्पदमध्यगमत्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२८</sup>महिमानं तु तं दृष्ट्वा पुत्रस्यामिततेजसः<br>निषसाद गिरिप्रस्थे पुत्रमेवानुचिन्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.२९</sup>ततो मन्दाकिनीतीरे क्रीडन्तोऽप्सरसां गणाः<br>आसाद्य तमृषिं सर्वाः संभ्रान्ता गतचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३०</sup>जले निलिल्यिरे काश्चित्काश्चिद्गुल्मान्प्रपेदिरे<br>वसनान्याददुः काश्चिद्दृष्ट्वा तं मुनिसत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३१</sup>तां मुक्ततां तु विज्ञाय मुनिः पुत्रस्य वै तदा<br>सक्ततामात्मनश्चैव प्रीतोऽभूद्व्रीडितश्च ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३२</sup>तं देवगन्धर्ववृतो महर्षिगणपूजितः<br>पिनाकहस्तो भगवानभ्यागच्छत शंकरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३३</sup>तमुवाच महादेवः सान्त्वपूर्वमिदं वचः<br>पुत्रशोकाभिसंतप्तं कृष्णद्वैपायनं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३४</sup>अग्नेर्भूमेरपां वायोरन्तरिक्षस्य चैव ह<br>वीर्येण सदृशः पुत्रस्त्वया मत्तः पुरा वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३५</sup>स तथालक्षणो जातस्तपसा तव संभृतः<br>मम चैव प्रभावेन ब्रह्मतेजोमयः शुचिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३६</sup>स गतिं परमां प्राप्तो दुष्प्रापामजितेन्द्रियैः<br>दैवतैरपि विप्रर्षे तं त्वं किमनुशोचसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३७</sup>यावत्स्थास्यन्ति गिरयो यावत्स्थास्यन्ति सागराः<br>तावत्तवाक्षया कीर्तिः सपुत्रस्य भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३८</sup>छायां स्वपुत्रसदृशीं सर्वतोऽनपगां सदा<br>द्रक्ष्यसे त्वं च लोकेऽस्मिन्मत्प्रसादान्महामुने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.३९</sup>सोऽनुनीतो भगवता स्वयं रुद्रेण भारत<br>छायां पश्यन्समावृत्तः स मुनिः परया मुदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.४०</sup>इति जन्म गतिश्चैव शुकस्य भरतर्षभ<br>विस्तरेण मयाख्यातं यन्मां त्वं परिपृच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.४१</sup>एतदाचष्ट मे राजन्देवर्षिर्नारदः पुरा<br>व्यासश्चैव महायोगी संजल्पेषु पदे पदे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३२०.४२</sup>इतिहासमिमं पुण्यं मोक्षधर्मार्थसंहितम्<br>धारयेद्यः शमपरः स गच्छेत्परमां गतिम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२</sup>इत्येवमुक्त्वा वचनं ब्रह्मर्षिः सुमहातपाः<br>प्रातिष्ठत शुकः सिद्धिं हित्वा लोकांश्चतुर्विधान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३</sup>तमो ह्यष्टविधं हित्वा जहौ पञ्चविधं रजः<br>ततः सत्त्वं जहौ धीमांस्तदद्भुतमिवाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.४</sup>ततस्तस्मिन्पदे नित्ये निर्गुणे लिङ्गवर्जिते<br>ब्रह्मणि प्रत्यतिष्ठत्स विधूमोऽग्निरिव ज्वलन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.५</sup>उल्कापाता दिशां दाहा भूमिकम्पास्तथैव च<br>प्रादुर्भूताः क्षणे तस्मिंस्तदद्भुतमिवाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.६</sup>द्रुमाः शाखाश्च मुमुचुः शिखराणि च पर्वताः<br>निर्घातशब्दैश्च गिरिर्हिमवान्दीर्यतीव ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.७</sup>न बभासे सहस्रांशुर्न जज्वाल च पावकः<br>ह्रदाश्च सरितश्चैव चुक्षुभुः सागरास्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.८</sup>ववर्ष वासवस्तोयं रसवच्च सुगन्धि च<br>ववौ समीरणश्चापि दिव्यगन्धवहः शुचिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.९</sup>स शृङ्गेऽप्रतिमे दिव्ये हिमवन्मेरुसंभवे<br>संश्लिष्टे श्वेतपीते द्वे रुक्मरूप्यमये शुभे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१०</sup>शतयोजनविस्तारे तिर्यगूर्ध्वं च भारत<br>उदीचीं दिशमाश्रित्य रुचिरे संददर्श ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.११</sup>सोऽविशङ्केन मनसा तथैवाभ्यपतच्छुकः<br>ततः पर्वतशृङ्गे द्वे सहसैव द्विधाकृते<br>अदृश्येतां महाराज तदद्भुतमिवाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१२</sup>ततः पर्वतशृङ्गाभ्यां सहसैव विनिःसृतः<br>न च प्रतिजघानास्य स गतिं पर्वतोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१३</sup>ततो महानभूच्छब्दो दिवि सर्वदिवौकसाम्<br>गन्धर्वाणामृषीणां च ये च शैलनिवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१४</sup>दृष्ट्वा शुकमतिक्रान्तं पर्वतं च द्विधाकृतम्<br>साधु साध्विति तत्रासीन्नादः सर्वत्र भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१५</sup>स पूज्यमानो देवैश्च गन्धर्वैरृषिभिस्तथा<br>यक्षराक्षससंघैश्च विद्याधरगणैस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१६</sup>दिव्यैः पुष्पैः समाकीर्णमन्तरिक्षं समन्ततः<br>आसीत्किल महाराज शुकाभिपतने तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१७</sup>ततो मन्दाकिनीं रम्यामुपरिष्टादभिव्रजन्<br>शुको ददर्श धर्मात्मा पुष्पितद्रुमकाननाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१८</sup>तस्यां क्रीडन्त्यभिरताः स्नान्ति चैवाप्सरोगणाः<br>शून्याकारं निराकाराः शुकं दृष्ट्वा विवाससः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.१९</sup>तं प्रक्रमन्तमाज्ञाय पिता स्नेहसमन्वितः<br>उत्तमां गतिमास्थाय पृष्ठतोऽनुससार ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२०</sup>शुकस्तु मारुतादूर्ध्वं गतिं कृत्वान्तरिक्षगाम्<br>दर्शयित्वा प्रभावं स्वं सर्वभूतोऽभवत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२१</sup>महायोगगतिं त्वग्र्यां व्यासोत्थाय महातपाः<br>निमेषान्तरमात्रेण शुकाभिपतनं ययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२२</sup>स ददर्श द्विधा कृत्वा पर्वताग्रं शुकं गतम्<br>शशंसुरृषयस्तस्मै कर्म पुत्रस्य तत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२३</sup>ततः शुकेति दीर्घेण शैक्षेणाक्रन्दितस्तदा<br>स्वयं पित्रा स्वरेणोच्चैस्त्रीँल्लोकाननुनाद्य वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२४</sup>शुकः सर्वगतो भूत्वा सर्वात्मा सर्वतोमुखः<br>प्रत्यभाषत धर्मात्मा भोःशब्देनानुनादयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२५</sup>तत एकाक्षरं नादं भो इत्येव समीरयन्<br>प्रत्याहरज्जगत्सर्वमुच्चैः स्थावरजङ्गमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२६</sup>ततः प्रभृति चाद्यापि शब्दानुच्चारितान्पृथक्<br>गिरिगह्वरपृष्ठेषु व्याजहार शुकं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२७</sup>अन्तर्हितः प्रभावं तु दर्शयित्वा शुकस्तदा<br>गुणान्संत्यज्य शब्दादीन्पदमध्यगमत्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२८</sup>महिमानं तु तं दृष्ट्वा पुत्रस्यामिततेजसः<br>निषसाद गिरिप्रस्थे पुत्रमेवानुचिन्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.२९</sup>ततो मन्दाकिनीतीरे क्रीडन्तोऽप्सरसां गणाः<br>आसाद्य तमृषिं सर्वाः संभ्रान्ता गतचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३०</sup>जले निलिल्यिरे काश्चित्काश्चिद्गुल्मान्प्रपेदिरे<br>वसनान्याददुः काश्चिद्दृष्ट्वा तं मुनिसत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३१</sup>तां मुक्ततां तु विज्ञाय मुनिः पुत्रस्य वै तदा<br>सक्ततामात्मनश्चैव प्रीतोऽभूद्व्रीडितश्च ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३२</sup>तं देवगन्धर्ववृतो महर्षिगणपूजितः<br>पिनाकहस्तो भगवानभ्यागच्छत शंकरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३३</sup>तमुवाच महादेवः सान्त्वपूर्वमिदं वचः<br>पुत्रशोकाभिसंतप्तं कृष्णद्वैपायनं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३४</sup>अग्नेर्भूमेरपां वायोरन्तरिक्षस्य चैव ह<br>वीर्येण सदृशः पुत्रस्त्वया मत्तः पुरा वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३५</sup>स तथालक्षणो जातस्तपसा तव संभृतः<br>मम चैव प्रभावेन ब्रह्मतेजोमयः शुचिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३६</sup>स गतिं परमां प्राप्तो दुष्प्रापामजितेन्द्रियैः<br>दैवतैरपि विप्रर्षे तं त्वं किमनुशोचसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३७</sup>यावत्स्थास्यन्ति गिरयो यावत्स्थास्यन्ति सागराः<br>तावत्तवाक्षया कीर्तिः सपुत्रस्य भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३८</sup>छायां स्वपुत्रसदृशीं सर्वतोऽनपगां सदा<br>द्रक्ष्यसे त्वं च लोकेऽस्मिन्मत्प्रसादान्महामुने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.३९</sup>सोऽनुनीतो भगवता स्वयं रुद्रेण भारत<br>छायां पश्यन्समावृत्तः स मुनिः परया मुदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.४०</sup>इति जन्म गतिश्चैव शुकस्य भरतर्षभ<br>विस्तरेण मयाख्यातं यन्मां त्वं परिपृच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.४१</sup>एतदाचष्ट मे राजन्देवर्षिर्नारदः पुरा<br>व्यासश्चैव महायोगी संजल्पेषु पदे पदे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३२०.४२</sup>इतिहासमिमं पुण्यं मोक्षधर्मार्थसंहितम्<br>धारयेद्यः शमपरः स गच्छेत्परमां गतिम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -207,8 +200,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/48.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:४९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/50.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,163 +64,128 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/48.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:४९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/50.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२</sup>ब्रूहि पुत्रान्कुरुश्रेष्ठ वर्णानां त्वं पृथक्पृथक्<br>कीदृश्यां कीदृशाश्चापि पुत्राः कस्य च के च ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३</sup>विप्रवादाः सुबहुशः श्रूयन्ते पुत्रकारिताः<br>अत्र नो मुह्यतां राजन्संशयं छेत्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.५</sup>आत्मा पुत्रस्तु विज्ञेयस्तस्यानन्तरजश्च यः<br>नियुक्तजश्च विज्ञेयः सुतः प्रसृतजस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.६</sup>पतितस्य च भार्यायां भर्त्रा सुसमवेतया<br>तथा दत्तकृतौ पुत्रावध्यूढश्च तथापरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.७</sup>षडपध्वंसजाश्चापि कानीनापसदास्तथा<br>इत्येते ते समाख्यातास्तान्विजानीहि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.८</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.९</sup>षडपध्वंसजाः के स्युः के वाप्यपसदास्तथा<br>एतत्सर्वं यथातत्त्वं व्याख्यातुं मे त्वमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१०</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.११</sup>त्रिषु वर्णेषु ये पुत्रा ब्राह्मणस्य युधिष्ठिर<br>वर्णयोश्च द्वयोः स्यातां यौ राजन्यस्य भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१२</sup>एको द्विवर्ण एवाथ तथात्रैवोपलक्षितः<br>षडपध्वंसजास्ते हि तथैवापसदाञ्शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१३</sup>चण्डालो व्रात्यवेनौ च ब्राह्मण्यां क्षत्रियासु च<br>वैश्यायां चैव शूद्रस्य लक्ष्यन्तेऽपसदास्त्रयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१४</sup>मागधो वामकश्चैव द्वौ वैश्यस्योपलक्षितौ<br>ब्राह्मण्यां क्षत्रियायां च क्षत्रियस्यैक एव तु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१५</sup>ब्राह्मण्यां लक्ष्यते सूत इत्येतेऽपसदाः स्मृताः<br>पुत्ररेतो न शक्यं हि मिथ्या कर्तुं नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१६</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१७</sup>क्षेत्रजं केचिदेवाहुः सुतं केचित्तु शुक्रजम्<br>तुल्यावेतौ सुतौ कस्य तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.१९</sup>रेतजो वा भवेत्पुत्रस्त्यक्तो वा क्षेत्रजो भवेत्<br>अध्यूढः समयं भित्त्वेत्येतदेव निबोध मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२०</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२१</sup>रेतोजं विद्म वै पुत्रं क्षेत्रजस्यागमः कथम्<br>अध्यूढं विद्म वै पुत्रं हित्वा च समयं कथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२२</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२३</sup>आत्मजं पुत्रमुत्पाद्य यस्त्यजेत्कारणान्तरे<br>न तत्र कारणं रेतः स क्षेत्रस्वामिनो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२४</sup>पुत्रकामो हि पुत्रार्थे यां वृणीते विशां पते<br>तत्र क्षेत्रं प्रमाणं स्यान्न वै तत्रात्मजः सुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२५</sup>अन्यत्र क्षेत्रजः पुत्रो लक्ष्यते भरतर्षभ<br>न ह्यात्मा शक्यते हन्तुं दृष्टान्तोपगतो ह्यसौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२६</sup>कश्चिच्च कृतकः पुत्रः संग्रहादेव लक्ष्यते<br>न तत्र रेतः क्षेत्रं वा प्रमाणं स्याद्युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२७</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२८</sup>कीदृशः कृतकः पुत्रः संग्रहादेव लक्ष्यते<br>शुक्रं क्षेत्रं प्रमाणं वा यत्र लक्ष्येत भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.२९</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३०</sup>मातापितृभ्यां संत्यक्तं पथि यं तु प्रलक्षयेत्<br>न चास्य मातापितरौ ज्ञायेते स हि कृत्रिमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३१</sup>अस्वामिकस्य स्वामित्वं यस्मिन्संप्रतिलक्षयेत्<br>सवर्णस्तं च पोषेत सवर्णस्तस्य जायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३२</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३३</sup>कथमस्य प्रयोक्तव्यः संस्कारः कस्य वा कथम्<br>देया कन्या कथं चेति तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३५</sup>आत्मवत्तस्य कुर्वीत संस्कारं स्वामिवत्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३६</sup>त्यक्तो मातापितृभ्यां यः सवर्णं प्रतिपद्यते<br>तद्गोत्रवर्णतस्तस्य कुर्यात्संस्कारमच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३७</sup>अथ देया तु कन्या स्यात्तद्वर्णेन युधिष्ठिर<br>संस्कर्तुं मातृगोत्रं च मातृवर्णविनिश्चये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३८</sup>कानीनाध्यूढजौ चापि विज्ञेयौ पुत्रकिल्बिषौ<br>तावपि स्वाविव सुतौ संस्कार्याविति निश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.३९</sup>क्षेत्रजो वाप्यपसदो येऽध्यूढास्तेषु चाप्यथ<br>आत्मवद्वै प्रयुञ्जीरन्संस्कारं ब्राह्मणादयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.४९.४०</sup>धर्मशास्त्रेषु वर्णानां निश्चयोऽयं प्रदृश्यते<br>एतत्ते सर्वमाख्यातं किं भूयः श्रोतुमिच्छसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२</sup>ब्रूहि पुत्रान्कुरुश्रेष्ठ वर्णानां त्वं पृथक्पृथक्<br>कीदृश्यां कीदृशाश्चापि पुत्राः कस्य च के च ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३</sup>विप्रवादाः सुबहुशः श्रूयन्ते पुत्रकारिताः<br>अत्र नो मुह्यतां राजन्संशयं छेत्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.५</sup>आत्मा पुत्रस्तु विज्ञेयस्तस्यानन्तरजश्च यः<br>नियुक्तजश्च विज्ञेयः सुतः प्रसृतजस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.६</sup>पतितस्य च भार्यायां भर्त्रा सुसमवेतया<br>तथा दत्तकृतौ पुत्रावध्यूढश्च तथापरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.७</sup>षडपध्वंसजाश्चापि कानीनापसदास्तथा<br>इत्येते ते समाख्यातास्तान्विजानीहि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.८</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.९</sup>षडपध्वंसजाः के स्युः के वाप्यपसदास्तथा<br>एतत्सर्वं यथातत्त्वं व्याख्यातुं मे त्वमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१०</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.११</sup>त्रिषु वर्णेषु ये पुत्रा ब्राह्मणस्य युधिष्ठिर<br>वर्णयोश्च द्वयोः स्यातां यौ राजन्यस्य भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१२</sup>एको द्विवर्ण एवाथ तथात्रैवोपलक्षितः<br>षडपध्वंसजास्ते हि तथैवापसदाञ्शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१३</sup>चण्डालो व्रात्यवेनौ च ब्राह्मण्यां क्षत्रियासु च<br>वैश्यायां चैव शूद्रस्य लक्ष्यन्तेऽपसदास्त्रयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१४</sup>मागधो वामकश्चैव द्वौ वैश्यस्योपलक्षितौ<br>ब्राह्मण्यां क्षत्रियायां च क्षत्रियस्यैक एव तु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१५</sup>ब्राह्मण्यां लक्ष्यते सूत इत्येतेऽपसदाः स्मृताः<br>पुत्ररेतो न शक्यं हि मिथ्या कर्तुं नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१६</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१७</sup>क्षेत्रजं केचिदेवाहुः सुतं केचित्तु शुक्रजम्<br>तुल्यावेतौ सुतौ कस्य तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.१९</sup>रेतजो वा भवेत्पुत्रस्त्यक्तो वा क्षेत्रजो भवेत्<br>अध्यूढः समयं भित्त्वेत्येतदेव निबोध मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२०</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२१</sup>रेतोजं विद्म वै पुत्रं क्षेत्रजस्यागमः कथम्<br>अध्यूढं विद्म वै पुत्रं हित्वा च समयं कथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२२</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२३</sup>आत्मजं पुत्रमुत्पाद्य यस्त्यजेत्कारणान्तरे<br>न तत्र कारणं रेतः स क्षेत्रस्वामिनो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२४</sup>पुत्रकामो हि पुत्रार्थे यां वृणीते विशां पते<br>तत्र क्षेत्रं प्रमाणं स्यान्न वै तत्रात्मजः सुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२५</sup>अन्यत्र क्षेत्रजः पुत्रो लक्ष्यते भरतर्षभ<br>न ह्यात्मा शक्यते हन्तुं दृष्टान्तोपगतो ह्यसौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२६</sup>कश्चिच्च कृतकः पुत्रः संग्रहादेव लक्ष्यते<br>न तत्र रेतः क्षेत्रं वा प्रमाणं स्याद्युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२७</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२८</sup>कीदृशः कृतकः पुत्रः संग्रहादेव लक्ष्यते<br>शुक्रं क्षेत्रं प्रमाणं वा यत्र लक्ष्येत भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.२९</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३०</sup>मातापितृभ्यां संत्यक्तं पथि यं तु प्रलक्षयेत्<br>न चास्य मातापितरौ ज्ञायेते स हि कृत्रिमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३१</sup>अस्वामिकस्य स्वामित्वं यस्मिन्संप्रतिलक्षयेत्<br>सवर्णस्तं च पोषेत सवर्णस्तस्य जायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३२</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३३</sup>कथमस्य प्रयोक्तव्यः संस्कारः कस्य वा कथम्<br>देया कन्या कथं चेति तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३५</sup>आत्मवत्तस्य कुर्वीत संस्कारं स्वामिवत्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३६</sup>त्यक्तो मातापितृभ्यां यः सवर्णं प्रतिपद्यते<br>तद्गोत्रवर्णतस्तस्य कुर्यात्संस्कारमच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३७</sup>अथ देया तु कन्या स्यात्तद्वर्णेन युधिष्ठिर<br>संस्कर्तुं मातृगोत्रं च मातृवर्णविनिश्चये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३८</sup>कानीनाध्यूढजौ चापि विज्ञेयौ पुत्रकिल्बिषौ<br>तावपि स्वाविव सुतौ संस्कार्याविति निश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.३९</sup>क्षेत्रजो वाप्यपसदो येऽध्यूढास्तेषु चाप्यथ<br>आत्मवद्वै प्रयुञ्जीरन्संस्कारं ब्राह्मणादयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.४९.४०</sup>धर्मशास्त्रेषु वर्णानां निश्चयोऽयं प्रदृश्यते<br>एतत्ते सर्वमाख्यातं किं भूयः श्रोतुमिच्छसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

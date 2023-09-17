@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/12.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:१३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/14.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/12.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:१३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/14.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.२</sup>वसमानेषु पार्थेषु मत्स्यस्य नगरे तदा<br>महारथेषु छन्नेषु मासा दश समत्ययुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.३</sup>याज्ञसेनी सुदेष्णां तु शुश्रूषन्ती विशां पते<br>अवसत्परिचारार्हा सुदुःखं जनमेजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.४</sup>तथा चरन्तीं पाञ्चालीं सुदेष्णाया निवेशने<br>सेनापतिर्विराटस्य ददर्श जलजाननाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.५</sup>तां दृष्ट्वा देवगर्भाभां चरन्तीं देवतामिव<br>कीचकः कामयामास कामबाणप्रपीडितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.६</sup>स तु कामाग्निसंतप्तः सुदेष्णामभिगम्य वै<br>प्रहसन्निव सेनानीरिदं वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.७</sup>नेयं पुरा जातु मयेह दृष्टा; राज्ञो विराटस्य निवेशने शुभा<br>रूपेण चोन्मादयतीव मां भृशं; गन्धेन जाता मदिरेव भामिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.८</sup>का देवरूपा हृदयंगमा शुभे; आचक्ष्व मे का च कुतश्च शोभना<br>चित्तं हि निर्मथ्य करोति मां वशे; न चान्यदत्रौषधमद्य मे मतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.९</sup>अहो तवेयं परिचारिका शुभा; प्रत्यग्ररूपा प्रतिभाति मामियम्<br>अयुक्तरूपं हि करोति कर्म ते; प्रशास्तु मां यच्च ममास्ति किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१०</sup>प्रभूतनागाश्वरथं महाधनं; समृद्धियुक्तं बहुपानभोजनम्<br>मनोहरं काञ्चनचित्रभूषणं; गृहं महच्छोभयतामियं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.११</sup>ततः सुदेष्णामनुमन्त्र्य कीचक;स्ततः समभ्येत्य नराधिपात्मजाम्<br>उवाच कृष्णामभिसान्त्वयंस्तदा; मृगेन्द्रकन्यामिव जम्बुको वने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१२</sup>इदं च रूपं प्रथमं च ते वयो; निरर्थकं केवलमद्य भामिनि<br>अधार्यमाणा स्रगिवोत्तमा यथा; न शोभसे सुन्दरि शोभना सती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१३</sup>त्यजामि दारान्मम ये पुरातना; भवन्तु दास्यस्तव चारुहासिनि<br>अहं च ते सुन्दरि दासवत्स्थितः; सदा भविष्ये वशगो वरानने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१४</sup>द्रौपद्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१५</sup>अप्रार्थनीयामिह मां सूतपुत्राभिमन्यसे<br>विहीनवर्णां सैरन्ध्रीं बीभत्सां केशकारिकाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१६</sup>परदारास्मि भद्रं ते न युक्तं त्वयि सांप्रतम्<br>दयिताः प्राणिनां दारा धर्मं समनुचिन्तय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१७</sup>परदारे न ते बुद्धिर्जातु कार्या कथंचन<br>विवर्जनं ह्यकार्याणामेतत्सत्पुरुषव्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१८</sup>मिथ्याभिगृध्नो हि नरः पापात्मा मोहमास्थितः<br>अयशः प्राप्नुयाद्घोरं सुमहत्प्राप्नुयाद्भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.१९</sup>मा सूतपुत्र हृष्यस्व माद्य त्यक्ष्यसि जीवितम्<br>दुर्लभामभिमन्वानो मां वीरैरभिरक्षिताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.२०</sup>न चाप्यहं त्वया शक्या गन्धर्वाः पतयो मम<br>ते त्वां निहन्युः कुपिताः साध्वलं मा व्यनीनशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.२१</sup>अशक्यरूपैः पुरुषैरध्वानं गन्तुमिच्छसि<br>यथा निश्चेतनो बालः कूलस्थः कूलमुत्तरम्<br>तर्तुमिच्छति मन्दात्मा तथा त्वं कर्तुमिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.२२</sup>अन्तर्महीं वा यदि वोर्ध्वमुत्पतेः; समुद्रपारं यदि वा प्रधावसि<br>तथापि तेषां न विमोक्षमर्हसि; प्रमाथिनो देवसुता हि मे वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.१३.२३</sup>त्वं कालरात्रीमिव कश्चिदातुरः; किं मां दृढं प्रार्थयसेऽद्य कीचक<br>किं मातुरङ्के शयितो यथा शिशु;श्चन्द्रं जिघृक्षुरिव मन्यसे हि माम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.२</sup>वसमानेषु पार्थेषु मत्स्यस्य नगरे तदा<br>महारथेषु छन्नेषु मासा दश समत्ययुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.३</sup>याज्ञसेनी सुदेष्णां तु शुश्रूषन्ती विशां पते<br>अवसत्परिचारार्हा सुदुःखं जनमेजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.४</sup>तथा चरन्तीं पाञ्चालीं सुदेष्णाया निवेशने<br>सेनापतिर्विराटस्य ददर्श जलजाननाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.५</sup>तां दृष्ट्वा देवगर्भाभां चरन्तीं देवतामिव<br>कीचकः कामयामास कामबाणप्रपीडितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.६</sup>स तु कामाग्निसंतप्तः सुदेष्णामभिगम्य वै<br>प्रहसन्निव सेनानीरिदं वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.७</sup>नेयं पुरा जातु मयेह दृष्टा; राज्ञो विराटस्य निवेशने शुभा<br>रूपेण चोन्मादयतीव मां भृशं; गन्धेन जाता मदिरेव भामिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.८</sup>का देवरूपा हृदयंगमा शुभे; आचक्ष्व मे का च कुतश्च शोभना<br>चित्तं हि निर्मथ्य करोति मां वशे; न चान्यदत्रौषधमद्य मे मतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.९</sup>अहो तवेयं परिचारिका शुभा; प्रत्यग्ररूपा प्रतिभाति मामियम्<br>अयुक्तरूपं हि करोति कर्म ते; प्रशास्तु मां यच्च ममास्ति किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१०</sup>प्रभूतनागाश्वरथं महाधनं; समृद्धियुक्तं बहुपानभोजनम्<br>मनोहरं काञ्चनचित्रभूषणं; गृहं महच्छोभयतामियं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.११</sup>ततः सुदेष्णामनुमन्त्र्य कीचक;स्ततः समभ्येत्य नराधिपात्मजाम्<br>उवाच कृष्णामभिसान्त्वयंस्तदा; मृगेन्द्रकन्यामिव जम्बुको वने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१२</sup>इदं च रूपं प्रथमं च ते वयो; निरर्थकं केवलमद्य भामिनि<br>अधार्यमाणा स्रगिवोत्तमा यथा; न शोभसे सुन्दरि शोभना सती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१३</sup>त्यजामि दारान्मम ये पुरातना; भवन्तु दास्यस्तव चारुहासिनि<br>अहं च ते सुन्दरि दासवत्स्थितः; सदा भविष्ये वशगो वरानने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१४</sup>द्रौपद्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१५</sup>अप्रार्थनीयामिह मां सूतपुत्राभिमन्यसे<br>विहीनवर्णां सैरन्ध्रीं बीभत्सां केशकारिकाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१६</sup>परदारास्मि भद्रं ते न युक्तं त्वयि सांप्रतम्<br>दयिताः प्राणिनां दारा धर्मं समनुचिन्तय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१७</sup>परदारे न ते बुद्धिर्जातु कार्या कथंचन<br>विवर्जनं ह्यकार्याणामेतत्सत्पुरुषव्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१८</sup>मिथ्याभिगृध्नो हि नरः पापात्मा मोहमास्थितः<br>अयशः प्राप्नुयाद्घोरं सुमहत्प्राप्नुयाद्भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.१९</sup>मा सूतपुत्र हृष्यस्व माद्य त्यक्ष्यसि जीवितम्<br>दुर्लभामभिमन्वानो मां वीरैरभिरक्षिताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.२०</sup>न चाप्यहं त्वया शक्या गन्धर्वाः पतयो मम<br>ते त्वां निहन्युः कुपिताः साध्वलं मा व्यनीनशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.२१</sup>अशक्यरूपैः पुरुषैरध्वानं गन्तुमिच्छसि<br>यथा निश्चेतनो बालः कूलस्थः कूलमुत्तरम्<br>तर्तुमिच्छति मन्दात्मा तथा त्वं कर्तुमिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.२२</sup>अन्तर्महीं वा यदि वोर्ध्वमुत्पतेः; समुद्रपारं यदि वा प्रधावसि<br>तथापि तेषां न विमोक्षमर्हसि; प्रमाथिनो देवसुता हि मे वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.१३.२३</sup>त्वं कालरात्रीमिव कश्चिदातुरः; किं मां दृढं प्रार्थयसेऽद्य कीचक<br>किं मातुरङ्के शयितो यथा शिशु;श्चन्द्रं जिघृक्षुरिव मन्यसे हि माम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

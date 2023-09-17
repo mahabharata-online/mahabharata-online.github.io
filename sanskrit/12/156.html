@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/155.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१५६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/157.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,127 +64,92 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/155.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१५६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/157.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२</sup>सत्यं धर्मे प्रशंसन्ति विप्रर्षिपितृदेवताः<br>सत्यमिच्छाम्यहं श्रोतुं तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.३</sup>सत्यं किंलक्षणं राजन्कथं वा तदवाप्यते<br>सत्यं प्राप्य भवेत्किं च कथं चैव तदुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.५</sup>चातुर्वर्ण्यस्य धर्माणां संकरो न प्रशस्यते<br>अविकारितमं सत्यं सर्ववर्णेषु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.६</sup>सत्यं सत्सु सदा धर्मः सत्यं धर्मः सनातनः<br>सत्यमेव नमस्येत सत्यं हि परमा गतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.७</sup>सत्यं धर्मस्तपो योगः सत्यं ब्रह्म सनातनम्<br>सत्यं यज्ञः परः प्रोक्तः सत्ये सर्वं प्रतिष्ठितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.८</sup>आचारानिह सत्यस्य यथावदनुपूर्वशः<br>लक्षणं च प्रवक्ष्यामि सत्यस्येह यथाक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.९</sup>प्राप्यते हि यथा सत्यं तच्च श्रोतुं त्वमर्हसि<br>सत्यं त्रयोदशविधं सर्वलोकेषु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१०</sup>सत्यं च समता चैव दमश्चैव न संशयः<br>अमात्सर्यं क्षमा चैव ह्रीस्तितिक्षानसूयता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.११</sup>त्यागो ध्यानमथार्यत्वं धृतिश्च सततं स्थिरा<br>अहिंसा चैव राजेन्द्र सत्याकारास्त्रयोदश
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१२</sup>सत्यं नामाव्ययं नित्यमविकारि तथैव च<br>सर्वधर्माविरुद्धं च योगेनैतदवाप्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१३</sup>आत्मनीष्टे तथानिष्टे रिपौ च समता तथा<br>इच्छाद्वेषक्षयं प्राप्य कामक्रोधक्षयं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१४</sup>दमो नान्यस्पृहा नित्यं धैर्यं गाम्भीर्यमेव च<br>अभयं क्रोधशमनं ज्ञानेनैतदवाप्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१५</sup>अमात्सर्यं बुधाः प्राहुर्दानं धर्मे च संयमम्<br>अवस्थितेन नित्यं च सत्येनामत्सरी भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१६</sup>अक्षमायाः क्षमायाश्च प्रियाणीहाप्रियाणि च<br>क्षमते सर्वतः साधुः साध्वाप्नोति च सत्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१७</sup>कल्याणं कुरुते गाढं ह्रीमान्न श्लाघते क्वचित्<br>प्रशान्तवाङ्मना नित्यं ह्रीस्तु धर्मादवाप्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१८</sup>धर्मार्थहेतोः क्षमते तितिक्षा क्षान्तिरुच्यते<br>लोकसंग्रहणार्थं तु सा तु धैर्येण लभ्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.१९</sup>त्यागः स्नेहस्य यस्त्यागो विषयाणां तथैव च<br>रागद्वेषप्रहीणस्य त्यागो भवति नान्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२०</sup>आर्यता नाम भूतानां यः करोति प्रयत्नतः<br>शुभं कर्म निराकारो वीतरागत्वमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२१</sup>धृतिर्नाम सुखे दुःखे यथा नाप्नोति विक्रियाम्<br>तां भजेत सदा प्राज्ञो य इच्छेद्भूतिमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२२</sup>सर्वथा क्षमिणा भाव्यं तथा सत्यपरेण च<br>वीतहर्षभयक्रोधो धृतिमाप्नोति पण्डितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२३</sup>अद्रोहः सर्वभूतेषु कर्मणा मनसा गिरा<br>अनुग्रहश्च दानं च सतां धर्मः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२४</sup>एते त्रयोदशाकाराः पृथक्सत्यैकलक्षणाः<br>भजन्ते सत्यमेवेह बृंहयन्ति च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२५</sup>नान्तः शक्यो गुणानां हि वक्तुं सत्यस्य भारत<br>अतः सत्यं प्रशंसन्ति विप्राः सपितृदेवताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२६</sup>नास्ति सत्यात्परो धर्मो नानृतात्पातकं परम्<br>स्थितिर्हि सत्यं धर्मस्य तस्मात्सत्यं न लोपयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२७</sup>उपैति सत्याद्दानं हि तथा यज्ञाः सदक्षिणाः<br>व्रताग्निहोत्रं वेदाश्च ये चान्ये धर्मनिश्चयाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१५६.२८</sup>अश्वमेधसहस्रं च सत्यं च तुलया धृतम्<br>अश्वमेधसहस्राद्धि सत्यमेवातिरिच्यते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२</sup>सत्यं धर्मे प्रशंसन्ति विप्रर्षिपितृदेवताः<br>सत्यमिच्छाम्यहं श्रोतुं तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.३</sup>सत्यं किंलक्षणं राजन्कथं वा तदवाप्यते<br>सत्यं प्राप्य भवेत्किं च कथं चैव तदुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.५</sup>चातुर्वर्ण्यस्य धर्माणां संकरो न प्रशस्यते<br>अविकारितमं सत्यं सर्ववर्णेषु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.६</sup>सत्यं सत्सु सदा धर्मः सत्यं धर्मः सनातनः<br>सत्यमेव नमस्येत सत्यं हि परमा गतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.७</sup>सत्यं धर्मस्तपो योगः सत्यं ब्रह्म सनातनम्<br>सत्यं यज्ञः परः प्रोक्तः सत्ये सर्वं प्रतिष्ठितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.८</sup>आचारानिह सत्यस्य यथावदनुपूर्वशः<br>लक्षणं च प्रवक्ष्यामि सत्यस्येह यथाक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.९</sup>प्राप्यते हि यथा सत्यं तच्च श्रोतुं त्वमर्हसि<br>सत्यं त्रयोदशविधं सर्वलोकेषु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१०</sup>सत्यं च समता चैव दमश्चैव न संशयः<br>अमात्सर्यं क्षमा चैव ह्रीस्तितिक्षानसूयता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.११</sup>त्यागो ध्यानमथार्यत्वं धृतिश्च सततं स्थिरा<br>अहिंसा चैव राजेन्द्र सत्याकारास्त्रयोदश
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१२</sup>सत्यं नामाव्ययं नित्यमविकारि तथैव च<br>सर्वधर्माविरुद्धं च योगेनैतदवाप्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१३</sup>आत्मनीष्टे तथानिष्टे रिपौ च समता तथा<br>इच्छाद्वेषक्षयं प्राप्य कामक्रोधक्षयं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१४</sup>दमो नान्यस्पृहा नित्यं धैर्यं गाम्भीर्यमेव च<br>अभयं क्रोधशमनं ज्ञानेनैतदवाप्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१५</sup>अमात्सर्यं बुधाः प्राहुर्दानं धर्मे च संयमम्<br>अवस्थितेन नित्यं च सत्येनामत्सरी भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१६</sup>अक्षमायाः क्षमायाश्च प्रियाणीहाप्रियाणि च<br>क्षमते सर्वतः साधुः साध्वाप्नोति च सत्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१७</sup>कल्याणं कुरुते गाढं ह्रीमान्न श्लाघते क्वचित्<br>प्रशान्तवाङ्मना नित्यं ह्रीस्तु धर्मादवाप्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१८</sup>धर्मार्थहेतोः क्षमते तितिक्षा क्षान्तिरुच्यते<br>लोकसंग्रहणार्थं तु सा तु धैर्येण लभ्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.१९</sup>त्यागः स्नेहस्य यस्त्यागो विषयाणां तथैव च<br>रागद्वेषप्रहीणस्य त्यागो भवति नान्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२०</sup>आर्यता नाम भूतानां यः करोति प्रयत्नतः<br>शुभं कर्म निराकारो वीतरागत्वमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२१</sup>धृतिर्नाम सुखे दुःखे यथा नाप्नोति विक्रियाम्<br>तां भजेत सदा प्राज्ञो य इच्छेद्भूतिमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२२</sup>सर्वथा क्षमिणा भाव्यं तथा सत्यपरेण च<br>वीतहर्षभयक्रोधो धृतिमाप्नोति पण्डितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२३</sup>अद्रोहः सर्वभूतेषु कर्मणा मनसा गिरा<br>अनुग्रहश्च दानं च सतां धर्मः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२४</sup>एते त्रयोदशाकाराः पृथक्सत्यैकलक्षणाः<br>भजन्ते सत्यमेवेह बृंहयन्ति च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२५</sup>नान्तः शक्यो गुणानां हि वक्तुं सत्यस्य भारत<br>अतः सत्यं प्रशंसन्ति विप्राः सपितृदेवताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२६</sup>नास्ति सत्यात्परो धर्मो नानृतात्पातकं परम्<br>स्थितिर्हि सत्यं धर्मस्य तस्मात्सत्यं न लोपयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२७</sup>उपैति सत्याद्दानं हि तथा यज्ञाः सदक्षिणाः<br>व्रताग्निहोत्रं वेदाश्च ये चान्ये धर्मनिश्चयाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१५६.२८</sup>अश्वमेधसहस्रं च सत्यं च तुलया धृतम्<br>अश्वमेधसहस्राद्धि सत्यमेवातिरिच्यते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -165,8 +158,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

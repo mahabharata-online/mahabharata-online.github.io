@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/127.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:१२८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/129.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,256 +64,221 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/127.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:१२८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/129.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२</sup>तिलोत्तमा नाम पुरा ब्रह्मणा योषिदुत्तमा<br>तिलं तिलं समुद्धृत्य रत्नानां निर्मिता शुभा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३</sup>साभ्यगच्छत मां देवि रूपेणाप्रतिमा भुवि<br>प्रदक्षिणं लोभयन्ती मां शुभे रुचिरानना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४</sup>यतो यतः सा सुदती मामुपाधावदन्तिके<br>ततस्ततो मुखं चारु मम देवि विनिर्गतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५</sup>तां दिदृक्षुरहं योगाच्चतुर्मूर्तित्वमागतः<br>चतुर्मुखश्च संवृत्तो दर्शयन्योगमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६</sup>पूर्वेण वदनेनाहमिन्द्रत्वमनुशास्मि ह<br>उत्तरेण त्वया सार्धं रमाम्यहमनिन्दिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.७</sup>पश्चिमं मे मुखं सौम्यं सर्वप्राणिसुखावहम्<br>दक्षिणं भीमसंकाशं रौद्रं संहरति प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.८</sup>जटिलो ब्रह्मचारी च लोकानां हितकाम्यया<br>देवकार्यार्थसिद्ध्यर्थं पिनाकं मे करे स्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.९</sup>इन्द्रेण च पुरा वज्रं क्षिप्तं श्रीकाङ्क्षिणा मम<br>दग्ध्वा कण्ठं तु तद्यातं तेन श्रीकण्ठता मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१०</sup>उमोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.११</sup>वाहनेषु प्रभूतेषु श्रीमत्स्वन्येषु सत्सु ते<br>कथं गोवृषभो देव वाहनत्वमुपागतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१२</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१३</sup>सुरभीं ससृजे ब्रह्मामृतधेनुं पयोमुचम्<br>सा सृष्टा बहुधा जाता क्षरमाणा पयोऽमृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१४</sup>तस्या वत्समुखोत्सृष्टः फेनो मद्गात्रमागतः<br>ततो दग्धा मया गावो नानावर्णत्वमागताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१५</sup>ततोऽहं लोकगुरुणा शमं नीतोऽर्थवेदिना<br>वृषं चेमं ध्वजार्थं मे ददौ वाहनमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१६</sup>उमोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१७</sup>निवासा बहुरूपास्ते विश्वरूपगुणान्विताः<br>तांश्च संत्यज्य भगवञ्श्मशाने रमसे कथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१८</sup>केशास्थिकलिले भीमे कपालघटसंकुले<br>गृध्रगोमायुकलिले चिताग्निशतसंकुले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.१९</sup>अशुचौ मांसकलिले वसाशोणितकर्दमे<br>विनिकीर्णामिषचये शिवानादविनादिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२०</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२१</sup>मेध्यान्वेषी महीं कृत्स्नां विचरामि निशास्वहम्<br>न च मेध्यतरं किंचिच्छ्मशानादिह विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२२</sup>तेन मे सर्ववासानां श्मशाने रमते मनः<br>न्यग्रोधशाखासंछन्ने निर्भुक्तस्रग्विभूषिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२३</sup>तत्र चैव रमन्ते मे भूतसंघाः शुभानने<br>न च भूतगणैर्देवि विनाहं वस्तुमुत्सहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२४</sup>एष वासो हि मे मेध्यः स्वर्गीयश्च मतो हि मे<br>पुण्यः परमकश्चैव मेध्यकामैरुपास्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२५</sup>उमोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२६</sup>भगवन्सर्वभूतेश सर्वधर्मभृतां वर<br>पिनाकपाणे वरद संशयो मे महानयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२७</sup>अयं मुनिगणः सर्वस्तपस्तप इति प्रभो<br>तपोन्वेषकरो लोके भ्रमते विविधाकृतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२८</sup>अस्य चैवर्षिसंघस्य मम च प्रियकाम्यया<br>एतं ममेह संदेहं वक्तुमर्हस्यरिंदम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.२९</sup>धर्मः किंलक्षणः प्रोक्तः कथं वाचरितुं नरैः<br>शक्यो धर्ममविन्दद्भिर्धर्मज्ञ वद मे प्रभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३०</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३१</sup>ततो मुनिगणः सर्वस्तां देवीं प्रत्यपूजयत्<br>वाग्भिरृग्भूषितार्थाभिः स्तवैश्चार्थविदां वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३२</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३३</sup>अहिंसा सत्यवचनं सर्वभूतानुकम्पनम्<br>शमो दानं यथाशक्ति गार्हस्थ्यो धर्म उत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३४</sup>परदारेष्वसंकल्पो न्यासस्त्रीपरिरक्षणम्<br>अदत्तादानविरमो मधुमांसस्य वर्जनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३५</sup>एष पञ्चविधो धर्मो बहुशाखः सुखोदयः<br>देहिभिर्धर्मपरमैः कर्तव्यो धर्मसंचयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३६</sup>उमोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३७</sup>भगवन्संशयं पृष्टस्तं मे व्याख्यातुमर्हसि<br>चातुर्वर्ण्यस्य यो धर्मः स्वे स्वे वर्णे गुणावहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३८</sup>ब्राह्मणे कीदृशो धर्मः क्षत्रिये कीदृशो भवेत्<br>वैश्ये किंलक्षणो धर्मः शूद्रे किंलक्षणो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.३९</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४०</sup>न्यायतस्ते महाभागे संशयः समुदीरितः<br>भूमिदेवा महाभागाः सदा लोके द्विजातयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४१</sup>उपवासः सदा धर्मो ब्राह्मणस्य न संशयः<br>स हि धर्मार्थमुत्पन्नो ब्रह्मभूयाय कल्पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४२</sup>तस्य धर्मक्रिया देवि व्रतचर्या च न्यायतः<br>तथोपनयनं चैव द्विजायैवोपपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४३</sup>गुरुदैवतपूजार्थं स्वाध्यायाभ्यसनात्मकः<br>देहिभिर्धर्मपरमैश्चर्तव्यो धर्मसंभवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४४</sup>उमोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४५</sup>भगवन्संशयो मेऽत्र तं मे व्याख्यातुमर्हसि<br>चातुर्वर्ण्यस्य धर्मं हि नैपुण्येन प्रकीर्तय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४६</sup>महेश्वर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४७</sup>रहस्यश्रवणं धर्मो वेदव्रतनिषेवणम्<br>व्रतचर्यापरो धर्मो गुरुपादप्रसादनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४८</sup>भैक्षचर्यापरो धर्मो धर्मो नित्योपवासिता<br>नित्यस्वाध्यायिता धर्मो ब्रह्मचर्याश्रमस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.४९</sup>गुरुणा त्वभ्यनुज्ञातः समावर्तेत वै द्विजः<br>विन्देतानन्तरं भार्यामनुरूपां यथाविधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५०</sup>शूद्रान्नवर्जनं धर्मस्तथा सत्पथसेवनम्<br>धर्मो नित्योपवासित्वं ब्रह्मचर्यं तथैव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५१</sup>आहिताग्निरधीयानो जुह्वानः संयतेन्द्रियः<br>विघसाशी यताहारो गृहस्थः सत्यवाक्शुचिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५२</sup>अतिथिव्रतता धर्मो धर्मस्त्रेताग्निधारणम्<br>इष्टीश्च पशुबन्धांश्च विधिपूर्वं समाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५३</sup>यज्ञश्च परमो धर्मस्तथाहिंसा च देहिषु<br>अपूर्वभोजनं धर्मो विघसाशित्वमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५४</sup>भुक्ते परिजने पश्चाद्भोजनं धर्म उच्यते<br>ब्राह्मणस्य गृहस्थस्य श्रोत्रियस्य विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५५</sup>दंपत्योः समशीलत्वं धर्मश्च गृहमेधिनाम्<br>गृह्याणां चैव देवानां नित्यं पुष्पबलिक्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५६</sup>नित्योपलेपनं धर्मस्तथा नित्योपवासिता<br>सुसंमृष्टोपलिप्ते च साज्यधूमोद्गमे गृहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५७</sup>एष द्विजजने धर्मो गार्हस्थ्यो लोकधारणः<br>द्विजातीनां सतां नित्यं सदैवैष प्रवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५८</sup>यस्तु क्षत्रगतो देवि त्वया धर्म उदीरितः<br>तमहं ते प्रवक्ष्यामि तं मे शृणु समाहिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.५९</sup>क्षत्रियस्य स्मृतो धर्मः प्रजापालनमादितः<br>निर्दिष्टफलभोक्ता हि राजा धर्मेण युज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६०</sup>प्रजाः पालयते यो हि धर्मेण मनुजाधिपः<br>तस्य धर्मार्जिता लोकाः प्रजापालनसंचिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६१</sup>तत्र राज्ञः परो धर्मो दमः स्वाध्याय एव च<br>अग्निहोत्रपरिस्पन्दो दानाध्ययनमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६२</sup>यज्ञोपवीतधारणं यज्ञो धर्मक्रियास्तथा<br>भृत्यानां भरणं धर्मः कृते कर्मण्यमोघता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६३</sup>सम्यग्दण्डे स्थितिर्धर्मो धर्मो वेदक्रतुक्रियाः<br>व्यवहारस्थितिर्धर्मः सत्यवाक्यरतिस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६४</sup>आर्तहस्तप्रदो राजा प्रेत्य चेह महीयते<br>गोब्राह्मणार्थे विक्रान्तः संग्रामे निधनं गतः<br>अश्वमेधजिताँल्लोकान्प्राप्नोति त्रिदिवालये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६५</sup>वैश्यस्य सततं धर्मः पाशुपाल्यं कृषिस्तथा<br>अग्निहोत्रपरिस्पन्दो दानाध्ययनमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६६</sup>वाणिज्यं सत्पथस्थानमातिथ्यं प्रशमो दमः<br>विप्राणां स्वागतं त्यागो वैश्यधर्मः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६७</sup>तिलान्गन्धान्रसांश्चैव न विक्रीणीत वै क्वचित्<br>वणिक्पथमुपासीनो वैश्यः सत्पथमाश्रितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६८</sup>सर्वातिथ्यं त्रिवर्गस्य यथाशक्ति यथार्हतः<br>शूद्रधर्मः परो नित्यं शुश्रूषा च द्विजातिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.६९</sup>स शूद्रः संशिततपाः सत्यसंधो जितेन्द्रियः<br>शुश्रूषन्नतिथिं प्राप्तं तपः संचिनुते महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.७०</sup>त्यक्तहिंसः शुभाचारो देवताद्विजपूजकः<br>शूद्रो धर्मफलैरिष्टैः संप्रयुज्येत बुद्धिमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२८.७१</sup>एतत्ते सर्वमाख्यातं चातुर्वर्ण्यस्य शोभने<br>एकैकस्येह सुभगे किमन्यच्छ्रोतुमिच्छसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२</sup>तिलोत्तमा नाम पुरा ब्रह्मणा योषिदुत्तमा<br>तिलं तिलं समुद्धृत्य रत्नानां निर्मिता शुभा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३</sup>साभ्यगच्छत मां देवि रूपेणाप्रतिमा भुवि<br>प्रदक्षिणं लोभयन्ती मां शुभे रुचिरानना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४</sup>यतो यतः सा सुदती मामुपाधावदन्तिके<br>ततस्ततो मुखं चारु मम देवि विनिर्गतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५</sup>तां दिदृक्षुरहं योगाच्चतुर्मूर्तित्वमागतः<br>चतुर्मुखश्च संवृत्तो दर्शयन्योगमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६</sup>पूर्वेण वदनेनाहमिन्द्रत्वमनुशास्मि ह<br>उत्तरेण त्वया सार्धं रमाम्यहमनिन्दिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.७</sup>पश्चिमं मे मुखं सौम्यं सर्वप्राणिसुखावहम्<br>दक्षिणं भीमसंकाशं रौद्रं संहरति प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.८</sup>जटिलो ब्रह्मचारी च लोकानां हितकाम्यया<br>देवकार्यार्थसिद्ध्यर्थं पिनाकं मे करे स्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.९</sup>इन्द्रेण च पुरा वज्रं क्षिप्तं श्रीकाङ्क्षिणा मम<br>दग्ध्वा कण्ठं तु तद्यातं तेन श्रीकण्ठता मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१०</sup>उमोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.११</sup>वाहनेषु प्रभूतेषु श्रीमत्स्वन्येषु सत्सु ते<br>कथं गोवृषभो देव वाहनत्वमुपागतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१२</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१३</sup>सुरभीं ससृजे ब्रह्मामृतधेनुं पयोमुचम्<br>सा सृष्टा बहुधा जाता क्षरमाणा पयोऽमृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१४</sup>तस्या वत्समुखोत्सृष्टः फेनो मद्गात्रमागतः<br>ततो दग्धा मया गावो नानावर्णत्वमागताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१५</sup>ततोऽहं लोकगुरुणा शमं नीतोऽर्थवेदिना<br>वृषं चेमं ध्वजार्थं मे ददौ वाहनमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१६</sup>उमोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१७</sup>निवासा बहुरूपास्ते विश्वरूपगुणान्विताः<br>तांश्च संत्यज्य भगवञ्श्मशाने रमसे कथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१८</sup>केशास्थिकलिले भीमे कपालघटसंकुले<br>गृध्रगोमायुकलिले चिताग्निशतसंकुले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.१९</sup>अशुचौ मांसकलिले वसाशोणितकर्दमे<br>विनिकीर्णामिषचये शिवानादविनादिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२०</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२१</sup>मेध्यान्वेषी महीं कृत्स्नां विचरामि निशास्वहम्<br>न च मेध्यतरं किंचिच्छ्मशानादिह विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२२</sup>तेन मे सर्ववासानां श्मशाने रमते मनः<br>न्यग्रोधशाखासंछन्ने निर्भुक्तस्रग्विभूषिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२३</sup>तत्र चैव रमन्ते मे भूतसंघाः शुभानने<br>न च भूतगणैर्देवि विनाहं वस्तुमुत्सहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२४</sup>एष वासो हि मे मेध्यः स्वर्गीयश्च मतो हि मे<br>पुण्यः परमकश्चैव मेध्यकामैरुपास्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२५</sup>उमोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२६</sup>भगवन्सर्वभूतेश सर्वधर्मभृतां वर<br>पिनाकपाणे वरद संशयो मे महानयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२७</sup>अयं मुनिगणः सर्वस्तपस्तप इति प्रभो<br>तपोन्वेषकरो लोके भ्रमते विविधाकृतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२८</sup>अस्य चैवर्षिसंघस्य मम च प्रियकाम्यया<br>एतं ममेह संदेहं वक्तुमर्हस्यरिंदम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.२९</sup>धर्मः किंलक्षणः प्रोक्तः कथं वाचरितुं नरैः<br>शक्यो धर्ममविन्दद्भिर्धर्मज्ञ वद मे प्रभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३०</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३१</sup>ततो मुनिगणः सर्वस्तां देवीं प्रत्यपूजयत्<br>वाग्भिरृग्भूषितार्थाभिः स्तवैश्चार्थविदां वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३२</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३३</sup>अहिंसा सत्यवचनं सर्वभूतानुकम्पनम्<br>शमो दानं यथाशक्ति गार्हस्थ्यो धर्म उत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३४</sup>परदारेष्वसंकल्पो न्यासस्त्रीपरिरक्षणम्<br>अदत्तादानविरमो मधुमांसस्य वर्जनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३५</sup>एष पञ्चविधो धर्मो बहुशाखः सुखोदयः<br>देहिभिर्धर्मपरमैः कर्तव्यो धर्मसंचयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३६</sup>उमोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३७</sup>भगवन्संशयं पृष्टस्तं मे व्याख्यातुमर्हसि<br>चातुर्वर्ण्यस्य यो धर्मः स्वे स्वे वर्णे गुणावहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३८</sup>ब्राह्मणे कीदृशो धर्मः क्षत्रिये कीदृशो भवेत्<br>वैश्ये किंलक्षणो धर्मः शूद्रे किंलक्षणो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.३९</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४०</sup>न्यायतस्ते महाभागे संशयः समुदीरितः<br>भूमिदेवा महाभागाः सदा लोके द्विजातयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४१</sup>उपवासः सदा धर्मो ब्राह्मणस्य न संशयः<br>स हि धर्मार्थमुत्पन्नो ब्रह्मभूयाय कल्पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४२</sup>तस्य धर्मक्रिया देवि व्रतचर्या च न्यायतः<br>तथोपनयनं चैव द्विजायैवोपपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४३</sup>गुरुदैवतपूजार्थं स्वाध्यायाभ्यसनात्मकः<br>देहिभिर्धर्मपरमैश्चर्तव्यो धर्मसंभवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४४</sup>उमोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४५</sup>भगवन्संशयो मेऽत्र तं मे व्याख्यातुमर्हसि<br>चातुर्वर्ण्यस्य धर्मं हि नैपुण्येन प्रकीर्तय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४६</sup>महेश्वर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४७</sup>रहस्यश्रवणं धर्मो वेदव्रतनिषेवणम्<br>व्रतचर्यापरो धर्मो गुरुपादप्रसादनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४८</sup>भैक्षचर्यापरो धर्मो धर्मो नित्योपवासिता<br>नित्यस्वाध्यायिता धर्मो ब्रह्मचर्याश्रमस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.४९</sup>गुरुणा त्वभ्यनुज्ञातः समावर्तेत वै द्विजः<br>विन्देतानन्तरं भार्यामनुरूपां यथाविधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५०</sup>शूद्रान्नवर्जनं धर्मस्तथा सत्पथसेवनम्<br>धर्मो नित्योपवासित्वं ब्रह्मचर्यं तथैव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५१</sup>आहिताग्निरधीयानो जुह्वानः संयतेन्द्रियः<br>विघसाशी यताहारो गृहस्थः सत्यवाक्शुचिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५२</sup>अतिथिव्रतता धर्मो धर्मस्त्रेताग्निधारणम्<br>इष्टीश्च पशुबन्धांश्च विधिपूर्वं समाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५३</sup>यज्ञश्च परमो धर्मस्तथाहिंसा च देहिषु<br>अपूर्वभोजनं धर्मो विघसाशित्वमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५४</sup>भुक्ते परिजने पश्चाद्भोजनं धर्म उच्यते<br>ब्राह्मणस्य गृहस्थस्य श्रोत्रियस्य विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५५</sup>दंपत्योः समशीलत्वं धर्मश्च गृहमेधिनाम्<br>गृह्याणां चैव देवानां नित्यं पुष्पबलिक्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५६</sup>नित्योपलेपनं धर्मस्तथा नित्योपवासिता<br>सुसंमृष्टोपलिप्ते च साज्यधूमोद्गमे गृहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५७</sup>एष द्विजजने धर्मो गार्हस्थ्यो लोकधारणः<br>द्विजातीनां सतां नित्यं सदैवैष प्रवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५८</sup>यस्तु क्षत्रगतो देवि त्वया धर्म उदीरितः<br>तमहं ते प्रवक्ष्यामि तं मे शृणु समाहिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.५९</sup>क्षत्रियस्य स्मृतो धर्मः प्रजापालनमादितः<br>निर्दिष्टफलभोक्ता हि राजा धर्मेण युज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६०</sup>प्रजाः पालयते यो हि धर्मेण मनुजाधिपः<br>तस्य धर्मार्जिता लोकाः प्रजापालनसंचिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६१</sup>तत्र राज्ञः परो धर्मो दमः स्वाध्याय एव च<br>अग्निहोत्रपरिस्पन्दो दानाध्ययनमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६२</sup>यज्ञोपवीतधारणं यज्ञो धर्मक्रियास्तथा<br>भृत्यानां भरणं धर्मः कृते कर्मण्यमोघता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६३</sup>सम्यग्दण्डे स्थितिर्धर्मो धर्मो वेदक्रतुक्रियाः<br>व्यवहारस्थितिर्धर्मः सत्यवाक्यरतिस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६४</sup>आर्तहस्तप्रदो राजा प्रेत्य चेह महीयते<br>गोब्राह्मणार्थे विक्रान्तः संग्रामे निधनं गतः<br>अश्वमेधजिताँल्लोकान्प्राप्नोति त्रिदिवालये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६५</sup>वैश्यस्य सततं धर्मः पाशुपाल्यं कृषिस्तथा<br>अग्निहोत्रपरिस्पन्दो दानाध्ययनमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६६</sup>वाणिज्यं सत्पथस्थानमातिथ्यं प्रशमो दमः<br>विप्राणां स्वागतं त्यागो वैश्यधर्मः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६७</sup>तिलान्गन्धान्रसांश्चैव न विक्रीणीत वै क्वचित्<br>वणिक्पथमुपासीनो वैश्यः सत्पथमाश्रितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६८</sup>सर्वातिथ्यं त्रिवर्गस्य यथाशक्ति यथार्हतः<br>शूद्रधर्मः परो नित्यं शुश्रूषा च द्विजातिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.६९</sup>स शूद्रः संशिततपाः सत्यसंधो जितेन्द्रियः<br>शुश्रूषन्नतिथिं प्राप्तं तपः संचिनुते महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.७०</sup>त्यक्तहिंसः शुभाचारो देवताद्विजपूजकः<br>शूद्रो धर्मफलैरिष्टैः संप्रयुज्येत बुद्धिमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२८.७१</sup>एतत्ते सर्वमाख्यातं चातुर्वर्ण्यस्य शोभने<br>एकैकस्येह सुभगे किमन्यच्छ्रोतुमिच्छसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -294,8 +287,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

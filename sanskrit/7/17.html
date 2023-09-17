@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/16.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:१७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/18.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,139 +64,104 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/16.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:१७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/18.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२</sup>ततः संशप्तका राजन्समे देशे व्यवस्थिताः<br>व्यूह्यानीकं रथैरेव चन्द्रार्धाख्यं मुदान्विताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.३</sup>ते किरीटिनमायान्तं दृष्ट्वा हर्षेण मारिष<br>उदक्रोशन्नरव्याघ्राः शब्देन महता तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.४</sup>स शब्दः प्रदिशः सर्वा दिशः खं च समावृणोत्<br>आवृतत्वाच्च लोकस्य नासीत्तत्र प्रतिस्वनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.५</sup>अतीव संप्रहृष्टांस्तानुपलभ्य धनंजयः<br>किंचिदभ्युत्स्मयन्कृष्णमिदं वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.६</sup>पश्यैतान्देवकीमातर्मुमूर्षूनद्य संयुगे<br>भ्रातॄंस्त्रैगर्तकानेवं रोदितव्ये प्रहर्षितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.७</sup>अथ वा हर्षकालोऽयं त्रैगर्तानामसंशयम्<br>कुनरैर्दुरवापान्हि लोकान्प्राप्स्यन्त्यनुत्तमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.८</sup>एवमुक्त्वा महाबाहुर्हृषीकेशं ततोऽर्जुनः<br>आससाद रणे व्यूढां त्रैगर्तानामनीकिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.९</sup>स देवदत्तमादाय शङ्खं हेमपरिष्कृतम्<br>दध्मौ वेगेन महता फल्गुनः पूरयन्दिशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१०</sup>तेन शब्देन वित्रस्ता संशप्तकवरूथिनी<br>निश्चेष्टावस्थिता संख्ये अश्मसारमयी यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.११</sup>वाहास्तेषां विवृत्ताक्षाः स्तब्धकर्णशिरोधराः<br>विष्टब्धचरणा मूत्रं रुधिरं च प्रसुस्रुवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१२</sup>उपलभ्य च ते संज्ञामवस्थाप्य च वाहिनीम्<br>युगपत्पाण्डुपुत्राय चिक्षिपुः कङ्कपत्रिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१३</sup>तान्यर्जुनः सहस्राणि दश पञ्चैव चाशुगैः<br>अनागतान्येव शरैश्चिच्छेदाशुपराक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१४</sup>ततोऽर्जुनं शितैर्बाणैर्दशभिर्दशभिः पुनः<br>प्रत्यविध्यंस्ततः पार्थस्तानविध्यत्त्रिभिस्त्रिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१५</sup>एकैकस्तु ततः पार्थं राजन्विव्याध पञ्चभिः<br>स च तान्प्रतिविव्याध द्वाभ्यां द्वाभ्यां पराक्रमी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१६</sup>भूय एव तु संरब्धास्तेऽर्जुनं सहकेशवम्<br>आपूरयञ्शरैस्तीक्ष्णैस्तटाकमिव वृष्टिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१७</sup>ततः शरसहस्राणि प्रापतन्नर्जुनं प्रति<br>भ्रमराणामिव व्राताः फुल्लद्रुमगणे वने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१८</sup>ततः सुबाहुस्त्रिंशद्भिरद्रिसारमयैर्दृढैः<br>अविध्यदिषुभिर्गाढं किरीटे सव्यसाचिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.१९</sup>तैः किरीटी किरीटस्थैर्हेमपुङ्खैरजिह्मगैः<br>शातकुम्भमयापीडो बभौ यूप इवोच्छ्रितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२०</sup>हस्तावापं सुबाहोस्तु भल्लेन युधि पाण्डवः<br>चिच्छेद तं चैव पुनः शरवर्षैरवाकिरत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२१</sup>ततः सुशर्मा दशभिः सुरथश्च किरीटिनम्<br>सुधर्मा सुधनुश्चैव सुबाहुश्च समर्पयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२२</sup>तांस्तु सर्वान्पृथग्बाणैर्वानरप्रवरध्वजः<br>प्रत्यविध्यद्ध्वजांश्चैषां भल्लैश्चिच्छेद काञ्चनान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२३</sup>सुधन्वनो धनुश्छित्त्वा हयान्वै न्यवधीच्छरैः<br>अथास्य सशिरस्त्राणं शिरः कायादपाहरत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२४</sup>तस्मिंस्तु पतिते वीरे त्रस्तास्तस्य पदानुगाः<br>व्यद्रवन्त भयाद्भीता येन दौर्योधनं बलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२५</sup>ततो जघान संक्रुद्धो वासविस्तां महाचमूम्<br>शरजालैरविच्छिन्नैस्तमः सूर्य इवांशुभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२६</sup>ततो भग्ने बले तस्मिन्विप्रयाते समन्ततः<br>सव्यसाचिनि संक्रुद्धे त्रैगर्तान्भयमाविशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२७</sup>ते वध्यमानाः पार्थेन शरैः संनतपर्वभिः<br>अमुह्यंस्तत्र तत्रैव त्रस्ता मृगगणा इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२८</sup>ततस्त्रिगर्तराट्क्रुद्धस्तानुवाच महारथान्<br>अलं द्रुतेन वः शूरा न भयं कर्तुमर्हथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.२९</sup>शप्त्वा तु शपथान्घोरान्सर्वसैन्यस्य पश्यतः<br>गत्वा दौर्योधनं सैन्यं किं वै वक्ष्यथ मुख्यगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.३०</sup>नावहास्याः कथं लोके कर्मणानेन संयुगे<br>भवेम सहिताः सर्वे निवर्तध्वं यथाबलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.३१</sup>एवमुक्तास्तु ते राजन्नुदक्रोशन्मुहुर्मुहुः<br>शङ्खांश्च दध्मिरे वीरा हर्षयन्तः परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१७.३२</sup>ततस्ते संन्यवर्तन्त संशप्तकगणाः पुनः<br>नारायणाश्च गोपालाः कृत्वा मृत्युं निवर्तनम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२</sup>ततः संशप्तका राजन्समे देशे व्यवस्थिताः<br>व्यूह्यानीकं रथैरेव चन्द्रार्धाख्यं मुदान्विताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.३</sup>ते किरीटिनमायान्तं दृष्ट्वा हर्षेण मारिष<br>उदक्रोशन्नरव्याघ्राः शब्देन महता तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.४</sup>स शब्दः प्रदिशः सर्वा दिशः खं च समावृणोत्<br>आवृतत्वाच्च लोकस्य नासीत्तत्र प्रतिस्वनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.५</sup>अतीव संप्रहृष्टांस्तानुपलभ्य धनंजयः<br>किंचिदभ्युत्स्मयन्कृष्णमिदं वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.६</sup>पश्यैतान्देवकीमातर्मुमूर्षूनद्य संयुगे<br>भ्रातॄंस्त्रैगर्तकानेवं रोदितव्ये प्रहर्षितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.७</sup>अथ वा हर्षकालोऽयं त्रैगर्तानामसंशयम्<br>कुनरैर्दुरवापान्हि लोकान्प्राप्स्यन्त्यनुत्तमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.८</sup>एवमुक्त्वा महाबाहुर्हृषीकेशं ततोऽर्जुनः<br>आससाद रणे व्यूढां त्रैगर्तानामनीकिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.९</sup>स देवदत्तमादाय शङ्खं हेमपरिष्कृतम्<br>दध्मौ वेगेन महता फल्गुनः पूरयन्दिशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१०</sup>तेन शब्देन वित्रस्ता संशप्तकवरूथिनी<br>निश्चेष्टावस्थिता संख्ये अश्मसारमयी यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.११</sup>वाहास्तेषां विवृत्ताक्षाः स्तब्धकर्णशिरोधराः<br>विष्टब्धचरणा मूत्रं रुधिरं च प्रसुस्रुवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१२</sup>उपलभ्य च ते संज्ञामवस्थाप्य च वाहिनीम्<br>युगपत्पाण्डुपुत्राय चिक्षिपुः कङ्कपत्रिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१३</sup>तान्यर्जुनः सहस्राणि दश पञ्चैव चाशुगैः<br>अनागतान्येव शरैश्चिच्छेदाशुपराक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१४</sup>ततोऽर्जुनं शितैर्बाणैर्दशभिर्दशभिः पुनः<br>प्रत्यविध्यंस्ततः पार्थस्तानविध्यत्त्रिभिस्त्रिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१५</sup>एकैकस्तु ततः पार्थं राजन्विव्याध पञ्चभिः<br>स च तान्प्रतिविव्याध द्वाभ्यां द्वाभ्यां पराक्रमी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१६</sup>भूय एव तु संरब्धास्तेऽर्जुनं सहकेशवम्<br>आपूरयञ्शरैस्तीक्ष्णैस्तटाकमिव वृष्टिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१७</sup>ततः शरसहस्राणि प्रापतन्नर्जुनं प्रति<br>भ्रमराणामिव व्राताः फुल्लद्रुमगणे वने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१८</sup>ततः सुबाहुस्त्रिंशद्भिरद्रिसारमयैर्दृढैः<br>अविध्यदिषुभिर्गाढं किरीटे सव्यसाचिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.१९</sup>तैः किरीटी किरीटस्थैर्हेमपुङ्खैरजिह्मगैः<br>शातकुम्भमयापीडो बभौ यूप इवोच्छ्रितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२०</sup>हस्तावापं सुबाहोस्तु भल्लेन युधि पाण्डवः<br>चिच्छेद तं चैव पुनः शरवर्षैरवाकिरत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२१</sup>ततः सुशर्मा दशभिः सुरथश्च किरीटिनम्<br>सुधर्मा सुधनुश्चैव सुबाहुश्च समर्पयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२२</sup>तांस्तु सर्वान्पृथग्बाणैर्वानरप्रवरध्वजः<br>प्रत्यविध्यद्ध्वजांश्चैषां भल्लैश्चिच्छेद काञ्चनान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२३</sup>सुधन्वनो धनुश्छित्त्वा हयान्वै न्यवधीच्छरैः<br>अथास्य सशिरस्त्राणं शिरः कायादपाहरत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२४</sup>तस्मिंस्तु पतिते वीरे त्रस्तास्तस्य पदानुगाः<br>व्यद्रवन्त भयाद्भीता येन दौर्योधनं बलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२५</sup>ततो जघान संक्रुद्धो वासविस्तां महाचमूम्<br>शरजालैरविच्छिन्नैस्तमः सूर्य इवांशुभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२६</sup>ततो भग्ने बले तस्मिन्विप्रयाते समन्ततः<br>सव्यसाचिनि संक्रुद्धे त्रैगर्तान्भयमाविशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२७</sup>ते वध्यमानाः पार्थेन शरैः संनतपर्वभिः<br>अमुह्यंस्तत्र तत्रैव त्रस्ता मृगगणा इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२८</sup>ततस्त्रिगर्तराट्क्रुद्धस्तानुवाच महारथान्<br>अलं द्रुतेन वः शूरा न भयं कर्तुमर्हथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.२९</sup>शप्त्वा तु शपथान्घोरान्सर्वसैन्यस्य पश्यतः<br>गत्वा दौर्योधनं सैन्यं किं वै वक्ष्यथ मुख्यगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.३०</sup>नावहास्याः कथं लोके कर्मणानेन संयुगे<br>भवेम सहिताः सर्वे निवर्तध्वं यथाबलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.३१</sup>एवमुक्तास्तु ते राजन्नुदक्रोशन्मुहुर्मुहुः<br>शङ्खांश्च दध्मिरे वीरा हर्षयन्तः परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१७.३२</sup>ततस्ते संन्यवर्तन्त संशप्तकगणाः पुनः<br>नारायणाश्च गोपालाः कृत्वा मृत्युं निवर्तनम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -177,8 +170,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

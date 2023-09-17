@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/63.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:६४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/65.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,103 +64,68 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/63.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:६४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/65.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.२</sup>सर्वान्कामान्प्रयच्छन्ति ये प्रयच्छन्ति काञ्चनम्<br>इत्येवं भगवानत्रिः पितामहसुतोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.३</sup>पवित्रं शुच्यथायुष्यं पितॄणामक्षयं च तत्<br>सुवर्णं मनुजेन्द्रेण हरिश्चन्द्रेण कीर्तितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.४</sup>पानीयदानं परमं दानानां मनुरब्रवीत्<br>तस्माद्वापीश्च कूपांश्च तडागानि च खानयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.५</sup>अर्धं पापस्य हरति पुरुषस्येह कर्मणः<br>कूपः प्रवृत्तपानीयः सुप्रवृत्तश्च नित्यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.६</sup>सर्वं तारयते वंशं यस्य खाते जलाशये<br>गावः पिबन्ति विप्राश्च साधवश्च नराः सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.७</sup>निदाघकाले पानीयं यस्य तिष्ठत्यवारितम्<br>स दुर्गं विषमं कृच्छ्रं न कदाचिदवाप्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.८</sup>बृहस्पतेर्भगवतः पूष्णश्चैव भगस्य च<br>अश्विनोश्चैव वह्नेश्च प्रीतिर्भवति सर्पिषा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.९</sup>परमं भेषजं ह्येतद्यज्ञानामेतदुत्तमम्<br>रसानामुत्तमं चैतत्फलानां चैतदुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१०</sup>फलकामो यशस्कामः पुष्टिकामश्च नित्यदा<br>घृतं दद्याद्द्विजातिभ्यः पुरुषः शुचिरात्मवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.११</sup>घृतं मासे आश्वयुजि विप्रेभ्यो यः प्रयच्छति<br>तस्मै प्रयच्छतो रूपं प्रीतौ देवाविहाश्विनौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१२</sup>पायसं सर्पिषा मिश्रं द्विजेभ्यो यः प्रयच्छति<br>गृहं तस्य न रक्षांसि धर्षयन्ति कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१३</sup>पिपासया न म्रियते सोपच्छन्दश्च दृश्यते<br>न प्राप्नुयाच्च व्यसनं करकान्यः प्रयच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१४</sup>प्रयतो ब्राह्मणाग्रेभ्यः श्रद्धया परया युतः<br>उपस्पर्शनषड्भागं लभते पुरुषः सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१५</sup>यः साधनार्थं काष्ठानि ब्राह्मणेभ्यः प्रयच्छति<br>प्रतापार्थं च राजेन्द्र वृत्तवद्भ्यः सदा नरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१६</sup>सिध्यन्त्यर्थाः सदा तस्य कार्याणि विविधानि च<br>उपर्युपरि शत्रूणां वपुषा दीप्यते च सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१७</sup>भगवांश्चास्य सुप्रीतो वह्निर्भवति नित्यशः<br>न तं त्यजन्ते पशवः संग्रामे च जयत्यपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१८</sup>पुत्राञ्छ्रियं च लभते यश्छत्रं संप्रयच्छति<br>चक्षुर्व्याधिं न लभते यज्ञभागमथाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.१९</sup>निदाघकाले वर्षे वा यश्छत्रं संप्रयच्छति<br>नास्य कश्चिन्मनोदाहः कदाचिदपि जायते<br>कृच्छ्रात्स विषमाच्चैव विप्र मोक्षमवाप्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.६४.२०</sup>प्रदानं सर्वदानानां शकटस्य विशिष्यते<br>एवमाह महाभागः शाण्डिल्यो भगवानृषिः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.२</sup>सर्वान्कामान्प्रयच्छन्ति ये प्रयच्छन्ति काञ्चनम्<br>इत्येवं भगवानत्रिः पितामहसुतोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.३</sup>पवित्रं शुच्यथायुष्यं पितॄणामक्षयं च तत्<br>सुवर्णं मनुजेन्द्रेण हरिश्चन्द्रेण कीर्तितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.४</sup>पानीयदानं परमं दानानां मनुरब्रवीत्<br>तस्माद्वापीश्च कूपांश्च तडागानि च खानयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.५</sup>अर्धं पापस्य हरति पुरुषस्येह कर्मणः<br>कूपः प्रवृत्तपानीयः सुप्रवृत्तश्च नित्यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.६</sup>सर्वं तारयते वंशं यस्य खाते जलाशये<br>गावः पिबन्ति विप्राश्च साधवश्च नराः सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.७</sup>निदाघकाले पानीयं यस्य तिष्ठत्यवारितम्<br>स दुर्गं विषमं कृच्छ्रं न कदाचिदवाप्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.८</sup>बृहस्पतेर्भगवतः पूष्णश्चैव भगस्य च<br>अश्विनोश्चैव वह्नेश्च प्रीतिर्भवति सर्पिषा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.९</sup>परमं भेषजं ह्येतद्यज्ञानामेतदुत्तमम्<br>रसानामुत्तमं चैतत्फलानां चैतदुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१०</sup>फलकामो यशस्कामः पुष्टिकामश्च नित्यदा<br>घृतं दद्याद्द्विजातिभ्यः पुरुषः शुचिरात्मवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.११</sup>घृतं मासे आश्वयुजि विप्रेभ्यो यः प्रयच्छति<br>तस्मै प्रयच्छतो रूपं प्रीतौ देवाविहाश्विनौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१२</sup>पायसं सर्पिषा मिश्रं द्विजेभ्यो यः प्रयच्छति<br>गृहं तस्य न रक्षांसि धर्षयन्ति कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१३</sup>पिपासया न म्रियते सोपच्छन्दश्च दृश्यते<br>न प्राप्नुयाच्च व्यसनं करकान्यः प्रयच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१४</sup>प्रयतो ब्राह्मणाग्रेभ्यः श्रद्धया परया युतः<br>उपस्पर्शनषड्भागं लभते पुरुषः सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१५</sup>यः साधनार्थं काष्ठानि ब्राह्मणेभ्यः प्रयच्छति<br>प्रतापार्थं च राजेन्द्र वृत्तवद्भ्यः सदा नरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१६</sup>सिध्यन्त्यर्थाः सदा तस्य कार्याणि विविधानि च<br>उपर्युपरि शत्रूणां वपुषा दीप्यते च सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१७</sup>भगवांश्चास्य सुप्रीतो वह्निर्भवति नित्यशः<br>न तं त्यजन्ते पशवः संग्रामे च जयत्यपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१८</sup>पुत्राञ्छ्रियं च लभते यश्छत्रं संप्रयच्छति<br>चक्षुर्व्याधिं न लभते यज्ञभागमथाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.१९</sup>निदाघकाले वर्षे वा यश्छत्रं संप्रयच्छति<br>नास्य कश्चिन्मनोदाहः कदाचिदपि जायते<br>कृच्छ्रात्स विषमाच्चैव विप्र मोक्षमवाप्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.६४.२०</sup>प्रदानं सर्वदानानां शकटस्य विशिष्यते<br>एवमाह महाभागः शाण्डिल्यो भगवानृषिः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -141,8 +134,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/143.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१४४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/145.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,130 +64,95 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/143.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१४४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/145.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२</sup>ततः सूर्यान्निश्चरितां कर्णः शुश्राव भारतीम्<br>दुरत्ययां प्रणयिनीं पितृवद्भास्करेरिताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.३</sup>सत्यमाह पृथा वाक्यं कर्ण मातृवचः कुरु<br>श्रेयस्ते स्यान्नरव्याघ्र सर्वमाचरतस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.४</sup>एवमुक्तस्य मात्रा च स्वयं पित्रा च भानुना<br>चचाल नैव कर्णस्य मतिः सत्यधृतेस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.५</sup>कर्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.६</sup>न ते न श्रद्दधे वाक्यं क्षत्रिये भाषितं त्वया<br>धर्मद्वारं ममैतत्स्यान्नियोगकरणं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.७</sup>अकरोन्मयि यत्पापं भवती सुमहात्ययम्<br>अवकीर्णोऽस्मि ते तेन तद्यशःकीर्तिनाशनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.८</sup>अहं च क्षत्रियो जातो न प्राप्तः क्षत्रसत्क्रियाम्<br>त्वत्कृते किं नु पापीयः शत्रुः कुर्यान्ममाहितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.९</sup>क्रियाकाले त्वनुक्रोशमकृत्वा त्वमिमं मम<br>हीनसंस्कारसमयमद्य मां समचूचुदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१०</sup>न वै मम हितं पूर्वं मातृवच्चेष्टितं त्वया<br>सा मां संबोधयस्यद्य केवलात्महितैषिणी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.११</sup>कृष्णेन सहितात्को वै न व्यथेत धनंजयात्<br>कोऽद्य भीतं न मां विद्यात्पार्थानां समितिं गतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१२</sup>अभ्राता विदितः पूर्वं युद्धकाले प्रकाशितः<br>पाण्डवान्यदि गच्छामि किं मां क्षत्रं वदिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१३</sup>सर्वकामैः संविभक्तः पूजितश्च सदा भृशम्<br>अहं वै धार्तराष्ट्राणां कुर्यां तदफलं कथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१४</sup>उपनह्य परैर्वैरं ये मां नित्यमुपासते<br>नमस्कुर्वन्ति च सदा वसवो वासवं यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१५</sup>मम प्राणेन ये शत्रूञ्शक्ताः प्रतिसमासितुम्<br>मन्यन्तेऽद्य कथं तेषामहं भिन्द्यां मनोरथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१६</sup>मया प्लवेन संग्रामं तितीर्षन्ति दुरत्ययम्<br>अपारे पारकामा ये त्यजेयं तानहं कथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१७</sup>अयं हि कालः संप्राप्तो धार्तराष्ट्रोपजीविनाम्<br>निर्वेष्टव्यं मया तत्र प्राणानपरिरक्षता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१८</sup>कृतार्थाः सुभृता ये हि कृत्यकाल उपस्थिते<br>अनवेक्ष्य कृतं पापा विकुर्वन्त्यनवस्थिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.१९</sup>राजकिल्बिषिणां तेषां भर्तृपिण्डापहारिणाम्<br>नैवायं न परो लोको विद्यते पापकर्मणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२०</sup>धृतराष्ट्रस्य पुत्राणामर्थे योत्स्यामि ते सुतैः<br>बलं च शक्तिं चास्थाय न वै त्वय्यनृतं वदे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२१</sup>आनृशंस्यमथो वृत्तं रक्षन्सत्पुरुषोचितम्<br>अतोऽर्थकरमप्येतन्न करोम्यद्य ते वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२२</sup>न तु तेऽयं समारम्भो मयि मोघो भविष्यति<br>वध्यान्विषह्यान्संग्रामे न हनिष्यामि ते सुतान्<br>युधिष्ठिरं च भीमं च यमौ चैवार्जुनादृते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२३</sup>अर्जुनेन समं युद्धं मम यौधिष्ठिरे बले<br>अर्जुनं हि निहत्याजौ संप्राप्तं स्यात्फलं मया<br>यशसा चापि युज्येयं निहतः सव्यसाचिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२४</sup>न ते जातु नशिष्यन्ति पुत्राः पञ्च यशस्विनि<br>निरर्जुनाः सकर्णा वा सार्जुना वा हते मयि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२६</sup>इति कर्णवचः श्रुत्वा कुन्ती दुःखात्प्रवेपती<br>उवाच पुत्रमाश्लिष्य कर्णं धैर्यादकम्पितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२७</sup>एवं वै भाव्यमेतेन क्षयं यास्यन्ति कौरवाः<br>यथा त्वं भाषसे कर्ण दैवं तु बलवत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२८</sup>त्वया चतुर्णां भ्रातॄणामभयं शत्रुकर्शन<br>दत्तं तत्प्रतिजानीहि संगरप्रतिमोचनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१४४.२९</sup>अनामयं स्वस्ति चेति पृथाथो कर्णमब्रवीत्<br>तां कर्णोऽभ्यवदत्प्रीतस्ततस्तौ जग्मतुः पृथक्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२</sup>ततः सूर्यान्निश्चरितां कर्णः शुश्राव भारतीम्<br>दुरत्ययां प्रणयिनीं पितृवद्भास्करेरिताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.३</sup>सत्यमाह पृथा वाक्यं कर्ण मातृवचः कुरु<br>श्रेयस्ते स्यान्नरव्याघ्र सर्वमाचरतस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.४</sup>एवमुक्तस्य मात्रा च स्वयं पित्रा च भानुना<br>चचाल नैव कर्णस्य मतिः सत्यधृतेस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.५</sup>कर्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.६</sup>न ते न श्रद्दधे वाक्यं क्षत्रिये भाषितं त्वया<br>धर्मद्वारं ममैतत्स्यान्नियोगकरणं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.७</sup>अकरोन्मयि यत्पापं भवती सुमहात्ययम्<br>अवकीर्णोऽस्मि ते तेन तद्यशःकीर्तिनाशनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.८</sup>अहं च क्षत्रियो जातो न प्राप्तः क्षत्रसत्क्रियाम्<br>त्वत्कृते किं नु पापीयः शत्रुः कुर्यान्ममाहितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.९</sup>क्रियाकाले त्वनुक्रोशमकृत्वा त्वमिमं मम<br>हीनसंस्कारसमयमद्य मां समचूचुदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१०</sup>न वै मम हितं पूर्वं मातृवच्चेष्टितं त्वया<br>सा मां संबोधयस्यद्य केवलात्महितैषिणी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.११</sup>कृष्णेन सहितात्को वै न व्यथेत धनंजयात्<br>कोऽद्य भीतं न मां विद्यात्पार्थानां समितिं गतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१२</sup>अभ्राता विदितः पूर्वं युद्धकाले प्रकाशितः<br>पाण्डवान्यदि गच्छामि किं मां क्षत्रं वदिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१३</sup>सर्वकामैः संविभक्तः पूजितश्च सदा भृशम्<br>अहं वै धार्तराष्ट्राणां कुर्यां तदफलं कथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१४</sup>उपनह्य परैर्वैरं ये मां नित्यमुपासते<br>नमस्कुर्वन्ति च सदा वसवो वासवं यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१५</sup>मम प्राणेन ये शत्रूञ्शक्ताः प्रतिसमासितुम्<br>मन्यन्तेऽद्य कथं तेषामहं भिन्द्यां मनोरथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१६</sup>मया प्लवेन संग्रामं तितीर्षन्ति दुरत्ययम्<br>अपारे पारकामा ये त्यजेयं तानहं कथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१७</sup>अयं हि कालः संप्राप्तो धार्तराष्ट्रोपजीविनाम्<br>निर्वेष्टव्यं मया तत्र प्राणानपरिरक्षता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१८</sup>कृतार्थाः सुभृता ये हि कृत्यकाल उपस्थिते<br>अनवेक्ष्य कृतं पापा विकुर्वन्त्यनवस्थिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.१९</sup>राजकिल्बिषिणां तेषां भर्तृपिण्डापहारिणाम्<br>नैवायं न परो लोको विद्यते पापकर्मणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२०</sup>धृतराष्ट्रस्य पुत्राणामर्थे योत्स्यामि ते सुतैः<br>बलं च शक्तिं चास्थाय न वै त्वय्यनृतं वदे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२१</sup>आनृशंस्यमथो वृत्तं रक्षन्सत्पुरुषोचितम्<br>अतोऽर्थकरमप्येतन्न करोम्यद्य ते वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२२</sup>न तु तेऽयं समारम्भो मयि मोघो भविष्यति<br>वध्यान्विषह्यान्संग्रामे न हनिष्यामि ते सुतान्<br>युधिष्ठिरं च भीमं च यमौ चैवार्जुनादृते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२३</sup>अर्जुनेन समं युद्धं मम यौधिष्ठिरे बले<br>अर्जुनं हि निहत्याजौ संप्राप्तं स्यात्फलं मया<br>यशसा चापि युज्येयं निहतः सव्यसाचिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२४</sup>न ते जातु नशिष्यन्ति पुत्राः पञ्च यशस्विनि<br>निरर्जुनाः सकर्णा वा सार्जुना वा हते मयि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२६</sup>इति कर्णवचः श्रुत्वा कुन्ती दुःखात्प्रवेपती<br>उवाच पुत्रमाश्लिष्य कर्णं धैर्यादकम्पितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२७</sup>एवं वै भाव्यमेतेन क्षयं यास्यन्ति कौरवाः<br>यथा त्वं भाषसे कर्ण दैवं तु बलवत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२८</sup>त्वया चतुर्णां भ्रातॄणामभयं शत्रुकर्शन<br>दत्तं तत्प्रतिजानीहि संगरप्रतिमोचनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१४४.२९</sup>अनामयं स्वस्ति चेति पृथाथो कर्णमब्रवीत्<br>तां कर्णोऽभ्यवदत्प्रीतस्ततस्तौ जग्मतुः पृथक्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -168,8 +161,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

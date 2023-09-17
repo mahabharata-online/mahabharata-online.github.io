@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/121.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१२२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/123.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,232 +64,197 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/121.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१२२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/123.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२</sup>भगवन्नेवमेवैतद्यथा वदसि नारद<br>इच्छामि चाहमप्येवं न त्वीशो भगवन्नहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४</sup>एवमुक्त्वा ततः कृष्णमभ्यभाषत भारत<br>स्वर्ग्यं लोक्यं च मामात्थ धर्म्यं न्याय्यं च केशव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५</sup>न त्वहं स्ववशस्तात क्रियमाणं न मे प्रियम्<br>अङ्ग दुर्योधनं कृष्ण मन्दं शास्त्रातिगं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.६</sup>अनुनेतुं महाबाहो यतस्व पुरुषोत्तम<br>सुहृत्कार्यं तु सुमहत्कृतं ते स्याज्जनार्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.७</sup>ततोऽभ्यावृत्य वार्ष्णेयो दुर्योधनममर्षणम्<br>अब्रवीन्मधुरां वाचं सर्वधर्मार्थतत्त्ववित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.८</sup>दुर्योधन निबोधेदं मद्वाक्यं कुरुसत्तम<br>समर्थं ते विशेषेण सानुबन्धस्य भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.९</sup>महाप्राज्ञ कुले जातः साध्वेतत्कर्तुमर्हसि<br>श्रुतवृत्तोपसंपन्नः सर्वैः समुदितो गुणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१०</sup>दौष्कुलेया दुरात्मानो नृशंसा निरपत्रपाः<br>त एतदीदृशं कुर्युर्यथा त्वं तात मन्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.११</sup>धर्मार्थयुक्ता लोकेऽस्मिन्प्रवृत्तिर्लक्ष्यते सताम्<br>असतां विपरीता तु लक्ष्यते भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१२</sup>विपरीता त्वियं वृत्तिरसकृल्लक्ष्यते त्वयि<br>अधर्मश्चानुबन्धोऽत्र घोरः प्राणहरो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१३</sup>अनेकशस्त्वन्निमित्तमयशस्यं च भारत<br>तमनर्थं परिहरन्नात्मश्रेयः करिष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१४</sup>भ्रातॄणामथ भृत्यानां मित्राणां च परंतप<br>अधर्म्यादयशस्याच्च कर्मणस्त्वं प्रमोक्ष्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१५</sup>प्राज्ञैः शूरैर्महोत्साहैरात्मवद्भिर्बहुश्रुतैः<br>संधत्स्व पुरुषव्याघ्र पाण्डवैर्भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१६</sup>तद्धितं च प्रियं चैव धृतराष्ट्रस्य धीमतः<br>पितामहस्य द्रोणस्य विदुरस्य महामतेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१७</sup>कृपस्य सोमदत्तस्य बाह्लीकस्य च धीमतः<br>अश्वत्थाम्नो विकर्णस्य संजयस्य विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१८</sup>ज्ञातीनां चैव भूयिष्ठं मित्राणां च परंतप<br>शमे शर्म भवेत्तात सर्वस्य जगतस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.१९</sup>ह्रीमानसि कुले जातः श्रुतवाननृशंसवान्<br>तिष्ठ तात पितुः शास्त्रे मातुश्च भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२०</sup>एतच्छ्रेयो हि मन्यन्ते पिता यच्छास्ति भारत<br>उत्तमापद्गतः सर्वः पितुः स्मरति शासनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२१</sup>रोचते ते पितुस्तात पाण्डवैः सह संगमः<br>सामात्यस्य कुरुश्रेष्ठ तत्तुभ्यं तात रोचताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२२</sup>श्रुत्वा यः सुहृदां शास्त्रं मर्त्यो न प्रतिपद्यते<br>विपाकान्ते दहत्येनं किंपाकमिव भक्षितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२३</sup>यस्तु निःश्रेयसं वाक्यं मोहान्न प्रतिपद्यते<br>स दीर्घसूत्रो हीनार्थः पश्चात्तापेन युज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२४</sup>यस्तु निःश्रेयसं श्रुत्वा प्राप्तमेवाभिपद्यते<br>आत्मनो मतमुत्सृज्य स लोके सुखमेधते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२५</sup>योऽर्थकामस्य वचनं प्रातिकूल्यान्न मृष्यते<br>शृणोति प्रतिकूलानि द्विषतां वशमेति सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२६</sup>सतां मतमतिक्रम्य योऽसतां वर्तते मते<br>शोचन्ते व्यसने तस्य सुहृदो नचिरादिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२७</sup>मुख्यानमात्यानुत्सृज्य यो निहीनान्निषेवते<br>स घोरामापदं प्राप्य नोत्तारमधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२८</sup>योऽसत्सेवी वृथाचारो न श्रोता सुहृदां सदा<br>परान्वृणीते स्वान्द्वेष्टि तं गौः शपति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.२९</sup>स त्वं विरुध्य तैर्वीरैरन्येभ्यस्त्राणमिच्छसि<br>अशिष्टेभ्योऽसमर्थेभ्यो मूढेभ्यो भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३०</sup>को हि शक्रसमाञ्ज्ञातीनतिक्रम्य महारथान्<br>अन्येभ्यस्त्राणमाशंसेत्त्वदन्यो भुवि मानवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३१</sup>जन्मप्रभृति कौन्तेया नित्यं विनिकृतास्त्वया<br>न च ते जातु कुप्यन्ति धर्मात्मानो हि पाण्डवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३२</sup>मिथ्याप्रचरितास्तात जन्मप्रभृति पाण्डवाः<br>त्वयि सम्यङ्महाबाहो प्रतिपन्ना यशस्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३३</sup>त्वयापि प्रतिपत्तव्यं तथैव भरतर्षभ<br>स्वेषु बन्धुषु मुख्येषु मा मन्युवशमन्वगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३४</sup>त्रिवर्गयुक्ता प्राज्ञानामारम्भा भरतर्षभ<br>धर्मार्थावनुरुध्यन्ते त्रिवर्गासंभवे नराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३५</sup>पृथक्तु विनिविष्टानां धर्मं धीरोऽनुरुध्यते<br>मध्यमोऽर्थं कलिं बालः काममेवानुरुध्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३६</sup>इन्द्रियैः प्रसृतो लोभाद्धर्मं विप्रजहाति यः<br>कामार्थावनुपायेन लिप्समानो विनश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३७</sup>कामार्थौ लिप्समानस्तु धर्ममेवादितश्चरेत्<br>न हि धर्मादपैत्यर्थः कामो वापि कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३८</sup>उपायं धर्ममेवाहुस्त्रिवर्गस्य विशां पते<br>लिप्समानो हि तेनाशु कक्षेऽग्निरिव वर्धते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.३९</sup>स त्वं तातानुपायेन लिप्ससे भरतर्षभ<br>आधिराज्यं महद्दीप्तं प्रथितं सर्वराजसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४०</sup>आत्मानं तक्षति ह्येष वनं परशुना यथा<br>यः सम्यग्वर्तमानेषु मिथ्या राजन्प्रवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४१</sup>न तस्य हि मतिं छिन्द्याद्यस्य नेच्छेत्पराभवम्<br>अविच्छिन्नस्य धीरस्य कल्याणे धीयते मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४२</sup>त्यक्तात्मानं न बाधेत त्रिषु लोकेषु भारत<br>अप्यन्यं प्राकृतं किंचित्किमु तान्पाण्डवर्षभान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४३</sup>अमर्षवशमापन्नो न किंचिद्बुध्यते नरः<br>छिद्यते ह्याततं सर्वं प्रमाणं पश्य भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४४</sup>श्रेयस्ते दुर्जनात्तात पाण्डवैः सह संगमः<br>तैर्हि संप्रीयमाणस्त्वं सर्वान्कामानवाप्स्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४५</sup>पाण्डवैर्निर्जितां भूमिं भुञ्जानो राजसत्तम<br>पाण्डवान्पृष्ठतः कृत्वा त्राणमाशंससेऽन्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४६</sup>दुःशासने दुर्विषहे कर्णे चापि ससौबले<br>एतेष्वैश्वर्यमाधाय भूतिमिच्छसि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४७</sup>न चैते तव पर्याप्ता ज्ञाने धर्मार्थयोस्तथा<br>विक्रमे चाप्यपर्याप्ताः पाण्डवान्प्रति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४८</sup>न हीमे सर्वराजानः पर्याप्ताः सहितास्त्वया<br>क्रुद्धस्य भीमसेनस्य प्रेक्षितुं मुखमाहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.४९</sup>इदं संनिहितं तात समग्रं पार्थिवं बलम्<br>अयं भीष्मस्तथा द्रोणः कर्णश्चायं तथा कृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५०</sup>भूरिश्रवाः सौमदत्तिरश्वत्थामा जयद्रथः<br>अशक्ताः सर्व एवैते प्रतियोद्धुं धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५१</sup>अजेयो ह्यर्जुनः क्रुद्धः सर्वैरपि सुरासुरैः<br>मानुषैरपि गन्धर्वैर्मा युद्धे चेत आधिथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५२</sup>दृश्यतां वा पुमान्कश्चित्समग्रे पार्थिवे बले<br>योऽर्जुनं समरे प्राप्य स्वस्तिमानाव्रजेद्गृहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५३</sup>किं ते जनक्षयेणेह कृतेन भरतर्षभ<br>यस्मिञ्जिते जितं ते स्यात्पुमानेकः स दृश्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५४</sup>यः स देवान्सगन्धर्वान्सयक्षासुरपन्नगान्<br>अजयत्खाण्डवप्रस्थे कस्तं युध्येत मानवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५५</sup>तथा विराटनगरे श्रूयते महदद्भुतम्<br>एकस्य च बहूनां च पर्याप्तं तन्निदर्शनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५६</sup>तमजेयमनाधृष्यं विजेतुं जिष्णुमच्युतम्<br>आशंससीह समरे वीरमर्जुनमूर्जितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५७</sup>मद्द्वितीयं पुनः पार्थं कः प्रार्थयितुमर्हति<br>युद्धे प्रतीपमायान्तमपि साक्षात्पुरंदरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५८</sup>बाहुभ्यामुद्धरेद्भूमिं दहेत्क्रुद्ध इमाः प्रजाः<br>पातयेत्त्रिदिवाद्देवान्योऽर्जुनं समरे जयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.५९</sup>पश्य पुत्रांस्तथा भ्रातॄञ्ज्ञातीन्संबन्धिनस्तथा<br>त्वत्कृते न विनश्येयुरेते भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.६०</sup>अस्तु शेषं कौरवाणां मा पराभूदिदं कुलम्<br>कुलघ्न इति नोच्येथा नष्टकीर्तिर्नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.६१</sup>त्वामेव स्थापयिष्यन्ति यौवराज्ये महारथाः<br>महाराज्ये च पितरं धृतराष्ट्रं जनेश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.६२</sup>मा तात श्रियमायान्तीमवमंस्थाः समुद्यताम्<br>अर्धं प्रदाय पार्थेभ्यो महतीं श्रियमाप्स्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२२.६३</sup>पाण्डवैः संशमं कृत्वा कृत्वा च सुहृदां वचः<br>संप्रीयमाणो मित्रैश्च चिरं भद्राण्यवाप्स्यसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२</sup>भगवन्नेवमेवैतद्यथा वदसि नारद<br>इच्छामि चाहमप्येवं न त्वीशो भगवन्नहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४</sup>एवमुक्त्वा ततः कृष्णमभ्यभाषत भारत<br>स्वर्ग्यं लोक्यं च मामात्थ धर्म्यं न्याय्यं च केशव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५</sup>न त्वहं स्ववशस्तात क्रियमाणं न मे प्रियम्<br>अङ्ग दुर्योधनं कृष्ण मन्दं शास्त्रातिगं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.६</sup>अनुनेतुं महाबाहो यतस्व पुरुषोत्तम<br>सुहृत्कार्यं तु सुमहत्कृतं ते स्याज्जनार्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.७</sup>ततोऽभ्यावृत्य वार्ष्णेयो दुर्योधनममर्षणम्<br>अब्रवीन्मधुरां वाचं सर्वधर्मार्थतत्त्ववित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.८</sup>दुर्योधन निबोधेदं मद्वाक्यं कुरुसत्तम<br>समर्थं ते विशेषेण सानुबन्धस्य भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.९</sup>महाप्राज्ञ कुले जातः साध्वेतत्कर्तुमर्हसि<br>श्रुतवृत्तोपसंपन्नः सर्वैः समुदितो गुणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१०</sup>दौष्कुलेया दुरात्मानो नृशंसा निरपत्रपाः<br>त एतदीदृशं कुर्युर्यथा त्वं तात मन्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.११</sup>धर्मार्थयुक्ता लोकेऽस्मिन्प्रवृत्तिर्लक्ष्यते सताम्<br>असतां विपरीता तु लक्ष्यते भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१२</sup>विपरीता त्वियं वृत्तिरसकृल्लक्ष्यते त्वयि<br>अधर्मश्चानुबन्धोऽत्र घोरः प्राणहरो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१३</sup>अनेकशस्त्वन्निमित्तमयशस्यं च भारत<br>तमनर्थं परिहरन्नात्मश्रेयः करिष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१४</sup>भ्रातॄणामथ भृत्यानां मित्राणां च परंतप<br>अधर्म्यादयशस्याच्च कर्मणस्त्वं प्रमोक्ष्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१५</sup>प्राज्ञैः शूरैर्महोत्साहैरात्मवद्भिर्बहुश्रुतैः<br>संधत्स्व पुरुषव्याघ्र पाण्डवैर्भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१६</sup>तद्धितं च प्रियं चैव धृतराष्ट्रस्य धीमतः<br>पितामहस्य द्रोणस्य विदुरस्य महामतेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१७</sup>कृपस्य सोमदत्तस्य बाह्लीकस्य च धीमतः<br>अश्वत्थाम्नो विकर्णस्य संजयस्य विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१८</sup>ज्ञातीनां चैव भूयिष्ठं मित्राणां च परंतप<br>शमे शर्म भवेत्तात सर्वस्य जगतस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.१९</sup>ह्रीमानसि कुले जातः श्रुतवाननृशंसवान्<br>तिष्ठ तात पितुः शास्त्रे मातुश्च भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२०</sup>एतच्छ्रेयो हि मन्यन्ते पिता यच्छास्ति भारत<br>उत्तमापद्गतः सर्वः पितुः स्मरति शासनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२१</sup>रोचते ते पितुस्तात पाण्डवैः सह संगमः<br>सामात्यस्य कुरुश्रेष्ठ तत्तुभ्यं तात रोचताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२२</sup>श्रुत्वा यः सुहृदां शास्त्रं मर्त्यो न प्रतिपद्यते<br>विपाकान्ते दहत्येनं किंपाकमिव भक्षितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२३</sup>यस्तु निःश्रेयसं वाक्यं मोहान्न प्रतिपद्यते<br>स दीर्घसूत्रो हीनार्थः पश्चात्तापेन युज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२४</sup>यस्तु निःश्रेयसं श्रुत्वा प्राप्तमेवाभिपद्यते<br>आत्मनो मतमुत्सृज्य स लोके सुखमेधते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२५</sup>योऽर्थकामस्य वचनं प्रातिकूल्यान्न मृष्यते<br>शृणोति प्रतिकूलानि द्विषतां वशमेति सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२६</sup>सतां मतमतिक्रम्य योऽसतां वर्तते मते<br>शोचन्ते व्यसने तस्य सुहृदो नचिरादिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२७</sup>मुख्यानमात्यानुत्सृज्य यो निहीनान्निषेवते<br>स घोरामापदं प्राप्य नोत्तारमधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२८</sup>योऽसत्सेवी वृथाचारो न श्रोता सुहृदां सदा<br>परान्वृणीते स्वान्द्वेष्टि तं गौः शपति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.२९</sup>स त्वं विरुध्य तैर्वीरैरन्येभ्यस्त्राणमिच्छसि<br>अशिष्टेभ्योऽसमर्थेभ्यो मूढेभ्यो भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३०</sup>को हि शक्रसमाञ्ज्ञातीनतिक्रम्य महारथान्<br>अन्येभ्यस्त्राणमाशंसेत्त्वदन्यो भुवि मानवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३१</sup>जन्मप्रभृति कौन्तेया नित्यं विनिकृतास्त्वया<br>न च ते जातु कुप्यन्ति धर्मात्मानो हि पाण्डवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३२</sup>मिथ्याप्रचरितास्तात जन्मप्रभृति पाण्डवाः<br>त्वयि सम्यङ्महाबाहो प्रतिपन्ना यशस्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३३</sup>त्वयापि प्रतिपत्तव्यं तथैव भरतर्षभ<br>स्वेषु बन्धुषु मुख्येषु मा मन्युवशमन्वगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३४</sup>त्रिवर्गयुक्ता प्राज्ञानामारम्भा भरतर्षभ<br>धर्मार्थावनुरुध्यन्ते त्रिवर्गासंभवे नराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३५</sup>पृथक्तु विनिविष्टानां धर्मं धीरोऽनुरुध्यते<br>मध्यमोऽर्थं कलिं बालः काममेवानुरुध्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३६</sup>इन्द्रियैः प्रसृतो लोभाद्धर्मं विप्रजहाति यः<br>कामार्थावनुपायेन लिप्समानो विनश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३७</sup>कामार्थौ लिप्समानस्तु धर्ममेवादितश्चरेत्<br>न हि धर्मादपैत्यर्थः कामो वापि कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३८</sup>उपायं धर्ममेवाहुस्त्रिवर्गस्य विशां पते<br>लिप्समानो हि तेनाशु कक्षेऽग्निरिव वर्धते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.३९</sup>स त्वं तातानुपायेन लिप्ससे भरतर्षभ<br>आधिराज्यं महद्दीप्तं प्रथितं सर्वराजसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४०</sup>आत्मानं तक्षति ह्येष वनं परशुना यथा<br>यः सम्यग्वर्तमानेषु मिथ्या राजन्प्रवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४१</sup>न तस्य हि मतिं छिन्द्याद्यस्य नेच्छेत्पराभवम्<br>अविच्छिन्नस्य धीरस्य कल्याणे धीयते मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४२</sup>त्यक्तात्मानं न बाधेत त्रिषु लोकेषु भारत<br>अप्यन्यं प्राकृतं किंचित्किमु तान्पाण्डवर्षभान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४३</sup>अमर्षवशमापन्नो न किंचिद्बुध्यते नरः<br>छिद्यते ह्याततं सर्वं प्रमाणं पश्य भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४४</sup>श्रेयस्ते दुर्जनात्तात पाण्डवैः सह संगमः<br>तैर्हि संप्रीयमाणस्त्वं सर्वान्कामानवाप्स्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४५</sup>पाण्डवैर्निर्जितां भूमिं भुञ्जानो राजसत्तम<br>पाण्डवान्पृष्ठतः कृत्वा त्राणमाशंससेऽन्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४६</sup>दुःशासने दुर्विषहे कर्णे चापि ससौबले<br>एतेष्वैश्वर्यमाधाय भूतिमिच्छसि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४७</sup>न चैते तव पर्याप्ता ज्ञाने धर्मार्थयोस्तथा<br>विक्रमे चाप्यपर्याप्ताः पाण्डवान्प्रति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४८</sup>न हीमे सर्वराजानः पर्याप्ताः सहितास्त्वया<br>क्रुद्धस्य भीमसेनस्य प्रेक्षितुं मुखमाहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.४९</sup>इदं संनिहितं तात समग्रं पार्थिवं बलम्<br>अयं भीष्मस्तथा द्रोणः कर्णश्चायं तथा कृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५०</sup>भूरिश्रवाः सौमदत्तिरश्वत्थामा जयद्रथः<br>अशक्ताः सर्व एवैते प्रतियोद्धुं धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५१</sup>अजेयो ह्यर्जुनः क्रुद्धः सर्वैरपि सुरासुरैः<br>मानुषैरपि गन्धर्वैर्मा युद्धे चेत आधिथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५२</sup>दृश्यतां वा पुमान्कश्चित्समग्रे पार्थिवे बले<br>योऽर्जुनं समरे प्राप्य स्वस्तिमानाव्रजेद्गृहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५३</sup>किं ते जनक्षयेणेह कृतेन भरतर्षभ<br>यस्मिञ्जिते जितं ते स्यात्पुमानेकः स दृश्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५४</sup>यः स देवान्सगन्धर्वान्सयक्षासुरपन्नगान्<br>अजयत्खाण्डवप्रस्थे कस्तं युध्येत मानवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५५</sup>तथा विराटनगरे श्रूयते महदद्भुतम्<br>एकस्य च बहूनां च पर्याप्तं तन्निदर्शनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५६</sup>तमजेयमनाधृष्यं विजेतुं जिष्णुमच्युतम्<br>आशंससीह समरे वीरमर्जुनमूर्जितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५७</sup>मद्द्वितीयं पुनः पार्थं कः प्रार्थयितुमर्हति<br>युद्धे प्रतीपमायान्तमपि साक्षात्पुरंदरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५८</sup>बाहुभ्यामुद्धरेद्भूमिं दहेत्क्रुद्ध इमाः प्रजाः<br>पातयेत्त्रिदिवाद्देवान्योऽर्जुनं समरे जयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.५९</sup>पश्य पुत्रांस्तथा भ्रातॄञ्ज्ञातीन्संबन्धिनस्तथा<br>त्वत्कृते न विनश्येयुरेते भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.६०</sup>अस्तु शेषं कौरवाणां मा पराभूदिदं कुलम्<br>कुलघ्न इति नोच्येथा नष्टकीर्तिर्नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.६१</sup>त्वामेव स्थापयिष्यन्ति यौवराज्ये महारथाः<br>महाराज्ये च पितरं धृतराष्ट्रं जनेश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.६२</sup>मा तात श्रियमायान्तीमवमंस्थाः समुद्यताम्<br>अर्धं प्रदाय पार्थेभ्यो महतीं श्रियमाप्स्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२२.६३</sup>पाण्डवैः संशमं कृत्वा कृत्वा च सुहृदां वचः<br>संप्रीयमाणो मित्रैश्च चिरं भद्राण्यवाप्स्यसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -270,8 +263,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

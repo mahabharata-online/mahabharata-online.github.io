@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/74.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:७५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/76.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/74.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:७५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/76.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२</sup>योगक्षेमो हि राष्ट्रस्य राजन्यायत्त उच्यते<br>योगक्षेमश्च राज्ञोऽपि समायत्तः पुरोहिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.३</sup>यतादृष्टं भयं ब्रह्म प्रजानां शमयत्युत<br>दृष्टं च राजा बाहुभ्यां तद्राष्ट्रं सुखमेधते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.४</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>मुचुकुन्दस्य संवादं राज्ञो वैश्रवणस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.५</sup>मुचुकुन्दो विजित्येमां पृथिवीं पृथिवीपतिः<br>जिज्ञासमानः स्वबलमभ्ययादलकाधिपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.६</sup>ततो वैश्रवणो राजा रक्षांसि समवासृजत्<br>ते बलान्यवमृद्नन्तः प्राचरंस्तस्य नैरृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.७</sup>स हन्यमाने सैन्ये स्वे मुचुकुन्दो नराधिपः<br>गर्हयामास विद्वांसं पुरोहितमरिंदमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.८</sup>तत उग्रं तपस्तप्त्वा वसिष्ठो ब्रह्मवित्तमः<br>रक्षांस्यपावधीत्तत्र पन्थानं चाप्यविन्दत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.९</sup>ततो वैश्रवणो राजा मुचुकुन्दमदर्शयत्<br>वध्यमानेषु सैन्येषु वचनं चेदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१०</sup>त्वत्तो हि बलिनः पूर्वे राजानः सपुरोहिताः<br>न चैवं समवर्तंस्ते यथा त्वमिह वर्तसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.११</sup>ते खल्वपि कृतास्त्राश्च बलवन्तश्च भूमिपाः<br>आगम्य पर्युपासन्ते मामीशं सुखदुःखयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१२</sup>यद्यस्ति बाहुवीर्यं ते तद्दर्शयितुमर्हसि<br>किं ब्राह्मणबलेन त्वमतिमात्रं प्रवर्तसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१३</sup>मुचुकुन्दस्ततः क्रुद्धः प्रत्युवाच धनेश्वरम्<br>न्यायपूर्वमसंरब्धमसंभ्रान्तमिदं वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१४</sup>ब्रह्मक्षत्रमिदं सृष्टमेकयोनि स्वयंभुवा<br>पृथग्बलविधानं च तल्लोकं परिरक्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१५</sup>तपोमन्त्रबलं नित्यं ब्राह्मणेषु प्रतिष्ठितम्<br>अस्त्रबाहुबलं नित्यं क्षत्रियेषु प्रतिष्ठितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१६</sup>ताभ्यां संभूय कर्तव्यं प्रजानां परिपालनम्<br>तथा च मां प्रवर्तन्तं गर्हयस्यलकाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१७</sup>ततोऽब्रवीद्वैश्रवणो राजानं सपुरोहितम्<br>नाहं राज्यमनिर्दिष्टं कस्मैचिद्विदधाम्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१८</sup>नाच्छिन्दे चापि निर्दिष्टमिति जानीहि पार्थिव<br>प्रशाधि पृथिवीं वीर मद्दत्तामखिलामिमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.१९</sup>मुचुकुन्द उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२०</sup>नाहं राज्यं भवद्दत्तं भोक्तुमिच्छामि पार्थिव<br>बाहुवीर्यार्जितं राज्यमश्नीयामिति कामये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२२</sup>ततो वैश्रवणो राजा विस्मयं परमं ययौ<br>क्षत्रधर्मे स्थितं दृष्ट्वा मुचुकुन्दमसंभ्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२३</sup>ततो राजा मुचुकुन्दः सोऽन्वशासद्वसुंधराम्<br>बाहुवीर्यार्जितां सम्यक्क्षत्रधर्ममनुव्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२४</sup>एवं यो ब्रह्मविद्राजा ब्रह्मपूर्वं प्रवर्तते<br>जयत्यविजितामुर्वीं यशश्च महदश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.७५.२५</sup>नित्योदको ब्राह्मणः स्यान्नित्यशस्त्रश्च क्षत्रियः<br>तयोर्हि सर्वमायत्तं यत्किंचिज्जगतीगतम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२</sup>योगक्षेमो हि राष्ट्रस्य राजन्यायत्त उच्यते<br>योगक्षेमश्च राज्ञोऽपि समायत्तः पुरोहिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.३</sup>यतादृष्टं भयं ब्रह्म प्रजानां शमयत्युत<br>दृष्टं च राजा बाहुभ्यां तद्राष्ट्रं सुखमेधते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.४</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>मुचुकुन्दस्य संवादं राज्ञो वैश्रवणस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.५</sup>मुचुकुन्दो विजित्येमां पृथिवीं पृथिवीपतिः<br>जिज्ञासमानः स्वबलमभ्ययादलकाधिपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.६</sup>ततो वैश्रवणो राजा रक्षांसि समवासृजत्<br>ते बलान्यवमृद्नन्तः प्राचरंस्तस्य नैरृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.७</sup>स हन्यमाने सैन्ये स्वे मुचुकुन्दो नराधिपः<br>गर्हयामास विद्वांसं पुरोहितमरिंदमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.८</sup>तत उग्रं तपस्तप्त्वा वसिष्ठो ब्रह्मवित्तमः<br>रक्षांस्यपावधीत्तत्र पन्थानं चाप्यविन्दत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.९</sup>ततो वैश्रवणो राजा मुचुकुन्दमदर्शयत्<br>वध्यमानेषु सैन्येषु वचनं चेदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१०</sup>त्वत्तो हि बलिनः पूर्वे राजानः सपुरोहिताः<br>न चैवं समवर्तंस्ते यथा त्वमिह वर्तसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.११</sup>ते खल्वपि कृतास्त्राश्च बलवन्तश्च भूमिपाः<br>आगम्य पर्युपासन्ते मामीशं सुखदुःखयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१२</sup>यद्यस्ति बाहुवीर्यं ते तद्दर्शयितुमर्हसि<br>किं ब्राह्मणबलेन त्वमतिमात्रं प्रवर्तसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१३</sup>मुचुकुन्दस्ततः क्रुद्धः प्रत्युवाच धनेश्वरम्<br>न्यायपूर्वमसंरब्धमसंभ्रान्तमिदं वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१४</sup>ब्रह्मक्षत्रमिदं सृष्टमेकयोनि स्वयंभुवा<br>पृथग्बलविधानं च तल्लोकं परिरक्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१५</sup>तपोमन्त्रबलं नित्यं ब्राह्मणेषु प्रतिष्ठितम्<br>अस्त्रबाहुबलं नित्यं क्षत्रियेषु प्रतिष्ठितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१६</sup>ताभ्यां संभूय कर्तव्यं प्रजानां परिपालनम्<br>तथा च मां प्रवर्तन्तं गर्हयस्यलकाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१७</sup>ततोऽब्रवीद्वैश्रवणो राजानं सपुरोहितम्<br>नाहं राज्यमनिर्दिष्टं कस्मैचिद्विदधाम्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१८</sup>नाच्छिन्दे चापि निर्दिष्टमिति जानीहि पार्थिव<br>प्रशाधि पृथिवीं वीर मद्दत्तामखिलामिमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.१९</sup>मुचुकुन्द उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२०</sup>नाहं राज्यं भवद्दत्तं भोक्तुमिच्छामि पार्थिव<br>बाहुवीर्यार्जितं राज्यमश्नीयामिति कामये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२२</sup>ततो वैश्रवणो राजा विस्मयं परमं ययौ<br>क्षत्रधर्मे स्थितं दृष्ट्वा मुचुकुन्दमसंभ्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२३</sup>ततो राजा मुचुकुन्दः सोऽन्वशासद्वसुंधराम्<br>बाहुवीर्यार्जितां सम्यक्क्षत्रधर्ममनुव्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२४</sup>एवं यो ब्रह्मविद्राजा ब्रह्मपूर्वं प्रवर्तते<br>जयत्यविजितामुर्वीं यशश्च महदश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.७५.२५</sup>नित्योदको ब्राह्मणः स्यान्नित्यशस्त्रश्च क्षत्रियः<br>तयोर्हि सर्वमायत्तं यत्किंचिज्जगतीगतम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

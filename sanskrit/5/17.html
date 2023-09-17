@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/16.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/18.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,124 +64,89 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/16.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/18.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१</sup>शल्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२</sup>अथ संचिन्तयानस्य देवराजस्य धीमतः<br>नहुषस्य वधोपायं लोकपालैः सहैव तैः<br>तपस्वी तत्र भगवानगस्त्यः प्रत्यदृश्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.३</sup>सोऽब्रवीदर्च्य देवेन्द्रं दिष्ट्या वै वर्धते भवान्<br>विश्वरूपविनाशेन वृत्रासुरवधेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.४</sup>दिष्ट्या च नहुषो भ्रष्टो देवराज्यात्पुरंदर<br>दिष्ट्या हतारिं पश्यामि भवन्तं बलसूदन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.५</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.६</sup>स्वागतं ते महर्षेऽस्तु प्रीतोऽहं दर्शनात्तव<br>पाद्यमाचमनीयं च गामर्घ्यं च प्रतीच्छ मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.७</sup>शल्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.८</sup>पूजितं चोपविष्टं तमासने मुनिसत्तमम्<br>पर्यपृच्छत देवेशः प्रहृष्टो ब्राह्मणर्षभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.९</sup>एतदिच्छामि भगवन्कथ्यमानं द्विजोत्तम<br>परिभ्रष्टः कथं स्वर्गान्नहुषः पापनिश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१०</sup>अगस्त्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.११</sup>शृणु शक्र प्रियं वाक्यं यथा राजा दुरात्मवान्<br>स्वर्गाद्भ्रष्टो दुराचारो नहुषो बलदर्पितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१२</sup>श्रमार्तास्तु वहन्तस्तं नहुषं पापकारिणम्<br>देवर्षयो महाभागास्तथा ब्रह्मर्षयोऽमलाः<br>पप्रच्छुः संशयं देव नहुषं जयतां वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१३</sup>य इमे ब्रह्मणा प्रोक्ता मन्त्रा वै प्रोक्षणे गवाम्<br>एते प्रमाणं भवत उताहो नेति वासव<br>नहुषो नेति तानाह तमसा मूढचेतनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१४</sup>ऋषय ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१५</sup>अधर्मे संप्रवृत्तस्त्वं धर्मं न प्रतिपद्यसे<br>प्रमाणमेतदस्माकं पूर्वं प्रोक्तं महर्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१६</sup>अगस्त्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१७</sup>ततो विवदमानः स मुनिभिः सह वासव<br>अथ मामस्पृशन्मूर्ध्नि पादेनाधर्मपीडितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१८</sup>तेनाभूद्धततेजाः स निःश्रीकश्च शचीपते<br>ततस्तमहमाविग्नमवोचं भयपीडितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.१९</sup>यस्मात्पूर्वैः कृतं ब्रह्म ब्रह्मर्षिभिरनुष्ठितम्<br>अदुष्टं दूषयसि वै यच्च मूर्ध्न्यस्पृशः पदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२०</sup>यच्चापि त्वमृषीन्मूढ ब्रह्मकल्पान्दुरासदान्<br>वाहान्कृत्वा वाहयसि तेन स्वर्गाद्धतप्रभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२१</sup>ध्वंस पाप परिभ्रष्टः क्षीणपुण्यो महीतलम्<br>दश वर्षसहस्राणि सर्परूपधरो महान्<br>विचरिष्यसि पूर्णेषु पुनः स्वर्गमवाप्स्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२२</sup>एवं भ्रष्टो दुरात्मा स देवराज्यादरिंदम<br>दिष्ट्या वर्धामहे शक्र हतो ब्राह्मणकण्टकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२३</sup>त्रिविष्टपं प्रपद्यस्व पाहि लोकाञ्शचीपते<br>जितेन्द्रियो जितामित्रः स्तूयमानो महर्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२४</sup>शल्य उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२५</sup>ततो देवा भृशं तुष्टा महर्षिगणसंवृताः<br>पितरश्चैव यक्षाश्च भुजगा राक्षसास्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२६</sup>गन्धर्वा देवकन्याश्च सर्वे चाप्सरसां गणाः<br>सरांसि सरितः शैलाः सागराश्च विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१७.२७</sup>उपगम्याब्रुवन्सर्वे दिष्ट्या वर्धसि शत्रुहन्<br>हतश्च नहुषः पापो दिष्ट्यागस्त्येन धीमता<br>दिष्ट्या पापसमाचारः कृतः सर्पो महीतले
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१</sup>शल्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२</sup>अथ संचिन्तयानस्य देवराजस्य धीमतः<br>नहुषस्य वधोपायं लोकपालैः सहैव तैः<br>तपस्वी तत्र भगवानगस्त्यः प्रत्यदृश्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.३</sup>सोऽब्रवीदर्च्य देवेन्द्रं दिष्ट्या वै वर्धते भवान्<br>विश्वरूपविनाशेन वृत्रासुरवधेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.४</sup>दिष्ट्या च नहुषो भ्रष्टो देवराज्यात्पुरंदर<br>दिष्ट्या हतारिं पश्यामि भवन्तं बलसूदन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.५</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.६</sup>स्वागतं ते महर्षेऽस्तु प्रीतोऽहं दर्शनात्तव<br>पाद्यमाचमनीयं च गामर्घ्यं च प्रतीच्छ मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.७</sup>शल्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.८</sup>पूजितं चोपविष्टं तमासने मुनिसत्तमम्<br>पर्यपृच्छत देवेशः प्रहृष्टो ब्राह्मणर्षभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.९</sup>एतदिच्छामि भगवन्कथ्यमानं द्विजोत्तम<br>परिभ्रष्टः कथं स्वर्गान्नहुषः पापनिश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१०</sup>अगस्त्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.११</sup>शृणु शक्र प्रियं वाक्यं यथा राजा दुरात्मवान्<br>स्वर्गाद्भ्रष्टो दुराचारो नहुषो बलदर्पितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१२</sup>श्रमार्तास्तु वहन्तस्तं नहुषं पापकारिणम्<br>देवर्षयो महाभागास्तथा ब्रह्मर्षयोऽमलाः<br>पप्रच्छुः संशयं देव नहुषं जयतां वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१३</sup>य इमे ब्रह्मणा प्रोक्ता मन्त्रा वै प्रोक्षणे गवाम्<br>एते प्रमाणं भवत उताहो नेति वासव<br>नहुषो नेति तानाह तमसा मूढचेतनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१४</sup>ऋषय ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१५</sup>अधर्मे संप्रवृत्तस्त्वं धर्मं न प्रतिपद्यसे<br>प्रमाणमेतदस्माकं पूर्वं प्रोक्तं महर्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१६</sup>अगस्त्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१७</sup>ततो विवदमानः स मुनिभिः सह वासव<br>अथ मामस्पृशन्मूर्ध्नि पादेनाधर्मपीडितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१८</sup>तेनाभूद्धततेजाः स निःश्रीकश्च शचीपते<br>ततस्तमहमाविग्नमवोचं भयपीडितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.१९</sup>यस्मात्पूर्वैः कृतं ब्रह्म ब्रह्मर्षिभिरनुष्ठितम्<br>अदुष्टं दूषयसि वै यच्च मूर्ध्न्यस्पृशः पदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२०</sup>यच्चापि त्वमृषीन्मूढ ब्रह्मकल्पान्दुरासदान्<br>वाहान्कृत्वा वाहयसि तेन स्वर्गाद्धतप्रभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२१</sup>ध्वंस पाप परिभ्रष्टः क्षीणपुण्यो महीतलम्<br>दश वर्षसहस्राणि सर्परूपधरो महान्<br>विचरिष्यसि पूर्णेषु पुनः स्वर्गमवाप्स्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२२</sup>एवं भ्रष्टो दुरात्मा स देवराज्यादरिंदम<br>दिष्ट्या वर्धामहे शक्र हतो ब्राह्मणकण्टकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२३</sup>त्रिविष्टपं प्रपद्यस्व पाहि लोकाञ्शचीपते<br>जितेन्द्रियो जितामित्रः स्तूयमानो महर्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२४</sup>शल्य उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२५</sup>ततो देवा भृशं तुष्टा महर्षिगणसंवृताः<br>पितरश्चैव यक्षाश्च भुजगा राक्षसास्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२६</sup>गन्धर्वा देवकन्याश्च सर्वे चाप्सरसां गणाः<br>सरांसि सरितः शैलाः सागराश्च विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१७.२७</sup>उपगम्याब्रुवन्सर्वे दिष्ट्या वर्धसि शत्रुहन्<br>हतश्च नहुषः पापो दिष्ट्यागस्त्येन धीमता<br>दिष्ट्या पापसमाचारः कृतः सर्पो महीतले
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -162,8 +155,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

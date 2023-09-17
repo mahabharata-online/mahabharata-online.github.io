@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/20.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:२१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/22.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,85 +64,50 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/20.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:२१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/22.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.२</sup>ततः प्रभाते राजा स धृतराष्ट्रोऽम्बिकासुतः<br>आहूय पाण्डवान्वीरान्वनवासकृतक्षणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.३</sup>गान्धारीसहितो धीमानभिनन्द्य यथाविधि<br>कार्त्तिक्यां कारयित्वेष्टिं ब्राह्मणैर्वेदपारगैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.४</sup>अग्निहोत्रं पुरस्कृत्य वल्कलाजिनसंवृतः<br>वधूपरिवृतो राजा निर्ययौ भवनात्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.५</sup>ततः स्त्रियः कौरवपाण्डवानां; याश्चाप्यन्याः कौरवराजवंश्याः<br>तासां नादः प्रादुरासीत्तदानीं; वैचित्रवीर्ये नृपतौ प्रयाते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.६</sup>ततो लाजैः सुमनोभिश्च राजा; विचित्राभिस्तद्गृहं पूजयित्वा<br>संयोज्यार्थैर्भृत्यजनं च सर्वं; ततः समुत्सृज्य ययौ नरेन्द्रः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.७</sup>ततो राजा प्राञ्जलिर्वेपमानो; युधिष्ठिरः सस्वनं बाष्पकण्ठः<br>विलप्योच्चैर्हा महाराज साधो; क्व गन्तासीत्यपतत्तात भूमौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.८</sup>तथार्जुनस्तीव्रदुःखाभितप्तो; मुहुर्मुहुर्निःश्वसन्भारताग्र्यः<br>युधिष्ठिरं मैवमित्येवमुक्त्वा; निगृह्याथोदीधरत्सीदमानः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.९</sup>वृकोदरः फल्गुनश्चैव वीरौ; माद्रीपुत्रौ विदुरः संजयश्च<br>वैश्यापुत्रः सहितो गौतमेन; धौम्यो विप्राश्चान्वयुर्बाष्पकण्ठाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.१०</sup>कुन्ती गान्धारीं बद्धनेत्रां व्रजन्तीं; स्कन्धासक्तं हस्तमथोद्वहन्ती<br>राजा गान्धार्याः स्कन्धदेशेऽवसज्य; पाणिं ययौ धृतराष्ट्रः प्रतीतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.११</sup>तथा कृष्णा द्रौपदी यादवी च; बालापत्या चोत्तरा कौरवी च<br>चित्राङ्गदा याश्च काश्चित्स्त्रियोऽन्याः; सार्धं राज्ञा प्रस्थितास्ता वधूभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.१२</sup>तासां नादो रुदतीनां तदासी;द्राजन्दुःखात्कुररीणामिवोच्चैः<br>ततो निष्पेतुर्ब्राह्मणक्षत्रियाणां; विट्शूद्राणां चैव नार्यः समन्तात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.१३</sup>तन्निर्याणे दुःखितः पौरवर्गो; गजाह्वयेऽतीव बभूव राजन्<br>यथा पूर्वं गच्छतां पाण्डवानां; द्यूते राजन्कौरवाणां सभायाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.२१.१४</sup>या नापश्यच्चन्द्रमा नैव सूर्यो; रामाः कदाचिदपि तस्मिन्नरेन्द्रे<br>महावनं गच्छति कौरवेन्द्रे; शोकेनार्ता राजमार्गं प्रपेदुः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.२</sup>ततः प्रभाते राजा स धृतराष्ट्रोऽम्बिकासुतः<br>आहूय पाण्डवान्वीरान्वनवासकृतक्षणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.३</sup>गान्धारीसहितो धीमानभिनन्द्य यथाविधि<br>कार्त्तिक्यां कारयित्वेष्टिं ब्राह्मणैर्वेदपारगैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.४</sup>अग्निहोत्रं पुरस्कृत्य वल्कलाजिनसंवृतः<br>वधूपरिवृतो राजा निर्ययौ भवनात्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.५</sup>ततः स्त्रियः कौरवपाण्डवानां; याश्चाप्यन्याः कौरवराजवंश्याः<br>तासां नादः प्रादुरासीत्तदानीं; वैचित्रवीर्ये नृपतौ प्रयाते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.६</sup>ततो लाजैः सुमनोभिश्च राजा; विचित्राभिस्तद्गृहं पूजयित्वा<br>संयोज्यार्थैर्भृत्यजनं च सर्वं; ततः समुत्सृज्य ययौ नरेन्द्रः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.७</sup>ततो राजा प्राञ्जलिर्वेपमानो; युधिष्ठिरः सस्वनं बाष्पकण्ठः<br>विलप्योच्चैर्हा महाराज साधो; क्व गन्तासीत्यपतत्तात भूमौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.८</sup>तथार्जुनस्तीव्रदुःखाभितप्तो; मुहुर्मुहुर्निःश्वसन्भारताग्र्यः<br>युधिष्ठिरं मैवमित्येवमुक्त्वा; निगृह्याथोदीधरत्सीदमानः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.९</sup>वृकोदरः फल्गुनश्चैव वीरौ; माद्रीपुत्रौ विदुरः संजयश्च<br>वैश्यापुत्रः सहितो गौतमेन; धौम्यो विप्राश्चान्वयुर्बाष्पकण्ठाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.१०</sup>कुन्ती गान्धारीं बद्धनेत्रां व्रजन्तीं; स्कन्धासक्तं हस्तमथोद्वहन्ती<br>राजा गान्धार्याः स्कन्धदेशेऽवसज्य; पाणिं ययौ धृतराष्ट्रः प्रतीतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.११</sup>तथा कृष्णा द्रौपदी यादवी च; बालापत्या चोत्तरा कौरवी च<br>चित्राङ्गदा याश्च काश्चित्स्त्रियोऽन्याः; सार्धं राज्ञा प्रस्थितास्ता वधूभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.१२</sup>तासां नादो रुदतीनां तदासी;द्राजन्दुःखात्कुररीणामिवोच्चैः<br>ततो निष्पेतुर्ब्राह्मणक्षत्रियाणां; विट्शूद्राणां चैव नार्यः समन्तात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.१३</sup>तन्निर्याणे दुःखितः पौरवर्गो; गजाह्वयेऽतीव बभूव राजन्<br>यथा पूर्वं गच्छतां पाण्डवानां; द्यूते राजन्कौरवाणां सभायाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.२१.१४</sup>या नापश्यच्चन्द्रमा नैव सूर्यो; रामाः कदाचिदपि तस्मिन्नरेन्द्रे<br>महावनं गच्छति कौरवेन्द्रे; शोकेनार्ता राजमार्गं प्रपेदुः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -123,8 +116,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

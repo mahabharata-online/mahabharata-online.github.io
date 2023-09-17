@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/196.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१९७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/198.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,133 +64,98 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/196.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१९७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/198.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१</sup>विदुर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२</sup>राजन्निःसंशयं श्रेयो वाच्यस्त्वमसि बान्धवैः<br>न त्वशुश्रूषमाणेषु वाक्यं संप्रतितिष्ठति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.३</sup>हितं हि तव तद्वाक्यमुक्तवान्कुरुसत्तमः<br>भीष्मः शांतनवो राजन्प्रतिगृह्णासि तन्न च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.४</sup>तथा द्रोणेन बहुधा भाषितं हितमुत्तमम्<br>तच्च राधासुतः कर्णो मन्यते न हितं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.५</sup>चिन्तयंश्च न पश्यामि राजंस्तव सुहृत्तमम्<br>आभ्यां पुरुषसिंहाभ्यां यो वा स्यात्प्रज्ञयाधिकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.६</sup>इमौ हि वृद्धौ वयसा प्रज्ञया च श्रुतेन च<br>समौ च त्वयि राजेन्द्र तेषु पाण्डुसुतेषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.७</sup>धर्मे चानवमौ राजन्सत्यतायां च भारत<br>रामाद्दाशरथेश्चैव गयाच्चैव न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.८</sup>न चोक्तवन्तावश्रेयः पुरस्तादपि किंचन<br>न चाप्यपकृतं किंचिदनयोर्लक्ष्यते त्वयि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.९</sup>ताविमौ पुरुषव्याघ्रावनागसि नृप त्वयि<br>न मन्त्रयेतां त्वच्छ्रेयः कथं सत्यपराक्रमौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१०</sup>प्रज्ञावन्तौ नरश्रेष्ठावस्मिँल्लोके नराधिप<br>त्वन्निमित्तमतो नेमौ किंचिज्जिह्मं वदिष्यतः<br>इति मे नैष्ठिकी बुद्धिर्वर्तते कुरुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.११</sup>न चार्थहेतोर्धर्मज्ञौ वक्ष्यतः पक्षसंश्रितम्<br>एतद्धि परमं श्रेयो मेनाते तव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१२</sup>दुर्योधनप्रभृतयः पुत्रा राजन्यथा तव<br>तथैव पाण्डवेयास्ते पुत्रा राजन्न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१३</sup>तेषु चेदहितं किंचिन्मन्त्रयेयुरबुद्धितः<br>मन्त्रिणस्ते न ते श्रेयः प्रपश्यन्ति विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१४</sup>अथ ते हृदये राजन्विशेषस्तेषु वर्तते<br>अन्तरस्थं विवृण्वानाः श्रेयः कुर्युर्न ते ध्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१५</sup>एतदर्थमिमौ राजन्महात्मानौ महाद्युती<br>नोचतुर्विवृतं किंचिन्न ह्येष तव निश्चयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१६</sup>यच्चाप्यशक्यतां तेषामाहतुः पुरुषर्षभौ<br>तत्तथा पुरुषव्याघ्र तव तद्भद्रमस्तु ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१७</sup>कथं हि पाण्डवः श्रीमान्सव्यसाची परंतपः<br>शक्यो विजेतुं संग्रामे राजन्मघवता अपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१८</sup>भीमसेनो महाबाहुर्नागायुतबलो महान्<br>कथं हि युधि शक्येत विजेतुममरैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.१९</sup>तथैव कृतिनौ युद्धे यमौ यमसुताविव<br>कथं विषहितुं शक्यौ रणे जीवितुमिच्छता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२०</sup>यस्मिन्धृतिरनुक्रोशः क्षमा सत्यं पराक्रमः<br>नित्यानि पाण्डवश्रेष्ठे स जीयेत कथं रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२१</sup>येषां पक्षधरो रामो येषां मन्त्री जनार्दनः<br>किं नु तैरजितं संख्ये येषां पक्षे च सात्यकिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२२</sup>द्रुपदः श्वशुरो येषां येषां श्यालाश्च पार्षताः<br>धृष्टद्युम्नमुखा वीरा भ्रातरो द्रुपदात्मजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२३</sup>सोऽशक्यतां च विज्ञाय तेषामग्रेण भारत<br>दायाद्यतां च धर्मेण सम्यक्तेषु समाचर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२४</sup>इदं निर्दिग्धमयशः पुरोचनकृतं महत्<br>तेषामनुग्रहेणाद्य राजन्प्रक्षालयात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२५</sup>द्रुपदोऽपि महान्राजा कृतवैरश्च नः पुरा<br>तस्य संग्रहणं राजन्स्वपक्षस्य विवर्धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२६</sup>बलवन्तश्च दाशार्हा बहवश्च विशां पते<br>यतः कृष्णस्ततस्ते स्युर्यतः कृष्णस्ततो जयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२७</sup>यच्च साम्नैव शक्येत कार्यं साधयितुं नृप<br>को दैवशप्तस्तत्कार्तुं विग्रहेण समाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२८</sup>श्रुत्वा च जीवतः पार्थान्पौरजानपदो जनः<br>बलवद्दर्शने गृध्नुस्तेषां राजन्कुरु प्रियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.२९</sup>दुर्योधनश्च कर्णश्च शकुनिश्चापि सौबलः<br>अधर्मयुक्ता दुष्प्रज्ञा बाला मैषां वचः कृथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१९७.३०</sup>उक्तमेतन्मया राजन्पुरा गुणवतस्तव<br>दुर्योधनापराधेन प्रजेयं विनशिष्यति
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१</sup>विदुर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२</sup>राजन्निःसंशयं श्रेयो वाच्यस्त्वमसि बान्धवैः<br>न त्वशुश्रूषमाणेषु वाक्यं संप्रतितिष्ठति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.३</sup>हितं हि तव तद्वाक्यमुक्तवान्कुरुसत्तमः<br>भीष्मः शांतनवो राजन्प्रतिगृह्णासि तन्न च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.४</sup>तथा द्रोणेन बहुधा भाषितं हितमुत्तमम्<br>तच्च राधासुतः कर्णो मन्यते न हितं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.५</sup>चिन्तयंश्च न पश्यामि राजंस्तव सुहृत्तमम्<br>आभ्यां पुरुषसिंहाभ्यां यो वा स्यात्प्रज्ञयाधिकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.६</sup>इमौ हि वृद्धौ वयसा प्रज्ञया च श्रुतेन च<br>समौ च त्वयि राजेन्द्र तेषु पाण्डुसुतेषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.७</sup>धर्मे चानवमौ राजन्सत्यतायां च भारत<br>रामाद्दाशरथेश्चैव गयाच्चैव न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.८</sup>न चोक्तवन्तावश्रेयः पुरस्तादपि किंचन<br>न चाप्यपकृतं किंचिदनयोर्लक्ष्यते त्वयि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.९</sup>ताविमौ पुरुषव्याघ्रावनागसि नृप त्वयि<br>न मन्त्रयेतां त्वच्छ्रेयः कथं सत्यपराक्रमौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१०</sup>प्रज्ञावन्तौ नरश्रेष्ठावस्मिँल्लोके नराधिप<br>त्वन्निमित्तमतो नेमौ किंचिज्जिह्मं वदिष्यतः<br>इति मे नैष्ठिकी बुद्धिर्वर्तते कुरुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.११</sup>न चार्थहेतोर्धर्मज्ञौ वक्ष्यतः पक्षसंश्रितम्<br>एतद्धि परमं श्रेयो मेनाते तव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१२</sup>दुर्योधनप्रभृतयः पुत्रा राजन्यथा तव<br>तथैव पाण्डवेयास्ते पुत्रा राजन्न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१३</sup>तेषु चेदहितं किंचिन्मन्त्रयेयुरबुद्धितः<br>मन्त्रिणस्ते न ते श्रेयः प्रपश्यन्ति विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१४</sup>अथ ते हृदये राजन्विशेषस्तेषु वर्तते<br>अन्तरस्थं विवृण्वानाः श्रेयः कुर्युर्न ते ध्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१५</sup>एतदर्थमिमौ राजन्महात्मानौ महाद्युती<br>नोचतुर्विवृतं किंचिन्न ह्येष तव निश्चयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१६</sup>यच्चाप्यशक्यतां तेषामाहतुः पुरुषर्षभौ<br>तत्तथा पुरुषव्याघ्र तव तद्भद्रमस्तु ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१७</sup>कथं हि पाण्डवः श्रीमान्सव्यसाची परंतपः<br>शक्यो विजेतुं संग्रामे राजन्मघवता अपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१८</sup>भीमसेनो महाबाहुर्नागायुतबलो महान्<br>कथं हि युधि शक्येत विजेतुममरैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.१९</sup>तथैव कृतिनौ युद्धे यमौ यमसुताविव<br>कथं विषहितुं शक्यौ रणे जीवितुमिच्छता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२०</sup>यस्मिन्धृतिरनुक्रोशः क्षमा सत्यं पराक्रमः<br>नित्यानि पाण्डवश्रेष्ठे स जीयेत कथं रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२१</sup>येषां पक्षधरो रामो येषां मन्त्री जनार्दनः<br>किं नु तैरजितं संख्ये येषां पक्षे च सात्यकिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२२</sup>द्रुपदः श्वशुरो येषां येषां श्यालाश्च पार्षताः<br>धृष्टद्युम्नमुखा वीरा भ्रातरो द्रुपदात्मजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२३</sup>सोऽशक्यतां च विज्ञाय तेषामग्रेण भारत<br>दायाद्यतां च धर्मेण सम्यक्तेषु समाचर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२४</sup>इदं निर्दिग्धमयशः पुरोचनकृतं महत्<br>तेषामनुग्रहेणाद्य राजन्प्रक्षालयात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२५</sup>द्रुपदोऽपि महान्राजा कृतवैरश्च नः पुरा<br>तस्य संग्रहणं राजन्स्वपक्षस्य विवर्धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२६</sup>बलवन्तश्च दाशार्हा बहवश्च विशां पते<br>यतः कृष्णस्ततस्ते स्युर्यतः कृष्णस्ततो जयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२७</sup>यच्च साम्नैव शक्येत कार्यं साधयितुं नृप<br>को दैवशप्तस्तत्कार्तुं विग्रहेण समाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२८</sup>श्रुत्वा च जीवतः पार्थान्पौरजानपदो जनः<br>बलवद्दर्शने गृध्नुस्तेषां राजन्कुरु प्रियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.२९</sup>दुर्योधनश्च कर्णश्च शकुनिश्चापि सौबलः<br>अधर्मयुक्ता दुष्प्रज्ञा बाला मैषां वचः कृथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१९७.३०</sup>उक्तमेतन्मया राजन्पुरा गुणवतस्तव<br>दुर्योधनापराधेन प्रजेयं विनशिष्यति
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -171,8 +164,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

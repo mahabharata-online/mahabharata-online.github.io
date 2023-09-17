@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/23.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:२४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/25.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/23.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:२४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/25.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>नारदस्य च संवादमृषेर्देवमतस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.३</sup>देवमत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.४</sup>जन्तोः संजायमानस्य किं नु पूर्वं प्रवर्तते<br>प्राणोऽपानः समानो वा व्यानो वोदान एव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.५</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.६</sup>येनायं सृज्यते जन्तुस्ततोऽन्यः पूर्वमेति तम्<br>प्राणद्वंद्वं च विज्ञेयं तिर्यगं चोर्ध्वगं च यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.७</sup>देवमत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.८</sup>केनायं सृज्यते जन्तुः कश्चान्यः पूर्वमेति तम्<br>प्राणद्वंद्वं च मे ब्रूहि तिर्यगूर्ध्वं च निश्चयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.९</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१०</sup>संकल्पाज्जायते हर्षः शब्दादपि च जायते<br>रसात्संजायते चापि रूपादपि च जायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.११</sup>स्पर्शात्संजायते चापि गन्धादपि च जायते<br>एतद्रूपमुदानस्य हर्षो मिथुनसंभवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१२</sup>कामात्संजायते शुक्रं कामात्संजायते रसः<br>समानव्यानजनिते सामान्ये शुक्रशोणिते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१३</sup>शुक्राच्छोणितसंसृष्टात्पूर्वं प्राणः प्रवर्तते<br>प्राणेन विकृते शुक्रे ततोऽपानः प्रवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१४</sup>प्राणापानाविदं द्वंद्वमवाक्चोर्ध्वं च गच्छतः<br>व्यानः समानश्चैवोभौ तिर्यग्द्वंद्वत्वमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१५</sup>अग्निर्वै देवताः सर्वा इति वेदस्य शासनम्<br>संजायते ब्राह्मणेषु ज्ञानं बुद्धिसमन्वितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१६</sup>तस्य धूमस्तमोरूपं रजो भस्म सुरेतसः<br>सत्त्वं संजायते तस्य यत्र प्रक्षिप्यते हविः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१७</sup>आघारौ समानो व्यानश्च इति यज्ञविदो विदुः<br>प्राणापानावाज्यभागौ तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१८</sup>निर्द्वंद्वमिति यत्त्वेतत्तन्मे निगदतः शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.१९</sup>अहोरात्रमिदं द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२०</sup>उभे चैवायने द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२१</sup>उभे सत्यानृते द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२२</sup>उभे शुभाशुभे द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२३</sup>सच्चासच्चैव तद्द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२४</sup>प्रथमं समानो व्यानो व्यस्यते कर्म तेन तत्<br>तृतीयं तु समानेन पुनरेव व्यवस्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२४.२५</sup>शान्त्यर्थं वामदेवं च शान्तिर्ब्रह्म सनातनम्<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>नारदस्य च संवादमृषेर्देवमतस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.३</sup>देवमत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.४</sup>जन्तोः संजायमानस्य किं नु पूर्वं प्रवर्तते<br>प्राणोऽपानः समानो वा व्यानो वोदान एव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.५</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.६</sup>येनायं सृज्यते जन्तुस्ततोऽन्यः पूर्वमेति तम्<br>प्राणद्वंद्वं च विज्ञेयं तिर्यगं चोर्ध्वगं च यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.७</sup>देवमत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.८</sup>केनायं सृज्यते जन्तुः कश्चान्यः पूर्वमेति तम्<br>प्राणद्वंद्वं च मे ब्रूहि तिर्यगूर्ध्वं च निश्चयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.९</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१०</sup>संकल्पाज्जायते हर्षः शब्दादपि च जायते<br>रसात्संजायते चापि रूपादपि च जायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.११</sup>स्पर्शात्संजायते चापि गन्धादपि च जायते<br>एतद्रूपमुदानस्य हर्षो मिथुनसंभवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१२</sup>कामात्संजायते शुक्रं कामात्संजायते रसः<br>समानव्यानजनिते सामान्ये शुक्रशोणिते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१३</sup>शुक्राच्छोणितसंसृष्टात्पूर्वं प्राणः प्रवर्तते<br>प्राणेन विकृते शुक्रे ततोऽपानः प्रवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१४</sup>प्राणापानाविदं द्वंद्वमवाक्चोर्ध्वं च गच्छतः<br>व्यानः समानश्चैवोभौ तिर्यग्द्वंद्वत्वमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१५</sup>अग्निर्वै देवताः सर्वा इति वेदस्य शासनम्<br>संजायते ब्राह्मणेषु ज्ञानं बुद्धिसमन्वितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१६</sup>तस्य धूमस्तमोरूपं रजो भस्म सुरेतसः<br>सत्त्वं संजायते तस्य यत्र प्रक्षिप्यते हविः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१७</sup>आघारौ समानो व्यानश्च इति यज्ञविदो विदुः<br>प्राणापानावाज्यभागौ तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१८</sup>निर्द्वंद्वमिति यत्त्वेतत्तन्मे निगदतः शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.१९</sup>अहोरात्रमिदं द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२०</sup>उभे चैवायने द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२१</sup>उभे सत्यानृते द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२२</sup>उभे शुभाशुभे द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२३</sup>सच्चासच्चैव तद्द्वंद्वं तयोर्मध्ये हुताशनः<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२४</sup>प्रथमं समानो व्यानो व्यस्यते कर्म तेन तत्<br>तृतीयं तु समानेन पुनरेव व्यवस्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२४.२५</sup>शान्त्यर्थं वामदेवं च शान्तिर्ब्रह्म सनातनम्<br>एतद्रूपमुदानस्य परमं ब्राह्मणा विदुः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/9/39.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>९:४०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/9/41.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,151 +64,116 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/9/39.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">९:४०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/9/41.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२</sup>ब्रह्मयोनिभिराकीर्णं जगाम यदुनन्दनः<br>यत्र दाल्भ्यो बको राजन्पश्वर्थं सुमहातपाः<br>जुहाव धृतराष्ट्रस्य राष्ट्रं वैचित्रवीर्यिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३</sup>तपसा घोररूपेण कर्शयन्देहमात्मनः<br>क्रोधेन महताविष्टो धर्मात्मा वै प्रतापवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.४</sup>पुरा हि नैमिषेयाणां सत्रे द्वादशवार्षिके<br>वृत्ते विश्वजितोऽन्ते वै पाञ्चालानृषयोऽगमन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.५</sup>तत्रेश्वरमयाचन्त दक्षिणार्थं मनीषिणः<br>बलान्वितान्वत्सतरान्निर्व्याधीनेकविंशतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.६</sup>तानब्रवीद्बको वृद्धो विभजध्वं पशूनिति<br>पशूनेतानहं त्यक्त्वा भिक्षिष्ये राजसत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.७</sup>एवमुक्त्वा ततो राजन्नृषीन्सर्वान्प्रतापवान्<br>जगाम धृतराष्ट्रस्य भवनं ब्राह्मणोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.८</sup>स समीपगतो भूत्वा धृतराष्ट्रं जनेश्वरम्<br>अयाचत पशून्दाल्भ्यः स चैनं रुषितोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.९</sup>यदृच्छया मृता दृष्ट्वा गास्तदा नृपसत्तम<br>एतान्पशून्नय क्षिप्रं ब्रह्मबन्धो यदीच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१०</sup>ऋषिस्त्वथ वचः श्रुत्वा चिन्तयामास धर्मवित्<br>अहो बत नृशंसं वै वाक्यमुक्तोऽस्मि संसदि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.११</sup>चिन्तयित्वा मुहूर्तं च रोषाविष्टो द्विजोत्तमः<br>मतिं चक्रे विनाशाय धृतराष्ट्रस्य भूपतेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१२</sup>स उत्कृत्य मृतानां वै मांसानि द्विजसत्तमः<br>जुहाव धृतराष्ट्रस्य राष्ट्रं नरपतेः पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१३</sup>अवकीर्णे सरस्वत्यास्तीर्थे प्रज्वाल्य पावकम्<br>बको दाल्भ्यो महाराज नियमं परमास्थितः<br>स तैरेव जुहावास्य राष्ट्रं मांसैर्महातपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१४</sup>तस्मिंस्तु विधिवत्सत्रे संप्रवृत्ते सुदारुणे<br>अक्षीयत ततो राष्ट्रं धृतराष्ट्रस्य पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१५</sup>छिद्यमानं यथानन्तं वनं परशुना विभो<br>बभूवापहतं तच्चाप्यवकीर्णमचेतनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१६</sup>दृष्ट्वा तदवकीर्णं तु राष्ट्रं स मनुजाधिपः<br>बभूव दुर्मना राजंश्चिन्तयामास च प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१७</sup>मोक्षार्थमकरोद्यत्नं ब्राह्मणैः सहितः पुरा<br>अथासौ पार्थिवः खिन्नस्ते च विप्रास्तदा नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१८</sup>यदा चापि न शक्नोति राष्ट्रं मोचयितुं नृप<br>अथ वैप्राश्निकांस्तत्र पप्रच्छ जनमेजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.१९</sup>ततो वैप्राश्निकाः प्राहुः पशुविप्रकृतस्त्वया<br>मांसैरभिजुहोतीति तव राष्ट्रं मुनिर्बकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२०</sup>तेन ते हूयमानस्य राष्ट्रस्यास्य क्षयो महान्<br>तस्यैतत्तपसः कर्म येन ते ह्यनयो महान्<br>अपां कुञ्जे सरस्वत्यास्तं प्रसादय पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२१</sup>सरस्वतीं ततो गत्वा स राजा बकमब्रवीत्<br>निपत्य शिरसा भूमौ प्राञ्जलिर्भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२२</sup>प्रसादये त्वा भगवन्नपराधं क्षमस्व मे<br>मम दीनस्य लुब्धस्य मौर्ख्येण हतचेतसः<br>त्वं गतिस्त्वं च मे नाथः प्रसादं कर्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२३</sup>तं तथा विलपन्तं तु शोकोपहतचेतसम्<br>दृष्ट्वा तस्य कृपा जज्ञे राष्ट्रं तच्च व्यमोचयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२४</sup>ऋषिः प्रसन्नस्तस्याभूत्संरम्भं च विहाय सः<br>मोक्षार्थं तस्य राष्ट्रस्य जुहाव पुनराहुतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२५</sup>मोक्षयित्वा ततो राष्ट्रं प्रतिगृह्य पशून्बहून्<br>हृष्टात्मा नैमिषारण्यं जगाम पुनरेव हि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२६</sup>धृतराष्ट्रोऽपि धर्मात्मा स्वस्थचेता महामनाः<br>स्वमेव नगरं राजा प्रतिपेदे महर्द्धिमत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२७</sup>तत्र तीर्थे महाराज बृहस्पतिरुदारधीः<br>असुराणामभावाय भावाय च दिवौकसाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२८</sup>मांसैरपि जुहावेष्टिमक्षीयन्त ततोऽसुराः<br>दैवतैरपि संभग्ना जितकाशिभिराहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.२९</sup>तत्रापि विधिवद्दत्त्वा ब्राह्मणेभ्यो महायशाः<br>वाजिनः कुञ्जरांश्चैव रथांश्चाश्वतरीयुतान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३०</sup>रत्नानि च महार्हाणि धनं धान्यं च पुष्कलम्<br>ययौ तीर्थं महाबाहुर्यायातं पृथिवीपते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३१</sup>यत्र यज्ञे ययातेस्तु महाराज सरस्वती<br>सर्पिः पयश्च सुस्राव नाहुषस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३२</sup>तत्रेष्ट्वा पुरुषव्याघ्रो ययातिः पृथिवीपतिः<br>आक्रामदूर्ध्वं मुदितो लेभे लोकांश्च पुष्कलान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३३</sup>ययातेर्यजमानस्य यत्र राजन्सरस्वती<br>प्रसृता प्रददौ कामान्ब्राह्मणानां महात्मनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३४</sup>यत्र यत्र हि यो विप्रो यान्यान्कामानभीप्सति<br>तत्र तत्र सरिच्छ्रेष्ठा ससर्ज सुबहून्रसान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३५</sup>तत्र देवाः सगन्धर्वाः प्रीता यज्ञस्य संपदा<br>विस्मिता मानुषाश्चासन्दृष्ट्वा तां यज्ञसंपदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.४०.३६</sup>ततस्तालकेतुर्महाधर्मसेतु;र्महात्मा कृतात्मा महादाननित्यः<br>वसिष्ठापवाहं महाभीमवेगं; धृतात्मा जितात्मा समभ्याजगाम
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२</sup>ब्रह्मयोनिभिराकीर्णं जगाम यदुनन्दनः<br>यत्र दाल्भ्यो बको राजन्पश्वर्थं सुमहातपाः<br>जुहाव धृतराष्ट्रस्य राष्ट्रं वैचित्रवीर्यिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३</sup>तपसा घोररूपेण कर्शयन्देहमात्मनः<br>क्रोधेन महताविष्टो धर्मात्मा वै प्रतापवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.४</sup>पुरा हि नैमिषेयाणां सत्रे द्वादशवार्षिके<br>वृत्ते विश्वजितोऽन्ते वै पाञ्चालानृषयोऽगमन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.५</sup>तत्रेश्वरमयाचन्त दक्षिणार्थं मनीषिणः<br>बलान्वितान्वत्सतरान्निर्व्याधीनेकविंशतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.६</sup>तानब्रवीद्बको वृद्धो विभजध्वं पशूनिति<br>पशूनेतानहं त्यक्त्वा भिक्षिष्ये राजसत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.७</sup>एवमुक्त्वा ततो राजन्नृषीन्सर्वान्प्रतापवान्<br>जगाम धृतराष्ट्रस्य भवनं ब्राह्मणोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.८</sup>स समीपगतो भूत्वा धृतराष्ट्रं जनेश्वरम्<br>अयाचत पशून्दाल्भ्यः स चैनं रुषितोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.९</sup>यदृच्छया मृता दृष्ट्वा गास्तदा नृपसत्तम<br>एतान्पशून्नय क्षिप्रं ब्रह्मबन्धो यदीच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१०</sup>ऋषिस्त्वथ वचः श्रुत्वा चिन्तयामास धर्मवित्<br>अहो बत नृशंसं वै वाक्यमुक्तोऽस्मि संसदि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.११</sup>चिन्तयित्वा मुहूर्तं च रोषाविष्टो द्विजोत्तमः<br>मतिं चक्रे विनाशाय धृतराष्ट्रस्य भूपतेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१२</sup>स उत्कृत्य मृतानां वै मांसानि द्विजसत्तमः<br>जुहाव धृतराष्ट्रस्य राष्ट्रं नरपतेः पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१३</sup>अवकीर्णे सरस्वत्यास्तीर्थे प्रज्वाल्य पावकम्<br>बको दाल्भ्यो महाराज नियमं परमास्थितः<br>स तैरेव जुहावास्य राष्ट्रं मांसैर्महातपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१४</sup>तस्मिंस्तु विधिवत्सत्रे संप्रवृत्ते सुदारुणे<br>अक्षीयत ततो राष्ट्रं धृतराष्ट्रस्य पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१५</sup>छिद्यमानं यथानन्तं वनं परशुना विभो<br>बभूवापहतं तच्चाप्यवकीर्णमचेतनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१६</sup>दृष्ट्वा तदवकीर्णं तु राष्ट्रं स मनुजाधिपः<br>बभूव दुर्मना राजंश्चिन्तयामास च प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१७</sup>मोक्षार्थमकरोद्यत्नं ब्राह्मणैः सहितः पुरा<br>अथासौ पार्थिवः खिन्नस्ते च विप्रास्तदा नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१८</sup>यदा चापि न शक्नोति राष्ट्रं मोचयितुं नृप<br>अथ वैप्राश्निकांस्तत्र पप्रच्छ जनमेजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.१९</sup>ततो वैप्राश्निकाः प्राहुः पशुविप्रकृतस्त्वया<br>मांसैरभिजुहोतीति तव राष्ट्रं मुनिर्बकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२०</sup>तेन ते हूयमानस्य राष्ट्रस्यास्य क्षयो महान्<br>तस्यैतत्तपसः कर्म येन ते ह्यनयो महान्<br>अपां कुञ्जे सरस्वत्यास्तं प्रसादय पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२१</sup>सरस्वतीं ततो गत्वा स राजा बकमब्रवीत्<br>निपत्य शिरसा भूमौ प्राञ्जलिर्भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२२</sup>प्रसादये त्वा भगवन्नपराधं क्षमस्व मे<br>मम दीनस्य लुब्धस्य मौर्ख्येण हतचेतसः<br>त्वं गतिस्त्वं च मे नाथः प्रसादं कर्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२३</sup>तं तथा विलपन्तं तु शोकोपहतचेतसम्<br>दृष्ट्वा तस्य कृपा जज्ञे राष्ट्रं तच्च व्यमोचयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२४</sup>ऋषिः प्रसन्नस्तस्याभूत्संरम्भं च विहाय सः<br>मोक्षार्थं तस्य राष्ट्रस्य जुहाव पुनराहुतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२५</sup>मोक्षयित्वा ततो राष्ट्रं प्रतिगृह्य पशून्बहून्<br>हृष्टात्मा नैमिषारण्यं जगाम पुनरेव हि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२६</sup>धृतराष्ट्रोऽपि धर्मात्मा स्वस्थचेता महामनाः<br>स्वमेव नगरं राजा प्रतिपेदे महर्द्धिमत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२७</sup>तत्र तीर्थे महाराज बृहस्पतिरुदारधीः<br>असुराणामभावाय भावाय च दिवौकसाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२८</sup>मांसैरपि जुहावेष्टिमक्षीयन्त ततोऽसुराः<br>दैवतैरपि संभग्ना जितकाशिभिराहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.२९</sup>तत्रापि विधिवद्दत्त्वा ब्राह्मणेभ्यो महायशाः<br>वाजिनः कुञ्जरांश्चैव रथांश्चाश्वतरीयुतान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३०</sup>रत्नानि च महार्हाणि धनं धान्यं च पुष्कलम्<br>ययौ तीर्थं महाबाहुर्यायातं पृथिवीपते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३१</sup>यत्र यज्ञे ययातेस्तु महाराज सरस्वती<br>सर्पिः पयश्च सुस्राव नाहुषस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३२</sup>तत्रेष्ट्वा पुरुषव्याघ्रो ययातिः पृथिवीपतिः<br>आक्रामदूर्ध्वं मुदितो लेभे लोकांश्च पुष्कलान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३३</sup>ययातेर्यजमानस्य यत्र राजन्सरस्वती<br>प्रसृता प्रददौ कामान्ब्राह्मणानां महात्मनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३४</sup>यत्र यत्र हि यो विप्रो यान्यान्कामानभीप्सति<br>तत्र तत्र सरिच्छ्रेष्ठा ससर्ज सुबहून्रसान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३५</sup>तत्र देवाः सगन्धर्वाः प्रीता यज्ञस्य संपदा<br>विस्मिता मानुषाश्चासन्दृष्ट्वा तां यज्ञसंपदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.४०.३६</sup>ततस्तालकेतुर्महाधर्मसेतु;र्महात्मा कृतात्मा महादाननित्यः<br>वसिष्ठापवाहं महाभीमवेगं; धृतात्मा जितात्मा समभ्याजगाम
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -189,8 +182,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

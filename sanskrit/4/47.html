@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/46.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:४७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/48.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,109 +64,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/46.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:४७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/48.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.२</sup>कलांशास्तात युज्यन्ते मुहूर्ताश्च दिनानि च<br>अर्धमासाश्च मासाश्च नक्षत्राणि ग्रहास्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.३</sup>ऋतवश्चापि युज्यन्ते तथा संवत्सरा अपि<br>एवं कालविभागेन कालचक्रं प्रवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.४</sup>तेषां कालातिरेकेण ज्योतिषां च व्यतिक्रमात्<br>पञ्चमे पञ्चमे वर्षे द्वौ मासावुपजायतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.५</sup>तेषामभ्यधिका मासाः पञ्च द्वादश च क्षपाः<br>त्रयोदशानां वर्षाणामिति मे वर्तते मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.६</sup>सर्वं यथावच्चरितं यद्यदेभिः परिश्रुतम्<br>एवमेतद्ध्रुवं ज्ञात्वा ततो बीभत्सुरागतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.७</sup>सर्वे चैव महात्मानः सर्वे धर्मार्थकोविदाः<br>येषां युधिष्ठिरो राजा कस्माद्धर्मेऽपराध्नुयुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.८</sup>अलुब्धाश्चैव कौन्तेयाः कृतवन्तश्च दुष्करम्<br>न चापि केवलं राज्यमिच्छेयुस्तेऽनुपायतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.९</sup>तदैव ते हि विक्रान्तुमीषुः कौरवनन्दनाः<br>धर्मपाशनिबद्धास्तु न चेलुः क्षत्रियव्रतात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१०</sup>यच्चानृत इति ख्यायेद्यच्च गच्छेत्पराभवम्<br>वृणुयुर्मरणं पार्था नानृतत्वं कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.११</sup>प्राप्ते तु काले प्राप्तव्यं नोत्सृजेयुर्नरर्षभाः<br>अपि वज्रभृता गुप्तं तथावीर्या हि पाण्डवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१२</sup>प्रतियुध्याम समरे सर्वशस्त्रभृतां वरम्<br>तस्माद्यदत्र कल्याणं लोके सद्भिरनुष्ठितम्<br>तत्संविधीयतां क्षिप्रं मा नो ह्यर्थोऽतिगात्परान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१३</sup>न हि पश्यामि संग्रामे कदाचिदपि कौरव<br>एकान्तसिद्धिं राजेन्द्र संप्राप्तश्च धनंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१४</sup>संप्रवृत्ते तु संग्रामे भावाभावौ जयाजयौ<br>अवश्यमेकं स्पृशतो दृष्टमेतदसंशयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१५</sup>तस्माद्युद्धावचरिकं कर्म वा धर्मसंहितम्<br>क्रियतामाशु राजेन्द्र संप्राप्तो हि धनंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१६</sup>दुर्योधन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१७</sup>नाहं राज्यं प्रदास्यामि पाण्डवानां पितामह<br>युद्धावचारिकं यत्तु तच्छीघ्रं संविधीयताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.१९</sup>अत्र या मामकी बुद्धिः श्रूयतां यदि रोचते<br>क्षिप्रं बलचतुर्भागं गृह्य गच्छ पुरं प्रति<br>ततोऽपरश्चतुर्भागो गाः समादाय गच्छतु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.२०</sup>वयं त्वर्धेन सैन्येन प्रतियोत्स्याम पाण्डवम्<br>मत्स्यं वा पुनरायातमथ वापि शतक्रतुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.२१</sup>आचार्यो मध्यतस्तिष्ठत्वश्वत्थामा तु सव्यतः<br>कृपः शारद्वतो धीमान्पार्श्वं रक्षतु दक्षिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४७.२२</sup>अग्रतः सूतपुत्रस्तु कर्णस्तिष्ठतु दंशितः<br>अहं सर्वस्य सैन्यस्य पश्चात्स्थास्यामि पालयन्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.२</sup>कलांशास्तात युज्यन्ते मुहूर्ताश्च दिनानि च<br>अर्धमासाश्च मासाश्च नक्षत्राणि ग्रहास्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.३</sup>ऋतवश्चापि युज्यन्ते तथा संवत्सरा अपि<br>एवं कालविभागेन कालचक्रं प्रवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.४</sup>तेषां कालातिरेकेण ज्योतिषां च व्यतिक्रमात्<br>पञ्चमे पञ्चमे वर्षे द्वौ मासावुपजायतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.५</sup>तेषामभ्यधिका मासाः पञ्च द्वादश च क्षपाः<br>त्रयोदशानां वर्षाणामिति मे वर्तते मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.६</sup>सर्वं यथावच्चरितं यद्यदेभिः परिश्रुतम्<br>एवमेतद्ध्रुवं ज्ञात्वा ततो बीभत्सुरागतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.७</sup>सर्वे चैव महात्मानः सर्वे धर्मार्थकोविदाः<br>येषां युधिष्ठिरो राजा कस्माद्धर्मेऽपराध्नुयुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.८</sup>अलुब्धाश्चैव कौन्तेयाः कृतवन्तश्च दुष्करम्<br>न चापि केवलं राज्यमिच्छेयुस्तेऽनुपायतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.९</sup>तदैव ते हि विक्रान्तुमीषुः कौरवनन्दनाः<br>धर्मपाशनिबद्धास्तु न चेलुः क्षत्रियव्रतात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१०</sup>यच्चानृत इति ख्यायेद्यच्च गच्छेत्पराभवम्<br>वृणुयुर्मरणं पार्था नानृतत्वं कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.११</sup>प्राप्ते तु काले प्राप्तव्यं नोत्सृजेयुर्नरर्षभाः<br>अपि वज्रभृता गुप्तं तथावीर्या हि पाण्डवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१२</sup>प्रतियुध्याम समरे सर्वशस्त्रभृतां वरम्<br>तस्माद्यदत्र कल्याणं लोके सद्भिरनुष्ठितम्<br>तत्संविधीयतां क्षिप्रं मा नो ह्यर्थोऽतिगात्परान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१३</sup>न हि पश्यामि संग्रामे कदाचिदपि कौरव<br>एकान्तसिद्धिं राजेन्द्र संप्राप्तश्च धनंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१४</sup>संप्रवृत्ते तु संग्रामे भावाभावौ जयाजयौ<br>अवश्यमेकं स्पृशतो दृष्टमेतदसंशयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१५</sup>तस्माद्युद्धावचरिकं कर्म वा धर्मसंहितम्<br>क्रियतामाशु राजेन्द्र संप्राप्तो हि धनंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१६</sup>दुर्योधन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१७</sup>नाहं राज्यं प्रदास्यामि पाण्डवानां पितामह<br>युद्धावचारिकं यत्तु तच्छीघ्रं संविधीयताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.१९</sup>अत्र या मामकी बुद्धिः श्रूयतां यदि रोचते<br>क्षिप्रं बलचतुर्भागं गृह्य गच्छ पुरं प्रति<br>ततोऽपरश्चतुर्भागो गाः समादाय गच्छतु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.२०</sup>वयं त्वर्धेन सैन्येन प्रतियोत्स्याम पाण्डवम्<br>मत्स्यं वा पुनरायातमथ वापि शतक्रतुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.२१</sup>आचार्यो मध्यतस्तिष्ठत्वश्वत्थामा तु सव्यतः<br>कृपः शारद्वतो धीमान्पार्श्वं रक्षतु दक्षिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४७.२२</sup>अग्रतः सूतपुत्रस्तु कर्णस्तिष्ठतु दंशितः<br>अहं सर्वस्य सैन्यस्य पश्चात्स्थास्यामि पालयन्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -147,8 +140,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

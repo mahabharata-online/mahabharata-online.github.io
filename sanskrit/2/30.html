@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/2/29.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>२:३०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/2/31.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,214 +64,179 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/2/29.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">२:३०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/2/31.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२</sup>रक्षणाद्धर्मराजस्य सत्यस्य परिपालनात्<br>शत्रूणां क्षपणाच्चैव स्वकर्मनिरताः प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३</sup>बलीनां सम्यगादानाद्धर्मतश्चानुशासनात्<br>निकामवर्षी पर्जन्यः स्फीतो जनपदोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४</sup>सर्वारम्भाः सुप्रवृत्ता गोरक्षं कर्षणं वणिक्<br>विशेषात्सर्वमेवैतत्संजज्ञे राजकर्मणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५</sup>दस्युभ्यो वञ्चकेभ्यो वा राजन्प्रति परस्परम्<br>राजवल्लभतश्चैव नाश्रूयन्त मृषा गिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.६</sup>अवर्षं चातिवर्षं च व्याधिपावकमूर्छनम्<br>सर्वमेतत्तदा नासीद्धर्मनित्ये युधिष्ठिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.७</sup>प्रियं कर्तुमुपस्थातुं बलिकर्म स्वभावजम्<br>अभिहर्तुं नृपा जग्मुर्नान्यैः कार्यैः पृथक्पृथक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.८</sup>धर्म्यैर्धनागमैस्तस्य ववृधे निचयो महान्<br>कर्तुं यस्य न शक्येत क्षयो वर्षशतैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.९</sup>स्वकोशस्य परीमाणं कोष्ठस्य च महीपतिः<br>विज्ञाय राजा कौन्तेयो यज्ञायैव मनो दधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१०</sup>सुहृदश्चैव तं सर्वे पृथक्च सह चाब्रुवन्<br>यज्ञकालस्तव विभो क्रियतामत्र सांप्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.११</sup>अथैवं ब्रुवतामेव तेषामभ्याययौ हरिः<br>ऋषिः पुराणो वेदात्मा दृश्यश्चापि विजानताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१२</sup>जगतस्तस्थुषां श्रेष्ठः प्रभवश्चाप्ययश्च ह<br>भूतभव्यभवन्नाथः केशवः केशिसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१३</sup>प्राकारः सर्ववृष्णीनामापत्स्वभयदोऽरिहा<br>बलाधिकारे निक्षिप्य संहत्यानकदुन्दुभिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१४</sup>उच्चावचमुपादाय धर्मराजाय माधवः<br>धनौघं पुरुषव्याघ्रो बलेन महता वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१५</sup>तं धनौघमपर्यन्तं रत्नसागरमक्षयम्<br>नादयन्रथघोषेण प्रविवेश पुरोत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१६</sup>असूर्यमिव सूर्येण निवातमिव वायुना<br>कृष्णेन समुपेतेन जहृषे भारतं पुरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१७</sup>तं मुदाभिसमागम्य सत्कृत्य च यथाविधि<br>संपृष्ट्वा कुशलं चैव सुखासीनं युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१८</sup>धौम्यद्वैपायनमुखैरृत्विग्भिः पुरुषर्षभः<br>भीमार्जुनयमैश्चापि सहितः कृष्णमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.१९</sup>त्वत्कृते पृथिवी सर्वा मद्वशे कृष्ण वर्तते<br>धनं च बहु वार्ष्णेय त्वत्प्रसादादुपार्जितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२०</sup>सोऽहमिच्छामि तत्सर्वं विधिवद्देवकीसुत<br>उपयोक्तुं द्विजाग्र्येषु हव्यवाहे च माधव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२१</sup>तदहं यष्टुमिच्छामि दाशार्ह सहितस्त्वया<br>अनुजैश्च महाबाहो तन्मानुज्ञातुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२२</sup>स दीक्षापय गोविन्द त्वमात्मानं महाभुज<br>त्वयीष्टवति दाशार्ह विपाप्मा भविता ह्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२३</sup>मां वाप्यभ्यनुजानीहि सहैभिरनुजैर्विभो<br>अनुज्ञातस्त्वया कृष्ण प्राप्नुयां क्रतुमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२४</sup>तं कृष्णः प्रत्युवाचेदं बहूक्त्वा गुणविस्तरम्<br>त्वमेव राजशार्दूल सम्राडर्हो महाक्रतुम्<br>संप्राप्नुहि त्वया प्राप्ते कृतकृत्यास्ततो वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२५</sup>यजस्वाभीप्सितं यज्ञं मयि श्रेयस्यवस्थिते<br>नियुङ्क्ष्व चापि मां कृत्ये सर्वं कर्तास्मि ते वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२६</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२७</sup>सफलः कृष्ण संकल्पः सिद्धिश्च नियता मम<br>यस्य मे त्वं हृषीकेश यथेप्सितमुपस्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२८</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.२९</sup>अनुज्ञातस्तु कृष्णेन पाण्डवो भ्रातृभिः सह<br>ईहितुं राजसूयाय साधनान्युपचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३०</sup>तत आज्ञापयामास पाण्डवोऽरिनिबर्हणः<br>सहदेवं युधां श्रेष्ठं मन्त्रिणश्चैव सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३१</sup>अस्मिन्क्रतौ यथोक्तानि यज्ञाङ्गानि द्विजातिभिः<br>तथोपकरणं सर्वं मङ्गलानि च सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३२</sup>अधियज्ञांश्च संभारान्धौम्योक्तान्क्षिप्रमेव हि<br>समानयन्तु पुरुषा यथायोगं यथाक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३३</sup>इन्द्रसेनो विशोकश्च पूरुश्चार्जुनसारथिः<br>अन्नाद्याहरणे युक्ताः सन्तु मत्प्रियकाम्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३४</sup>सर्वकामाश्च कार्यन्तां रसगन्धसमन्विताः<br>मनोहराः प्रीतिकरा द्विजानां कुरुसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३५</sup>तद्वाक्यसमकालं तु कृतं सर्वमवेदयत्<br>सहदेवो युधां श्रेष्ठो धर्मराजे महात्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३६</sup>ततो द्वैपायनो राजन्नृत्विजः समुपानयत्<br>वेदानिव महाभागान्साक्षान्मूर्तिमतो द्विजान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३७</sup>स्वयं ब्रह्मत्वमकरोत्तस्य सत्यवतीसुतः<br>धनंजयानामृषभः सुसामा सामगोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३८</sup>याज्ञवल्क्यो बभूवाथ ब्रह्मिष्ठोऽध्वर्युसत्तमः<br>पैलो होता वसोः पुत्रो धौम्येन सहितोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.३९</sup>एतेषां शिष्यवर्गाश्च पुत्राश्च भरतर्षभ<br>बभूवुर्होत्रगाः सर्वे वेदवेदाङ्गपारगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४०</sup>ते वाचयित्वा पुण्याहमीहयित्वा च तं विधिम्<br>शास्त्रोक्तं योजयामासुस्तद्देवयजनं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४१</sup>तत्र चक्रुरनुज्ञाताः शरणान्युत शिल्पिनः<br>रत्नवन्ति विशालानि वेश्मानीव दिवौकसाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४२</sup>तत आज्ञापयामास स राजा राजसत्तमः<br>सहदेवं तदा सद्यो मन्त्रिणं कुरुसत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४३</sup>आमन्त्रणार्थं दूतांस्त्वं प्रेषयस्वाशुगान्द्रुतम्<br>उपश्रुत्य वचो राज्ञः स दूतान्प्राहिणोत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४४</sup>आमन्त्रयध्वं राष्ट्रेषु ब्राह्मणान्भूमिपानपि<br>विशश्च मान्याञ्शूद्रांश्च सर्वानानयतेति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४५</sup>ते सर्वान्पृथिवीपालान्पाण्डवेयस्य शासनात्<br>आमन्त्रयां बभूवुश्च प्रेषयामास चापरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४६</sup>ततस्ते तु यथाकालं कुन्तीपुत्रं युधिष्ठिरम्<br>दीक्षयां चक्रिरे विप्रा राजसूयाय भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४७</sup>दीक्षितः स तु धर्मात्मा धर्मराजो युधिष्ठिरः<br>जगाम यज्ञायतनं वृतो विप्रैः सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४८</sup>भ्रातृभिर्ज्ञातिभिश्चैव सुहृद्भिः सचिवैस्तथा<br>क्षत्रियैश्च मनुष्येन्द्र नानादेशसमागतैः<br>अमात्यैश्च नृपश्रेष्ठो धर्मो विग्रहवानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.४९</sup>आजग्मुर्ब्राह्मणास्तत्र विषयेभ्यस्ततस्ततः<br>सर्वविद्यासु निष्णाता वेदवेदाङ्गपारगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५०</sup>तेषामावसथांश्चक्रुर्धर्मराजस्य शासनात्<br>बह्वन्नाञ्शयनैर्युक्तान्सगणानां पृथक्पृथक्<br>सर्वर्तुगुणसंपन्नाञ्शिल्पिनोऽथ सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५१</sup>तेषु ते न्यवसन्राजन्ब्राह्मणा भृशसत्कृताः<br>कथयन्तः कथा बह्वीः पश्यन्तो नटनर्तकान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५२</sup>भुञ्जतां चैव विप्राणां वदतां च महास्वनः<br>अनिशं श्रूयते स्मात्र मुदितानां महात्मनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५३</sup>दीयतां दीयतामेषां भुज्यतां भुज्यतामिति<br>एवंप्रकाराः संजल्पाः श्रूयन्ते स्मात्र नित्यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५४</sup>गवां शतसहस्राणि शयनानां च भारत<br>रुक्मस्य योषितां चैव धर्मराजः पृथग्ददौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५५</sup>प्रावर्ततैवं यज्ञः स पाण्डवस्य महात्मनः<br>पृथिव्यामेकवीरस्य शक्रस्येव त्रिविष्टपे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५६</sup>ततो युधिष्ठिरो राजा प्रेषयामास पाण्डवम्<br>नकुलं हास्तिनपुरं भीष्माय भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.३०.५७</sup>द्रोणाय धृतराष्ट्राय विदुराय कृपाय च<br>भ्रातॄणां चैव सर्वेषां येऽनुरक्ता युधिष्ठिरे
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२</sup>रक्षणाद्धर्मराजस्य सत्यस्य परिपालनात्<br>शत्रूणां क्षपणाच्चैव स्वकर्मनिरताः प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३</sup>बलीनां सम्यगादानाद्धर्मतश्चानुशासनात्<br>निकामवर्षी पर्जन्यः स्फीतो जनपदोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४</sup>सर्वारम्भाः सुप्रवृत्ता गोरक्षं कर्षणं वणिक्<br>विशेषात्सर्वमेवैतत्संजज्ञे राजकर्मणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५</sup>दस्युभ्यो वञ्चकेभ्यो वा राजन्प्रति परस्परम्<br>राजवल्लभतश्चैव नाश्रूयन्त मृषा गिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.६</sup>अवर्षं चातिवर्षं च व्याधिपावकमूर्छनम्<br>सर्वमेतत्तदा नासीद्धर्मनित्ये युधिष्ठिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.७</sup>प्रियं कर्तुमुपस्थातुं बलिकर्म स्वभावजम्<br>अभिहर्तुं नृपा जग्मुर्नान्यैः कार्यैः पृथक्पृथक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.८</sup>धर्म्यैर्धनागमैस्तस्य ववृधे निचयो महान्<br>कर्तुं यस्य न शक्येत क्षयो वर्षशतैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.९</sup>स्वकोशस्य परीमाणं कोष्ठस्य च महीपतिः<br>विज्ञाय राजा कौन्तेयो यज्ञायैव मनो दधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१०</sup>सुहृदश्चैव तं सर्वे पृथक्च सह चाब्रुवन्<br>यज्ञकालस्तव विभो क्रियतामत्र सांप्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.११</sup>अथैवं ब्रुवतामेव तेषामभ्याययौ हरिः<br>ऋषिः पुराणो वेदात्मा दृश्यश्चापि विजानताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१२</sup>जगतस्तस्थुषां श्रेष्ठः प्रभवश्चाप्ययश्च ह<br>भूतभव्यभवन्नाथः केशवः केशिसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१३</sup>प्राकारः सर्ववृष्णीनामापत्स्वभयदोऽरिहा<br>बलाधिकारे निक्षिप्य संहत्यानकदुन्दुभिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१४</sup>उच्चावचमुपादाय धर्मराजाय माधवः<br>धनौघं पुरुषव्याघ्रो बलेन महता वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१५</sup>तं धनौघमपर्यन्तं रत्नसागरमक्षयम्<br>नादयन्रथघोषेण प्रविवेश पुरोत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१६</sup>असूर्यमिव सूर्येण निवातमिव वायुना<br>कृष्णेन समुपेतेन जहृषे भारतं पुरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१७</sup>तं मुदाभिसमागम्य सत्कृत्य च यथाविधि<br>संपृष्ट्वा कुशलं चैव सुखासीनं युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१८</sup>धौम्यद्वैपायनमुखैरृत्विग्भिः पुरुषर्षभः<br>भीमार्जुनयमैश्चापि सहितः कृष्णमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.१९</sup>त्वत्कृते पृथिवी सर्वा मद्वशे कृष्ण वर्तते<br>धनं च बहु वार्ष्णेय त्वत्प्रसादादुपार्जितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२०</sup>सोऽहमिच्छामि तत्सर्वं विधिवद्देवकीसुत<br>उपयोक्तुं द्विजाग्र्येषु हव्यवाहे च माधव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२१</sup>तदहं यष्टुमिच्छामि दाशार्ह सहितस्त्वया<br>अनुजैश्च महाबाहो तन्मानुज्ञातुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२२</sup>स दीक्षापय गोविन्द त्वमात्मानं महाभुज<br>त्वयीष्टवति दाशार्ह विपाप्मा भविता ह्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२३</sup>मां वाप्यभ्यनुजानीहि सहैभिरनुजैर्विभो<br>अनुज्ञातस्त्वया कृष्ण प्राप्नुयां क्रतुमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२४</sup>तं कृष्णः प्रत्युवाचेदं बहूक्त्वा गुणविस्तरम्<br>त्वमेव राजशार्दूल सम्राडर्हो महाक्रतुम्<br>संप्राप्नुहि त्वया प्राप्ते कृतकृत्यास्ततो वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२५</sup>यजस्वाभीप्सितं यज्ञं मयि श्रेयस्यवस्थिते<br>नियुङ्क्ष्व चापि मां कृत्ये सर्वं कर्तास्मि ते वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२६</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२७</sup>सफलः कृष्ण संकल्पः सिद्धिश्च नियता मम<br>यस्य मे त्वं हृषीकेश यथेप्सितमुपस्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२८</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.२९</sup>अनुज्ञातस्तु कृष्णेन पाण्डवो भ्रातृभिः सह<br>ईहितुं राजसूयाय साधनान्युपचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३०</sup>तत आज्ञापयामास पाण्डवोऽरिनिबर्हणः<br>सहदेवं युधां श्रेष्ठं मन्त्रिणश्चैव सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३१</sup>अस्मिन्क्रतौ यथोक्तानि यज्ञाङ्गानि द्विजातिभिः<br>तथोपकरणं सर्वं मङ्गलानि च सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३२</sup>अधियज्ञांश्च संभारान्धौम्योक्तान्क्षिप्रमेव हि<br>समानयन्तु पुरुषा यथायोगं यथाक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३३</sup>इन्द्रसेनो विशोकश्च पूरुश्चार्जुनसारथिः<br>अन्नाद्याहरणे युक्ताः सन्तु मत्प्रियकाम्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३४</sup>सर्वकामाश्च कार्यन्तां रसगन्धसमन्विताः<br>मनोहराः प्रीतिकरा द्विजानां कुरुसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३५</sup>तद्वाक्यसमकालं तु कृतं सर्वमवेदयत्<br>सहदेवो युधां श्रेष्ठो धर्मराजे महात्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३६</sup>ततो द्वैपायनो राजन्नृत्विजः समुपानयत्<br>वेदानिव महाभागान्साक्षान्मूर्तिमतो द्विजान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३७</sup>स्वयं ब्रह्मत्वमकरोत्तस्य सत्यवतीसुतः<br>धनंजयानामृषभः सुसामा सामगोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३८</sup>याज्ञवल्क्यो बभूवाथ ब्रह्मिष्ठोऽध्वर्युसत्तमः<br>पैलो होता वसोः पुत्रो धौम्येन सहितोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.३९</sup>एतेषां शिष्यवर्गाश्च पुत्राश्च भरतर्षभ<br>बभूवुर्होत्रगाः सर्वे वेदवेदाङ्गपारगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४०</sup>ते वाचयित्वा पुण्याहमीहयित्वा च तं विधिम्<br>शास्त्रोक्तं योजयामासुस्तद्देवयजनं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४१</sup>तत्र चक्रुरनुज्ञाताः शरणान्युत शिल्पिनः<br>रत्नवन्ति विशालानि वेश्मानीव दिवौकसाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४२</sup>तत आज्ञापयामास स राजा राजसत्तमः<br>सहदेवं तदा सद्यो मन्त्रिणं कुरुसत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४३</sup>आमन्त्रणार्थं दूतांस्त्वं प्रेषयस्वाशुगान्द्रुतम्<br>उपश्रुत्य वचो राज्ञः स दूतान्प्राहिणोत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४४</sup>आमन्त्रयध्वं राष्ट्रेषु ब्राह्मणान्भूमिपानपि<br>विशश्च मान्याञ्शूद्रांश्च सर्वानानयतेति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४५</sup>ते सर्वान्पृथिवीपालान्पाण्डवेयस्य शासनात्<br>आमन्त्रयां बभूवुश्च प्रेषयामास चापरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४६</sup>ततस्ते तु यथाकालं कुन्तीपुत्रं युधिष्ठिरम्<br>दीक्षयां चक्रिरे विप्रा राजसूयाय भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४७</sup>दीक्षितः स तु धर्मात्मा धर्मराजो युधिष्ठिरः<br>जगाम यज्ञायतनं वृतो विप्रैः सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४८</sup>भ्रातृभिर्ज्ञातिभिश्चैव सुहृद्भिः सचिवैस्तथा<br>क्षत्रियैश्च मनुष्येन्द्र नानादेशसमागतैः<br>अमात्यैश्च नृपश्रेष्ठो धर्मो विग्रहवानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.४९</sup>आजग्मुर्ब्राह्मणास्तत्र विषयेभ्यस्ततस्ततः<br>सर्वविद्यासु निष्णाता वेदवेदाङ्गपारगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५०</sup>तेषामावसथांश्चक्रुर्धर्मराजस्य शासनात्<br>बह्वन्नाञ्शयनैर्युक्तान्सगणानां पृथक्पृथक्<br>सर्वर्तुगुणसंपन्नाञ्शिल्पिनोऽथ सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५१</sup>तेषु ते न्यवसन्राजन्ब्राह्मणा भृशसत्कृताः<br>कथयन्तः कथा बह्वीः पश्यन्तो नटनर्तकान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५२</sup>भुञ्जतां चैव विप्राणां वदतां च महास्वनः<br>अनिशं श्रूयते स्मात्र मुदितानां महात्मनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५३</sup>दीयतां दीयतामेषां भुज्यतां भुज्यतामिति<br>एवंप्रकाराः संजल्पाः श्रूयन्ते स्मात्र नित्यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५४</sup>गवां शतसहस्राणि शयनानां च भारत<br>रुक्मस्य योषितां चैव धर्मराजः पृथग्ददौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५५</sup>प्रावर्ततैवं यज्ञः स पाण्डवस्य महात्मनः<br>पृथिव्यामेकवीरस्य शक्रस्येव त्रिविष्टपे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५६</sup>ततो युधिष्ठिरो राजा प्रेषयामास पाण्डवम्<br>नकुलं हास्तिनपुरं भीष्माय भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.३०.५७</sup>द्रोणाय धृतराष्ट्राय विदुराय कृपाय च<br>भ्रातॄणां चैव सर्वेषां येऽनुरक्ता युधिष्ठिरे
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -252,8 +245,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/170.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१७१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/172.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/170.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१७१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/172.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१</sup>और्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२</sup>उक्तवानस्मि यां क्रोधात्प्रतिज्ञां पितरस्तदा<br>सर्वलोकविनाशाय न सा मे वितथा भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.३</sup>वृथारोषप्रतिज्ञो हि नाहं जीवितुमुत्सहे<br>अनिस्तीर्णो हि मां रोषो दहेदग्निरिवारणिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.४</sup>यो हि कारणतः क्रोधं संजातं क्षन्तुमर्हति<br>नालं स मनुजः सम्यक्त्रिवर्गं परिरक्षितुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.५</sup>अशिष्टानां नियन्ता हि शिष्टानां परिरक्षता<br>स्थाने रोषः प्रयुक्तः स्यान्नृपैः स्वर्गजिगीषुभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.६</sup>अश्रौषमहमूरुस्थो गर्भशय्यागतस्तदा<br>आरावं मातृवर्गस्य भृगूणां क्षत्रियैर्वधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.७</sup>सामरैर्हि यदा लोकैर्भृगूणां क्षत्रियाधमैः<br>आगर्भोत्सादनं क्षान्तं तदा मां मन्युराविषत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.८</sup>आपूर्णकोशाः किल मे मातरः पितरस्तथा<br>भयात्सर्वेषु लोकेषु नाधिजग्मुः परायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.९</sup>तान्भृगूणां तदा दारान्कश्चिन्नाभ्यवपद्यत<br>यदा तदा दधारेयमूरुणैकेन मां शुभा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१०</sup>प्रतिषेद्धा हि पापस्य यदा लोकेषु विद्यते<br>तदा सर्वेषु लोकेषु पापकृन्नोपपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.११</sup>यदा तु प्रतिषेद्धारं पापो न लभते क्वचित्<br>तिष्ठन्ति बहवो लोके तदा पापेषु कर्मसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१२</sup>जानन्नपि च यः पापं शक्तिमान्न नियच्छति<br>ईशः सन्सोऽपि तेनैव कर्मणा संप्रयुज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१३</sup>राजभिश्चेश्वरैश्चैव यदि वै पितरो मम<br>शक्तैर्न शकिता त्रातुमिष्टं मत्वेह जीवितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१४</sup>अत एषामहं क्रुद्धो लोकानामीश्वरोऽद्य सन्<br>भवतां तु वचो नाहमलं समतिवर्तितुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१५</sup>मम चापि भवेदेतदीश्वरस्य सतो महत्<br>उपेक्षमाणस्य पुनर्लोकानां किल्बिषाद्भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१६</sup>यश्चायं मन्युजो मेऽग्निर्लोकानादातुमिच्छति<br>दहेदेष च मामेव निगृहीतः स्वतेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१७</sup>भवतां च विजानामि सर्वलोकहितेप्सुताम्<br>तस्माद्विदध्वं यच्छ्रेयो लोकानां मम चेश्वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१८</sup>पितर ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.१९</sup>य एष मन्युजस्तेऽग्निर्लोकानादातुमिच्छति<br>अप्सु तं मुञ्च भद्रं ते लोका ह्यप्सु प्रतिष्ठिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२०</sup>आपोमयाः सर्वरसाः सर्वमापोमयं जगत्<br>तस्मादप्सु विमुञ्चेमं क्रोधाग्निं द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२१</sup>अयं तिष्ठतु ते विप्र यदीच्छसि महोदधौ<br>मन्युजोऽग्निर्दहन्नापो लोका ह्यापोमयाः स्मृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२२</sup>एवं प्रतिज्ञा सत्येयं तवानघ भविष्यति<br>न चैव सामरा लोका गमिष्यन्ति पराभवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२३</sup>वसिष्ठ उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२४</sup>ततस्तं क्रोधजं तात और्वोऽग्निं वरुणालये<br>उत्ससर्ज स चैवाप उपयुङ्क्ते महोदधौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२५</sup>महद्धयशिरो भूत्वा यत्तद्वेदविदो विदुः<br>तमग्निमुद्गिरन्वक्त्रात्पिबत्यापो महोदधौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७१.२६</sup>तस्मात्त्वमपि भद्रं ते न लोकान्हन्तुमर्हसि<br>पराशर परान्धर्माञ्जानञ्ज्ञानवतां वर
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१</sup>और्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२</sup>उक्तवानस्मि यां क्रोधात्प्रतिज्ञां पितरस्तदा<br>सर्वलोकविनाशाय न सा मे वितथा भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.३</sup>वृथारोषप्रतिज्ञो हि नाहं जीवितुमुत्सहे<br>अनिस्तीर्णो हि मां रोषो दहेदग्निरिवारणिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.४</sup>यो हि कारणतः क्रोधं संजातं क्षन्तुमर्हति<br>नालं स मनुजः सम्यक्त्रिवर्गं परिरक्षितुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.५</sup>अशिष्टानां नियन्ता हि शिष्टानां परिरक्षता<br>स्थाने रोषः प्रयुक्तः स्यान्नृपैः स्वर्गजिगीषुभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.६</sup>अश्रौषमहमूरुस्थो गर्भशय्यागतस्तदा<br>आरावं मातृवर्गस्य भृगूणां क्षत्रियैर्वधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.७</sup>सामरैर्हि यदा लोकैर्भृगूणां क्षत्रियाधमैः<br>आगर्भोत्सादनं क्षान्तं तदा मां मन्युराविषत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.८</sup>आपूर्णकोशाः किल मे मातरः पितरस्तथा<br>भयात्सर्वेषु लोकेषु नाधिजग्मुः परायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.९</sup>तान्भृगूणां तदा दारान्कश्चिन्नाभ्यवपद्यत<br>यदा तदा दधारेयमूरुणैकेन मां शुभा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१०</sup>प्रतिषेद्धा हि पापस्य यदा लोकेषु विद्यते<br>तदा सर्वेषु लोकेषु पापकृन्नोपपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.११</sup>यदा तु प्रतिषेद्धारं पापो न लभते क्वचित्<br>तिष्ठन्ति बहवो लोके तदा पापेषु कर्मसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१२</sup>जानन्नपि च यः पापं शक्तिमान्न नियच्छति<br>ईशः सन्सोऽपि तेनैव कर्मणा संप्रयुज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१३</sup>राजभिश्चेश्वरैश्चैव यदि वै पितरो मम<br>शक्तैर्न शकिता त्रातुमिष्टं मत्वेह जीवितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१४</sup>अत एषामहं क्रुद्धो लोकानामीश्वरोऽद्य सन्<br>भवतां तु वचो नाहमलं समतिवर्तितुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१५</sup>मम चापि भवेदेतदीश्वरस्य सतो महत्<br>उपेक्षमाणस्य पुनर्लोकानां किल्बिषाद्भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१६</sup>यश्चायं मन्युजो मेऽग्निर्लोकानादातुमिच्छति<br>दहेदेष च मामेव निगृहीतः स्वतेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१७</sup>भवतां च विजानामि सर्वलोकहितेप्सुताम्<br>तस्माद्विदध्वं यच्छ्रेयो लोकानां मम चेश्वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१८</sup>पितर ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.१९</sup>य एष मन्युजस्तेऽग्निर्लोकानादातुमिच्छति<br>अप्सु तं मुञ्च भद्रं ते लोका ह्यप्सु प्रतिष्ठिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२०</sup>आपोमयाः सर्वरसाः सर्वमापोमयं जगत्<br>तस्मादप्सु विमुञ्चेमं क्रोधाग्निं द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२१</sup>अयं तिष्ठतु ते विप्र यदीच्छसि महोदधौ<br>मन्युजोऽग्निर्दहन्नापो लोका ह्यापोमयाः स्मृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२२</sup>एवं प्रतिज्ञा सत्येयं तवानघ भविष्यति<br>न चैव सामरा लोका गमिष्यन्ति पराभवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२३</sup>वसिष्ठ उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२४</sup>ततस्तं क्रोधजं तात और्वोऽग्निं वरुणालये<br>उत्ससर्ज स चैवाप उपयुङ्क्ते महोदधौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२५</sup>महद्धयशिरो भूत्वा यत्तद्वेदविदो विदुः<br>तमग्निमुद्गिरन्वक्त्रात्पिबत्यापो महोदधौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७१.२६</sup>तस्मात्त्वमपि भद्रं ते न लोकान्हन्तुमर्हसि<br>पराशर परान्धर्माञ्जानञ्ज्ञानवतां वर
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

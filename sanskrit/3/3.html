@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/2.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/4.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,151 +64,116 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/2.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/4.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२</sup>शौनकेनैवमुक्तस्तु कुन्तीपुत्रो युधिष्ठिरः<br>पुरोहितमुपागम्य भ्रातृमध्येऽब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३</sup>प्रस्थितं मानुयान्तीमे ब्राह्मणा वेदपारगाः<br>न चास्मि पालने शक्तो बहुदुःखसमन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.४</sup>परित्यक्तुं न शक्नोमि दानशक्तिश्च नास्ति मे<br>कथमत्र मया कार्यं भगवांस्तद्ब्रवीतु मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.५</sup>मुहूर्तमिव स ध्यात्वा धर्मेणान्विष्य तां गतिम्<br>युधिष्ठिरमुवाचेदं धौम्यो धर्मभृतां वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.६</sup>पुरा सृष्टानि भूतानि पीड्यन्ते क्षुधया भृशम्<br>ततोऽनुकम्पया तेषां सविता स्वपिता इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.७</sup>गत्वोत्तरायणं तेजोरसानुद्धृत्य रश्मिभिः<br>दक्षिणायनमावृत्तो महीं निविशते रविः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.८</sup>क्षेत्रभूते ततस्तस्मिन्नोषधीरोषधीपतिः<br>दिवस्तेजः समुद्धृत्य जनयामास वारिणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.९</sup>निषिक्तश्चन्द्रतेजोभिः सूयते भूगतो रविः<br>ओषध्यः षड्रसा मेध्यास्तदन्नं प्राणिनां भुवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१०</sup>एवं भानुमयं ह्यन्नं भूतानां प्राणधारणम्<br>पितैष सर्वभूतानां तस्मात्तं शरणं व्रज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.११</sup>राजानो हि महात्मानो योनिकर्मविशोधिताः<br>उद्धरन्ति प्रजाः सर्वास्तप आस्थाय पुष्कलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१२</sup>भीमेन कार्तवीर्येण वैन्येन नहुषेण च<br>तपोयोगसमाधिस्थैरुद्धृता ह्यापदः प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१३</sup>तथा त्वमपि धर्मात्मन्कर्मणा च विशोधितः<br>तप आस्थाय धर्मेण द्विजातीन्भर भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१४</sup>एवमुक्तस्तु धौम्येन तत्कालसदृशं वचः<br>धर्मराजो विशुद्धात्मा तप आतिष्ठदुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१५</sup>पुष्पोपहारैर्बलिभिरर्चयित्वा दिवाकरम्<br>योगमास्थाय धर्मात्मा वायुभक्षो जितेन्द्रियः<br>गाङ्गेयं वार्युपस्पृष्य प्राणायामेन तस्थिवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१६</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१७</sup>कथं कुरूणामृषभः स तु राजा युधिष्ठिरः<br>विप्रार्थमाराधितवान्सूर्यमद्भुतविक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१८</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.१९</sup>शृणुष्वावहितो राजञ्शुचिर्भूत्वा समाहितः<br>क्षणं च कुरु राजेन्द्र सर्वं वक्ष्याम्यशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२०</sup>धौम्येन तु यथ प्रोक्तं पार्थाय सुमहात्मने<br>नाम्नामष्टशतं पुण्यं तच्छृणुष्व महामते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२१</sup>सूर्योऽर्यमा भगस्त्वष्टा पूषार्कः सविता रविः<br>गभस्तिमानजः कालो मृत्युर्धाता प्रभाकरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२२</sup>पृथिव्यापश्च तेजश्च खं वायुश्च परायणम्<br>सोमो बृहस्पतिः शुक्रो बुधोऽङ्गारक एव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२३</sup>इन्द्रो विवस्वान्दीप्तांशुः शुचिः शौरिः शनैश्चरः<br>ब्रह्मा विष्णुश्च रुद्रश्च स्कन्दो वैश्रवणो यमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२४</sup>वैद्युतो जाठरश्चाग्निरैन्धनस्तेजसां पतिः<br>धर्मध्वजो वेदकर्ता वेदाङ्गो वेदवाहनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२५</sup>कृतं त्रेता द्वापरश्च कलिः सर्वामराश्रयः<br>कला काष्ठा मुहूर्ताश्च पक्षा मासा ऋतुस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२६</sup>संवत्सरकरोऽश्वत्थः कालचक्रो विभावसुः<br>पुरुषः शाश्वतो योगी व्यक्ताव्यक्तः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२७</sup>लोकाध्यक्षः प्रजाध्यक्षो विश्वकर्मा तमोनुदः<br>वरुणः सागरोंऽशुश्च जीमूतो जीवनोऽरिहा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२८</sup>भूताश्रयो भूतपतिः सर्वभूतनिषेवितः<br>मणिः सुवर्णो भूतादिः कामदः सर्वतोमुखः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.२९</sup>जयो विशालो वरदः शीघ्रगः प्राणधारणः<br>धन्वन्तरिर्धूमकेतुरादिदेवोऽदितेः सुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३०</sup>द्वादशात्मारविन्दाक्षः पिता माता पितामहः<br>स्वर्गद्वारं प्रजाद्वारं मोक्षद्वारं त्रिविष्टपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३१</sup>देहकर्ता प्रशान्तात्मा विश्वात्मा विश्वतोमुखः<br>चराचरात्मा सूक्ष्मात्मा मैत्रेण वपुषान्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३२</sup>एतद्वै कीर्तनीयस्य सूर्यस्यैव महात्मनः<br>नाम्नामष्टशतं पुण्यं शक्रेणोक्तं महात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३३</sup>शक्राच्च नारदः प्राप्तो धौम्यश्च तदनन्तरम्<br>धौम्याद्युधिष्ठिरः प्राप्य सर्वान्कामानवाप्तवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३४</sup>सुरपितृगणयक्षसेवितं; ह्यसुरनिशाचरसिद्धवन्दितम्<br>वरकनकहुताशनप्रभं; त्वमपि मनस्यभिधेहि भास्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३५</sup>सूर्योदये यस्तु समाहितः पठे;त्स पुत्रलाभं धनरत्नसंचयान्<br>लभेत जातिस्मरतां सदा नरः; स्मृतिं च मेधां च स विन्दते पराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.३.३६</sup>इमं स्तवं देववरस्य यो नरः; प्रकीर्तयेच्छुचिसुमनाः समाहितः<br>स मुच्यते शोकदवाग्निसागरा;ल्लभेत कामान्मनसा यथेप्सितान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२</sup>शौनकेनैवमुक्तस्तु कुन्तीपुत्रो युधिष्ठिरः<br>पुरोहितमुपागम्य भ्रातृमध्येऽब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३</sup>प्रस्थितं मानुयान्तीमे ब्राह्मणा वेदपारगाः<br>न चास्मि पालने शक्तो बहुदुःखसमन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.४</sup>परित्यक्तुं न शक्नोमि दानशक्तिश्च नास्ति मे<br>कथमत्र मया कार्यं भगवांस्तद्ब्रवीतु मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.५</sup>मुहूर्तमिव स ध्यात्वा धर्मेणान्विष्य तां गतिम्<br>युधिष्ठिरमुवाचेदं धौम्यो धर्मभृतां वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.६</sup>पुरा सृष्टानि भूतानि पीड्यन्ते क्षुधया भृशम्<br>ततोऽनुकम्पया तेषां सविता स्वपिता इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.७</sup>गत्वोत्तरायणं तेजोरसानुद्धृत्य रश्मिभिः<br>दक्षिणायनमावृत्तो महीं निविशते रविः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.८</sup>क्षेत्रभूते ततस्तस्मिन्नोषधीरोषधीपतिः<br>दिवस्तेजः समुद्धृत्य जनयामास वारिणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.९</sup>निषिक्तश्चन्द्रतेजोभिः सूयते भूगतो रविः<br>ओषध्यः षड्रसा मेध्यास्तदन्नं प्राणिनां भुवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१०</sup>एवं भानुमयं ह्यन्नं भूतानां प्राणधारणम्<br>पितैष सर्वभूतानां तस्मात्तं शरणं व्रज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.११</sup>राजानो हि महात्मानो योनिकर्मविशोधिताः<br>उद्धरन्ति प्रजाः सर्वास्तप आस्थाय पुष्कलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१२</sup>भीमेन कार्तवीर्येण वैन्येन नहुषेण च<br>तपोयोगसमाधिस्थैरुद्धृता ह्यापदः प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१३</sup>तथा त्वमपि धर्मात्मन्कर्मणा च विशोधितः<br>तप आस्थाय धर्मेण द्विजातीन्भर भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१४</sup>एवमुक्तस्तु धौम्येन तत्कालसदृशं वचः<br>धर्मराजो विशुद्धात्मा तप आतिष्ठदुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१५</sup>पुष्पोपहारैर्बलिभिरर्चयित्वा दिवाकरम्<br>योगमास्थाय धर्मात्मा वायुभक्षो जितेन्द्रियः<br>गाङ्गेयं वार्युपस्पृष्य प्राणायामेन तस्थिवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१६</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१७</sup>कथं कुरूणामृषभः स तु राजा युधिष्ठिरः<br>विप्रार्थमाराधितवान्सूर्यमद्भुतविक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१८</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.१९</sup>शृणुष्वावहितो राजञ्शुचिर्भूत्वा समाहितः<br>क्षणं च कुरु राजेन्द्र सर्वं वक्ष्याम्यशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२०</sup>धौम्येन तु यथ प्रोक्तं पार्थाय सुमहात्मने<br>नाम्नामष्टशतं पुण्यं तच्छृणुष्व महामते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२१</sup>सूर्योऽर्यमा भगस्त्वष्टा पूषार्कः सविता रविः<br>गभस्तिमानजः कालो मृत्युर्धाता प्रभाकरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२२</sup>पृथिव्यापश्च तेजश्च खं वायुश्च परायणम्<br>सोमो बृहस्पतिः शुक्रो बुधोऽङ्गारक एव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२३</sup>इन्द्रो विवस्वान्दीप्तांशुः शुचिः शौरिः शनैश्चरः<br>ब्रह्मा विष्णुश्च रुद्रश्च स्कन्दो वैश्रवणो यमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२४</sup>वैद्युतो जाठरश्चाग्निरैन्धनस्तेजसां पतिः<br>धर्मध्वजो वेदकर्ता वेदाङ्गो वेदवाहनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२५</sup>कृतं त्रेता द्वापरश्च कलिः सर्वामराश्रयः<br>कला काष्ठा मुहूर्ताश्च पक्षा मासा ऋतुस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२६</sup>संवत्सरकरोऽश्वत्थः कालचक्रो विभावसुः<br>पुरुषः शाश्वतो योगी व्यक्ताव्यक्तः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२७</sup>लोकाध्यक्षः प्रजाध्यक्षो विश्वकर्मा तमोनुदः<br>वरुणः सागरोंऽशुश्च जीमूतो जीवनोऽरिहा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२८</sup>भूताश्रयो भूतपतिः सर्वभूतनिषेवितः<br>मणिः सुवर्णो भूतादिः कामदः सर्वतोमुखः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.२९</sup>जयो विशालो वरदः शीघ्रगः प्राणधारणः<br>धन्वन्तरिर्धूमकेतुरादिदेवोऽदितेः सुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३०</sup>द्वादशात्मारविन्दाक्षः पिता माता पितामहः<br>स्वर्गद्वारं प्रजाद्वारं मोक्षद्वारं त्रिविष्टपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३१</sup>देहकर्ता प्रशान्तात्मा विश्वात्मा विश्वतोमुखः<br>चराचरात्मा सूक्ष्मात्मा मैत्रेण वपुषान्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३२</sup>एतद्वै कीर्तनीयस्य सूर्यस्यैव महात्मनः<br>नाम्नामष्टशतं पुण्यं शक्रेणोक्तं महात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३३</sup>शक्राच्च नारदः प्राप्तो धौम्यश्च तदनन्तरम्<br>धौम्याद्युधिष्ठिरः प्राप्य सर्वान्कामानवाप्तवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३४</sup>सुरपितृगणयक्षसेवितं; ह्यसुरनिशाचरसिद्धवन्दितम्<br>वरकनकहुताशनप्रभं; त्वमपि मनस्यभिधेहि भास्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३५</sup>सूर्योदये यस्तु समाहितः पठे;त्स पुत्रलाभं धनरत्नसंचयान्<br>लभेत जातिस्मरतां सदा नरः; स्मृतिं च मेधां च स विन्दते पराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.३.३६</sup>इमं स्तवं देववरस्य यो नरः; प्रकीर्तयेच्छुचिसुमनाः समाहितः<br>स मुच्यते शोकदवाग्निसागरा;ल्लभेत कामान्मनसा यथेप्सितान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -189,8 +182,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>
