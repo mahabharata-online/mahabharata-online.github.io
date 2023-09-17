@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/47.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:४८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/49.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/47.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:४८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/49.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२</sup>तथा व्यूढेष्वनीकेषु कौरवेयैर्महारथैः<br>उपायादर्जुनस्तूर्णं रथघोषेण नादयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.३</sup>ददृशुस्ते ध्वजाग्रं वै शुश्रुवुश्च रथस्वनम्<br>दोधूयमानस्य भृशं गाण्डीवस्य च निस्वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.४</sup>ततस्तत्सर्वमालोक्य द्रोणो वचनमब्रवीत्<br>महारथमनुप्राप्तं दृष्ट्वा गाण्डीवधन्विनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.५</sup>एतद्ध्वजाग्रं पार्थस्य दूरतः संप्रकाशते<br>एष घोषः सजलदो रोरवीति च वानरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.६</sup>एष तिष्ठन्रथश्रेष्ठो रथे रथवरप्रणुत्<br>उत्कर्षति धनुःश्रेष्ठं गाण्डीवमशनिस्वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.७</sup>इमौ हि बाणौ सहितौ पादयोर्मे व्यवस्थितौ<br>अपरौ चाप्यतिक्रान्तौ कर्णौ संस्पृश्य मे शरौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.८</sup>निरुष्य हि वने वासं कृत्वा कर्मातिमानुषम्<br>अभिवादयते पार्थः श्रोत्रे च परिपृच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.९</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१०</sup>इषुपाते च सेनाया हयान्संयच्छ सारथे<br>यावत्समीक्षे सैन्येऽस्मिन्क्वासौ कुरुकुलाधमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.११</sup>सर्वानन्याननादृत्य दृष्ट्वा तमतिमानिनम्<br>तस्य मूर्ध्नि पतिष्यामि तत एते पराजिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१२</sup>एष व्यवस्थितो द्रोणो द्रौणिश्च तदनन्तरम्<br>भीष्मः कृपश्च कर्णश्च महेष्वासा व्यवस्थिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१३</sup>राजानं नात्र पश्यामि गाः समादाय गच्छति<br>दक्षिणं मार्गमास्थाय शङ्के जीवपरायणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१४</sup>उत्सृज्यैतद्रथानीकं गच्छ यत्र सुयोधनः<br>तत्रैव योत्स्ये वैराटे नास्ति युद्धं निरामिषम्<br>तं जित्वा विनिवर्तिष्ये गाः समादाय वै पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१६</sup>एवमुक्तः स वैराटिर्हयान्संयम्य यत्नतः<br>नियम्य च ततो रश्मीन्यत्र ते कुरुपुंगवाः<br>अचोदयत्ततो वाहान्यतो दुर्योधनस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१७</sup>उत्सृज्य रथवंशं तु प्रयाते श्वेतवाहने<br>अभिप्रायं विदित्वास्य द्रोणो वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१८</sup>नैषोऽन्तरेण राजानं बीभत्सुः स्थातुमिच्छति<br>तस्य पार्ष्णिं ग्रहीष्यामो जवेनाभिप्रयास्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.१९</sup>न ह्येनमभिसंक्रुद्धमेको युध्येत संयुगे<br>अन्यो देवात्सहस्राक्षात्कृष्णाद्वा देवकीसुतात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२०</sup>किं नो गावः करिष्यन्ति धनं वा विपुलं तथा<br>दुर्योधनः पार्थजले पुरा नौरिव मज्जति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२१</sup>तथैव गत्वा बीभत्सुर्नाम विश्राव्य चात्मनः<br>शलभैरिव तां सेनां शरैः शीघ्रमवाकिरत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२२</sup>कीर्यमाणाः शरौघैस्तु योधास्ते पार्थचोदितैः<br>नापश्यन्नावृतां भूमिमन्तरिक्षं च पत्रिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२३</sup>तेषां नात्मनिनो युद्धे नापयानेऽभवन्मतिः<br>शीघ्रत्वमेव पार्थस्य पूजयन्ति स्म चेतसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२४</sup>ततः शङ्खं प्रदध्मौ स द्विषतां लोमहर्षणम्<br>विस्फार्य च धनुःश्रेष्ठं ध्वजे भूतान्यचोदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२५</sup>तस्य शङ्खस्य शब्देन रथनेमिस्वनेन च<br>अमानुषाणां तेषां च भूतानां ध्वजवासिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.४८.२६</sup>ऊर्ध्वं पुच्छान्विधुन्वाना रेभमाणाः समन्ततः<br>गावः प्रतिन्यवर्तन्त दिशमास्थाय दक्षिणाम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२</sup>तथा व्यूढेष्वनीकेषु कौरवेयैर्महारथैः<br>उपायादर्जुनस्तूर्णं रथघोषेण नादयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.३</sup>ददृशुस्ते ध्वजाग्रं वै शुश्रुवुश्च रथस्वनम्<br>दोधूयमानस्य भृशं गाण्डीवस्य च निस्वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.४</sup>ततस्तत्सर्वमालोक्य द्रोणो वचनमब्रवीत्<br>महारथमनुप्राप्तं दृष्ट्वा गाण्डीवधन्विनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.५</sup>एतद्ध्वजाग्रं पार्थस्य दूरतः संप्रकाशते<br>एष घोषः सजलदो रोरवीति च वानरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.६</sup>एष तिष्ठन्रथश्रेष्ठो रथे रथवरप्रणुत्<br>उत्कर्षति धनुःश्रेष्ठं गाण्डीवमशनिस्वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.७</sup>इमौ हि बाणौ सहितौ पादयोर्मे व्यवस्थितौ<br>अपरौ चाप्यतिक्रान्तौ कर्णौ संस्पृश्य मे शरौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.८</sup>निरुष्य हि वने वासं कृत्वा कर्मातिमानुषम्<br>अभिवादयते पार्थः श्रोत्रे च परिपृच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.९</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१०</sup>इषुपाते च सेनाया हयान्संयच्छ सारथे<br>यावत्समीक्षे सैन्येऽस्मिन्क्वासौ कुरुकुलाधमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.११</sup>सर्वानन्याननादृत्य दृष्ट्वा तमतिमानिनम्<br>तस्य मूर्ध्नि पतिष्यामि तत एते पराजिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१२</sup>एष व्यवस्थितो द्रोणो द्रौणिश्च तदनन्तरम्<br>भीष्मः कृपश्च कर्णश्च महेष्वासा व्यवस्थिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१३</sup>राजानं नात्र पश्यामि गाः समादाय गच्छति<br>दक्षिणं मार्गमास्थाय शङ्के जीवपरायणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१४</sup>उत्सृज्यैतद्रथानीकं गच्छ यत्र सुयोधनः<br>तत्रैव योत्स्ये वैराटे नास्ति युद्धं निरामिषम्<br>तं जित्वा विनिवर्तिष्ये गाः समादाय वै पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१६</sup>एवमुक्तः स वैराटिर्हयान्संयम्य यत्नतः<br>नियम्य च ततो रश्मीन्यत्र ते कुरुपुंगवाः<br>अचोदयत्ततो वाहान्यतो दुर्योधनस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१७</sup>उत्सृज्य रथवंशं तु प्रयाते श्वेतवाहने<br>अभिप्रायं विदित्वास्य द्रोणो वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१८</sup>नैषोऽन्तरेण राजानं बीभत्सुः स्थातुमिच्छति<br>तस्य पार्ष्णिं ग्रहीष्यामो जवेनाभिप्रयास्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.१९</sup>न ह्येनमभिसंक्रुद्धमेको युध्येत संयुगे<br>अन्यो देवात्सहस्राक्षात्कृष्णाद्वा देवकीसुतात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२०</sup>किं नो गावः करिष्यन्ति धनं वा विपुलं तथा<br>दुर्योधनः पार्थजले पुरा नौरिव मज्जति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२१</sup>तथैव गत्वा बीभत्सुर्नाम विश्राव्य चात्मनः<br>शलभैरिव तां सेनां शरैः शीघ्रमवाकिरत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२२</sup>कीर्यमाणाः शरौघैस्तु योधास्ते पार्थचोदितैः<br>नापश्यन्नावृतां भूमिमन्तरिक्षं च पत्रिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२३</sup>तेषां नात्मनिनो युद्धे नापयानेऽभवन्मतिः<br>शीघ्रत्वमेव पार्थस्य पूजयन्ति स्म चेतसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२४</sup>ततः शङ्खं प्रदध्मौ स द्विषतां लोमहर्षणम्<br>विस्फार्य च धनुःश्रेष्ठं ध्वजे भूतान्यचोदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२५</sup>तस्य शङ्खस्य शब्देन रथनेमिस्वनेन च<br>अमानुषाणां तेषां च भूतानां ध्वजवासिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.४८.२६</sup>ऊर्ध्वं पुच्छान्विधुन्वाना रेभमाणाः समन्ततः<br>गावः प्रतिन्यवर्तन्त दिशमास्थाय दक्षिणाम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

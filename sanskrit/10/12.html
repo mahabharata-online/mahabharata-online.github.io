@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/10/11.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१०:१२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/10/13.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,166 +64,131 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/10/11.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१०:१२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/10/13.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२</sup>तस्मिन्प्रयाते दुर्धर्षे यदूनामृषभस्ततः<br>अब्रवीत्पुण्डरीकाक्षः कुन्तीपुत्रं युधिष्ठिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३</sup>एष पाण्डव ते भ्राता पुत्रशोकमपारयन्<br>जिघांसुर्द्रौणिमाक्रन्दे याति भारत भारतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.४</sup>भीमः प्रियस्ते सर्वेभ्यो भ्रातृभ्यो भरतर्षभ<br>तं कृच्छ्रगतमद्य त्वं कस्मान्नाभ्यवपद्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.५</sup>यत्तदाचष्ट पुत्राय द्रोणः परपुरंजयः<br>अस्त्रं ब्रह्मशिरो नाम दहेद्यत्पृथिवीमपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.६</sup>तन्महात्मा महाभागः केतुः सर्वधनुष्मताम्<br>प्रत्यपादयदाचार्यः प्रीयमाणो धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.७</sup>तत्पुत्रोऽस्यैवमेवैनमन्वयाचदमर्षणः<br>ततः प्रोवाच पुत्राय नातिहृष्टमना इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.८</sup>विदितं चापलं ह्यासीदात्मजस्य महात्मनः<br>सर्वधर्मविदाचार्यो नान्विषत्सततं सुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.९</sup>परमापद्गतेनापि न स्म तात त्वया रणे<br>इदमस्त्रं प्रयोक्तव्यं मानुषेषु विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१०</sup>इत्युक्तवान्गुरुः पुत्रं द्रोणः पश्चादथोक्तवान्<br>न त्वं जातु सतां मार्गे स्थातेति पुरुषर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.११</sup>स तदाज्ञाय दुष्टात्मा पितुर्वचनमप्रियम्<br>निराशः सर्वकल्याणैः शोचन्पर्यपतन्महीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१२</sup>ततस्तदा कुरुश्रेष्ठ वनस्थे त्वयि भारत<br>अवसद्द्वारकामेत्य वृष्णिभिः परमार्चितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१३</sup>स कदाचित्समुद्रान्ते वसन्द्रारवतीमनु<br>एक एकं समागम्य मामुवाच हसन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१४</sup>यत्तदुग्रं तपः कृष्ण चरन्सत्यपराक्रमः<br>अगस्त्याद्भारताचार्यः प्रत्यपद्यत मे पिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१५</sup>अस्त्रं ब्रह्मशिरो नाम देवगन्धर्वपूजितम्<br>तदद्य मयि दाशार्ह यथा पितरि मे तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१६</sup>अस्मत्तस्तदुपादाय दिव्यमस्त्रं यदूत्तम<br>ममाप्यस्त्रं प्रयच्छ त्वं चक्रं रिपुहरं रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१७</sup>स राजन्प्रीयमाणेन मयाप्युक्तः कृताञ्जलिः<br>याचमानः प्रयत्नेन मत्तोऽस्त्रं भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१८</sup>देवदानवगन्धर्वमनुष्यपतगोरगाः<br>न समा मम वीर्यस्य शतांशेनापि पिण्डिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.१९</sup>इदं धनुरियं शक्तिरिदं चक्रमियं गदा<br>यद्यदिच्छसि चेदस्त्रं मत्तस्तत्तद्ददानि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२०</sup>यच्छक्नोषि समुद्यन्तुं प्रयोक्तुमपि वा रणे<br>तद्गृहाण विनास्त्रेण यन्मे दातुमभीप्ससि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२१</sup>स सुनाभं सहस्रारं वज्रनाभमयस्मयम्<br>वव्रे चक्रं महाबाहो स्पर्धमानो मया सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२२</sup>गृहाण चक्रमित्युक्तो मया तु तदनन्तरम्<br>जग्राहोपेत्य सहसा चक्रं सव्येन पाणिना<br>न चैतदशकत्स्थानात्संचालयितुमच्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२३</sup>अथ तद्दक्षिणेनापि ग्रहीतुमुपचक्रमे<br>सर्वयत्नेन तेनापि गृह्णन्नेतदकल्पयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२४</sup>ततः सर्वबलेनापि यच्चैतन्न शशाक सः<br>उद्धर्तुं वा चालयितुं द्रौणिः परमदुर्मनाः<br>कृत्वा यत्नं परं श्रान्तः स न्यवर्तत भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२५</sup>निवृत्तमथ तं तस्मादभिप्रायाद्विचेतसम्<br>अहमामन्त्र्य सुस्निग्धमश्वत्थामानमब्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२६</sup>यः स देवमनुष्येषु प्रमाणं परमं गतः<br>गाण्डीवधन्वा श्वेताश्वः कपिप्रवरकेतनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२७</sup>यः साक्षाद्देवदेवेशं शितिकण्ठमुमापतिम्<br>द्वंद्वयुद्धे पराजिष्णुस्तोषयामास शंकरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२८</sup>यस्मात्प्रियतरो नास्ति ममान्यः पुरुषो भुवि<br>नादेयं यस्य मे किंचिदपि दाराः सुतास्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.२९</sup>तेनापि सुहृदा ब्रह्मन्पार्थेनाक्लिष्टकर्मणा<br>नोक्तपूर्वमिदं वाक्यं यत्त्वं मामभिभाषसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३०</sup>ब्रह्मचर्यं महद्घोरं चीर्त्वा द्वादशवार्षिकम्<br>हिमवत्पार्श्वमभ्येत्य यो मया तपसार्चितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३१</sup>समानव्रतचारिण्यां रुक्मिण्यां योऽन्वजायत<br>सनत्कुमारस्तेजस्वी प्रद्युम्नो नाम मे सुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३२</sup>तेनाप्येतन्महद्दिव्यं चक्रमप्रतिमं मम<br>न प्रार्थितमभून्मूढ यदिदं प्रार्थितं त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३३</sup>रामेणातिबलेनैतन्नोक्तपूर्वं कदाचन<br>न गदेन न साम्बेन यदिदं प्रार्थितं त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३४</sup>द्वारकावासिभिश्चान्यैर्वृष्ण्यन्धकमहारथैः<br>नोक्तपूर्वमिदं जातु यदिदं प्रार्थितं त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३५</sup>भारताचार्यपुत्रः सन्मानितः सर्वयादवैः<br>चक्रेण रथिनां श्रेष्ठ किं नु तात युयुत्ससे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३६</sup>एवमुक्तो मया द्रौणिर्मामिदं प्रत्युवाच ह<br>प्रयुज्य भवते पूजां योत्स्ये कृष्ण त्वयेत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३७</sup>ततस्ते प्रार्थितं चक्रं देवदानवपूजितम्<br>अजेयः स्यामिति विभो सत्यमेतद्ब्रवीमि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३८</sup>त्वत्तोऽहं दुर्लभं काममनवाप्यैव केशव<br>प्रतियास्यामि गोविन्द शिवेनाभिवदस्व माम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.३९</sup>एतत्सुनाभं वृष्णीनामृषभेण त्वया धृतम्<br>चक्रमप्रतिचक्रेण भुवि नान्योऽभिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.४०</sup>एतावदुक्त्वा द्रौणिर्मां युग्यमश्वान्धनानि च<br>आदायोपययौ बालो रत्नानि विविधानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१२.४१</sup>स संरम्भी दुरात्मा च चपलः क्रूर एव च<br>वेद चास्त्रं ब्रह्मशिरस्तस्माद्रक्ष्यो वृकोदरः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२</sup>तस्मिन्प्रयाते दुर्धर्षे यदूनामृषभस्ततः<br>अब्रवीत्पुण्डरीकाक्षः कुन्तीपुत्रं युधिष्ठिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३</sup>एष पाण्डव ते भ्राता पुत्रशोकमपारयन्<br>जिघांसुर्द्रौणिमाक्रन्दे याति भारत भारतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.४</sup>भीमः प्रियस्ते सर्वेभ्यो भ्रातृभ्यो भरतर्षभ<br>तं कृच्छ्रगतमद्य त्वं कस्मान्नाभ्यवपद्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.५</sup>यत्तदाचष्ट पुत्राय द्रोणः परपुरंजयः<br>अस्त्रं ब्रह्मशिरो नाम दहेद्यत्पृथिवीमपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.६</sup>तन्महात्मा महाभागः केतुः सर्वधनुष्मताम्<br>प्रत्यपादयदाचार्यः प्रीयमाणो धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.७</sup>तत्पुत्रोऽस्यैवमेवैनमन्वयाचदमर्षणः<br>ततः प्रोवाच पुत्राय नातिहृष्टमना इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.८</sup>विदितं चापलं ह्यासीदात्मजस्य महात्मनः<br>सर्वधर्मविदाचार्यो नान्विषत्सततं सुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.९</sup>परमापद्गतेनापि न स्म तात त्वया रणे<br>इदमस्त्रं प्रयोक्तव्यं मानुषेषु विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१०</sup>इत्युक्तवान्गुरुः पुत्रं द्रोणः पश्चादथोक्तवान्<br>न त्वं जातु सतां मार्गे स्थातेति पुरुषर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.११</sup>स तदाज्ञाय दुष्टात्मा पितुर्वचनमप्रियम्<br>निराशः सर्वकल्याणैः शोचन्पर्यपतन्महीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१२</sup>ततस्तदा कुरुश्रेष्ठ वनस्थे त्वयि भारत<br>अवसद्द्वारकामेत्य वृष्णिभिः परमार्चितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१३</sup>स कदाचित्समुद्रान्ते वसन्द्रारवतीमनु<br>एक एकं समागम्य मामुवाच हसन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१४</sup>यत्तदुग्रं तपः कृष्ण चरन्सत्यपराक्रमः<br>अगस्त्याद्भारताचार्यः प्रत्यपद्यत मे पिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१५</sup>अस्त्रं ब्रह्मशिरो नाम देवगन्धर्वपूजितम्<br>तदद्य मयि दाशार्ह यथा पितरि मे तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१६</sup>अस्मत्तस्तदुपादाय दिव्यमस्त्रं यदूत्तम<br>ममाप्यस्त्रं प्रयच्छ त्वं चक्रं रिपुहरं रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१७</sup>स राजन्प्रीयमाणेन मयाप्युक्तः कृताञ्जलिः<br>याचमानः प्रयत्नेन मत्तोऽस्त्रं भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१८</sup>देवदानवगन्धर्वमनुष्यपतगोरगाः<br>न समा मम वीर्यस्य शतांशेनापि पिण्डिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.१९</sup>इदं धनुरियं शक्तिरिदं चक्रमियं गदा<br>यद्यदिच्छसि चेदस्त्रं मत्तस्तत्तद्ददानि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२०</sup>यच्छक्नोषि समुद्यन्तुं प्रयोक्तुमपि वा रणे<br>तद्गृहाण विनास्त्रेण यन्मे दातुमभीप्ससि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२१</sup>स सुनाभं सहस्रारं वज्रनाभमयस्मयम्<br>वव्रे चक्रं महाबाहो स्पर्धमानो मया सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२२</sup>गृहाण चक्रमित्युक्तो मया तु तदनन्तरम्<br>जग्राहोपेत्य सहसा चक्रं सव्येन पाणिना<br>न चैतदशकत्स्थानात्संचालयितुमच्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२३</sup>अथ तद्दक्षिणेनापि ग्रहीतुमुपचक्रमे<br>सर्वयत्नेन तेनापि गृह्णन्नेतदकल्पयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२४</sup>ततः सर्वबलेनापि यच्चैतन्न शशाक सः<br>उद्धर्तुं वा चालयितुं द्रौणिः परमदुर्मनाः<br>कृत्वा यत्नं परं श्रान्तः स न्यवर्तत भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२५</sup>निवृत्तमथ तं तस्मादभिप्रायाद्विचेतसम्<br>अहमामन्त्र्य सुस्निग्धमश्वत्थामानमब्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२६</sup>यः स देवमनुष्येषु प्रमाणं परमं गतः<br>गाण्डीवधन्वा श्वेताश्वः कपिप्रवरकेतनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२७</sup>यः साक्षाद्देवदेवेशं शितिकण्ठमुमापतिम्<br>द्वंद्वयुद्धे पराजिष्णुस्तोषयामास शंकरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२८</sup>यस्मात्प्रियतरो नास्ति ममान्यः पुरुषो भुवि<br>नादेयं यस्य मे किंचिदपि दाराः सुतास्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.२९</sup>तेनापि सुहृदा ब्रह्मन्पार्थेनाक्लिष्टकर्मणा<br>नोक्तपूर्वमिदं वाक्यं यत्त्वं मामभिभाषसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३०</sup>ब्रह्मचर्यं महद्घोरं चीर्त्वा द्वादशवार्षिकम्<br>हिमवत्पार्श्वमभ्येत्य यो मया तपसार्चितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३१</sup>समानव्रतचारिण्यां रुक्मिण्यां योऽन्वजायत<br>सनत्कुमारस्तेजस्वी प्रद्युम्नो नाम मे सुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३२</sup>तेनाप्येतन्महद्दिव्यं चक्रमप्रतिमं मम<br>न प्रार्थितमभून्मूढ यदिदं प्रार्थितं त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३३</sup>रामेणातिबलेनैतन्नोक्तपूर्वं कदाचन<br>न गदेन न साम्बेन यदिदं प्रार्थितं त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३४</sup>द्वारकावासिभिश्चान्यैर्वृष्ण्यन्धकमहारथैः<br>नोक्तपूर्वमिदं जातु यदिदं प्रार्थितं त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३५</sup>भारताचार्यपुत्रः सन्मानितः सर्वयादवैः<br>चक्रेण रथिनां श्रेष्ठ किं नु तात युयुत्ससे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३६</sup>एवमुक्तो मया द्रौणिर्मामिदं प्रत्युवाच ह<br>प्रयुज्य भवते पूजां योत्स्ये कृष्ण त्वयेत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३७</sup>ततस्ते प्रार्थितं चक्रं देवदानवपूजितम्<br>अजेयः स्यामिति विभो सत्यमेतद्ब्रवीमि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३८</sup>त्वत्तोऽहं दुर्लभं काममनवाप्यैव केशव<br>प्रतियास्यामि गोविन्द शिवेनाभिवदस्व माम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.३९</sup>एतत्सुनाभं वृष्णीनामृषभेण त्वया धृतम्<br>चक्रमप्रतिचक्रेण भुवि नान्योऽभिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.४०</sup>एतावदुक्त्वा द्रौणिर्मां युग्यमश्वान्धनानि च<br>आदायोपययौ बालो रत्नानि विविधानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१२.४१</sup>स संरम्भी दुरात्मा च चपलः क्रूर एव च<br>वेद चास्त्रं ब्रह्मशिरस्तस्माद्रक्ष्यो वृकोदरः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -204,8 +197,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

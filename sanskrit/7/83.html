@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/82.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:८३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/84.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,163 +64,128 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/82.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:८३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/84.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२</sup>द्रौपदेयान्महेष्वासान्सौमदत्तिर्महायशाः<br>एकैकं पञ्चभिर्विद्ध्वा पुनर्विव्याध सप्तभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३</sup>ते पीडिता भृशं तेन रौद्रेण सहसा विभो<br>प्रमूढा नैव विविदुर्मृधे कृत्यं स्म किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.४</sup>नाकुलिस्तु शतानीकः सौमदत्तिं नरर्षभम्<br>द्वाभ्यां विद्ध्वानदद्धृष्टः शराभ्यां शत्रुतापनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.५</sup>तथेतरे रणे यत्तास्त्रिभिस्त्रिभिरजिह्मगैः<br>विव्यधुः समरे तूर्णं सौमदत्तिममर्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.६</sup>स तान्प्रति महाराज चिक्षिपे पञ्च सायकान्<br>एकैकं हृदि चाजघ्ने एकैकेन महायशाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.७</sup>ततस्ते भ्रातरः पञ्च शरैर्विद्धा महात्मना<br>परिवार्य रथैर्वीरं विव्यधुः सायकैर्भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.८</sup>आर्जुनिस्तु हयांस्तस्य चतुर्भिर्निशितैः शरैः<br>प्रेषयामास संक्रुद्धो यमस्य सदनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.९</sup>भैमसेनिर्धनुश्छित्त्वा सौमदत्तेर्महात्मनः<br>ननाद बलवन्नादं विव्याध च शितैः शरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१०</sup>यौधिष्ठिरो ध्वजं तस्य छित्त्वा भूमावपातयत्<br>नाकुलिश्चाश्वयन्तारं रथनीडादपाहरत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.११</sup>साहदेविस्तु तं ज्ञात्वा भ्रातृभिर्विमुखीकृतम्<br>क्षुरप्रेण शिरो राजन्निचकर्त महामनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१२</sup>तच्छिरो न्यपतद्भूमौ तपनीयविभूषितम्<br>भ्राजयन्तं रणोद्देशं बालसूर्यसमप्रभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१३</sup>सौमदत्तेः शिरो दृष्ट्वा निपतत्तन्महात्मनः<br>वित्रस्तास्तावका राजन्प्रदुद्रुवुरनेकधा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१४</sup>अलम्बुसस्तु समरे भीमसेनं महाबलम्<br>योधयामास संक्रुद्धो लक्ष्मणं रावणिर्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१५</sup>संप्रयुद्धौ रणे दृष्ट्वा तावुभौ नरराक्षसौ<br>विस्मयः सर्वभूतानां प्रहर्षश्चाभवत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१६</sup>आर्ष्यशृङ्गिं ततो भीमो नवभिर्निशितैः शरैः<br>विव्याध प्रहसन्राजन्राक्षसेन्द्रममर्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१७</sup>तद्रक्षः समरे विद्धं कृत्वा नादं भयावहम्<br>अभ्यद्रवत्ततो भीमं ये च तस्य पदानुगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१८</sup>स भीमं पञ्चभिर्विद्ध्वा शरैः संनतपर्वभिः<br>भीमानुगाञ्जघानाशु रथांस्त्रिंशदरिंदमः<br>पुनश्चतुःशतान्हत्वा भीमं विव्याध पत्रिणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.१९</sup>सोऽतिविद्धस्तदा भीमो राक्षसेन महाबलः<br>निषसाद रथोपस्थे मूर्छयाभिपरिप्लुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२०</sup>प्रतिलभ्य ततः संज्ञां मारुतिः क्रोधमूर्छितः<br>विकृष्य कार्मुकं घोरं भारसाधनमुत्तमम्<br>अलम्बुसं शरैस्तीक्ष्णैरर्दयामास सर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२१</sup>स विद्धो बहुभिर्बाणैर्नीलाञ्जनचयोपमः<br>शुशुभे सर्वतो राजन्प्रदीप्त इव किंशुकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२२</sup>स वध्यमानः समरे भीमचापच्युतैः शरैः<br>स्मरन्भ्रातृवधं चैव पाण्डवेन महात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२३</sup>घोरं रूपमथो कृत्वा भीमसेनमभाषत<br>तिष्ठेदानीं रणे पार्थ पश्य मेऽद्य पराक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२४</sup>बको नाम सुदुर्बुद्धे राक्षसप्रवरो बली<br>परोक्षं मम तद्वृत्तं यद्भ्राता मे हतस्त्वया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२५</sup>एवमुक्त्वा ततो भीममन्तर्धानगतस्तदा<br>महाता शरवर्षेण भृशं तं समवाकिरत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२६</sup>भीमस्तु समरे राजन्नदृश्ये राक्षसे तदा<br>आकाशं पूरयामास शरैः संनतपर्वभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२७</sup>स वध्यमानो भीमेन निमेषाद्रथमास्थितः<br>जगाम धरणीं क्षुद्रः खं चैव सहसागमत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२८</sup>उच्चावचानि रूपाणि चकार सुबहूनि च<br>उच्चावचास्तथा वाचो व्याजहार समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.२९</sup>तेन पाण्डवसैन्यानां मृदिता युधि वारणाः<br>हयाश्च बहवो राजन्पत्तयश्च तथा पुनः<br>रथेभ्यो रथिनः पेतुस्तस्य नुन्नाः स्म सायकैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३०</sup>शोणितोदां रथावर्तां हस्तिग्राहसमाकुलाम्<br>छत्रहंसां कर्दमिनीं बाहुपन्नगसंकुलाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३१</sup>नदीं प्रवर्तयामास रक्षोगणसमाकुलाम्<br>वहन्तीं बहुधा राजंश्चेदिपाञ्चालसृञ्जयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३२</sup>तं तथा समरे राजन्विचरन्तमभीतवत्<br>पाण्डवा भृशसंविग्नाः प्रापश्यंस्तस्य विक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३३</sup>तावकानां तु सैन्यानां प्रहर्षः समजायत<br>वादित्रनिनदश्चोग्रः सुमहाँल्लोमहर्षणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३४</sup>तं श्रुत्वा निनदं घोरं तव सैन्यस्य पाण्डवः<br>नामृष्यत यथा नागस्तलशब्दं समीरितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३५</sup>ततः क्रोधाभिताम्राक्षो निर्दहन्निव पावकः<br>संदधे त्वाष्ट्रमस्त्रं स स्वयं त्वष्टेव मारिष
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३६</sup>ततः शरसहस्राणि प्रादुरासन्समन्ततः<br>तैः शरैस्तव सैन्यस्य विद्रावः सुमहानभूत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३७</sup>तदस्त्रं प्रेषितं तेन भीमसेनेन संयुगे<br>राक्षसस्य महामायां हत्वा राक्षसमार्दयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३८</sup>स वध्यमानो बहुधा भीमसेनेन राक्षसः<br>संत्यज्य संयुगे भीमं द्रोणानीकमुपाद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.३९</sup>तस्मिंस्तु निर्जिते राजन्राक्षसेन्द्रे महात्मना<br>अनादयन्सिंहनादैः पाण्डवाः सर्वतोदिशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.८३.४०</sup>अपूजयन्मारुतिं च संहृष्टास्ते महाबलम्<br>प्रह्रादं समरे जित्वा यथा शक्रं मरुद्गणाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२</sup>द्रौपदेयान्महेष्वासान्सौमदत्तिर्महायशाः<br>एकैकं पञ्चभिर्विद्ध्वा पुनर्विव्याध सप्तभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३</sup>ते पीडिता भृशं तेन रौद्रेण सहसा विभो<br>प्रमूढा नैव विविदुर्मृधे कृत्यं स्म किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.४</sup>नाकुलिस्तु शतानीकः सौमदत्तिं नरर्षभम्<br>द्वाभ्यां विद्ध्वानदद्धृष्टः शराभ्यां शत्रुतापनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.५</sup>तथेतरे रणे यत्तास्त्रिभिस्त्रिभिरजिह्मगैः<br>विव्यधुः समरे तूर्णं सौमदत्तिममर्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.६</sup>स तान्प्रति महाराज चिक्षिपे पञ्च सायकान्<br>एकैकं हृदि चाजघ्ने एकैकेन महायशाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.७</sup>ततस्ते भ्रातरः पञ्च शरैर्विद्धा महात्मना<br>परिवार्य रथैर्वीरं विव्यधुः सायकैर्भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.८</sup>आर्जुनिस्तु हयांस्तस्य चतुर्भिर्निशितैः शरैः<br>प्रेषयामास संक्रुद्धो यमस्य सदनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.९</sup>भैमसेनिर्धनुश्छित्त्वा सौमदत्तेर्महात्मनः<br>ननाद बलवन्नादं विव्याध च शितैः शरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१०</sup>यौधिष्ठिरो ध्वजं तस्य छित्त्वा भूमावपातयत्<br>नाकुलिश्चाश्वयन्तारं रथनीडादपाहरत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.११</sup>साहदेविस्तु तं ज्ञात्वा भ्रातृभिर्विमुखीकृतम्<br>क्षुरप्रेण शिरो राजन्निचकर्त महामनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१२</sup>तच्छिरो न्यपतद्भूमौ तपनीयविभूषितम्<br>भ्राजयन्तं रणोद्देशं बालसूर्यसमप्रभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१३</sup>सौमदत्तेः शिरो दृष्ट्वा निपतत्तन्महात्मनः<br>वित्रस्तास्तावका राजन्प्रदुद्रुवुरनेकधा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१४</sup>अलम्बुसस्तु समरे भीमसेनं महाबलम्<br>योधयामास संक्रुद्धो लक्ष्मणं रावणिर्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१५</sup>संप्रयुद्धौ रणे दृष्ट्वा तावुभौ नरराक्षसौ<br>विस्मयः सर्वभूतानां प्रहर्षश्चाभवत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१६</sup>आर्ष्यशृङ्गिं ततो भीमो नवभिर्निशितैः शरैः<br>विव्याध प्रहसन्राजन्राक्षसेन्द्रममर्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१७</sup>तद्रक्षः समरे विद्धं कृत्वा नादं भयावहम्<br>अभ्यद्रवत्ततो भीमं ये च तस्य पदानुगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१८</sup>स भीमं पञ्चभिर्विद्ध्वा शरैः संनतपर्वभिः<br>भीमानुगाञ्जघानाशु रथांस्त्रिंशदरिंदमः<br>पुनश्चतुःशतान्हत्वा भीमं विव्याध पत्रिणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.१९</sup>सोऽतिविद्धस्तदा भीमो राक्षसेन महाबलः<br>निषसाद रथोपस्थे मूर्छयाभिपरिप्लुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२०</sup>प्रतिलभ्य ततः संज्ञां मारुतिः क्रोधमूर्छितः<br>विकृष्य कार्मुकं घोरं भारसाधनमुत्तमम्<br>अलम्बुसं शरैस्तीक्ष्णैरर्दयामास सर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२१</sup>स विद्धो बहुभिर्बाणैर्नीलाञ्जनचयोपमः<br>शुशुभे सर्वतो राजन्प्रदीप्त इव किंशुकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२२</sup>स वध्यमानः समरे भीमचापच्युतैः शरैः<br>स्मरन्भ्रातृवधं चैव पाण्डवेन महात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२३</sup>घोरं रूपमथो कृत्वा भीमसेनमभाषत<br>तिष्ठेदानीं रणे पार्थ पश्य मेऽद्य पराक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२४</sup>बको नाम सुदुर्बुद्धे राक्षसप्रवरो बली<br>परोक्षं मम तद्वृत्तं यद्भ्राता मे हतस्त्वया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२५</sup>एवमुक्त्वा ततो भीममन्तर्धानगतस्तदा<br>महाता शरवर्षेण भृशं तं समवाकिरत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२६</sup>भीमस्तु समरे राजन्नदृश्ये राक्षसे तदा<br>आकाशं पूरयामास शरैः संनतपर्वभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२७</sup>स वध्यमानो भीमेन निमेषाद्रथमास्थितः<br>जगाम धरणीं क्षुद्रः खं चैव सहसागमत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२८</sup>उच्चावचानि रूपाणि चकार सुबहूनि च<br>उच्चावचास्तथा वाचो व्याजहार समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.२९</sup>तेन पाण्डवसैन्यानां मृदिता युधि वारणाः<br>हयाश्च बहवो राजन्पत्तयश्च तथा पुनः<br>रथेभ्यो रथिनः पेतुस्तस्य नुन्नाः स्म सायकैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३०</sup>शोणितोदां रथावर्तां हस्तिग्राहसमाकुलाम्<br>छत्रहंसां कर्दमिनीं बाहुपन्नगसंकुलाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३१</sup>नदीं प्रवर्तयामास रक्षोगणसमाकुलाम्<br>वहन्तीं बहुधा राजंश्चेदिपाञ्चालसृञ्जयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३२</sup>तं तथा समरे राजन्विचरन्तमभीतवत्<br>पाण्डवा भृशसंविग्नाः प्रापश्यंस्तस्य विक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३३</sup>तावकानां तु सैन्यानां प्रहर्षः समजायत<br>वादित्रनिनदश्चोग्रः सुमहाँल्लोमहर्षणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३४</sup>तं श्रुत्वा निनदं घोरं तव सैन्यस्य पाण्डवः<br>नामृष्यत यथा नागस्तलशब्दं समीरितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३५</sup>ततः क्रोधाभिताम्राक्षो निर्दहन्निव पावकः<br>संदधे त्वाष्ट्रमस्त्रं स स्वयं त्वष्टेव मारिष
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३६</sup>ततः शरसहस्राणि प्रादुरासन्समन्ततः<br>तैः शरैस्तव सैन्यस्य विद्रावः सुमहानभूत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३७</sup>तदस्त्रं प्रेषितं तेन भीमसेनेन संयुगे<br>राक्षसस्य महामायां हत्वा राक्षसमार्दयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३८</sup>स वध्यमानो बहुधा भीमसेनेन राक्षसः<br>संत्यज्य संयुगे भीमं द्रोणानीकमुपाद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.३९</sup>तस्मिंस्तु निर्जिते राजन्राक्षसेन्द्रे महात्मना<br>अनादयन्सिंहनादैः पाण्डवाः सर्वतोदिशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.८३.४०</sup>अपूजयन्मारुतिं च संहृष्टास्ते महाबलम्<br>प्रह्रादं समरे जित्वा यथा शक्रं मरुद्गणाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

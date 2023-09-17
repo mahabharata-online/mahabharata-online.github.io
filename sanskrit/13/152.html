@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/151.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:१५२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/153.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,85 +64,50 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/151.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:१५२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/153.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.२</sup>तूष्णींभूते तदा भीष्मे पटे चित्रमिवार्पितम्<br>मुहूर्तमिव च ध्यात्वा व्यासः सत्यवतीसुतः<br>नृपं शयानं गाङ्गेयमिदमाह वचस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.३</sup>राजन्प्रकृतिमापन्नः कुरुराजो युधिष्ठिरः<br>सहितो भ्रातृभिः सर्वैः पार्थिवैश्चानुयायिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.४</sup>उपास्ते त्वां नरव्याघ्र सह कृष्णेन धीमता<br>तमिमं पुरयानाय त्वमनुज्ञातुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.५</sup>एवमुक्तो भगवता व्यासेन पृथिवीपतिः<br>युधिष्ठिरं सहामात्यमनुजज्ञे नदीसुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.६</sup>उवाच चैनं मधुरं ततः शांतनवो नृपः<br>प्रविशस्व पुरं राजन्व्येतु ते मानसो ज्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.७</sup>यजस्व विविधैर्यज्ञैर्बह्वन्नैः स्वाप्तदक्षिणैः<br>ययातिरिव राजेन्द्र श्रद्धादमपुरःसरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.८</sup>क्षत्रधर्मरतः पार्थ पितॄन्देवांश्च तर्पय<br>श्रेयसा योक्ष्यसे चैव व्येतु ते मानसो ज्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.९</sup>रञ्जयस्व प्रजाः सर्वाः प्रकृतीः परिसान्त्वय<br>सुहृदः फलसत्कारैरभ्यर्चय यथार्हतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.१०</sup>अनु त्वां तात जीवन्तु मित्राणि सुहृदस्तथा<br>चैत्यस्थाने स्थितं वृक्षं फलवन्तमिव द्विजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.११</sup>आगन्तव्यं च भवता समये मम पार्थिव<br>विनिवृत्ते दिनकरे प्रवृत्ते चोत्तरायणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.१२</sup>तथेत्युक्त्वा तु कौन्तेयः सोऽभिवाद्य पितामहम्<br>प्रययौ सपरीवारो नगरं नागसाह्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.१३</sup>धृतराष्ट्रं पुरस्कृत्य गान्धारीं च पतिव्रताम्<br>सह तैरृषिभिः सर्वैर्भ्रातृभिः केशवेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१५२.१४</sup>पौरजानपदैश्चैव मन्त्रिवृद्धैश्च पार्थिवः<br>प्रविवेश कुरुश्रेष्ठ पुरं वारणसाह्वयम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.२</sup>तूष्णींभूते तदा भीष्मे पटे चित्रमिवार्पितम्<br>मुहूर्तमिव च ध्यात्वा व्यासः सत्यवतीसुतः<br>नृपं शयानं गाङ्गेयमिदमाह वचस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.३</sup>राजन्प्रकृतिमापन्नः कुरुराजो युधिष्ठिरः<br>सहितो भ्रातृभिः सर्वैः पार्थिवैश्चानुयायिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.४</sup>उपास्ते त्वां नरव्याघ्र सह कृष्णेन धीमता<br>तमिमं पुरयानाय त्वमनुज्ञातुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.५</sup>एवमुक्तो भगवता व्यासेन पृथिवीपतिः<br>युधिष्ठिरं सहामात्यमनुजज्ञे नदीसुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.६</sup>उवाच चैनं मधुरं ततः शांतनवो नृपः<br>प्रविशस्व पुरं राजन्व्येतु ते मानसो ज्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.७</sup>यजस्व विविधैर्यज्ञैर्बह्वन्नैः स्वाप्तदक्षिणैः<br>ययातिरिव राजेन्द्र श्रद्धादमपुरःसरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.८</sup>क्षत्रधर्मरतः पार्थ पितॄन्देवांश्च तर्पय<br>श्रेयसा योक्ष्यसे चैव व्येतु ते मानसो ज्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.९</sup>रञ्जयस्व प्रजाः सर्वाः प्रकृतीः परिसान्त्वय<br>सुहृदः फलसत्कारैरभ्यर्चय यथार्हतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.१०</sup>अनु त्वां तात जीवन्तु मित्राणि सुहृदस्तथा<br>चैत्यस्थाने स्थितं वृक्षं फलवन्तमिव द्विजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.११</sup>आगन्तव्यं च भवता समये मम पार्थिव<br>विनिवृत्ते दिनकरे प्रवृत्ते चोत्तरायणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.१२</sup>तथेत्युक्त्वा तु कौन्तेयः सोऽभिवाद्य पितामहम्<br>प्रययौ सपरीवारो नगरं नागसाह्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.१३</sup>धृतराष्ट्रं पुरस्कृत्य गान्धारीं च पतिव्रताम्<br>सह तैरृषिभिः सर्वैर्भ्रातृभिः केशवेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१५२.१४</sup>पौरजानपदैश्चैव मन्त्रिवृद्धैश्च पार्थिवः<br>प्रविवेश कुरुश्रेष्ठ पुरं वारणसाह्वयम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -123,8 +116,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

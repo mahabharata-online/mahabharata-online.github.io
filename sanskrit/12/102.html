@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/101.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१०२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/103.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,109 +64,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/101.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१०२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/103.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.२</sup>किंशीलाः किंसमुत्थानाः कथंरूपाश्च भारत<br>किंसंनाहाः कथंशस्त्रा जनाः स्युः संयुगे नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.४</sup>यथाचरितमेवात्र शस्त्रपत्रं विधीयते<br>आचारादेव पुरुषस्तथा कर्मसु वर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.५</sup>गान्धाराः सिन्धुसौवीरा नखरप्रासयोधिनः<br>आभीरवः सुबलिनस्तद्बलं सर्वपारगम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.६</sup>सर्वशस्त्रेषु कुशलाः सत्त्ववन्तो ह्युशीनराः<br>प्राच्या मातङ्गयुद्धेषु कुशलाः शठयोधिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.७</sup>तथा यवनकाम्बोजा मथुरामभितश्च ये<br>एते नियुद्धकुशला दाक्षिणात्यासिचर्मिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.८</sup>सर्वत्र शूरा जायन्ते महासत्त्वा महाबलाः<br>प्राय एष समुद्दिष्टो लक्षणानि तु मे शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.९</sup>सिंहशार्दूलवाङ्नेत्राः सिंहशार्दूलगामिनः<br>पारावतकुलिङ्गाक्षाः सर्वे शूराः प्रमाथिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१०</sup>मृगस्वरा द्वीपिनेत्रा ऋषभाक्षास्तथापरे<br>प्रवादिनः सुचण्डाश्च क्रोधिनः किंनरीस्वनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.११</sup>मेघस्वनाः क्रुद्धमुखाः केचित्करभनिस्वनाः<br>जिह्मनासानुजङ्घाश्च दूरगा दूरपातिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१२</sup>बिडालकुब्जास्तनवस्तनुकेशास्तनुत्वचः<br>शूराश्चपलचित्ताश्च ते भवन्ति दुरासदाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१३</sup>गोधानिमीलिताः केचिन्मृदुप्रकृतयोऽपि च<br>तुरंगगतिनिर्घोषास्ते नराः पारयिष्णवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१४</sup>सुसंहताः प्रतनवो व्यूढोरस्काः सुसंस्थिताः<br>प्रवादितेन नृत्यन्ति हृष्यन्ति कलहेषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१५</sup>गम्भीराक्षा निःसृताक्षाः पिङ्गला भ्रुकुटीमुखाः<br>नकुलाक्षास्तथा चैव सर्वे शूरास्तनुत्यजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१६</sup>जिह्माक्षाः प्रललाटाश्च निर्मांसहनवोऽपि च<br>वक्रबाह्वङ्गुलीसक्ताः कृशा धमनिसंतताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१७</sup>प्रविशन्त्यतिवेगेन संपरायेऽभ्युपस्थिते<br>वारणा इव संमत्तास्ते भवन्ति दुरासदाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१८</sup>दीप्तस्फुटितकेशान्ताः स्थूलपार्श्वहनूमुखाः<br>उन्नतांसाः पृथुग्रीवा विकटाः स्थूलपिण्डिकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.१९</sup>उद्वृत्ताश्चैव सुग्रीवा विनता विहगा इव<br>पिण्डशीर्षाहिवक्त्राश्च वृषदंशमुखा इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.२०</sup>उग्रस्वना मन्युमन्तो युद्धेष्वारावसारिणः<br>अधर्मज्ञावलिप्ताश्च घोरा रौद्रप्रदर्शिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.२१</sup>त्यक्तात्मानः सर्व एते अन्त्यजा ह्यनिवर्तिनः<br>पुरस्कार्याः सदा सैन्ये हन्यन्ते घ्नन्ति चापि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१०२.२२</sup>अधार्मिका भिन्नवृत्ताः साध्वेवैषां पराभवः<br>एवमेव प्रकुप्यन्ति राज्ञोऽप्येते ह्यभीक्ष्णशः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.२</sup>किंशीलाः किंसमुत्थानाः कथंरूपाश्च भारत<br>किंसंनाहाः कथंशस्त्रा जनाः स्युः संयुगे नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.४</sup>यथाचरितमेवात्र शस्त्रपत्रं विधीयते<br>आचारादेव पुरुषस्तथा कर्मसु वर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.५</sup>गान्धाराः सिन्धुसौवीरा नखरप्रासयोधिनः<br>आभीरवः सुबलिनस्तद्बलं सर्वपारगम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.६</sup>सर्वशस्त्रेषु कुशलाः सत्त्ववन्तो ह्युशीनराः<br>प्राच्या मातङ्गयुद्धेषु कुशलाः शठयोधिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.७</sup>तथा यवनकाम्बोजा मथुरामभितश्च ये<br>एते नियुद्धकुशला दाक्षिणात्यासिचर्मिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.८</sup>सर्वत्र शूरा जायन्ते महासत्त्वा महाबलाः<br>प्राय एष समुद्दिष्टो लक्षणानि तु मे शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.९</sup>सिंहशार्दूलवाङ्नेत्राः सिंहशार्दूलगामिनः<br>पारावतकुलिङ्गाक्षाः सर्वे शूराः प्रमाथिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१०</sup>मृगस्वरा द्वीपिनेत्रा ऋषभाक्षास्तथापरे<br>प्रवादिनः सुचण्डाश्च क्रोधिनः किंनरीस्वनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.११</sup>मेघस्वनाः क्रुद्धमुखाः केचित्करभनिस्वनाः<br>जिह्मनासानुजङ्घाश्च दूरगा दूरपातिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१२</sup>बिडालकुब्जास्तनवस्तनुकेशास्तनुत्वचः<br>शूराश्चपलचित्ताश्च ते भवन्ति दुरासदाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१३</sup>गोधानिमीलिताः केचिन्मृदुप्रकृतयोऽपि च<br>तुरंगगतिनिर्घोषास्ते नराः पारयिष्णवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१४</sup>सुसंहताः प्रतनवो व्यूढोरस्काः सुसंस्थिताः<br>प्रवादितेन नृत्यन्ति हृष्यन्ति कलहेषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१५</sup>गम्भीराक्षा निःसृताक्षाः पिङ्गला भ्रुकुटीमुखाः<br>नकुलाक्षास्तथा चैव सर्वे शूरास्तनुत्यजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१६</sup>जिह्माक्षाः प्रललाटाश्च निर्मांसहनवोऽपि च<br>वक्रबाह्वङ्गुलीसक्ताः कृशा धमनिसंतताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१७</sup>प्रविशन्त्यतिवेगेन संपरायेऽभ्युपस्थिते<br>वारणा इव संमत्तास्ते भवन्ति दुरासदाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१८</sup>दीप्तस्फुटितकेशान्ताः स्थूलपार्श्वहनूमुखाः<br>उन्नतांसाः पृथुग्रीवा विकटाः स्थूलपिण्डिकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.१९</sup>उद्वृत्ताश्चैव सुग्रीवा विनता विहगा इव<br>पिण्डशीर्षाहिवक्त्राश्च वृषदंशमुखा इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.२०</sup>उग्रस्वना मन्युमन्तो युद्धेष्वारावसारिणः<br>अधर्मज्ञावलिप्ताश्च घोरा रौद्रप्रदर्शिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.२१</sup>त्यक्तात्मानः सर्व एते अन्त्यजा ह्यनिवर्तिनः<br>पुरस्कार्याः सदा सैन्ये हन्यन्ते घ्नन्ति चापि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१०२.२२</sup>अधार्मिका भिन्नवृत्ताः साध्वेवैषां पराभवः<br>एवमेव प्रकुप्यन्ति राज्ञोऽप्येते ह्यभीक्ष्णशः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -147,8 +140,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/207.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:२०८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/209.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/207.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:२०८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/209.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२</sup>ततः समुद्रे तीर्थानि दक्षिणे भरतर्षभः<br>अभ्यगच्छत्सुपुण्यानि शोभितानि तपस्विभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.३</sup>वर्जयन्ति स्म तीर्थानि पञ्च तत्र तु तापसाः<br>आचीर्णानि तु यान्यासन्पुरस्तात्तु तपस्विभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.४</sup>अगस्त्यतीर्थं सौभद्रं पौलोमं च सुपावनम्<br>कारंधमं प्रसन्नं च हयमेधफलं च यत्<br>भारद्वाजस्य तीर्थं च पापप्रशमनं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.५</sup>विविक्तान्युपलक्ष्याथ तानि तीर्थानि पाण्डवः<br>दृष्ट्वा च वर्ज्यमानानि मुनिभिर्धर्मबुद्धिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.६</sup>तपस्विनस्ततोऽपृच्छत्प्राज्ञलिः कुरुनन्दनः<br>तीर्थानीमानि वर्ज्यन्ते किमर्थं ब्रह्मवादिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.७</sup>तापसा ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.८</sup>ग्राहाः पञ्च वसन्त्येषु हरन्ति च तपोधनान्<br>अत एतानि वर्ज्यन्ते तीर्थानि कुरुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१०</sup>तेषां श्रुत्वा महाबाहुर्वार्यमाणस्तपोधनैः<br>जगाम तानि तीर्थानि द्रष्टुं पुरुषसत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.११</sup>ततः सौभद्रमासाद्य महर्षेस्तीर्थमुत्तमम्<br>विगाह्य तरसा शूरः स्नानं चक्रे परंतपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१२</sup>अथ तं पुरुषव्याघ्रमन्तर्जलचरो महान्<br>निजग्राह जले ग्राहः कुन्तीपुत्रं धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१३</sup>स तमादाय कौन्तेयो विस्फुरन्तं जलेचरम्<br>उदतिष्ठन्महाबाहुर्बलेन बलिनां वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१४</sup>उत्कृष्ट एव तु ग्राहः सोऽर्जुनेन यशस्विना<br>बभूव नारी कल्याणी सर्वाभरणभूषिता<br>दीप्यमाना श्रिया राजन्दिव्यरूपा मनोरमा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१५</sup>तदद्भुतं महद्दृष्ट्वा कुन्तीपुत्रो धनंजयः<br>तां स्त्रियं परमप्रीत इदं वचनमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१६</sup>का वै त्वमसि कल्याणि कुतो वासि जलेचरी<br>किमर्थं च महत्पापमिदं कृतवती पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१७</sup>नार्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१८</sup>अप्सरास्मि महाबाहो देवारण्यविचारिणी<br>इष्टा धनपतेर्नित्यं वर्गा नाम महाबल
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.१९</sup>मम सख्यश्चतस्रोऽन्याः सर्वाः कामगमाः शुभाः<br>ताभिः सार्धं प्रयातास्मि लोकपालनिवेशनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२०</sup>ततः पश्यामहे सर्वा ब्राह्मणं संशितव्रतम्<br>रूपवन्तमधीयानमेकमेकान्तचारिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२१</sup>तस्य वै तपसा राजंस्तद्वनं तेजसावृतम्<br>आदित्य इव तं देशं कृत्स्नं स व्यवभासयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२२</sup>तस्य दृष्ट्वा तपस्तादृग्रूपं चाद्भुतदर्शनम्<br>अवतीर्णाः स्म तं देशं तपोविघ्नचिकीर्षया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२३</sup>अहं च सौरभेयी च समीची बुद्बुदा लता<br>यौगपद्येन तं विप्रमभ्यगच्छाम भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२४</sup>गायन्त्यो वै हसन्त्यश्च लोभयन्त्यश्च तं द्विजम्<br>स च नास्मासु कृतवान्मनो वीर कथंचन<br>नाकम्पत महातेजाः स्थितस्तपसि निर्मले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०८.२५</sup>सोऽशपत्कुपितोऽस्मांस्तु ब्राह्मणः क्षत्रियर्षभ<br>ग्राहभूता जले यूयं चरिष्यध्वं शतं समाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२</sup>ततः समुद्रे तीर्थानि दक्षिणे भरतर्षभः<br>अभ्यगच्छत्सुपुण्यानि शोभितानि तपस्विभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.३</sup>वर्जयन्ति स्म तीर्थानि पञ्च तत्र तु तापसाः<br>आचीर्णानि तु यान्यासन्पुरस्तात्तु तपस्विभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.४</sup>अगस्त्यतीर्थं सौभद्रं पौलोमं च सुपावनम्<br>कारंधमं प्रसन्नं च हयमेधफलं च यत्<br>भारद्वाजस्य तीर्थं च पापप्रशमनं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.५</sup>विविक्तान्युपलक्ष्याथ तानि तीर्थानि पाण्डवः<br>दृष्ट्वा च वर्ज्यमानानि मुनिभिर्धर्मबुद्धिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.६</sup>तपस्विनस्ततोऽपृच्छत्प्राज्ञलिः कुरुनन्दनः<br>तीर्थानीमानि वर्ज्यन्ते किमर्थं ब्रह्मवादिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.७</sup>तापसा ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.८</sup>ग्राहाः पञ्च वसन्त्येषु हरन्ति च तपोधनान्<br>अत एतानि वर्ज्यन्ते तीर्थानि कुरुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१०</sup>तेषां श्रुत्वा महाबाहुर्वार्यमाणस्तपोधनैः<br>जगाम तानि तीर्थानि द्रष्टुं पुरुषसत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.११</sup>ततः सौभद्रमासाद्य महर्षेस्तीर्थमुत्तमम्<br>विगाह्य तरसा शूरः स्नानं चक्रे परंतपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१२</sup>अथ तं पुरुषव्याघ्रमन्तर्जलचरो महान्<br>निजग्राह जले ग्राहः कुन्तीपुत्रं धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१३</sup>स तमादाय कौन्तेयो विस्फुरन्तं जलेचरम्<br>उदतिष्ठन्महाबाहुर्बलेन बलिनां वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१४</sup>उत्कृष्ट एव तु ग्राहः सोऽर्जुनेन यशस्विना<br>बभूव नारी कल्याणी सर्वाभरणभूषिता<br>दीप्यमाना श्रिया राजन्दिव्यरूपा मनोरमा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१५</sup>तदद्भुतं महद्दृष्ट्वा कुन्तीपुत्रो धनंजयः<br>तां स्त्रियं परमप्रीत इदं वचनमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१६</sup>का वै त्वमसि कल्याणि कुतो वासि जलेचरी<br>किमर्थं च महत्पापमिदं कृतवती पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१७</sup>नार्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१८</sup>अप्सरास्मि महाबाहो देवारण्यविचारिणी<br>इष्टा धनपतेर्नित्यं वर्गा नाम महाबल
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.१९</sup>मम सख्यश्चतस्रोऽन्याः सर्वाः कामगमाः शुभाः<br>ताभिः सार्धं प्रयातास्मि लोकपालनिवेशनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२०</sup>ततः पश्यामहे सर्वा ब्राह्मणं संशितव्रतम्<br>रूपवन्तमधीयानमेकमेकान्तचारिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२१</sup>तस्य वै तपसा राजंस्तद्वनं तेजसावृतम्<br>आदित्य इव तं देशं कृत्स्नं स व्यवभासयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२२</sup>तस्य दृष्ट्वा तपस्तादृग्रूपं चाद्भुतदर्शनम्<br>अवतीर्णाः स्म तं देशं तपोविघ्नचिकीर्षया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२३</sup>अहं च सौरभेयी च समीची बुद्बुदा लता<br>यौगपद्येन तं विप्रमभ्यगच्छाम भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२४</sup>गायन्त्यो वै हसन्त्यश्च लोभयन्त्यश्च तं द्विजम्<br>स च नास्मासु कृतवान्मनो वीर कथंचन<br>नाकम्पत महातेजाः स्थितस्तपसि निर्मले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०८.२५</sup>सोऽशपत्कुपितोऽस्मांस्तु ब्राह्मणः क्षत्रियर्षभ<br>ग्राहभूता जले यूयं चरिष्यध्वं शतं समाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

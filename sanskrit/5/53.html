@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/52.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:५३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/54.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,103 +64,68 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/52.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:५३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/54.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.२</sup>एवमेतन्महाराज यथा वदसि भारत<br>युद्धे विनाशः क्षत्रस्य गाण्डीवेन प्रदृश्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.३</sup>इदं तु नाभिजानामि तव धीरस्य नित्यशः<br>यत्पुत्रवशमागच्छेः सत्त्वज्ञः सव्यसाचिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.४</sup>नैष कालो महाराज तव शश्वत्कृतागसः<br>त्वया ह्येवादितः पार्था निकृता भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.५</sup>पिता श्रेष्ठः सुहृद्यश्च सम्यक्प्रणिहितात्मवान्<br>आस्थेयं हि हितं तेन न द्रोग्धा गुरुरुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.६</sup>इदं जितमिदं लब्धमिति श्रुत्वा पराजितान्<br>द्यूतकाले महाराज स्मयसे स्म कुमारवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.७</sup>परुषाण्युच्यमानान्स्म पुरा पार्थानुपेक्षसे<br>कृत्स्नं राज्यं जयन्तीति प्रपातं नानुपश्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.८</sup>पित्र्यं राज्यं महाराज कुरवस्ते सजाङ्गलाः<br>अथ वीरैर्जितां भूमिमखिलां प्रत्यपद्यथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.९</sup>बाहुवीर्यार्जिता भूमिस्तव पार्थैर्निवेदिता<br>मयेदं कृतमित्येव मन्यसे राजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१०</sup>ग्रस्तान्गन्धर्वराजेन मज्जतो ह्यप्लवेऽम्भसि<br>आनिनाय पुनः पार्थः पुत्रांस्ते राजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.११</sup>कुमारवच्च स्मयसे द्यूते विनिकृतेषु यत्<br>पाण्डवेषु वनं राजन्प्रव्रजत्सु पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१२</sup>प्रवर्षतः शरव्रातानर्जुनस्य शितान्बहून्<br>अप्यर्णवा विशुष्येयुः किं पुनर्मांसयोनयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१३</sup>अस्यतां फल्गुनः श्रेष्ठो गाण्डीवं धनुषां वरम्<br>केशवः सर्वभूतानां चक्राणां च सुदर्शनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१४</sup>वानरो रोचमानश्च केतुः केतुमतां वरः<br>एवमेतानि सरथो वहञ्श्वेतहयो रणे<br>क्षपयिष्यति नो राजन्कालचक्रमिवोद्यतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१५</sup>तस्याद्य वसुधा राजन्निखिला भरतर्षभ<br>यस्य भीमार्जुनौ योधौ स राजा राजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१६</sup>तथा भीमहतप्रायां मज्जन्तीं तव वाहिनीम्<br>दुर्योधनमुखा दृष्ट्वा क्षयं यास्यन्ति कौरवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१७</sup>न हि भीमभयाद्भीता लप्स्यन्ते विजयं विभो<br>तव पुत्रा महाराज राजानश्चानुसारिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१८</sup>मत्स्यास्त्वामद्य नार्चन्ति पाञ्चालाश्च सकेकयाः<br>शाल्वेयाः शूरसेनाश्च सर्वे त्वामवजानते<br>पार्थं ह्येते गताः सर्वे वीर्यज्ञास्तस्य धीमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.१९</sup>अनर्हानेव तु वधे धर्मयुक्तान्विकर्मणा<br>सर्वोपायैर्नियन्तव्यः सानुगः पापपूरुषः<br>तव पुत्रो महाराज नात्र शोचितुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.५३.२०</sup>द्यूतकाले मया चोक्तं विदुरेण च धीमता<br>यदिदं ते विलपितं पाण्डवान्प्रति भारत<br>अनीशेनेव राजेन्द्र सर्वमेतन्निरर्थकम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.२</sup>एवमेतन्महाराज यथा वदसि भारत<br>युद्धे विनाशः क्षत्रस्य गाण्डीवेन प्रदृश्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.३</sup>इदं तु नाभिजानामि तव धीरस्य नित्यशः<br>यत्पुत्रवशमागच्छेः सत्त्वज्ञः सव्यसाचिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.४</sup>नैष कालो महाराज तव शश्वत्कृतागसः<br>त्वया ह्येवादितः पार्था निकृता भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.५</sup>पिता श्रेष्ठः सुहृद्यश्च सम्यक्प्रणिहितात्मवान्<br>आस्थेयं हि हितं तेन न द्रोग्धा गुरुरुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.६</sup>इदं जितमिदं लब्धमिति श्रुत्वा पराजितान्<br>द्यूतकाले महाराज स्मयसे स्म कुमारवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.७</sup>परुषाण्युच्यमानान्स्म पुरा पार्थानुपेक्षसे<br>कृत्स्नं राज्यं जयन्तीति प्रपातं नानुपश्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.८</sup>पित्र्यं राज्यं महाराज कुरवस्ते सजाङ्गलाः<br>अथ वीरैर्जितां भूमिमखिलां प्रत्यपद्यथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.९</sup>बाहुवीर्यार्जिता भूमिस्तव पार्थैर्निवेदिता<br>मयेदं कृतमित्येव मन्यसे राजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१०</sup>ग्रस्तान्गन्धर्वराजेन मज्जतो ह्यप्लवेऽम्भसि<br>आनिनाय पुनः पार्थः पुत्रांस्ते राजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.११</sup>कुमारवच्च स्मयसे द्यूते विनिकृतेषु यत्<br>पाण्डवेषु वनं राजन्प्रव्रजत्सु पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१२</sup>प्रवर्षतः शरव्रातानर्जुनस्य शितान्बहून्<br>अप्यर्णवा विशुष्येयुः किं पुनर्मांसयोनयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१३</sup>अस्यतां फल्गुनः श्रेष्ठो गाण्डीवं धनुषां वरम्<br>केशवः सर्वभूतानां चक्राणां च सुदर्शनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१४</sup>वानरो रोचमानश्च केतुः केतुमतां वरः<br>एवमेतानि सरथो वहञ्श्वेतहयो रणे<br>क्षपयिष्यति नो राजन्कालचक्रमिवोद्यतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१५</sup>तस्याद्य वसुधा राजन्निखिला भरतर्षभ<br>यस्य भीमार्जुनौ योधौ स राजा राजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१६</sup>तथा भीमहतप्रायां मज्जन्तीं तव वाहिनीम्<br>दुर्योधनमुखा दृष्ट्वा क्षयं यास्यन्ति कौरवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१७</sup>न हि भीमभयाद्भीता लप्स्यन्ते विजयं विभो<br>तव पुत्रा महाराज राजानश्चानुसारिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१८</sup>मत्स्यास्त्वामद्य नार्चन्ति पाञ्चालाश्च सकेकयाः<br>शाल्वेयाः शूरसेनाश्च सर्वे त्वामवजानते<br>पार्थं ह्येते गताः सर्वे वीर्यज्ञास्तस्य धीमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.१९</sup>अनर्हानेव तु वधे धर्मयुक्तान्विकर्मणा<br>सर्वोपायैर्नियन्तव्यः सानुगः पापपूरुषः<br>तव पुत्रो महाराज नात्र शोचितुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.५३.२०</sup>द्यूतकाले मया चोक्तं विदुरेण च धीमता<br>यदिदं ते विलपितं पाण्डवान्प्रति भारत<br>अनीशेनेव राजेन्द्र सर्वमेतन्निरर्थकम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -141,8 +134,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

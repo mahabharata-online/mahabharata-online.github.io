@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/83.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:८४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/85.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/83.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:८४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/85.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२</sup>अहं ययातिर्नहुषस्य पुत्रः; पूरोः पिता सर्वभूतावमानात्<br>प्रभ्रंशितः सुरसिद्धर्षिलोका;त्परिच्युतः प्रपताम्यल्पपुण्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.३</sup>अहं हि पूर्वो वयसा भवद्भ्य;स्तेनाभिवादं भवतां न प्रयुञ्जे<br>यो विद्यया तपसा जन्मना वा; वृद्धः स पूज्यो भवति द्विजानाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.४</sup>अष्टक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.५</sup>अवादीश्चेद्वयसा यः स वृद्ध; इति राजन्नाभ्यवदः कथंचित्<br>यो वै विद्वान्वयसा सन्स्म वृद्धः; स एव पूज्यो भवति द्विजानाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.६</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.७</sup>प्रतिकूलं कर्मणां पापमाहु;स्तद्वर्ततेऽप्रवणे पापलोक्यम्<br>सन्तोऽसतां नानुवर्तन्ति चैत;द्यथा आत्मैषामनुकूलवादी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.८</sup>अभूद्धनं मे विपुलं महद्वै; विचेष्टमानो नाधिगन्ता तदस्मि<br>एवं प्रधार्यात्महिते निविष्टो; यो वर्तते स विजानाति जीवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.९</sup>नानाभावा बहवो जीवलोके; दैवाधीना नष्टचेष्टाधिकाराः<br>तत्तत्प्राप्य न विहन्येत धीरो; दिष्टं बलीय इति मत्वात्मबुद्ध्या
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१०</sup>सुखं हि जन्तुर्यदि वापि दुःखं; दैवाधीनं विन्दति नात्मशक्त्या<br>तस्माद्दिष्टं बलवन्मन्यमानो; न संज्वरेन्नापि हृष्येत्कदाचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.११</sup>दुःखे न तप्येन्न सुखेन हृष्ये;त्समेन वर्तेत सदैव धीरः<br>दिष्टं बलीय इति मन्यमानो; न संज्वरेन्नापि हृष्येत्कदाचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१२</sup>भये न मुह्याम्यष्टकाहं कदाचि;त्संतापो मे मानसो नास्ति कश्चित्<br>धाता यथा मां विदधाति लोके; ध्रुवं तथाहं भवितेति मत्वा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१३</sup>संस्वेदजा अण्डजा उद्भिदाश्च; सरीसृपाः कृमयोऽथाप्सु मत्स्याः<br>तथाश्मानस्तृणकाष्ठं च सर्वं; दिष्टक्षये स्वां प्रकृतिं भजन्ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१४</sup>अनित्यतां सुखदुःखस्य बुद्ध्वा; कस्मात्संतापमष्टकाहं भजेयम्<br>किं कुर्यां वै किं च कृत्वा न तप्ये; तस्मात्संतापं वर्जयाम्यप्रमत्तः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१५</sup>अष्टक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१६</sup>ये ये लोकाः पार्थिवेन्द्र प्रधाना;स्त्वया भुक्ता यं च कालं यथा च<br>तन्मे राजन्ब्रूहि सर्वं यथाव;त्क्षेत्रज्ञवद्भाषसे त्वं हि धर्मान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१७</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१८</sup>राजाहमासमिह सार्वभौम;स्ततो लोकान्महतो अजयं वै<br>तत्रावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.१९</sup>ततः पुरीं पुरुहूतस्य रम्यां; सहस्रद्वारां शतयोजनायताम्<br>अध्यावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२०</sup>ततो दिव्यमजरं प्राप्य लोकं; प्रजापतेर्लोकपतेर्दुरापम्<br>तत्रावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२१</sup>देवस्य देवस्य निवेशने च; विजित्य लोकानवसं यथेष्टम्<br>संपूज्यमानस्त्रिदशैः समस्तै;स्तुल्यप्रभावद्युतिरीश्वराणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२२</sup>तथावसं नन्दने कामरूपी; संवत्सराणामयुतं शतानाम्<br>सहाप्सरोभिर्विहरन्पुण्यगन्धा;न्पश्यन्नगान्पुष्पितांश्चारुरूपान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२३</sup>तत्रस्थं मां देवसुखेषु सक्तं; कालेऽतीते महति ततोऽतिमात्रम्<br>दूतो देवानामब्रवीदुग्ररूपो; ध्वंसेत्युच्चैस्त्रिः प्लुतेन स्वरेण
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२४</sup>एतावन्मे विदितं राजसिंह; ततो भ्रष्टोऽहं नन्दनात्क्षीणपुण्यः<br>वाचोऽश्रौषं चान्तरिक्षे सुराणा;मनुक्रोशाच्छोचतां मानवेन्द्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२५</sup>अहो कष्टं क्षीणपुण्यो ययातिः; पतत्यसौ पुण्यकृत्पुण्यकीर्तिः<br>तानब्रुवं पतमानस्ततोऽहं; सतां मध्ये निपतेयं कथं नु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८४.२६</sup>तैराख्याता भवतां यज्ञभूमिः; समीक्ष्य चैनां त्वरितमुपागतोऽस्मि<br>हविर्गन्धं देशिकं यज्ञभूमे;र्धूमापाङ्गं प्रतिगृह्य प्रतीतः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२</sup>अहं ययातिर्नहुषस्य पुत्रः; पूरोः पिता सर्वभूतावमानात्<br>प्रभ्रंशितः सुरसिद्धर्षिलोका;त्परिच्युतः प्रपताम्यल्पपुण्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.३</sup>अहं हि पूर्वो वयसा भवद्भ्य;स्तेनाभिवादं भवतां न प्रयुञ्जे<br>यो विद्यया तपसा जन्मना वा; वृद्धः स पूज्यो भवति द्विजानाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.४</sup>अष्टक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.५</sup>अवादीश्चेद्वयसा यः स वृद्ध; इति राजन्नाभ्यवदः कथंचित्<br>यो वै विद्वान्वयसा सन्स्म वृद्धः; स एव पूज्यो भवति द्विजानाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.६</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.७</sup>प्रतिकूलं कर्मणां पापमाहु;स्तद्वर्ततेऽप्रवणे पापलोक्यम्<br>सन्तोऽसतां नानुवर्तन्ति चैत;द्यथा आत्मैषामनुकूलवादी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.८</sup>अभूद्धनं मे विपुलं महद्वै; विचेष्टमानो नाधिगन्ता तदस्मि<br>एवं प्रधार्यात्महिते निविष्टो; यो वर्तते स विजानाति जीवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.९</sup>नानाभावा बहवो जीवलोके; दैवाधीना नष्टचेष्टाधिकाराः<br>तत्तत्प्राप्य न विहन्येत धीरो; दिष्टं बलीय इति मत्वात्मबुद्ध्या
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१०</sup>सुखं हि जन्तुर्यदि वापि दुःखं; दैवाधीनं विन्दति नात्मशक्त्या<br>तस्माद्दिष्टं बलवन्मन्यमानो; न संज्वरेन्नापि हृष्येत्कदाचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.११</sup>दुःखे न तप्येन्न सुखेन हृष्ये;त्समेन वर्तेत सदैव धीरः<br>दिष्टं बलीय इति मन्यमानो; न संज्वरेन्नापि हृष्येत्कदाचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१२</sup>भये न मुह्याम्यष्टकाहं कदाचि;त्संतापो मे मानसो नास्ति कश्चित्<br>धाता यथा मां विदधाति लोके; ध्रुवं तथाहं भवितेति मत्वा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१३</sup>संस्वेदजा अण्डजा उद्भिदाश्च; सरीसृपाः कृमयोऽथाप्सु मत्स्याः<br>तथाश्मानस्तृणकाष्ठं च सर्वं; दिष्टक्षये स्वां प्रकृतिं भजन्ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१४</sup>अनित्यतां सुखदुःखस्य बुद्ध्वा; कस्मात्संतापमष्टकाहं भजेयम्<br>किं कुर्यां वै किं च कृत्वा न तप्ये; तस्मात्संतापं वर्जयाम्यप्रमत्तः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१५</sup>अष्टक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१६</sup>ये ये लोकाः पार्थिवेन्द्र प्रधाना;स्त्वया भुक्ता यं च कालं यथा च<br>तन्मे राजन्ब्रूहि सर्वं यथाव;त्क्षेत्रज्ञवद्भाषसे त्वं हि धर्मान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१७</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१८</sup>राजाहमासमिह सार्वभौम;स्ततो लोकान्महतो अजयं वै<br>तत्रावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.१९</sup>ततः पुरीं पुरुहूतस्य रम्यां; सहस्रद्वारां शतयोजनायताम्<br>अध्यावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२०</sup>ततो दिव्यमजरं प्राप्य लोकं; प्रजापतेर्लोकपतेर्दुरापम्<br>तत्रावसं वर्षसहस्रमात्रं; ततो लोकं परमस्म्यभ्युपेतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२१</sup>देवस्य देवस्य निवेशने च; विजित्य लोकानवसं यथेष्टम्<br>संपूज्यमानस्त्रिदशैः समस्तै;स्तुल्यप्रभावद्युतिरीश्वराणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२२</sup>तथावसं नन्दने कामरूपी; संवत्सराणामयुतं शतानाम्<br>सहाप्सरोभिर्विहरन्पुण्यगन्धा;न्पश्यन्नगान्पुष्पितांश्चारुरूपान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२३</sup>तत्रस्थं मां देवसुखेषु सक्तं; कालेऽतीते महति ततोऽतिमात्रम्<br>दूतो देवानामब्रवीदुग्ररूपो; ध्वंसेत्युच्चैस्त्रिः प्लुतेन स्वरेण
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२४</sup>एतावन्मे विदितं राजसिंह; ततो भ्रष्टोऽहं नन्दनात्क्षीणपुण्यः<br>वाचोऽश्रौषं चान्तरिक्षे सुराणा;मनुक्रोशाच्छोचतां मानवेन्द्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२५</sup>अहो कष्टं क्षीणपुण्यो ययातिः; पतत्यसौ पुण्यकृत्पुण्यकीर्तिः<br>तानब्रुवं पतमानस्ततोऽहं; सतां मध्ये निपतेयं कथं नु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८४.२६</sup>तैराख्याता भवतां यज्ञभूमिः; समीक्ष्य चैनां त्वरितमुपागतोऽस्मि<br>हविर्गन्धं देशिकं यज्ञभूमे;र्धूमापाङ्गं प्रतिगृह्य प्रतीतः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

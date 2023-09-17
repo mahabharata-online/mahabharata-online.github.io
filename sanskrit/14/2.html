@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/1.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/3.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/1.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/3.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.२</sup>एवमुक्तस्तु राज्ञा स धृतराष्ट्रेण धीमता<br>तूष्णीं बभूव मेधावी तमुवाचाथ केशवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.३</sup>अतीव मनसा शोकः क्रियमाणो जनाधिप<br>संतापयति वैतस्य पूर्वप्रेतान्पितामहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.४</sup>यजस्व विविधैर्यज्ञैर्बहुभिः स्वाप्तदक्षिणैः<br>देवांस्तर्पय सोमेन स्वधया च पितॄनपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.५</sup>त्वद्विधस्य महाबुद्धे नैतदद्योपपद्यते<br>विदितं वेदितव्यं ते कर्तव्यमपि ते कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.६</sup>श्रुताश्च राजधर्मास्ते भीष्माद्भागीरथीसुतात्<br>कृष्णद्वैपायनाच्चैव नारदाद्विदुरात्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.७</sup>नेमामर्हसि मूढानां वृत्तिं त्वमनुवर्तितुम्<br>पितृपैतामहीं वृत्तिमास्थाय धुरमुद्वह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.८</sup>युक्तं हि यशसा क्षत्रं स्वर्गं प्राप्तुमसंशयम्<br>न हि कश्चन शूराणां निहतोऽत्र पराङ्मुखः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.९</sup>त्यज शोकं महाराज भवितव्यं हि तत्तथा<br>न शक्यास्ते पुनर्द्रष्टुं त्वया ह्यस्मिन्रणे हताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१०</sup>एतावदुक्त्वा गोविन्दो धर्मराजं युधिष्ठिरम्<br>विरराम महातेजास्तमुवाच युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.११</sup>गोविन्द मयि या प्रीतिस्तव सा विदिता मम<br>सौहृदेन तथा प्रेम्णा सदा मामनुकम्पसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१२</sup>प्रियं तु मे स्यात्सुमहत्कृतं चक्रगदाधर<br>श्रीमन्प्रीतेन मनसा सर्वं यादवनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१३</sup>यदि मामनुजानीयाद्भवान्गन्तुं तपोवनम्<br>न हि शान्तिं प्रपश्यामि घातयित्वा पितामहम्<br>कर्णं च पुरुषव्याघ्रं संग्रामेष्वपलायिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१४</sup>कर्मणा येन मुच्येयमस्मात्क्रूरादरिंदम<br>कर्मणस्तद्विधत्स्वेह येन शुध्यति मे मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१५</sup>तमेवंवादिनं व्यासस्ततः प्रोवाच धर्मवित्<br>सान्त्वयन्सुमहातेजाः शुभं वचनमर्थवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१६</sup>अकृता ते मतिस्तात पुनर्बाल्येन मुह्यसे<br>किमाकाशे वयं सर्वे प्रलपाम मुहुर्मुहुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१७</sup>विदिताः क्षत्रधर्मास्ते येषां युद्धेन जीविका<br>यथा प्रवृत्तो नृपतिर्नाधिबन्धेन युज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१८</sup>मोक्षधर्माश्च निखिला याथातथ्येन ते श्रुताः<br>असकृच्चैव संदेहाश्छिन्नास्ते कामजा मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.१९</sup>अश्रद्दधानो दुर्मेधा लुप्तस्मृतिरसि ध्रुवम्<br>मैवं भव न ते युक्तमिदमज्ञानमीदृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.२०</sup>प्रायश्चित्तानि सर्वाणि विदितानि च तेऽनघ<br>युद्धधर्माश्च ते सर्वे दानधर्माश्च ते श्रुताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.२.२१</sup>स कथं सर्वधर्मज्ञः सर्वागमविशारदः<br>परिमुह्यसि भूयस्त्वमज्ञानादिव भारत
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.२</sup>एवमुक्तस्तु राज्ञा स धृतराष्ट्रेण धीमता<br>तूष्णीं बभूव मेधावी तमुवाचाथ केशवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.३</sup>अतीव मनसा शोकः क्रियमाणो जनाधिप<br>संतापयति वैतस्य पूर्वप्रेतान्पितामहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.४</sup>यजस्व विविधैर्यज्ञैर्बहुभिः स्वाप्तदक्षिणैः<br>देवांस्तर्पय सोमेन स्वधया च पितॄनपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.५</sup>त्वद्विधस्य महाबुद्धे नैतदद्योपपद्यते<br>विदितं वेदितव्यं ते कर्तव्यमपि ते कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.६</sup>श्रुताश्च राजधर्मास्ते भीष्माद्भागीरथीसुतात्<br>कृष्णद्वैपायनाच्चैव नारदाद्विदुरात्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.७</sup>नेमामर्हसि मूढानां वृत्तिं त्वमनुवर्तितुम्<br>पितृपैतामहीं वृत्तिमास्थाय धुरमुद्वह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.८</sup>युक्तं हि यशसा क्षत्रं स्वर्गं प्राप्तुमसंशयम्<br>न हि कश्चन शूराणां निहतोऽत्र पराङ्मुखः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.९</sup>त्यज शोकं महाराज भवितव्यं हि तत्तथा<br>न शक्यास्ते पुनर्द्रष्टुं त्वया ह्यस्मिन्रणे हताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१०</sup>एतावदुक्त्वा गोविन्दो धर्मराजं युधिष्ठिरम्<br>विरराम महातेजास्तमुवाच युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.११</sup>गोविन्द मयि या प्रीतिस्तव सा विदिता मम<br>सौहृदेन तथा प्रेम्णा सदा मामनुकम्पसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१२</sup>प्रियं तु मे स्यात्सुमहत्कृतं चक्रगदाधर<br>श्रीमन्प्रीतेन मनसा सर्वं यादवनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१३</sup>यदि मामनुजानीयाद्भवान्गन्तुं तपोवनम्<br>न हि शान्तिं प्रपश्यामि घातयित्वा पितामहम्<br>कर्णं च पुरुषव्याघ्रं संग्रामेष्वपलायिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१४</sup>कर्मणा येन मुच्येयमस्मात्क्रूरादरिंदम<br>कर्मणस्तद्विधत्स्वेह येन शुध्यति मे मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१५</sup>तमेवंवादिनं व्यासस्ततः प्रोवाच धर्मवित्<br>सान्त्वयन्सुमहातेजाः शुभं वचनमर्थवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१६</sup>अकृता ते मतिस्तात पुनर्बाल्येन मुह्यसे<br>किमाकाशे वयं सर्वे प्रलपाम मुहुर्मुहुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१७</sup>विदिताः क्षत्रधर्मास्ते येषां युद्धेन जीविका<br>यथा प्रवृत्तो नृपतिर्नाधिबन्धेन युज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१८</sup>मोक्षधर्माश्च निखिला याथातथ्येन ते श्रुताः<br>असकृच्चैव संदेहाश्छिन्नास्ते कामजा मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.१९</sup>अश्रद्दधानो दुर्मेधा लुप्तस्मृतिरसि ध्रुवम्<br>मैवं भव न ते युक्तमिदमज्ञानमीदृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.२०</sup>प्रायश्चित्तानि सर्वाणि विदितानि च तेऽनघ<br>युद्धधर्माश्च ते सर्वे दानधर्माश्च ते श्रुताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.२.२१</sup>स कथं सर्वधर्मज्ञः सर्वागमविशारदः<br>परिमुह्यसि भूयस्त्वमज्ञानादिव भारत
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

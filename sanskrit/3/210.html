@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/209.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२१०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/211.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,103 +64,68 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/209.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२१०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/211.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.२</sup>काश्यपो ह्यथ वासिष्ठः प्राणश्च प्राणपुत्रकः<br>अग्निराङ्गिरसश्चैव च्यवनस्त्रिषुवर्चकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.३</sup>अचरन्त तपस्तीव्रं पुत्रार्थे बहुवार्षिकम्<br>पुत्रं लभेम धर्मिष्ठं यशसा ब्रह्मणा समम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.४</sup>महाव्याहृतिभिर्ध्यातः पञ्चभिस्तैस्तदा त्वथ<br>जज्ञे तेजोमयोऽर्चिष्मान्पञ्चवर्णः प्रभावनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.५</sup>समिद्धोऽग्निः शिरस्तस्य बाहू सूर्यनिभौ तथा<br>त्वङ्नेत्रे च सुवर्णाभे कृष्णे जङ्घे च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.६</sup>पञ्चवर्णः स तपसा कृतस्तैः पञ्चभिर्जनैः<br>पाञ्चजन्यः श्रुतो वेदे पञ्चवंशकरस्तु सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.७</sup>दश वर्षसहस्राणि तपस्तप्त्वा महातपाः<br>जनयत्पावकं घोरं पितॄणां स प्रजाः सृजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.८</sup>बृहद्रथंतरं मूर्ध्नो वक्त्राच्च तरसाहरौ<br>शिवं नाभ्यां बलादिन्द्रं वाय्वग्नी प्राणतोऽसृजत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.९</sup>बाहुभ्यामनुदात्तौ च विश्वे भूतानि चैव ह<br>एतान्सृष्ट्वा ततः पञ्च पितॄणामसृजत्सुतान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१०</sup>बृहदूर्जस्य प्रणिधिः काश्यपस्य बृहत्तरः<br>भानुरङ्गिरसो वीरः पुत्रो वर्चस्य सौभरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.११</sup>प्राणस्य चानुदात्तश्च व्याख्याताः पञ्च वंशजाः<br>देवान्यज्ञमुषश्चान्यान्सृजन्पञ्चदशोत्तरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१२</sup>अभीममतिभीमं च भीमं भीमबलाबलम्<br>एतान्यज्ञमुषः पञ्च देवानभ्यसृजत्तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१३</sup>सुमित्रं मित्रवन्तं च मित्रज्ञं मित्रवर्धनम्<br>मित्रधर्माणमित्येतान्देवानभ्यसृजत्तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१४</sup>सुरप्रवीरं वीरं च सुकेशं च सुवर्चसम्<br>सुराणामपि हन्तारं पञ्चैतानसृजत्तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१५</sup>त्रिविधं संस्थिता ह्येते पञ्च पञ्च पृथक्पृथक्<br>मुष्णन्त्यत्र स्थिता ह्येते स्वर्गतो यज्ञयाजिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१६</sup>तेषामिष्टं हरन्त्येते निघ्नन्ति च महद्भुवि<br>स्पर्धया हव्यवाहानां निघ्नन्त्येते हरन्ति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१७</sup>हविर्वेद्यां तदादानं कुशलैः संप्रवर्तितम्<br>तदेते नोपसर्पन्ति यत्र चाग्निः स्थितो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१८</sup>चितोऽग्निरुद्वहन्यज्ञं पक्षाभ्यां तान्प्रबाधते<br>मन्त्रैः प्रशमिता ह्येते नेष्टं मुष्णन्ति यज्ञियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.१९</sup>बृहदुक्थतपस्यैव पुत्रो भूमिमुपाश्रितः<br>अग्निहोत्रे हूयमाने पृथिव्यां सद्भिरिज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१०.२०</sup>रथंतरश्च तपसः पुत्रोऽग्निः परिपठ्यते<br>मित्रविन्दाय वै तस्य हविरध्वर्यवो विदुः<br>मुमुदे परमप्रीतः सह पुत्रैर्महायशाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.२</sup>काश्यपो ह्यथ वासिष्ठः प्राणश्च प्राणपुत्रकः<br>अग्निराङ्गिरसश्चैव च्यवनस्त्रिषुवर्चकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.३</sup>अचरन्त तपस्तीव्रं पुत्रार्थे बहुवार्षिकम्<br>पुत्रं लभेम धर्मिष्ठं यशसा ब्रह्मणा समम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.४</sup>महाव्याहृतिभिर्ध्यातः पञ्चभिस्तैस्तदा त्वथ<br>जज्ञे तेजोमयोऽर्चिष्मान्पञ्चवर्णः प्रभावनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.५</sup>समिद्धोऽग्निः शिरस्तस्य बाहू सूर्यनिभौ तथा<br>त्वङ्नेत्रे च सुवर्णाभे कृष्णे जङ्घे च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.६</sup>पञ्चवर्णः स तपसा कृतस्तैः पञ्चभिर्जनैः<br>पाञ्चजन्यः श्रुतो वेदे पञ्चवंशकरस्तु सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.७</sup>दश वर्षसहस्राणि तपस्तप्त्वा महातपाः<br>जनयत्पावकं घोरं पितॄणां स प्रजाः सृजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.८</sup>बृहद्रथंतरं मूर्ध्नो वक्त्राच्च तरसाहरौ<br>शिवं नाभ्यां बलादिन्द्रं वाय्वग्नी प्राणतोऽसृजत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.९</sup>बाहुभ्यामनुदात्तौ च विश्वे भूतानि चैव ह<br>एतान्सृष्ट्वा ततः पञ्च पितॄणामसृजत्सुतान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१०</sup>बृहदूर्जस्य प्रणिधिः काश्यपस्य बृहत्तरः<br>भानुरङ्गिरसो वीरः पुत्रो वर्चस्य सौभरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.११</sup>प्राणस्य चानुदात्तश्च व्याख्याताः पञ्च वंशजाः<br>देवान्यज्ञमुषश्चान्यान्सृजन्पञ्चदशोत्तरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१२</sup>अभीममतिभीमं च भीमं भीमबलाबलम्<br>एतान्यज्ञमुषः पञ्च देवानभ्यसृजत्तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१३</sup>सुमित्रं मित्रवन्तं च मित्रज्ञं मित्रवर्धनम्<br>मित्रधर्माणमित्येतान्देवानभ्यसृजत्तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१४</sup>सुरप्रवीरं वीरं च सुकेशं च सुवर्चसम्<br>सुराणामपि हन्तारं पञ्चैतानसृजत्तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१५</sup>त्रिविधं संस्थिता ह्येते पञ्च पञ्च पृथक्पृथक्<br>मुष्णन्त्यत्र स्थिता ह्येते स्वर्गतो यज्ञयाजिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१६</sup>तेषामिष्टं हरन्त्येते निघ्नन्ति च महद्भुवि<br>स्पर्धया हव्यवाहानां निघ्नन्त्येते हरन्ति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१७</sup>हविर्वेद्यां तदादानं कुशलैः संप्रवर्तितम्<br>तदेते नोपसर्पन्ति यत्र चाग्निः स्थितो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१८</sup>चितोऽग्निरुद्वहन्यज्ञं पक्षाभ्यां तान्प्रबाधते<br>मन्त्रैः प्रशमिता ह्येते नेष्टं मुष्णन्ति यज्ञियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.१९</sup>बृहदुक्थतपस्यैव पुत्रो भूमिमुपाश्रितः<br>अग्निहोत्रे हूयमाने पृथिव्यां सद्भिरिज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१०.२०</sup>रथंतरश्च तपसः पुत्रोऽग्निः परिपठ्यते<br>मित्रविन्दाय वै तस्य हविरध्वर्यवो विदुः<br>मुमुदे परमप्रीतः सह पुत्रैर्महायशाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -141,8 +134,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

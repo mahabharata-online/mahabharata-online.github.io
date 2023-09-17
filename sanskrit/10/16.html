@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/10/15.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१०:१६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/10/17.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/10/15.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१०:१६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/10/17.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२</sup>तदाज्ञाय हृषीकेशो विसृष्टं पापकर्मणा<br>हृष्यमाण इदं वाक्यं द्रौणिं प्रत्यब्रवीत्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३</sup>विराटस्य सुतां पूर्वं स्नुषां गाण्डीवधन्वनः<br>उपप्लव्यगतां दृष्ट्वा व्रतवान्ब्राह्मणोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.४</sup>परिक्षीणेषु कुरुषु पुत्रस्तव जनिष्यति<br>एतदस्य परिक्षित्त्वं गर्भस्थस्य भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.५</sup>तस्य तद्वचनं साधोः सत्यमेव भविष्यति<br>परिक्षिद्भविता ह्येषां पुनर्वंशकरः सुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.६</sup>एवं ब्रुवाणं गोविन्दं सात्वतप्रवरं तदा<br>द्रौणिः परमसंरब्धः प्रत्युवाचेदमुत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.७</sup>नैतदेवं यथात्थ त्वं पक्षपातेन केशव<br>वचनं पुण्डरीकाक्ष न च मद्वाक्यमन्यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.८</sup>पतिष्यत्येतदस्त्रं हि गर्भे तस्या मयोद्यतम्<br>विराटदुहितुः कृष्ण यां त्वं रक्षितुमिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.९</sup>वासुदेव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१०</sup>अमोघः परमास्त्रस्य पातस्तस्य भविष्यति<br>स तु गर्भो मृतो जातो दीर्घमायुरवाप्स्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.११</sup>त्वां तु कापुरुषं पापं विदुः सर्वे मनीषिणः<br>असकृत्पापकर्माणं बालजीवितघातकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१२</sup>तस्मात्त्वमस्य पापस्य कर्मणः फलमाप्नुहि<br>त्रीणि वर्षसहस्राणि चरिष्यसि महीमिमाम्<br>अप्राप्नुवन्क्वचित्कांचित्संविदं जातु केनचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१३</sup>निर्जनानसहायस्त्वं देशान्प्रविचरिष्यसि<br>भवित्री न हि ते क्षुद्र जनमध्येषु संस्थितिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१४</sup>पूयशोणितगन्धी च दुर्गकान्तारसंश्रयः<br>विचरिष्यसि पापात्मन्सर्वव्याधिसमन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१५</sup>वयः प्राप्य परिक्षित्तु वेदव्रतमवाप्य च<br>कृपाच्छारद्वताद्वीरः सर्वास्त्राण्युपलप्स्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१६</sup>विदित्वा परमास्त्राणि क्षत्रधर्मव्रते स्थितः<br>षष्टिं वर्षाणि धर्मात्मा वसुधां पालयिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१७</sup>इतश्चोर्ध्वं महाबाहुः कुरुराजो भविष्यति<br>परिक्षिन्नाम नृपतिर्मिषतस्ते सुदुर्मते<br>पश्य मे तपसो वीर्यं सत्यस्य च नराधम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१८</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.१९</sup>यस्मादनादृत्य कृतं त्वयास्मान्कर्म दारुणम्<br>ब्राह्मणस्य सतश्चैव यस्मात्ते वृत्तमीदृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२०</sup>तस्माद्यद्देवकीपुत्र उक्तवानुत्तमं वचः<br>असंशयं ते तद्भावि क्षुद्रकर्मन्व्रजाश्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२१</sup>अश्वत्थामोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२२</sup>सहैव भवता ब्रह्मन्स्थास्यामि पुरुषेष्वहम्<br>सत्यवागस्तु भगवानयं च पुरुषोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२४</sup>प्रदायाथ मणिं द्रौणिः पाण्डवानां महात्मनाम्<br>जगाम विमनास्तेषां सर्वेषां पश्यतां वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२५</sup>पाण्डवाश्चापि गोविन्दं पुरस्कृत्य हतद्विषः<br>कृष्णद्वैपायनं चैव नारदं च महामुनिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२६</sup>द्रोणपुत्रस्य सहजं मणिमादाय सत्वराः<br>द्रौपदीमभ्यधावन्त प्रायोपेतां मनस्विनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२७</sup>ततस्ते पुरुषव्याघ्राः सदश्वैरनिलोपमैः<br>अभ्ययुः सहदाशार्हाः शिबिरं पुनरेव ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२८</sup>अवतीर्य रथाभ्यां तु त्वरमाणा महारथाः<br>ददृशुर्द्रौपदीं कृष्णामार्तामार्ततराः स्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.२९</sup>तामुपेत्य निरानन्दां दुःखशोकसमन्विताम्<br>परिवार्य व्यतिष्ठन्त पाण्डवाः सहकेशवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३०</sup>ततो राज्ञाभ्यनुज्ञातो भीमसेनो महाबलः<br>प्रददौ तु मणिं दिव्यं वचनं चेदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३१</sup>अयं भद्रे तव मणिः पुत्रहन्ता जितः स ते<br>उत्तिष्ठ शोकमुत्सृज्य क्षत्रधर्ममनुस्मर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३२</sup>प्रयाणे वासुदेवस्य शमार्थमसितेक्षणे<br>यान्युक्तानि त्वया भीरु वाक्यानि मधुघातिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३३</sup>नैव मे पतयः सन्ति न पुत्रा भ्रातरो न च<br>नैव त्वमपि गोविन्द शममिच्छति राजनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३४</sup>उक्तवत्यसि धीराणि वाक्यानि पुरुषोत्तमम्<br>क्षत्रधर्मानुरूपाणि तानि संस्मर्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३५</sup>हतो दुर्योधनः पापो राज्यस्य परिपन्थकः<br>दुःशासनस्य रुधिरं पीतं विस्फुरतो मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३६</sup>वैरस्य गतमानृण्यं न स्म वाच्या विवक्षताम्<br>जित्वा मुक्तो द्रोणपुत्रो ब्राह्मण्याद्गौरवेण च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३७</sup>यशोऽस्य पातितं देवि शरीरं त्ववशेषितम्<br>वियोजितश्च मणिना न्यासितश्चायुधं भुवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३८</sup>द्रौपद्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.३९</sup>केवलानृण्यमाप्तास्मि गुरुपुत्रो गुरुर्मम<br>शिरस्येतं मणिं राजा प्रतिबध्नातु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.४०</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.४१</sup>तं गृहीत्वा ततो राजा शिरस्येवाकरोत्तदा<br>गुरोरुच्छिष्टमित्येव द्रौपद्या वचनादपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.४२</sup>ततो दिव्यं मणिवरं शिरसा धारयन्प्रभुः<br>शुशुभे स महाराजः सचन्द्र इव पर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१०.१६.४३</sup>उत्तस्थौ पुत्रशोकार्ता ततः कृष्णा मनस्विनी<br>कृष्णं चापि महाबाहुं पर्यपृच्छत धर्मराट्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२</sup>तदाज्ञाय हृषीकेशो विसृष्टं पापकर्मणा<br>हृष्यमाण इदं वाक्यं द्रौणिं प्रत्यब्रवीत्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३</sup>विराटस्य सुतां पूर्वं स्नुषां गाण्डीवधन्वनः<br>उपप्लव्यगतां दृष्ट्वा व्रतवान्ब्राह्मणोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.४</sup>परिक्षीणेषु कुरुषु पुत्रस्तव जनिष्यति<br>एतदस्य परिक्षित्त्वं गर्भस्थस्य भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.५</sup>तस्य तद्वचनं साधोः सत्यमेव भविष्यति<br>परिक्षिद्भविता ह्येषां पुनर्वंशकरः सुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.६</sup>एवं ब्रुवाणं गोविन्दं सात्वतप्रवरं तदा<br>द्रौणिः परमसंरब्धः प्रत्युवाचेदमुत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.७</sup>नैतदेवं यथात्थ त्वं पक्षपातेन केशव<br>वचनं पुण्डरीकाक्ष न च मद्वाक्यमन्यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.८</sup>पतिष्यत्येतदस्त्रं हि गर्भे तस्या मयोद्यतम्<br>विराटदुहितुः कृष्ण यां त्वं रक्षितुमिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.९</sup>वासुदेव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१०</sup>अमोघः परमास्त्रस्य पातस्तस्य भविष्यति<br>स तु गर्भो मृतो जातो दीर्घमायुरवाप्स्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.११</sup>त्वां तु कापुरुषं पापं विदुः सर्वे मनीषिणः<br>असकृत्पापकर्माणं बालजीवितघातकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१२</sup>तस्मात्त्वमस्य पापस्य कर्मणः फलमाप्नुहि<br>त्रीणि वर्षसहस्राणि चरिष्यसि महीमिमाम्<br>अप्राप्नुवन्क्वचित्कांचित्संविदं जातु केनचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१३</sup>निर्जनानसहायस्त्वं देशान्प्रविचरिष्यसि<br>भवित्री न हि ते क्षुद्र जनमध्येषु संस्थितिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१४</sup>पूयशोणितगन्धी च दुर्गकान्तारसंश्रयः<br>विचरिष्यसि पापात्मन्सर्वव्याधिसमन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१५</sup>वयः प्राप्य परिक्षित्तु वेदव्रतमवाप्य च<br>कृपाच्छारद्वताद्वीरः सर्वास्त्राण्युपलप्स्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१६</sup>विदित्वा परमास्त्राणि क्षत्रधर्मव्रते स्थितः<br>षष्टिं वर्षाणि धर्मात्मा वसुधां पालयिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१७</sup>इतश्चोर्ध्वं महाबाहुः कुरुराजो भविष्यति<br>परिक्षिन्नाम नृपतिर्मिषतस्ते सुदुर्मते<br>पश्य मे तपसो वीर्यं सत्यस्य च नराधम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१८</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.१९</sup>यस्मादनादृत्य कृतं त्वयास्मान्कर्म दारुणम्<br>ब्राह्मणस्य सतश्चैव यस्मात्ते वृत्तमीदृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२०</sup>तस्माद्यद्देवकीपुत्र उक्तवानुत्तमं वचः<br>असंशयं ते तद्भावि क्षुद्रकर्मन्व्रजाश्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२१</sup>अश्वत्थामोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२२</sup>सहैव भवता ब्रह्मन्स्थास्यामि पुरुषेष्वहम्<br>सत्यवागस्तु भगवानयं च पुरुषोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२४</sup>प्रदायाथ मणिं द्रौणिः पाण्डवानां महात्मनाम्<br>जगाम विमनास्तेषां सर्वेषां पश्यतां वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२५</sup>पाण्डवाश्चापि गोविन्दं पुरस्कृत्य हतद्विषः<br>कृष्णद्वैपायनं चैव नारदं च महामुनिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२६</sup>द्रोणपुत्रस्य सहजं मणिमादाय सत्वराः<br>द्रौपदीमभ्यधावन्त प्रायोपेतां मनस्विनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२७</sup>ततस्ते पुरुषव्याघ्राः सदश्वैरनिलोपमैः<br>अभ्ययुः सहदाशार्हाः शिबिरं पुनरेव ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२८</sup>अवतीर्य रथाभ्यां तु त्वरमाणा महारथाः<br>ददृशुर्द्रौपदीं कृष्णामार्तामार्ततराः स्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.२९</sup>तामुपेत्य निरानन्दां दुःखशोकसमन्विताम्<br>परिवार्य व्यतिष्ठन्त पाण्डवाः सहकेशवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३०</sup>ततो राज्ञाभ्यनुज्ञातो भीमसेनो महाबलः<br>प्रददौ तु मणिं दिव्यं वचनं चेदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३१</sup>अयं भद्रे तव मणिः पुत्रहन्ता जितः स ते<br>उत्तिष्ठ शोकमुत्सृज्य क्षत्रधर्ममनुस्मर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३२</sup>प्रयाणे वासुदेवस्य शमार्थमसितेक्षणे<br>यान्युक्तानि त्वया भीरु वाक्यानि मधुघातिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३३</sup>नैव मे पतयः सन्ति न पुत्रा भ्रातरो न च<br>नैव त्वमपि गोविन्द शममिच्छति राजनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३४</sup>उक्तवत्यसि धीराणि वाक्यानि पुरुषोत्तमम्<br>क्षत्रधर्मानुरूपाणि तानि संस्मर्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३५</sup>हतो दुर्योधनः पापो राज्यस्य परिपन्थकः<br>दुःशासनस्य रुधिरं पीतं विस्फुरतो मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३६</sup>वैरस्य गतमानृण्यं न स्म वाच्या विवक्षताम्<br>जित्वा मुक्तो द्रोणपुत्रो ब्राह्मण्याद्गौरवेण च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३७</sup>यशोऽस्य पातितं देवि शरीरं त्ववशेषितम्<br>वियोजितश्च मणिना न्यासितश्चायुधं भुवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३८</sup>द्रौपद्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.३९</sup>केवलानृण्यमाप्तास्मि गुरुपुत्रो गुरुर्मम<br>शिरस्येतं मणिं राजा प्रतिबध्नातु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.४०</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.४१</sup>तं गृहीत्वा ततो राजा शिरस्येवाकरोत्तदा<br>गुरोरुच्छिष्टमित्येव द्रौपद्या वचनादपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.४२</sup>ततो दिव्यं मणिवरं शिरसा धारयन्प्रभुः<br>शुशुभे स महाराजः सचन्द्र इव पर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१०.१६.४३</sup>उत्तस्थौ पुत्रशोकार्ता ततः कृष्णा मनस्विनी<br>कृष्णं चापि महाबाहुं पर्यपृच्छत धर्मराट्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

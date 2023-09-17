@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/207.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२०८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/209.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,124 +64,89 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/207.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२०८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/209.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१</sup>गुरुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२</sup>दुरन्तेष्विन्द्रियार्थेषु सक्ताः सीदन्ति जन्तवः<br>ये त्वसक्ता महात्मानस्ते यान्ति परमां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.३</sup>जन्ममृत्युजरादुःखैर्व्याधिभिर्मनसः क्लमैः<br>दृष्ट्वेमं संततं लोकं घटेन्मोक्षाय बुद्धिमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.४</sup>वाङ्मनोभ्यां शरीरेण शुचिः स्यादनहंकृतः<br>प्रशान्तो ज्ञानवान्भिक्षुर्निरपेक्षश्चरेत्सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.५</sup>अथ वा मनसः सङ्गं पश्येद्भूतानुकम्पया<br>अत्राप्युपेक्षां कुर्वीत ज्ञात्वा कर्मफलं जगत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.६</sup>यत्कृतं प्राक्शुभं कर्म पापं वा तदुपाश्नुते<br>तस्माच्छुभानि कर्माणि कुर्याद्वाग्बुद्धिकर्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.७</sup>अहिंसा सत्यवचनं सर्वभूतेषु चार्जवम्<br>क्षमा चैवाप्रमादश्च यस्यैते स सुखी भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.८</sup>यश्चैनं परमं धर्मं सर्वभूतसुखावहम्<br>दुःखान्निःसरणं वेद स तत्त्वज्ञः सुखी भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.९</sup>तस्मात्समाहितं बुद्ध्या मनो भूतेषु धारयेत्<br>नापध्यायेन्न स्पृहयेन्नाबद्धं चिन्तयेदसत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१०</sup>अवाग्योगप्रयोगेण मनोज्ञं संप्रवर्तते<br>विवक्षता वा सद्वाक्यं धर्मं सूक्ष्ममवेक्षता<br>सत्यां वाचमहिंस्रां च वदेदनपवादिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.११</sup>कल्कापेतामपरुषामनृशंसामपैशुनाम्<br>ईदृगल्पं च वक्तव्यमविक्षिप्तेन चेतसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१२</sup>वाक्प्रबुद्धो हि संरागाद्विरागाद्व्याहरेद्यदि<br>बुद्ध्या ह्यनिगृहीतेन मनसा कर्म तामसम्<br>रजोभूतैर्हि करणैः कर्मणा प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१३</sup>स दुःखं प्राप्य लोकेऽस्मिन्नरकायोपपद्यते<br>तस्मान्मनोवाक्शरीरैराचरेद्धैर्यमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१४</sup>प्रकीर्णमेषभारो हि यद्वद्धार्येत दस्युभिः<br>प्रतिलोमां दिशं बुद्ध्वा संसारमबुधास्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१५</sup>तानेव च यथा दस्यून्क्षिप्त्वा गच्छेच्छिवां दिशम्<br>तथा रजस्तमःकर्माण्युत्सृज्य प्राप्नुयात्सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१६</sup>निःसंदिग्धमनीहो वै मुक्तः सर्वपरिग्रहैः<br>विविक्तचारी लघ्वाशी तपस्वी नियतेन्द्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१७</sup>ज्ञानदग्धपरिक्लेशः प्रयोगरतिरात्मवान्<br>निष्प्रचारेण मनसा परं तदधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१८</sup>धृतिमानात्मवान्बुद्धिं निगृह्णीयादसंशयम्<br>मनो बुद्ध्या निगृह्णीयाद्विषयान्मनसात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.१९</sup>निगृहीतेन्द्रियस्यास्य कुर्वाणस्य मनो वशे<br>देवतास्ताः प्रकाशन्ते हृष्टा यान्ति तमीश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२०</sup>ताभिः संसक्तमनसो ब्रह्मवत्संप्रकाशते<br>एतैश्चापगतैः सर्वैर्ब्रह्मभूयाय कल्पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२१</sup>अथ वा न प्रवर्तेत योगतन्त्रैरुपक्रमेत्<br>येन तन्त्रमयं तन्त्रं वृत्तिः स्यात्तत्तदाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२२</sup>कणपिण्याककुल्माषशाकयावकसक्तवः<br>तथा मूलफलं भैक्षं पर्यायेणोपयोजयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२३</sup>आहारं नियतं चैव देशे काले च सात्त्विकम्<br>तत्परीक्ष्यानुवर्तेत यत्प्रवृत्त्यनुवर्तकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२४</sup>प्रवृत्तं नोपरुन्धेत शनैरग्निमिवेन्धयेत्<br>ज्ञानेन्धितं ततो ज्ञानमर्कवत्संप्रकाशते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२५</sup>ज्ञानाधिष्ठानमज्ञानं त्रीँल्लोकानधितिष्ठति<br>विज्ञानानुगतं ज्ञानमज्ञानादपकृष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२६</sup>पृथक्त्वात्संप्रयोगाच्च नासूयुर्वेद शाश्वतम्<br>स तयोरपवर्गज्ञो वीतरागो विमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२०८.२७</sup>वयोतीतो जरामृत्यू जित्वा ब्रह्म सनातनम्<br>अमृतं तदवाप्नोति यत्तदक्षरमव्ययम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१</sup>गुरुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२</sup>दुरन्तेष्विन्द्रियार्थेषु सक्ताः सीदन्ति जन्तवः<br>ये त्वसक्ता महात्मानस्ते यान्ति परमां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.३</sup>जन्ममृत्युजरादुःखैर्व्याधिभिर्मनसः क्लमैः<br>दृष्ट्वेमं संततं लोकं घटेन्मोक्षाय बुद्धिमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.४</sup>वाङ्मनोभ्यां शरीरेण शुचिः स्यादनहंकृतः<br>प्रशान्तो ज्ञानवान्भिक्षुर्निरपेक्षश्चरेत्सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.५</sup>अथ वा मनसः सङ्गं पश्येद्भूतानुकम्पया<br>अत्राप्युपेक्षां कुर्वीत ज्ञात्वा कर्मफलं जगत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.६</sup>यत्कृतं प्राक्शुभं कर्म पापं वा तदुपाश्नुते<br>तस्माच्छुभानि कर्माणि कुर्याद्वाग्बुद्धिकर्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.७</sup>अहिंसा सत्यवचनं सर्वभूतेषु चार्जवम्<br>क्षमा चैवाप्रमादश्च यस्यैते स सुखी भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.८</sup>यश्चैनं परमं धर्मं सर्वभूतसुखावहम्<br>दुःखान्निःसरणं वेद स तत्त्वज्ञः सुखी भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.९</sup>तस्मात्समाहितं बुद्ध्या मनो भूतेषु धारयेत्<br>नापध्यायेन्न स्पृहयेन्नाबद्धं चिन्तयेदसत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१०</sup>अवाग्योगप्रयोगेण मनोज्ञं संप्रवर्तते<br>विवक्षता वा सद्वाक्यं धर्मं सूक्ष्ममवेक्षता<br>सत्यां वाचमहिंस्रां च वदेदनपवादिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.११</sup>कल्कापेतामपरुषामनृशंसामपैशुनाम्<br>ईदृगल्पं च वक्तव्यमविक्षिप्तेन चेतसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१२</sup>वाक्प्रबुद्धो हि संरागाद्विरागाद्व्याहरेद्यदि<br>बुद्ध्या ह्यनिगृहीतेन मनसा कर्म तामसम्<br>रजोभूतैर्हि करणैः कर्मणा प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१३</sup>स दुःखं प्राप्य लोकेऽस्मिन्नरकायोपपद्यते<br>तस्मान्मनोवाक्शरीरैराचरेद्धैर्यमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१४</sup>प्रकीर्णमेषभारो हि यद्वद्धार्येत दस्युभिः<br>प्रतिलोमां दिशं बुद्ध्वा संसारमबुधास्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१५</sup>तानेव च यथा दस्यून्क्षिप्त्वा गच्छेच्छिवां दिशम्<br>तथा रजस्तमःकर्माण्युत्सृज्य प्राप्नुयात्सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१६</sup>निःसंदिग्धमनीहो वै मुक्तः सर्वपरिग्रहैः<br>विविक्तचारी लघ्वाशी तपस्वी नियतेन्द्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१७</sup>ज्ञानदग्धपरिक्लेशः प्रयोगरतिरात्मवान्<br>निष्प्रचारेण मनसा परं तदधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१८</sup>धृतिमानात्मवान्बुद्धिं निगृह्णीयादसंशयम्<br>मनो बुद्ध्या निगृह्णीयाद्विषयान्मनसात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.१९</sup>निगृहीतेन्द्रियस्यास्य कुर्वाणस्य मनो वशे<br>देवतास्ताः प्रकाशन्ते हृष्टा यान्ति तमीश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२०</sup>ताभिः संसक्तमनसो ब्रह्मवत्संप्रकाशते<br>एतैश्चापगतैः सर्वैर्ब्रह्मभूयाय कल्पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२१</sup>अथ वा न प्रवर्तेत योगतन्त्रैरुपक्रमेत्<br>येन तन्त्रमयं तन्त्रं वृत्तिः स्यात्तत्तदाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२२</sup>कणपिण्याककुल्माषशाकयावकसक्तवः<br>तथा मूलफलं भैक्षं पर्यायेणोपयोजयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२३</sup>आहारं नियतं चैव देशे काले च सात्त्विकम्<br>तत्परीक्ष्यानुवर्तेत यत्प्रवृत्त्यनुवर्तकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२४</sup>प्रवृत्तं नोपरुन्धेत शनैरग्निमिवेन्धयेत्<br>ज्ञानेन्धितं ततो ज्ञानमर्कवत्संप्रकाशते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२५</sup>ज्ञानाधिष्ठानमज्ञानं त्रीँल्लोकानधितिष्ठति<br>विज्ञानानुगतं ज्ञानमज्ञानादपकृष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२६</sup>पृथक्त्वात्संप्रयोगाच्च नासूयुर्वेद शाश्वतम्<br>स तयोरपवर्गज्ञो वीतरागो विमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२०८.२७</sup>वयोतीतो जरामृत्यू जित्वा ब्रह्म सनातनम्<br>अमृतं तदवाप्नोति यत्तदक्षरमव्ययम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -162,8 +155,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

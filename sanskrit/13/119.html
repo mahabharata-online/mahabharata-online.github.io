@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/118.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:११९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/120.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/118.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:११९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/120.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२</sup>शुभेन कर्मणा यद्वै तिर्यग्योनौ न मुह्यसे<br>ममैव कीट तत्कर्म येन त्वं न प्रमुह्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.३</sup>अहं हि दर्शनादेव तारयामि तपोबलात्<br>तपोबलाद्धि बलवद्बलमन्यन्न विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.४</sup>जानामि पापैः स्वकृतैर्गतं त्वां कीट कीटताम्<br>अवाप्स्यसि परं धर्मं धर्मस्थो यदि मन्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.५</sup>कर्म भूमिकृतं देवा भुञ्जते तिर्यगाश्च ये<br>धर्मादपि मनुष्येषु कामोऽर्थश्च यथा गुणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.६</sup>वाग्बुद्धिपाणिपादैश्चाप्युपेतस्य विपश्चितः<br>किं हीयते मनुष्यस्य मन्दस्यापि हि जीवतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.७</sup>जीवन्हि कुरुते पूजां विप्राग्र्यः शशिसूर्ययोः<br>ब्रुवन्नपि कथां पुण्यां तत्र कीट त्वमेष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.८</sup>गुणभूतानि भूतानि तत्र त्वमुपभोक्ष्यसे<br>तत्र तेऽहं विनेष्यामि ब्रह्मत्वं यत्र चेच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.९</sup>स तथेति प्रतिश्रुत्य कीटो वर्त्मन्यतिष्ठत<br>तमृषिं द्रष्टुमगमत्सर्वास्वन्यासु योनिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१०</sup>श्वाविद्गोधावराहाणां तथैव मृगपक्षिणाम्<br>श्वपाकवैश्यशूद्राणां क्षत्रियाणां च योनिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.११</sup>स कीटेत्येवमाभाष्य ऋषिणा सत्यवादिना<br>प्रतिस्मृत्याथ जग्राह पादौ मूर्ध्ना कृताञ्जलिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१२</sup>कीट उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१३</sup>इदं तदतुलं स्थानमीप्सितं दशभिर्गुणैः<br>यदहं प्राप्य कीटत्वमागतो राजपुत्रताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१४</sup>वहन्ति मामतिबलाः कुञ्जरा हेममालिनः<br>स्यन्दनेषु च काम्बोजा युक्ताः परमवाजिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१५</sup>उष्ट्राश्वतरयुक्तानि यानानि च वहन्ति माम्<br>सबान्धवः सहामात्यश्चाश्नामि पिशितौदनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१६</sup>गृहेषु सुनिवासेषु सुखेषु शयनेषु च<br>परार्ध्येषु महाभाग स्वपामीह सुपूजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१७</sup>सर्वेष्वपररात्रेषु सूतमागधबन्दिनः<br>स्तुवन्ति मां यथा देवं महेन्द्रं प्रियवादिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१८</sup>प्रसादात्सत्यसंधस्य भवतोऽमिततेजसः<br>यदहं कीटतां प्राप्य संप्राप्तो राजपुत्रताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.१९</sup>नमस्तेऽस्तु महाप्राज्ञ किं करोमि प्रशाधि माम्<br>त्वत्तपोबलनिर्दिष्टमिदं ह्यधिगतं मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२०</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२१</sup>अर्चितोऽहं त्वया राजन्वाग्भिरद्य यदृच्छया<br>अद्य ते कीटतां प्राप्य स्मृतिर्जाताजुगुप्सिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२२</sup>न तु नाशोऽस्ति पापस्य यत्त्वयोपचितं पुरा<br>शूद्रेणार्थप्रधानेन नृशंसेनाततायिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२३</sup>मम ते दर्शनं प्राप्तं तच्चैव सुकृतं पुरा<br>तिर्यग्योनौ स्म जातेन मम चाप्यर्चनात्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२४</sup>इतस्त्वं राजपुत्रत्वाद्ब्राह्मण्यं समवाप्स्यसि<br>गोब्राह्मणकृते प्राणान्हुत्वात्मीयान्रणाजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२५</sup>राजपुत्रसुखं प्राप्य ऋतूंश्चैवाप्तदक्षिणान्<br>अथ मोदिष्यसे स्वर्गे ब्रह्मभूतोऽव्ययः सुखी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.११९.२६</sup>तिर्यग्योन्याः शूद्रतामभ्युपैति; शूद्रो वैश्यत्वं क्षत्रियत्वं च वैश्यः<br>वृत्तश्लाघी क्षत्रियो ब्राह्मणत्वं; स्वर्गं पुण्यं ब्राह्मणः साधुवृत्तः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२</sup>शुभेन कर्मणा यद्वै तिर्यग्योनौ न मुह्यसे<br>ममैव कीट तत्कर्म येन त्वं न प्रमुह्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.३</sup>अहं हि दर्शनादेव तारयामि तपोबलात्<br>तपोबलाद्धि बलवद्बलमन्यन्न विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.४</sup>जानामि पापैः स्वकृतैर्गतं त्वां कीट कीटताम्<br>अवाप्स्यसि परं धर्मं धर्मस्थो यदि मन्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.५</sup>कर्म भूमिकृतं देवा भुञ्जते तिर्यगाश्च ये<br>धर्मादपि मनुष्येषु कामोऽर्थश्च यथा गुणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.६</sup>वाग्बुद्धिपाणिपादैश्चाप्युपेतस्य विपश्चितः<br>किं हीयते मनुष्यस्य मन्दस्यापि हि जीवतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.७</sup>जीवन्हि कुरुते पूजां विप्राग्र्यः शशिसूर्ययोः<br>ब्रुवन्नपि कथां पुण्यां तत्र कीट त्वमेष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.८</sup>गुणभूतानि भूतानि तत्र त्वमुपभोक्ष्यसे<br>तत्र तेऽहं विनेष्यामि ब्रह्मत्वं यत्र चेच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.९</sup>स तथेति प्रतिश्रुत्य कीटो वर्त्मन्यतिष्ठत<br>तमृषिं द्रष्टुमगमत्सर्वास्वन्यासु योनिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१०</sup>श्वाविद्गोधावराहाणां तथैव मृगपक्षिणाम्<br>श्वपाकवैश्यशूद्राणां क्षत्रियाणां च योनिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.११</sup>स कीटेत्येवमाभाष्य ऋषिणा सत्यवादिना<br>प्रतिस्मृत्याथ जग्राह पादौ मूर्ध्ना कृताञ्जलिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१२</sup>कीट उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१३</sup>इदं तदतुलं स्थानमीप्सितं दशभिर्गुणैः<br>यदहं प्राप्य कीटत्वमागतो राजपुत्रताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१४</sup>वहन्ति मामतिबलाः कुञ्जरा हेममालिनः<br>स्यन्दनेषु च काम्बोजा युक्ताः परमवाजिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१५</sup>उष्ट्राश्वतरयुक्तानि यानानि च वहन्ति माम्<br>सबान्धवः सहामात्यश्चाश्नामि पिशितौदनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१६</sup>गृहेषु सुनिवासेषु सुखेषु शयनेषु च<br>परार्ध्येषु महाभाग स्वपामीह सुपूजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१७</sup>सर्वेष्वपररात्रेषु सूतमागधबन्दिनः<br>स्तुवन्ति मां यथा देवं महेन्द्रं प्रियवादिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१८</sup>प्रसादात्सत्यसंधस्य भवतोऽमिततेजसः<br>यदहं कीटतां प्राप्य संप्राप्तो राजपुत्रताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.१९</sup>नमस्तेऽस्तु महाप्राज्ञ किं करोमि प्रशाधि माम्<br>त्वत्तपोबलनिर्दिष्टमिदं ह्यधिगतं मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२०</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२१</sup>अर्चितोऽहं त्वया राजन्वाग्भिरद्य यदृच्छया<br>अद्य ते कीटतां प्राप्य स्मृतिर्जाताजुगुप्सिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२२</sup>न तु नाशोऽस्ति पापस्य यत्त्वयोपचितं पुरा<br>शूद्रेणार्थप्रधानेन नृशंसेनाततायिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२३</sup>मम ते दर्शनं प्राप्तं तच्चैव सुकृतं पुरा<br>तिर्यग्योनौ स्म जातेन मम चाप्यर्चनात्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२४</sup>इतस्त्वं राजपुत्रत्वाद्ब्राह्मण्यं समवाप्स्यसि<br>गोब्राह्मणकृते प्राणान्हुत्वात्मीयान्रणाजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२५</sup>राजपुत्रसुखं प्राप्य ऋतूंश्चैवाप्तदक्षिणान्<br>अथ मोदिष्यसे स्वर्गे ब्रह्मभूतोऽव्ययः सुखी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.११९.२६</sup>तिर्यग्योन्याः शूद्रतामभ्युपैति; शूद्रो वैश्यत्वं क्षत्रियत्वं च वैश्यः<br>वृत्तश्लाघी क्षत्रियो ब्राह्मणत्वं; स्वर्गं पुण्यं ब्राह्मणः साधुवृत्तः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

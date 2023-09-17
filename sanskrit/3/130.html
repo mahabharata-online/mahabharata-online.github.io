@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/129.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१३०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/131.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/129.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१३०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/131.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१</sup>लोमश उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.२</sup>इह मर्त्यास्तपस्तप्त्वा स्वर्गं गच्छन्ति भारत<br>मर्तुकामा नरा राजन्निहायान्ति सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.३</sup>एवमाशीः प्रयुक्ता हि दक्षेण यजता पुरा<br>इह ये वै मरिष्यन्ति ते वै स्वर्गजितो नराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.४</sup>एषा सरस्वती पुण्या दिव्या चोघवती नदी<br>एतद्विनशनं नाम सरस्वत्या विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.५</sup>द्वारं निषादराष्ट्रस्य येषां द्वेषात्सरस्वती<br>प्रविष्टा पृथिवीं वीर मा निषादा हि मां विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.६</sup>एष वै चमसोद्भेदो यत्र दृश्या सरस्वती<br>यत्रैनामभ्यवर्तन्त दिव्याः पुण्याः समुद्रगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.७</sup>एतत्सिन्धोर्महत्तीर्थं यत्रागस्त्यमरिंदम<br>लोपामुद्रा समागम्य भर्तारमवृणीत वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.८</sup>एतत्प्रभासते तीर्थं प्रभासं भास्करद्युते<br>इन्द्रस्य दयितं पुण्यं पवित्रं पापनाशनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.९</sup>एतद्विष्णुपदं नाम दृश्यते तीर्थमुत्तमम्<br>एषा रम्या विपाशा च नदी परमपावनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१०</sup>अत्रैव पुत्रशोकेन वसिष्ठो भगवानृषिः<br>बद्ध्वात्मानं निपतितो विपाशः पुनरुत्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.११</sup>काश्मीरमण्डलं चैतत्सर्वपुण्यमरिंदम<br>महर्षिभिश्चाध्युषितं पश्येदं भ्रातृभिः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१२</sup>अत्रोत्तराणां सर्वेषामृषीणां नाहुषस्य च<br>अग्नेश्चात्रैव संवादः काश्यपस्य च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१३</sup>एतद्द्वारं महाराज मानसस्य प्रकाशते<br>वर्षमस्य गिरेर्मध्ये रामेण श्रीमता कृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१४</sup>एष वातिकषण्डो वै प्रख्यातः सत्यविक्रमः<br>नाभ्यवर्तत यद्द्वारं विदेहानुत्तरं च यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१५</sup>एष उज्जानको नाम यवक्रीर्यत्र शान्तवान्<br>अरुन्धतीसहायश्च वसिष्ठो भगवानृषिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१६</sup>ह्रदश्च कुशवानेष यत्र पद्मं कुशेशयम्<br>आश्रमश्चैव रुक्मिण्या यत्राशाम्यदकोपना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१७</sup>समाधीनां समासस्तु पाण्डवेय श्रुतस्त्वया<br>तं द्रक्ष्यसि महाराज भृगुतुङ्गं महागिरिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१८</sup>जलां चोपजलां चैव यमुनामभितो नदीम्<br>उशीनरो वै यत्रेष्ट्वा वासवादत्यरिच्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.१९</sup>तां देवसमितिं तस्य वासवश्च विशां पते<br>अभ्यगच्छत राजानं ज्ञातुमग्निश्च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.२०</sup>जिज्ञासमानौ वरदौ महात्मानमुशीनरम्<br>इन्द्रः श्येनः कपोतोऽग्निर्भूत्वा यज्ञेऽभिजग्मतुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१३०.२१</sup>ऊरुं राज्ञः समासाद्य कपोतः श्येनजाद्भयात्<br>शरणार्थी तदा राजन्निलिल्ये भयपीडितः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१</sup>लोमश उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.२</sup>इह मर्त्यास्तपस्तप्त्वा स्वर्गं गच्छन्ति भारत<br>मर्तुकामा नरा राजन्निहायान्ति सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.३</sup>एवमाशीः प्रयुक्ता हि दक्षेण यजता पुरा<br>इह ये वै मरिष्यन्ति ते वै स्वर्गजितो नराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.४</sup>एषा सरस्वती पुण्या दिव्या चोघवती नदी<br>एतद्विनशनं नाम सरस्वत्या विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.५</sup>द्वारं निषादराष्ट्रस्य येषां द्वेषात्सरस्वती<br>प्रविष्टा पृथिवीं वीर मा निषादा हि मां विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.६</sup>एष वै चमसोद्भेदो यत्र दृश्या सरस्वती<br>यत्रैनामभ्यवर्तन्त दिव्याः पुण्याः समुद्रगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.७</sup>एतत्सिन्धोर्महत्तीर्थं यत्रागस्त्यमरिंदम<br>लोपामुद्रा समागम्य भर्तारमवृणीत वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.८</sup>एतत्प्रभासते तीर्थं प्रभासं भास्करद्युते<br>इन्द्रस्य दयितं पुण्यं पवित्रं पापनाशनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.९</sup>एतद्विष्णुपदं नाम दृश्यते तीर्थमुत्तमम्<br>एषा रम्या विपाशा च नदी परमपावनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१०</sup>अत्रैव पुत्रशोकेन वसिष्ठो भगवानृषिः<br>बद्ध्वात्मानं निपतितो विपाशः पुनरुत्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.११</sup>काश्मीरमण्डलं चैतत्सर्वपुण्यमरिंदम<br>महर्षिभिश्चाध्युषितं पश्येदं भ्रातृभिः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१२</sup>अत्रोत्तराणां सर्वेषामृषीणां नाहुषस्य च<br>अग्नेश्चात्रैव संवादः काश्यपस्य च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१३</sup>एतद्द्वारं महाराज मानसस्य प्रकाशते<br>वर्षमस्य गिरेर्मध्ये रामेण श्रीमता कृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१४</sup>एष वातिकषण्डो वै प्रख्यातः सत्यविक्रमः<br>नाभ्यवर्तत यद्द्वारं विदेहानुत्तरं च यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१५</sup>एष उज्जानको नाम यवक्रीर्यत्र शान्तवान्<br>अरुन्धतीसहायश्च वसिष्ठो भगवानृषिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१६</sup>ह्रदश्च कुशवानेष यत्र पद्मं कुशेशयम्<br>आश्रमश्चैव रुक्मिण्या यत्राशाम्यदकोपना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१७</sup>समाधीनां समासस्तु पाण्डवेय श्रुतस्त्वया<br>तं द्रक्ष्यसि महाराज भृगुतुङ्गं महागिरिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१८</sup>जलां चोपजलां चैव यमुनामभितो नदीम्<br>उशीनरो वै यत्रेष्ट्वा वासवादत्यरिच्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.१९</sup>तां देवसमितिं तस्य वासवश्च विशां पते<br>अभ्यगच्छत राजानं ज्ञातुमग्निश्च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.२०</sup>जिज्ञासमानौ वरदौ महात्मानमुशीनरम्<br>इन्द्रः श्येनः कपोतोऽग्निर्भूत्वा यज्ञेऽभिजग्मतुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१३०.२१</sup>ऊरुं राज्ञः समासाद्य कपोतः श्येनजाद्भयात्<br>शरणार्थी तदा राजन्निलिल्ये भयपीडितः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

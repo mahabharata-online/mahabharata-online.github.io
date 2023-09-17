@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/230.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२३१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/232.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/230.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२३१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/232.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२</sup>इत्युक्तोऽभिप्रशस्यैतत्परमर्षेस्तु शासनम्<br>मोक्षधर्मार्थसंयुक्तमिदं प्रष्टुं प्रचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३</sup>शुक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.४</sup>प्रजावाञ्श्रोत्रियो यज्वा वृद्धः प्रज्ञोऽनसूयकः<br>अनागतमनैतिह्यं कथं ब्रह्माधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.५</sup>तपसा ब्रह्मचर्येण सर्वत्यागेन मेधया<br>सांख्ये वा यदि वा योगे एतत्पृष्टोऽभिधत्स्व मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.६</sup>मनसश्चेन्द्रियाणां चाप्यैकाग्र्यं समवाप्यते<br>येनोपायेन पुरुषैस्तच्च व्याख्यातुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.७</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.८</sup>नान्यत्र विद्यातपसोर्नान्यत्रेन्द्रियनिग्रहात्<br>नान्यत्र सर्वसंत्यागात्सिद्धिं विन्दति कश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.९</sup>महाभूतानि सर्वाणि पूर्वसृष्टिः स्वयंभुवः<br>भूयिष्ठं प्राणभृद्ग्रामे निविष्टानि शरीरिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१०</sup>भूमेर्देहो जलात्सारो ज्योतिषश्चक्षुषी स्मृते<br>प्राणापानाश्रयो वायुः खेष्वाकाशं शरीरिणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.११</sup>क्रान्ते विष्णुर्बले शक्रः कोष्ठेऽग्निर्भुक्तमर्छति<br>कर्णयोः प्रदिशः श्रोत्रे जिह्वायां वाक्सरस्वती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१२</sup>कर्णौ त्वक्चक्षुषी जिह्वा नासिका चैव पञ्चमी<br>दर्शनानीन्द्रियोक्तानि द्वाराण्याहारसिद्धये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१३</sup>शब्दं स्पर्शं तथा रूपं रसं गन्धं च पञ्चमम्<br>इन्द्रियाणि पृथक्त्वर्थान्मनसो दर्शयन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१४</sup>इन्द्रियाणि मनो युङ्क्ते वश्यान्यन्तेव वाजिनः<br>मनश्चापि सदा युङ्क्ते भूतात्मा हृदयाश्रितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१५</sup>इन्द्रियाणां तथैवेषां सर्वेषामीश्वरं मनः<br>नियमे च विसर्गे च भूतात्मा मनसस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१६</sup>इन्द्रियाणीन्द्रियार्थाश्च स्वभावश्चेतना मनः<br>प्राणापानौ च जीवश्च नित्यं देहेषु देहिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१७</sup>आश्रयो नास्ति सत्त्वस्य गुणशब्दो न चेतना<br>सत्त्वं हि तेजः सृजति न गुणान्वै कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१८</sup>एवं सप्तदशं देहे वृतं षोडशभिर्गुणैः<br>मनीषी मनसा विप्रः पश्यत्यात्मानमात्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.१९</sup>न ह्ययं चक्षुषा दृश्यो न च सर्वैरपीन्द्रियैः<br>मनसा संप्रदीप्तेन महानात्मा प्रकाशते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२०</sup>अशब्दस्पर्शरूपं तदरसागन्धमव्ययम्<br>अशरीरं शरीरे स्वे निरीक्षेत निरिन्द्रियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२१</sup>अव्यक्तं व्यक्तदेहेषु मर्त्येष्वमरमाश्रितम्<br>योऽनुपश्यति स प्रेत्य कल्पते ब्रह्मभूयसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२२</sup>विद्याभिजनसंपन्ने ब्राह्मणे गवि हस्तिनि<br>शुनि चैव श्वपाके च पण्डिताः समदर्शिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२३</sup>स हि सर्वेषु भूतेषु जङ्गमेषु ध्रुवेषु च<br>वसत्येको महानात्मा येन सर्वमिदं ततम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२४</sup>सर्वभूतेषु चात्मानं सर्वभूतानि चात्मनि<br>यदा पश्यति भूतात्मा ब्रह्म संपद्यते तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२५</sup>यावानात्मनि वेदात्मा तावानात्मा परात्मनि<br>य एवं सततं वेद सोऽमृतत्वाय कल्पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२६</sup>सर्वभूतात्मभूतस्य सर्वभूतहितस्य च<br>देवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२७</sup>शकुनीनामिवाकाशे जले वारिचरस्य वा<br>यथा गतिर्न दृश्येत तथैव सुमहात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२८</sup>कालः पचति भूतानि सर्वाण्येवात्मनात्मनि<br>यस्मिंस्तु पच्यते कालस्तं न वेदेह कश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.२९</sup>न तदूर्ध्वं न तिर्यक्च नाधो न च तिरः पुनः<br>न मध्ये प्रतिगृह्णीते नैव कश्चित्कुतश्चन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३०</sup>सर्वेऽन्तःस्था इमे लोका बाह्यमेषां न किंचन<br>यः सहस्रं समागच्छेद्यथा बाणो गुणच्युतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३१</sup>नैवान्तं कारणस्येयाद्यद्यपि स्यान्मनोजवः<br>तस्मात्सूक्ष्मात्सूक्ष्मतरं नास्ति स्थूलतरं ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३२</sup>सर्वतःपाणिपादान्तं सर्वतोक्षिशिरोमुखम्<br>सर्वतःश्रुतिमल्लोके सर्वमावृत्य तिष्ठति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३३</sup>तदेवाणोरणुतरं तन्महद्भ्यो महत्तरम्<br>तदन्तः सर्वभूतानां ध्रुवं तिष्ठन्न दृश्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३४</sup>अक्षरं च क्षरं चैव द्वैधीभावोऽयमात्मनः<br>क्षरः सर्वेषु भूतेषु दिव्यं ह्यमृतमक्षरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३५</sup>नवद्वारं पुरं गत्वा हंसो हि नियतो वशी<br>ईशः सर्वस्य भूतस्य स्थावरस्य चरस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३६</sup>हानिभङ्गविकल्पानां नवानां संश्रयेण च<br>शरीराणामजस्याहुर्हंसत्वं पारदर्शिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३१.३७</sup>हंसोक्तं चाक्षरं चैव कूटस्थं यत्तदक्षरम्<br>तद्विद्वानक्षरं प्राप्य जहाति प्राणजन्मनी
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२</sup>इत्युक्तोऽभिप्रशस्यैतत्परमर्षेस्तु शासनम्<br>मोक्षधर्मार्थसंयुक्तमिदं प्रष्टुं प्रचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३</sup>शुक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.४</sup>प्रजावाञ्श्रोत्रियो यज्वा वृद्धः प्रज्ञोऽनसूयकः<br>अनागतमनैतिह्यं कथं ब्रह्माधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.५</sup>तपसा ब्रह्मचर्येण सर्वत्यागेन मेधया<br>सांख्ये वा यदि वा योगे एतत्पृष्टोऽभिधत्स्व मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.६</sup>मनसश्चेन्द्रियाणां चाप्यैकाग्र्यं समवाप्यते<br>येनोपायेन पुरुषैस्तच्च व्याख्यातुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.७</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.८</sup>नान्यत्र विद्यातपसोर्नान्यत्रेन्द्रियनिग्रहात्<br>नान्यत्र सर्वसंत्यागात्सिद्धिं विन्दति कश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.९</sup>महाभूतानि सर्वाणि पूर्वसृष्टिः स्वयंभुवः<br>भूयिष्ठं प्राणभृद्ग्रामे निविष्टानि शरीरिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१०</sup>भूमेर्देहो जलात्सारो ज्योतिषश्चक्षुषी स्मृते<br>प्राणापानाश्रयो वायुः खेष्वाकाशं शरीरिणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.११</sup>क्रान्ते विष्णुर्बले शक्रः कोष्ठेऽग्निर्भुक्तमर्छति<br>कर्णयोः प्रदिशः श्रोत्रे जिह्वायां वाक्सरस्वती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१२</sup>कर्णौ त्वक्चक्षुषी जिह्वा नासिका चैव पञ्चमी<br>दर्शनानीन्द्रियोक्तानि द्वाराण्याहारसिद्धये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१३</sup>शब्दं स्पर्शं तथा रूपं रसं गन्धं च पञ्चमम्<br>इन्द्रियाणि पृथक्त्वर्थान्मनसो दर्शयन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१४</sup>इन्द्रियाणि मनो युङ्क्ते वश्यान्यन्तेव वाजिनः<br>मनश्चापि सदा युङ्क्ते भूतात्मा हृदयाश्रितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१५</sup>इन्द्रियाणां तथैवेषां सर्वेषामीश्वरं मनः<br>नियमे च विसर्गे च भूतात्मा मनसस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१६</sup>इन्द्रियाणीन्द्रियार्थाश्च स्वभावश्चेतना मनः<br>प्राणापानौ च जीवश्च नित्यं देहेषु देहिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१७</sup>आश्रयो नास्ति सत्त्वस्य गुणशब्दो न चेतना<br>सत्त्वं हि तेजः सृजति न गुणान्वै कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१८</sup>एवं सप्तदशं देहे वृतं षोडशभिर्गुणैः<br>मनीषी मनसा विप्रः पश्यत्यात्मानमात्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.१९</sup>न ह्ययं चक्षुषा दृश्यो न च सर्वैरपीन्द्रियैः<br>मनसा संप्रदीप्तेन महानात्मा प्रकाशते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२०</sup>अशब्दस्पर्शरूपं तदरसागन्धमव्ययम्<br>अशरीरं शरीरे स्वे निरीक्षेत निरिन्द्रियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२१</sup>अव्यक्तं व्यक्तदेहेषु मर्त्येष्वमरमाश्रितम्<br>योऽनुपश्यति स प्रेत्य कल्पते ब्रह्मभूयसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२२</sup>विद्याभिजनसंपन्ने ब्राह्मणे गवि हस्तिनि<br>शुनि चैव श्वपाके च पण्डिताः समदर्शिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२३</sup>स हि सर्वेषु भूतेषु जङ्गमेषु ध्रुवेषु च<br>वसत्येको महानात्मा येन सर्वमिदं ततम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२४</sup>सर्वभूतेषु चात्मानं सर्वभूतानि चात्मनि<br>यदा पश्यति भूतात्मा ब्रह्म संपद्यते तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२५</sup>यावानात्मनि वेदात्मा तावानात्मा परात्मनि<br>य एवं सततं वेद सोऽमृतत्वाय कल्पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२६</sup>सर्वभूतात्मभूतस्य सर्वभूतहितस्य च<br>देवापि मार्गे मुह्यन्ति अपदस्य पदैषिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२७</sup>शकुनीनामिवाकाशे जले वारिचरस्य वा<br>यथा गतिर्न दृश्येत तथैव सुमहात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२८</sup>कालः पचति भूतानि सर्वाण्येवात्मनात्मनि<br>यस्मिंस्तु पच्यते कालस्तं न वेदेह कश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.२९</sup>न तदूर्ध्वं न तिर्यक्च नाधो न च तिरः पुनः<br>न मध्ये प्रतिगृह्णीते नैव कश्चित्कुतश्चन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३०</sup>सर्वेऽन्तःस्था इमे लोका बाह्यमेषां न किंचन<br>यः सहस्रं समागच्छेद्यथा बाणो गुणच्युतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३१</sup>नैवान्तं कारणस्येयाद्यद्यपि स्यान्मनोजवः<br>तस्मात्सूक्ष्मात्सूक्ष्मतरं नास्ति स्थूलतरं ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३२</sup>सर्वतःपाणिपादान्तं सर्वतोक्षिशिरोमुखम्<br>सर्वतःश्रुतिमल्लोके सर्वमावृत्य तिष्ठति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३३</sup>तदेवाणोरणुतरं तन्महद्भ्यो महत्तरम्<br>तदन्तः सर्वभूतानां ध्रुवं तिष्ठन्न दृश्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३४</sup>अक्षरं च क्षरं चैव द्वैधीभावोऽयमात्मनः<br>क्षरः सर्वेषु भूतेषु दिव्यं ह्यमृतमक्षरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३५</sup>नवद्वारं पुरं गत्वा हंसो हि नियतो वशी<br>ईशः सर्वस्य भूतस्य स्थावरस्य चरस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३६</sup>हानिभङ्गविकल्पानां नवानां संश्रयेण च<br>शरीराणामजस्याहुर्हंसत्वं पारदर्शिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३१.३७</sup>हंसोक्तं चाक्षरं चैव कूटस्थं यत्तदक्षरम्<br>तद्विद्वानक्षरं प्राप्य जहाति प्राणजन्मनी
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

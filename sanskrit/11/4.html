@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/11/3.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>११:४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/11/5.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,94 +64,59 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/11/3.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">११:४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/11/5.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.२</sup>कथं संसारगहनं विज्ञेयं वदतां वर<br>एतदिच्छाम्यहं श्रोतुं तत्त्वमाख्याहि पृच्छतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.३</sup>विदुर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.४</sup>जन्मप्रभृति भूतानां क्रियाः सर्वाः शृणु प्रभो<br>पूर्वमेवेह कलले वसते किंचिदन्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.५</sup>ततः स पञ्चमेऽतीते मासे मांसं प्रकल्पयेत्<br>ततः सर्वाङ्गसंपूर्णो गर्भो मासे प्रजायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.६</sup>अमेध्यमध्ये वसति मांसशोणितलेपने<br>ततस्तु वायुवेगेन ऊर्ध्वपादो ह्यधःशिराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.७</sup>योनिद्वारमुपागम्य बहून्क्लेशान्समृच्छति<br>योनिसंपीडनाच्चैव पूर्वकर्मभिरन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.८</sup>तस्मान्मुक्तः स संसारादन्यान्पश्यत्युपद्रवान्<br>ग्रहास्तमुपसर्पन्ति सारमेया इवामिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.९</sup>ततः प्राप्तोत्तरे काले व्याधयश्चापि तं तथा<br>उपसर्पन्ति जीवन्तं बध्यमानं स्वकर्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१०</sup>बद्धमिन्द्रियपाशैस्तं सङ्गस्वादुभिरातुरम्<br>व्यसनान्युपवर्तन्ते विविधानि नराधिप<br>बध्यमानश्च तैर्भूयो नैव तृप्तिमुपैति सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.११</sup>अयं न बुध्यते तावद्यमलोकमथागतम्<br>यमदूतैर्विकृष्यंश्च मृत्युं कालेन गच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१२</sup>वाग्घीनस्य च यन्मात्रमिष्टानिष्टं कृतं मुखे<br>भूय एवात्मनात्मानं बध्यमानमुपेक्षते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१३</sup>अहो विनिकृतो लोको लोभेन च वशीकृतः<br>लोभक्रोधमदोन्मत्तो नात्मानमवबुध्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१४</sup>कुलीनत्वेन रमते दुष्कुलीनान्विकुत्सयन्<br>धनदर्पेण दृप्तश्च दरिद्रान्परिकुत्सयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१५</sup>मूर्खानिति परानाह नात्मानं समवेक्षते<br>शिक्षां क्षिपति चान्येषां नात्मानं शास्तुमिच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१६</sup>अध्रुवे जीवलोकेऽस्मिन्यो धर्ममनुपालयन्<br>जन्मप्रभृति वर्तेत प्राप्नुयात्परमां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.४.१७</sup>एवं सर्वं विदित्वा वै यस्तत्त्वमनुवर्तते<br>स प्रमोक्षाय लभते पन्थानं मनुजाधिप
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.२</sup>कथं संसारगहनं विज्ञेयं वदतां वर<br>एतदिच्छाम्यहं श्रोतुं तत्त्वमाख्याहि पृच्छतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.३</sup>विदुर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.४</sup>जन्मप्रभृति भूतानां क्रियाः सर्वाः शृणु प्रभो<br>पूर्वमेवेह कलले वसते किंचिदन्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.५</sup>ततः स पञ्चमेऽतीते मासे मांसं प्रकल्पयेत्<br>ततः सर्वाङ्गसंपूर्णो गर्भो मासे प्रजायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.६</sup>अमेध्यमध्ये वसति मांसशोणितलेपने<br>ततस्तु वायुवेगेन ऊर्ध्वपादो ह्यधःशिराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.७</sup>योनिद्वारमुपागम्य बहून्क्लेशान्समृच्छति<br>योनिसंपीडनाच्चैव पूर्वकर्मभिरन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.८</sup>तस्मान्मुक्तः स संसारादन्यान्पश्यत्युपद्रवान्<br>ग्रहास्तमुपसर्पन्ति सारमेया इवामिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.९</sup>ततः प्राप्तोत्तरे काले व्याधयश्चापि तं तथा<br>उपसर्पन्ति जीवन्तं बध्यमानं स्वकर्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१०</sup>बद्धमिन्द्रियपाशैस्तं सङ्गस्वादुभिरातुरम्<br>व्यसनान्युपवर्तन्ते विविधानि नराधिप<br>बध्यमानश्च तैर्भूयो नैव तृप्तिमुपैति सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.११</sup>अयं न बुध्यते तावद्यमलोकमथागतम्<br>यमदूतैर्विकृष्यंश्च मृत्युं कालेन गच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१२</sup>वाग्घीनस्य च यन्मात्रमिष्टानिष्टं कृतं मुखे<br>भूय एवात्मनात्मानं बध्यमानमुपेक्षते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१३</sup>अहो विनिकृतो लोको लोभेन च वशीकृतः<br>लोभक्रोधमदोन्मत्तो नात्मानमवबुध्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१४</sup>कुलीनत्वेन रमते दुष्कुलीनान्विकुत्सयन्<br>धनदर्पेण दृप्तश्च दरिद्रान्परिकुत्सयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१५</sup>मूर्खानिति परानाह नात्मानं समवेक्षते<br>शिक्षां क्षिपति चान्येषां नात्मानं शास्तुमिच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१६</sup>अध्रुवे जीवलोकेऽस्मिन्यो धर्ममनुपालयन्<br>जन्मप्रभृति वर्तेत प्राप्नुयात्परमां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.४.१७</sup>एवं सर्वं विदित्वा वै यस्तत्त्वमनुवर्तते<br>स प्रमोक्षाय लभते पन्थानं मनुजाधिप
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -132,8 +125,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/103.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:१०४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/105.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,148 +64,113 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/103.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:१०४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/105.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२</sup>तथा तु नर्दमानं तं भीमसेनं महाबलम्<br>मेघस्तनितनिर्घोषं के वीराः पर्यवारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३</sup>न हि पश्याम्यहं तं वै त्रिषु लोकेषु संजय<br>क्रुद्धस्य भीमसेनस्य यस्तिष्ठेदग्रतो रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.४</sup>गदामुद्यच्छमानस्य कालस्येव महामृधे<br>न हि पश्याम्यहं तात यस्तिष्ठेत रणाजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.५</sup>रथं रथेन यो हन्यात्कुञ्जरं कुञ्जरेण च<br>कस्तस्य समरे स्थाता साक्षादपि शतक्रतुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.६</sup>क्रुद्धस्य भीमसेनस्य मम पुत्राञ्जिघांसतः<br>दुर्योधनहिते युक्ताः समतिष्ठन्त केऽग्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.७</sup>भीमसेनदवाग्नेस्तु मम पुत्रतृणोलपम्<br>प्रधक्ष्यतो रणमुखे के वीराः प्रमुखे स्थिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.८</sup>काल्यमानान्हि मे पुत्रान्भीमेनावेक्ष्य संयुगे<br>कालेनेव प्रजाः सर्वाः के भीमं पर्यवारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.९</sup>भीमवह्नेः प्रदीप्तस्य मम पुत्रान्दिधक्षतः<br>के शूराः पर्यवर्तन्त तन्ममाचक्ष्व संजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१०</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.११</sup>तथा तु नर्दमानं तं भीमसेनं महारथम्<br>तुमुलेनैव शब्देन कर्णोऽप्यभ्यपतद्बली
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१२</sup>व्याक्षिपन्बलवच्चापमतिमात्रममर्षणः<br>कर्णस्तु युद्धमाकाङ्क्षन्दर्शयिष्यन्बलं बली
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१३</sup>प्रावेपन्निव गात्राणि कर्णभीमसमागमे<br>रथिनां सादिनां चैव तयोः श्रुत्वा तलस्वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१४</sup>भीमसेनस्य निनदं घोरं श्रुत्वा रणाजिरे<br>खं च भूमिं च संबद्धां मेनिरे क्षत्रियर्षभाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१५</sup>पुनर्घोरेण नादेन पाण्डवस्य महात्मनः<br>समरे सर्वयोधानां धनूंष्यभ्यपतन्क्षितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१६</sup>वित्रस्तानि च सर्वाणि शकृन्मूत्रं प्रसुस्रुवुः<br>वाहनानि महाराज बभूवुर्विमनांसि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१७</sup>प्रादुरासन्निमित्तानि घोराणि च बहूनि च<br>तस्मिंस्तु तुमुले राजन्भीमकर्णसमागमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१८</sup>ततः कर्णस्तु विंशत्या शराणां भीममार्दयत्<br>विव्याध चास्य त्वरितः सूतं पञ्चभिराशुगैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.१९</sup>प्रहस्य भीमसेनस्तु कर्णं प्रत्यर्पयद्रणे<br>सायकानां चतुःषष्ट्या क्षिप्रकारी महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२०</sup>तस्य कर्णो महेष्वासः सायकांश्चतुरोऽक्षिपत्<br>असंप्राप्तांस्तु तान्भीमः सायकैर्नतपर्वभिः<br>चिच्छेद बहुधा राजन्दर्शयन्पाणिलाघवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२१</sup>तं कर्णश्छादयामास शरव्रातैरनेकशः<br>संछाद्यमानः कर्णेन बहुधा पाण्डुनन्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२२</sup>चिच्छेद चापं कर्णस्य मुष्टिदेशे महारथः<br>विव्याध चैनं बहुभिः सायकैर्नतपर्वभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२३</sup>अथान्यद्धनुरादाय सज्यं कृत्वा च सूतजः<br>विव्याध समरे भीमं भीमकर्मा महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२४</sup>तस्य भीमो भृशं क्रुद्धस्त्रीञ्शरान्नतपर्वणः<br>निचखानोरसि तदा सूतपुत्रस्य वेगितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२५</sup>तैः कर्णोऽभ्राजत शरैरुरोमध्यगतैस्तदा<br>महीधर इवोदग्रस्त्रिशृङ्गो भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२६</sup>सुस्राव चास्य रुधिरं विद्धस्य परमेषुभिः<br>धातुप्रस्यन्दिनः शैलाद्यथा गैरिकराजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२७</sup>किंचिद्विचलितः कर्णः सुप्रहाराभिपीडितः<br>ससायकं धनुः कृत्वा भीमं विव्याध मारिष<br>चिक्षेप च पुनर्बाणाञ्शतशोऽथ सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२८</sup>स छाद्यमानः सहसा कर्णेन दृढधन्विना<br>धनुर्ज्यामच्छिनत्तूर्णमुत्स्मयन्पाण्डुनन्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.२९</sup>सारथिं चास्य भल्लेन प्राहिणोद्यमसादनम्<br>वाहांश्च चतुरः संख्ये व्यसूंश्चक्रे महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३०</sup>हताश्वात्तु रथात्कर्णः समाप्लुत्य विशां पते<br>स्यन्दनं वृषसेनस्य समारोहन्महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३१</sup>निर्जित्य तु रणे कर्णं भीमसेनः प्रतापवान्<br>ननाद सुमहानादं पर्जन्यनिनदोपमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३२</sup>तस्य तं निनदं श्रुत्वा प्रहृष्टोऽभूद्युधिष्ठिरः<br>कर्णं च निर्जितं मत्वा भीमसेनेन भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३३</sup>समन्ताच्छङ्खनिनदं पाण्डुसेनाकरोत्तदा<br>शत्रुसेनाध्वनिं श्रुत्वा तावका ह्यपि नानदन्<br>गाण्डीवं प्राक्षिपत्पार्थः कृष्णोऽप्यब्जमवादयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३४</sup>तमन्तर्धाय निनदं ध्वनिर्भीमस्य नर्दतः<br>अश्रूयत महाराज सर्वसैन्येषु भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१०४.३५</sup>ततो व्यायच्छतामस्त्रैः पृथक्पृथगरिंदमौ<br>मृदुपूर्वं च राधेयो दृढपूर्वं च पाण्डवः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२</sup>तथा तु नर्दमानं तं भीमसेनं महाबलम्<br>मेघस्तनितनिर्घोषं के वीराः पर्यवारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३</sup>न हि पश्याम्यहं तं वै त्रिषु लोकेषु संजय<br>क्रुद्धस्य भीमसेनस्य यस्तिष्ठेदग्रतो रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.४</sup>गदामुद्यच्छमानस्य कालस्येव महामृधे<br>न हि पश्याम्यहं तात यस्तिष्ठेत रणाजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.५</sup>रथं रथेन यो हन्यात्कुञ्जरं कुञ्जरेण च<br>कस्तस्य समरे स्थाता साक्षादपि शतक्रतुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.६</sup>क्रुद्धस्य भीमसेनस्य मम पुत्राञ्जिघांसतः<br>दुर्योधनहिते युक्ताः समतिष्ठन्त केऽग्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.७</sup>भीमसेनदवाग्नेस्तु मम पुत्रतृणोलपम्<br>प्रधक्ष्यतो रणमुखे के वीराः प्रमुखे स्थिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.८</sup>काल्यमानान्हि मे पुत्रान्भीमेनावेक्ष्य संयुगे<br>कालेनेव प्रजाः सर्वाः के भीमं पर्यवारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.९</sup>भीमवह्नेः प्रदीप्तस्य मम पुत्रान्दिधक्षतः<br>के शूराः पर्यवर्तन्त तन्ममाचक्ष्व संजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१०</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.११</sup>तथा तु नर्दमानं तं भीमसेनं महारथम्<br>तुमुलेनैव शब्देन कर्णोऽप्यभ्यपतद्बली
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१२</sup>व्याक्षिपन्बलवच्चापमतिमात्रममर्षणः<br>कर्णस्तु युद्धमाकाङ्क्षन्दर्शयिष्यन्बलं बली
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१३</sup>प्रावेपन्निव गात्राणि कर्णभीमसमागमे<br>रथिनां सादिनां चैव तयोः श्रुत्वा तलस्वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१४</sup>भीमसेनस्य निनदं घोरं श्रुत्वा रणाजिरे<br>खं च भूमिं च संबद्धां मेनिरे क्षत्रियर्षभाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१५</sup>पुनर्घोरेण नादेन पाण्डवस्य महात्मनः<br>समरे सर्वयोधानां धनूंष्यभ्यपतन्क्षितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१६</sup>वित्रस्तानि च सर्वाणि शकृन्मूत्रं प्रसुस्रुवुः<br>वाहनानि महाराज बभूवुर्विमनांसि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१७</sup>प्रादुरासन्निमित्तानि घोराणि च बहूनि च<br>तस्मिंस्तु तुमुले राजन्भीमकर्णसमागमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१८</sup>ततः कर्णस्तु विंशत्या शराणां भीममार्दयत्<br>विव्याध चास्य त्वरितः सूतं पञ्चभिराशुगैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.१९</sup>प्रहस्य भीमसेनस्तु कर्णं प्रत्यर्पयद्रणे<br>सायकानां चतुःषष्ट्या क्षिप्रकारी महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२०</sup>तस्य कर्णो महेष्वासः सायकांश्चतुरोऽक्षिपत्<br>असंप्राप्तांस्तु तान्भीमः सायकैर्नतपर्वभिः<br>चिच्छेद बहुधा राजन्दर्शयन्पाणिलाघवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२१</sup>तं कर्णश्छादयामास शरव्रातैरनेकशः<br>संछाद्यमानः कर्णेन बहुधा पाण्डुनन्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२२</sup>चिच्छेद चापं कर्णस्य मुष्टिदेशे महारथः<br>विव्याध चैनं बहुभिः सायकैर्नतपर्वभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२३</sup>अथान्यद्धनुरादाय सज्यं कृत्वा च सूतजः<br>विव्याध समरे भीमं भीमकर्मा महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२४</sup>तस्य भीमो भृशं क्रुद्धस्त्रीञ्शरान्नतपर्वणः<br>निचखानोरसि तदा सूतपुत्रस्य वेगितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२५</sup>तैः कर्णोऽभ्राजत शरैरुरोमध्यगतैस्तदा<br>महीधर इवोदग्रस्त्रिशृङ्गो भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२६</sup>सुस्राव चास्य रुधिरं विद्धस्य परमेषुभिः<br>धातुप्रस्यन्दिनः शैलाद्यथा गैरिकराजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२७</sup>किंचिद्विचलितः कर्णः सुप्रहाराभिपीडितः<br>ससायकं धनुः कृत्वा भीमं विव्याध मारिष<br>चिक्षेप च पुनर्बाणाञ्शतशोऽथ सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२८</sup>स छाद्यमानः सहसा कर्णेन दृढधन्विना<br>धनुर्ज्यामच्छिनत्तूर्णमुत्स्मयन्पाण्डुनन्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.२९</sup>सारथिं चास्य भल्लेन प्राहिणोद्यमसादनम्<br>वाहांश्च चतुरः संख्ये व्यसूंश्चक्रे महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३०</sup>हताश्वात्तु रथात्कर्णः समाप्लुत्य विशां पते<br>स्यन्दनं वृषसेनस्य समारोहन्महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३१</sup>निर्जित्य तु रणे कर्णं भीमसेनः प्रतापवान्<br>ननाद सुमहानादं पर्जन्यनिनदोपमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३२</sup>तस्य तं निनदं श्रुत्वा प्रहृष्टोऽभूद्युधिष्ठिरः<br>कर्णं च निर्जितं मत्वा भीमसेनेन भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३३</sup>समन्ताच्छङ्खनिनदं पाण्डुसेनाकरोत्तदा<br>शत्रुसेनाध्वनिं श्रुत्वा तावका ह्यपि नानदन्<br>गाण्डीवं प्राक्षिपत्पार्थः कृष्णोऽप्यब्जमवादयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३४</sup>तमन्तर्धाय निनदं ध्वनिर्भीमस्य नर्दतः<br>अश्रूयत महाराज सर्वसैन्येषु भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१०४.३५</sup>ततो व्यायच्छतामस्त्रैः पृथक्पृथगरिंदमौ<br>मृदुपूर्वं च राधेयो दृढपूर्वं च पाण्डवः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -186,8 +179,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

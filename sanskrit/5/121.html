@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/120.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१२१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/122.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/120.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१२१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/122.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२</sup>सद्भिरारोपितः स्वर्गं पार्थिवैर्भूरिदक्षिणैः<br>अभ्यनुज्ञाय दौहित्रान्ययातिर्दिवमास्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.३</sup>अभिवृष्टश्च वर्षेण नानापुष्पसुगन्धिना<br>परिष्वक्तश्च पुण्येन वायुना पुण्यगन्धिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.४</sup>अचलं स्थानमारुह्य दौहित्रफलनिर्जितम्<br>कर्मभिः स्वैरुपचितो जज्वाल परया श्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.५</sup>उपगीतोपनृत्तश्च गन्धर्वाप्सरसां गणैः<br>प्रीत्या प्रतिगृहीतश्च स्वर्गे दुन्दुभिनिस्वनैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.६</sup>अभिष्टुतश्च विविधैर्देवराजर्षिचारणैः<br>अर्चितश्चोत्तमार्घेण दैवतैरभिनन्दितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.७</sup>प्राप्तः स्वर्गफलं चैव तमुवाच पितामहः<br>निर्वृतं शान्तमनसं वचोभिस्तर्पयन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.८</sup>चतुष्पादस्त्वया धर्मश्चितो लोक्येन कर्मणा<br>अक्षयस्तव लोकोऽयं कीर्तिश्चैवाक्षया दिवि<br>पुनस्तवाद्य राजर्षे सुकृतेनेह कर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.९</sup>आवृतं तमसा चेतः सर्वेषां स्वर्गवासिनाम्<br>येन त्वां नाभिजानन्ति ततोऽज्ञात्वासि पातितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१०</sup>प्रीत्यैव चासि दौहित्रैस्तारितस्त्वमिहागतः<br>स्थानं च प्रतिपन्नोऽसि कर्मणा स्वेन निर्जितम्<br>अचलं शाश्वतं पुण्यमुत्तमं ध्रुवमव्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.११</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१२</sup>भगवन्संशयो मेऽस्ति कश्चित्तं छेत्तुमर्हसि<br>न ह्यन्यमहमर्हामि प्रष्टुं लोकपितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१३</sup>बहुवर्षसहस्रान्तं प्रजापालनवर्धितम्<br>अनेकक्रतुदानौघैरर्जितं मे महत्फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१४</sup>कथं तदल्पकालेन क्षीणं येनास्मि पातितः<br>भगवन्वेत्थ लोकांश्च शाश्वतान्मम निर्जितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१५</sup>पितामह उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१६</sup>बहुवर्षसहस्रान्तं प्रजापालनवर्धितम्<br>अनेकक्रतुदानौघैर्यत्त्वयोपार्जितं फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१७</sup>तदनेनैव दोषेण क्षीणं येनासि पातितः<br>अभिमानेन राजेन्द्र धिक्कृतः स्वर्गवासिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१८</sup>नायं मानेन राजर्षे न बलेन न हिंसया<br>न शाठ्येन न मायाभिर्लोको भवति शाश्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.१९</sup>नावमान्यास्त्वया राजन्नवरोत्कृष्टमध्यमाः<br>न हि मानप्रदग्धानां कश्चिदस्ति समः क्वचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२०</sup>पतनारोहणमिदं कथयिष्यन्ति ये नराः<br>विषमाण्यपि ते प्राप्तास्तरिष्यन्ति न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२१</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२२</sup>एष दोषोऽभिमानेन पुरा प्राप्तो ययातिना<br>निर्बन्धतश्चातिमात्रं गालवेन महीपते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२३</sup>श्रोतव्यं हितकामानां सुहृदां भूतिमिच्छताम्<br>न कर्तव्यो हि निर्बन्धो निर्बन्धो हि क्षयोदयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२४</sup>तस्मात्त्वमपि गान्धारे मानं क्रोधं च वर्जय<br>संधत्स्व पाण्डवैर्वीर संरम्भं त्यज पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२५</sup>ददाति यत्पार्थिव यत्करोति; यद्वा तपस्तप्यति यज्जुहोति<br>न तस्य नाशोऽस्ति न चापकर्षो; नान्यस्तदश्नाति स एव कर्ता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१२१.२६</sup>इदं महाख्यानमनुत्तमं मतं; बहुश्रुतानां गतरोषरागिणाम्<br>समीक्ष्य लोके बहुधा प्रधाविता; त्रिवर्गदृष्टिः पृथिवीमुपाश्नुते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२</sup>सद्भिरारोपितः स्वर्गं पार्थिवैर्भूरिदक्षिणैः<br>अभ्यनुज्ञाय दौहित्रान्ययातिर्दिवमास्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.३</sup>अभिवृष्टश्च वर्षेण नानापुष्पसुगन्धिना<br>परिष्वक्तश्च पुण्येन वायुना पुण्यगन्धिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.४</sup>अचलं स्थानमारुह्य दौहित्रफलनिर्जितम्<br>कर्मभिः स्वैरुपचितो जज्वाल परया श्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.५</sup>उपगीतोपनृत्तश्च गन्धर्वाप्सरसां गणैः<br>प्रीत्या प्रतिगृहीतश्च स्वर्गे दुन्दुभिनिस्वनैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.६</sup>अभिष्टुतश्च विविधैर्देवराजर्षिचारणैः<br>अर्चितश्चोत्तमार्घेण दैवतैरभिनन्दितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.७</sup>प्राप्तः स्वर्गफलं चैव तमुवाच पितामहः<br>निर्वृतं शान्तमनसं वचोभिस्तर्पयन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.८</sup>चतुष्पादस्त्वया धर्मश्चितो लोक्येन कर्मणा<br>अक्षयस्तव लोकोऽयं कीर्तिश्चैवाक्षया दिवि<br>पुनस्तवाद्य राजर्षे सुकृतेनेह कर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.९</sup>आवृतं तमसा चेतः सर्वेषां स्वर्गवासिनाम्<br>येन त्वां नाभिजानन्ति ततोऽज्ञात्वासि पातितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१०</sup>प्रीत्यैव चासि दौहित्रैस्तारितस्त्वमिहागतः<br>स्थानं च प्रतिपन्नोऽसि कर्मणा स्वेन निर्जितम्<br>अचलं शाश्वतं पुण्यमुत्तमं ध्रुवमव्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.११</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१२</sup>भगवन्संशयो मेऽस्ति कश्चित्तं छेत्तुमर्हसि<br>न ह्यन्यमहमर्हामि प्रष्टुं लोकपितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१३</sup>बहुवर्षसहस्रान्तं प्रजापालनवर्धितम्<br>अनेकक्रतुदानौघैरर्जितं मे महत्फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१४</sup>कथं तदल्पकालेन क्षीणं येनास्मि पातितः<br>भगवन्वेत्थ लोकांश्च शाश्वतान्मम निर्जितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१५</sup>पितामह उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१६</sup>बहुवर्षसहस्रान्तं प्रजापालनवर्धितम्<br>अनेकक्रतुदानौघैर्यत्त्वयोपार्जितं फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१७</sup>तदनेनैव दोषेण क्षीणं येनासि पातितः<br>अभिमानेन राजेन्द्र धिक्कृतः स्वर्गवासिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१८</sup>नायं मानेन राजर्षे न बलेन न हिंसया<br>न शाठ्येन न मायाभिर्लोको भवति शाश्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.१९</sup>नावमान्यास्त्वया राजन्नवरोत्कृष्टमध्यमाः<br>न हि मानप्रदग्धानां कश्चिदस्ति समः क्वचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२०</sup>पतनारोहणमिदं कथयिष्यन्ति ये नराः<br>विषमाण्यपि ते प्राप्तास्तरिष्यन्ति न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२१</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२२</sup>एष दोषोऽभिमानेन पुरा प्राप्तो ययातिना<br>निर्बन्धतश्चातिमात्रं गालवेन महीपते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२३</sup>श्रोतव्यं हितकामानां सुहृदां भूतिमिच्छताम्<br>न कर्तव्यो हि निर्बन्धो निर्बन्धो हि क्षयोदयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२४</sup>तस्मात्त्वमपि गान्धारे मानं क्रोधं च वर्जय<br>संधत्स्व पाण्डवैर्वीर संरम्भं त्यज पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२५</sup>ददाति यत्पार्थिव यत्करोति; यद्वा तपस्तप्यति यज्जुहोति<br>न तस्य नाशोऽस्ति न चापकर्षो; नान्यस्तदश्नाति स एव कर्ता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१२१.२६</sup>इदं महाख्यानमनुत्तमं मतं; बहुश्रुतानां गतरोषरागिणाम्<br>समीक्ष्य लोके बहुधा प्रधाविता; त्रिवर्गदृष्टिः पृथिवीमुपाश्नुते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/18.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:१९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/20.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,91 +64,56 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/18.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:१९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/20.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.२</sup>एवमुक्तस्तु राज्ञा स विदुरो बुद्धिसत्तमः<br>धृतराष्ट्रमुपेत्येदं वाक्यमाह महार्थवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.३</sup>उक्तो युधिष्ठिरो राजा भवद्वचनमादितः<br>स च संश्रुत्य वाक्यं ते प्रशशंस महाद्युतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.४</sup>बीभत्सुश्च महातेजा निवेदयति ते गृहान्<br>वसु तस्य गृहे यच्च प्राणानपि च केवलान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.५</sup>धर्मराजश्च पुत्रस्ते राज्यं प्राणान्धनानि च<br>अनुजानाति राजर्षे यच्चान्यदपि किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.६</sup>भीमस्तु सर्वदुःखानि संस्मृत्य बहुलान्युत<br>कृच्छ्रादिव महाबाहुरनुमन्ये विनिःश्वसन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.७</sup>स राज्ञा धर्मशीलेन भ्रात्रा बीभत्सुना तथा<br>अनुनीतो महाबाहुः सौहृदे स्थापितोऽपि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.८</sup>न च मन्युस्त्वया कार्य इति त्वां प्राह धर्मराट्<br>संस्मृत्य भीमस्तद्वैरं यदन्यायवदाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.९</sup>एवंप्रायो हि धर्मोऽयं क्षत्रियाणां नराधिप<br>युद्धे क्षत्रियधर्मे च निरतोऽयं वृकोदरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१०</sup>वृकोदरकृते चाहमर्जुनश्च पुनः पुनः<br>प्रसादयाव नृपते भवान्प्रभुरिहास्ति यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.११</sup>प्रददातु भवान्वित्तं यावदिच्छसि पार्थिव<br>त्वमीश्वरो नो राज्यस्य प्राणानां चेति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१२</sup>ब्रह्मदेयाग्रहारांश्च पुत्राणां चौर्ध्वदेहिकम्<br>इतो रत्नानि गाश्चैव दासीदासमजाविकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१३</sup>आनयित्वा कुरुश्रेष्ठो ब्राह्मणेभ्यः प्रयच्छतु<br>दीनान्धकृपणेभ्यश्च तत्र तत्र नृपाज्ञया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१४</sup>बह्वन्नरसपानाढ्याः सभा विदुर कारय<br>गवां निपानान्यन्यच्च विविधं पुण्यकर्म यत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१५</sup>इति मामब्रवीद्राजा पार्थश्चैव धनंजयः<br>यदत्रानन्तरं कार्यं तद्भवान्वक्तुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.१९.१६</sup>इत्युक्तो विदुरेणाथ धृतराष्ट्रोऽभिनन्द्य तत्<br>मनश्चक्रे महादाने कार्त्तिक्यां जनमेजय
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.२</sup>एवमुक्तस्तु राज्ञा स विदुरो बुद्धिसत्तमः<br>धृतराष्ट्रमुपेत्येदं वाक्यमाह महार्थवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.३</sup>उक्तो युधिष्ठिरो राजा भवद्वचनमादितः<br>स च संश्रुत्य वाक्यं ते प्रशशंस महाद्युतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.४</sup>बीभत्सुश्च महातेजा निवेदयति ते गृहान्<br>वसु तस्य गृहे यच्च प्राणानपि च केवलान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.५</sup>धर्मराजश्च पुत्रस्ते राज्यं प्राणान्धनानि च<br>अनुजानाति राजर्षे यच्चान्यदपि किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.६</sup>भीमस्तु सर्वदुःखानि संस्मृत्य बहुलान्युत<br>कृच्छ्रादिव महाबाहुरनुमन्ये विनिःश्वसन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.७</sup>स राज्ञा धर्मशीलेन भ्रात्रा बीभत्सुना तथा<br>अनुनीतो महाबाहुः सौहृदे स्थापितोऽपि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.८</sup>न च मन्युस्त्वया कार्य इति त्वां प्राह धर्मराट्<br>संस्मृत्य भीमस्तद्वैरं यदन्यायवदाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.९</sup>एवंप्रायो हि धर्मोऽयं क्षत्रियाणां नराधिप<br>युद्धे क्षत्रियधर्मे च निरतोऽयं वृकोदरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१०</sup>वृकोदरकृते चाहमर्जुनश्च पुनः पुनः<br>प्रसादयाव नृपते भवान्प्रभुरिहास्ति यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.११</sup>प्रददातु भवान्वित्तं यावदिच्छसि पार्थिव<br>त्वमीश्वरो नो राज्यस्य प्राणानां चेति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१२</sup>ब्रह्मदेयाग्रहारांश्च पुत्राणां चौर्ध्वदेहिकम्<br>इतो रत्नानि गाश्चैव दासीदासमजाविकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१३</sup>आनयित्वा कुरुश्रेष्ठो ब्राह्मणेभ्यः प्रयच्छतु<br>दीनान्धकृपणेभ्यश्च तत्र तत्र नृपाज्ञया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१४</sup>बह्वन्नरसपानाढ्याः सभा विदुर कारय<br>गवां निपानान्यन्यच्च विविधं पुण्यकर्म यत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१५</sup>इति मामब्रवीद्राजा पार्थश्चैव धनंजयः<br>यदत्रानन्तरं कार्यं तद्भवान्वक्तुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.१९.१६</sup>इत्युक्तो विदुरेणाथ धृतराष्ट्रोऽभिनन्द्य तत्<br>मनश्चक्रे महादाने कार्त्तिक्यां जनमेजय
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -129,8 +122,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

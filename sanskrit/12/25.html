@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/24.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/26.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,145 +64,110 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/24.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/26.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२</sup>पुनरेव महर्षिस्तं कृष्णद्वैपायनोऽब्रवीत्<br>अजातशत्रुं कौन्तेयमिदं वचनमर्थवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३</sup>अरण्ये वसतां तात भ्रातॄणां ते तपस्विनाम्<br>मनोरथा महाराज ये तत्रासन्युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.४</sup>तानिमे भरतश्रेष्ठ प्राप्नुवन्तु महारथाः<br>प्रशाधि पृथिवीं पार्थ ययातिरिव नाहुषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.५</sup>अरण्ये दुःखवसतिरनुभूता तपस्विभिः<br>दुःखस्यान्ते नरव्याघ्राः सुखं त्वनुभवन्त्विमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.६</sup>धर्ममर्थं च कामं च भ्रातृभिः सह भारत<br>अनुभूय ततः पश्चात्प्रस्थातासि विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.७</sup>अतिथीनां च पितॄणां देवतानां च भारत<br>आनृण्यं गच्छ कौन्तेय ततः स्वर्गं गमिष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.८</sup>सर्वमेधाश्वमेधाभ्यां यजस्व कुरुनन्दन<br>ततः पश्चान्महाराज गमिष्यसि परां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.९</sup>भ्रातॄंश्च सर्वान्क्रतुभिः संयोज्य बहुदक्षिणैः<br>संप्राप्तः कीर्तिमतुलां पाण्डवेय भविष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१०</sup>विद्म ते पुरुषव्याघ्र वचनं कुरुनन्दन<br>शृणु मच्च यथा कुर्वन्धर्मान्न च्यवते नृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.११</sup>आददानस्य च धनं निग्रहं च युधिष्ठिर<br>समानं धर्मकुशलाः स्थापयन्ति नरेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१२</sup>देशकालप्रतीक्षे यो दस्योर्दर्शयते नृपः<br>शास्त्रजां बुद्धिमास्थाय नैनसा स हि युज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१३</sup>आदाय बलिषड्भागं यो राष्ट्रं नाभिरक्षति<br>प्रतिगृह्णाति तत्पापं चतुर्थांशेन पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१४</sup>निबोध च यथातिष्ठन्धर्मान्न च्यवते नृपः<br>निग्रहाद्धर्मशास्त्राणामनुरुध्यन्नपेतभीः<br>कामक्रोधावनादृत्य पितेव समदर्शनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१५</sup>दैवेनोपहते राजा कर्मकाले महाद्युते<br>प्रमादयति तत्कर्म न तत्राहुरतिक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१६</sup>तरसा बुद्धिपूर्वं वा निग्राह्या एव शत्रवः<br>पापैः सह न संदध्याद्राष्ट्रं पण्यं न कारयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१७</sup>शूराश्चार्याश्च सत्कार्या विद्वांसश्च युधिष्ठिर<br>गोमतो धनिनश्चैव परिपाल्या विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१८</sup>व्यवहारेषु धर्म्येषु नियोज्याश्च बहुश्रुताः<br>गुणयुक्तेऽपि नैकस्मिन्विश्वस्याच्च विचक्षणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.१९</sup>अरक्षिता दुर्विनीतो मानी स्तब्धोऽभ्यसूयकः<br>एनसा युज्यते राजा दुर्दान्त इति चोच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२०</sup>येऽरक्ष्यमाणा हीयन्ते दैवेनोपहते नृपे<br>तस्करैश्चापि हन्यन्ते सर्वं तद्राजकिल्बिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२१</sup>सुमन्त्रिते सुनीते च विधिवच्चोपपादिते<br>पौरुषे कर्मणि कृते नास्त्यधर्मो युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२२</sup>विपद्यन्ते समारम्भाः सिध्यन्त्यपि च दैवतः<br>कृते पुरुषकारे तु नैनः स्पृशति पार्थिवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२३</sup>अत्र ते राजशार्दूल वर्तयिष्ये कथामिमाम्<br>यद्वृत्तं पूर्वराजर्षेर्हयग्रीवस्य पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२४</sup>शत्रून्हत्वा हतस्याजौ शूरस्याक्लिष्टकर्मणः<br>असहायस्य धीरस्य निर्जितस्य युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२५</sup>यत्कर्म वै निग्रहे शात्रवाणां; योगश्चाग्र्यः पालने मानवानाम्<br>कृत्वा कर्म प्राप्य कीर्तिं सुयुद्धे; वाजिग्रीवो मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२६</sup>संत्यक्तात्मा समरेष्वाततायी; शस्त्रैश्छिन्नो दस्युभिरर्द्यमानः<br>अश्वग्रीवः कर्मशीलो महात्मा; संसिद्धात्मा मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२७</sup>धनुर्यूपो रशना ज्या शरः स्रु;क्स्रुवः खड्गो रुधिरं यत्र चाज्यम्<br>रथो वेदी कामगो युद्धमग्नि;श्चातुर्होत्रं चतुरो वाजिमुख्याः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२८</sup>हुत्वा तस्मिन्यज्ञवह्नावथारी;न्पापान्मुक्तो राजसिंहस्तरस्वी<br>प्राणान्हुत्वा चावभृथे रणे स; वाजिग्रीवो मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.२९</sup>राष्ट्रं रक्षन्बुद्धिपूर्वं नयेन; संत्यक्तात्मा यज्ञशीलो महात्मा<br>सर्वाँल्लोकान्व्याप्य कीर्त्या मनस्वी; वाजिग्रीवो मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३०</sup>दैवीं सिद्धिं मानुषीं दण्डनीतिं; योगन्यायैः पालयित्वा महीं च<br>तस्माद्राजा धर्मशीलो महात्मा; हयग्रीवो मोदते स्वर्गलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३१</sup>विद्वांस्त्यागी श्रद्दधानः कृतज्ञ;स्त्यक्त्वा लोकं मानुषं कर्म कृत्वा<br>मेधाविनां विदुषां संमतानां; तनुत्यजां लोकमाक्रम्य राजा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३२</sup>सम्यग्वेदान्प्राप्य शास्त्राण्यधीत्य; सम्यग्राष्ट्रं पालयित्वा महात्मा<br>चातुर्वर्ण्यं स्थापयित्वा स्वधर्मे; वाजिग्रीवो मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३३</sup>जित्वा संग्रामान्पालयित्वा प्रजाश्च; सोमं पीत्वा तर्पयित्वा द्विजाग्र्यान्<br>युक्त्या दण्डं धारयित्वा प्रजानां; युद्धे क्षीणो मोदते देवलोके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२५.३४</sup>वृत्तं यस्य श्लाघनीयं मनुष्याः; सन्तो विद्वांसश्चार्हयन्त्यर्हणीयाः<br>स्वर्गं जित्वा वीरलोकांश्च गत्वा; सिद्धिं प्राप्तः पुण्यकीर्तिर्महात्मा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२</sup>पुनरेव महर्षिस्तं कृष्णद्वैपायनोऽब्रवीत्<br>अजातशत्रुं कौन्तेयमिदं वचनमर्थवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३</sup>अरण्ये वसतां तात भ्रातॄणां ते तपस्विनाम्<br>मनोरथा महाराज ये तत्रासन्युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.४</sup>तानिमे भरतश्रेष्ठ प्राप्नुवन्तु महारथाः<br>प्रशाधि पृथिवीं पार्थ ययातिरिव नाहुषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.५</sup>अरण्ये दुःखवसतिरनुभूता तपस्विभिः<br>दुःखस्यान्ते नरव्याघ्राः सुखं त्वनुभवन्त्विमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.६</sup>धर्ममर्थं च कामं च भ्रातृभिः सह भारत<br>अनुभूय ततः पश्चात्प्रस्थातासि विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.७</sup>अतिथीनां च पितॄणां देवतानां च भारत<br>आनृण्यं गच्छ कौन्तेय ततः स्वर्गं गमिष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.८</sup>सर्वमेधाश्वमेधाभ्यां यजस्व कुरुनन्दन<br>ततः पश्चान्महाराज गमिष्यसि परां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.९</sup>भ्रातॄंश्च सर्वान्क्रतुभिः संयोज्य बहुदक्षिणैः<br>संप्राप्तः कीर्तिमतुलां पाण्डवेय भविष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१०</sup>विद्म ते पुरुषव्याघ्र वचनं कुरुनन्दन<br>शृणु मच्च यथा कुर्वन्धर्मान्न च्यवते नृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.११</sup>आददानस्य च धनं निग्रहं च युधिष्ठिर<br>समानं धर्मकुशलाः स्थापयन्ति नरेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१२</sup>देशकालप्रतीक्षे यो दस्योर्दर्शयते नृपः<br>शास्त्रजां बुद्धिमास्थाय नैनसा स हि युज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१३</sup>आदाय बलिषड्भागं यो राष्ट्रं नाभिरक्षति<br>प्रतिगृह्णाति तत्पापं चतुर्थांशेन पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१४</sup>निबोध च यथातिष्ठन्धर्मान्न च्यवते नृपः<br>निग्रहाद्धर्मशास्त्राणामनुरुध्यन्नपेतभीः<br>कामक्रोधावनादृत्य पितेव समदर्शनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१५</sup>दैवेनोपहते राजा कर्मकाले महाद्युते<br>प्रमादयति तत्कर्म न तत्राहुरतिक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१६</sup>तरसा बुद्धिपूर्वं वा निग्राह्या एव शत्रवः<br>पापैः सह न संदध्याद्राष्ट्रं पण्यं न कारयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१७</sup>शूराश्चार्याश्च सत्कार्या विद्वांसश्च युधिष्ठिर<br>गोमतो धनिनश्चैव परिपाल्या विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१८</sup>व्यवहारेषु धर्म्येषु नियोज्याश्च बहुश्रुताः<br>गुणयुक्तेऽपि नैकस्मिन्विश्वस्याच्च विचक्षणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.१९</sup>अरक्षिता दुर्विनीतो मानी स्तब्धोऽभ्यसूयकः<br>एनसा युज्यते राजा दुर्दान्त इति चोच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२०</sup>येऽरक्ष्यमाणा हीयन्ते दैवेनोपहते नृपे<br>तस्करैश्चापि हन्यन्ते सर्वं तद्राजकिल्बिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२१</sup>सुमन्त्रिते सुनीते च विधिवच्चोपपादिते<br>पौरुषे कर्मणि कृते नास्त्यधर्मो युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२२</sup>विपद्यन्ते समारम्भाः सिध्यन्त्यपि च दैवतः<br>कृते पुरुषकारे तु नैनः स्पृशति पार्थिवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२३</sup>अत्र ते राजशार्दूल वर्तयिष्ये कथामिमाम्<br>यद्वृत्तं पूर्वराजर्षेर्हयग्रीवस्य पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२४</sup>शत्रून्हत्वा हतस्याजौ शूरस्याक्लिष्टकर्मणः<br>असहायस्य धीरस्य निर्जितस्य युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२५</sup>यत्कर्म वै निग्रहे शात्रवाणां; योगश्चाग्र्यः पालने मानवानाम्<br>कृत्वा कर्म प्राप्य कीर्तिं सुयुद्धे; वाजिग्रीवो मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२६</sup>संत्यक्तात्मा समरेष्वाततायी; शस्त्रैश्छिन्नो दस्युभिरर्द्यमानः<br>अश्वग्रीवः कर्मशीलो महात्मा; संसिद्धात्मा मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२७</sup>धनुर्यूपो रशना ज्या शरः स्रु;क्स्रुवः खड्गो रुधिरं यत्र चाज्यम्<br>रथो वेदी कामगो युद्धमग्नि;श्चातुर्होत्रं चतुरो वाजिमुख्याः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२८</sup>हुत्वा तस्मिन्यज्ञवह्नावथारी;न्पापान्मुक्तो राजसिंहस्तरस्वी<br>प्राणान्हुत्वा चावभृथे रणे स; वाजिग्रीवो मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.२९</sup>राष्ट्रं रक्षन्बुद्धिपूर्वं नयेन; संत्यक्तात्मा यज्ञशीलो महात्मा<br>सर्वाँल्लोकान्व्याप्य कीर्त्या मनस्वी; वाजिग्रीवो मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३०</sup>दैवीं सिद्धिं मानुषीं दण्डनीतिं; योगन्यायैः पालयित्वा महीं च<br>तस्माद्राजा धर्मशीलो महात्मा; हयग्रीवो मोदते स्वर्गलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३१</sup>विद्वांस्त्यागी श्रद्दधानः कृतज्ञ;स्त्यक्त्वा लोकं मानुषं कर्म कृत्वा<br>मेधाविनां विदुषां संमतानां; तनुत्यजां लोकमाक्रम्य राजा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३२</sup>सम्यग्वेदान्प्राप्य शास्त्राण्यधीत्य; सम्यग्राष्ट्रं पालयित्वा महात्मा<br>चातुर्वर्ण्यं स्थापयित्वा स्वधर्मे; वाजिग्रीवो मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३३</sup>जित्वा संग्रामान्पालयित्वा प्रजाश्च; सोमं पीत्वा तर्पयित्वा द्विजाग्र्यान्<br>युक्त्या दण्डं धारयित्वा प्रजानां; युद्धे क्षीणो मोदते देवलोके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२५.३४</sup>वृत्तं यस्य श्लाघनीयं मनुष्याः; सन्तो विद्वांसश्चार्हयन्त्यर्हणीयाः<br>स्वर्गं जित्वा वीरलोकांश्च गत्वा; सिद्धिं प्राप्तः पुण्यकीर्तिर्महात्मा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -183,8 +176,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

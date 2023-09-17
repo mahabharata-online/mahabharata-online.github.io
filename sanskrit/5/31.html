@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/30.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:३१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/32.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/30.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:३१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/32.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२</sup>उत सन्तमसन्तं च बालं वृद्धं च संजय<br>उताबलं बलीयांसं धाता प्रकुरुते वशे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.३</sup>उत बालाय पाण्डित्यं पण्डितायोत बालताम्<br>ददाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.४</sup>अलं विज्ञापनाय स्यादाचक्षीथा यथातथम्<br>अथो मन्त्रं मन्त्रयित्वा अन्योन्येनातिहृष्टवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.५</sup>गावल्गणे कुरून्गत्वा धृतराष्ट्रं महाबलम्<br>अभिवाद्योपसंगृह्य ततः पृच्छेरनामयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.६</sup>ब्रूयाश्चैनं त्वमासीनं कुरुभिः परिवारितम्<br>तवैव राजन्वीर्येण सुखं जीवन्ति पाण्डवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.७</sup>तव प्रसादाद्बालास्ते प्राप्ता राज्यमरिंदम<br>राज्ये तान्स्थापयित्वाग्रे नोपेक्षीर्विनशिष्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.८</sup>सर्वमप्येतदेकस्य नालं संजय कस्यचित्<br>तात संहत्य जीवामो मा द्विषद्भ्यो वशं गमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.९</sup>तथा भीष्मं शांतनवं भारतानां पितामहम्<br>शिरसाभिवदेथास्त्वं मम नाम प्रकीर्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१०</sup>अभिवाद्य च वक्तव्यस्ततोऽस्माकं पितामहः<br>भवता शंतनोर्वंशो निमग्नः पुनरुद्धृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.११</sup>स त्वं कुरु तथा तात स्वमतेन पितामह<br>यथा जीवन्ति ते पौत्राः प्रीतिमन्तः परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१२</sup>तथैव विदुरं ब्रूयाः कुरूणां मन्त्रधारिणम्<br>अयुद्धं सौम्य भाषस्व हितकामो युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१३</sup>अथो सुयोधनं ब्रूया राजपुत्रममर्षणम्<br>मध्ये कुरूणामासीनमनुनीय पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१४</sup>अपश्यन्मामुपेक्षन्तं कृष्णामेकां सभागताम्<br>तद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१५</sup>एवं पूर्वापरान्क्लेशानतितिक्षन्त पाण्डवाः<br>यथा बलीयसः सन्तस्तत्सर्वं कुरवो विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१६</sup>यन्नः प्राव्राजयः सौम्य अजिनैः प्रतिवासितान्<br>तद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१७</sup>यत्तत्सभायामाक्रम्य कृष्णां केशेष्वधर्षयत्<br>दुःशासनस्तेऽनुमते तच्चास्माभिरुपेक्षितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१८</sup>यथोचितं स्वकं भागं लभेमहि परंतप<br>निवर्तय परद्रव्ये बुद्धिं गृद्धां नरर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.१९</sup>शान्तिरेवं भवेद्राजन्प्रीतिश्चैव परस्परम्<br>राज्यैकदेशमपि नः प्रयच्छ शममिच्छताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२०</sup>कुशस्थलं वृकस्थलमासन्दी वारणावतम्<br>अवसानं भवेदत्र किंचिदेव तु पञ्चमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२१</sup>भ्रातॄणां देहि पञ्चानां ग्रामान्पञ्च सुयोधन<br>शान्तिर्नोऽस्तु महाप्राज्ञ ज्ञातिभिः सह संजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२२</sup>भ्राता भ्रातरमन्वेतु पिता पुत्रेण युज्यताम्<br>स्मयमानाः समायान्तु पाञ्चालाः कुरुभिः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२३</sup>अक्षतान्कुरुपाञ्चालान्पश्येम इति कामये<br>सर्वे सुमनसस्तात शाम्याम भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.३१.२४</sup>अलमेव शमायास्मि तथा युद्धाय संजय<br>धर्मार्थयोरलं चाहं मृदवे दारुणाय च
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२</sup>उत सन्तमसन्तं च बालं वृद्धं च संजय<br>उताबलं बलीयांसं धाता प्रकुरुते वशे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.३</sup>उत बालाय पाण्डित्यं पण्डितायोत बालताम्<br>ददाति सर्वमीशानः पुरस्ताच्छुक्रमुच्चरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.४</sup>अलं विज्ञापनाय स्यादाचक्षीथा यथातथम्<br>अथो मन्त्रं मन्त्रयित्वा अन्योन्येनातिहृष्टवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.५</sup>गावल्गणे कुरून्गत्वा धृतराष्ट्रं महाबलम्<br>अभिवाद्योपसंगृह्य ततः पृच्छेरनामयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.६</sup>ब्रूयाश्चैनं त्वमासीनं कुरुभिः परिवारितम्<br>तवैव राजन्वीर्येण सुखं जीवन्ति पाण्डवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.७</sup>तव प्रसादाद्बालास्ते प्राप्ता राज्यमरिंदम<br>राज्ये तान्स्थापयित्वाग्रे नोपेक्षीर्विनशिष्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.८</sup>सर्वमप्येतदेकस्य नालं संजय कस्यचित्<br>तात संहत्य जीवामो मा द्विषद्भ्यो वशं गमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.९</sup>तथा भीष्मं शांतनवं भारतानां पितामहम्<br>शिरसाभिवदेथास्त्वं मम नाम प्रकीर्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१०</sup>अभिवाद्य च वक्तव्यस्ततोऽस्माकं पितामहः<br>भवता शंतनोर्वंशो निमग्नः पुनरुद्धृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.११</sup>स त्वं कुरु तथा तात स्वमतेन पितामह<br>यथा जीवन्ति ते पौत्राः प्रीतिमन्तः परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१२</sup>तथैव विदुरं ब्रूयाः कुरूणां मन्त्रधारिणम्<br>अयुद्धं सौम्य भाषस्व हितकामो युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१३</sup>अथो सुयोधनं ब्रूया राजपुत्रममर्षणम्<br>मध्ये कुरूणामासीनमनुनीय पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१४</sup>अपश्यन्मामुपेक्षन्तं कृष्णामेकां सभागताम्<br>तद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१५</sup>एवं पूर्वापरान्क्लेशानतितिक्षन्त पाण्डवाः<br>यथा बलीयसः सन्तस्तत्सर्वं कुरवो विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१६</sup>यन्नः प्राव्राजयः सौम्य अजिनैः प्रतिवासितान्<br>तद्दुःखमतितिक्षाम मा वधीष्म कुरूनिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१७</sup>यत्तत्सभायामाक्रम्य कृष्णां केशेष्वधर्षयत्<br>दुःशासनस्तेऽनुमते तच्चास्माभिरुपेक्षितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१८</sup>यथोचितं स्वकं भागं लभेमहि परंतप<br>निवर्तय परद्रव्ये बुद्धिं गृद्धां नरर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.१९</sup>शान्तिरेवं भवेद्राजन्प्रीतिश्चैव परस्परम्<br>राज्यैकदेशमपि नः प्रयच्छ शममिच्छताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२०</sup>कुशस्थलं वृकस्थलमासन्दी वारणावतम्<br>अवसानं भवेदत्र किंचिदेव तु पञ्चमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२१</sup>भ्रातॄणां देहि पञ्चानां ग्रामान्पञ्च सुयोधन<br>शान्तिर्नोऽस्तु महाप्राज्ञ ज्ञातिभिः सह संजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२२</sup>भ्राता भ्रातरमन्वेतु पिता पुत्रेण युज्यताम्<br>स्मयमानाः समायान्तु पाञ्चालाः कुरुभिः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२३</sup>अक्षतान्कुरुपाञ्चालान्पश्येम इति कामये<br>सर्वे सुमनसस्तात शाम्याम भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.३१.२४</sup>अलमेव शमायास्मि तथा युद्धाय संजय<br>धर्मार्थयोरलं चाहं मृदवे दारुणाय च
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

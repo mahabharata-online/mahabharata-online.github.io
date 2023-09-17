@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/16/6.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१६:७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/16/8.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/16/6.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१६:७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/16/8.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२</sup>तं शयानं महात्मानं वीरमानकदुन्दुभिम्<br>पुत्रशोकाभिसंतप्तं ददर्श कुरुपुंगवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.३</sup>तस्याश्रुपरिपूर्णाक्षो व्यूढोरस्को महाभुजः<br>आर्तस्यार्ततरः पार्थः पादौ जग्राह भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.४</sup>समालिङ्ग्यार्जुनं वृद्धः स भुजाभ्यां महाभुजः<br>रुदन्पुत्रान्स्मरन्सर्वान्विललाप सुविह्वलः<br>भ्रातॄन्पुत्रांश्च पौत्रांश्च दौहित्रांश्च सखीनपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.५</sup>वसुदेव उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.६</sup>यैर्जिता भूमिपालाश्च दैत्याश्च शतशोऽर्जुन<br>तान्दृष्ट्वा नेह पश्यामि जीवाम्यर्जुन दुर्मरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.७</sup>यौ तावर्जुन शिष्यौ ते प्रियौ बहुमतौ सदा<br>तयोरपनयात्पार्थ वृष्णयो निधनं गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.८</sup>यौ तौ वृष्णिप्रवीराणां द्वावेवातिरथौ मतौ<br>प्रद्युम्नो युयुधानश्च कथयन्कत्थसे च यौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.९</sup>नित्यं त्वं कुरुशार्दूल कृष्णश्च मम पुत्रकः<br>तावुभौ वृष्णिनाशस्य मुखमास्तां धनंजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१०</sup>न तु गर्हामि शैनेयं हार्दिक्यं चाहमर्जुन<br>अक्रूरं रौक्मिणेयं च शापो ह्येवात्र कारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.११</sup>केशिनं यस्तु कंसं च विक्रम्य जगतः प्रभुः<br>विदेहावकरोत्पार्थ चैद्यं च बलगर्वितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१२</sup>नैषादिमेकलव्यं च चक्रे कालिङ्गमागधान्<br>गान्धारान्काशिराजं च मरुभूमौ च पार्थिवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१३</sup>प्राच्यांश्च दाक्षिणात्यांश्च पार्वतीयांस्तथा नृपान्<br>सोऽभ्युपेक्षितवानेतमनयं मधुसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१४</sup>ततः पुत्रांश्च पौत्रांश्च भ्रातॄनथ सखीनपि<br>शयानान्निहतान्दृष्ट्वा ततो मामब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१५</sup>संप्राप्तोऽद्यायमस्यान्तः कुलस्य पुरुषर्षभ<br>आगमिष्यति बीभत्सुरिमां द्वारवतीं पुरीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१६</sup>आख्येयं तस्य यद्वृत्तं वृष्णीनां वैशसं महत्<br>स तु श्रुत्वा महातेजा यदूनामनयं प्रभो<br>आगन्ता क्षिप्रमेवेह न मेऽत्रास्ति विचारणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१७</sup>योऽहं तमर्जुनं विद्धि योऽर्जुनः सोऽहमेव तु<br>यद्ब्रूयात्तत्तथा कार्यमिति बुध्यस्व माधव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१८</sup>स स्त्रीषु प्राप्तकालं वः पाण्डवो बालकेषु च<br>प्रतिपत्स्यति बीभत्सुर्भवतश्चौर्ध्वदेहिकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.१९</sup>इमां च नगरीं सद्यः प्रतियाते धनंजये<br>प्राकाराट्टालकोपेतां समुद्रः प्लावयिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२०</sup>अहं हि देशे कस्मिंश्चित्पुण्ये नियममास्थितः<br>कालं कर्ता सद्य एव रामेण सह धीमता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२१</sup>एवमुक्त्वा हृषीकेशो मामचिन्त्यपराक्रमः<br>हित्वा मां बालकैः सार्धं दिशं कामप्यगात्प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२२</sup>सोऽहं तौ च महात्मानौ चिन्तयन्भ्रातरौ तव<br>घोरं ज्ञातिवधं चैव न भुञ्जे शोककर्शितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२३</sup>न च भोक्ष्ये न जीविष्ये दिष्ट्या प्राप्तोऽसि पाण्डव<br>यदुक्तं पार्थ कृष्णेन तत्सर्वमखिलं कुरु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१६.७.२४</sup>एतत्ते पार्थ राज्यं च स्त्रियो रत्नानि चैव ह<br>इष्टान्प्राणानहं हीमांस्त्यक्ष्यामि रिपुसूदन
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२</sup>तं शयानं महात्मानं वीरमानकदुन्दुभिम्<br>पुत्रशोकाभिसंतप्तं ददर्श कुरुपुंगवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.३</sup>तस्याश्रुपरिपूर्णाक्षो व्यूढोरस्को महाभुजः<br>आर्तस्यार्ततरः पार्थः पादौ जग्राह भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.४</sup>समालिङ्ग्यार्जुनं वृद्धः स भुजाभ्यां महाभुजः<br>रुदन्पुत्रान्स्मरन्सर्वान्विललाप सुविह्वलः<br>भ्रातॄन्पुत्रांश्च पौत्रांश्च दौहित्रांश्च सखीनपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.५</sup>वसुदेव उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.६</sup>यैर्जिता भूमिपालाश्च दैत्याश्च शतशोऽर्जुन<br>तान्दृष्ट्वा नेह पश्यामि जीवाम्यर्जुन दुर्मरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.७</sup>यौ तावर्जुन शिष्यौ ते प्रियौ बहुमतौ सदा<br>तयोरपनयात्पार्थ वृष्णयो निधनं गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.८</sup>यौ तौ वृष्णिप्रवीराणां द्वावेवातिरथौ मतौ<br>प्रद्युम्नो युयुधानश्च कथयन्कत्थसे च यौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.९</sup>नित्यं त्वं कुरुशार्दूल कृष्णश्च मम पुत्रकः<br>तावुभौ वृष्णिनाशस्य मुखमास्तां धनंजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१०</sup>न तु गर्हामि शैनेयं हार्दिक्यं चाहमर्जुन<br>अक्रूरं रौक्मिणेयं च शापो ह्येवात्र कारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.११</sup>केशिनं यस्तु कंसं च विक्रम्य जगतः प्रभुः<br>विदेहावकरोत्पार्थ चैद्यं च बलगर्वितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१२</sup>नैषादिमेकलव्यं च चक्रे कालिङ्गमागधान्<br>गान्धारान्काशिराजं च मरुभूमौ च पार्थिवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१३</sup>प्राच्यांश्च दाक्षिणात्यांश्च पार्वतीयांस्तथा नृपान्<br>सोऽभ्युपेक्षितवानेतमनयं मधुसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१४</sup>ततः पुत्रांश्च पौत्रांश्च भ्रातॄनथ सखीनपि<br>शयानान्निहतान्दृष्ट्वा ततो मामब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१५</sup>संप्राप्तोऽद्यायमस्यान्तः कुलस्य पुरुषर्षभ<br>आगमिष्यति बीभत्सुरिमां द्वारवतीं पुरीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१६</sup>आख्येयं तस्य यद्वृत्तं वृष्णीनां वैशसं महत्<br>स तु श्रुत्वा महातेजा यदूनामनयं प्रभो<br>आगन्ता क्षिप्रमेवेह न मेऽत्रास्ति विचारणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१७</sup>योऽहं तमर्जुनं विद्धि योऽर्जुनः सोऽहमेव तु<br>यद्ब्रूयात्तत्तथा कार्यमिति बुध्यस्व माधव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१८</sup>स स्त्रीषु प्राप्तकालं वः पाण्डवो बालकेषु च<br>प्रतिपत्स्यति बीभत्सुर्भवतश्चौर्ध्वदेहिकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.१९</sup>इमां च नगरीं सद्यः प्रतियाते धनंजये<br>प्राकाराट्टालकोपेतां समुद्रः प्लावयिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२०</sup>अहं हि देशे कस्मिंश्चित्पुण्ये नियममास्थितः<br>कालं कर्ता सद्य एव रामेण सह धीमता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२१</sup>एवमुक्त्वा हृषीकेशो मामचिन्त्यपराक्रमः<br>हित्वा मां बालकैः सार्धं दिशं कामप्यगात्प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२२</sup>सोऽहं तौ च महात्मानौ चिन्तयन्भ्रातरौ तव<br>घोरं ज्ञातिवधं चैव न भुञ्जे शोककर्शितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२३</sup>न च भोक्ष्ये न जीविष्ये दिष्ट्या प्राप्तोऽसि पाण्डव<br>यदुक्तं पार्थ कृष्णेन तत्सर्वमखिलं कुरु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१६.७.२४</sup>एतत्ते पार्थ राज्यं च स्त्रियो रत्नानि चैव ह<br>इष्टान्प्राणानहं हीमांस्त्यक्ष्यामि रिपुसूदन
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

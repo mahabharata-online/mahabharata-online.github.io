@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/2/16.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>२:१७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/2/18.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,130 +64,95 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/2/16.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">२:१७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/2/18.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१</sup>राक्षस्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२</sup>जरा नामास्मि भद्रं ते राक्षसी कामरूपिणी<br>तव वेश्मनि राजेन्द्र पूजिता न्यवसं सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.३</sup>साहं प्रत्युपकारार्थं चिन्तयन्त्यनिशं नृप<br>तवेमे पुत्रशकले दृष्टवत्यस्मि धार्मिक
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.४</sup>संश्लेषिते मया दैवात्कुमारः समपद्यत<br>तव भाग्यैर्महाराज हेतुमात्रमहं त्विह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.५</sup>कृष्ण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.६</sup>एवमुक्त्वा तु सा राजंस्तत्रैवान्तरधीयत<br>स गृह्य च कुमारं तं प्राविशत्स्वगृहं नृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.७</sup>तस्य बालस्य यत्कृत्यं तच्चकार नृपस्तदा<br>आज्ञापयच्च राक्षस्या मागधेषु महोत्सवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.८</sup>तस्य नामाकरोत्तत्र प्रजापतिसमः पिता<br>जरया संधितो यस्माज्जरासंधस्ततोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.९</sup>सोऽवर्धत महातेजा मगधाधिपतेः सुतः<br>प्रमाणबलसंपन्नो हुताहुतिरिवानलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१०</sup>कस्यचित्त्वथ कालस्य पुनरेव महातपाः<br>मगधानुपचक्राम भगवांश्चण्डकौशिकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.११</sup>तस्यागमनसंहृष्टः सामात्यः सपुरःसरः<br>सभार्यः सह पुत्रेण निर्जगाम बृहद्रथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१२</sup>पाद्यार्घ्याचमनीयैस्तमर्चयामास भारत<br>स नृपो राज्यसहितं पुत्रं चास्मै न्यवेदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१३</sup>प्रतिगृह्य तु तां पूजां पार्थिवाद्भगवानृषिः<br>उवाच मागधं राजन्प्रहृष्टेनान्तरात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१४</sup>सर्वमेतन्मया राजन्विज्ञातं ज्ञानचक्षुषा<br>पुत्रस्तु शृणु राजेन्द्र यादृशोऽयं भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१५</sup>अस्य वीर्यवतो वीर्यं नानुयास्यन्ति पार्थिवाः<br>देवैरपि विसृष्टानि शस्त्राण्यस्य महीपते<br>न रुजं जनयिष्यन्ति गिरेरिव नदीरयाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१६</sup>सर्वमूर्धाभिषिक्तानामेष मूर्ध्नि ज्वलिष्यति<br>सर्वेषां निष्प्रभकरो ज्योतिषामिव भास्करः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१७</sup>एनमासाद्य राजानः समृद्धबलवाहनाः<br>विनाशमुपयास्यन्ति शलभा इव पावकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१८</sup>एष श्रियं समुदितां सर्वराज्ञां ग्रहीष्यति<br>वर्षास्विवोद्धतजला नदीर्नदनदीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.१९</sup>एष धारयिता सम्यक्चातुर्वर्ण्यं महाबलः<br>शुभाशुभमिव स्फीता सर्वसस्यधरा धरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२०</sup>अस्याज्ञावशगाः सर्वे भविष्यन्ति नराधिपाः<br>सर्वभूतात्मभूतस्य वायोरिव शरीरिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२१</sup>एष रुद्रं महादेवं त्रिपुरान्तकरं हरम्<br>सर्वलोकेष्वतिबलः स्वयं द्रक्ष्यति मागधः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२२</sup>एवं ब्रुवन्नेव मुनिः स्वकार्यार्थं विचिन्तयन्<br>विसर्जयामास नृपं बृहद्रथमथारिहन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२३</sup>प्रविश्य नगरं चैव ज्ञातिसंबन्धिभिर्वृतः<br>अभिषिच्य जरासंधं मगधाधिपतिस्तदा<br>बृहद्रथो नरपतिः परां निर्वृतिमाययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२४</sup>अभिषिक्ते जरासंधे तदा राजा बृहद्रथः<br>पत्नीद्वयेनानुगतस्तपोवनरतोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२५</sup>तपोवनस्थे पितरि मातृभ्यां सह भारत<br>जरासंधः स्ववीर्येण पार्थिवानकरोद्वशे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२६</sup>अथ दीर्घस्य कालस्य तपोवनगतो नृपः<br>सभार्यः स्वर्गमगमत्तपस्तप्त्वा बृहद्रथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२७</sup>तस्यास्तां हंसडिभकावशस्त्रनिधनावुभौ<br>मन्त्रे मतिमतां श्रेष्ठौ युद्धशास्त्रविशारदौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२८</sup>यौ तौ मया ते कथितौ पूर्वमेव महाबलौ<br>त्रयस्त्रयाणां लोकानां पर्याप्ता इति मे मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.१७.२९</sup>एवमेष तदा वीर बलिभिः कुकुरान्धकैः<br>वृष्णिभिश्च महाराज नीतिहेतोरुपेक्षितः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१</sup>राक्षस्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२</sup>जरा नामास्मि भद्रं ते राक्षसी कामरूपिणी<br>तव वेश्मनि राजेन्द्र पूजिता न्यवसं सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.३</sup>साहं प्रत्युपकारार्थं चिन्तयन्त्यनिशं नृप<br>तवेमे पुत्रशकले दृष्टवत्यस्मि धार्मिक
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.४</sup>संश्लेषिते मया दैवात्कुमारः समपद्यत<br>तव भाग्यैर्महाराज हेतुमात्रमहं त्विह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.५</sup>कृष्ण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.६</sup>एवमुक्त्वा तु सा राजंस्तत्रैवान्तरधीयत<br>स गृह्य च कुमारं तं प्राविशत्स्वगृहं नृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.७</sup>तस्य बालस्य यत्कृत्यं तच्चकार नृपस्तदा<br>आज्ञापयच्च राक्षस्या मागधेषु महोत्सवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.८</sup>तस्य नामाकरोत्तत्र प्रजापतिसमः पिता<br>जरया संधितो यस्माज्जरासंधस्ततोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.९</sup>सोऽवर्धत महातेजा मगधाधिपतेः सुतः<br>प्रमाणबलसंपन्नो हुताहुतिरिवानलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१०</sup>कस्यचित्त्वथ कालस्य पुनरेव महातपाः<br>मगधानुपचक्राम भगवांश्चण्डकौशिकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.११</sup>तस्यागमनसंहृष्टः सामात्यः सपुरःसरः<br>सभार्यः सह पुत्रेण निर्जगाम बृहद्रथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१२</sup>पाद्यार्घ्याचमनीयैस्तमर्चयामास भारत<br>स नृपो राज्यसहितं पुत्रं चास्मै न्यवेदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१३</sup>प्रतिगृह्य तु तां पूजां पार्थिवाद्भगवानृषिः<br>उवाच मागधं राजन्प्रहृष्टेनान्तरात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१४</sup>सर्वमेतन्मया राजन्विज्ञातं ज्ञानचक्षुषा<br>पुत्रस्तु शृणु राजेन्द्र यादृशोऽयं भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१५</sup>अस्य वीर्यवतो वीर्यं नानुयास्यन्ति पार्थिवाः<br>देवैरपि विसृष्टानि शस्त्राण्यस्य महीपते<br>न रुजं जनयिष्यन्ति गिरेरिव नदीरयाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१६</sup>सर्वमूर्धाभिषिक्तानामेष मूर्ध्नि ज्वलिष्यति<br>सर्वेषां निष्प्रभकरो ज्योतिषामिव भास्करः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१७</sup>एनमासाद्य राजानः समृद्धबलवाहनाः<br>विनाशमुपयास्यन्ति शलभा इव पावकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१८</sup>एष श्रियं समुदितां सर्वराज्ञां ग्रहीष्यति<br>वर्षास्विवोद्धतजला नदीर्नदनदीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.१९</sup>एष धारयिता सम्यक्चातुर्वर्ण्यं महाबलः<br>शुभाशुभमिव स्फीता सर्वसस्यधरा धरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२०</sup>अस्याज्ञावशगाः सर्वे भविष्यन्ति नराधिपाः<br>सर्वभूतात्मभूतस्य वायोरिव शरीरिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२१</sup>एष रुद्रं महादेवं त्रिपुरान्तकरं हरम्<br>सर्वलोकेष्वतिबलः स्वयं द्रक्ष्यति मागधः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२२</sup>एवं ब्रुवन्नेव मुनिः स्वकार्यार्थं विचिन्तयन्<br>विसर्जयामास नृपं बृहद्रथमथारिहन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२३</sup>प्रविश्य नगरं चैव ज्ञातिसंबन्धिभिर्वृतः<br>अभिषिच्य जरासंधं मगधाधिपतिस्तदा<br>बृहद्रथो नरपतिः परां निर्वृतिमाययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२४</sup>अभिषिक्ते जरासंधे तदा राजा बृहद्रथः<br>पत्नीद्वयेनानुगतस्तपोवनरतोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२५</sup>तपोवनस्थे पितरि मातृभ्यां सह भारत<br>जरासंधः स्ववीर्येण पार्थिवानकरोद्वशे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२६</sup>अथ दीर्घस्य कालस्य तपोवनगतो नृपः<br>सभार्यः स्वर्गमगमत्तपस्तप्त्वा बृहद्रथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२७</sup>तस्यास्तां हंसडिभकावशस्त्रनिधनावुभौ<br>मन्त्रे मतिमतां श्रेष्ठौ युद्धशास्त्रविशारदौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२८</sup>यौ तौ मया ते कथितौ पूर्वमेव महाबलौ<br>त्रयस्त्रयाणां लोकानां पर्याप्ता इति मे मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.१७.२९</sup>एवमेष तदा वीर बलिभिः कुकुरान्धकैः<br>वृष्णिभिश्च महाराज नीतिहेतोरुपेक्षितः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -168,8 +161,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

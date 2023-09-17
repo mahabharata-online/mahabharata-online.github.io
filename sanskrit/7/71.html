@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/70.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:७१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/72.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,139 +64,104 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/70.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:७१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/72.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२</sup>राजन्संग्राममाश्चर्यं शृणु कीर्तयतो मम<br>कुरूणां पाण्डवानां च यथा युद्धमवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.३</sup>भारद्वाजं समासाद्य व्यूहस्य प्रमुखे स्थितम्<br>अयोधयन्रणे पार्था द्रोणानीकं बिभित्सवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.४</sup>रक्षमाणाः स्वकं व्यूहं द्रोणस्यापि च सैनिकाः<br>अयोधयन्रणे पार्थान्प्रार्थयन्तो महद्यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.५</sup>विन्दानुविन्दावावन्त्यौ विराटं दशभिः शरैः<br>आजघ्नतुः सुसंक्रुद्धौ तव पुत्रहितैषिणौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.६</sup>विराटश्च महाराज तावुभौ समरे स्थितौ<br>पराक्रान्तौ पराक्रम्य योधयामास सानुगौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.७</sup>तेषां युद्धं समभवद्दारुणं शोणितोदकम्<br>सिंहस्य द्विपमुख्याभ्यां प्रभिन्नाभ्यां यथा वने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.८</sup>बाह्लीकं रभसं युद्धे याज्ञसेनिर्महाबलः<br>आजघ्ने विशिखैस्तीक्ष्णैर्घोरैर्मर्मास्थिभेदिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.९</sup>बाह्लीको याज्ञसेनिं तु हेमपुङ्खैः शिलाशितैः<br>आजघान भृशं क्रुद्धो नवभिर्नतपर्वभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१०</sup>तद्युद्धमभवद्घोरं शरशक्तिसमाकुलम्<br>भीरूणां त्रासजननं शूराणां हर्षवर्धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.११</sup>ताभ्यां तत्र शरैर्मुक्तैरन्तरिक्षं दिशस्तथा<br>अभवत्संवृतं सर्वं न प्राज्ञायत किंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१२</sup>शैब्यो गोवासनो युद्धे काश्यपुत्रं महारथम्<br>ससैन्यो योधयामास गजः प्रतिगजं यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१३</sup>बाह्लीकराजः संरब्धो द्रौपदेयान्महारथान्<br>मनः पञ्चेन्द्रियाणीव शुशुभे योधयन्रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१४</sup>अयोधयंस्ते च भृशं तं शरौघैः समन्ततः<br>इन्द्रियार्था यथा देहं शश्वद्देहभृतां वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१५</sup>वार्ष्णेयं सात्यकिं युद्धे पुत्रो दुःशासनस्तव<br>आजघ्ने सायकैस्तीक्ष्णैर्नवभिर्नतपर्वभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१६</sup>सोऽतिविद्धो बलवता महेष्वासेन धन्विना<br>ईषन्मूर्छां जगामाशु सात्यकिः सत्यविक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१७</sup>समाश्वस्तस्तु वार्ष्णेयस्तव पुत्रं महारथम्<br>विव्याध दशभिस्तूर्णं सायकैः कङ्कपत्रिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१८</sup>तावन्योन्यं दृढं विद्धावन्योन्यशरविक्षतौ<br>रेजतुः समरे राजन्पुष्पिताविव किंशुकौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.१९</sup>अलम्बुसस्तु संक्रुद्धः कुन्तिभोजशरार्दितः<br>अशोभत परं लक्ष्म्या पुष्पाढ्य इव किंशुकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२०</sup>कुन्तिभोजं ततो रक्षो विद्ध्वा बहुभिरायसैः<br>अनदद्भैरवं नादं वाहिन्याः प्रमुखे तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२१</sup>ततस्तौ समरे शूरौ योधयन्तौ परस्परम्<br>ददृशुः सर्वभूतानि शक्रजम्भौ यथा पुरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२२</sup>शकुनिं रभसं युद्धे कृतवैरं च भारत<br>माद्रीपुत्रौ च संरब्धौ शरैरर्दयतां मृधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२३</sup>तन्मूलः स महाराज प्रावर्तत जनक्षयः<br>त्वया संजनितोऽत्यर्थं कर्णेन च विवर्धितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२४</sup>उद्धुक्षितश्च पुत्रेण तव क्रोधहुताशनः<br>य इमां पृथिवीं राजन्दग्धुं सर्वां समुद्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२५</sup>शकुनिः पाण्डुपुत्राभ्यां कृतः स विमुखः शरैः<br>नाभ्यजानत कर्तव्यं युधि किंचित्पराक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२६</sup>विमुखं चैनमालोक्य माद्रीपुत्रौ महारथौ<br>ववर्षतुः पुनर्बाणैर्यथा मेघौ महागिरिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२७</sup>स वध्यमानो बहुभिः शरैः संनतपर्वभिः<br>संप्रायाज्जवनैरश्वैर्द्रोणानीकाय सौबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२८</sup>घटोत्कचस्तथा शूरं राक्षसं तमलायुधम्<br>अभ्ययाद्रभसं युद्धे वेगमास्थाय मध्यमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.२९</sup>तयोर्युद्धं महाराज चित्ररूपमिवाभवत्<br>यादृशं हि पुरा वृत्तं रामरावणयोर्मृधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.३०</sup>ततो युधिष्ठिरो राजा मद्रराजानमाहवे<br>विद्ध्वा पञ्चाशता बाणैः पुनर्विव्याध सप्तभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.३१</sup>ततः प्रववृते युद्धं तयोरत्यद्भुतं नृप<br>यथा पूर्वं महद्युद्धं शम्बरामरराजयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.७१.३२</sup>विविंशतिश्चित्रसेनो विकर्णश्च तवात्मजः<br>अयोधयन्भीमसेनं महत्या सेनया वृताः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२</sup>राजन्संग्राममाश्चर्यं शृणु कीर्तयतो मम<br>कुरूणां पाण्डवानां च यथा युद्धमवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.३</sup>भारद्वाजं समासाद्य व्यूहस्य प्रमुखे स्थितम्<br>अयोधयन्रणे पार्था द्रोणानीकं बिभित्सवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.४</sup>रक्षमाणाः स्वकं व्यूहं द्रोणस्यापि च सैनिकाः<br>अयोधयन्रणे पार्थान्प्रार्थयन्तो महद्यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.५</sup>विन्दानुविन्दावावन्त्यौ विराटं दशभिः शरैः<br>आजघ्नतुः सुसंक्रुद्धौ तव पुत्रहितैषिणौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.६</sup>विराटश्च महाराज तावुभौ समरे स्थितौ<br>पराक्रान्तौ पराक्रम्य योधयामास सानुगौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.७</sup>तेषां युद्धं समभवद्दारुणं शोणितोदकम्<br>सिंहस्य द्विपमुख्याभ्यां प्रभिन्नाभ्यां यथा वने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.८</sup>बाह्लीकं रभसं युद्धे याज्ञसेनिर्महाबलः<br>आजघ्ने विशिखैस्तीक्ष्णैर्घोरैर्मर्मास्थिभेदिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.९</sup>बाह्लीको याज्ञसेनिं तु हेमपुङ्खैः शिलाशितैः<br>आजघान भृशं क्रुद्धो नवभिर्नतपर्वभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१०</sup>तद्युद्धमभवद्घोरं शरशक्तिसमाकुलम्<br>भीरूणां त्रासजननं शूराणां हर्षवर्धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.११</sup>ताभ्यां तत्र शरैर्मुक्तैरन्तरिक्षं दिशस्तथा<br>अभवत्संवृतं सर्वं न प्राज्ञायत किंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१२</sup>शैब्यो गोवासनो युद्धे काश्यपुत्रं महारथम्<br>ससैन्यो योधयामास गजः प्रतिगजं यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१३</sup>बाह्लीकराजः संरब्धो द्रौपदेयान्महारथान्<br>मनः पञ्चेन्द्रियाणीव शुशुभे योधयन्रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१४</sup>अयोधयंस्ते च भृशं तं शरौघैः समन्ततः<br>इन्द्रियार्था यथा देहं शश्वद्देहभृतां वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१५</sup>वार्ष्णेयं सात्यकिं युद्धे पुत्रो दुःशासनस्तव<br>आजघ्ने सायकैस्तीक्ष्णैर्नवभिर्नतपर्वभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१६</sup>सोऽतिविद्धो बलवता महेष्वासेन धन्विना<br>ईषन्मूर्छां जगामाशु सात्यकिः सत्यविक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१७</sup>समाश्वस्तस्तु वार्ष्णेयस्तव पुत्रं महारथम्<br>विव्याध दशभिस्तूर्णं सायकैः कङ्कपत्रिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१८</sup>तावन्योन्यं दृढं विद्धावन्योन्यशरविक्षतौ<br>रेजतुः समरे राजन्पुष्पिताविव किंशुकौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.१९</sup>अलम्बुसस्तु संक्रुद्धः कुन्तिभोजशरार्दितः<br>अशोभत परं लक्ष्म्या पुष्पाढ्य इव किंशुकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२०</sup>कुन्तिभोजं ततो रक्षो विद्ध्वा बहुभिरायसैः<br>अनदद्भैरवं नादं वाहिन्याः प्रमुखे तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२१</sup>ततस्तौ समरे शूरौ योधयन्तौ परस्परम्<br>ददृशुः सर्वभूतानि शक्रजम्भौ यथा पुरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२२</sup>शकुनिं रभसं युद्धे कृतवैरं च भारत<br>माद्रीपुत्रौ च संरब्धौ शरैरर्दयतां मृधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२३</sup>तन्मूलः स महाराज प्रावर्तत जनक्षयः<br>त्वया संजनितोऽत्यर्थं कर्णेन च विवर्धितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२४</sup>उद्धुक्षितश्च पुत्रेण तव क्रोधहुताशनः<br>य इमां पृथिवीं राजन्दग्धुं सर्वां समुद्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२५</sup>शकुनिः पाण्डुपुत्राभ्यां कृतः स विमुखः शरैः<br>नाभ्यजानत कर्तव्यं युधि किंचित्पराक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२६</sup>विमुखं चैनमालोक्य माद्रीपुत्रौ महारथौ<br>ववर्षतुः पुनर्बाणैर्यथा मेघौ महागिरिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२७</sup>स वध्यमानो बहुभिः शरैः संनतपर्वभिः<br>संप्रायाज्जवनैरश्वैर्द्रोणानीकाय सौबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२८</sup>घटोत्कचस्तथा शूरं राक्षसं तमलायुधम्<br>अभ्ययाद्रभसं युद्धे वेगमास्थाय मध्यमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.२९</sup>तयोर्युद्धं महाराज चित्ररूपमिवाभवत्<br>यादृशं हि पुरा वृत्तं रामरावणयोर्मृधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.३०</sup>ततो युधिष्ठिरो राजा मद्रराजानमाहवे<br>विद्ध्वा पञ्चाशता बाणैः पुनर्विव्याध सप्तभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.३१</sup>ततः प्रववृते युद्धं तयोरत्यद्भुतं नृप<br>यथा पूर्वं महद्युद्धं शम्बरामरराजयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.७१.३२</sup>विविंशतिश्चित्रसेनो विकर्णश्च तवात्मजः<br>अयोधयन्भीमसेनं महत्या सेनया वृताः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -177,8 +170,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

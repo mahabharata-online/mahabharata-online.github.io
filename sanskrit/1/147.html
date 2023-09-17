@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/146.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१४७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/148.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/146.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१४७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/148.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२</sup>तयोर्दुःखितयोर्वाक्यमतिमात्रं निशम्य तत्<br>भृशं दुःखपरीताङ्गी कन्या तावभ्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.३</sup>किमिदं भृशदुःखार्तौ रोरवीथो अनाथवत्<br>ममापि श्रूयतां किंचिच्छ्रुत्वा च क्रियतां क्षमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.४</sup>धर्मतोऽहं परित्याज्या युवयोर्नात्र संशयः<br>त्यक्तव्यां मां परित्यज्य त्रातं सर्वं मयैकया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.५</sup>इत्यर्थमिष्यतेऽपत्यं तारयिष्यति मामिति<br>तस्मिन्नुपस्थिते काले तरतं प्लववन्मया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.६</sup>इह वा तारयेद्दुर्गादुत वा प्रेत्य तारयेत्<br>सर्वथा तारयेत्पुत्रः पुत्र इत्युच्यते बुधैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.७</sup>आकाङ्क्षन्ते च दौहित्रानपि नित्यं पितामहाः<br>तान्स्वयं वै परित्रास्ये रक्षन्ती जीवितं पितुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.८</sup>भ्राता च मम बालोऽयं गते लोकममुं त्वयि<br>अचिरेणैव कालेन विनश्येत न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.९</sup>तातेऽपि हि गते स्वर्गं विनष्टे च ममानुजे<br>पिण्डः पितॄणां व्युच्छिद्येत्तत्तेषामप्रियं भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१०</sup>पित्रा त्यक्ता तथा मात्रा भ्रात्रा चाहमसंशयम्<br>दुःखाद्दुःखतरं प्राप्य म्रियेयमतथोचिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.११</sup>त्वयि त्वरोगे निर्मुक्ते माता भ्राता च मे शिशुः<br>संतानश्चैव पिण्डश्च प्रतिष्ठास्यत्यसंशयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१२</sup>आत्मा पुत्रः सखा भार्या कृच्छ्रं तु दुहिता किल<br>स कृच्छ्रान्मोचयात्मानं मां च धर्मेण योजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१३</sup>अनाथा कृपणा बाला यत्रक्वचनगामिनी<br>भविष्यामि त्वया तात विहीना कृपणा बत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१४</sup>अथ वाहं करिष्यामि कुलस्यास्य विमोक्षणम्<br>फलसंस्था भविष्यामि कृत्वा कर्म सुदुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१५</sup>अथ वा यास्यसे तत्र त्यक्त्वा मां द्विजसत्तम<br>पीडिताहं भविष्यामि तदवेक्षस्व मामपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१६</sup>तदस्मदर्थं धर्मार्थं प्रसवार्थं च सत्तम<br>आत्मानं परिरक्षस्व त्यक्तव्यां मां च संत्यज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१७</sup>अवश्यकरणीयेऽर्थे मा त्वां कालोऽत्यगादयम्<br>त्वया दत्तेन तोयेन भविष्यति हितं च मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१८</sup>किं न्वतः परमं दुःखं यद्वयं स्वर्गते त्वयि<br>याचमानाः परादन्नं परिधावेमहि श्ववत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.१९</sup>त्वयि त्वरोगे निर्मुक्ते क्लेशादस्मात्सबान्धवे<br>अमृते वसती लोके भविष्यामि सुखान्विता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२०</sup>एवं बहुविधं तस्या निशम्य परिदेवितम्<br>पिता माता च सा चैव कन्या प्ररुरुदुस्त्रयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२१</sup>ततः प्ररुदितान्सर्वान्निशम्याथ सुतस्तयोः<br>उत्फुल्लनयनो बालः कलमव्यक्तमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२२</sup>मा रोदीस्तात मा मातर्मा स्वसस्त्वमिति ब्रुवन्<br>प्रहसन्निव सर्वांस्तानेकैकं सोऽपसर्पति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२३</sup>ततः स तृणमादाय प्रहृष्टः पुनरब्रवीत्<br>अनेन तं हनिष्यामि राक्षसं पुरुषादकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२४</sup>तथापि तेषां दुःखेन परीतानां निशम्य तत्<br>बालस्य वाक्यमव्यक्तं हर्षः समभवन्महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१४७.२५</sup>अयं काल इति ज्ञात्वा कुन्ती समुपसृत्य तान्<br>गतासूनमृतेनेव जीवयन्तीदमब्रवीत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२</sup>तयोर्दुःखितयोर्वाक्यमतिमात्रं निशम्य तत्<br>भृशं दुःखपरीताङ्गी कन्या तावभ्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.३</sup>किमिदं भृशदुःखार्तौ रोरवीथो अनाथवत्<br>ममापि श्रूयतां किंचिच्छ्रुत्वा च क्रियतां क्षमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.४</sup>धर्मतोऽहं परित्याज्या युवयोर्नात्र संशयः<br>त्यक्तव्यां मां परित्यज्य त्रातं सर्वं मयैकया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.५</sup>इत्यर्थमिष्यतेऽपत्यं तारयिष्यति मामिति<br>तस्मिन्नुपस्थिते काले तरतं प्लववन्मया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.६</sup>इह वा तारयेद्दुर्गादुत वा प्रेत्य तारयेत्<br>सर्वथा तारयेत्पुत्रः पुत्र इत्युच्यते बुधैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.७</sup>आकाङ्क्षन्ते च दौहित्रानपि नित्यं पितामहाः<br>तान्स्वयं वै परित्रास्ये रक्षन्ती जीवितं पितुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.८</sup>भ्राता च मम बालोऽयं गते लोकममुं त्वयि<br>अचिरेणैव कालेन विनश्येत न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.९</sup>तातेऽपि हि गते स्वर्गं विनष्टे च ममानुजे<br>पिण्डः पितॄणां व्युच्छिद्येत्तत्तेषामप्रियं भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१०</sup>पित्रा त्यक्ता तथा मात्रा भ्रात्रा चाहमसंशयम्<br>दुःखाद्दुःखतरं प्राप्य म्रियेयमतथोचिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.११</sup>त्वयि त्वरोगे निर्मुक्ते माता भ्राता च मे शिशुः<br>संतानश्चैव पिण्डश्च प्रतिष्ठास्यत्यसंशयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१२</sup>आत्मा पुत्रः सखा भार्या कृच्छ्रं तु दुहिता किल<br>स कृच्छ्रान्मोचयात्मानं मां च धर्मेण योजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१३</sup>अनाथा कृपणा बाला यत्रक्वचनगामिनी<br>भविष्यामि त्वया तात विहीना कृपणा बत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१४</sup>अथ वाहं करिष्यामि कुलस्यास्य विमोक्षणम्<br>फलसंस्था भविष्यामि कृत्वा कर्म सुदुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१५</sup>अथ वा यास्यसे तत्र त्यक्त्वा मां द्विजसत्तम<br>पीडिताहं भविष्यामि तदवेक्षस्व मामपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१६</sup>तदस्मदर्थं धर्मार्थं प्रसवार्थं च सत्तम<br>आत्मानं परिरक्षस्व त्यक्तव्यां मां च संत्यज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१७</sup>अवश्यकरणीयेऽर्थे मा त्वां कालोऽत्यगादयम्<br>त्वया दत्तेन तोयेन भविष्यति हितं च मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१८</sup>किं न्वतः परमं दुःखं यद्वयं स्वर्गते त्वयि<br>याचमानाः परादन्नं परिधावेमहि श्ववत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.१९</sup>त्वयि त्वरोगे निर्मुक्ते क्लेशादस्मात्सबान्धवे<br>अमृते वसती लोके भविष्यामि सुखान्विता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२०</sup>एवं बहुविधं तस्या निशम्य परिदेवितम्<br>पिता माता च सा चैव कन्या प्ररुरुदुस्त्रयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२१</sup>ततः प्ररुदितान्सर्वान्निशम्याथ सुतस्तयोः<br>उत्फुल्लनयनो बालः कलमव्यक्तमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२२</sup>मा रोदीस्तात मा मातर्मा स्वसस्त्वमिति ब्रुवन्<br>प्रहसन्निव सर्वांस्तानेकैकं सोऽपसर्पति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२३</sup>ततः स तृणमादाय प्रहृष्टः पुनरब्रवीत्<br>अनेन तं हनिष्यामि राक्षसं पुरुषादकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२४</sup>तथापि तेषां दुःखेन परीतानां निशम्य तत्<br>बालस्य वाक्यमव्यक्तं हर्षः समभवन्महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१४७.२५</sup>अयं काल इति ज्ञात्वा कुन्ती समुपसृत्य तान्<br>गतासूनमृतेनेव जीवयन्तीदमब्रवीत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

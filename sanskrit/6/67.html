@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/6/66.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>६:६७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/6/68.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,169 +64,134 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/6/66.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">६:६७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/6/68.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२</sup>दृष्ट्वा भीष्मेण संसक्तान्भ्रातॄनन्यांश्च पार्थिवान्<br>तमभ्यधावद्गाङ्गेयमुद्यतास्त्रो धनंजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३</sup>पाञ्चजन्यस्य निर्घोषं धनुषो गाण्डिवस्य च<br>ध्वजं च दृष्ट्वा पार्थस्य सर्वान्नो भयमाविशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.४</sup>असज्जमानं वृक्षेषु धूमकेतुमिवोत्थितम्<br>बहुवर्णं च चित्रं च दिव्यं वानरलक्षणम्<br>अपश्याम महाराज ध्वजं गाण्डिवधन्वनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.५</sup>विद्युतं मेघमध्यस्थां भ्राजमानामिवाम्बरे<br>ददृशुर्गाण्डिवं योधा रुक्मपृष्ठं महारथे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.६</sup>अशुश्रुम भृशं चास्य शक्रस्येवाभिगर्जतः<br>सुघोरं तलयोः शब्दं निघ्नतस्तव वाहिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.७</sup>चण्डवातो यथा मेघः सविद्युत्स्तनयित्नुमान्<br>दिशः संप्लावयन्सर्वाः शरवर्षैः समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.८</sup>अभ्यधावत गाङ्गेयं भैरवास्त्रो धनंजयः<br>दिशं प्राचीं प्रतीचीं च न जानीमोऽस्त्रमोहिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.९</sup>कांदिग्भूताः श्रान्तपत्रा हतास्त्रा हतचेतसः<br>अन्योन्यमभिसंश्लिष्य योधास्ते भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१०</sup>भीष्ममेवाभिलीयन्त सह सर्वैस्तवात्मजैः<br>तेषामार्तायनमभूद्भीष्मः शंतनवो रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.११</sup>समुत्पतन्त वित्रस्ता रथेभ्यो रथिनस्तदा<br>सादिनश्चाश्वपृष्ठेभ्यो भूमौ चापि पदातयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१२</sup>श्रुत्वा गाण्डीवनिर्घोषं विस्फूर्जितमिवाशनेः<br>सर्वसैन्यानि भीतानि व्यवलीयन्त भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१३</sup>अथ काम्बोजमुख्यैस्तु बृहद्भिः शीघ्रगामिभिः<br>गोपानां बहुसाहस्रैर्बलैर्गोवासनो वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१४</sup>मद्रसौवीरगान्धारैस्त्रिगर्तैश्च विशां पते<br>सर्वकालिङ्गमुख्यैश्च कलिङ्गाधिपतिर्वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१५</sup>नागा नरगणौघाश्च दुःशासनपुरःसराः<br>जयद्रथश्च नृपतिः सहितः सर्वराजभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१६</sup>हयारोहवराश्चैव तव पुत्रेण चोदिताः<br>चतुर्दश सहस्राणि सौबलं पर्यवारयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१७</sup>ततस्ते सहिताः सर्वे विभक्तरथवाहनाः<br>पाण्डवान्समरे जग्मुस्तावका भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१८</sup>रथिभिर्वारणैरश्वैः पदातैश्च समीरितम्<br>घोरमायोधनं जज्ञे महाभ्रसदृशं रजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.१९</sup>तोमरप्रासनाराचगजाश्वरथयोधिनाम्<br>बलेन महता भीष्मः समसज्जत्किरीटिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२०</sup>आवन्त्यः काशिराजेन भीमसेनेन सैन्धवः<br>अजातशत्रुर्मद्राणामृषभेण यशस्विना<br>सहपुत्रः सहामात्यः शल्येन समसज्जत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२१</sup>विकर्णः सहदेवेन चित्रसेनः शिखण्डिना<br>मत्स्या दुर्योधनं जग्मुः शकुनिं च विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२२</sup>द्रुपदश्चेकितानश्च सात्यकिश्च महारथः<br>द्रोणेन समसज्जन्त सपुत्रेण महात्मना<br>कृपश्च कृतवर्मा च धृष्टकेतुमभिद्रुतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२३</sup>एवं प्रजविताश्वानि भ्रान्तनागरथानि च<br>सैन्यानि समसज्जन्त प्रयुद्धानि समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२४</sup>निरभ्रे विद्युतस्तीव्रा दिशश्च रजसावृताः<br>प्रादुरासन्महोल्काश्च सनिर्घाता विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२५</sup>प्रववौ च महावातः पांसुवर्षं पपात च<br>नभस्यन्तर्दधे सूर्यः सैन्येन रजसावृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२६</sup>प्रमोहः सर्वसत्त्वानामतीव समपद्यत<br>रजसा चाभिभूतानामस्त्रजालैश्च तुद्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२७</sup>वीरबाहुविसृष्टानां सर्वावरणभेदिनाम्<br>संघातः शरजालानां तुमुलः समपद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२८</sup>प्रकाशं चक्रुराकाशमुद्यतानि भुजोत्तमैः<br>नक्षत्रविमलाभानि शस्त्राणि भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.२९</sup>आर्षभाणि विचित्राणि रुक्मजालावृतानि च<br>संपेतुर्दिक्षु सर्वासु चर्माणि भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३०</sup>सूर्यवर्णैश्च निस्त्रिंशैः पात्यमानानि सर्वशः<br>दिक्षु सर्वास्वदृश्यन्त शरीराणि शिरांसि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३१</sup>भग्नचक्राक्षनीडाश्च निपातितमहाध्वजाः<br>हताश्वाः पृथिवीं जग्मुस्तत्र तत्र महारथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३२</sup>परिपेतुर्हयाश्चात्र केचिच्छस्त्रकृतव्रणाः<br>रथान्विपरिकर्षन्तो हतेषु रथयोधिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३३</sup>शराहता भिन्नदेहा बद्धयोक्त्रा हयोत्तमाः<br>युगानि पर्यकर्षन्त तत्र तत्र स्म भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३४</sup>अदृश्यन्त ससूताश्च साश्वाः सरथयोधिनः<br>एकेन बलिना राजन्वारणेन हता रथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३५</sup>गन्धहस्तिमदस्रावमाघ्राय बहवो रणे<br>संनिपाते बलौघानां वीतमाददिरे गजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३६</sup>सतोमरमहामात्रैर्निपतद्भिर्गतासुभिः<br>बभूवायोधनं छन्नं नाराचाभिहतैर्गजैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३७</sup>संनिपाते बलौघानां प्रेषितैर्वरवारणैः<br>निपेतुर्युधि संभग्नाः सयोधाः सध्वजा रथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३८</sup>नागराजोपमैर्हस्तैर्नागैराक्षिप्य संयुगे<br>व्यदृश्यन्त महाराज संभग्ना रथकूबराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.३९</sup>विशीर्णरथजालाश्च केशेष्वाक्षिप्य दन्तिभिः<br>द्रुमशाखा इवाविध्य निष्पिष्टा रथिनो रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.४०</sup>रथेषु च रथान्युद्धे संसक्तान्वरवारणाः<br>विकर्षन्तो दिशः सर्वाः संपेतुः सर्वशब्दगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.४१</sup>तेषां तथा कर्षतां च गजानां रूपमाबभौ<br>सरःसु नलिनीजालं विषक्तमिव कर्षताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६७.४२</sup>एवं संछादितं तत्र बभूवायोधनं महत्<br>सादिभिश्च पदातैश्च सध्वजैश्च महारथैः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२</sup>दृष्ट्वा भीष्मेण संसक्तान्भ्रातॄनन्यांश्च पार्थिवान्<br>तमभ्यधावद्गाङ्गेयमुद्यतास्त्रो धनंजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३</sup>पाञ्चजन्यस्य निर्घोषं धनुषो गाण्डिवस्य च<br>ध्वजं च दृष्ट्वा पार्थस्य सर्वान्नो भयमाविशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.४</sup>असज्जमानं वृक्षेषु धूमकेतुमिवोत्थितम्<br>बहुवर्णं च चित्रं च दिव्यं वानरलक्षणम्<br>अपश्याम महाराज ध्वजं गाण्डिवधन्वनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.५</sup>विद्युतं मेघमध्यस्थां भ्राजमानामिवाम्बरे<br>ददृशुर्गाण्डिवं योधा रुक्मपृष्ठं महारथे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.६</sup>अशुश्रुम भृशं चास्य शक्रस्येवाभिगर्जतः<br>सुघोरं तलयोः शब्दं निघ्नतस्तव वाहिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.७</sup>चण्डवातो यथा मेघः सविद्युत्स्तनयित्नुमान्<br>दिशः संप्लावयन्सर्वाः शरवर्षैः समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.८</sup>अभ्यधावत गाङ्गेयं भैरवास्त्रो धनंजयः<br>दिशं प्राचीं प्रतीचीं च न जानीमोऽस्त्रमोहिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.९</sup>कांदिग्भूताः श्रान्तपत्रा हतास्त्रा हतचेतसः<br>अन्योन्यमभिसंश्लिष्य योधास्ते भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१०</sup>भीष्ममेवाभिलीयन्त सह सर्वैस्तवात्मजैः<br>तेषामार्तायनमभूद्भीष्मः शंतनवो रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.११</sup>समुत्पतन्त वित्रस्ता रथेभ्यो रथिनस्तदा<br>सादिनश्चाश्वपृष्ठेभ्यो भूमौ चापि पदातयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१२</sup>श्रुत्वा गाण्डीवनिर्घोषं विस्फूर्जितमिवाशनेः<br>सर्वसैन्यानि भीतानि व्यवलीयन्त भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१३</sup>अथ काम्बोजमुख्यैस्तु बृहद्भिः शीघ्रगामिभिः<br>गोपानां बहुसाहस्रैर्बलैर्गोवासनो वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१४</sup>मद्रसौवीरगान्धारैस्त्रिगर्तैश्च विशां पते<br>सर्वकालिङ्गमुख्यैश्च कलिङ्गाधिपतिर्वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१५</sup>नागा नरगणौघाश्च दुःशासनपुरःसराः<br>जयद्रथश्च नृपतिः सहितः सर्वराजभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१६</sup>हयारोहवराश्चैव तव पुत्रेण चोदिताः<br>चतुर्दश सहस्राणि सौबलं पर्यवारयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१७</sup>ततस्ते सहिताः सर्वे विभक्तरथवाहनाः<br>पाण्डवान्समरे जग्मुस्तावका भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१८</sup>रथिभिर्वारणैरश्वैः पदातैश्च समीरितम्<br>घोरमायोधनं जज्ञे महाभ्रसदृशं रजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.१९</sup>तोमरप्रासनाराचगजाश्वरथयोधिनाम्<br>बलेन महता भीष्मः समसज्जत्किरीटिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२०</sup>आवन्त्यः काशिराजेन भीमसेनेन सैन्धवः<br>अजातशत्रुर्मद्राणामृषभेण यशस्विना<br>सहपुत्रः सहामात्यः शल्येन समसज्जत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२१</sup>विकर्णः सहदेवेन चित्रसेनः शिखण्डिना<br>मत्स्या दुर्योधनं जग्मुः शकुनिं च विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२२</sup>द्रुपदश्चेकितानश्च सात्यकिश्च महारथः<br>द्रोणेन समसज्जन्त सपुत्रेण महात्मना<br>कृपश्च कृतवर्मा च धृष्टकेतुमभिद्रुतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२३</sup>एवं प्रजविताश्वानि भ्रान्तनागरथानि च<br>सैन्यानि समसज्जन्त प्रयुद्धानि समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२४</sup>निरभ्रे विद्युतस्तीव्रा दिशश्च रजसावृताः<br>प्रादुरासन्महोल्काश्च सनिर्घाता विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२५</sup>प्रववौ च महावातः पांसुवर्षं पपात च<br>नभस्यन्तर्दधे सूर्यः सैन्येन रजसावृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२६</sup>प्रमोहः सर्वसत्त्वानामतीव समपद्यत<br>रजसा चाभिभूतानामस्त्रजालैश्च तुद्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२७</sup>वीरबाहुविसृष्टानां सर्वावरणभेदिनाम्<br>संघातः शरजालानां तुमुलः समपद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२८</sup>प्रकाशं चक्रुराकाशमुद्यतानि भुजोत्तमैः<br>नक्षत्रविमलाभानि शस्त्राणि भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.२९</sup>आर्षभाणि विचित्राणि रुक्मजालावृतानि च<br>संपेतुर्दिक्षु सर्वासु चर्माणि भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३०</sup>सूर्यवर्णैश्च निस्त्रिंशैः पात्यमानानि सर्वशः<br>दिक्षु सर्वास्वदृश्यन्त शरीराणि शिरांसि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३१</sup>भग्नचक्राक्षनीडाश्च निपातितमहाध्वजाः<br>हताश्वाः पृथिवीं जग्मुस्तत्र तत्र महारथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३२</sup>परिपेतुर्हयाश्चात्र केचिच्छस्त्रकृतव्रणाः<br>रथान्विपरिकर्षन्तो हतेषु रथयोधिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३३</sup>शराहता भिन्नदेहा बद्धयोक्त्रा हयोत्तमाः<br>युगानि पर्यकर्षन्त तत्र तत्र स्म भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३४</sup>अदृश्यन्त ससूताश्च साश्वाः सरथयोधिनः<br>एकेन बलिना राजन्वारणेन हता रथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३५</sup>गन्धहस्तिमदस्रावमाघ्राय बहवो रणे<br>संनिपाते बलौघानां वीतमाददिरे गजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३६</sup>सतोमरमहामात्रैर्निपतद्भिर्गतासुभिः<br>बभूवायोधनं छन्नं नाराचाभिहतैर्गजैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३७</sup>संनिपाते बलौघानां प्रेषितैर्वरवारणैः<br>निपेतुर्युधि संभग्नाः सयोधाः सध्वजा रथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३८</sup>नागराजोपमैर्हस्तैर्नागैराक्षिप्य संयुगे<br>व्यदृश्यन्त महाराज संभग्ना रथकूबराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.३९</sup>विशीर्णरथजालाश्च केशेष्वाक्षिप्य दन्तिभिः<br>द्रुमशाखा इवाविध्य निष्पिष्टा रथिनो रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.४०</sup>रथेषु च रथान्युद्धे संसक्तान्वरवारणाः<br>विकर्षन्तो दिशः सर्वाः संपेतुः सर्वशब्दगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.४१</sup>तेषां तथा कर्षतां च गजानां रूपमाबभौ<br>सरःसु नलिनीजालं विषक्तमिव कर्षताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६७.४२</sup>एवं संछादितं तत्र बभूवायोधनं महत्<br>सादिभिश्च पदातैश्च सध्वजैश्च महारथैः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -207,8 +200,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

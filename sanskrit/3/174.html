@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/173.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१७४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/175.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/173.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१७४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/175.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२</sup>नगोत्तमं प्रस्रवणैरुपेतं; दिशां गजैः किंनरपक्षिभिश्च<br>सुखं निवासं जहतां हि तेषां; न प्रीतिरासीद्भरतर्षभाणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.३</sup>ततस्तु तेषां पुनरेव हर्षः; कैलासमालोक्य महान्बभूव<br>कुबेरकान्तं भरतर्षभाणां; महीधरं वारिधरप्रकाशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.४</sup>समुच्छ्रयान्पर्वतसंनिरोधा;न्गोष्ठान्गिरीणां गिरिसेतुमालाः<br>बहून्प्रपातांश्च समीक्ष्य वीराः; स्थलानि निम्नानि च तत्र तत्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.५</sup>तथैव चान्यानि महावनानि; मृगद्विजानेकपसेवितानि<br>आलोकयन्तोऽभिययुः प्रतीता;स्ते धन्विनः खड्गधरा नराग्र्याः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.६</sup>वनानि रम्याणि सरांसि नद्यो; गुहा गिरीणां गिरिगह्वराणि<br>एते निवासाः सततं बभूवु;र्निशानिशं प्राप्य नरर्षभाणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.७</sup>ते दुर्गवासं बहुधा निरुष्य; व्यतीत्य कैलासमचिन्त्यरूपम्<br>आसेदुरत्यर्थमनोरमं वै; तमाश्रमाग्र्यं वृषपर्वणस्ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.८</sup>समेत्य राज्ञा वृषपर्वणस्ते; प्रत्यर्चितास्तेन च वीतमोहाः<br>शशंसिरे विस्तरशः प्रवासं; शिवं यथावद्वृषपर्वणस्ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.९</sup>सुखोषितास्तत्र त एकरात्रं; पुण्याश्रमे देवमहर्षिजुष्टे<br>अभ्याययुस्ते बदरीं विशालां; सुखेन वीराः पुनरेव वासम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१०</sup>ऊषुस्ततस्तत्र महानुभावा; नारायणस्थानगता नराग्र्याः<br>कुबेरकान्तां नलिनीं विशोकाः; संपश्यमानाः सुरसिद्धजुष्टाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.११</sup>तां चाथ दृष्ट्वा नलिनीं विशोकाः; पाण्डोः सुताः सर्वनरप्रवीराः<br>ते रेमिरे नन्दनवासमेत्य; द्विजर्षयो वीतभया यथैव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१२</sup>ततः क्रमेणोपययुर्नृवीरा; यथागतेनैव पथा समग्राः<br>विहृत्य मासं सुखिनो बदर्यां; किरातराज्ञो विषयं सुबाहोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१३</sup>चीनांस्तुखारान्दरदान्सदार्वा;न्देशान्कुणिन्दस्य च भूरिरत्नान्<br>अतीत्य दुर्गं हिमवत्प्रदेशं; पुरं सुबाहोर्ददृशुर्नृवीराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१४</sup>श्रुत्वा च तान्पार्थिवपुत्रपौत्रा;न्प्राप्तान्सुबाहुर्विषये समग्रान्<br>प्रत्युद्ययौ प्रीतियुतः स राजा; तं चाभ्यनन्दन्वृषभाः कुरूणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१५</sup>समेत्य राज्ञा तु सुबाहुना ते; सूतैर्विशोकप्रमुखैश्च सर्वैः<br>सहेन्द्रसेनैः परिचारकैश्च; पौरोगवैर्ये च महानसस्थाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१६</sup>सुखोषितास्तत्र त एकरात्रं; सूतानुपादाय रथांश्च सर्वान्<br>घटोत्कचं सानुचरं विसृज्य; ततोऽभ्ययुर्यामुनमद्रिराजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१७</sup>तस्मिन्गिरौ प्रस्रवणोपपन्ने; हिमोत्तरीयारुणपाण्डुसानौ<br>विशाखयूपं समुपेत्य चक्रु;स्तदा निवासं पुरुषप्रवीराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१८</sup>वराहनानामृगपक्षिजुष्टं; महद्वनं चैत्ररथप्रकाशम्<br>शिवेन यात्वा मृगयाप्रधानाः; संवत्सरं तत्र वने विजह्रुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.१९</sup>तत्राससादातिबलं भुजंगं; क्षुधार्दितं मृत्युमिवोग्ररूपम्<br>वृकोदरः पर्वतकन्दरायां; विषादमोहव्यथितान्तरात्मा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२०</sup>द्वीपोऽभवद्यत्र वृकोदरस्य; युधिष्ठिरो धर्मभृतां वरिष्ठः<br>अमोक्षयद्यस्तमनन्ततेजा; ग्राहेण संवेष्टितसर्वगात्रम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२१</sup>ते द्वादशं वर्षमथोपयान्तं; वने विहर्तुं कुरवः प्रतीताः<br>तस्माद्वनाच्चैत्ररथप्रकाशा;च्छ्रिया ज्वलन्तस्तपसा च युक्ताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२२</sup>ततश्च यात्वा मरुधन्वपार्श्वं; सदा धनुर्वेदरतिप्रधानाः<br>सरस्वतीमेत्य निवासकामाः; सरस्ततो द्वैतवनं प्रतीयुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२३</sup>समीक्ष्य तान्द्वैतवने निविष्टा;न्निवासिनस्तत्र ततोऽभिजग्मुः<br>तपोदमाचारसमाधियुक्ता;स्तृणोदपात्राहरणाश्मकुट्टाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२४</sup>प्लक्षाक्षरौहीतकवेतसाश्च; स्नुहा बदर्यः खदिराः शिरीषाः<br>बिल्वेङ्गुदाः पीलुशमीकरीराः; सरस्वतीतीररुहा बभूवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१७४.२५</sup>तां यक्षगन्धर्वमहर्षिकान्ता;मायागभूतामिव देवतानाम्<br>सरस्वतीं प्रीतियुताश्चरन्तः; सुखं विजह्रुर्नरदेवपुत्राः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२</sup>नगोत्तमं प्रस्रवणैरुपेतं; दिशां गजैः किंनरपक्षिभिश्च<br>सुखं निवासं जहतां हि तेषां; न प्रीतिरासीद्भरतर्षभाणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.३</sup>ततस्तु तेषां पुनरेव हर्षः; कैलासमालोक्य महान्बभूव<br>कुबेरकान्तं भरतर्षभाणां; महीधरं वारिधरप्रकाशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.४</sup>समुच्छ्रयान्पर्वतसंनिरोधा;न्गोष्ठान्गिरीणां गिरिसेतुमालाः<br>बहून्प्रपातांश्च समीक्ष्य वीराः; स्थलानि निम्नानि च तत्र तत्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.५</sup>तथैव चान्यानि महावनानि; मृगद्विजानेकपसेवितानि<br>आलोकयन्तोऽभिययुः प्रतीता;स्ते धन्विनः खड्गधरा नराग्र्याः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.६</sup>वनानि रम्याणि सरांसि नद्यो; गुहा गिरीणां गिरिगह्वराणि<br>एते निवासाः सततं बभूवु;र्निशानिशं प्राप्य नरर्षभाणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.७</sup>ते दुर्गवासं बहुधा निरुष्य; व्यतीत्य कैलासमचिन्त्यरूपम्<br>आसेदुरत्यर्थमनोरमं वै; तमाश्रमाग्र्यं वृषपर्वणस्ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.८</sup>समेत्य राज्ञा वृषपर्वणस्ते; प्रत्यर्चितास्तेन च वीतमोहाः<br>शशंसिरे विस्तरशः प्रवासं; शिवं यथावद्वृषपर्वणस्ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.९</sup>सुखोषितास्तत्र त एकरात्रं; पुण्याश्रमे देवमहर्षिजुष्टे<br>अभ्याययुस्ते बदरीं विशालां; सुखेन वीराः पुनरेव वासम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१०</sup>ऊषुस्ततस्तत्र महानुभावा; नारायणस्थानगता नराग्र्याः<br>कुबेरकान्तां नलिनीं विशोकाः; संपश्यमानाः सुरसिद्धजुष्टाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.११</sup>तां चाथ दृष्ट्वा नलिनीं विशोकाः; पाण्डोः सुताः सर्वनरप्रवीराः<br>ते रेमिरे नन्दनवासमेत्य; द्विजर्षयो वीतभया यथैव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१२</sup>ततः क्रमेणोपययुर्नृवीरा; यथागतेनैव पथा समग्राः<br>विहृत्य मासं सुखिनो बदर्यां; किरातराज्ञो विषयं सुबाहोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१३</sup>चीनांस्तुखारान्दरदान्सदार्वा;न्देशान्कुणिन्दस्य च भूरिरत्नान्<br>अतीत्य दुर्गं हिमवत्प्रदेशं; पुरं सुबाहोर्ददृशुर्नृवीराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१४</sup>श्रुत्वा च तान्पार्थिवपुत्रपौत्रा;न्प्राप्तान्सुबाहुर्विषये समग्रान्<br>प्रत्युद्ययौ प्रीतियुतः स राजा; तं चाभ्यनन्दन्वृषभाः कुरूणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१५</sup>समेत्य राज्ञा तु सुबाहुना ते; सूतैर्विशोकप्रमुखैश्च सर्वैः<br>सहेन्द्रसेनैः परिचारकैश्च; पौरोगवैर्ये च महानसस्थाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१६</sup>सुखोषितास्तत्र त एकरात्रं; सूतानुपादाय रथांश्च सर्वान्<br>घटोत्कचं सानुचरं विसृज्य; ततोऽभ्ययुर्यामुनमद्रिराजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१७</sup>तस्मिन्गिरौ प्रस्रवणोपपन्ने; हिमोत्तरीयारुणपाण्डुसानौ<br>विशाखयूपं समुपेत्य चक्रु;स्तदा निवासं पुरुषप्रवीराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१८</sup>वराहनानामृगपक्षिजुष्टं; महद्वनं चैत्ररथप्रकाशम्<br>शिवेन यात्वा मृगयाप्रधानाः; संवत्सरं तत्र वने विजह्रुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.१९</sup>तत्राससादातिबलं भुजंगं; क्षुधार्दितं मृत्युमिवोग्ररूपम्<br>वृकोदरः पर्वतकन्दरायां; विषादमोहव्यथितान्तरात्मा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२०</sup>द्वीपोऽभवद्यत्र वृकोदरस्य; युधिष्ठिरो धर्मभृतां वरिष्ठः<br>अमोक्षयद्यस्तमनन्ततेजा; ग्राहेण संवेष्टितसर्वगात्रम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२१</sup>ते द्वादशं वर्षमथोपयान्तं; वने विहर्तुं कुरवः प्रतीताः<br>तस्माद्वनाच्चैत्ररथप्रकाशा;च्छ्रिया ज्वलन्तस्तपसा च युक्ताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२२</sup>ततश्च यात्वा मरुधन्वपार्श्वं; सदा धनुर्वेदरतिप्रधानाः<br>सरस्वतीमेत्य निवासकामाः; सरस्ततो द्वैतवनं प्रतीयुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२३</sup>समीक्ष्य तान्द्वैतवने निविष्टा;न्निवासिनस्तत्र ततोऽभिजग्मुः<br>तपोदमाचारसमाधियुक्ता;स्तृणोदपात्राहरणाश्मकुट्टाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२४</sup>प्लक्षाक्षरौहीतकवेतसाश्च; स्नुहा बदर्यः खदिराः शिरीषाः<br>बिल्वेङ्गुदाः पीलुशमीकरीराः; सरस्वतीतीररुहा बभूवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१७४.२५</sup>तां यक्षगन्धर्वमहर्षिकान्ता;मायागभूतामिव देवतानाम्<br>सरस्वतीं प्रीतियुताश्चरन्तः; सुखं विजह्रुर्नरदेवपुत्राः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

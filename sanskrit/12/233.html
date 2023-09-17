@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/232.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२३३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/234.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,109 +64,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/232.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२३३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/234.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१</sup>शुक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.२</sup>यदिदं वेदवचनं कुरु कर्म त्यजेति च<br>कां दिशं विद्यया यान्ति कां च गच्छन्ति कर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.३</sup>एतद्वै श्रोतुमिच्छामि तद्भवान्प्रब्रवीतु मे<br>एतत्त्वन्योन्यवैरूप्ये वर्तते प्रतिकूलतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.५</sup>इत्युक्तः प्रत्युवाचेदं पराशरसुतः सुतम्<br>कर्मविद्यामयावेतौ व्याख्यास्यामि क्षराक्षरौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.६</sup>यां दिशं विद्यया यान्ति यां च गच्छन्ति कर्मणा<br>शृणुष्वैकमनाः पुत्र गह्वरं ह्येतदन्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.७</sup>अस्ति धर्म इति प्रोक्तं नास्तीत्यत्रैव यो वदेत्<br>तस्य पक्षस्य सदृशमिदं मम भवेदथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.८</sup>द्वाविमावथ पन्थानौ यत्र वेदाः प्रतिष्ठिताः<br>प्रवृत्तिलक्षणो धर्मो निवृत्तौ च सुभाषितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.९</sup>कर्मणा बध्यते जन्तुर्विद्यया तु प्रमुच्यते<br>तस्मात्कर्म न कुर्वन्ति यतयः पारदर्शिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१०</sup>कर्मणा जायते प्रेत्य मूर्तिमान्षोडशात्मकः<br>विद्यया जायते नित्यमव्ययो ह्यव्ययात्मकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.११</sup>कर्म त्वेके प्रशंसन्ति स्वल्पबुद्धितरा नराः<br>तेन ते देहजालानि रमयन्त उपासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१२</sup>ये तु बुद्धिं परां प्राप्ता धर्मनैपुण्यदर्शिनः<br>न ते कर्म प्रशंसन्ति कूपं नद्यां पिबन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१३</sup>कर्मणः फलमाप्नोति सुखदुःखे भवाभवौ<br>विद्यया तदवाप्नोति यत्र गत्वा न शोचति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१४</sup>यत्र गत्वा न म्रियते यत्र गत्वा न जायते<br>न जीर्यते यत्र गत्वा यत्र गत्वा न वर्धते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१५</sup>यत्र तद्ब्रह्म परममव्यक्तमजरं ध्रुवम्<br>अव्याहतमनायासममृतं चावियोगि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१६</sup>द्वंद्वैर्यत्र न बाध्यन्ते मानसेन च कर्मणा<br>समाः सर्वत्र मैत्राश्च सर्वभूतहिते रताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१७</sup>विद्यामयोऽन्यः पुरुषस्तात कर्ममयोऽपरः<br>विद्धि चन्द्रमसं दर्शे सूक्ष्मया कलया स्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१८</sup>तदेतदृषिणा प्रोक्तं विस्तरेणानुमीयते<br>नवजं शशिनं दृष्ट्वा वक्रं तन्तुमिवाम्बरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.१९</sup>एकादशविकारात्मा कलासंभारसंभृतः<br>मूर्तिमानिति तं विद्धि तात कर्मगुणात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.२०</sup>देवो यः संश्रितस्तस्मिन्नब्बिन्दुरिव पुष्करे<br>क्षेत्रज्ञं तं विजानीयान्नित्यं त्यागजितात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.२१</sup>तमो रजश्च सत्त्वं च विद्धि जीवगुणानिमान्<br>जीवमात्मगुणं विद्यादात्मानं परमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३३.२२</sup>सचेतनं जीवगुणं वदन्ति; स चेष्टते चेष्टयते च सर्वम्<br>ततः परं क्षेत्रविदो वदन्ति; प्रावर्तयद्यो भुवनानि सप्त
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१</sup>शुक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.२</sup>यदिदं वेदवचनं कुरु कर्म त्यजेति च<br>कां दिशं विद्यया यान्ति कां च गच्छन्ति कर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.३</sup>एतद्वै श्रोतुमिच्छामि तद्भवान्प्रब्रवीतु मे<br>एतत्त्वन्योन्यवैरूप्ये वर्तते प्रतिकूलतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.५</sup>इत्युक्तः प्रत्युवाचेदं पराशरसुतः सुतम्<br>कर्मविद्यामयावेतौ व्याख्यास्यामि क्षराक्षरौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.६</sup>यां दिशं विद्यया यान्ति यां च गच्छन्ति कर्मणा<br>शृणुष्वैकमनाः पुत्र गह्वरं ह्येतदन्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.७</sup>अस्ति धर्म इति प्रोक्तं नास्तीत्यत्रैव यो वदेत्<br>तस्य पक्षस्य सदृशमिदं मम भवेदथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.८</sup>द्वाविमावथ पन्थानौ यत्र वेदाः प्रतिष्ठिताः<br>प्रवृत्तिलक्षणो धर्मो निवृत्तौ च सुभाषितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.९</sup>कर्मणा बध्यते जन्तुर्विद्यया तु प्रमुच्यते<br>तस्मात्कर्म न कुर्वन्ति यतयः पारदर्शिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१०</sup>कर्मणा जायते प्रेत्य मूर्तिमान्षोडशात्मकः<br>विद्यया जायते नित्यमव्ययो ह्यव्ययात्मकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.११</sup>कर्म त्वेके प्रशंसन्ति स्वल्पबुद्धितरा नराः<br>तेन ते देहजालानि रमयन्त उपासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१२</sup>ये तु बुद्धिं परां प्राप्ता धर्मनैपुण्यदर्शिनः<br>न ते कर्म प्रशंसन्ति कूपं नद्यां पिबन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१३</sup>कर्मणः फलमाप्नोति सुखदुःखे भवाभवौ<br>विद्यया तदवाप्नोति यत्र गत्वा न शोचति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१४</sup>यत्र गत्वा न म्रियते यत्र गत्वा न जायते<br>न जीर्यते यत्र गत्वा यत्र गत्वा न वर्धते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१५</sup>यत्र तद्ब्रह्म परममव्यक्तमजरं ध्रुवम्<br>अव्याहतमनायासममृतं चावियोगि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१६</sup>द्वंद्वैर्यत्र न बाध्यन्ते मानसेन च कर्मणा<br>समाः सर्वत्र मैत्राश्च सर्वभूतहिते रताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१७</sup>विद्यामयोऽन्यः पुरुषस्तात कर्ममयोऽपरः<br>विद्धि चन्द्रमसं दर्शे सूक्ष्मया कलया स्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१८</sup>तदेतदृषिणा प्रोक्तं विस्तरेणानुमीयते<br>नवजं शशिनं दृष्ट्वा वक्रं तन्तुमिवाम्बरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.१९</sup>एकादशविकारात्मा कलासंभारसंभृतः<br>मूर्तिमानिति तं विद्धि तात कर्मगुणात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.२०</sup>देवो यः संश्रितस्तस्मिन्नब्बिन्दुरिव पुष्करे<br>क्षेत्रज्ञं तं विजानीयान्नित्यं त्यागजितात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.२१</sup>तमो रजश्च सत्त्वं च विद्धि जीवगुणानिमान्<br>जीवमात्मगुणं विद्यादात्मानं परमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३३.२२</sup>सचेतनं जीवगुणं वदन्ति; स चेष्टते चेष्टयते च सर्वम्<br>ततः परं क्षेत्रविदो वदन्ति; प्रावर्तयद्यो भुवनानि सप्त
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -147,8 +140,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

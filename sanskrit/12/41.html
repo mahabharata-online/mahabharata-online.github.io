@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/40.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:४१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/42.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,100 +64,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/40.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:४१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/42.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.२</sup>प्रकृतीनां तु तद्वाक्यं देशकालोपसंहितम्<br>श्रुत्वा युधिष्ठिरो राजाथोत्तरं प्रत्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.३</sup>धन्याः पाण्डुसुता लोके येषां ब्राह्मणपुंगवाः<br>तथ्यान्वाप्यथ वातथ्यान्गुणानाहुः समागताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.४</sup>अनुग्राह्या वयं नूनं भवतामिति मे मतिः<br>यत्रैवं गुणसंपन्नानस्मान्ब्रूथ विमत्सराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.५</sup>धृतराष्ट्रो महाराजः पिता नो दैवतं परम्<br>शासनेऽस्य प्रिये चैव स्थेयं मत्प्रियकाङ्क्षिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.६</sup>एतदर्थं हि जीवामि कृत्वा ज्ञातिवधं महत्<br>अस्य शुश्रूषणं कार्यं मया नित्यमतन्द्रिणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.७</sup>यदि चाहमनुग्राह्यो भवतां सुहृदां ततः<br>धृतराष्ट्रे यथापूर्वं वृत्तिं वर्तितुमर्हथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.८</sup>एष नाथो हि जगतो भवतां च मया सह<br>अस्यैव पृथिवी कृत्स्ना पाण्डवाः सर्व एव च<br>एतन्मनसि कर्तव्यं भवद्भिर्वचनं मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.९</sup>अनुगम्य च राजानं यथेष्टं गम्यतामिति<br>पौरजानपदान्सर्वान्विसृज्य कुरुनन्दनः<br>यौवराज्येन कौरव्यो भीमसेनमयोजयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१०</sup>मन्त्रे च निश्चये चैव षाड्गुण्यस्य च चिन्तने<br>विदुरं बुद्धिसंपन्नं प्रीतिमान्वै समादिशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.११</sup>कृताकृतपरिज्ञाने तथायव्ययचिन्तने<br>संजयं योजयामास ऋद्धमृद्धैर्गुणैर्युतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१२</sup>बलस्य परिमाणे च भक्तवेतनयोस्तथा<br>नकुलं व्यादिशद्राजा कर्मिणामन्ववेक्षणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१३</sup>परचक्रोपरोधे च दृप्तानां चावमर्दने<br>युधिष्ठिरो महाराजः फल्गुनं व्यादिदेश ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१४</sup>द्विजानां वेदकार्येषु कार्येष्वन्येषु चैव हि<br>धौम्यं पुरोधसां श्रेष्ठं व्यादिदेश परंतपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१५</sup>सहदेवं समीपस्थं नित्यमेव समादिशत्<br>तेन गोप्यो हि नृपतिः सर्वावस्थो विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१६</sup>यान्यानमन्यद्योग्यांश्च येषु येष्विह कर्मसु<br>तांस्तांस्तेष्वेव युयुजे प्रीयमाणो महीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१७</sup>विदुरं संजयं चैव युयुत्सुं च महामतिम्<br>अब्रवीत्परवीरघ्नो धर्मात्मा धर्मवत्सलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१८</sup>उत्थायोत्थाय यत्कार्यमस्य राज्ञः पितुर्मम<br>सर्वं भवद्भिः कर्तव्यमप्रमत्तैर्यथातथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.४१.१९</sup>पौरजानपदानां च यानि कार्याणि नित्यशः<br>राजानं समनुज्ञाप्य तानि कार्याणि धर्मतः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.२</sup>प्रकृतीनां तु तद्वाक्यं देशकालोपसंहितम्<br>श्रुत्वा युधिष्ठिरो राजाथोत्तरं प्रत्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.३</sup>धन्याः पाण्डुसुता लोके येषां ब्राह्मणपुंगवाः<br>तथ्यान्वाप्यथ वातथ्यान्गुणानाहुः समागताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.४</sup>अनुग्राह्या वयं नूनं भवतामिति मे मतिः<br>यत्रैवं गुणसंपन्नानस्मान्ब्रूथ विमत्सराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.५</sup>धृतराष्ट्रो महाराजः पिता नो दैवतं परम्<br>शासनेऽस्य प्रिये चैव स्थेयं मत्प्रियकाङ्क्षिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.६</sup>एतदर्थं हि जीवामि कृत्वा ज्ञातिवधं महत्<br>अस्य शुश्रूषणं कार्यं मया नित्यमतन्द्रिणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.७</sup>यदि चाहमनुग्राह्यो भवतां सुहृदां ततः<br>धृतराष्ट्रे यथापूर्वं वृत्तिं वर्तितुमर्हथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.८</sup>एष नाथो हि जगतो भवतां च मया सह<br>अस्यैव पृथिवी कृत्स्ना पाण्डवाः सर्व एव च<br>एतन्मनसि कर्तव्यं भवद्भिर्वचनं मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.९</sup>अनुगम्य च राजानं यथेष्टं गम्यतामिति<br>पौरजानपदान्सर्वान्विसृज्य कुरुनन्दनः<br>यौवराज्येन कौरव्यो भीमसेनमयोजयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१०</sup>मन्त्रे च निश्चये चैव षाड्गुण्यस्य च चिन्तने<br>विदुरं बुद्धिसंपन्नं प्रीतिमान्वै समादिशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.११</sup>कृताकृतपरिज्ञाने तथायव्ययचिन्तने<br>संजयं योजयामास ऋद्धमृद्धैर्गुणैर्युतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१२</sup>बलस्य परिमाणे च भक्तवेतनयोस्तथा<br>नकुलं व्यादिशद्राजा कर्मिणामन्ववेक्षणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१३</sup>परचक्रोपरोधे च दृप्तानां चावमर्दने<br>युधिष्ठिरो महाराजः फल्गुनं व्यादिदेश ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१४</sup>द्विजानां वेदकार्येषु कार्येष्वन्येषु चैव हि<br>धौम्यं पुरोधसां श्रेष्ठं व्यादिदेश परंतपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१५</sup>सहदेवं समीपस्थं नित्यमेव समादिशत्<br>तेन गोप्यो हि नृपतिः सर्वावस्थो विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१६</sup>यान्यानमन्यद्योग्यांश्च येषु येष्विह कर्मसु<br>तांस्तांस्तेष्वेव युयुजे प्रीयमाणो महीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१७</sup>विदुरं संजयं चैव युयुत्सुं च महामतिम्<br>अब्रवीत्परवीरघ्नो धर्मात्मा धर्मवत्सलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१८</sup>उत्थायोत्थाय यत्कार्यमस्य राज्ञः पितुर्मम<br>सर्वं भवद्भिः कर्तव्यमप्रमत्तैर्यथातथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.४१.१९</sup>पौरजानपदानां च यानि कार्याणि नित्यशः<br>राजानं समनुज्ञाप्य तानि कार्याणि धर्मतः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -138,8 +131,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

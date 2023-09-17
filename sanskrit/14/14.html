@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/13.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:१४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/15.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,97 +64,62 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/13.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:१४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/15.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.२</sup>एवं बहुविधैर्वाक्यैर्मुनिभिस्तैस्तपोधनैः<br>समाश्वस्यत राजर्षिर्हतबन्धुर्युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.३</sup>सोऽनुनीतो भगवता विष्टरश्रवसा स्वयम्<br>द्वैपायनेन कृष्णेन देवस्थानेन चाभिभूः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.४</sup>नारदेनाथ भीमेन नकुलेन च पार्थिवः<br>कृष्णया सहदेवेन विजयेन च धीमता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.५</sup>अन्यैश्च पुरुषव्याघ्रैर्ब्राह्मणैः शास्त्रदृष्टिभिः<br>व्यजहाच्छोकजं दुःखं संतापं चैव मानसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.६</sup>अर्चयामास देवांश्च ब्राह्मणांश्च युधिष्ठिरः<br>कृत्वाथ प्रेतकार्याणि बन्धूनां स पुनर्नृपः<br>अन्वशासत धर्मात्मा पृथिवीं सागराम्बराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.७</sup>प्रशान्तचेताः कौरव्यः स्वराज्यं प्राप्य केवलम्<br>व्यासं च नारदं चैव तांश्चान्यानब्रवीन्नृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.८</sup>आश्वासितोऽहं प्राग्वृद्धैर्भवद्भिर्मुनिपुंगवैः<br>न सूक्ष्ममपि मे किंचिद्व्यलीकमिह विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.९</sup>अर्थश्च सुमहान्प्राप्तो येन यक्ष्यामि देवताः<br>पुरस्कृत्येह भवतः समानेष्यामहे मखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१०</sup>हिमवन्तं त्वया गुप्ता गमिष्यामः पितामह<br>बह्वाश्चर्यो हि देशः स श्रूयते द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.११</sup>तथा भगवता चित्रं कल्याणं बहु भाषितम्<br>देवर्षिणा नारदेन देवस्थानेन चैव ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१२</sup>नाभागधेयः पुरुषः कश्चिदेवंविधान्गुरून्<br>लभते व्यसनं प्राप्य सुहृदः साधुसंमतान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१३</sup>एवमुक्तास्तु ते राज्ञा सर्व एव महर्षयः<br>अभ्यनुज्ञाप्य राजानं तथोभौ कृष्णफल्गुनौ<br>पश्यतामेव सर्वेषां तत्रैवादर्शनं ययुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१४</sup>ततो धर्मसुतो राजा तत्रैवोपाविशत्प्रभुः<br>एवं नातिमहान्कालः स तेषामभ्यवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१५</sup>कुर्वतां शौचकर्माणि भीष्मस्य निधने तदा<br>महादानानि विप्रेभ्यो ददतामौर्ध्वदैहिकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१६</sup>भीष्मकर्णपुरोगाणां कुरूणां कुरुनन्दन<br>सहितो धृतराष्ट्रेण प्रददावौर्ध्वदैहिकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१७</sup>ततो दत्त्वा बहु धनं विप्रेभ्यः पाण्डवर्षभः<br>धृतराष्ट्रं पुरस्कृत्य विवेश गजसाह्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.१४.१८</sup>स समाश्वास्य पितरं प्रज्ञाचक्षुषमीश्वरम्<br>अन्वशाद्वै स धर्मात्मा पृथिवीं भ्रातृभिः सह
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.२</sup>एवं बहुविधैर्वाक्यैर्मुनिभिस्तैस्तपोधनैः<br>समाश्वस्यत राजर्षिर्हतबन्धुर्युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.३</sup>सोऽनुनीतो भगवता विष्टरश्रवसा स्वयम्<br>द्वैपायनेन कृष्णेन देवस्थानेन चाभिभूः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.४</sup>नारदेनाथ भीमेन नकुलेन च पार्थिवः<br>कृष्णया सहदेवेन विजयेन च धीमता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.५</sup>अन्यैश्च पुरुषव्याघ्रैर्ब्राह्मणैः शास्त्रदृष्टिभिः<br>व्यजहाच्छोकजं दुःखं संतापं चैव मानसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.६</sup>अर्चयामास देवांश्च ब्राह्मणांश्च युधिष्ठिरः<br>कृत्वाथ प्रेतकार्याणि बन्धूनां स पुनर्नृपः<br>अन्वशासत धर्मात्मा पृथिवीं सागराम्बराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.७</sup>प्रशान्तचेताः कौरव्यः स्वराज्यं प्राप्य केवलम्<br>व्यासं च नारदं चैव तांश्चान्यानब्रवीन्नृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.८</sup>आश्वासितोऽहं प्राग्वृद्धैर्भवद्भिर्मुनिपुंगवैः<br>न सूक्ष्ममपि मे किंचिद्व्यलीकमिह विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.९</sup>अर्थश्च सुमहान्प्राप्तो येन यक्ष्यामि देवताः<br>पुरस्कृत्येह भवतः समानेष्यामहे मखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१०</sup>हिमवन्तं त्वया गुप्ता गमिष्यामः पितामह<br>बह्वाश्चर्यो हि देशः स श्रूयते द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.११</sup>तथा भगवता चित्रं कल्याणं बहु भाषितम्<br>देवर्षिणा नारदेन देवस्थानेन चैव ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१२</sup>नाभागधेयः पुरुषः कश्चिदेवंविधान्गुरून्<br>लभते व्यसनं प्राप्य सुहृदः साधुसंमतान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१३</sup>एवमुक्तास्तु ते राज्ञा सर्व एव महर्षयः<br>अभ्यनुज्ञाप्य राजानं तथोभौ कृष्णफल्गुनौ<br>पश्यतामेव सर्वेषां तत्रैवादर्शनं ययुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१४</sup>ततो धर्मसुतो राजा तत्रैवोपाविशत्प्रभुः<br>एवं नातिमहान्कालः स तेषामभ्यवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१५</sup>कुर्वतां शौचकर्माणि भीष्मस्य निधने तदा<br>महादानानि विप्रेभ्यो ददतामौर्ध्वदैहिकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१६</sup>भीष्मकर्णपुरोगाणां कुरूणां कुरुनन्दन<br>सहितो धृतराष्ट्रेण प्रददावौर्ध्वदैहिकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१७</sup>ततो दत्त्वा बहु धनं विप्रेभ्यः पाण्डवर्षभः<br>धृतराष्ट्रं पुरस्कृत्य विवेश गजसाह्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.१४.१८</sup>स समाश्वास्य पितरं प्रज्ञाचक्षुषमीश्वरम्<br>अन्वशाद्वै स धर्मात्मा पृथिवीं भ्रातृभिः सह
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -135,8 +128,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

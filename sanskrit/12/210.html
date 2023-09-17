@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/209.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२१०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/211.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/209.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२१०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/211.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१</sup>गुरुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२</sup>न स वेद परं धर्मं यो न वेद चतुष्टयम्<br>व्यक्ताव्यक्ते च यत्तत्त्वं संप्राप्तं परमर्षिणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३</sup>व्यक्तं मृत्युमुखं विद्यादव्यक्तममृतं पदम्<br>प्रवृत्तिलक्षणं धर्ममृषिर्नारायणोऽब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.४</sup>अत्रैवावस्थितं सर्वं त्रैलोक्यं सचराचरम्<br>निवृत्तिलक्षणं धर्ममव्यक्तं ब्रह्म शाश्वतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.५</sup>प्रवृत्तिलक्षणं धर्मं प्रजापतिरथाब्रवीत्<br>प्रवृत्तिः पुनरावृत्तिर्निवृत्तिः परमा गतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.६</sup>तां गतिं परमामेति निवृत्तिपरमो मुनिः<br>ज्ञानतत्त्वपरो नित्यं शुभाशुभनिदर्शकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.७</sup>तदेवमेतौ विज्ञेयावव्यक्तपुरुषावुभौ<br>अव्यक्तपुरुषाभ्यां तु यत्स्यादन्यन्महत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.८</sup>तं विशेषमवेक्षेत विशेषेण विचक्षणः<br>अनाद्यन्तावुभावेतावलिङ्गौ चाप्युभावपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.९</sup>उभौ नित्यौ सूक्ष्मतरौ महद्भ्यश्च महत्तरौ<br>सामान्यमेतदुभयोरेवं ह्यन्यद्विशेषणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१०</sup>प्रकृत्या सर्गधर्मिण्या तथा त्रिविधसत्त्वया<br>विपरीतमतो विद्यात्क्षेत्रज्ञस्य च लक्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.११</sup>प्रकृतेश्च विकाराणां द्रष्टारमगुणान्वितम्<br>अग्राह्यौ पुरुषावेतावलिङ्गत्वादसंहितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१२</sup>संयोगलक्षणोत्पत्तिः कर्मजा गृह्यते यया<br>करणैः कर्मनिर्वृत्तैः कर्ता यद्यद्विचेष्टते<br>कीर्त्यते शब्दसंज्ञाभिः कोऽहमेषोऽप्यसाविति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१३</sup>उष्णीषवान्यथा वस्त्रैस्त्रिभिर्भवति संवृतः<br>संवृतोऽयं तथा देही सत्त्वराजसतामसैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१४</sup>तस्माच्चतुष्टयं वेद्यमेतैर्हेतुभिराचितम्<br>यथासंज्ञो ह्ययं सम्यगन्तकाले न मुह्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१५</sup>श्रियं दिव्यामभिप्रेप्सुर्ब्रह्म वाङ्मनसा शुचिः<br>शारीरैर्नियमैरुग्रैश्चरेन्निष्कल्मषं तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१६</sup>त्रैलोक्यं तपसा व्याप्तमन्तर्भूतेन भास्वता<br>सूर्यश्च चन्द्रमाश्चैव भासतस्तपसा दिवि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१७</sup>प्रतापस्तपसो ज्ञानं लोके संशब्दितं तपः<br>रजस्तमोघ्नं यत्कर्म तपसस्तत्स्वलक्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१८</sup>ब्रह्मचर्यमहिंसा च शारीरं तप उच्यते<br>वाङ्मनोनियमः साम्यं मानसं तप उच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.१९</sup>विधिज्ञेभ्यो द्विजातिभ्यो ग्राह्यमन्नं विशिष्यते<br>आहारनियमेनास्य पाप्मा नश्यति राजसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२०</sup>वैमनस्यं च विषये यान्त्यस्य करणानि च<br>तस्मात्तन्मात्रमादद्याद्यावदत्र प्रयोजनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२१</sup>अन्तकाले वयोत्कर्षाच्छनैः कुर्यादनातुरः<br>एवं युक्तेन मनसा ज्ञानं तदुपपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२२</sup>रजसा चाप्ययं देही देहवाञ्शब्दवच्चरेत्<br>कार्यैरव्याहतमतिर्वैराग्यात्प्रकृतौ स्थितः<br>आ देहादप्रमादाच्च देहान्ताद्विप्रमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२३</sup>हेतुयुक्तः सदोत्सर्गो भूतानां प्रलयस्तथा<br>परप्रत्ययसर्गे तु नियतं नातिवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२४</sup>भवान्तप्रभवप्रज्ञा आसते ये विपर्ययम्<br>धृत्या देहान्धारयन्तो बुद्धिसंक्षिप्तमानसाः<br>स्थानेभ्यो ध्वंसमानाश्च सूक्ष्मत्वात्तानुपासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२५</sup>यथागमं च तत्सर्वं बुद्ध्या तन्नैव बुध्यते<br>देहान्तं कश्चिदन्वास्ते भावितात्मा निराश्रयः<br>युक्तो धारणया कश्चित्सत्तां केचिदुपासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२६</sup>अभ्यस्यन्ति परं देवं विद्युत्संशब्दिताक्षरम्<br>अन्तकाले ह्युपासन्नास्तपसा दग्धकिल्बिषाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२७</sup>सर्व एते महात्मानो गच्छन्ति परमां गतिम्<br>सूक्ष्मं विशेषणं तेषामवेक्षेच्छास्त्रचक्षुषा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२८</sup>देहं तु परमं विद्याद्विमुक्तमपरिग्रहम्<br>अन्तरिक्षादन्यतरं धारणासक्तमानसम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.२९</sup>मर्त्यलोकाद्विमुच्यन्ते विद्यासंयुक्तमानसाः<br>ब्रह्मभूता विरजसस्ततो यान्ति परां गतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३०</sup>कषायवर्जितं ज्ञानं येषामुत्पद्यतेऽचलम्<br>ते यान्ति परमाँल्लोकान्विशुध्यन्तो यथाबलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३१</sup>भगवन्तमजं दिव्यं विष्णुमव्यक्तसंज्ञितम्<br>भावेन यान्ति शुद्धा ये ज्ञानतृप्ता निराशिषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३२</sup>ज्ञात्वात्मस्थं हरिं चैव निवर्तन्ते न तेऽव्ययाः<br>प्राप्य तत्परमं स्थानं मोदन्तेऽक्षरमव्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३३</sup>एतावदेतद्विज्ञानमेतदस्ति च नास्ति च<br>तृष्णाबद्धं जगत्सर्वं चक्रवत्परिवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३४</sup>बिसतन्तुर्यथैवायमन्तःस्थः सर्वतो बिसे<br>तृष्णातन्तुरनाद्यन्तस्तथा देहगतः सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३५</sup>सूच्या सूत्रं यथा वस्त्रे संसारयति वायकः<br>तद्वत्संसारसूत्रं हि तृष्णासूच्या निबध्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३६</sup>विकारं प्रकृतिं चैव पुरुषं च सनातनम्<br>यो यथावद्विजानाति स वितृष्णो विमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२१०.३७</sup>प्रकाशं भगवानेतदृषिर्नारायणोऽमृतम्<br>भूतानामनुकम्पार्थं जगाद जगतो हितम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१</sup>गुरुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२</sup>न स वेद परं धर्मं यो न वेद चतुष्टयम्<br>व्यक्ताव्यक्ते च यत्तत्त्वं संप्राप्तं परमर्षिणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३</sup>व्यक्तं मृत्युमुखं विद्यादव्यक्तममृतं पदम्<br>प्रवृत्तिलक्षणं धर्ममृषिर्नारायणोऽब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.४</sup>अत्रैवावस्थितं सर्वं त्रैलोक्यं सचराचरम्<br>निवृत्तिलक्षणं धर्ममव्यक्तं ब्रह्म शाश्वतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.५</sup>प्रवृत्तिलक्षणं धर्मं प्रजापतिरथाब्रवीत्<br>प्रवृत्तिः पुनरावृत्तिर्निवृत्तिः परमा गतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.६</sup>तां गतिं परमामेति निवृत्तिपरमो मुनिः<br>ज्ञानतत्त्वपरो नित्यं शुभाशुभनिदर्शकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.७</sup>तदेवमेतौ विज्ञेयावव्यक्तपुरुषावुभौ<br>अव्यक्तपुरुषाभ्यां तु यत्स्यादन्यन्महत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.८</sup>तं विशेषमवेक्षेत विशेषेण विचक्षणः<br>अनाद्यन्तावुभावेतावलिङ्गौ चाप्युभावपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.९</sup>उभौ नित्यौ सूक्ष्मतरौ महद्भ्यश्च महत्तरौ<br>सामान्यमेतदुभयोरेवं ह्यन्यद्विशेषणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१०</sup>प्रकृत्या सर्गधर्मिण्या तथा त्रिविधसत्त्वया<br>विपरीतमतो विद्यात्क्षेत्रज्ञस्य च लक्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.११</sup>प्रकृतेश्च विकाराणां द्रष्टारमगुणान्वितम्<br>अग्राह्यौ पुरुषावेतावलिङ्गत्वादसंहितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१२</sup>संयोगलक्षणोत्पत्तिः कर्मजा गृह्यते यया<br>करणैः कर्मनिर्वृत्तैः कर्ता यद्यद्विचेष्टते<br>कीर्त्यते शब्दसंज्ञाभिः कोऽहमेषोऽप्यसाविति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१३</sup>उष्णीषवान्यथा वस्त्रैस्त्रिभिर्भवति संवृतः<br>संवृतोऽयं तथा देही सत्त्वराजसतामसैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१४</sup>तस्माच्चतुष्टयं वेद्यमेतैर्हेतुभिराचितम्<br>यथासंज्ञो ह्ययं सम्यगन्तकाले न मुह्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१५</sup>श्रियं दिव्यामभिप्रेप्सुर्ब्रह्म वाङ्मनसा शुचिः<br>शारीरैर्नियमैरुग्रैश्चरेन्निष्कल्मषं तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१६</sup>त्रैलोक्यं तपसा व्याप्तमन्तर्भूतेन भास्वता<br>सूर्यश्च चन्द्रमाश्चैव भासतस्तपसा दिवि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१७</sup>प्रतापस्तपसो ज्ञानं लोके संशब्दितं तपः<br>रजस्तमोघ्नं यत्कर्म तपसस्तत्स्वलक्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१८</sup>ब्रह्मचर्यमहिंसा च शारीरं तप उच्यते<br>वाङ्मनोनियमः साम्यं मानसं तप उच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.१९</sup>विधिज्ञेभ्यो द्विजातिभ्यो ग्राह्यमन्नं विशिष्यते<br>आहारनियमेनास्य पाप्मा नश्यति राजसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२०</sup>वैमनस्यं च विषये यान्त्यस्य करणानि च<br>तस्मात्तन्मात्रमादद्याद्यावदत्र प्रयोजनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२१</sup>अन्तकाले वयोत्कर्षाच्छनैः कुर्यादनातुरः<br>एवं युक्तेन मनसा ज्ञानं तदुपपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२२</sup>रजसा चाप्ययं देही देहवाञ्शब्दवच्चरेत्<br>कार्यैरव्याहतमतिर्वैराग्यात्प्रकृतौ स्थितः<br>आ देहादप्रमादाच्च देहान्ताद्विप्रमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२३</sup>हेतुयुक्तः सदोत्सर्गो भूतानां प्रलयस्तथा<br>परप्रत्ययसर्गे तु नियतं नातिवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२४</sup>भवान्तप्रभवप्रज्ञा आसते ये विपर्ययम्<br>धृत्या देहान्धारयन्तो बुद्धिसंक्षिप्तमानसाः<br>स्थानेभ्यो ध्वंसमानाश्च सूक्ष्मत्वात्तानुपासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२५</sup>यथागमं च तत्सर्वं बुद्ध्या तन्नैव बुध्यते<br>देहान्तं कश्चिदन्वास्ते भावितात्मा निराश्रयः<br>युक्तो धारणया कश्चित्सत्तां केचिदुपासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२६</sup>अभ्यस्यन्ति परं देवं विद्युत्संशब्दिताक्षरम्<br>अन्तकाले ह्युपासन्नास्तपसा दग्धकिल्बिषाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२७</sup>सर्व एते महात्मानो गच्छन्ति परमां गतिम्<br>सूक्ष्मं विशेषणं तेषामवेक्षेच्छास्त्रचक्षुषा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२८</sup>देहं तु परमं विद्याद्विमुक्तमपरिग्रहम्<br>अन्तरिक्षादन्यतरं धारणासक्तमानसम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.२९</sup>मर्त्यलोकाद्विमुच्यन्ते विद्यासंयुक्तमानसाः<br>ब्रह्मभूता विरजसस्ततो यान्ति परां गतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३०</sup>कषायवर्जितं ज्ञानं येषामुत्पद्यतेऽचलम्<br>ते यान्ति परमाँल्लोकान्विशुध्यन्तो यथाबलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३१</sup>भगवन्तमजं दिव्यं विष्णुमव्यक्तसंज्ञितम्<br>भावेन यान्ति शुद्धा ये ज्ञानतृप्ता निराशिषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३२</sup>ज्ञात्वात्मस्थं हरिं चैव निवर्तन्ते न तेऽव्ययाः<br>प्राप्य तत्परमं स्थानं मोदन्तेऽक्षरमव्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३३</sup>एतावदेतद्विज्ञानमेतदस्ति च नास्ति च<br>तृष्णाबद्धं जगत्सर्वं चक्रवत्परिवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३४</sup>बिसतन्तुर्यथैवायमन्तःस्थः सर्वतो बिसे<br>तृष्णातन्तुरनाद्यन्तस्तथा देहगतः सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३५</sup>सूच्या सूत्रं यथा वस्त्रे संसारयति वायकः<br>तद्वत्संसारसूत्रं हि तृष्णासूच्या निबध्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३६</sup>विकारं प्रकृतिं चैव पुरुषं च सनातनम्<br>यो यथावद्विजानाति स वितृष्णो विमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२१०.३७</sup>प्रकाशं भगवानेतदृषिर्नारायणोऽमृतम्<br>भूतानामनुकम्पार्थं जगाद जगतो हितम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

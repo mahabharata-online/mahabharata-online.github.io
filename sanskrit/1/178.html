@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/177.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१७८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/179.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,100 +64,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/177.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१७८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/179.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.२</sup>तेऽलंकृताः कुण्डलिनो युवानः; परस्परं स्पर्धमानाः समेताः<br>अस्त्रं बलं चात्मनि मन्यमानाः; सर्वे समुत्पेतुरहंकृतेन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.३</sup>रूपेण वीर्येण कुलेन चैव; धर्मेण चैवापि च यौवनेन<br>समृद्धदर्पा मदवेगभिन्ना; मत्ता यथा हैमवता गजेन्द्राः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.४</sup>परस्परं स्पर्धया प्रेक्षमाणाः; संकल्पजेनापि परिप्लुताङ्गाः<br>कृष्णा ममैषेत्यभिभाषमाणा; नृपासनेभ्यः सहसोपतस्थुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.५</sup>ते क्षत्रिया रङ्गगताः समेता; जिगीषमाणा द्रुपदात्मजां ताम्<br>चकाशिरे पर्वतराजकन्या;मुमां यथा देवगणाः समेताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.६</sup>कन्दर्पबाणाभिनिपीडिताङ्गाः; कृष्णागतैस्ते हृदयैर्नरेन्द्राः<br>रङ्गावतीर्णा द्रुपदात्मजार्थं; द्वेष्यान्हि चक्रुः सुहृदोऽपि तत्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.७</sup>अथाययुर्देवगणा विमानै; रुद्रादित्या वसवोऽथाश्विनौ च<br>साध्याश्च सर्वे मरुतस्तथैव; यमं पुरस्कृत्य धनेश्वरं च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.८</sup>दैत्याः सुपर्णाश्च महोरगाश्च; देवर्षयो गुह्यकाश्चारणाश्च<br>विश्वावसुर्नारदपर्वतौ च; गन्धर्वमुख्याश्च सहाप्सरोभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.९</sup>हलायुधस्तत्र च केशवश्च; वृष्ण्यन्धकाश्चैव यथा प्रधानाः<br>प्रेक्षां स्म चक्रुर्यदुपुंगवास्ते; स्थिताश्च कृष्णस्य मते बभूवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१०</sup>दृष्ट्वा हि तान्मत्तगजेन्द्ररूपा;न्पञ्चाभिपद्मानिव वारणेन्द्रान्<br>भस्मावृताङ्गानिव हव्यवाहा;न्पार्थान्प्रदध्यौ स यदुप्रवीरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.११</sup>शशंस रामाय युधिष्ठिरं च; भीमं च जिष्णुं च यमौ च वीरौ<br>शनैः शनैस्तांश्च निरीक्ष्य रामो; जनार्दनं प्रीतमना ददर्श
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१२</sup>अन्ये तु नानानृपपुत्रपौत्राः; कृष्णागतैर्नेत्रमनःस्वभावैः<br>व्यायच्छमाना ददृशुर्भ्रमन्तीं; संदष्टदन्तच्छदताम्रवक्त्राः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१३</sup>तथैव पार्थाः पृथुबाहवस्ते; वीरौ यमौ चैव महानुभावौ<br>तां द्रौपदीं प्रेक्ष्य तदा स्म सर्वे; कन्दर्पबाणाभिहता बभूवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१४</sup>देवर्षिगन्धर्वसमाकुलं त;त्सुपर्णनागासुरसिद्धजुष्टम्<br>दिव्येन गन्धेन समाकुलं च; दिव्यैश्च माल्यैरवकीर्यमाणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१५</sup>महास्वनैर्दुन्दुभिनादितैश्च; बभूव तत्संकुलमन्तरिक्षम्<br>विमानसंबाधमभूत्समन्ता;त्सवेणुवीणापणवानुनादम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१६</sup>ततस्तु ते राजगणाः क्रमेण; कृष्णानिमित्तं नृप विक्रमन्तः<br>तत्कार्मुकं संहननोपपन्नं; सज्यं न शेकुस्तरसापि कर्तुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१७</sup>ते विक्रमन्तः स्फुरता दृढेन; निष्कृष्यमाणा धनुषा नरेन्द्राः<br>विचेष्टमाना धरणीतलस्था; दीना अदृश्यन्त विभग्नचित्ताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१८</sup>हाहाकृतं तद्धनुषा दृढेन; निष्पिष्टभग्नाङ्गदकुण्डलं च<br>कृष्णानिमित्तं विनिवृत्तभावं; राज्ञां तदा मण्डलमार्तमासीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७८.१९</sup>तस्मिंस्तु संभ्रान्तजने समाजे; निक्षिप्तवादेषु नराधिपेषु<br>कुन्तीसुतो जिष्णुरियेष कर्तुं; सज्यं धनुस्तत्सशरं स वीरः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.२</sup>तेऽलंकृताः कुण्डलिनो युवानः; परस्परं स्पर्धमानाः समेताः<br>अस्त्रं बलं चात्मनि मन्यमानाः; सर्वे समुत्पेतुरहंकृतेन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.३</sup>रूपेण वीर्येण कुलेन चैव; धर्मेण चैवापि च यौवनेन<br>समृद्धदर्पा मदवेगभिन्ना; मत्ता यथा हैमवता गजेन्द्राः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.४</sup>परस्परं स्पर्धया प्रेक्षमाणाः; संकल्पजेनापि परिप्लुताङ्गाः<br>कृष्णा ममैषेत्यभिभाषमाणा; नृपासनेभ्यः सहसोपतस्थुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.५</sup>ते क्षत्रिया रङ्गगताः समेता; जिगीषमाणा द्रुपदात्मजां ताम्<br>चकाशिरे पर्वतराजकन्या;मुमां यथा देवगणाः समेताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.६</sup>कन्दर्पबाणाभिनिपीडिताङ्गाः; कृष्णागतैस्ते हृदयैर्नरेन्द्राः<br>रङ्गावतीर्णा द्रुपदात्मजार्थं; द्वेष्यान्हि चक्रुः सुहृदोऽपि तत्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.७</sup>अथाययुर्देवगणा विमानै; रुद्रादित्या वसवोऽथाश्विनौ च<br>साध्याश्च सर्वे मरुतस्तथैव; यमं पुरस्कृत्य धनेश्वरं च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.८</sup>दैत्याः सुपर्णाश्च महोरगाश्च; देवर्षयो गुह्यकाश्चारणाश्च<br>विश्वावसुर्नारदपर्वतौ च; गन्धर्वमुख्याश्च सहाप्सरोभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.९</sup>हलायुधस्तत्र च केशवश्च; वृष्ण्यन्धकाश्चैव यथा प्रधानाः<br>प्रेक्षां स्म चक्रुर्यदुपुंगवास्ते; स्थिताश्च कृष्णस्य मते बभूवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१०</sup>दृष्ट्वा हि तान्मत्तगजेन्द्ररूपा;न्पञ्चाभिपद्मानिव वारणेन्द्रान्<br>भस्मावृताङ्गानिव हव्यवाहा;न्पार्थान्प्रदध्यौ स यदुप्रवीरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.११</sup>शशंस रामाय युधिष्ठिरं च; भीमं च जिष्णुं च यमौ च वीरौ<br>शनैः शनैस्तांश्च निरीक्ष्य रामो; जनार्दनं प्रीतमना ददर्श
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१२</sup>अन्ये तु नानानृपपुत्रपौत्राः; कृष्णागतैर्नेत्रमनःस्वभावैः<br>व्यायच्छमाना ददृशुर्भ्रमन्तीं; संदष्टदन्तच्छदताम्रवक्त्राः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१३</sup>तथैव पार्थाः पृथुबाहवस्ते; वीरौ यमौ चैव महानुभावौ<br>तां द्रौपदीं प्रेक्ष्य तदा स्म सर्वे; कन्दर्पबाणाभिहता बभूवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१४</sup>देवर्षिगन्धर्वसमाकुलं त;त्सुपर्णनागासुरसिद्धजुष्टम्<br>दिव्येन गन्धेन समाकुलं च; दिव्यैश्च माल्यैरवकीर्यमाणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१५</sup>महास्वनैर्दुन्दुभिनादितैश्च; बभूव तत्संकुलमन्तरिक्षम्<br>विमानसंबाधमभूत्समन्ता;त्सवेणुवीणापणवानुनादम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१६</sup>ततस्तु ते राजगणाः क्रमेण; कृष्णानिमित्तं नृप विक्रमन्तः<br>तत्कार्मुकं संहननोपपन्नं; सज्यं न शेकुस्तरसापि कर्तुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१७</sup>ते विक्रमन्तः स्फुरता दृढेन; निष्कृष्यमाणा धनुषा नरेन्द्राः<br>विचेष्टमाना धरणीतलस्था; दीना अदृश्यन्त विभग्नचित्ताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१८</sup>हाहाकृतं तद्धनुषा दृढेन; निष्पिष्टभग्नाङ्गदकुण्डलं च<br>कृष्णानिमित्तं विनिवृत्तभावं; राज्ञां तदा मण्डलमार्तमासीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७८.१९</sup>तस्मिंस्तु संभ्रान्तजने समाजे; निक्षिप्तवादेषु नराधिपेषु<br>कुन्तीसुतो जिष्णुरियेष कर्तुं; सज्यं धनुस्तत्सशरं स वीरः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -138,8 +131,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

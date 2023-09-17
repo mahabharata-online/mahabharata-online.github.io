@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/31.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:३२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/33.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,151 +64,116 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/31.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:३२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/33.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१</sup>शौनक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२</sup>जाता वै भुजगास्तात वीर्यवन्तो दुरासदाः<br>शापं तं त्वथ विज्ञाय कृतवन्तो नु किं परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.४</sup>तेषां तु भगवाञ्शेषस्त्यक्त्वा कद्रूं महायशाः<br>तपो विपुलमातस्थे वायुभक्षो यतव्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.५</sup>गन्धमादनमासाद्य बदर्यां च तपोरतः<br>गोकर्णे पुष्करारण्ये तथा हिमवतस्तटे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.६</sup>तेषु तेषु च पुण्येषु तीर्थेष्वायतनेषु च<br>एकान्तशीली नियतः सततं विजितेन्द्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.७</sup>तप्यमानं तपो घोरं तं ददर्श पितामहः<br>परिशुष्कमांसत्वक्स्नायुं जटाचीरधरं प्रभुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.८</sup>तमब्रवीत्सत्यधृतिं तप्यमानं पितामहः<br>किमिदं कुरुषे शेष प्रजानां स्वस्ति वै कुरु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.९</sup>त्वं हि तीव्रेण तपसा प्रजास्तापयसेऽनघ<br>ब्रूहि कामं च मे शेष यत्ते हृदि चिरं स्थितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१०</sup>शेष उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.११</sup>सोदर्या मम सर्वे हि भ्रातरो मन्दचेतसः<br>सह तैर्नोत्सहे वस्तुं तद्भवाननुमन्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१२</sup>अभ्यसूयन्ति सततं परस्परममित्रवत्<br>ततोऽहं तप आतिष्ठे नैतान्पश्येयमित्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१३</sup>न मर्षयन्ति सततं विनतां ससुतां च ते<br>अस्माकं चापरो भ्राता वैनतेयः पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१४</sup>तं च द्विषन्ति तेऽत्यर्थं स चापि सुमहाबलः<br>वरप्रदानात्स पितुः कश्यपस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१५</sup>सोऽहं तपः समास्थाय मोक्ष्यामीदं कलेवरम्<br>कथं मे प्रेत्यभावेऽपि न तैः स्यात्सह संगमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१६</sup>ब्रह्मोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१७</sup>जानामि शेष सर्वेषां भ्रातॄणां ते विचेष्टितम्<br>मातुश्चाप्यपराधाद्वै भ्रातॄणां ते महद्भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१८</sup>कृतोऽत्र परिहारश्च पूर्वमेव भुजंगम<br>भ्रातॄणां तव सर्वेषां न शोकं कर्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.१९</sup>वृणीष्व च वरं मत्तः शेष यत्तेऽभिकाङ्क्षितम्<br>दित्सामि हि वरं तेऽद्य प्रीतिर्मे परमा त्वयि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२०</sup>दिष्ट्या च बुद्धिर्धर्मे ते निविष्टा पन्नगोत्तम<br>अतो भूयश्च ते बुद्धिर्धर्मे भवतु सुस्थिरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२१</sup>शेष उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२२</sup>एष एव वरो मेऽद्य काङ्क्षितः प्रपितामह<br>धर्मे मे रमतां बुद्धिः शमे तपसि चेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२३</sup>ब्रह्मोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२४</sup>प्रीतोऽस्म्यनेन ते शेष दमेन प्रशमेन च<br>त्वया त्विदं वचः कार्यं मन्नियोगात्प्रजाहितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२५</sup>इमां महीं शैलवनोपपन्नां; ससागरां साकरपत्तनां च<br>त्वं शेष सम्यक्चलितां यथाव;त्संगृह्य तिष्ठस्व यथाचला स्यात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२६</sup>शेष उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२७</sup>यथाह देवो वरदः प्रजापति;र्महीपतिर्भूतपतिर्जगत्पतिः<br>तथा महीं धारयितास्मि निश्चलां; प्रयच्छ तां मे शिरसि प्रजापते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२८</sup>ब्रह्मोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.२९</sup>अधो महीं गच्छ भुजंगमोत्तम; स्वयं तवैषा विवरं प्रदास्यति<br>इमां धरां धारयता त्वया हि मे; महत्प्रियं शेष कृतं भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३०</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३१</sup>तथेति कृत्वा विवरं प्रविश्य स; प्रभुर्भुवो भुजगवराग्रजः स्थितः<br>बिभर्ति देवीं शिरसा महीमिमां; समुद्रनेमिं परिगृह्य सर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३२</sup>ब्रह्मोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३३</sup>शेषोऽसि नागोत्तम धर्मदेवो; महीमिमां धारयसे यदेकः<br>अनन्तभोगः परिगृह्य सर्वां; यथाहमेवं बलभिद्यथा वा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३४</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३५</sup>अधो भूमेर्वसत्येवं नागोऽनन्तः प्रतापवान्<br>धारयन्वसुधामेकः शासनाद्ब्रह्मणो विभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.३२.३६</sup>सुपर्णं च सखायं वै भगवानमरोत्तमः<br>प्रादादनन्ताय तदा वैनतेयं पितामहः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१</sup>शौनक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२</sup>जाता वै भुजगास्तात वीर्यवन्तो दुरासदाः<br>शापं तं त्वथ विज्ञाय कृतवन्तो नु किं परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.४</sup>तेषां तु भगवाञ्शेषस्त्यक्त्वा कद्रूं महायशाः<br>तपो विपुलमातस्थे वायुभक्षो यतव्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.५</sup>गन्धमादनमासाद्य बदर्यां च तपोरतः<br>गोकर्णे पुष्करारण्ये तथा हिमवतस्तटे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.६</sup>तेषु तेषु च पुण्येषु तीर्थेष्वायतनेषु च<br>एकान्तशीली नियतः सततं विजितेन्द्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.७</sup>तप्यमानं तपो घोरं तं ददर्श पितामहः<br>परिशुष्कमांसत्वक्स्नायुं जटाचीरधरं प्रभुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.८</sup>तमब्रवीत्सत्यधृतिं तप्यमानं पितामहः<br>किमिदं कुरुषे शेष प्रजानां स्वस्ति वै कुरु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.९</sup>त्वं हि तीव्रेण तपसा प्रजास्तापयसेऽनघ<br>ब्रूहि कामं च मे शेष यत्ते हृदि चिरं स्थितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१०</sup>शेष उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.११</sup>सोदर्या मम सर्वे हि भ्रातरो मन्दचेतसः<br>सह तैर्नोत्सहे वस्तुं तद्भवाननुमन्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१२</sup>अभ्यसूयन्ति सततं परस्परममित्रवत्<br>ततोऽहं तप आतिष्ठे नैतान्पश्येयमित्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१३</sup>न मर्षयन्ति सततं विनतां ससुतां च ते<br>अस्माकं चापरो भ्राता वैनतेयः पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१४</sup>तं च द्विषन्ति तेऽत्यर्थं स चापि सुमहाबलः<br>वरप्रदानात्स पितुः कश्यपस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१५</sup>सोऽहं तपः समास्थाय मोक्ष्यामीदं कलेवरम्<br>कथं मे प्रेत्यभावेऽपि न तैः स्यात्सह संगमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१६</sup>ब्रह्मोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१७</sup>जानामि शेष सर्वेषां भ्रातॄणां ते विचेष्टितम्<br>मातुश्चाप्यपराधाद्वै भ्रातॄणां ते महद्भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१८</sup>कृतोऽत्र परिहारश्च पूर्वमेव भुजंगम<br>भ्रातॄणां तव सर्वेषां न शोकं कर्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.१९</sup>वृणीष्व च वरं मत्तः शेष यत्तेऽभिकाङ्क्षितम्<br>दित्सामि हि वरं तेऽद्य प्रीतिर्मे परमा त्वयि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२०</sup>दिष्ट्या च बुद्धिर्धर्मे ते निविष्टा पन्नगोत्तम<br>अतो भूयश्च ते बुद्धिर्धर्मे भवतु सुस्थिरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२१</sup>शेष उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२२</sup>एष एव वरो मेऽद्य काङ्क्षितः प्रपितामह<br>धर्मे मे रमतां बुद्धिः शमे तपसि चेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२३</sup>ब्रह्मोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२४</sup>प्रीतोऽस्म्यनेन ते शेष दमेन प्रशमेन च<br>त्वया त्विदं वचः कार्यं मन्नियोगात्प्रजाहितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२५</sup>इमां महीं शैलवनोपपन्नां; ससागरां साकरपत्तनां च<br>त्वं शेष सम्यक्चलितां यथाव;त्संगृह्य तिष्ठस्व यथाचला स्यात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२६</sup>शेष उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२७</sup>यथाह देवो वरदः प्रजापति;र्महीपतिर्भूतपतिर्जगत्पतिः<br>तथा महीं धारयितास्मि निश्चलां; प्रयच्छ तां मे शिरसि प्रजापते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२८</sup>ब्रह्मोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.२९</sup>अधो महीं गच्छ भुजंगमोत्तम; स्वयं तवैषा विवरं प्रदास्यति<br>इमां धरां धारयता त्वया हि मे; महत्प्रियं शेष कृतं भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३०</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३१</sup>तथेति कृत्वा विवरं प्रविश्य स; प्रभुर्भुवो भुजगवराग्रजः स्थितः<br>बिभर्ति देवीं शिरसा महीमिमां; समुद्रनेमिं परिगृह्य सर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३२</sup>ब्रह्मोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३३</sup>शेषोऽसि नागोत्तम धर्मदेवो; महीमिमां धारयसे यदेकः<br>अनन्तभोगः परिगृह्य सर्वां; यथाहमेवं बलभिद्यथा वा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३४</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३५</sup>अधो भूमेर्वसत्येवं नागोऽनन्तः प्रतापवान्<br>धारयन्वसुधामेकः शासनाद्ब्रह्मणो विभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.३२.३६</sup>सुपर्णं च सखायं वै भगवानमरोत्तमः<br>प्रादादनन्ताय तदा वैनतेयं पितामहः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -189,8 +182,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

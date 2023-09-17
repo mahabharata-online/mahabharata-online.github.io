@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/8.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/10.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,226 +64,191 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/8.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/10.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२</sup>कच्चित्सुखं स्वपिषि त्वं बृहस्पते; कच्चिन्मनोज्ञाः परिचारकास्ते<br>कच्चिद्देवानां सुखकामोऽसि विप्र; कच्चिद्देवास्त्वां परिपालयन्ति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३</sup>बृहस्पतिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४</sup>सुखं शयेऽहं शयने महेन्द्र; तथा मनोज्ञाः परिचारका मे<br>तथा देवानां सुखकामोऽस्मि शक्र; देवाश्च मां सुभृशं पालयन्ति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.६</sup>कुतो दुःखं मानसं देहजं वा; पाण्डुर्विवर्णश्च कुतस्त्वमद्य<br>आचक्ष्व मे तद्द्विज यावदेता;न्निहन्मि सर्वांस्तव दुःखकर्तॄन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.७</sup>बृहस्पतिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.८</sup>मरुत्तमाहुर्मघवन्यक्ष्यमाणं; महायज्ञेनोत्तमदक्षिणेन<br>तं संवर्तो याजयितेति मे श्रुतं; तदिच्छामि न स तं याजयेत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.९</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१०</sup>सर्वान्कामाननुजातोऽसि विप्र; यस्त्वं देवानां मन्त्रयसे पुरोधाः<br>उभौ च ते जन्ममृत्यू व्यतीतौ; किं संवर्तस्तव कर्ताद्य विप्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.११</sup>बृहस्पतिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१२</sup>देवैः सह त्वमसुरान्संप्रणुद्य; जिघांससेऽद्याप्युत सानुबन्धान्<br>यं यं समृद्धं पश्यसि तत्र तत्र; दुःखं सपत्नेषु समृद्धभावः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१३</sup>अतोऽस्मि देवेन्द्र विवर्णरूपः; सपत्नो मे वर्धते तन्निशम्य<br>सर्वोपायैर्मघवन्संनियच्छ; संवर्तं वा पार्थिवं वा मरुत्तम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१४</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१५</sup>एहि गच्छ प्रहितो जातवेदो; बृहस्पतिं परिदातुं मरुत्ते<br>अयं वै त्वा याजयिता बृहस्पति;स्तथामरं चैव करिष्यतीति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१६</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१७</sup>अयं गच्छामि तव शक्राद्य दूतो; बृहस्पतिं परिदातुं मरुत्ते<br>वाचं सत्यां पुरुहूतस्य कर्तुं; बृहस्पतेश्चापचितिं चिकीर्षुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१८</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.१९</sup>ततः प्रायाद्धूमकेतुर्महात्मा; वनस्पतीन्वीरुधश्चावमृद्नन्<br>कामाद्धिमान्ते परिवर्तमानः; काष्ठातिगो मातरिश्वेव नर्दन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२०</sup>मरुत्त उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२१</sup>आश्चर्यमद्य पश्यामि रूपिणं वह्निमागतम्<br>आसनं सलिलं पाद्यं गां चोपानय वै मुने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२२</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२३</sup>आसनं सलिलं पाद्यं प्रतिनन्दामि तेऽनघ<br>इन्द्रेण तु समादिष्टं विद्धि मां दूतमागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२४</sup>मरुत्त उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२५</sup>कच्चिच्छ्रीमान्देवराजः सुखी च; कच्चिच्चास्मान्प्रीयते धूमकेतो<br>कच्चिद्देवाश्चास्य वशे यथाव;त्तद्ब्रूहि त्वं मम कार्त्स्न्येन देव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२६</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२७</sup>शक्रो भृशं सुसुखी पार्थिवेन्द्र; प्रीतिं चेच्छत्यजरां वै त्वया सः<br>देवाश्च सर्वे वशगास्तस्य राज;न्संदेशं त्वं शृणु मे देवराज्ञः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२८</sup>यदर्थं मां प्राहिणोत्त्वत्सकाशं; बृहस्पतिं परिदातुं मरुत्ते<br>अयं गुरुर्याजयिता नृप त्वां; मर्त्यं सन्तममरं त्वां करोतु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.२९</sup>मरुत्त उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३०</sup>संवर्तोऽयं याजयिता द्विजो मे; बृहस्पतेरञ्जलिरेष तस्य<br>नासौ देवं याजयित्वा महेन्द्रं; मर्त्यं सन्तं याजयन्नद्य शोभेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३१</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३२</sup>ये वै लोका देवलोके महान्तः; संप्राप्स्यसे तान्देवराजप्रसादात्<br>त्वां चेदसौ याजयेद्वै बृहस्पति;र्नूनं स्वर्गं त्वं जयेः कीर्तियुक्तः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३३</sup>तथा लोका मानुषा ये च दिव्याः; प्रजापतेश्चापि ये वै महान्तः<br>ते ते जिता देवराज्यं च कृत्स्नं; बृहस्पतिश्चेद्याजयेत्त्वां नरेन्द्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३४</sup>संवर्त उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३५</sup>मास्मानेवं त्वं पुनरागाः कथंचि;द्बृहस्पतिं परिदातुं मरुत्ते<br>मा त्वां धक्ष्ये चक्षुषा दारुणेन; संक्रुद्धोऽहं पावक तन्निबोध
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३६</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३७</sup>ततो देवानगमद्धूमकेतु;र्दाहाद्भीतो व्यथितोऽश्वत्थपर्णवत्<br>तं वै दृष्ट्वा प्राह शक्रो महात्मा; बृहस्पतेः संनिधौ हव्यवाहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३८</sup>यत्त्वं गतः प्रहितो जातवेदो; बृहस्पतिं परिदातुं मरुत्ते<br>तत्किं प्राह स नृपो यक्ष्यमाणः; कच्चिद्वचः प्रतिगृह्णाति तच्च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.३९</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४०</sup>न ते वाचं रोचयते मरुत्तो; बृहस्पतेरञ्जलिं प्राहिणोत्सः<br>संवर्तो मां याजयितेत्यभीक्ष्णं; पुनः पुनः स मया प्रोच्यमानः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४१</sup>उवाचेदं मानुषा ये च दिव्याः; प्रजापतेर्ये च लोका महान्तः<br>तांश्चेल्लभेयं संविदं तेन कृत्वा; तथापि नेच्छेयमिति प्रतीतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४२</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४३</sup>पुनर्भवान्पार्थिवं तं समेत्य; वाक्यं मदीयं प्रापय स्वार्थयुक्तम्<br>पुनर्यद्युक्तो न करिष्यते वच;स्ततो वज्रं संप्रहर्तास्मि तस्मै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४४</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४५</sup>गन्धर्वराड्यात्वयं तत्र दूतो; बिभेम्यहं वासव तत्र गन्तुम्<br>संरब्धो मामब्रवीत्तीक्ष्णरोषः; संवर्तो वाक्यं चरितब्रह्मचर्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४६</sup>यद्यागच्छेः पुनरेवं कथंचि;द्बृहस्पतिं परिदातुं मरुत्ते<br>दहेयं त्वां चक्षुषा दारुणेन; संक्रुद्ध इत्येतदवैहि शक्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४७</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४८</sup>त्वमेवान्यान्दहसे जातवेदो; न हि त्वदन्यो विद्यते भस्मकर्ता<br>त्वत्संस्पर्शात्सर्वलोको बिभे;त्यश्रद्धेयं वदसे हव्यवाह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.४९</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५०</sup>दिवं देवेन्द्र पृथिवीं चैव सर्वां; संवेष्टयेस्त्वं स्वबलेनैव शक्र<br>एवंविधस्येह सतस्तवासौ; कथं वृत्रस्त्रिदिवं प्राग्जहार
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५१</sup>इन्द्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५२</sup>न चण्डिका जङ्गमा नो करेणु;र्न वारिसोमं प्रपिबामि वह्ने<br>न दुर्बले वै विसृजामि वज्रं; को मेऽसुखाय प्रहरेन्मनुष्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५३</sup>प्रव्राजयेयं कालकेयान्पृथिव्या;मपाकर्षं दानवानन्तरिक्षात्<br>दिवः प्रह्रादमवसानमानयं; को मेऽसुखाय प्रहरेत मर्त्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५४</sup>अग्निरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५५</sup>यत्र शर्यातिं च्यवनो याजयिष्य;न्सहाश्विभ्यां सोममगृह्णदेकः<br>तं त्वं क्रुद्धः प्रत्यषेधीः पुरस्ता;च्छर्यातियज्ञं स्मर तं महेन्द्र
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५६</sup>वज्रं गृहीत्वा च पुरंदर त्वं; संप्राहार्षीश्च्यवनस्यातिघोरम्<br>स ते विप्रः सह वज्रेण बाहु;मपागृह्णात्तपसा जातमन्युः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५७</sup>ततो रोषात्सर्वतो घोररूपं; सपत्नं ते जनयामास भूयः<br>मदं नामासुरं विश्वरूपं; यं त्वं दृष्ट्वा चक्षुषी संन्यमीलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५८</sup>हनुरेका जगतीस्था तथैका; दिवं गता महतो दानवस्य<br>सहस्रं दन्तानां शतयोजनानां; सुतीक्ष्णानां घोररूपं बभूव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.५९</sup>वृत्ताः स्थूला रजतस्तम्भवर्णा; दंष्ट्राश्चतस्रो द्वे शते योजनानाम्<br>स त्वां दन्तान्विदशन्नभ्यधाव;ज्जिघांसया शूलमुद्यम्य घोरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.६०</sup>अपश्यस्त्वं तं तदा घोररूपं; सर्वे त्वन्ये ददृशुर्दर्शनीयम्<br>यस्माद्भीतः प्राञ्जलिस्त्वं महर्षि;मागच्छेथाः शरणं दानवघ्न
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९.६१</sup>क्षत्रादेवं ब्रह्मबलं गरीयो; न ब्रह्मतः किंचिदन्यद्गरीयः<br>सोऽहं जानन्ब्रह्मतेजो यथाव;न्न संवर्तं गन्तुमिच्छामि शक्र
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२</sup>कच्चित्सुखं स्वपिषि त्वं बृहस्पते; कच्चिन्मनोज्ञाः परिचारकास्ते<br>कच्चिद्देवानां सुखकामोऽसि विप्र; कच्चिद्देवास्त्वां परिपालयन्ति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३</sup>बृहस्पतिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४</sup>सुखं शयेऽहं शयने महेन्द्र; तथा मनोज्ञाः परिचारका मे<br>तथा देवानां सुखकामोऽस्मि शक्र; देवाश्च मां सुभृशं पालयन्ति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.६</sup>कुतो दुःखं मानसं देहजं वा; पाण्डुर्विवर्णश्च कुतस्त्वमद्य<br>आचक्ष्व मे तद्द्विज यावदेता;न्निहन्मि सर्वांस्तव दुःखकर्तॄन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.७</sup>बृहस्पतिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.८</sup>मरुत्तमाहुर्मघवन्यक्ष्यमाणं; महायज्ञेनोत्तमदक्षिणेन<br>तं संवर्तो याजयितेति मे श्रुतं; तदिच्छामि न स तं याजयेत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.९</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१०</sup>सर्वान्कामाननुजातोऽसि विप्र; यस्त्वं देवानां मन्त्रयसे पुरोधाः<br>उभौ च ते जन्ममृत्यू व्यतीतौ; किं संवर्तस्तव कर्ताद्य विप्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.११</sup>बृहस्पतिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१२</sup>देवैः सह त्वमसुरान्संप्रणुद्य; जिघांससेऽद्याप्युत सानुबन्धान्<br>यं यं समृद्धं पश्यसि तत्र तत्र; दुःखं सपत्नेषु समृद्धभावः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१३</sup>अतोऽस्मि देवेन्द्र विवर्णरूपः; सपत्नो मे वर्धते तन्निशम्य<br>सर्वोपायैर्मघवन्संनियच्छ; संवर्तं वा पार्थिवं वा मरुत्तम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१४</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१५</sup>एहि गच्छ प्रहितो जातवेदो; बृहस्पतिं परिदातुं मरुत्ते<br>अयं वै त्वा याजयिता बृहस्पति;स्तथामरं चैव करिष्यतीति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१६</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१७</sup>अयं गच्छामि तव शक्राद्य दूतो; बृहस्पतिं परिदातुं मरुत्ते<br>वाचं सत्यां पुरुहूतस्य कर्तुं; बृहस्पतेश्चापचितिं चिकीर्षुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१८</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.१९</sup>ततः प्रायाद्धूमकेतुर्महात्मा; वनस्पतीन्वीरुधश्चावमृद्नन्<br>कामाद्धिमान्ते परिवर्तमानः; काष्ठातिगो मातरिश्वेव नर्दन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२०</sup>मरुत्त उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२१</sup>आश्चर्यमद्य पश्यामि रूपिणं वह्निमागतम्<br>आसनं सलिलं पाद्यं गां चोपानय वै मुने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२२</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२३</sup>आसनं सलिलं पाद्यं प्रतिनन्दामि तेऽनघ<br>इन्द्रेण तु समादिष्टं विद्धि मां दूतमागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२४</sup>मरुत्त उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२५</sup>कच्चिच्छ्रीमान्देवराजः सुखी च; कच्चिच्चास्मान्प्रीयते धूमकेतो<br>कच्चिद्देवाश्चास्य वशे यथाव;त्तद्ब्रूहि त्वं मम कार्त्स्न्येन देव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२६</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२७</sup>शक्रो भृशं सुसुखी पार्थिवेन्द्र; प्रीतिं चेच्छत्यजरां वै त्वया सः<br>देवाश्च सर्वे वशगास्तस्य राज;न्संदेशं त्वं शृणु मे देवराज्ञः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२८</sup>यदर्थं मां प्राहिणोत्त्वत्सकाशं; बृहस्पतिं परिदातुं मरुत्ते<br>अयं गुरुर्याजयिता नृप त्वां; मर्त्यं सन्तममरं त्वां करोतु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.२९</sup>मरुत्त उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३०</sup>संवर्तोऽयं याजयिता द्विजो मे; बृहस्पतेरञ्जलिरेष तस्य<br>नासौ देवं याजयित्वा महेन्द्रं; मर्त्यं सन्तं याजयन्नद्य शोभेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३१</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३२</sup>ये वै लोका देवलोके महान्तः; संप्राप्स्यसे तान्देवराजप्रसादात्<br>त्वां चेदसौ याजयेद्वै बृहस्पति;र्नूनं स्वर्गं त्वं जयेः कीर्तियुक्तः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३३</sup>तथा लोका मानुषा ये च दिव्याः; प्रजापतेश्चापि ये वै महान्तः<br>ते ते जिता देवराज्यं च कृत्स्नं; बृहस्पतिश्चेद्याजयेत्त्वां नरेन्द्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३४</sup>संवर्त उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३५</sup>मास्मानेवं त्वं पुनरागाः कथंचि;द्बृहस्पतिं परिदातुं मरुत्ते<br>मा त्वां धक्ष्ये चक्षुषा दारुणेन; संक्रुद्धोऽहं पावक तन्निबोध
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३६</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३७</sup>ततो देवानगमद्धूमकेतु;र्दाहाद्भीतो व्यथितोऽश्वत्थपर्णवत्<br>तं वै दृष्ट्वा प्राह शक्रो महात्मा; बृहस्पतेः संनिधौ हव्यवाहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३८</sup>यत्त्वं गतः प्रहितो जातवेदो; बृहस्पतिं परिदातुं मरुत्ते<br>तत्किं प्राह स नृपो यक्ष्यमाणः; कच्चिद्वचः प्रतिगृह्णाति तच्च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.३९</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४०</sup>न ते वाचं रोचयते मरुत्तो; बृहस्पतेरञ्जलिं प्राहिणोत्सः<br>संवर्तो मां याजयितेत्यभीक्ष्णं; पुनः पुनः स मया प्रोच्यमानः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४१</sup>उवाचेदं मानुषा ये च दिव्याः; प्रजापतेर्ये च लोका महान्तः<br>तांश्चेल्लभेयं संविदं तेन कृत्वा; तथापि नेच्छेयमिति प्रतीतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४२</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४३</sup>पुनर्भवान्पार्थिवं तं समेत्य; वाक्यं मदीयं प्रापय स्वार्थयुक्तम्<br>पुनर्यद्युक्तो न करिष्यते वच;स्ततो वज्रं संप्रहर्तास्मि तस्मै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४४</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४५</sup>गन्धर्वराड्यात्वयं तत्र दूतो; बिभेम्यहं वासव तत्र गन्तुम्<br>संरब्धो मामब्रवीत्तीक्ष्णरोषः; संवर्तो वाक्यं चरितब्रह्मचर्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४६</sup>यद्यागच्छेः पुनरेवं कथंचि;द्बृहस्पतिं परिदातुं मरुत्ते<br>दहेयं त्वां चक्षुषा दारुणेन; संक्रुद्ध इत्येतदवैहि शक्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४७</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४८</sup>त्वमेवान्यान्दहसे जातवेदो; न हि त्वदन्यो विद्यते भस्मकर्ता<br>त्वत्संस्पर्शात्सर्वलोको बिभे;त्यश्रद्धेयं वदसे हव्यवाह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.४९</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५०</sup>दिवं देवेन्द्र पृथिवीं चैव सर्वां; संवेष्टयेस्त्वं स्वबलेनैव शक्र<br>एवंविधस्येह सतस्तवासौ; कथं वृत्रस्त्रिदिवं प्राग्जहार
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५१</sup>इन्द्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५२</sup>न चण्डिका जङ्गमा नो करेणु;र्न वारिसोमं प्रपिबामि वह्ने<br>न दुर्बले वै विसृजामि वज्रं; को मेऽसुखाय प्रहरेन्मनुष्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५३</sup>प्रव्राजयेयं कालकेयान्पृथिव्या;मपाकर्षं दानवानन्तरिक्षात्<br>दिवः प्रह्रादमवसानमानयं; को मेऽसुखाय प्रहरेत मर्त्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५४</sup>अग्निरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५५</sup>यत्र शर्यातिं च्यवनो याजयिष्य;न्सहाश्विभ्यां सोममगृह्णदेकः<br>तं त्वं क्रुद्धः प्रत्यषेधीः पुरस्ता;च्छर्यातियज्ञं स्मर तं महेन्द्र
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५६</sup>वज्रं गृहीत्वा च पुरंदर त्वं; संप्राहार्षीश्च्यवनस्यातिघोरम्<br>स ते विप्रः सह वज्रेण बाहु;मपागृह्णात्तपसा जातमन्युः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५७</sup>ततो रोषात्सर्वतो घोररूपं; सपत्नं ते जनयामास भूयः<br>मदं नामासुरं विश्वरूपं; यं त्वं दृष्ट्वा चक्षुषी संन्यमीलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५८</sup>हनुरेका जगतीस्था तथैका; दिवं गता महतो दानवस्य<br>सहस्रं दन्तानां शतयोजनानां; सुतीक्ष्णानां घोररूपं बभूव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.५९</sup>वृत्ताः स्थूला रजतस्तम्भवर्णा; दंष्ट्राश्चतस्रो द्वे शते योजनानाम्<br>स त्वां दन्तान्विदशन्नभ्यधाव;ज्जिघांसया शूलमुद्यम्य घोरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.६०</sup>अपश्यस्त्वं तं तदा घोररूपं; सर्वे त्वन्ये ददृशुर्दर्शनीयम्<br>यस्माद्भीतः प्राञ्जलिस्त्वं महर्षि;मागच्छेथाः शरणं दानवघ्न
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९.६१</sup>क्षत्रादेवं ब्रह्मबलं गरीयो; न ब्रह्मतः किंचिदन्यद्गरीयः<br>सोऽहं जानन्ब्रह्मतेजो यथाव;न्न संवर्तं गन्तुमिच्छामि शक्र
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -264,8 +257,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

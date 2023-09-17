@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/353.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/2.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,352 +64,317 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/353.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/2.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१</sup>युधिष्ठिर उवाच<br>शमो बहुविधाकारः सूक्ष्म उक्तः पितामह<br>न च मे हृदये शान्तिरस्ति कृत्वेदमीदृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२</sup>अस्मिन्नर्थे बहुविधा शान्तिरुक्ता त्वयानघ<br>स्वकृते का नु शान्तिः स्याच्छमाद्बहुविधादपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३</sup>शराचितशरीरं हि तीव्रव्रणमुदीक्ष्य च<br>शमं नोपलभे वीर दुष्कृतान्येव चिन्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४</sup>रुधिरेणावसिक्ताङ्गं प्रस्रवन्तं यथाचलम्<br>त्वां दृष्ट्वा पुरुषव्याघ्र सीदे वर्षास्विवाम्बुजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५</sup>अतः कष्टतरं किं नु मत्कृते यत्पितामहः<br>इमामवस्थां गमितः प्रत्यमित्रै रणाजिरे<br>तथैवान्ये नृपतयः सहपुत्राः सबान्धवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६</sup>वयं हि धार्तराष्ट्राश्च कालमन्युवशानुगाः<br>कृत्वेदं निन्दितं कर्म प्राप्स्यामः कां गतिं नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७</sup>अहं तव ह्यन्तकरः सुहृद्वधकरस्तथा<br>न शान्तिमधिगच्छामि पश्यंस्त्वां दुःखितं क्षितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९</sup>परतन्त्रं कथं हेतुमात्मानमनुपश्यसि<br>कर्मण्यस्मिन्महाभाग सूक्ष्मं ह्येतदतीन्द्रियम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१०</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>संवादं मृत्युगौतम्योः काललुब्धकपन्नगैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.११</sup>गौतमी नाम कौन्तेय स्थविरा शमसंयुता<br>सर्पेण दष्टं स्वं पुत्रमपश्यद्गतचेतनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१२</sup>अथ तं स्नायुपाशेन बद्ध्वा सर्पममर्षितः<br>लुब्धकोऽर्जुनको नाम गौतम्याः समुपानयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१३</sup>तां चाब्रवीदयं ते स पुत्रहा पन्नगाधमः<br>ब्रूहि क्षिप्रं महाभागे वध्यतां केन हेतुना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१४</sup>अग्नौ प्रक्षिप्यतामेष च्छिद्यतां खण्डशोऽपि वा<br>न ह्ययं बालहा पापश्चिरं जीवितुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१५</sup>गौतम्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१६</sup>विसृजैनमबुद्धिस्त्वं न वध्योऽर्जुनक त्वया<br>को ह्यात्मानं गुरुं कुर्यात्प्राप्तव्ये सति चिन्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१७</sup>प्लवन्ते धर्मलघवो लोकेऽम्भसि यथा प्लवाः<br>मज्जन्ति पापगुरवः शस्त्रं स्कन्नमिवोदके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१८</sup>न चामृत्युर्भविता वै हतेऽस्मि;न्को वात्ययः स्यादहतेऽस्मिञ्जनस्य<br>अस्योत्सर्गे प्राणयुक्तस्य जन्तो;र्मृत्योर्लोकं को नु गच्छेदनन्तम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१९</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२०</sup>जानाम्येवं नेह गुणागुणज्ञाः; सर्वे नियुक्ता गुरवो वै भवन्ति<br>स्वस्थस्यैते तूपदेशा भवन्ति; तस्मात्क्षुद्रं सर्पमेनं हनिष्ये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२१</sup>समीप्सन्तः कालयोगं त्यजन्ति; सद्यः शुचं त्वर्थविदस्त्यजन्ति<br>श्रेयः क्षयः शोचतां नित्यशो हि; तस्मात्त्याज्यं जहि शोकं हतेऽस्मिन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२२</sup>गौतम्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२३</sup>न चैवार्तिर्विद्यतेऽस्मद्विधानां; धर्मारामः सततं सज्जनो हि<br>नित्यायस्तो बालजनो न चास्ति; धर्मो ह्येष प्रभवाम्यस्य नाहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२४</sup>न ब्राह्मणानां कोपोऽस्ति कुतः कोपाच्च यातना<br>मार्दवात्क्षम्यतां साधो मुच्यतामेष पन्नगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२५</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२६</sup>हत्वा लाभः श्रेय एवाव्ययं स्या;त्सद्यो लाभो बलवद्भिः प्रशस्तः<br>कालाल्लाभो यस्तु सद्यो भवेत; हते श्रेयः कुत्सिते त्वीदृशे स्यात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२७</sup>गौतम्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२८</sup>कार्थप्राप्तिर्गृह्य शत्रुं निहत्य; का वा शान्तिः प्राप्य शत्रुं नमुक्त्वा<br>कस्मात्सौम्य भुजगे न क्षमेयं; मोक्षं वा किं कारणं नास्य कुर्याम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.२९</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३०</sup>अस्मादेकस्माद्बहवो रक्षितव्या; नैको बहुभ्यो गौतमि रक्षितव्यः<br>कृतागसं धर्मविदस्त्यजन्ति; सरीसृपं पापमिमं जहि त्वम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३१</sup>गौतम्युवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३२</sup>नास्मिन्हते पन्नगे पुत्रको मे; संप्राप्स्यते लुब्धक जीवितं वै<br>गुणं चान्यं नास्य वधे प्रपश्ये; तस्मात्सर्पं लुब्धक मुञ्च जीवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३३</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३४</sup>वृत्रं हत्वा देवराट्श्रेष्ठभाग्वै; यज्ञं हत्वा भागमवाप चैव<br>शूली देवो देववृत्तं कुरु त्वं; क्षिप्रं सर्पं जहि मा भूद्विशङ्का
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३५</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३६</sup>असकृत्प्रोच्यमानापि गौतमी भुजगं प्रति<br>लुब्धकेन महाभागा पापे नैवाकरोन्मतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३७</sup>ईषदुच्छ्वसमानस्तु कृच्छ्रात्संस्तभ्य पन्नगः<br>उत्ससर्ज गिरं मन्दां मानुषीं पाशपीडितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३८</sup>को न्वर्जुनक दोषोऽत्र विद्यते मम बालिश<br>अस्वतन्त्रं हि मां मृत्युर्विवशं यदचूचुदत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.३९</sup>तस्यायं वचनाद्दष्टो न कोपेन न काम्यया<br>तस्य तत्किल्बिषं लुब्ध विद्यते यदि किल्बिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४०</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४१</sup>यद्यन्यवशगेनेदं कृतं ते पन्नगाशुभम्<br>कारणं वै त्वमप्यत्र तस्मात्त्वमपि किल्बिषी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४२</sup>मृत्पात्रस्य क्रियायां हि दण्डचक्रादयो यथा<br>कारणत्वे प्रकल्प्यन्ते तथा त्वमपि पन्नग
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४३</sup>किल्बिषी चापि मे वध्यः किल्बिषी चासि पन्नग<br>आत्मानं कारणं ह्यत्र त्वमाख्यासि भुजंगम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४४</sup>सर्प उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४५</sup>सर्व एते ह्यस्ववशा दण्डचक्रादयो यथा<br>तथाहमपि तस्मान्मे नैष हेतुर्मतस्तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४६</sup>अथ वा मतमेतत्ते तेऽप्यन्योन्यप्रयोजकाः<br>कार्यकारणसंदेहो भवत्यन्योन्यचोदनात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४७</sup>एवं सति न दोषो मे नास्मि वध्यो न किल्बिषी<br>किल्बिषं समवाये स्यान्मन्यसे यदि किल्बिषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४८</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.४९</sup>कारणं यदि न स्याद्वै न कर्ता स्यास्त्वमप्युत<br>विनाशे कारणं त्वं च तस्माद्वध्योऽसि मे मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५०</sup>असत्यपि कृते कार्ये नेह पन्नग लिप्यते<br>तस्मान्नात्रैव हेतुः स्याद्वध्यः किं बहु भाषसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५१</sup>सर्प उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५२</sup>कार्याभावे क्रिया न स्यात्सत्यसत्यपि कारणे<br>तस्मात्त्वमस्मिन्हेतौ मे वाच्यो हेतुर्विशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५३</sup>यद्यहं कारणत्वेन मतो लुब्धक तत्त्वतः<br>अन्यः प्रयोगे स्यादत्र किल्बिषी जन्तुनाशने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५४</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५५</sup>वध्यस्त्वं मम दुर्बुद्धे बालघाती नृशंसकृत्<br>भाषसे किं बहु पुनर्वध्यः सन्पन्नगाधम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५६</sup>सर्प उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५७</sup>यथा हवींषि जुह्वाना मखे वै लुब्धकर्त्विजः<br>न फलं प्राप्नुवन्त्यत्र परलोके तथा ह्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.५९</sup>तथा ब्रुवति तस्मिंस्तु पन्नगे मृत्युचोदिते<br>आजगाम ततो मृत्युः पन्नगं चाब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६०</sup>कालेनाहं प्रणुदितः पन्नग त्वामचूचुदम्<br>विनाशहेतुर्नास्य त्वमहं वा प्राणिनः शिशोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६१</sup>यथा वायुर्जलधरान्विकर्षति ततस्ततः<br>तद्वज्जलदवत्सर्प कालस्याहं वशानुगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६२</sup>सात्त्विका राजसाश्चैव तामसा ये च केचन<br>भावाः कालात्मकाः सर्वे प्रवर्तन्ते हि जन्तुषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६३</sup>जङ्गमाः स्थावराश्चैव दिवि वा यदि वा भुवि<br>सर्वे कालात्मकाः सर्प कालात्मकमिदं जगत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६४</sup>प्रवृत्तयश्च या लोके तथैव च निवृत्तयः<br>तासां विकृतयो याश्च सर्वं कालात्मकं स्मृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६५</sup>आदित्यश्चन्द्रमा विष्णुरापो वायुः शतक्रतुः<br>अग्निः खं पृथिवी मित्र ओषध्यो वसवस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६६</sup>सरितः सागराश्चैव भावाभावौ च पन्नग<br>सर्वे कालेन सृज्यन्ते ह्रियन्ते च तथा पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६७</sup>एवं ज्ञात्वा कथं मां त्वं सदोषं सर्प मन्यसे<br>अथ चैवंगते दोषो मयि त्वमपि दोषवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६८</sup>सर्प उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.६९</sup>निर्दोषं दोषवन्तं वा न त्वा मृत्यो ब्रवीम्यहम्<br>त्वयाहं चोदित इति ब्रवीम्येतावदेव तु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७०</sup>यदि काले तु दोषोऽस्ति यदि तत्रापि नेष्यते<br>दोषो नैव परीक्ष्यो मे न ह्यत्राधिकृता वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७१</sup>निर्मोक्षस्त्वस्य दोषस्य मया कार्यो यथा तथा<br>मृत्यो विदोषः स्यामेव यथा तन्मे प्रयोजनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७२</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७३</sup>सर्पोऽथार्जुनकं प्राह श्रुतं ते मृत्युभाषितम्<br>नानागसं मां पाशेन संतापयितुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७४</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७५</sup>मृत्योः श्रुतं मे वचनं तव चैव भुजंगम<br>नैव तावद्विदोषत्वं भवति त्वयि पन्नग
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७६</sup>मृत्युस्त्वं चैव हेतुर्हि जन्तोरस्य विनाशने<br>उभयं कारणं मन्ये न कारणमकारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७७</sup>धिङ्मृत्युं च दुरात्मानं क्रूरं दुःखकरं सताम्<br>त्वां चैवाहं वधिष्यामि पापं पापस्य कारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७८</sup>मृत्युरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.७९</sup>विवशौ कालवशगावावां तद्दिष्टकारिणौ<br>नावां दोषेण गन्तव्यौ यदि सम्यक्प्रपश्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८०</sup>लुब्धक उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८१</sup>युवामुभौ कालवशौ यदि वै मृत्युपन्नगौ<br>हर्षक्रोधौ कथं स्यातामेतदिच्छामि वेदितुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८२</sup>मृत्युरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८३</sup>याः काश्चिदिह चेष्टाः स्युः सर्वाः कालप्रचोदिताः<br>पूर्वमेवैतदुक्तं हि मया लुब्धक कालतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८४</sup>तस्मादुभौ कालवशावावां तद्दिष्टकारिणौ<br>नावां दोषेण गन्तव्यौ त्वया लुब्धक कर्हिचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८५</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८६</sup>अथोपगम्य कालस्तु तस्मिन्धर्मार्थसंशये<br>अब्रवीत्पन्नगं मृत्युं लुब्धमर्जुनकं च तम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८७</sup>काल उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८८</sup>नैवाहं नाप्ययं मृत्युर्नायं लुब्धक पन्नगः<br>किल्बिषी जन्तुमरणे न वयं हि प्रयोजकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.८९</sup>अकरोद्यदयं कर्म तन्नोऽर्जुनक चोदकम्<br>प्रणाशहेतुर्नान्योऽस्य वध्यतेऽयं स्वकर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९०</sup>यदनेन कृतं कर्म तेनायं निधनं गतः<br>विनाशहेतुः कर्मास्य सर्वे कर्मवशा वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९१</sup>कर्मदायादवाँल्लोकः कर्मसंबन्धलक्षणः<br>कर्माणि चोदयन्तीह यथान्योन्यं तथा वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९२</sup>यथा मृत्पिण्डतः कर्ता कुरुते यद्यदिच्छति<br>एवमात्मकृतं कर्म मानवः प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९३</sup>यथा छायातपौ नित्यं सुसंबद्धौ निरन्तरम्<br>तथा कर्म च कर्ता च संबद्धावात्मकर्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९४</sup>एवं नाहं न वै मृत्युर्न सर्पो न तथा भवान्<br>न चेयं ब्राह्मणी वृद्धा शिशुरेवात्र कारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९५</sup>तस्मिंस्तथा ब्रुवाणे तु ब्राह्मणी गौतमी नृप<br>स्वकर्मप्रत्ययाँल्लोकान्मत्वार्जुनकमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९६</sup>नैव कालो न भुजगो न मृत्युरिह कारणम्<br>स्वकर्मभिरयं बालः कालेन निधनं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९७</sup>मया च तत्कृतं कर्म येनायं मे मृतः सुतः<br>यातु कालस्तथा मृत्युर्मुञ्चार्जुनक पन्नगम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.९९</sup>ततो यथागतं जग्मुर्मृत्युः कालोऽथ पन्नगः<br>अभूद्विरोषोऽर्जुनको विशोका चैव गौतमी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१००</sup>एतच्छ्रुत्वा शमं गच्छ मा भूश्चिन्तापरो नृप<br>स्वकर्मप्रत्ययाँल्लोकांस्त्रीन्विद्धि मनुजर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१०१</sup>न तु त्वया कृतं पार्थ नापि दुर्योधनेन वै<br>कालेन तत्कृतं विद्धि विहता येन पार्थिवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१०२</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१.१०३</sup>इत्येतद्वचनं श्रुत्वा बभूव विगतज्वरः<br>युधिष्ठिरो महातेजाः पप्रच्छेदं च धर्मवित्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१</sup>युधिष्ठिर उवाच<br>शमो बहुविधाकारः सूक्ष्म उक्तः पितामह<br>न च मे हृदये शान्तिरस्ति कृत्वेदमीदृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२</sup>अस्मिन्नर्थे बहुविधा शान्तिरुक्ता त्वयानघ<br>स्वकृते का नु शान्तिः स्याच्छमाद्बहुविधादपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३</sup>शराचितशरीरं हि तीव्रव्रणमुदीक्ष्य च<br>शमं नोपलभे वीर दुष्कृतान्येव चिन्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४</sup>रुधिरेणावसिक्ताङ्गं प्रस्रवन्तं यथाचलम्<br>त्वां दृष्ट्वा पुरुषव्याघ्र सीदे वर्षास्विवाम्बुजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५</sup>अतः कष्टतरं किं नु मत्कृते यत्पितामहः<br>इमामवस्थां गमितः प्रत्यमित्रै रणाजिरे<br>तथैवान्ये नृपतयः सहपुत्राः सबान्धवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६</sup>वयं हि धार्तराष्ट्राश्च कालमन्युवशानुगाः<br>कृत्वेदं निन्दितं कर्म प्राप्स्यामः कां गतिं नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७</sup>अहं तव ह्यन्तकरः सुहृद्वधकरस्तथा<br>न शान्तिमधिगच्छामि पश्यंस्त्वां दुःखितं क्षितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९</sup>परतन्त्रं कथं हेतुमात्मानमनुपश्यसि<br>कर्मण्यस्मिन्महाभाग सूक्ष्मं ह्येतदतीन्द्रियम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१०</sup>अत्राप्युदाहरन्तीममितिहासं पुरातनम्<br>संवादं मृत्युगौतम्योः काललुब्धकपन्नगैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.११</sup>गौतमी नाम कौन्तेय स्थविरा शमसंयुता<br>सर्पेण दष्टं स्वं पुत्रमपश्यद्गतचेतनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१२</sup>अथ तं स्नायुपाशेन बद्ध्वा सर्पममर्षितः<br>लुब्धकोऽर्जुनको नाम गौतम्याः समुपानयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१३</sup>तां चाब्रवीदयं ते स पुत्रहा पन्नगाधमः<br>ब्रूहि क्षिप्रं महाभागे वध्यतां केन हेतुना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१४</sup>अग्नौ प्रक्षिप्यतामेष च्छिद्यतां खण्डशोऽपि वा<br>न ह्ययं बालहा पापश्चिरं जीवितुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१५</sup>गौतम्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१६</sup>विसृजैनमबुद्धिस्त्वं न वध्योऽर्जुनक त्वया<br>को ह्यात्मानं गुरुं कुर्यात्प्राप्तव्ये सति चिन्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१७</sup>प्लवन्ते धर्मलघवो लोकेऽम्भसि यथा प्लवाः<br>मज्जन्ति पापगुरवः शस्त्रं स्कन्नमिवोदके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१८</sup>न चामृत्युर्भविता वै हतेऽस्मि;न्को वात्ययः स्यादहतेऽस्मिञ्जनस्य<br>अस्योत्सर्गे प्राणयुक्तस्य जन्तो;र्मृत्योर्लोकं को नु गच्छेदनन्तम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१९</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२०</sup>जानाम्येवं नेह गुणागुणज्ञाः; सर्वे नियुक्ता गुरवो वै भवन्ति<br>स्वस्थस्यैते तूपदेशा भवन्ति; तस्मात्क्षुद्रं सर्पमेनं हनिष्ये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२१</sup>समीप्सन्तः कालयोगं त्यजन्ति; सद्यः शुचं त्वर्थविदस्त्यजन्ति<br>श्रेयः क्षयः शोचतां नित्यशो हि; तस्मात्त्याज्यं जहि शोकं हतेऽस्मिन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२२</sup>गौतम्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२३</sup>न चैवार्तिर्विद्यतेऽस्मद्विधानां; धर्मारामः सततं सज्जनो हि<br>नित्यायस्तो बालजनो न चास्ति; धर्मो ह्येष प्रभवाम्यस्य नाहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२४</sup>न ब्राह्मणानां कोपोऽस्ति कुतः कोपाच्च यातना<br>मार्दवात्क्षम्यतां साधो मुच्यतामेष पन्नगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२५</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२६</sup>हत्वा लाभः श्रेय एवाव्ययं स्या;त्सद्यो लाभो बलवद्भिः प्रशस्तः<br>कालाल्लाभो यस्तु सद्यो भवेत; हते श्रेयः कुत्सिते त्वीदृशे स्यात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२७</sup>गौतम्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२८</sup>कार्थप्राप्तिर्गृह्य शत्रुं निहत्य; का वा शान्तिः प्राप्य शत्रुं नमुक्त्वा<br>कस्मात्सौम्य भुजगे न क्षमेयं; मोक्षं वा किं कारणं नास्य कुर्याम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.२९</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३०</sup>अस्मादेकस्माद्बहवो रक्षितव्या; नैको बहुभ्यो गौतमि रक्षितव्यः<br>कृतागसं धर्मविदस्त्यजन्ति; सरीसृपं पापमिमं जहि त्वम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३१</sup>गौतम्युवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३२</sup>नास्मिन्हते पन्नगे पुत्रको मे; संप्राप्स्यते लुब्धक जीवितं वै<br>गुणं चान्यं नास्य वधे प्रपश्ये; तस्मात्सर्पं लुब्धक मुञ्च जीवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३३</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३४</sup>वृत्रं हत्वा देवराट्श्रेष्ठभाग्वै; यज्ञं हत्वा भागमवाप चैव<br>शूली देवो देववृत्तं कुरु त्वं; क्षिप्रं सर्पं जहि मा भूद्विशङ्का
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३५</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३६</sup>असकृत्प्रोच्यमानापि गौतमी भुजगं प्रति<br>लुब्धकेन महाभागा पापे नैवाकरोन्मतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३७</sup>ईषदुच्छ्वसमानस्तु कृच्छ्रात्संस्तभ्य पन्नगः<br>उत्ससर्ज गिरं मन्दां मानुषीं पाशपीडितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३८</sup>को न्वर्जुनक दोषोऽत्र विद्यते मम बालिश<br>अस्वतन्त्रं हि मां मृत्युर्विवशं यदचूचुदत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.३९</sup>तस्यायं वचनाद्दष्टो न कोपेन न काम्यया<br>तस्य तत्किल्बिषं लुब्ध विद्यते यदि किल्बिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४०</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४१</sup>यद्यन्यवशगेनेदं कृतं ते पन्नगाशुभम्<br>कारणं वै त्वमप्यत्र तस्मात्त्वमपि किल्बिषी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४२</sup>मृत्पात्रस्य क्रियायां हि दण्डचक्रादयो यथा<br>कारणत्वे प्रकल्प्यन्ते तथा त्वमपि पन्नग
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४३</sup>किल्बिषी चापि मे वध्यः किल्बिषी चासि पन्नग<br>आत्मानं कारणं ह्यत्र त्वमाख्यासि भुजंगम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४४</sup>सर्प उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४५</sup>सर्व एते ह्यस्ववशा दण्डचक्रादयो यथा<br>तथाहमपि तस्मान्मे नैष हेतुर्मतस्तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४६</sup>अथ वा मतमेतत्ते तेऽप्यन्योन्यप्रयोजकाः<br>कार्यकारणसंदेहो भवत्यन्योन्यचोदनात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४७</sup>एवं सति न दोषो मे नास्मि वध्यो न किल्बिषी<br>किल्बिषं समवाये स्यान्मन्यसे यदि किल्बिषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४८</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.४९</sup>कारणं यदि न स्याद्वै न कर्ता स्यास्त्वमप्युत<br>विनाशे कारणं त्वं च तस्माद्वध्योऽसि मे मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५०</sup>असत्यपि कृते कार्ये नेह पन्नग लिप्यते<br>तस्मान्नात्रैव हेतुः स्याद्वध्यः किं बहु भाषसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५१</sup>सर्प उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५२</sup>कार्याभावे क्रिया न स्यात्सत्यसत्यपि कारणे<br>तस्मात्त्वमस्मिन्हेतौ मे वाच्यो हेतुर्विशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५३</sup>यद्यहं कारणत्वेन मतो लुब्धक तत्त्वतः<br>अन्यः प्रयोगे स्यादत्र किल्बिषी जन्तुनाशने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५४</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५५</sup>वध्यस्त्वं मम दुर्बुद्धे बालघाती नृशंसकृत्<br>भाषसे किं बहु पुनर्वध्यः सन्पन्नगाधम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५६</sup>सर्प उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५७</sup>यथा हवींषि जुह्वाना मखे वै लुब्धकर्त्विजः<br>न फलं प्राप्नुवन्त्यत्र परलोके तथा ह्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.५९</sup>तथा ब्रुवति तस्मिंस्तु पन्नगे मृत्युचोदिते<br>आजगाम ततो मृत्युः पन्नगं चाब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६०</sup>कालेनाहं प्रणुदितः पन्नग त्वामचूचुदम्<br>विनाशहेतुर्नास्य त्वमहं वा प्राणिनः शिशोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६१</sup>यथा वायुर्जलधरान्विकर्षति ततस्ततः<br>तद्वज्जलदवत्सर्प कालस्याहं वशानुगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६२</sup>सात्त्विका राजसाश्चैव तामसा ये च केचन<br>भावाः कालात्मकाः सर्वे प्रवर्तन्ते हि जन्तुषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६३</sup>जङ्गमाः स्थावराश्चैव दिवि वा यदि वा भुवि<br>सर्वे कालात्मकाः सर्प कालात्मकमिदं जगत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६४</sup>प्रवृत्तयश्च या लोके तथैव च निवृत्तयः<br>तासां विकृतयो याश्च सर्वं कालात्मकं स्मृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६५</sup>आदित्यश्चन्द्रमा विष्णुरापो वायुः शतक्रतुः<br>अग्निः खं पृथिवी मित्र ओषध्यो वसवस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६६</sup>सरितः सागराश्चैव भावाभावौ च पन्नग<br>सर्वे कालेन सृज्यन्ते ह्रियन्ते च तथा पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६७</sup>एवं ज्ञात्वा कथं मां त्वं सदोषं सर्प मन्यसे<br>अथ चैवंगते दोषो मयि त्वमपि दोषवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६८</sup>सर्प उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.६९</sup>निर्दोषं दोषवन्तं वा न त्वा मृत्यो ब्रवीम्यहम्<br>त्वयाहं चोदित इति ब्रवीम्येतावदेव तु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७०</sup>यदि काले तु दोषोऽस्ति यदि तत्रापि नेष्यते<br>दोषो नैव परीक्ष्यो मे न ह्यत्राधिकृता वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७१</sup>निर्मोक्षस्त्वस्य दोषस्य मया कार्यो यथा तथा<br>मृत्यो विदोषः स्यामेव यथा तन्मे प्रयोजनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७२</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७३</sup>सर्पोऽथार्जुनकं प्राह श्रुतं ते मृत्युभाषितम्<br>नानागसं मां पाशेन संतापयितुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७४</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७५</sup>मृत्योः श्रुतं मे वचनं तव चैव भुजंगम<br>नैव तावद्विदोषत्वं भवति त्वयि पन्नग
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७६</sup>मृत्युस्त्वं चैव हेतुर्हि जन्तोरस्य विनाशने<br>उभयं कारणं मन्ये न कारणमकारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७७</sup>धिङ्मृत्युं च दुरात्मानं क्रूरं दुःखकरं सताम्<br>त्वां चैवाहं वधिष्यामि पापं पापस्य कारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७८</sup>मृत्युरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.७९</sup>विवशौ कालवशगावावां तद्दिष्टकारिणौ<br>नावां दोषेण गन्तव्यौ यदि सम्यक्प्रपश्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८०</sup>लुब्धक उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८१</sup>युवामुभौ कालवशौ यदि वै मृत्युपन्नगौ<br>हर्षक्रोधौ कथं स्यातामेतदिच्छामि वेदितुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८२</sup>मृत्युरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८३</sup>याः काश्चिदिह चेष्टाः स्युः सर्वाः कालप्रचोदिताः<br>पूर्वमेवैतदुक्तं हि मया लुब्धक कालतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८४</sup>तस्मादुभौ कालवशावावां तद्दिष्टकारिणौ<br>नावां दोषेण गन्तव्यौ त्वया लुब्धक कर्हिचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८५</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८६</sup>अथोपगम्य कालस्तु तस्मिन्धर्मार्थसंशये<br>अब्रवीत्पन्नगं मृत्युं लुब्धमर्जुनकं च तम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८७</sup>काल उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८८</sup>नैवाहं नाप्ययं मृत्युर्नायं लुब्धक पन्नगः<br>किल्बिषी जन्तुमरणे न वयं हि प्रयोजकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.८९</sup>अकरोद्यदयं कर्म तन्नोऽर्जुनक चोदकम्<br>प्रणाशहेतुर्नान्योऽस्य वध्यतेऽयं स्वकर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९०</sup>यदनेन कृतं कर्म तेनायं निधनं गतः<br>विनाशहेतुः कर्मास्य सर्वे कर्मवशा वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९१</sup>कर्मदायादवाँल्लोकः कर्मसंबन्धलक्षणः<br>कर्माणि चोदयन्तीह यथान्योन्यं तथा वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९२</sup>यथा मृत्पिण्डतः कर्ता कुरुते यद्यदिच्छति<br>एवमात्मकृतं कर्म मानवः प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९३</sup>यथा छायातपौ नित्यं सुसंबद्धौ निरन्तरम्<br>तथा कर्म च कर्ता च संबद्धावात्मकर्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९४</sup>एवं नाहं न वै मृत्युर्न सर्पो न तथा भवान्<br>न चेयं ब्राह्मणी वृद्धा शिशुरेवात्र कारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९५</sup>तस्मिंस्तथा ब्रुवाणे तु ब्राह्मणी गौतमी नृप<br>स्वकर्मप्रत्ययाँल्लोकान्मत्वार्जुनकमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९६</sup>नैव कालो न भुजगो न मृत्युरिह कारणम्<br>स्वकर्मभिरयं बालः कालेन निधनं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९७</sup>मया च तत्कृतं कर्म येनायं मे मृतः सुतः<br>यातु कालस्तथा मृत्युर्मुञ्चार्जुनक पन्नगम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.९९</sup>ततो यथागतं जग्मुर्मृत्युः कालोऽथ पन्नगः<br>अभूद्विरोषोऽर्जुनको विशोका चैव गौतमी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१००</sup>एतच्छ्रुत्वा शमं गच्छ मा भूश्चिन्तापरो नृप<br>स्वकर्मप्रत्ययाँल्लोकांस्त्रीन्विद्धि मनुजर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१०१</sup>न तु त्वया कृतं पार्थ नापि दुर्योधनेन वै<br>कालेन तत्कृतं विद्धि विहता येन पार्थिवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१०२</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१.१०३</sup>इत्येतद्वचनं श्रुत्वा बभूव विगतज्वरः<br>युधिष्ठिरो महातेजाः पप्रच्छेदं च धर्मवित्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -390,8 +383,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

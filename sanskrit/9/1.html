@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/8/69.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>९:१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/9/2.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,202 +64,167 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/8/69.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">९:१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/9/2.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१</sup>जनमेजय उवाच<br>एवं निपातिते कर्णे समरे सव्यसाचिना<br>अल्पावशिष्टाः कुरवः किमकुर्वत वै द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२</sup>उदीर्यमाणं च बलं दृष्ट्वा राजा सुयोधनः<br>पाण्डवैः प्राप्तकालं च किं प्रापद्यत कौरवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३</sup>एतदिच्छाम्यहं श्रोतुं तदाचक्ष्व द्विजोत्तम<br>न हि तृप्यामि पूर्वेषां शृण्वानश्चरितं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.५</sup>ततः कर्णे हते राजन्धार्तराष्ट्रः सुयोधनः<br>भृशं शोकार्णवे मग्नो निराशः सर्वतोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.६</sup>हा कर्ण हा कर्ण इति शोचमानः पुनः पुनः<br>कृच्छ्रात्स्वशिबिरं प्रायाद्धतशेषैर्नृपैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.७</sup>स समाश्वास्यमानोऽपि हेतुभिः शास्त्रनिश्चितैः<br>राजभिर्नालभच्छर्म सूतपुत्रवधं स्मरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.८</sup>स दैवं बलवन्मत्वा भवितव्यं च पार्थिवः<br>संग्रामे निश्चयं कृत्वा पुनर्युद्धाय निर्ययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.९</sup>शल्यं सेनापतिं कृत्वा विधिवद्राजपुंगवः<br>रणाय निर्ययौ राजा हतशेषैर्नृपैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१०</sup>ततः सुतुमुलं युद्धं कुरुपाण्डवसेनयोः<br>बभूव भरतश्रेष्ठ देवासुररणोपमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.११</sup>ततः शल्यो महाराज कृत्वा कदनमाहवे<br>पाण्डुसैन्यस्य मध्याह्ने धर्मराजेन पातितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१२</sup>ततो दुर्योधनो राजा हतबन्धू रणाजिरात्<br>अपसृत्य ह्रदं घोरं विवेश रिपुजाद्भयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१३</sup>अथापराह्णे तस्याह्नः परिवार्य महारथैः<br>ह्रदादाहूय योगेन भीमसेनेन पातितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१४</sup>तस्मिन्हते महेष्वासे हतशिष्टास्त्रयो रथाः<br>संरभान्निशि राजेन्द्र जघ्नुः पाञ्चालसैनिकान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१५</sup>ततः पूर्वाह्णसमये शिबिरादेत्य संजयः<br>प्रविवेश पुरीं दीनो दुःखशोकसमन्वितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१६</sup>प्रविश्य च पुरं तूर्णं भुजावुच्छ्रित्य दुःखितः<br>वेपमानस्ततो राज्ञः प्रविवेश निवेशनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१७</sup>रुरोद च नरव्याघ्र हा राजन्निति दुःखितः<br>अहो बत विविग्नाः स्म निधनेन महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१८</sup>अहो सुबलवान्कालो गतिश्च परमा तथा<br>शक्रतुल्यबलाः सर्वे यत्रावध्यन्त पार्थिवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.१९</sup>दृष्ट्वैव च पुरो राजञ्जनः सर्वः स संजयम्<br>प्ररुरोद भृशोद्विग्नो हा राजन्निति सस्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२०</sup>आकुमारं नरव्याघ्र तत्पुरं वै समन्ततः<br>आर्तनादं महच्चक्रे श्रुत्वा विनिहतं नृपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२१</sup>धावतश्चाप्यपश्यच्च तत्र त्रीन्पुरुषर्षभान्<br>नष्टचित्तानिवोन्मत्ताञ्शोकेन भृशपीडितान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२२</sup>तथा स विह्वलः सूतः प्रविश्य नृपतिक्षयम्<br>ददर्श नृपतिश्रेष्ठं प्रज्ञाचक्षुषमीश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२३</sup>दृष्ट्वा चासीनमनघं समन्तात्परिवारितम्<br>स्नुषाभिर्भरतश्रेष्ठ गान्धार्या विदुरेण च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२४</sup>तथान्यैश्च सुहृद्भिश्च ज्ञातिभिश्च हितैषिभिः<br>तमेव चार्थं ध्यायन्तं कर्णस्य निधनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२५</sup>रुदन्नेवाब्रवीद्वाक्यं राजानं जनमेजय<br>नातिहृष्टमनाः सूतो बाष्पसंदिग्धया गिरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२६</sup>संजयोऽहं नरव्याघ्र नमस्ते भरतर्षभ<br>मद्राधिपो हतः शल्यः शकुनिः सौबलस्तथा<br>उलूकः पुरुषव्याघ्र कैतव्यो दृढविक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२७</sup>संशप्तका हताः सर्वे काम्बोजाश्च शकैः सह<br>म्लेच्छाश्च पार्वतीयाश्च यवनाश्च निपातिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२८</sup>प्राच्या हता महाराज दाक्षिणात्याश्च सर्वशः<br>उदीच्या निहताः सर्वे प्रतीच्याश्च नराधिप<br>राजानो राजपुत्राश्च सर्वतो निहता नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.२९</sup>दुर्योधनो हतो राजन्यथोक्तं पाण्डवेन च<br>भग्नसक्थो महाराज शेते पांसुषु रूषितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३०</sup>धृष्टद्युम्नो हतो राजञ्शिखण्डी चापराजितः<br>उत्तमौजा युधामन्युस्तथा राजन्प्रभद्रकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३१</sup>पाञ्चालाश्च नरव्याघ्राश्चेदयश्च निषूदिताः<br>तव पुत्रा हताः सर्वे द्रौपदेयाश्च भारत<br>कर्णपुत्रो हतः शूरो वृषसेनो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३२</sup>नरा विनिहताः सर्वे गजाश्च विनिपातिताः<br>रथिनश्च नरव्याघ्र हयाश्च निहता युधि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३३</sup>किंचिच्छेषं च शिबिरं तावकानां कृतं विभो<br>पाण्डवानां च शूराणां समासाद्य परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३४</sup>प्रायः स्त्रीशेषमभवज्जगत्कालेन मोहितम्<br>सप्त पाण्डवतः शेषा धार्तराष्ट्रास्तथा त्रयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३५</sup>ते चैव भ्रातरः पञ्च वासुदेवोऽथ सात्यकिः<br>कृपश्च कृतवर्मा च द्रौणिश्च जयतां वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३६</sup>तवाप्येते महाराज रथिनो नृपसत्तम<br>अक्षौहिणीनां सर्वासां समेतानां जनेश्वर<br>एते शेषा महाराज सर्वेऽन्ये निधनं गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३७</sup>कालेन निहतं सर्वं जगद्वै भरतर्षभ<br>दुर्योधनं वै पुरतः कृत्वा वैरस्य भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३८</sup>एतच्छ्रुत्वा वचः क्रूरं धृतराष्ट्रो जनेश्वरः<br>निपपात महाराज गतसत्त्वो महीतले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.३९</sup>तस्मिन्निपतिते भूमौ विदुरोऽपि महायशाः<br>निपपात महाराज राजव्यसनकर्शितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४०</sup>गान्धारी च नृपश्रेष्ठ सर्वाश्च कुरुयोषितः<br>पतिताः सहसा भूमौ श्रुत्वा क्रूरं वचश्च ताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४१</sup>निःसंज्ञं पतितं भूमौ तदासीद्राजमण्डलम्<br>प्रलापयुक्ता महती कथा न्यस्ता पटे यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४२</sup>कृच्छ्रेण तु ततो राजा धृतराष्ट्रो महीपतिः<br>शनैरलभत प्राणान्पुत्रव्यसनकर्शितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४३</sup>लब्ध्वा तु स नृपः संज्ञां वेपमानः सुदुःखितः<br>उदीक्ष्य च दिशः सर्वाः क्षत्तारं वाक्यमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४४</sup>विद्वन्क्षत्तर्महाप्राज्ञ त्वं गतिर्भरतर्षभ<br>ममानाथस्य सुभृशं पुत्रैर्हीनस्य सर्वशः<br>एवमुक्त्वा ततो भूयो विसंज्ञो निपपात ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४५</sup>तं तथा पतितं दृष्ट्वा बान्धवा येऽस्य केचन<br>शीतैस्तु सिषिचुस्तोयैर्विव्यजुर्व्यजनैरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४६</sup>स तु दीर्घेण कालेन प्रत्याश्वस्तो महीपतिः<br>तूष्णीं दध्यौ महीपालः पुत्रव्यसनकर्शितः<br>निःश्वसञ्जिह्मग इव कुम्भक्षिप्तो विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४७</sup>संजयोऽप्यरुदत्तत्र दृष्ट्वा राजानमातुरम्<br>तथा सर्वाः स्त्रियश्चैव गान्धारी च यशस्विनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४८</sup>ततो दीर्घेण कालेन विदुरं वाक्यमब्रवीत्<br>धृतराष्ट्रो नरव्याघ्रो मुह्यमानो मुहुर्मुहुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.४९</sup>गच्छन्तु योषितः सर्वा गान्धारी च यशस्विनी<br>तथेमे सुहृदः सर्वे भ्रश्यते मे मनो भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.५०</sup>एवमुक्तस्ततः क्षत्ता ताः स्त्रियो भरतर्षभ<br>विसर्जयामास शनैर्वेपमानः पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.५१</sup>निश्चक्रमुस्ततः सर्वास्ताः स्त्रियो भरतर्षभ<br>सुहृदश्च ततः सर्वे दृष्ट्वा राजानमातुरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.५२</sup>ततो नरपतिं तत्र लब्धसंज्ञं परंतप<br>अवेक्ष्य संजयो दीनो रोदमानं भृशातुरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">९.१.५३</sup>प्राञ्जलिर्निःश्वसन्तं च तं नरेन्द्रं मुहुर्मुहुः<br>समाश्वासयत क्षत्ता वचसा मधुरेण च
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१</sup>जनमेजय उवाच<br>एवं निपातिते कर्णे समरे सव्यसाचिना<br>अल्पावशिष्टाः कुरवः किमकुर्वत वै द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२</sup>उदीर्यमाणं च बलं दृष्ट्वा राजा सुयोधनः<br>पाण्डवैः प्राप्तकालं च किं प्रापद्यत कौरवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३</sup>एतदिच्छाम्यहं श्रोतुं तदाचक्ष्व द्विजोत्तम<br>न हि तृप्यामि पूर्वेषां शृण्वानश्चरितं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.५</sup>ततः कर्णे हते राजन्धार्तराष्ट्रः सुयोधनः<br>भृशं शोकार्णवे मग्नो निराशः सर्वतोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.६</sup>हा कर्ण हा कर्ण इति शोचमानः पुनः पुनः<br>कृच्छ्रात्स्वशिबिरं प्रायाद्धतशेषैर्नृपैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.७</sup>स समाश्वास्यमानोऽपि हेतुभिः शास्त्रनिश्चितैः<br>राजभिर्नालभच्छर्म सूतपुत्रवधं स्मरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.८</sup>स दैवं बलवन्मत्वा भवितव्यं च पार्थिवः<br>संग्रामे निश्चयं कृत्वा पुनर्युद्धाय निर्ययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.९</sup>शल्यं सेनापतिं कृत्वा विधिवद्राजपुंगवः<br>रणाय निर्ययौ राजा हतशेषैर्नृपैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१०</sup>ततः सुतुमुलं युद्धं कुरुपाण्डवसेनयोः<br>बभूव भरतश्रेष्ठ देवासुररणोपमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.११</sup>ततः शल्यो महाराज कृत्वा कदनमाहवे<br>पाण्डुसैन्यस्य मध्याह्ने धर्मराजेन पातितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१२</sup>ततो दुर्योधनो राजा हतबन्धू रणाजिरात्<br>अपसृत्य ह्रदं घोरं विवेश रिपुजाद्भयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१३</sup>अथापराह्णे तस्याह्नः परिवार्य महारथैः<br>ह्रदादाहूय योगेन भीमसेनेन पातितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१४</sup>तस्मिन्हते महेष्वासे हतशिष्टास्त्रयो रथाः<br>संरभान्निशि राजेन्द्र जघ्नुः पाञ्चालसैनिकान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१५</sup>ततः पूर्वाह्णसमये शिबिरादेत्य संजयः<br>प्रविवेश पुरीं दीनो दुःखशोकसमन्वितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१६</sup>प्रविश्य च पुरं तूर्णं भुजावुच्छ्रित्य दुःखितः<br>वेपमानस्ततो राज्ञः प्रविवेश निवेशनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१७</sup>रुरोद च नरव्याघ्र हा राजन्निति दुःखितः<br>अहो बत विविग्नाः स्म निधनेन महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१८</sup>अहो सुबलवान्कालो गतिश्च परमा तथा<br>शक्रतुल्यबलाः सर्वे यत्रावध्यन्त पार्थिवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.१९</sup>दृष्ट्वैव च पुरो राजञ्जनः सर्वः स संजयम्<br>प्ररुरोद भृशोद्विग्नो हा राजन्निति सस्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२०</sup>आकुमारं नरव्याघ्र तत्पुरं वै समन्ततः<br>आर्तनादं महच्चक्रे श्रुत्वा विनिहतं नृपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२१</sup>धावतश्चाप्यपश्यच्च तत्र त्रीन्पुरुषर्षभान्<br>नष्टचित्तानिवोन्मत्ताञ्शोकेन भृशपीडितान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२२</sup>तथा स विह्वलः सूतः प्रविश्य नृपतिक्षयम्<br>ददर्श नृपतिश्रेष्ठं प्रज्ञाचक्षुषमीश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२३</sup>दृष्ट्वा चासीनमनघं समन्तात्परिवारितम्<br>स्नुषाभिर्भरतश्रेष्ठ गान्धार्या विदुरेण च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२४</sup>तथान्यैश्च सुहृद्भिश्च ज्ञातिभिश्च हितैषिभिः<br>तमेव चार्थं ध्यायन्तं कर्णस्य निधनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२५</sup>रुदन्नेवाब्रवीद्वाक्यं राजानं जनमेजय<br>नातिहृष्टमनाः सूतो बाष्पसंदिग्धया गिरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२६</sup>संजयोऽहं नरव्याघ्र नमस्ते भरतर्षभ<br>मद्राधिपो हतः शल्यः शकुनिः सौबलस्तथा<br>उलूकः पुरुषव्याघ्र कैतव्यो दृढविक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२७</sup>संशप्तका हताः सर्वे काम्बोजाश्च शकैः सह<br>म्लेच्छाश्च पार्वतीयाश्च यवनाश्च निपातिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२८</sup>प्राच्या हता महाराज दाक्षिणात्याश्च सर्वशः<br>उदीच्या निहताः सर्वे प्रतीच्याश्च नराधिप<br>राजानो राजपुत्राश्च सर्वतो निहता नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.२९</sup>दुर्योधनो हतो राजन्यथोक्तं पाण्डवेन च<br>भग्नसक्थो महाराज शेते पांसुषु रूषितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३०</sup>धृष्टद्युम्नो हतो राजञ्शिखण्डी चापराजितः<br>उत्तमौजा युधामन्युस्तथा राजन्प्रभद्रकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३१</sup>पाञ्चालाश्च नरव्याघ्राश्चेदयश्च निषूदिताः<br>तव पुत्रा हताः सर्वे द्रौपदेयाश्च भारत<br>कर्णपुत्रो हतः शूरो वृषसेनो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३२</sup>नरा विनिहताः सर्वे गजाश्च विनिपातिताः<br>रथिनश्च नरव्याघ्र हयाश्च निहता युधि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३३</sup>किंचिच्छेषं च शिबिरं तावकानां कृतं विभो<br>पाण्डवानां च शूराणां समासाद्य परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३४</sup>प्रायः स्त्रीशेषमभवज्जगत्कालेन मोहितम्<br>सप्त पाण्डवतः शेषा धार्तराष्ट्रास्तथा त्रयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३५</sup>ते चैव भ्रातरः पञ्च वासुदेवोऽथ सात्यकिः<br>कृपश्च कृतवर्मा च द्रौणिश्च जयतां वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३६</sup>तवाप्येते महाराज रथिनो नृपसत्तम<br>अक्षौहिणीनां सर्वासां समेतानां जनेश्वर<br>एते शेषा महाराज सर्वेऽन्ये निधनं गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३७</sup>कालेन निहतं सर्वं जगद्वै भरतर्षभ<br>दुर्योधनं वै पुरतः कृत्वा वैरस्य भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३८</sup>एतच्छ्रुत्वा वचः क्रूरं धृतराष्ट्रो जनेश्वरः<br>निपपात महाराज गतसत्त्वो महीतले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.३९</sup>तस्मिन्निपतिते भूमौ विदुरोऽपि महायशाः<br>निपपात महाराज राजव्यसनकर्शितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४०</sup>गान्धारी च नृपश्रेष्ठ सर्वाश्च कुरुयोषितः<br>पतिताः सहसा भूमौ श्रुत्वा क्रूरं वचश्च ताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४१</sup>निःसंज्ञं पतितं भूमौ तदासीद्राजमण्डलम्<br>प्रलापयुक्ता महती कथा न्यस्ता पटे यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४२</sup>कृच्छ्रेण तु ततो राजा धृतराष्ट्रो महीपतिः<br>शनैरलभत प्राणान्पुत्रव्यसनकर्शितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४३</sup>लब्ध्वा तु स नृपः संज्ञां वेपमानः सुदुःखितः<br>उदीक्ष्य च दिशः सर्वाः क्षत्तारं वाक्यमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४४</sup>विद्वन्क्षत्तर्महाप्राज्ञ त्वं गतिर्भरतर्षभ<br>ममानाथस्य सुभृशं पुत्रैर्हीनस्य सर्वशः<br>एवमुक्त्वा ततो भूयो विसंज्ञो निपपात ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४५</sup>तं तथा पतितं दृष्ट्वा बान्धवा येऽस्य केचन<br>शीतैस्तु सिषिचुस्तोयैर्विव्यजुर्व्यजनैरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४६</sup>स तु दीर्घेण कालेन प्रत्याश्वस्तो महीपतिः<br>तूष्णीं दध्यौ महीपालः पुत्रव्यसनकर्शितः<br>निःश्वसञ्जिह्मग इव कुम्भक्षिप्तो विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४७</sup>संजयोऽप्यरुदत्तत्र दृष्ट्वा राजानमातुरम्<br>तथा सर्वाः स्त्रियश्चैव गान्धारी च यशस्विनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४८</sup>ततो दीर्घेण कालेन विदुरं वाक्यमब्रवीत्<br>धृतराष्ट्रो नरव्याघ्रो मुह्यमानो मुहुर्मुहुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.४९</sup>गच्छन्तु योषितः सर्वा गान्धारी च यशस्विनी<br>तथेमे सुहृदः सर्वे भ्रश्यते मे मनो भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.५०</sup>एवमुक्तस्ततः क्षत्ता ताः स्त्रियो भरतर्षभ<br>विसर्जयामास शनैर्वेपमानः पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.५१</sup>निश्चक्रमुस्ततः सर्वास्ताः स्त्रियो भरतर्षभ<br>सुहृदश्च ततः सर्वे दृष्ट्वा राजानमातुरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.५२</sup>ततो नरपतिं तत्र लब्धसंज्ञं परंतप<br>अवेक्ष्य संजयो दीनो रोदमानं भृशातुरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">९.१.५३</sup>प्राञ्जलिर्निःश्वसन्तं च तं नरेन्द्रं मुहुर्मुहुः<br>समाश्वासयत क्षत्ता वचसा मधुरेण च
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -240,8 +233,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

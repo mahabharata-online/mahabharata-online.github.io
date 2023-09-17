@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/61.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:६२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/63.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,82 +64,47 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/61.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:६२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/63.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.२</sup>शिवान्सुखान्महोदर्कानहिंस्राँल्लोकसंमतान्<br>ब्रूहि धर्मान्सुखोपायान्मद्विधानां सुखावहान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.४</sup>ब्राह्मणस्येह चत्वार आश्रमा विहिताः प्रभो<br>वर्णास्ताननुवर्तन्ते त्रयो भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.५</sup>उक्तानि कर्माणि बहूनि राज;न्स्वर्ग्याणि राजन्यपरायणानि<br>नेमानि दृष्टान्तविधौ स्मृतानि; क्षात्रे हि सर्वं विहितं यथावत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.६</sup>क्षात्राणि वैश्यानि च सेवमानः; शौद्राणि कर्माणि च ब्राह्मणः सन्<br>अस्मिँल्लोके निन्दितो मन्दचेताः; परे च लोके निरयं प्रयाति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.७</sup>या संज्ञा विहिता लोके दासे शुनि वृके पशौ<br>विकर्मणि स्थिते विप्रे तां संज्ञां कुरु पाण्डव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.८</sup>षट्कर्मसंप्रवृत्तस्य आश्रमेषु चतुर्ष्वपि<br>सर्वधर्मोपपन्नस्य संभूतस्य कृतात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.९</sup>ब्राह्मणस्य विशुद्धस्य तपस्यभिरतस्य च<br>निराशिषो वदान्यस्य लोका ह्यक्षरसंज्ञिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.१०</sup>यो यस्मिन्कुरुते कर्म यादृशं येन यत्र च<br>तादृशं तादृशेनैव स गुणं प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.११</sup>वृद्ध्या कृषिवणिक्त्वेन जीवसंजीवनेन च<br>वेत्तुमर्हसि राजेन्द्र स्वाध्यायगणितं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.१२</sup>कालसंचोदितः कालः कालपर्यायनिश्चितः<br>उत्तमाधममध्यानि कर्माणि कुरुतेऽवशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.६२.१३</sup>अन्तवन्ति प्रदानानि पुरा श्रेयस्कराणि च<br>स्वकर्मनिरतो लोको ह्यक्षरः सर्वतोमुखः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.२</sup>शिवान्सुखान्महोदर्कानहिंस्राँल्लोकसंमतान्<br>ब्रूहि धर्मान्सुखोपायान्मद्विधानां सुखावहान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.४</sup>ब्राह्मणस्येह चत्वार आश्रमा विहिताः प्रभो<br>वर्णास्ताननुवर्तन्ते त्रयो भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.५</sup>उक्तानि कर्माणि बहूनि राज;न्स्वर्ग्याणि राजन्यपरायणानि<br>नेमानि दृष्टान्तविधौ स्मृतानि; क्षात्रे हि सर्वं विहितं यथावत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.६</sup>क्षात्राणि वैश्यानि च सेवमानः; शौद्राणि कर्माणि च ब्राह्मणः सन्<br>अस्मिँल्लोके निन्दितो मन्दचेताः; परे च लोके निरयं प्रयाति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.७</sup>या संज्ञा विहिता लोके दासे शुनि वृके पशौ<br>विकर्मणि स्थिते विप्रे तां संज्ञां कुरु पाण्डव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.८</sup>षट्कर्मसंप्रवृत्तस्य आश्रमेषु चतुर्ष्वपि<br>सर्वधर्मोपपन्नस्य संभूतस्य कृतात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.९</sup>ब्राह्मणस्य विशुद्धस्य तपस्यभिरतस्य च<br>निराशिषो वदान्यस्य लोका ह्यक्षरसंज्ञिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.१०</sup>यो यस्मिन्कुरुते कर्म यादृशं येन यत्र च<br>तादृशं तादृशेनैव स गुणं प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.११</sup>वृद्ध्या कृषिवणिक्त्वेन जीवसंजीवनेन च<br>वेत्तुमर्हसि राजेन्द्र स्वाध्यायगणितं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.१२</sup>कालसंचोदितः कालः कालपर्यायनिश्चितः<br>उत्तमाधममध्यानि कर्माणि कुरुतेऽवशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.६२.१३</sup>अन्तवन्ति प्रदानानि पुरा श्रेयस्कराणि च<br>स्वकर्मनिरतो लोको ह्यक्षरः सर्वतोमुखः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -120,8 +113,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/8/6.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>८:७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/8/8.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,175 +64,140 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/8/6.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">८:७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/8/8.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२</sup>सेनापत्यं तु संप्राप्य कर्णो वैकर्तनस्तदा<br>तथोक्तश्च स्वयं राज्ञा स्निग्धं भ्रातृसमं वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३</sup>योगमाज्ञाप्य सेनाया आदित्येऽभ्युदिते तदा<br>अकरोत्किं महाप्राज्ञस्तन्ममाचक्ष्व संजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.५</sup>कर्णस्य मतमाज्ञाय पुत्रस्ते भरतर्षभ<br>योगमाज्ञापयामास नान्दीतूर्यपुरःसरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.६</sup>महत्यपररात्रे तु तव पुत्रस्य मारिष<br>योगो योगेति सहसा प्रादुरासीन्महास्वनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.७</sup>नागानां कल्पमानानां रथानां च वरूथिनाम्<br>संनह्यतां पदातीनां वाजिनां च विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.८</sup>क्रोशतां चापि योधानां त्वरितानां परस्परम्<br>बभूव तुमुलः शब्दो दिवस्पृक्सुमहांस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.९</sup>ततः श्वेतपताकेन बालार्काकारवाजिना<br>हेमपृष्ठेन धनुषा हस्तिकक्ष्येण केतुना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१०</sup>तूणेन शरपूर्णेन साङ्गदेन वरूथिना<br>शतघ्नीकिङ्किणीशक्तिशूलतोमरधारिणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.११</sup>कार्मुकेणोपपन्नेन विमलादित्यवर्चसा<br>रथेनातिपताकेन सूतपुत्रो व्यदृश्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१२</sup>धमन्तं वारिजं तात हेमजालविभूषितम्<br>विधुन्वानं महच्चापं कार्तस्वरविभूषितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१३</sup>दृष्ट्वा कर्णं महेष्वासं रथस्थं रथिनां वरम्<br>भानुमन्तमिवोद्यन्तं तमो घ्नन्तं सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१४</sup>न भीष्मव्यसनं केचिन्नापि द्रोणस्य मारिष<br>नान्येषां पुरुषव्याघ्र मेनिरे तत्र कौरवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१५</sup>ततस्तु त्वरयन्योधाञ्शङ्खशब्देन मारिष<br>कर्णो निष्कासयामास कौरवाणां वरूथिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१६</sup>व्यूहं व्यूह्य महेष्वासो माकरं शत्रुतापनः<br>प्रत्युद्ययौ तदा कर्णः पाण्डवान्विजिगीषया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१७</sup>मकरस्य तु तुण्डे वै कर्णो राजन्व्यवस्थितः<br>नेत्राभ्यां शकुनिः शूर उलूकश्च महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१८</sup>द्रोणपुत्रस्तु शिरसि ग्रीवायां सर्वसोदराः<br>मध्ये दुर्योधनो राजा बलेन महता वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.१९</sup>वामे पादे तु राजेन्द्र कृतवर्मा व्यवस्थितः<br>नारायणबलैर्युक्तो गोपालैर्युद्धदुर्मदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२०</sup>पादे तु दक्षिणे राजन्गौतमः सत्यविक्रमः<br>त्रिगर्तैश्च महेष्वासैर्दाक्षिणात्यैश्च संवृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२१</sup>अनुपादस्तु यो वामस्तत्र शल्यो व्यवस्थितः<br>महत्या सेनया सार्धं मद्रदेशसमुत्थया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२२</sup>दक्षिणे तु महाराज सुषेणः सत्यसंगरः<br>वृतो रथसहस्रैश्च दन्तिनां च शतैस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२३</sup>पुच्छे आस्तां महावीरौ भ्रातरौ पार्थिवौ तदा<br>चित्रसेनश्च चित्रश्च महत्या सेनया वृतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२४</sup>ततः प्रयाते राजेन्द्र कर्णे नरवरोत्तमे<br>धनंजयमभिप्रेक्ष्य धर्मराजोऽब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२५</sup>पश्य पार्थ महासेनां धार्तराष्ट्रस्य संयुगे<br>कर्णेन निर्मितां वीर गुप्तां वीरैर्महारथैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२६</sup>हतवीरतमा ह्येषा धार्तराष्ट्री महाचमूः<br>फल्गुशेषा महाबाहो तृणैस्तुल्या मता मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२७</sup>एको ह्यत्र महेष्वासः सूतपुत्रो व्यवस्थितः<br>सदेवासुरगन्धर्वैः सकिंनरमहोरगैः<br>चराचरैस्त्रिभिर्लोकैर्योऽजय्यो रथिनां वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२८</sup>तं हत्वाद्य महाबाहो विजयस्तव फल्गुन<br>उद्धृतश्च भवेच्छल्यो मम द्वादशवार्षिकः<br>एवं ज्ञात्वा महाबाहो व्यूहं व्यूह यथेच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.२९</sup>भ्रातुस्तद्वचनं श्रुत्वा पाण्डवः श्वेतवाहनः<br>अर्धचन्द्रेण व्यूहेन प्रत्यव्यूहत तां चमूम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३०</sup>वामपार्श्वेऽभवद्राजन्भीमसेनो व्यवस्थितः<br>दक्षिणे च महेष्वासो धृष्टद्युम्नो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३१</sup>मध्ये व्यूहस्य साक्षात्तु पाण्डवः कृष्णसारथिः<br>नकुलः सहदेवश्च धर्मराजश्च पृष्ठतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३२</sup>चक्ररक्षौ तु पाञ्चाल्यौ युधामन्यूत्तमौजसौ<br>नार्जुनं जहतुर्युद्धे पाल्यमानौ किरीटिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३३</sup>शेषा नृपतयो वीराः स्थिता व्यूहस्य दंशिताः<br>यथाभावं यथोत्साहं यथासत्त्वं च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३४</sup>एवमेतन्महाव्यूहं व्यूह्य भारत पाण्डवाः<br>तावकाश्च महेष्वासा युद्धायैव मनो दधुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३५</sup>दृष्ट्वा व्यूढां तव चमूं सूतपुत्रेण संयुगे<br>निहतान्पाण्डवान्मेने तव पुत्रः सहान्वयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३६</sup>तथैव पाण्डवीं सेनां व्यूढां दृष्ट्वा युधिष्ठिरः<br>धार्तराष्ट्रान्हतान्मेने सकर्णान्वै जनाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३७</sup>ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः<br>सहसैवाभ्यहन्यन्त सशब्दाश्च समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३८</sup>सेनयोरुभयो राजन्प्रावाद्यन्त महास्वनाः<br>सिंहनादश्च संजज्ञे शूराणां जयगृद्धिनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.३९</sup>हयहेषितशब्दाश्च वारणानां च बृंहितम्<br>रथनेमिस्वनाश्चोग्राः संबभूवुर्जनाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४०</sup>न द्रोणव्यसनं कश्चिज्जानीते भरतर्षभ<br>दृष्ट्वा कर्णं महेष्वासं मुखे व्यूहस्य दंशितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४१</sup>उभे सेने महासत्त्वे प्रहृष्टनरकुञ्जरे<br>योद्धुकामे स्थिते राजन्हन्तुमन्योन्यमञ्जसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४२</sup>तत्र यत्तौ सुसंरब्धौ दृष्ट्वान्योन्यं व्यवस्थितौ<br>अनीकमध्ये राजेन्द्र रेजतुः कर्णपाण्डवौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४३</sup>नृत्यमाने तु ते सेने समेयातां परस्परम्<br>तयोः पक्षैः प्रपक्षैश्च निर्जग्मुर्वै युयुत्सवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.७.४४</sup>ततः प्रववृते युद्धं नरवारणवाजिनाम्<br>रथिनां च महाराज अन्योन्यं निघ्नतां दृढम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२</sup>सेनापत्यं तु संप्राप्य कर्णो वैकर्तनस्तदा<br>तथोक्तश्च स्वयं राज्ञा स्निग्धं भ्रातृसमं वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३</sup>योगमाज्ञाप्य सेनाया आदित्येऽभ्युदिते तदा<br>अकरोत्किं महाप्राज्ञस्तन्ममाचक्ष्व संजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.५</sup>कर्णस्य मतमाज्ञाय पुत्रस्ते भरतर्षभ<br>योगमाज्ञापयामास नान्दीतूर्यपुरःसरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.६</sup>महत्यपररात्रे तु तव पुत्रस्य मारिष<br>योगो योगेति सहसा प्रादुरासीन्महास्वनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.७</sup>नागानां कल्पमानानां रथानां च वरूथिनाम्<br>संनह्यतां पदातीनां वाजिनां च विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.८</sup>क्रोशतां चापि योधानां त्वरितानां परस्परम्<br>बभूव तुमुलः शब्दो दिवस्पृक्सुमहांस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.९</sup>ततः श्वेतपताकेन बालार्काकारवाजिना<br>हेमपृष्ठेन धनुषा हस्तिकक्ष्येण केतुना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१०</sup>तूणेन शरपूर्णेन साङ्गदेन वरूथिना<br>शतघ्नीकिङ्किणीशक्तिशूलतोमरधारिणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.११</sup>कार्मुकेणोपपन्नेन विमलादित्यवर्चसा<br>रथेनातिपताकेन सूतपुत्रो व्यदृश्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१२</sup>धमन्तं वारिजं तात हेमजालविभूषितम्<br>विधुन्वानं महच्चापं कार्तस्वरविभूषितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१३</sup>दृष्ट्वा कर्णं महेष्वासं रथस्थं रथिनां वरम्<br>भानुमन्तमिवोद्यन्तं तमो घ्नन्तं सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१४</sup>न भीष्मव्यसनं केचिन्नापि द्रोणस्य मारिष<br>नान्येषां पुरुषव्याघ्र मेनिरे तत्र कौरवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१५</sup>ततस्तु त्वरयन्योधाञ्शङ्खशब्देन मारिष<br>कर्णो निष्कासयामास कौरवाणां वरूथिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१६</sup>व्यूहं व्यूह्य महेष्वासो माकरं शत्रुतापनः<br>प्रत्युद्ययौ तदा कर्णः पाण्डवान्विजिगीषया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१७</sup>मकरस्य तु तुण्डे वै कर्णो राजन्व्यवस्थितः<br>नेत्राभ्यां शकुनिः शूर उलूकश्च महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१८</sup>द्रोणपुत्रस्तु शिरसि ग्रीवायां सर्वसोदराः<br>मध्ये दुर्योधनो राजा बलेन महता वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.१९</sup>वामे पादे तु राजेन्द्र कृतवर्मा व्यवस्थितः<br>नारायणबलैर्युक्तो गोपालैर्युद्धदुर्मदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२०</sup>पादे तु दक्षिणे राजन्गौतमः सत्यविक्रमः<br>त्रिगर्तैश्च महेष्वासैर्दाक्षिणात्यैश्च संवृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२१</sup>अनुपादस्तु यो वामस्तत्र शल्यो व्यवस्थितः<br>महत्या सेनया सार्धं मद्रदेशसमुत्थया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२२</sup>दक्षिणे तु महाराज सुषेणः सत्यसंगरः<br>वृतो रथसहस्रैश्च दन्तिनां च शतैस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२३</sup>पुच्छे आस्तां महावीरौ भ्रातरौ पार्थिवौ तदा<br>चित्रसेनश्च चित्रश्च महत्या सेनया वृतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२४</sup>ततः प्रयाते राजेन्द्र कर्णे नरवरोत्तमे<br>धनंजयमभिप्रेक्ष्य धर्मराजोऽब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२५</sup>पश्य पार्थ महासेनां धार्तराष्ट्रस्य संयुगे<br>कर्णेन निर्मितां वीर गुप्तां वीरैर्महारथैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२६</sup>हतवीरतमा ह्येषा धार्तराष्ट्री महाचमूः<br>फल्गुशेषा महाबाहो तृणैस्तुल्या मता मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२७</sup>एको ह्यत्र महेष्वासः सूतपुत्रो व्यवस्थितः<br>सदेवासुरगन्धर्वैः सकिंनरमहोरगैः<br>चराचरैस्त्रिभिर्लोकैर्योऽजय्यो रथिनां वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२८</sup>तं हत्वाद्य महाबाहो विजयस्तव फल्गुन<br>उद्धृतश्च भवेच्छल्यो मम द्वादशवार्षिकः<br>एवं ज्ञात्वा महाबाहो व्यूहं व्यूह यथेच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.२९</sup>भ्रातुस्तद्वचनं श्रुत्वा पाण्डवः श्वेतवाहनः<br>अर्धचन्द्रेण व्यूहेन प्रत्यव्यूहत तां चमूम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३०</sup>वामपार्श्वेऽभवद्राजन्भीमसेनो व्यवस्थितः<br>दक्षिणे च महेष्वासो धृष्टद्युम्नो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३१</sup>मध्ये व्यूहस्य साक्षात्तु पाण्डवः कृष्णसारथिः<br>नकुलः सहदेवश्च धर्मराजश्च पृष्ठतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३२</sup>चक्ररक्षौ तु पाञ्चाल्यौ युधामन्यूत्तमौजसौ<br>नार्जुनं जहतुर्युद्धे पाल्यमानौ किरीटिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३३</sup>शेषा नृपतयो वीराः स्थिता व्यूहस्य दंशिताः<br>यथाभावं यथोत्साहं यथासत्त्वं च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३४</sup>एवमेतन्महाव्यूहं व्यूह्य भारत पाण्डवाः<br>तावकाश्च महेष्वासा युद्धायैव मनो दधुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३५</sup>दृष्ट्वा व्यूढां तव चमूं सूतपुत्रेण संयुगे<br>निहतान्पाण्डवान्मेने तव पुत्रः सहान्वयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३६</sup>तथैव पाण्डवीं सेनां व्यूढां दृष्ट्वा युधिष्ठिरः<br>धार्तराष्ट्रान्हतान्मेने सकर्णान्वै जनाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३७</sup>ततः शङ्खाश्च भेर्यश्च पणवानकगोमुखाः<br>सहसैवाभ्यहन्यन्त सशब्दाश्च समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३८</sup>सेनयोरुभयो राजन्प्रावाद्यन्त महास्वनाः<br>सिंहनादश्च संजज्ञे शूराणां जयगृद्धिनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.३९</sup>हयहेषितशब्दाश्च वारणानां च बृंहितम्<br>रथनेमिस्वनाश्चोग्राः संबभूवुर्जनाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४०</sup>न द्रोणव्यसनं कश्चिज्जानीते भरतर्षभ<br>दृष्ट्वा कर्णं महेष्वासं मुखे व्यूहस्य दंशितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४१</sup>उभे सेने महासत्त्वे प्रहृष्टनरकुञ्जरे<br>योद्धुकामे स्थिते राजन्हन्तुमन्योन्यमञ्जसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४२</sup>तत्र यत्तौ सुसंरब्धौ दृष्ट्वान्योन्यं व्यवस्थितौ<br>अनीकमध्ये राजेन्द्र रेजतुः कर्णपाण्डवौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४३</sup>नृत्यमाने तु ते सेने समेयातां परस्परम्<br>तयोः पक्षैः प्रपक्षैश्च निर्जग्मुर्वै युयुत्सवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.७.४४</sup>ततः प्रववृते युद्धं नरवारणवाजिनाम्<br>रथिनां च महाराज अन्योन्यं निघ्नतां दृढम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -213,8 +206,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

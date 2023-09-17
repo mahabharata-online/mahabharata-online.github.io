@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/180.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१८१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/182.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/180.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१८१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/182.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२</sup>तं विवक्षन्तमालक्ष्य कुरुराजो महामुनिम्<br>कथासंजननार्थाय चोदयामास पाण्डवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३</sup>भवान्दैवतदैत्यानामृषीणां च महात्मनाम्<br>राजर्षीणां च सर्वेषां चरितज्ञः सनातनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.४</sup>सेव्यश्चोपासितव्यश्च मतो नः काङ्क्षितश्चिरम्<br>अयं च देवकीपुत्रः प्राप्तोऽस्मानवलोककः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.५</sup>भवत्येव हि मे बुद्धिर्दृष्ट्वात्मानं सुखाच्च्युतम्<br>धार्तराष्ट्रांश्च दुर्वृत्तानृध्यतः प्रेक्ष्य सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.६</sup>कर्मणः पुरुषः कर्ता शुभस्याप्यशुभस्य च<br>स्वफलं तदुपाश्नाति कथं कर्ता स्विदीश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.७</sup>अथ वा सुखदुःखेषु नृणां ब्रह्मविदां वर<br>इह वा कृतमन्वेति परदेहेऽथ वा पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.८</sup>देही च देहं संत्यज्य मृग्यमाणः शुभाशुभैः<br>कथं संयुज्यते प्रेत्य इह वा द्विजसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.९</sup>ऐहलौकिकमेवैतदुताहो पारलौकिकम्<br>क्व च कर्माणि तिष्ठन्ति जन्तोः प्रेतस्य भार्गव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१०</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.११</sup>त्वद्युक्तोऽयमनुप्रश्नो यथावद्वदतां वर<br>विदितं वेदितव्यं ते स्थित्यर्थमनुपृच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१२</sup>अत्र ते वर्तयिष्यामि तदिहैकमनाः शृणु<br>यथेहामुत्र च नरः सुखदुःखमुपाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१३</sup>निर्मलानि शरीराणि विशुद्धानि शरीरिणाम्<br>ससर्ज धर्मतन्त्राणि पूर्वोत्पन्नः प्रजापतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१४</sup>अमोघबलसंकल्पाः सुव्रताः सत्यवादिनः<br>ब्रह्मभूता नराः पुण्याः पुराणाः कुरुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१५</sup>सर्वे देवैः समायान्ति स्वच्छन्देन नभस्तलम्<br>ततश्च पुनरायान्ति सर्वे स्वच्छन्दचारिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१६</sup>स्वच्छन्दमरणाश्चासन्नराः स्वच्छन्दजीविनः<br>अल्पबाधा निरातङ्का सिद्धार्था निरुपद्रवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१७</sup>द्रष्टारो देवसंघानामृषीणां च महात्मनाम्<br>प्रत्यक्षाः सर्वधर्माणां दान्ता विगतमत्सराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१८</sup>आसन्वर्षसहस्राणि तथा पुत्रसहस्रिणः<br>ततः कालान्तरेऽन्यस्मिन्पृथिवीतलचारिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.१९</sup>कामक्रोधाभिभूतास्ते मायाव्याजोपजीविनः<br>लोभमोहाभिभूताश्च त्यक्ता देवैस्ततो नराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२०</sup>अशुभैः कर्मभिः पापास्तिर्यङ्नरकगामिनः<br>संसारेषु विचित्रेषु पच्यमानाः पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२१</sup>मोघेष्टा मोघसंकल्पा मोघज्ञाना विचेतसः<br>सर्वातिशङ्किनश्चैव संवृत्ताः क्लेशभागिनः<br>अशुभैः कर्मभिश्चापि प्रायशः परिचिह्निताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२२</sup>दौष्कुल्या व्याधिबहुला दुरात्मानोऽप्रतापिनः<br>भवन्त्यल्पायुषः पापा रौद्रकर्मफलोदयाः<br>नाथन्तः सर्वकामानां नास्तिका भिन्नसेतवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२३</sup>जन्तोः प्रेतस्य कौन्तेय गतिः स्वैरिह कर्मभिः<br>प्राज्ञस्य हीनबुद्धेश्च कर्मकोशः क्व तिष्ठति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२४</sup>क्वस्थस्तत्समुपाश्नाति सुकृतं यदि वेतरत्<br>इति ते दर्शनं यच्च तत्राप्यनुनयं शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२५</sup>अयमादिशरीरेण देवसृष्टेन मानवः<br>शुभानामशुभानां च कुरुते संचयं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२६</sup>आयुषोऽन्ते प्रहायेदं क्षीणप्रायं कलेवरम्<br>संभवत्येव युगपद्योनौ नास्त्यन्तराभवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२७</sup>तत्रास्य स्वकृतं कर्म छायेवानुगतं सदा<br>फलत्यथ सुखार्हो वा दुःखार्हो वापि जायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२८</sup>कृतान्तविधिसंयुक्तः स जन्तुर्लक्षणैः शुभैः<br>अशुभैर्वा निरादानो लक्ष्यते ज्ञानदृष्टिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.२९</sup>एषा तावदबुद्धीनां गतिरुक्ता युधिष्ठिर<br>अतः परं ज्ञानवतां निबोध गतिमुत्तमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३०</sup>मनुष्यास्तप्ततपसः सर्वागमपरायणाः<br>स्थिरव्रताः सत्यपरा गुरुशुश्रूषणे रताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३१</sup>सुशीलाः शुक्लजातीयाः क्षान्ता दान्ताः सुतेजसः<br>शुभयोन्यन्तरगताः प्रायशः शुभलक्षणाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३२</sup>जितेन्द्रियत्वाद्वशिनः शुक्लत्वान्मन्दरोगिणः<br>अल्पबाधपरित्रासाद्भवन्ति निरुपद्रवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३३</sup>च्यवन्तं जायमानं च गर्भस्थं चैव सर्वशः<br>स्वमात्मानं परं चैव बुध्यन्ते ज्ञानचक्षुषः<br>कर्मभूमिमिमां प्राप्य पुनर्यान्ति सुरालयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३४</sup>किंचिद्दैवाद्धठात्किंचित्किंचिदेव स्वकर्मभिः<br>प्राप्नुवन्ति नरा राजन्मा तेऽस्त्वन्या विचारणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३५</sup>इमामत्रोपमां चापि निबोध वदतां वर<br>मनुष्यलोके यच्छ्रेयः परं मन्ये युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३६</sup>इह वैकस्य नामुत्र अमुत्रैकस्य नो इह<br>इह चामुत्र चैकस्य नामुत्रैकस्य नो इह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३७</sup>धनानि येषां विपुलानि सन्ति; नित्यं रमन्ते सुविभूषिताङ्गाः<br>तेषामयं शत्रुवरघ्न लोको; नासौ सदा देहसुखे रतानाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३८</sup>ये योगयुक्तास्तपसि प्रसक्ताः; स्वाध्यायशीला जरयन्ति देहान्<br>जितेन्द्रिया भूतहिते निविष्टा;स्तेषामसौ नायमरिघ्न लोकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.३९</sup>ये धर्ममेव प्रथमं चरन्ति; धर्मेण लब्ध्वा च धनानि काले<br>दारानवाप्य क्रतुभिर्यजन्ते; तेषामयं चैव परश्च लोकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.४०</sup>ये नैव विद्यां न तपो न दानं; न चापि मूढाः प्रजने यतन्ते<br>न चाधिगच्छन्ति सुखान्यभाग्या;स्तेषामयं चैव परश्च नास्ति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.४१</sup>सर्वे भवन्तस्त्वतिवीर्यसत्त्वा; दिव्यौजसः संहननोपपन्नाः<br>लोकादमुष्मादवनिं प्रपन्नाः; स्वधीतविद्याः सुरकार्यहेतोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.४२</sup>कृत्वैव कर्माणि महान्ति शूरा;स्तपोदमाचारविहारशीलाः<br>देवानृषीन्प्रेतगणांश्च सर्वा;न्संतर्पयित्वा विधिना परेण
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१८१.४३</sup>स्वर्गं परं पुण्यकृतां निवासं; क्रमेण संप्राप्स्यथ कर्मभिः स्वैः<br>मा भूद्विशङ्का तव कौरवेन्द्र; दृष्ट्वात्मनः क्लेशमिमं सुखार्ह
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२</sup>तं विवक्षन्तमालक्ष्य कुरुराजो महामुनिम्<br>कथासंजननार्थाय चोदयामास पाण्डवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३</sup>भवान्दैवतदैत्यानामृषीणां च महात्मनाम्<br>राजर्षीणां च सर्वेषां चरितज्ञः सनातनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.४</sup>सेव्यश्चोपासितव्यश्च मतो नः काङ्क्षितश्चिरम्<br>अयं च देवकीपुत्रः प्राप्तोऽस्मानवलोककः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.५</sup>भवत्येव हि मे बुद्धिर्दृष्ट्वात्मानं सुखाच्च्युतम्<br>धार्तराष्ट्रांश्च दुर्वृत्तानृध्यतः प्रेक्ष्य सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.६</sup>कर्मणः पुरुषः कर्ता शुभस्याप्यशुभस्य च<br>स्वफलं तदुपाश्नाति कथं कर्ता स्विदीश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.७</sup>अथ वा सुखदुःखेषु नृणां ब्रह्मविदां वर<br>इह वा कृतमन्वेति परदेहेऽथ वा पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.८</sup>देही च देहं संत्यज्य मृग्यमाणः शुभाशुभैः<br>कथं संयुज्यते प्रेत्य इह वा द्विजसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.९</sup>ऐहलौकिकमेवैतदुताहो पारलौकिकम्<br>क्व च कर्माणि तिष्ठन्ति जन्तोः प्रेतस्य भार्गव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१०</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.११</sup>त्वद्युक्तोऽयमनुप्रश्नो यथावद्वदतां वर<br>विदितं वेदितव्यं ते स्थित्यर्थमनुपृच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१२</sup>अत्र ते वर्तयिष्यामि तदिहैकमनाः शृणु<br>यथेहामुत्र च नरः सुखदुःखमुपाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१३</sup>निर्मलानि शरीराणि विशुद्धानि शरीरिणाम्<br>ससर्ज धर्मतन्त्राणि पूर्वोत्पन्नः प्रजापतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१४</sup>अमोघबलसंकल्पाः सुव्रताः सत्यवादिनः<br>ब्रह्मभूता नराः पुण्याः पुराणाः कुरुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१५</sup>सर्वे देवैः समायान्ति स्वच्छन्देन नभस्तलम्<br>ततश्च पुनरायान्ति सर्वे स्वच्छन्दचारिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१६</sup>स्वच्छन्दमरणाश्चासन्नराः स्वच्छन्दजीविनः<br>अल्पबाधा निरातङ्का सिद्धार्था निरुपद्रवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१७</sup>द्रष्टारो देवसंघानामृषीणां च महात्मनाम्<br>प्रत्यक्षाः सर्वधर्माणां दान्ता विगतमत्सराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१८</sup>आसन्वर्षसहस्राणि तथा पुत्रसहस्रिणः<br>ततः कालान्तरेऽन्यस्मिन्पृथिवीतलचारिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.१९</sup>कामक्रोधाभिभूतास्ते मायाव्याजोपजीविनः<br>लोभमोहाभिभूताश्च त्यक्ता देवैस्ततो नराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२०</sup>अशुभैः कर्मभिः पापास्तिर्यङ्नरकगामिनः<br>संसारेषु विचित्रेषु पच्यमानाः पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२१</sup>मोघेष्टा मोघसंकल्पा मोघज्ञाना विचेतसः<br>सर्वातिशङ्किनश्चैव संवृत्ताः क्लेशभागिनः<br>अशुभैः कर्मभिश्चापि प्रायशः परिचिह्निताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२२</sup>दौष्कुल्या व्याधिबहुला दुरात्मानोऽप्रतापिनः<br>भवन्त्यल्पायुषः पापा रौद्रकर्मफलोदयाः<br>नाथन्तः सर्वकामानां नास्तिका भिन्नसेतवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२३</sup>जन्तोः प्रेतस्य कौन्तेय गतिः स्वैरिह कर्मभिः<br>प्राज्ञस्य हीनबुद्धेश्च कर्मकोशः क्व तिष्ठति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२४</sup>क्वस्थस्तत्समुपाश्नाति सुकृतं यदि वेतरत्<br>इति ते दर्शनं यच्च तत्राप्यनुनयं शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२५</sup>अयमादिशरीरेण देवसृष्टेन मानवः<br>शुभानामशुभानां च कुरुते संचयं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२६</sup>आयुषोऽन्ते प्रहायेदं क्षीणप्रायं कलेवरम्<br>संभवत्येव युगपद्योनौ नास्त्यन्तराभवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२७</sup>तत्रास्य स्वकृतं कर्म छायेवानुगतं सदा<br>फलत्यथ सुखार्हो वा दुःखार्हो वापि जायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२८</sup>कृतान्तविधिसंयुक्तः स जन्तुर्लक्षणैः शुभैः<br>अशुभैर्वा निरादानो लक्ष्यते ज्ञानदृष्टिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.२९</sup>एषा तावदबुद्धीनां गतिरुक्ता युधिष्ठिर<br>अतः परं ज्ञानवतां निबोध गतिमुत्तमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३०</sup>मनुष्यास्तप्ततपसः सर्वागमपरायणाः<br>स्थिरव्रताः सत्यपरा गुरुशुश्रूषणे रताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३१</sup>सुशीलाः शुक्लजातीयाः क्षान्ता दान्ताः सुतेजसः<br>शुभयोन्यन्तरगताः प्रायशः शुभलक्षणाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३२</sup>जितेन्द्रियत्वाद्वशिनः शुक्लत्वान्मन्दरोगिणः<br>अल्पबाधपरित्रासाद्भवन्ति निरुपद्रवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३३</sup>च्यवन्तं जायमानं च गर्भस्थं चैव सर्वशः<br>स्वमात्मानं परं चैव बुध्यन्ते ज्ञानचक्षुषः<br>कर्मभूमिमिमां प्राप्य पुनर्यान्ति सुरालयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३४</sup>किंचिद्दैवाद्धठात्किंचित्किंचिदेव स्वकर्मभिः<br>प्राप्नुवन्ति नरा राजन्मा तेऽस्त्वन्या विचारणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३५</sup>इमामत्रोपमां चापि निबोध वदतां वर<br>मनुष्यलोके यच्छ्रेयः परं मन्ये युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३६</sup>इह वैकस्य नामुत्र अमुत्रैकस्य नो इह<br>इह चामुत्र चैकस्य नामुत्रैकस्य नो इह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३७</sup>धनानि येषां विपुलानि सन्ति; नित्यं रमन्ते सुविभूषिताङ्गाः<br>तेषामयं शत्रुवरघ्न लोको; नासौ सदा देहसुखे रतानाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३८</sup>ये योगयुक्तास्तपसि प्रसक्ताः; स्वाध्यायशीला जरयन्ति देहान्<br>जितेन्द्रिया भूतहिते निविष्टा;स्तेषामसौ नायमरिघ्न लोकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.३९</sup>ये धर्ममेव प्रथमं चरन्ति; धर्मेण लब्ध्वा च धनानि काले<br>दारानवाप्य क्रतुभिर्यजन्ते; तेषामयं चैव परश्च लोकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.४०</sup>ये नैव विद्यां न तपो न दानं; न चापि मूढाः प्रजने यतन्ते<br>न चाधिगच्छन्ति सुखान्यभाग्या;स्तेषामयं चैव परश्च नास्ति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.४१</sup>सर्वे भवन्तस्त्वतिवीर्यसत्त्वा; दिव्यौजसः संहननोपपन्नाः<br>लोकादमुष्मादवनिं प्रपन्नाः; स्वधीतविद्याः सुरकार्यहेतोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.४२</sup>कृत्वैव कर्माणि महान्ति शूरा;स्तपोदमाचारविहारशीलाः<br>देवानृषीन्प्रेतगणांश्च सर्वा;न्संतर्पयित्वा विधिना परेण
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१८१.४३</sup>स्वर्गं परं पुण्यकृतां निवासं; क्रमेण संप्राप्स्यथ कर्मभिः स्वैः<br>मा भूद्विशङ्का तव कौरवेन्द्र; दृष्ट्वात्मनः क्लेशमिमं सुखार्ह
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

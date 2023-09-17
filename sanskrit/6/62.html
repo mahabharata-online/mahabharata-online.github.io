@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/6/61.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>६:६२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/6/63.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,166 +64,131 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/6/61.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">६:६२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/6/63.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२</sup>ततः स भगवान्देवो लोकानां परमेश्वरः<br>ब्रह्माणं प्रत्युवाचेदं स्निग्धगम्भीरया गिरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३</sup>विदितं तात योगान्मे सर्वमेतत्तवेप्सितम्<br>तथा तद्भवितेत्युक्त्वा तत्रैवान्तरधीयत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.४</sup>ततो देवर्षिगन्धर्वा विस्मयं परमं गताः<br>कौतूहलपराः सर्वे पितामहमथाब्रुवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.५</sup>को न्वयं यो भगवता प्रणम्य विनयाद्विभो<br>वाग्भिः स्तुतो वरिष्ठाभिः श्रोतुमिच्छाम तं वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.६</sup>एवमुक्तस्तु भगवान्प्रत्युवाच पितामहः<br>देवब्रह्मर्षिगन्धर्वान्सर्वान्मधुरया गिरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.७</sup>यत्तत्परं भविष्यं च भवितव्यं च यत्परम्<br>भूतात्मा यः प्रभुश्चैव ब्रह्म यच्च परं पदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.८</sup>तेनास्मि कृतसंवादः प्रसन्नेन सुरर्षभाः<br>जगतोऽनुग्रहार्थाय याचितो मे जगत्पतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.९</sup>मानुषं लोकमातिष्ठ वासुदेव इति श्रुतः<br>असुराणां वधार्थाय संभवस्व महीतले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१०</sup>संग्रामे निहता ये ते दैत्यदानवराक्षसाः<br>त इमे नृषु संभूता घोररूपा महाबलाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.११</sup>तेषां वधार्थं भगवान्नरेण सहितो वशी<br>मानुषीं योनिमास्थाय चरिष्यति महीतले
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१२</sup>नरनारायणौ यौ तौ पुराणावृषिसत्तमौ<br>सहितौ मानुषे लोके संभूतावमितद्युती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१३</sup>अजेयौ समरे यत्तौ सहितावमरैरपि<br>मूढास्त्वेतौ न जानन्ति नरनारायणावृषी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१४</sup>तस्याहमात्मजो ब्रह्मा सर्वस्य जगतः पतिः<br>वासुदेवोऽर्चनीयो वः सर्वलोकमहेश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१५</sup>तथा मनुष्योऽयमिति कदाचित्सुरसत्तमाः<br>नावज्ञेयो महावीर्यः शङ्खचक्रगदाधरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१६</sup>एतत्परमकं गुह्यमेतत्परमकं पदम्<br>एतत्परमकं ब्रह्म एतत्परमकं यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१७</sup>एतदक्षरमव्यक्तमेतत्तच्छाश्वतं महत्<br>एतत्पुरुषसंज्ञं वै गीयते ज्ञायते न च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१८</sup>एतत्परमकं तेज एतत्परमकं सुखम्<br>एतत्परमकं सत्यं कीर्तितं विश्वकर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.१९</sup>तस्मात्सर्वैः सुरैः सेन्द्रैर्लोकैश्चामितविक्रमः<br>नावज्ञेयो वासुदेवो मानुषोऽयमिति प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२०</sup>यश्च मानुषमात्रोऽयमिति ब्रूयात्सुमन्दधीः<br>हृषीकेशमवज्ञानात्तमाहुः पुरुषाधमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२१</sup>योगिनं तं महात्मानं प्रविष्टं मानुषीं तनुम्<br>अवमन्येद्वासुदेवं तमाहुस्तामसं जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२२</sup>देवं चराचरात्मानं श्रीवत्साङ्कं सुवर्चसम्<br>पद्मनाभं न जानाति तमाहुस्तामसं जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२३</sup>किरीटकौस्तुभधरं मित्राणामभयंकरम्<br>अवजानन्महात्मानं घोरे तमसि मज्जति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२४</sup>एवं विदित्वा तत्त्वार्थं लोकानामीश्वरेश्वरः<br>वासुदेवो नमस्कार्यः सर्वलोकैः सुरोत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२५</sup>एवमुक्त्वा स भगवान्सर्वान्देवगणान्पुरा<br>विसृज्य सर्वलोकात्मा जगाम भवनं स्वकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२६</sup>ततो देवाः सगन्धर्वा मुनयोऽप्सरसोऽपि च<br>कथां तां ब्रह्मणा गीतां श्रुत्वा प्रीता दिवं ययुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२७</sup>एतच्छ्रुतं मया तात ऋषीणां भावितात्मनाम्<br>वासुदेवं कथयतां समवाये पुरातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२८</sup>जामदग्न्यस्य रामस्य मार्कण्डेयस्य धीमतः<br>व्यासनारदयोश्चापि श्रुतं श्रुतविशारद
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.२९</sup>एतमर्थं च विज्ञाय श्रुत्वा च प्रभुमव्ययम्<br>वासुदेवं महात्मानं लोकानामीश्वरेश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३०</sup>यस्यासावात्मजो ब्रह्मा सर्वस्य जगतः पिता<br>कथं न वासुदेवोऽयमर्च्यश्चेज्यश्च मानवैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३१</sup>वारितोऽसि पुरा तात मुनिभिर्वेदपारगैः<br>मा गच्छ संयुगं तेन वासुदेवेन धीमता<br>मा पाण्डवैः सार्धमिति तच्च मोहान्न बुध्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३२</sup>मन्ये त्वां राक्षसं क्रूरं तथा चासि तमोवृतः<br>यस्माद्द्विषसि गोविन्दं पाण्डवं च धनंजयम्<br>नरनारायणौ देवौ नान्यो द्विष्याद्धि मानवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३३</sup>तस्माद्ब्रवीमि ते राजन्नेष वै शाश्वतोऽव्ययः<br>सर्वलोकमयो नित्यः शास्ता धाता धरो ध्रुवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३४</sup>लोकान्धारयते यस्त्रींश्चराचरगुरुः प्रभुः<br>योद्धा जयश्च जेता च सर्वप्रकृतिरीश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३५</sup>राजन्सत्त्वमयो ह्येष तमोरागविवर्जितः<br>यतः कृष्णस्ततो धर्मो यतो धर्मस्ततो जयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३६</sup>तस्य माहात्म्ययोगेन योगेनात्मन एव च<br>धृताः पाण्डुसुता राजञ्जयश्चैषां भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३७</sup>श्रेयोयुक्तां सदा बुद्धिं पाण्डवानां दधाति यः<br>बलं चैव रणे नित्यं भयेभ्यश्चैव रक्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३८</sup>स एष शाश्वतो देवः सर्वगुह्यमयः शिवः<br>वासुदेव इति ज्ञेयो यन्मां पृच्छसि भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.३९</sup>ब्राह्मणैः क्षत्रियैर्वैश्यैः शूद्रैश्च कृतलक्षणैः<br>सेव्यतेऽभ्यर्च्यते चैव नित्ययुक्तैः स्वकर्मभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.४०</sup>द्वापरस्य युगस्यान्ते आदौ कलियुगस्य च<br>सात्वतं विधिमास्थाय गीतः संकर्षणेन यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.६२.४१</sup>स एष सर्वासुरमर्त्यलोकं; समुद्रकक्ष्यान्तरिताः पुरीश्च<br>युगे युगे मानुषं चैव वासं; पुनः पुनः सृजते वासुदेवः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२</sup>ततः स भगवान्देवो लोकानां परमेश्वरः<br>ब्रह्माणं प्रत्युवाचेदं स्निग्धगम्भीरया गिरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३</sup>विदितं तात योगान्मे सर्वमेतत्तवेप्सितम्<br>तथा तद्भवितेत्युक्त्वा तत्रैवान्तरधीयत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.४</sup>ततो देवर्षिगन्धर्वा विस्मयं परमं गताः<br>कौतूहलपराः सर्वे पितामहमथाब्रुवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.५</sup>को न्वयं यो भगवता प्रणम्य विनयाद्विभो<br>वाग्भिः स्तुतो वरिष्ठाभिः श्रोतुमिच्छाम तं वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.६</sup>एवमुक्तस्तु भगवान्प्रत्युवाच पितामहः<br>देवब्रह्मर्षिगन्धर्वान्सर्वान्मधुरया गिरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.७</sup>यत्तत्परं भविष्यं च भवितव्यं च यत्परम्<br>भूतात्मा यः प्रभुश्चैव ब्रह्म यच्च परं पदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.८</sup>तेनास्मि कृतसंवादः प्रसन्नेन सुरर्षभाः<br>जगतोऽनुग्रहार्थाय याचितो मे जगत्पतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.९</sup>मानुषं लोकमातिष्ठ वासुदेव इति श्रुतः<br>असुराणां वधार्थाय संभवस्व महीतले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१०</sup>संग्रामे निहता ये ते दैत्यदानवराक्षसाः<br>त इमे नृषु संभूता घोररूपा महाबलाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.११</sup>तेषां वधार्थं भगवान्नरेण सहितो वशी<br>मानुषीं योनिमास्थाय चरिष्यति महीतले
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१२</sup>नरनारायणौ यौ तौ पुराणावृषिसत्तमौ<br>सहितौ मानुषे लोके संभूतावमितद्युती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१३</sup>अजेयौ समरे यत्तौ सहितावमरैरपि<br>मूढास्त्वेतौ न जानन्ति नरनारायणावृषी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१४</sup>तस्याहमात्मजो ब्रह्मा सर्वस्य जगतः पतिः<br>वासुदेवोऽर्चनीयो वः सर्वलोकमहेश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१५</sup>तथा मनुष्योऽयमिति कदाचित्सुरसत्तमाः<br>नावज्ञेयो महावीर्यः शङ्खचक्रगदाधरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१६</sup>एतत्परमकं गुह्यमेतत्परमकं पदम्<br>एतत्परमकं ब्रह्म एतत्परमकं यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१७</sup>एतदक्षरमव्यक्तमेतत्तच्छाश्वतं महत्<br>एतत्पुरुषसंज्ञं वै गीयते ज्ञायते न च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१८</sup>एतत्परमकं तेज एतत्परमकं सुखम्<br>एतत्परमकं सत्यं कीर्तितं विश्वकर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.१९</sup>तस्मात्सर्वैः सुरैः सेन्द्रैर्लोकैश्चामितविक्रमः<br>नावज्ञेयो वासुदेवो मानुषोऽयमिति प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२०</sup>यश्च मानुषमात्रोऽयमिति ब्रूयात्सुमन्दधीः<br>हृषीकेशमवज्ञानात्तमाहुः पुरुषाधमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२१</sup>योगिनं तं महात्मानं प्रविष्टं मानुषीं तनुम्<br>अवमन्येद्वासुदेवं तमाहुस्तामसं जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२२</sup>देवं चराचरात्मानं श्रीवत्साङ्कं सुवर्चसम्<br>पद्मनाभं न जानाति तमाहुस्तामसं जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२३</sup>किरीटकौस्तुभधरं मित्राणामभयंकरम्<br>अवजानन्महात्मानं घोरे तमसि मज्जति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२४</sup>एवं विदित्वा तत्त्वार्थं लोकानामीश्वरेश्वरः<br>वासुदेवो नमस्कार्यः सर्वलोकैः सुरोत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२५</sup>एवमुक्त्वा स भगवान्सर्वान्देवगणान्पुरा<br>विसृज्य सर्वलोकात्मा जगाम भवनं स्वकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२६</sup>ततो देवाः सगन्धर्वा मुनयोऽप्सरसोऽपि च<br>कथां तां ब्रह्मणा गीतां श्रुत्वा प्रीता दिवं ययुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२७</sup>एतच्छ्रुतं मया तात ऋषीणां भावितात्मनाम्<br>वासुदेवं कथयतां समवाये पुरातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२८</sup>जामदग्न्यस्य रामस्य मार्कण्डेयस्य धीमतः<br>व्यासनारदयोश्चापि श्रुतं श्रुतविशारद
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.२९</sup>एतमर्थं च विज्ञाय श्रुत्वा च प्रभुमव्ययम्<br>वासुदेवं महात्मानं लोकानामीश्वरेश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३०</sup>यस्यासावात्मजो ब्रह्मा सर्वस्य जगतः पिता<br>कथं न वासुदेवोऽयमर्च्यश्चेज्यश्च मानवैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३१</sup>वारितोऽसि पुरा तात मुनिभिर्वेदपारगैः<br>मा गच्छ संयुगं तेन वासुदेवेन धीमता<br>मा पाण्डवैः सार्धमिति तच्च मोहान्न बुध्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३२</sup>मन्ये त्वां राक्षसं क्रूरं तथा चासि तमोवृतः<br>यस्माद्द्विषसि गोविन्दं पाण्डवं च धनंजयम्<br>नरनारायणौ देवौ नान्यो द्विष्याद्धि मानवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३३</sup>तस्माद्ब्रवीमि ते राजन्नेष वै शाश्वतोऽव्ययः<br>सर्वलोकमयो नित्यः शास्ता धाता धरो ध्रुवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३४</sup>लोकान्धारयते यस्त्रींश्चराचरगुरुः प्रभुः<br>योद्धा जयश्च जेता च सर्वप्रकृतिरीश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३५</sup>राजन्सत्त्वमयो ह्येष तमोरागविवर्जितः<br>यतः कृष्णस्ततो धर्मो यतो धर्मस्ततो जयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३६</sup>तस्य माहात्म्ययोगेन योगेनात्मन एव च<br>धृताः पाण्डुसुता राजञ्जयश्चैषां भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३७</sup>श्रेयोयुक्तां सदा बुद्धिं पाण्डवानां दधाति यः<br>बलं चैव रणे नित्यं भयेभ्यश्चैव रक्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३८</sup>स एष शाश्वतो देवः सर्वगुह्यमयः शिवः<br>वासुदेव इति ज्ञेयो यन्मां पृच्छसि भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.३९</sup>ब्राह्मणैः क्षत्रियैर्वैश्यैः शूद्रैश्च कृतलक्षणैः<br>सेव्यतेऽभ्यर्च्यते चैव नित्ययुक्तैः स्वकर्मभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.४०</sup>द्वापरस्य युगस्यान्ते आदौ कलियुगस्य च<br>सात्वतं विधिमास्थाय गीतः संकर्षणेन यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.६२.४१</sup>स एष सर्वासुरमर्त्यलोकं; समुद्रकक्ष्यान्तरिताः पुरीश्च<br>युगे युगे मानुषं चैव वासं; पुनः पुनः सृजते वासुदेवः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -204,8 +197,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

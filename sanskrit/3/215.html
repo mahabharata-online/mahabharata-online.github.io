@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/214.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२१५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/216.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/214.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२१५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/216.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२</sup>ऋषयस्तु महाघोरान्दृष्ट्वोत्पातान्पृथग्विधान्<br>अकुर्वञ्शान्तिमुद्विग्ना लोकानां लोकभावनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.३</sup>निवसन्ति वने ये तु तस्मिंश्चैत्ररथे जनाः<br>तेऽब्रुवन्नेष नोऽनर्थः पावकेनाहृतो महान्<br>संगम्य षड्भिः पत्नीभिः सप्तर्षीणामिति स्म ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.४</sup>अपरे गरुडीमाहुस्त्वयानर्थोऽयमाहृतः<br>यैर्दृष्टा सा तदा देवी तस्या रूपेण गच्छती<br>न तु तत्स्वाहया कर्म कृतं जानाति वै जनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.५</sup>सुपर्णी तु वचः श्रुत्वा ममायं तनयस्त्विति<br>उपगम्य शनैः स्कन्दमाहाहं जननी तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.६</sup>अथ सप्तर्षयः श्रुत्वा जातं पुत्रं महौजसम्<br>तत्यजुः षट्तदा पत्नीर्विना देवीमरुन्धतीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.७</sup>षड्भिरेव तदा जातमाहुस्तद्वनवासिनः<br>सप्तर्षीनाह च स्वाहा मम पुत्रोऽयमित्युत<br>अहं जाने नैतदेवमिति राजन्पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.८</sup>विश्वामित्रस्तु कृत्वेष्टिं सप्तर्षीणां महामुनिः<br>पावकं कामसंतप्तमदृष्टः पृष्ठतोऽन्वगात्<br>तत्तेन निखिलं सर्वमवबुद्धं यथातथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.९</sup>विश्वामित्रस्तु प्रथमं कुमारं शरणं गतः<br>स्तवं दिव्यं संप्रचक्रे महासेनस्य चापि सः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१०</sup>मङ्गलानि च सर्वाणि कौमाराणि त्रयोदश<br>जातकर्मादिकास्तस्य क्रियाश्चक्रे महामुनिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.११</sup>षड्वक्त्रस्य तु माहात्म्यं कुक्कुटस्य च साधनम्<br>शक्त्या देव्याः साधनं च तथा पारिषदामपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१२</sup>विश्वामित्रश्चकारैतत्कर्म लोकहिताय वै<br>तस्मादृषिः कुमारस्य विश्वामित्रोऽभवत्प्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१३</sup>अन्वजानाच्च स्वाहाया रूपान्यत्वं महामुनिः<br>अब्रवीच्च मुनीन्सर्वान्नापराध्यन्ति वै स्त्रियः<br>श्रुत्वा तु तत्त्वतस्तस्मात्ते पत्नीः सर्वतोऽत्यजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१४</sup>स्कन्दं श्रुत्वा ततो देवा वासवं सहिताब्रुवन्<br>अविषह्यबलं स्कन्दं जहि शक्राशु माचिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१५</sup>यदि वा न निहंस्येनमद्येन्द्रोऽयं भविष्यति<br>त्रैलोक्यं संनिगृह्यास्मांस्त्वां च शक्र महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१६</sup>स तानुवाच व्यथितो बालोऽयं सुमहाबलः<br>स्रष्टारमपि लोकानां युधि विक्रम्य नाशयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१७</sup>सर्वास्त्वद्याभिगच्छन्तु स्कन्दं लोकस्य मातरः<br>कामवीर्या घ्नन्तु चैनं तथेत्युक्त्वा च ता ययुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१८</sup>तमप्रतिबलं दृष्ट्वा विषण्णवदनास्तु ताः<br>अशक्योऽयं विचिन्त्यैवं तमेव शरणं ययुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.१९</sup>ऊचुश्चापि त्वमस्माकं पुत्रोऽस्माभिर्धृतं जगत्<br>अभिनन्दस्व नः सर्वाः प्रस्नुताः स्नेहविक्लवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२०</sup>ताः संपूज्य महासेनः कामांश्चासां प्रदाय सः<br>अपश्यदग्निमायान्तं पितरं बलिनां बली
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२१</sup>स तु संपूजितस्तेन सह मातृगणेन ह<br>परिवार्य महासेनं रक्षमाणः स्थितः स्थिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२२</sup>सर्वासां या तु मातॄणां नारी क्रोधसमुद्भवा<br>धात्री सा पुत्रवत्स्कन्दं शूलहस्ताभ्यरक्षत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२३</sup>लोहितस्योदधेः कन्या क्रूरा लोहितभोजना<br>परिष्वज्य महासेनं पुत्रवत्पर्यरक्षत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२१५.२४</sup>अग्निर्भूत्वा नैगमेयश्छागवक्त्रो बहुप्रजः<br>रमयामास शैलस्थं बालं क्रीडनकैरिव
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२</sup>ऋषयस्तु महाघोरान्दृष्ट्वोत्पातान्पृथग्विधान्<br>अकुर्वञ्शान्तिमुद्विग्ना लोकानां लोकभावनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.३</sup>निवसन्ति वने ये तु तस्मिंश्चैत्ररथे जनाः<br>तेऽब्रुवन्नेष नोऽनर्थः पावकेनाहृतो महान्<br>संगम्य षड्भिः पत्नीभिः सप्तर्षीणामिति स्म ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.४</sup>अपरे गरुडीमाहुस्त्वयानर्थोऽयमाहृतः<br>यैर्दृष्टा सा तदा देवी तस्या रूपेण गच्छती<br>न तु तत्स्वाहया कर्म कृतं जानाति वै जनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.५</sup>सुपर्णी तु वचः श्रुत्वा ममायं तनयस्त्विति<br>उपगम्य शनैः स्कन्दमाहाहं जननी तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.६</sup>अथ सप्तर्षयः श्रुत्वा जातं पुत्रं महौजसम्<br>तत्यजुः षट्तदा पत्नीर्विना देवीमरुन्धतीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.७</sup>षड्भिरेव तदा जातमाहुस्तद्वनवासिनः<br>सप्तर्षीनाह च स्वाहा मम पुत्रोऽयमित्युत<br>अहं जाने नैतदेवमिति राजन्पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.८</sup>विश्वामित्रस्तु कृत्वेष्टिं सप्तर्षीणां महामुनिः<br>पावकं कामसंतप्तमदृष्टः पृष्ठतोऽन्वगात्<br>तत्तेन निखिलं सर्वमवबुद्धं यथातथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.९</sup>विश्वामित्रस्तु प्रथमं कुमारं शरणं गतः<br>स्तवं दिव्यं संप्रचक्रे महासेनस्य चापि सः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१०</sup>मङ्गलानि च सर्वाणि कौमाराणि त्रयोदश<br>जातकर्मादिकास्तस्य क्रियाश्चक्रे महामुनिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.११</sup>षड्वक्त्रस्य तु माहात्म्यं कुक्कुटस्य च साधनम्<br>शक्त्या देव्याः साधनं च तथा पारिषदामपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१२</sup>विश्वामित्रश्चकारैतत्कर्म लोकहिताय वै<br>तस्मादृषिः कुमारस्य विश्वामित्रोऽभवत्प्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१३</sup>अन्वजानाच्च स्वाहाया रूपान्यत्वं महामुनिः<br>अब्रवीच्च मुनीन्सर्वान्नापराध्यन्ति वै स्त्रियः<br>श्रुत्वा तु तत्त्वतस्तस्मात्ते पत्नीः सर्वतोऽत्यजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१४</sup>स्कन्दं श्रुत्वा ततो देवा वासवं सहिताब्रुवन्<br>अविषह्यबलं स्कन्दं जहि शक्राशु माचिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१५</sup>यदि वा न निहंस्येनमद्येन्द्रोऽयं भविष्यति<br>त्रैलोक्यं संनिगृह्यास्मांस्त्वां च शक्र महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१६</sup>स तानुवाच व्यथितो बालोऽयं सुमहाबलः<br>स्रष्टारमपि लोकानां युधि विक्रम्य नाशयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१७</sup>सर्वास्त्वद्याभिगच्छन्तु स्कन्दं लोकस्य मातरः<br>कामवीर्या घ्नन्तु चैनं तथेत्युक्त्वा च ता ययुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१८</sup>तमप्रतिबलं दृष्ट्वा विषण्णवदनास्तु ताः<br>अशक्योऽयं विचिन्त्यैवं तमेव शरणं ययुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.१९</sup>ऊचुश्चापि त्वमस्माकं पुत्रोऽस्माभिर्धृतं जगत्<br>अभिनन्दस्व नः सर्वाः प्रस्नुताः स्नेहविक्लवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२०</sup>ताः संपूज्य महासेनः कामांश्चासां प्रदाय सः<br>अपश्यदग्निमायान्तं पितरं बलिनां बली
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२१</sup>स तु संपूजितस्तेन सह मातृगणेन ह<br>परिवार्य महासेनं रक्षमाणः स्थितः स्थिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२२</sup>सर्वासां या तु मातॄणां नारी क्रोधसमुद्भवा<br>धात्री सा पुत्रवत्स्कन्दं शूलहस्ताभ्यरक्षत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२३</sup>लोहितस्योदधेः कन्या क्रूरा लोहितभोजना<br>परिष्वज्य महासेनं पुत्रवत्पर्यरक्षत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२१५.२४</sup>अग्निर्भूत्वा नैगमेयश्छागवक्त्रो बहुप्रजः<br>रमयामास शैलस्थं बालं क्रीडनकैरिव
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

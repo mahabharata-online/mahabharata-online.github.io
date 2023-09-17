@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/179.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१८०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/181.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/179.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१८०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/181.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.२</sup>तस्मै दित्सति कन्यां तु ब्राह्मणाय महात्मने<br>कोप आसीन्महीपानामालोक्यान्योन्यमन्तिकात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.३</sup>अस्मानयमतिक्रम्य तृणीकृत्य च संगतान्<br>दातुमिच्छति विप्राय द्रौपदीं योषितां वराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.४</sup>निहन्मैनं दुरात्मानं योऽयमस्मान्न मन्यते<br>न ह्यर्हत्येष सत्कारं नापि वृद्धक्रमं गुणैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.५</sup>हन्मैनं सह पुत्रेण दुराचारं नृपद्विषम्<br>अयं हि सर्वानाहूय सत्कृत्य च नराधिपान्<br>गुणवद्भोजयित्वा च ततः पश्चाद्विनिन्दति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.६</sup>अस्मिन्राजसमावाये देवानामिव संनये<br>किमयं सदृशं कंचिन्नृपतिं नैव दृष्टवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.७</sup>न च विप्रेष्वधीकारो विद्यते वरणं प्रति<br>स्वयंवरः क्षत्रियाणामितीयं प्रथिता श्रुतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.८</sup>अथ वा यदि कन्येयं नेह कंचिद्बुभूषति<br>अग्नावेनां परिक्षिप्य याम राष्ट्राणि पार्थिवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.९</sup>ब्राह्मणो यदि वा बाल्याल्लोभाद्वा कृतवानिदम्<br>विप्रियं पार्थिवेन्द्राणां नैष वध्यः कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१०</sup>ब्राह्मणार्थं हि नो राज्यं जीवितं च वसूनि च<br>पुत्रपौत्रं च यच्चान्यदस्माकं विद्यते धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.११</sup>अवमानभयादेतत्स्वधर्मस्य च रक्षणात्<br>स्वयंवराणां चान्येषां मा भूदेवंविधा गतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१२</sup>इत्युक्त्वा राजशार्दूला हृष्टाः परिघबाहवः<br>द्रुपदं संजिघृक्षन्तः सायुधाः समुपाद्रवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१३</sup>तान्गृहीतशरावापान्क्रुद्धानापततो नृपान्<br>द्रुपदो वीक्ष्य संत्रासाद्ब्राह्मणाञ्शरणं गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१४</sup>वेगेनापततस्तांस्तु प्रभिन्नानिव वारणान्<br>पाण्डुपुत्रौ महावीर्यौ प्रतीयतुररिंदमौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१५</sup>ततः समुत्पेतुरुदायुधास्ते; महीक्षितो बद्धतलाङ्गुलित्राः<br>जिघांसमानाः कुरुराजपुत्रा;वमर्षयन्तोऽर्जुनभीमसेनौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१६</sup>ततस्तु भीमोऽद्भुतवीर्यकर्मा; महाबलो वज्रसमानवीर्यः<br>उत्पाट्य दोर्भ्यां द्रुममेकवीरो; निष्पत्रयामास यथा गजेन्द्रः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१७</sup>तं वृक्षमादाय रिपुप्रमाथी; दण्डीव दण्डं पितृराज उग्रम्<br>तस्थौ समीपे पुरुषर्षभस्य; पार्थस्य पार्थः पृथुदीर्घबाहुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१८</sup>तत्प्रेक्ष्य कर्मातिमनुष्यबुद्धे;र्जिष्णोः सहभ्रातुरचिन्त्यकर्मा<br>दामोदरो भ्रातरमुग्रवीर्यं; हलायुधं वाक्यमिदं बभाषे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.१९</sup>य एष मत्तर्षभतुल्यगामी; महद्धनुः कर्षति तालमात्रम्<br>एषोऽर्जुनो नात्र विचार्यमस्ति; यद्यस्मि संकर्षण वासुदेवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.२०</sup>य एष वृक्षं तरसावरुज्य; राज्ञां विकारे सहसा निवृत्तः<br>वृकोदरो नान्य इहैतदद्य; कर्तुं समर्थो भुवि मर्त्यधर्मा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.२१</sup>योऽसौ पुरस्तात्कमलायताक्ष;स्तनुर्महासिंहगतिर्विनीतः<br>गौरः प्रलम्बोज्ज्वलचारुघोणो; विनिःसृतः सोऽच्युत धर्मराजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.२२</sup>यौ तौ कुमाराविव कार्त्तिकेयौ; द्वावश्विनेयाविति मे प्रतर्कः<br>मुक्ता हि तस्माज्जतुवेश्मदाहा;न्मया श्रुताः पाण्डुसुताः पृथा च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१८०.२३</sup>तमब्रवीन्निर्मलतोयदाभो; हलायुधोऽनन्तरजं प्रतीतः<br>प्रीतोऽस्मि दिष्ट्या हि पितृष्वसा नः; पृथा विमुक्ता सह कौरवाग्र्यैः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.२</sup>तस्मै दित्सति कन्यां तु ब्राह्मणाय महात्मने<br>कोप आसीन्महीपानामालोक्यान्योन्यमन्तिकात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.३</sup>अस्मानयमतिक्रम्य तृणीकृत्य च संगतान्<br>दातुमिच्छति विप्राय द्रौपदीं योषितां वराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.४</sup>निहन्मैनं दुरात्मानं योऽयमस्मान्न मन्यते<br>न ह्यर्हत्येष सत्कारं नापि वृद्धक्रमं गुणैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.५</sup>हन्मैनं सह पुत्रेण दुराचारं नृपद्विषम्<br>अयं हि सर्वानाहूय सत्कृत्य च नराधिपान्<br>गुणवद्भोजयित्वा च ततः पश्चाद्विनिन्दति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.६</sup>अस्मिन्राजसमावाये देवानामिव संनये<br>किमयं सदृशं कंचिन्नृपतिं नैव दृष्टवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.७</sup>न च विप्रेष्वधीकारो विद्यते वरणं प्रति<br>स्वयंवरः क्षत्रियाणामितीयं प्रथिता श्रुतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.८</sup>अथ वा यदि कन्येयं नेह कंचिद्बुभूषति<br>अग्नावेनां परिक्षिप्य याम राष्ट्राणि पार्थिवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.९</sup>ब्राह्मणो यदि वा बाल्याल्लोभाद्वा कृतवानिदम्<br>विप्रियं पार्थिवेन्द्राणां नैष वध्यः कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१०</sup>ब्राह्मणार्थं हि नो राज्यं जीवितं च वसूनि च<br>पुत्रपौत्रं च यच्चान्यदस्माकं विद्यते धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.११</sup>अवमानभयादेतत्स्वधर्मस्य च रक्षणात्<br>स्वयंवराणां चान्येषां मा भूदेवंविधा गतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१२</sup>इत्युक्त्वा राजशार्दूला हृष्टाः परिघबाहवः<br>द्रुपदं संजिघृक्षन्तः सायुधाः समुपाद्रवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१३</sup>तान्गृहीतशरावापान्क्रुद्धानापततो नृपान्<br>द्रुपदो वीक्ष्य संत्रासाद्ब्राह्मणाञ्शरणं गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१४</sup>वेगेनापततस्तांस्तु प्रभिन्नानिव वारणान्<br>पाण्डुपुत्रौ महावीर्यौ प्रतीयतुररिंदमौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१५</sup>ततः समुत्पेतुरुदायुधास्ते; महीक्षितो बद्धतलाङ्गुलित्राः<br>जिघांसमानाः कुरुराजपुत्रा;वमर्षयन्तोऽर्जुनभीमसेनौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१६</sup>ततस्तु भीमोऽद्भुतवीर्यकर्मा; महाबलो वज्रसमानवीर्यः<br>उत्पाट्य दोर्भ्यां द्रुममेकवीरो; निष्पत्रयामास यथा गजेन्द्रः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१७</sup>तं वृक्षमादाय रिपुप्रमाथी; दण्डीव दण्डं पितृराज उग्रम्<br>तस्थौ समीपे पुरुषर्षभस्य; पार्थस्य पार्थः पृथुदीर्घबाहुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१८</sup>तत्प्रेक्ष्य कर्मातिमनुष्यबुद्धे;र्जिष्णोः सहभ्रातुरचिन्त्यकर्मा<br>दामोदरो भ्रातरमुग्रवीर्यं; हलायुधं वाक्यमिदं बभाषे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.१९</sup>य एष मत्तर्षभतुल्यगामी; महद्धनुः कर्षति तालमात्रम्<br>एषोऽर्जुनो नात्र विचार्यमस्ति; यद्यस्मि संकर्षण वासुदेवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.२०</sup>य एष वृक्षं तरसावरुज्य; राज्ञां विकारे सहसा निवृत्तः<br>वृकोदरो नान्य इहैतदद्य; कर्तुं समर्थो भुवि मर्त्यधर्मा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.२१</sup>योऽसौ पुरस्तात्कमलायताक्ष;स्तनुर्महासिंहगतिर्विनीतः<br>गौरः प्रलम्बोज्ज्वलचारुघोणो; विनिःसृतः सोऽच्युत धर्मराजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.२२</sup>यौ तौ कुमाराविव कार्त्तिकेयौ; द्वावश्विनेयाविति मे प्रतर्कः<br>मुक्ता हि तस्माज्जतुवेश्मदाहा;न्मया श्रुताः पाण्डुसुताः पृथा च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१८०.२३</sup>तमब्रवीन्निर्मलतोयदाभो; हलायुधोऽनन्तरजं प्रतीतः<br>प्रीतोऽस्मि दिष्ट्या हि पितृष्वसा नः; पृथा विमुक्ता सह कौरवाग्र्यैः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

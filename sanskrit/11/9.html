@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/11/8.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>११:९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/11/10.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/11/8.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">११:९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/11/10.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.२</sup>गते भगवति व्यासे धृतराष्ट्रो महीपतिः<br>किमचेष्टत विप्रर्षे तन्मे व्याख्यातुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.४</sup>एतच्छ्रुत्वा नरश्रेष्ठ चिरं ध्यात्वा त्वचेतनः<br>संजयं योजयेत्युक्त्वा विदुरं प्रत्यभाषत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.५</sup>क्षिप्रमानय गान्धारीं सर्वाश्च भरतस्त्रियः<br>वधूं कुन्तीमुपादाय याश्चान्यास्तत्र योषितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.६</sup>एवमुक्त्वा स धर्मात्मा विदुरं धर्मवित्तमम्<br>शोकविप्रहतज्ञानो यानमेवान्वपद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.७</sup>गान्धारी चैव शोकार्ता भर्तुर्वचनचोदिता<br>सह कुन्त्या यतो राजा सह स्त्रीभिरुपाद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.८</sup>ताः समासाद्य राजानं भृशं शोकसमन्विताः<br>आमन्त्र्यान्योन्यमीयुः स्म भृशमुच्चुक्रुशुस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.९</sup>ताः समाश्वासयत्क्षत्ता ताभ्यश्चार्ततरः स्वयम्<br>अश्रुकण्ठीः समारोप्य ततोऽसौ निर्ययौ पुरात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१०</sup>ततः प्रणादः संजज्ञे सर्वेषु कुरुवेश्मसु<br>आकुमारं पुरं सर्वमभवच्छोककर्शितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.११</sup>अदृष्टपूर्वा या नार्यः पुरा देवगणैरपि<br>पृथग्जनेन दृश्यन्त तास्तदा निहतेश्वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१२</sup>प्रकीर्य केशान्सुशुभान्भूषणान्यवमुच्य च<br>एकवस्त्रधरा नार्यः परिपेतुरनाथवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१३</sup>श्वेतपर्वतरूपेभ्यो गृहेभ्यस्तास्त्वपाक्रमन्<br>गुहाभ्य इव शैलानां पृषत्यो हतयूथपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१४</sup>तान्युदीर्णानि नारीणां तदा वृन्दान्यनेकशः<br>शोकार्तान्यद्रवन्राजन्किशोरीणामिवाङ्गने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१५</sup>प्रगृह्य बाहून्क्रोशन्त्यः पुत्रान्भ्रातॄन्पितॄनपि<br>दर्शयन्तीव ता ह स्म युगान्ते लोकसंक्षयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१६</sup>विलपन्त्यो रुदन्त्यश्च धावमानास्ततस्ततः<br>शोकेनाभ्याहतज्ञानाः कर्तव्यं न प्रजज्ञिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१७</sup>व्रीडां जग्मुः पुरा याः स्म सखीनामपि योषितः<br>ता एकवस्त्रा निर्लज्जाः श्वश्रूणां पुरतोऽभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१८</sup>परस्परं सुसूक्ष्मेषु शोकेष्वाश्वासयन्स्म याः<br>ताः शोकविह्वला राजन्नुपैक्षन्त परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.१९</sup>ताभिः परिवृतो राजा रुदतीभिः सहस्रशः<br>निर्ययौ नगराद्दीनस्तूर्णमायोधनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.२०</sup>शिल्पिनो वणिजो वैश्याः सर्वकर्मोपजीविनः<br>ते पार्थिवं पुरस्कृत्य निर्ययुर्नगराद्बहिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.२१</sup>तासां विक्रोशमानानामार्तानां कुरुसंक्षये<br>प्रादुरासीन्महाञ्शब्दो व्यथयन्भुवनान्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.२२</sup>युगान्तकाले संप्राप्ते भूतानां दह्यतामिव<br>अभावः स्यादयं प्राप्त इति भूतानि मेनिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">११.९.२३</sup>भृशमुद्विग्नमनसस्ते पौराः कुरुसंक्षये<br>प्राक्रोशन्त महाराज स्वनुरक्तास्तदा भृशम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.२</sup>गते भगवति व्यासे धृतराष्ट्रो महीपतिः<br>किमचेष्टत विप्रर्षे तन्मे व्याख्यातुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.४</sup>एतच्छ्रुत्वा नरश्रेष्ठ चिरं ध्यात्वा त्वचेतनः<br>संजयं योजयेत्युक्त्वा विदुरं प्रत्यभाषत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.५</sup>क्षिप्रमानय गान्धारीं सर्वाश्च भरतस्त्रियः<br>वधूं कुन्तीमुपादाय याश्चान्यास्तत्र योषितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.६</sup>एवमुक्त्वा स धर्मात्मा विदुरं धर्मवित्तमम्<br>शोकविप्रहतज्ञानो यानमेवान्वपद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.७</sup>गान्धारी चैव शोकार्ता भर्तुर्वचनचोदिता<br>सह कुन्त्या यतो राजा सह स्त्रीभिरुपाद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.८</sup>ताः समासाद्य राजानं भृशं शोकसमन्विताः<br>आमन्त्र्यान्योन्यमीयुः स्म भृशमुच्चुक्रुशुस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.९</sup>ताः समाश्वासयत्क्षत्ता ताभ्यश्चार्ततरः स्वयम्<br>अश्रुकण्ठीः समारोप्य ततोऽसौ निर्ययौ पुरात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१०</sup>ततः प्रणादः संजज्ञे सर्वेषु कुरुवेश्मसु<br>आकुमारं पुरं सर्वमभवच्छोककर्शितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.११</sup>अदृष्टपूर्वा या नार्यः पुरा देवगणैरपि<br>पृथग्जनेन दृश्यन्त तास्तदा निहतेश्वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१२</sup>प्रकीर्य केशान्सुशुभान्भूषणान्यवमुच्य च<br>एकवस्त्रधरा नार्यः परिपेतुरनाथवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१३</sup>श्वेतपर्वतरूपेभ्यो गृहेभ्यस्तास्त्वपाक्रमन्<br>गुहाभ्य इव शैलानां पृषत्यो हतयूथपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१४</sup>तान्युदीर्णानि नारीणां तदा वृन्दान्यनेकशः<br>शोकार्तान्यद्रवन्राजन्किशोरीणामिवाङ्गने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१५</sup>प्रगृह्य बाहून्क्रोशन्त्यः पुत्रान्भ्रातॄन्पितॄनपि<br>दर्शयन्तीव ता ह स्म युगान्ते लोकसंक्षयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१६</sup>विलपन्त्यो रुदन्त्यश्च धावमानास्ततस्ततः<br>शोकेनाभ्याहतज्ञानाः कर्तव्यं न प्रजज्ञिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१७</sup>व्रीडां जग्मुः पुरा याः स्म सखीनामपि योषितः<br>ता एकवस्त्रा निर्लज्जाः श्वश्रूणां पुरतोऽभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१८</sup>परस्परं सुसूक्ष्मेषु शोकेष्वाश्वासयन्स्म याः<br>ताः शोकविह्वला राजन्नुपैक्षन्त परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.१९</sup>ताभिः परिवृतो राजा रुदतीभिः सहस्रशः<br>निर्ययौ नगराद्दीनस्तूर्णमायोधनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.२०</sup>शिल्पिनो वणिजो वैश्याः सर्वकर्मोपजीविनः<br>ते पार्थिवं पुरस्कृत्य निर्ययुर्नगराद्बहिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.२१</sup>तासां विक्रोशमानानामार्तानां कुरुसंक्षये<br>प्रादुरासीन्महाञ्शब्दो व्यथयन्भुवनान्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.२२</sup>युगान्तकाले संप्राप्ते भूतानां दह्यतामिव<br>अभावः स्यादयं प्राप्त इति भूतानि मेनिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">११.९.२३</sup>भृशमुद्विग्नमनसस्ते पौराः कुरुसंक्षये<br>प्राक्रोशन्त महाराज स्वनुरक्तास्तदा भृशम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

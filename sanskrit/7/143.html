@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/142.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:१४३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/144.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/142.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:१४३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/144.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२</sup>शतानीकं शरैस्तूर्णं निर्दहन्तं चमूं तव<br>चित्रसेनस्तव सुतो वारयामास भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३</sup>नाकुलिश्चित्रसेनं तु नाराचेनार्दयद्भृशम्<br>स च तं प्रतिविव्याध दशभिर्निशितैः शरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.४</sup>चित्रसेनो महाराज शतानीकं पुनर्युधि<br>नवभिर्निशितैर्बाणैराजघान स्तनान्तरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.५</sup>नाकुलिस्तस्य विशिखैर्वर्म संनतपर्वभिः<br>गात्रात्संच्यावयामास तदद्भुतमिवाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.६</sup>सोऽपेतवर्मा पुत्रस्ते विरराज भृशं नृप<br>उत्सृज्य काले राजेन्द्र निर्मोकमिव पन्नगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.७</sup>ततोऽस्य निशितैर्बाणैर्ध्वजं चिच्छेद नाकुलिः<br>धनुश्चैव महाराज यतमानस्य संयुगे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.८</sup>स छिन्नधन्वा समरे विवर्मा च महारथः<br>धनुरन्यन्महाराज जग्राहारिविदारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.९</sup>ततस्तूर्णं चित्रसेनो नाकुलिं नवभिः शरैः<br>विव्याध समरे क्रुद्धो भरतानां महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१०</sup>शतानीकोऽथ संक्रुद्धश्चित्रसेनस्य मारिष<br>जघान चतुरो वाहान्सारथिं च नरोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.११</sup>अवप्लुत्य रथात्तस्माच्चित्रसेनो महारथः<br>नाकुलिं पञ्चविंशत्या शराणामार्दयद्बली
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१२</sup>तस्य तत्कुर्वतः कर्म नकुलस्य सुतो रणे<br>अर्धचन्द्रेण चिच्छेद चापं रत्नविभूषितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१३</sup>स छिन्नधन्वा विरथो हताश्वो हतसारथिः<br>आरुरोह रथं तूर्णं हार्दिक्यस्य महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१४</sup>द्रुपदं तु सहानीकं द्रोणप्रेप्सुं महारथम्<br>वृषसेनोऽभ्ययात्तूर्णं किरञ्शरशतैस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१५</sup>यज्ञसेनस्तु समरे कर्णपुत्रं महारथम्<br>षष्ट्या शराणां विव्याध बाह्वोरुरसि चानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१६</sup>वृषसेनस्तु संक्रुद्धो यज्ञसेनं रथे स्थितम्<br>बहुभिः सायकैस्तीक्ष्णैराजघान स्तनान्तरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१७</sup>तावुभौ शरनुन्नाङ्गौ शरकण्टकिनौ रणे<br>व्यभ्राजेतां महाराज श्वाविधौ शललैरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१८</sup>रुक्मपुङ्खैरजिह्माग्रैः शरैश्छिन्नतनुच्छदौ<br>रुधिरौघपरिक्लिन्नौ व्यभ्राजेतां महामृधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.१९</sup>तपनीयनिभौ चित्रौ कल्पवृक्षाविवाद्भुतौ<br>किंशुकाविव चोत्फुल्लौ व्यकाशेतां रणाजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२०</sup>वृषसेनस्ततो राजन्नवभिर्द्रुपदं शरैः<br>विद्ध्वा विव्याध सप्तत्या पुनश्चान्यैस्त्रिभिः शरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२१</sup>ततः शरसहस्राणि विमुञ्चन्विबभौ तदा<br>कर्णपुत्रो महाराज वर्षमाण इवाम्बुदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२२</sup>ततस्तु द्रुपदानीकं शरैश्छिन्नतनुच्छदम्<br>संप्राद्रवद्रणे राजन्निशीथे भैरवे सति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२३</sup>प्रदीपैर्हि परित्यक्तैर्ज्वलद्भिस्तैः समन्ततः<br>व्यराजत मही राजन्वीताभ्रा द्यौरिव ग्रहैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२४</sup>तथाङ्गदैर्निपतितैर्व्यराजत वसुंधरा<br>प्रावृट्काले महाराज विद्युद्भिरिव तोयदः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२५</sup>ततः कर्णसुतत्रस्ताः सोमका विप्रदुद्रुवुः<br>यथेन्द्रभयवित्रस्ता दानवास्तारकामये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२६</sup>तेनार्द्यमानाः समरे द्रवमाणाश्च सोमकाः<br>व्यराजन्त महाराज प्रदीपैरवभासिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२७</sup>तांस्तु निर्जित्य समरे कर्णपुत्रो व्यरोचत<br>मध्यंदिनमनुप्राप्तो घर्मांशुरिव भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२८</sup>तेषु राजसहस्रेषु तावकेषु परेषु च<br>एक एव ज्वलंस्तस्थौ वृषसेनः प्रतापवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.२९</sup>स विजित्य रणे शूरान्सोमकानां महारथान्<br>जगाम त्वरितस्तत्र यत्र राजा युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३०</sup>प्रतिविन्ध्यमथ क्रुद्धं प्रदहन्तं रणे रिपून्<br>दुःशासनस्तव सुतः प्रत्युद्गच्छन्महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३१</sup>तयोः समागमो राजंश्चित्ररूपो बभूव ह<br>व्यपेतजलदे व्योम्नि बुधभार्गवयोरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३२</sup>प्रतिविन्ध्यं तु समरे कुर्वाणं कर्म दुष्करम्<br>दुःशासनस्त्रिभिर्बाणैर्ललाटे समविध्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३३</sup>सोऽतिविद्धो बलवता पुत्रेण तव धन्विना<br>विरराज महाबाहुः सशृङ्ग इव पर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३४</sup>दुःशासनं तु समरे प्रतिविन्ध्यो महारथः<br>नवभिः सायकैर्विद्ध्वा पुनर्विव्याध सप्तभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३५</sup>तत्र भारत पुत्रस्ते कृतवान्कर्म दुष्करम्<br>प्रतिविन्ध्यहयानुग्रैः पातयामास यच्छरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३६</sup>सारथिं चास्य भल्लेन ध्वजं च समपातयत्<br>रथं च शतशो राजन्व्यधमत्तस्य धन्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३७</sup>पताकाश्च स तूणीरान्रश्मीन्योक्त्राणि चाभिभो<br>चिच्छेद तिलशः क्रुद्धः शरैः संनतपर्वभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३८</sup>विरथः स तु धर्मात्मा धनुष्पाणिरवस्थितः<br>अयोधयत्तव सुतं किरञ्शरशतान्बहून्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.३९</sup>क्षुरप्रेण धनुस्तस्य चिच्छेद कृतहस्तवत्<br>अथैनं दशभिर्भल्लैश्छिन्नधन्वानमार्दयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.४०</sup>तं दृष्ट्वा विरथं तत्र भ्रातरोऽस्य महारथाः<br>अन्ववर्तन्त वेगेन महत्या सेनया सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.४१</sup>आप्लुतः स ततो यानं सुतसोमस्य भास्वरम्<br>धनुर्गृह्य महाराज विव्याध तनयं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.४२</sup>ततस्तु तावकाः सर्वे परिवार्य सुतं तव<br>अभ्यवर्तन्त संग्रामे महत्या सेनया वृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१४३.४३</sup>ततः प्रववृते युद्धं तव तेषां च भारत<br>निशीथे दारुणे काले यमराष्ट्रविवर्धनम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२</sup>शतानीकं शरैस्तूर्णं निर्दहन्तं चमूं तव<br>चित्रसेनस्तव सुतो वारयामास भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३</sup>नाकुलिश्चित्रसेनं तु नाराचेनार्दयद्भृशम्<br>स च तं प्रतिविव्याध दशभिर्निशितैः शरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.४</sup>चित्रसेनो महाराज शतानीकं पुनर्युधि<br>नवभिर्निशितैर्बाणैराजघान स्तनान्तरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.५</sup>नाकुलिस्तस्य विशिखैर्वर्म संनतपर्वभिः<br>गात्रात्संच्यावयामास तदद्भुतमिवाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.६</sup>सोऽपेतवर्मा पुत्रस्ते विरराज भृशं नृप<br>उत्सृज्य काले राजेन्द्र निर्मोकमिव पन्नगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.७</sup>ततोऽस्य निशितैर्बाणैर्ध्वजं चिच्छेद नाकुलिः<br>धनुश्चैव महाराज यतमानस्य संयुगे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.८</sup>स छिन्नधन्वा समरे विवर्मा च महारथः<br>धनुरन्यन्महाराज जग्राहारिविदारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.९</sup>ततस्तूर्णं चित्रसेनो नाकुलिं नवभिः शरैः<br>विव्याध समरे क्रुद्धो भरतानां महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१०</sup>शतानीकोऽथ संक्रुद्धश्चित्रसेनस्य मारिष<br>जघान चतुरो वाहान्सारथिं च नरोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.११</sup>अवप्लुत्य रथात्तस्माच्चित्रसेनो महारथः<br>नाकुलिं पञ्चविंशत्या शराणामार्दयद्बली
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१२</sup>तस्य तत्कुर्वतः कर्म नकुलस्य सुतो रणे<br>अर्धचन्द्रेण चिच्छेद चापं रत्नविभूषितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१३</sup>स छिन्नधन्वा विरथो हताश्वो हतसारथिः<br>आरुरोह रथं तूर्णं हार्दिक्यस्य महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१४</sup>द्रुपदं तु सहानीकं द्रोणप्रेप्सुं महारथम्<br>वृषसेनोऽभ्ययात्तूर्णं किरञ्शरशतैस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१५</sup>यज्ञसेनस्तु समरे कर्णपुत्रं महारथम्<br>षष्ट्या शराणां विव्याध बाह्वोरुरसि चानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१६</sup>वृषसेनस्तु संक्रुद्धो यज्ञसेनं रथे स्थितम्<br>बहुभिः सायकैस्तीक्ष्णैराजघान स्तनान्तरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१७</sup>तावुभौ शरनुन्नाङ्गौ शरकण्टकिनौ रणे<br>व्यभ्राजेतां महाराज श्वाविधौ शललैरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१८</sup>रुक्मपुङ्खैरजिह्माग्रैः शरैश्छिन्नतनुच्छदौ<br>रुधिरौघपरिक्लिन्नौ व्यभ्राजेतां महामृधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.१९</sup>तपनीयनिभौ चित्रौ कल्पवृक्षाविवाद्भुतौ<br>किंशुकाविव चोत्फुल्लौ व्यकाशेतां रणाजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२०</sup>वृषसेनस्ततो राजन्नवभिर्द्रुपदं शरैः<br>विद्ध्वा विव्याध सप्तत्या पुनश्चान्यैस्त्रिभिः शरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२१</sup>ततः शरसहस्राणि विमुञ्चन्विबभौ तदा<br>कर्णपुत्रो महाराज वर्षमाण इवाम्बुदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२२</sup>ततस्तु द्रुपदानीकं शरैश्छिन्नतनुच्छदम्<br>संप्राद्रवद्रणे राजन्निशीथे भैरवे सति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२३</sup>प्रदीपैर्हि परित्यक्तैर्ज्वलद्भिस्तैः समन्ततः<br>व्यराजत मही राजन्वीताभ्रा द्यौरिव ग्रहैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२४</sup>तथाङ्गदैर्निपतितैर्व्यराजत वसुंधरा<br>प्रावृट्काले महाराज विद्युद्भिरिव तोयदः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२५</sup>ततः कर्णसुतत्रस्ताः सोमका विप्रदुद्रुवुः<br>यथेन्द्रभयवित्रस्ता दानवास्तारकामये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२६</sup>तेनार्द्यमानाः समरे द्रवमाणाश्च सोमकाः<br>व्यराजन्त महाराज प्रदीपैरवभासिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२७</sup>तांस्तु निर्जित्य समरे कर्णपुत्रो व्यरोचत<br>मध्यंदिनमनुप्राप्तो घर्मांशुरिव भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२८</sup>तेषु राजसहस्रेषु तावकेषु परेषु च<br>एक एव ज्वलंस्तस्थौ वृषसेनः प्रतापवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.२९</sup>स विजित्य रणे शूरान्सोमकानां महारथान्<br>जगाम त्वरितस्तत्र यत्र राजा युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३०</sup>प्रतिविन्ध्यमथ क्रुद्धं प्रदहन्तं रणे रिपून्<br>दुःशासनस्तव सुतः प्रत्युद्गच्छन्महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३१</sup>तयोः समागमो राजंश्चित्ररूपो बभूव ह<br>व्यपेतजलदे व्योम्नि बुधभार्गवयोरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३२</sup>प्रतिविन्ध्यं तु समरे कुर्वाणं कर्म दुष्करम्<br>दुःशासनस्त्रिभिर्बाणैर्ललाटे समविध्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३३</sup>सोऽतिविद्धो बलवता पुत्रेण तव धन्विना<br>विरराज महाबाहुः सशृङ्ग इव पर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३४</sup>दुःशासनं तु समरे प्रतिविन्ध्यो महारथः<br>नवभिः सायकैर्विद्ध्वा पुनर्विव्याध सप्तभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३५</sup>तत्र भारत पुत्रस्ते कृतवान्कर्म दुष्करम्<br>प्रतिविन्ध्यहयानुग्रैः पातयामास यच्छरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३६</sup>सारथिं चास्य भल्लेन ध्वजं च समपातयत्<br>रथं च शतशो राजन्व्यधमत्तस्य धन्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३७</sup>पताकाश्च स तूणीरान्रश्मीन्योक्त्राणि चाभिभो<br>चिच्छेद तिलशः क्रुद्धः शरैः संनतपर्वभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३८</sup>विरथः स तु धर्मात्मा धनुष्पाणिरवस्थितः<br>अयोधयत्तव सुतं किरञ्शरशतान्बहून्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.३९</sup>क्षुरप्रेण धनुस्तस्य चिच्छेद कृतहस्तवत्<br>अथैनं दशभिर्भल्लैश्छिन्नधन्वानमार्दयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.४०</sup>तं दृष्ट्वा विरथं तत्र भ्रातरोऽस्य महारथाः<br>अन्ववर्तन्त वेगेन महत्या सेनया सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.४१</sup>आप्लुतः स ततो यानं सुतसोमस्य भास्वरम्<br>धनुर्गृह्य महाराज विव्याध तनयं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.४२</sup>ततस्तु तावकाः सर्वे परिवार्य सुतं तव<br>अभ्यवर्तन्त संग्रामे महत्या सेनया वृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१४३.४३</sup>ततः प्रववृते युद्धं तव तेषां च भारत<br>निशीथे दारुणे काले यमराष्ट्रविवर्धनम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

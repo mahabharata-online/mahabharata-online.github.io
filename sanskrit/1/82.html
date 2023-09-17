@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/81.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:८२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/83.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,91 +64,56 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/81.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:८२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/83.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.२</sup>स्वर्गतः स तु राजेन्द्रो निवसन्देवसद्मनि<br>पूजितस्त्रिदशैः साध्यैर्मरुद्भिर्वसुभिस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.३</sup>देवलोकाद्ब्रह्मलोकं संचरन्पुण्यकृद्वशी<br>अवसत्पृथिवीपालो दीर्घकालमिति श्रुतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.४</sup>स कदाचिन्नृपश्रेष्ठो ययातिः शक्रमागमत्<br>कथान्ते तत्र शक्रेण पृष्टः स पृथिवीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.५</sup>शक्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.६</sup>यदा स पूरुस्तव रूपेण राज;ञ्जरां गृहीत्वा प्रचचार भूमौ<br>तदा राज्यं संप्रदायैव तस्मै; त्वया किमुक्तः कथयेह सत्यम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.७</sup>ययातिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.८</sup>गङ्गायमुनयोर्मध्ये कृत्स्नोऽयं विषयस्तव<br>मध्ये पृथिव्यास्त्वं राजा भ्रातरोऽन्त्याधिपास्तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.९</sup>अक्रोधनः क्रोधनेभ्यो विशिष्ट;स्तथा तितिक्षुरतितिक्षोर्विशिष्टः<br>अमानुषेभ्यो मानुषाश्च प्रधाना; विद्वांस्तथैवाविदुषः प्रधानः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१०</sup>आक्रुश्यमानो नाक्रोशेन्मन्युरेव तितिक्षतः<br>आक्रोष्टारं निर्दहति सुकृतं चास्य विन्दति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.११</sup>नारुंतुदः स्यान्न नृशंसवादी; न हीनतः परमभ्याददीत<br>ययास्य वाचा पर उद्विजेत; न तां वदेद्रुशतीं पापलोक्याम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१२</sup>अरुंतुदं पुरुषं रूक्षवाचं; वाक्कण्टकैर्वितुदन्तं मनुष्यान्<br>विद्यादलक्ष्मीकतमं जनानां; मुखे निबद्धां निरृतिं वहन्तम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१३</sup>सद्भिः पुरस्तादभिपूजितः स्या;त्सद्भिस्तथा पृष्ठतो रक्षितः स्यात्<br>सदासतामतिवादांस्तितिक्षे;त्सतां वृत्तं चाददीतार्यवृत्तः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१४</sup>वाक्सायका वदनान्निष्पतन्ति; यैराहतः शोचति रात्र्यहानि<br>परस्य वा मर्मसु ये पतन्ति; तान्पण्डितो नावसृजेत्परेषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१५</sup>न हीदृशं संवननं त्रिषु लोकेषु विद्यते<br>यथा मैत्री च भूतेषु दानं च मधुरा च वाक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.८२.१६</sup>तस्मात्सान्त्वं सदा वाच्यं न वाच्यं परुषं क्वचित्<br>पूज्यान्संपूजयेद्दद्यान्न च याचेत्कदाचन
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.२</sup>स्वर्गतः स तु राजेन्द्रो निवसन्देवसद्मनि<br>पूजितस्त्रिदशैः साध्यैर्मरुद्भिर्वसुभिस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.३</sup>देवलोकाद्ब्रह्मलोकं संचरन्पुण्यकृद्वशी<br>अवसत्पृथिवीपालो दीर्घकालमिति श्रुतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.४</sup>स कदाचिन्नृपश्रेष्ठो ययातिः शक्रमागमत्<br>कथान्ते तत्र शक्रेण पृष्टः स पृथिवीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.५</sup>शक्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.६</sup>यदा स पूरुस्तव रूपेण राज;ञ्जरां गृहीत्वा प्रचचार भूमौ<br>तदा राज्यं संप्रदायैव तस्मै; त्वया किमुक्तः कथयेह सत्यम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.७</sup>ययातिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.८</sup>गङ्गायमुनयोर्मध्ये कृत्स्नोऽयं विषयस्तव<br>मध्ये पृथिव्यास्त्वं राजा भ्रातरोऽन्त्याधिपास्तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.९</sup>अक्रोधनः क्रोधनेभ्यो विशिष्ट;स्तथा तितिक्षुरतितिक्षोर्विशिष्टः<br>अमानुषेभ्यो मानुषाश्च प्रधाना; विद्वांस्तथैवाविदुषः प्रधानः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१०</sup>आक्रुश्यमानो नाक्रोशेन्मन्युरेव तितिक्षतः<br>आक्रोष्टारं निर्दहति सुकृतं चास्य विन्दति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.११</sup>नारुंतुदः स्यान्न नृशंसवादी; न हीनतः परमभ्याददीत<br>ययास्य वाचा पर उद्विजेत; न तां वदेद्रुशतीं पापलोक्याम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१२</sup>अरुंतुदं पुरुषं रूक्षवाचं; वाक्कण्टकैर्वितुदन्तं मनुष्यान्<br>विद्यादलक्ष्मीकतमं जनानां; मुखे निबद्धां निरृतिं वहन्तम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१३</sup>सद्भिः पुरस्तादभिपूजितः स्या;त्सद्भिस्तथा पृष्ठतो रक्षितः स्यात्<br>सदासतामतिवादांस्तितिक्षे;त्सतां वृत्तं चाददीतार्यवृत्तः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१४</sup>वाक्सायका वदनान्निष्पतन्ति; यैराहतः शोचति रात्र्यहानि<br>परस्य वा मर्मसु ये पतन्ति; तान्पण्डितो नावसृजेत्परेषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१५</sup>न हीदृशं संवननं त्रिषु लोकेषु विद्यते<br>यथा मैत्री च भूतेषु दानं च मधुरा च वाक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.८२.१६</sup>तस्मात्सान्त्वं सदा वाच्यं न वाच्यं परुषं क्वचित्<br>पूज्यान्संपूजयेद्दद्यान्न च याचेत्कदाचन
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -129,8 +122,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

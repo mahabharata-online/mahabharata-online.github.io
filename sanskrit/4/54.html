@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/53.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:५४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/55.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/53.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:५४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/55.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.२</sup>तं पार्थः प्रतिजग्राह वायुवेगमिवोद्धतम्<br>शरजालेन महता वर्षमाणमिवाम्बुदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.३</sup>तयोर्देवासुरसमः संनिपातो महानभूत्<br>किरतोः शरजालानि वृत्रवासवयोरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.४</sup>न स्म सूर्यस्तदा भाति न च वाति समीरणः<br>शरगाढे कृते व्योम्नि छायाभूते समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.५</sup>महांश्चटचटाशब्दो योधयोर्हन्यमानयोः<br>दह्यतामिव वेणूनामासीत्परपुरंजय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.६</sup>हयानस्यार्जुनः सर्वान्कृतवानल्पजीवितान्<br>स राजन्न प्रजानाति दिशं कांचन मोहितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.७</sup>ततो द्रौणिर्महावीर्यः पार्थस्य विचरिष्यतः<br>विवरं सूक्ष्ममालोक्य ज्यां चिच्छेद क्षुरेण ह<br>तदस्यापूजयन्देवाः कर्म दृष्ट्वातिमानुषम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.८</sup>ततो द्रौणिर्धनूंष्यष्टौ व्यपक्रम्य नरर्षभम्<br>पुनरभ्याहनत्पार्थं हृदये कङ्कपत्रिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.९</sup>ततः पार्थो महाबाहुः प्रहस्य स्वनवत्तदा<br>योजयामास नवया मौर्व्या गाण्डीवमोजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१०</sup>ततोऽर्धचन्द्रमावृत्य तेन पार्थः समागमत्<br>वारणेनेव मत्तेन मत्तो वारणयूथपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.११</sup>ततः प्रववृते युद्धं पृथिव्यामेकवीरयोः<br>रणमध्ये द्वयोरेव सुमहल्लोमहर्षणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१२</sup>तौ वीरौ कुरवः सर्वे ददृशुर्विस्मयान्विताः<br>युध्यमानौ महात्मानौ यूथपाविव संगतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१३</sup>तौ समाजघ्नतुर्वीरावन्योन्यं पुरुषर्षभौ<br>शरैराशीविषाकारैर्ज्वलद्भिरिव पन्नगैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१४</sup>अक्षय्याविषुधी दिव्यौ पाण्डवस्य महात्मनः<br>तेन पार्थो रणे शूरस्तस्थौ गिरिरिवाचलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१५</sup>अश्वत्थाम्नः पुनर्बाणाः क्षिप्रमभ्यस्यतो रणे<br>जग्मुः परिक्षयं शीघ्रमभूत्तेनाधिकोऽर्जुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१६</sup>ततः कर्णो महच्चापं विकृष्याभ्यधिकं रुषा<br>अवाक्षिपत्ततः शब्दो हाहाकारो महानभूत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१७</sup>तत्र चक्षुर्दधे पार्थो यत्र विस्फार्यते धनुः<br>ददर्श तत्र राधेयं तस्य कोपोऽत्यवीवृधत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१८</sup>स रोषवशमापन्नः कर्णमेव जिघांसया<br>अवैक्षत विवृत्ताभ्यां नेत्राभ्यां कुरुपुंगवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.१९</sup>तथा तु विमुखे पार्थे द्रोणपुत्रस्य सायकान्<br>त्वरिताः पुरुषा राजन्नुपाजह्रुः सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.२०</sup>उत्सृज्य च महाबाहुर्द्रोणपुत्रं धनंजयः<br>अभिदुद्राव सहसा कर्णमेव सपत्नजित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.५४.२१</sup>तमभिद्रुत्य कौन्तेयः क्रोधसंरक्तलोचनः<br>कामयन्द्वैरथे युद्धमिदं वचनमब्रवीत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.२</sup>तं पार्थः प्रतिजग्राह वायुवेगमिवोद्धतम्<br>शरजालेन महता वर्षमाणमिवाम्बुदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.३</sup>तयोर्देवासुरसमः संनिपातो महानभूत्<br>किरतोः शरजालानि वृत्रवासवयोरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.४</sup>न स्म सूर्यस्तदा भाति न च वाति समीरणः<br>शरगाढे कृते व्योम्नि छायाभूते समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.५</sup>महांश्चटचटाशब्दो योधयोर्हन्यमानयोः<br>दह्यतामिव वेणूनामासीत्परपुरंजय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.६</sup>हयानस्यार्जुनः सर्वान्कृतवानल्पजीवितान्<br>स राजन्न प्रजानाति दिशं कांचन मोहितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.७</sup>ततो द्रौणिर्महावीर्यः पार्थस्य विचरिष्यतः<br>विवरं सूक्ष्ममालोक्य ज्यां चिच्छेद क्षुरेण ह<br>तदस्यापूजयन्देवाः कर्म दृष्ट्वातिमानुषम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.८</sup>ततो द्रौणिर्धनूंष्यष्टौ व्यपक्रम्य नरर्षभम्<br>पुनरभ्याहनत्पार्थं हृदये कङ्कपत्रिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.९</sup>ततः पार्थो महाबाहुः प्रहस्य स्वनवत्तदा<br>योजयामास नवया मौर्व्या गाण्डीवमोजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१०</sup>ततोऽर्धचन्द्रमावृत्य तेन पार्थः समागमत्<br>वारणेनेव मत्तेन मत्तो वारणयूथपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.११</sup>ततः प्रववृते युद्धं पृथिव्यामेकवीरयोः<br>रणमध्ये द्वयोरेव सुमहल्लोमहर्षणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१२</sup>तौ वीरौ कुरवः सर्वे ददृशुर्विस्मयान्विताः<br>युध्यमानौ महात्मानौ यूथपाविव संगतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१३</sup>तौ समाजघ्नतुर्वीरावन्योन्यं पुरुषर्षभौ<br>शरैराशीविषाकारैर्ज्वलद्भिरिव पन्नगैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१४</sup>अक्षय्याविषुधी दिव्यौ पाण्डवस्य महात्मनः<br>तेन पार्थो रणे शूरस्तस्थौ गिरिरिवाचलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१५</sup>अश्वत्थाम्नः पुनर्बाणाः क्षिप्रमभ्यस्यतो रणे<br>जग्मुः परिक्षयं शीघ्रमभूत्तेनाधिकोऽर्जुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१६</sup>ततः कर्णो महच्चापं विकृष्याभ्यधिकं रुषा<br>अवाक्षिपत्ततः शब्दो हाहाकारो महानभूत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१७</sup>तत्र चक्षुर्दधे पार्थो यत्र विस्फार्यते धनुः<br>ददर्श तत्र राधेयं तस्य कोपोऽत्यवीवृधत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१८</sup>स रोषवशमापन्नः कर्णमेव जिघांसया<br>अवैक्षत विवृत्ताभ्यां नेत्राभ्यां कुरुपुंगवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.१९</sup>तथा तु विमुखे पार्थे द्रोणपुत्रस्य सायकान्<br>त्वरिताः पुरुषा राजन्नुपाजह्रुः सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.२०</sup>उत्सृज्य च महाबाहुर्द्रोणपुत्रं धनंजयः<br>अभिदुद्राव सहसा कर्णमेव सपत्नजित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.५४.२१</sup>तमभिद्रुत्य कौन्तेयः क्रोधसंरक्तलोचनः<br>कामयन्द्वैरथे युद्धमिदं वचनमब्रवीत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

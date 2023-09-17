@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/162.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१६३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/164.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/162.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१६३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/164.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२</sup>तस्यां निशायां व्युष्टायां गते तस्मिन्द्विजोत्तमे<br>निष्क्रम्य गौतमोऽगच्छत्समुद्रं प्रति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.३</sup>सामुद्रकान्स वणिजस्ततोऽपश्यत्स्थितान्पथि<br>स तेन सार्थेन सह प्रययौ सागरं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.४</sup>स तु सार्थो महाराज कस्मिंश्चिद्गिरिगह्वरे<br>मत्तेन द्विरदेनाथ निहतः प्रायशोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.५</sup>स कथंचित्ततस्तस्मात्सार्थान्मुक्तो द्विजस्तदा<br>कांदिग्भूतो जीवितार्थी प्रदुद्रावोत्तरां दिशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.६</sup>स सर्वतः परिभ्रष्टः सार्थाद्देशात्तथार्थतः<br>एकाकी व्यद्रवत्तत्र वने किंपुरुषो यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.७</sup>स पन्थानमथासाद्य समुद्राभिसरं तदा<br>आससाद वनं रम्यं महत्पुष्पितपादपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.८</sup>सर्वर्तुकैराम्रवनैः पुष्पितैरुपशोभितम्<br>नन्दनोद्देशसदृशं यक्षकिंनरसेवितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.९</sup>शालतालधवाश्वत्थत्वचागुरुवनैस्तथा<br>चन्दनस्य च मुख्यस्य पादपैरुपशोभितम्<br>गिरिप्रस्थेषु रम्येषु शुभेषु सुसुगन्धिषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१०</sup>समन्ततो द्विजश्रेष्ठा वल्गु कूजन्ति तत्र वै<br>मनुष्यवदनास्त्वन्ये भारुण्डा इति विश्रुताः<br>भूलिङ्गशकुनाश्चान्ये समुद्रं सर्वतोऽभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.११</sup>स तान्यतिमनोज्ञानि विहंगाभिरुतानि वै<br>शृण्वन्सुरमणीयानि विप्रोऽगच्छत गौतमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१२</sup>ततोऽपश्यत्सुरम्ये स सुवर्णसिकताचिते<br>देशभागे समे चित्रे स्वर्गोद्देशसमप्रभे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१३</sup>श्रिया जुष्टं महावृक्षं न्यग्रोधं परिमण्डलम्<br>शाखाभिरनुरूपाभिर्भूषितं छत्रसंनिभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१४</sup>तस्य मूलं सुसंसिक्तं वरचन्दनवारिणा<br>दिव्यपुष्पान्वितं श्रीमत्पितामहसदोपमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१५</sup>तं दृष्ट्वा गौतमः प्रीतो मुनिकान्तमनुत्तमम्<br>मेध्यं सुरगृहप्रख्यं पुष्पितैः पादपैर्वृतम्<br>तमागम्य मुदा युक्तस्तस्याधस्तादुपाविशत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१६</sup>तत्रासीनस्य कौरव्य गौतमस्य सुखः शिवः<br>पुष्पाणि समुपस्पृश्य प्रववावनिलः शुचिः<br>ह्लादयन्सर्वगात्राणि गौतमस्य तदा नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१७</sup>स तु विप्रः परिश्रान्तः स्पृष्टः पुण्येन वायुना<br>सुखमासाद्य सुष्वाप भास्करश्चास्तमभ्यगात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१८</sup>ततोऽस्तं भास्करे याते संध्याकाल उपस्थिते<br>आजगाम स्वभवनं ब्रह्मलोकात्खगोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.१९</sup>नाडीजङ्घ इति ख्यातो दयितो ब्रह्मणः सखा<br>बकराजो महाप्राज्ञः कश्यपस्यात्मसंभवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२०</sup>राजधर्मेति विख्यातो बभूवाप्रतिमो भुवि<br>देवकन्यासुतः श्रीमान्विद्वान्देवपतिप्रभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२१</sup>मृष्टहाटकसंछन्नो भूषणैरर्कसंनिभैः<br>भूषितः सर्वगात्रेषु देवगर्भः श्रिया ज्वलन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२२</sup>तमागतं द्विजं दृष्ट्वा विस्मितो गौतमोऽभवत्<br>क्षुत्पिपासापरीतात्मा हिंसार्थी चाप्यवैक्षत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२३</sup>राजधर्मोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२४</sup>स्वागतं भवते विप्र दिष्ट्या प्राप्तोऽसि मे गृहम्<br>अस्तं च सविता यातः संध्येयं समुपस्थिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१६३.२५</sup>मम त्वं निलयं प्राप्तः प्रियातिथिरनिन्दितः<br>पूजितो यास्यसि प्रातर्विधिदृष्टेन कर्मणा
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२</sup>तस्यां निशायां व्युष्टायां गते तस्मिन्द्विजोत्तमे<br>निष्क्रम्य गौतमोऽगच्छत्समुद्रं प्रति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.३</sup>सामुद्रकान्स वणिजस्ततोऽपश्यत्स्थितान्पथि<br>स तेन सार्थेन सह प्रययौ सागरं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.४</sup>स तु सार्थो महाराज कस्मिंश्चिद्गिरिगह्वरे<br>मत्तेन द्विरदेनाथ निहतः प्रायशोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.५</sup>स कथंचित्ततस्तस्मात्सार्थान्मुक्तो द्विजस्तदा<br>कांदिग्भूतो जीवितार्थी प्रदुद्रावोत्तरां दिशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.६</sup>स सर्वतः परिभ्रष्टः सार्थाद्देशात्तथार्थतः<br>एकाकी व्यद्रवत्तत्र वने किंपुरुषो यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.७</sup>स पन्थानमथासाद्य समुद्राभिसरं तदा<br>आससाद वनं रम्यं महत्पुष्पितपादपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.८</sup>सर्वर्तुकैराम्रवनैः पुष्पितैरुपशोभितम्<br>नन्दनोद्देशसदृशं यक्षकिंनरसेवितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.९</sup>शालतालधवाश्वत्थत्वचागुरुवनैस्तथा<br>चन्दनस्य च मुख्यस्य पादपैरुपशोभितम्<br>गिरिप्रस्थेषु रम्येषु शुभेषु सुसुगन्धिषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१०</sup>समन्ततो द्विजश्रेष्ठा वल्गु कूजन्ति तत्र वै<br>मनुष्यवदनास्त्वन्ये भारुण्डा इति विश्रुताः<br>भूलिङ्गशकुनाश्चान्ये समुद्रं सर्वतोऽभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.११</sup>स तान्यतिमनोज्ञानि विहंगाभिरुतानि वै<br>शृण्वन्सुरमणीयानि विप्रोऽगच्छत गौतमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१२</sup>ततोऽपश्यत्सुरम्ये स सुवर्णसिकताचिते<br>देशभागे समे चित्रे स्वर्गोद्देशसमप्रभे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१३</sup>श्रिया जुष्टं महावृक्षं न्यग्रोधं परिमण्डलम्<br>शाखाभिरनुरूपाभिर्भूषितं छत्रसंनिभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१४</sup>तस्य मूलं सुसंसिक्तं वरचन्दनवारिणा<br>दिव्यपुष्पान्वितं श्रीमत्पितामहसदोपमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१५</sup>तं दृष्ट्वा गौतमः प्रीतो मुनिकान्तमनुत्तमम्<br>मेध्यं सुरगृहप्रख्यं पुष्पितैः पादपैर्वृतम्<br>तमागम्य मुदा युक्तस्तस्याधस्तादुपाविशत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१६</sup>तत्रासीनस्य कौरव्य गौतमस्य सुखः शिवः<br>पुष्पाणि समुपस्पृश्य प्रववावनिलः शुचिः<br>ह्लादयन्सर्वगात्राणि गौतमस्य तदा नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१७</sup>स तु विप्रः परिश्रान्तः स्पृष्टः पुण्येन वायुना<br>सुखमासाद्य सुष्वाप भास्करश्चास्तमभ्यगात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१८</sup>ततोऽस्तं भास्करे याते संध्याकाल उपस्थिते<br>आजगाम स्वभवनं ब्रह्मलोकात्खगोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.१९</sup>नाडीजङ्घ इति ख्यातो दयितो ब्रह्मणः सखा<br>बकराजो महाप्राज्ञः कश्यपस्यात्मसंभवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२०</sup>राजधर्मेति विख्यातो बभूवाप्रतिमो भुवि<br>देवकन्यासुतः श्रीमान्विद्वान्देवपतिप्रभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२१</sup>मृष्टहाटकसंछन्नो भूषणैरर्कसंनिभैः<br>भूषितः सर्वगात्रेषु देवगर्भः श्रिया ज्वलन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२२</sup>तमागतं द्विजं दृष्ट्वा विस्मितो गौतमोऽभवत्<br>क्षुत्पिपासापरीतात्मा हिंसार्थी चाप्यवैक्षत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२३</sup>राजधर्मोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२४</sup>स्वागतं भवते विप्र दिष्ट्या प्राप्तोऽसि मे गृहम्<br>अस्तं च सविता यातः संध्येयं समुपस्थिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१६३.२५</sup>मम त्वं निलयं प्राप्तः प्रियातिथिरनिन्दितः<br>पूजितो यास्यसि प्रातर्विधिदृष्टेन कर्मणा
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

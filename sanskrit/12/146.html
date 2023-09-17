@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/145.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:१४६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/147.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,103 +64,68 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/145.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:१४६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/147.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.२</sup>अबुद्धिपूर्वं यः पापं कुर्याद्भरतसत्तम<br>मुच्यते स कथं तस्मादेनसस्तद्वदस्व मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.३</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.४</sup>अत्र ते वर्णयिष्येऽहमितिहासं पुरातनम्<br>इन्द्रोतः शौनको विप्रो यदाह जनमेजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.५</sup>आसीद्राजा महावीर्यः पारिक्षिज्जनमेजयः<br>अबुद्धिपूर्वं ब्रह्महत्या तमागच्छन्महीपतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.६</sup>तं ब्राह्मणाः सर्व एव तत्यजुः सपुरोहिताः<br>जगाम स वनं राजा दह्यमानो दिवानिशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.७</sup>स प्रजाभिः परित्यक्तश्चकार कुशलं महत्<br>अतिवेलं तपस्तेपे दह्यमानः स मन्युना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.८</sup>तत्रेतिहासं वक्ष्यामि धर्मस्यास्योपबृंहणम्<br>दह्यमानः पापकृत्या जगाम जनमेजयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.९</sup>वरिष्यमाण इन्द्रोतं शौनकं संशितव्रतम्<br>समासाद्योपजग्राह पादयोः परिपीडयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१०</sup>ततो भीतो महाप्राज्ञो जगर्हे सुभृशं तदा<br>कर्ता पापस्य महतो भ्रूणहा किमिहागतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.११</sup>किं तवास्मासु कर्तव्यं मा मा स्प्राक्षीः कथंचन<br>गच्छ गच्छ न ते स्थानं प्रीणात्यस्मानिह ध्रुवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१२</sup>रुधिरस्येव ते गन्धः शवस्येव च दर्शनम्<br>अशिवः शिवसंकाशो मृतो जीवन्निवाटसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१३</sup>अन्तर्मृत्युरशुद्धात्मा पापमेवानुचिन्तयन्<br>प्रबुध्यसे प्रस्वपिषि वर्तसे चरसे सुखी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१४</sup>मोघं ते जीवितं राजन्परिक्लिष्टं च जीवसि<br>पापायेव च सृष्टोऽसि कर्मणे ह यवीयसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१५</sup>बहु कल्याणमिच्छन्त ईहन्ते पितरः सुतान्<br>तपसा देवतेज्याभिर्वन्दनेन तितिक्षया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१६</sup>पितृवंशमिमं पश्य त्वत्कृते नरकं गतम्<br>निरर्थाः सर्व एवैषामाशाबन्धास्त्वदाश्रयाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१७</sup>यान्पूजयन्तो विन्दन्ति स्वर्गमायुर्यशः सुखम्<br>तेषु ते सततं द्वेषो ब्राह्मणेषु निरर्थकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१८</sup>इमं लोकं विमुच्य त्वमवाङ्मूर्धा पतिष्यसि<br>अशाश्वतीः शाश्वतीश्च समाः पापेन कर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.१९</sup>अद्यमानो जन्तुगृध्रैः शितिकण्ठैरयोमुखैः<br>ततोऽपि पुनरावृत्तः पापयोनिं गमिष्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.१४६.२०</sup>यदिदं मन्यसे राजन्नायमस्ति परः कुतः<br>प्रतिस्मारयितारस्त्वां यमदूता यमक्षये
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.२</sup>अबुद्धिपूर्वं यः पापं कुर्याद्भरतसत्तम<br>मुच्यते स कथं तस्मादेनसस्तद्वदस्व मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.३</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.४</sup>अत्र ते वर्णयिष्येऽहमितिहासं पुरातनम्<br>इन्द्रोतः शौनको विप्रो यदाह जनमेजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.५</sup>आसीद्राजा महावीर्यः पारिक्षिज्जनमेजयः<br>अबुद्धिपूर्वं ब्रह्महत्या तमागच्छन्महीपतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.६</sup>तं ब्राह्मणाः सर्व एव तत्यजुः सपुरोहिताः<br>जगाम स वनं राजा दह्यमानो दिवानिशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.७</sup>स प्रजाभिः परित्यक्तश्चकार कुशलं महत्<br>अतिवेलं तपस्तेपे दह्यमानः स मन्युना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.८</sup>तत्रेतिहासं वक्ष्यामि धर्मस्यास्योपबृंहणम्<br>दह्यमानः पापकृत्या जगाम जनमेजयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.९</sup>वरिष्यमाण इन्द्रोतं शौनकं संशितव्रतम्<br>समासाद्योपजग्राह पादयोः परिपीडयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१०</sup>ततो भीतो महाप्राज्ञो जगर्हे सुभृशं तदा<br>कर्ता पापस्य महतो भ्रूणहा किमिहागतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.११</sup>किं तवास्मासु कर्तव्यं मा मा स्प्राक्षीः कथंचन<br>गच्छ गच्छ न ते स्थानं प्रीणात्यस्मानिह ध्रुवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१२</sup>रुधिरस्येव ते गन्धः शवस्येव च दर्शनम्<br>अशिवः शिवसंकाशो मृतो जीवन्निवाटसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१३</sup>अन्तर्मृत्युरशुद्धात्मा पापमेवानुचिन्तयन्<br>प्रबुध्यसे प्रस्वपिषि वर्तसे चरसे सुखी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१४</sup>मोघं ते जीवितं राजन्परिक्लिष्टं च जीवसि<br>पापायेव च सृष्टोऽसि कर्मणे ह यवीयसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१५</sup>बहु कल्याणमिच्छन्त ईहन्ते पितरः सुतान्<br>तपसा देवतेज्याभिर्वन्दनेन तितिक्षया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१६</sup>पितृवंशमिमं पश्य त्वत्कृते नरकं गतम्<br>निरर्थाः सर्व एवैषामाशाबन्धास्त्वदाश्रयाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१७</sup>यान्पूजयन्तो विन्दन्ति स्वर्गमायुर्यशः सुखम्<br>तेषु ते सततं द्वेषो ब्राह्मणेषु निरर्थकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१८</sup>इमं लोकं विमुच्य त्वमवाङ्मूर्धा पतिष्यसि<br>अशाश्वतीः शाश्वतीश्च समाः पापेन कर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.१९</sup>अद्यमानो जन्तुगृध्रैः शितिकण्ठैरयोमुखैः<br>ततोऽपि पुनरावृत्तः पापयोनिं गमिष्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.१४६.२०</sup>यदिदं मन्यसे राजन्नायमस्ति परः कुतः<br>प्रतिस्मारयितारस्त्वां यमदूता यमक्षये
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -141,8 +134,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

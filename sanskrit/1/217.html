@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/216.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:२१७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/218.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/216.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:२१७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/218.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२</sup>तौ रथाभ्यां नरव्याघ्रौ दावस्योभयतः स्थितौ<br>दिक्षु सर्वासु भूतानां चक्राते कदनं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.३</sup>यत्र यत्र हि दृश्यन्ते प्राणिनः खाण्डवालयाः<br>पलायन्तस्तत्र तत्र तौ वीरौ पर्यधावताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.४</sup>छिद्रं हि न प्रपश्यन्ति रथयोराशुविक्रमात्<br>आविद्धाविव दृश्येते रथिनौ तौ रथोत्तमौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.५</sup>खाण्डवे दह्यमाने तु भूतान्यथ सहस्रशः<br>उत्पेतुर्भैरवान्नादान्विनदन्तो दिशो दश
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.६</sup>दग्धैकदेशा बहवो निष्टप्ताश्च तथापरे<br>स्फुटिताक्षा विशीर्णाश्च विप्लुताश्च विचेतसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.७</sup>समालिङ्ग्य सुतानन्ये पितॄन्मातॄंस्तथापरे<br>त्यक्तुं न शेकुः स्नेहेन तथैव निधनं गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.८</sup>विकृतैर्दर्शनैरन्ये समुत्पेतुः सहस्रशः<br>तत्र तत्र विघूर्णन्तः पुनरग्नौ प्रपेदिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.९</sup>दग्धपक्षाक्षिचरणा विचेष्टन्तो महीतले<br>तत्र तत्र स्म दृश्यन्ते विनश्यन्तः शरीरिणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१०</sup>जलस्थानेषु सर्वेषु क्वाथ्यमानेषु भारत<br>गतसत्त्वाः स्म दृश्यन्ते कूर्ममत्स्याः सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.११</sup>शरीरैः संप्रदीप्तैश्च देहवन्त इवाग्नयः<br>अदृश्यन्त वने तस्मिन्प्राणिनः प्राणसंक्षये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१२</sup>तांस्तथोत्पततः पार्थः शरैः संछिद्य खण्डशः<br>दीप्यमाने ततः प्रास्यत्प्रहसन्कृष्णवर्त्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१३</sup>ते शराचितसर्वाङ्गा विनदन्तो महारवान्<br>ऊर्ध्वमुत्पत्य वेगेन निपेतुः पावके पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१४</sup>शरैरभ्याहतानां च दह्यतां च वनौकसाम्<br>विरावः श्रूयते ह स्म समुद्रस्येव मथ्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१५</sup>वह्नेश्चापि प्रहृष्टस्य खमुत्पेतुर्महार्चिषः<br>जनयामासुरुद्वेगं सुमहान्तं दिवौकसाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१६</sup>ततो जग्मुर्महात्मानः सर्व एव दिवौकसः<br>शरणं देवराजानं सहस्राक्षं पुरंदरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१७</sup>देवा ऊचुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१८</sup>किं न्विमे मानवाः सर्वे दह्यन्ते कृष्णवर्त्मना<br>कच्चिन्न संक्षयः प्राप्तो लोकानाममरेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.१९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२०</sup>तच्छ्रुत्वा वृत्रहा तेभ्यः स्वयमेवान्ववेक्ष्य च<br>खाण्डवस्य विमोक्षार्थं प्रययौ हरिवाहनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२१</sup>महता मेघजालेन नानारूपेण वज्रभृत्<br>आकाशं समवस्तीर्य प्रववर्ष सुरेश्वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२२</sup>ततोऽक्षमात्रा विसृजन्धाराः शतसहस्रशः<br>अभ्यवर्षत्सहस्राक्षः पावकं खाण्डवं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२३</sup>असंप्राप्तास्तु ता धारास्तेजसा जातवेदसः<br>ख एव समशुष्यन्त न काश्चित्पावकं गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२४</sup>ततो नमुचिहा क्रुद्धो भृशमर्चिष्मतस्तदा<br>पुनरेवाभ्यवर्षत्तमम्भः प्रविसृजन्बहु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२१७.२५</sup>अर्चिर्धाराभिसंबद्धं धूमविद्युत्समाकुलम्<br>बभूव तद्वनं घोरं स्तनयित्नुसघोषवत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२</sup>तौ रथाभ्यां नरव्याघ्रौ दावस्योभयतः स्थितौ<br>दिक्षु सर्वासु भूतानां चक्राते कदनं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.३</sup>यत्र यत्र हि दृश्यन्ते प्राणिनः खाण्डवालयाः<br>पलायन्तस्तत्र तत्र तौ वीरौ पर्यधावताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.४</sup>छिद्रं हि न प्रपश्यन्ति रथयोराशुविक्रमात्<br>आविद्धाविव दृश्येते रथिनौ तौ रथोत्तमौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.५</sup>खाण्डवे दह्यमाने तु भूतान्यथ सहस्रशः<br>उत्पेतुर्भैरवान्नादान्विनदन्तो दिशो दश
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.६</sup>दग्धैकदेशा बहवो निष्टप्ताश्च तथापरे<br>स्फुटिताक्षा विशीर्णाश्च विप्लुताश्च विचेतसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.७</sup>समालिङ्ग्य सुतानन्ये पितॄन्मातॄंस्तथापरे<br>त्यक्तुं न शेकुः स्नेहेन तथैव निधनं गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.८</sup>विकृतैर्दर्शनैरन्ये समुत्पेतुः सहस्रशः<br>तत्र तत्र विघूर्णन्तः पुनरग्नौ प्रपेदिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.९</sup>दग्धपक्षाक्षिचरणा विचेष्टन्तो महीतले<br>तत्र तत्र स्म दृश्यन्ते विनश्यन्तः शरीरिणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१०</sup>जलस्थानेषु सर्वेषु क्वाथ्यमानेषु भारत<br>गतसत्त्वाः स्म दृश्यन्ते कूर्ममत्स्याः सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.११</sup>शरीरैः संप्रदीप्तैश्च देहवन्त इवाग्नयः<br>अदृश्यन्त वने तस्मिन्प्राणिनः प्राणसंक्षये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१२</sup>तांस्तथोत्पततः पार्थः शरैः संछिद्य खण्डशः<br>दीप्यमाने ततः प्रास्यत्प्रहसन्कृष्णवर्त्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१३</sup>ते शराचितसर्वाङ्गा विनदन्तो महारवान्<br>ऊर्ध्वमुत्पत्य वेगेन निपेतुः पावके पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१४</sup>शरैरभ्याहतानां च दह्यतां च वनौकसाम्<br>विरावः श्रूयते ह स्म समुद्रस्येव मथ्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१५</sup>वह्नेश्चापि प्रहृष्टस्य खमुत्पेतुर्महार्चिषः<br>जनयामासुरुद्वेगं सुमहान्तं दिवौकसाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१६</sup>ततो जग्मुर्महात्मानः सर्व एव दिवौकसः<br>शरणं देवराजानं सहस्राक्षं पुरंदरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१७</sup>देवा ऊचुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१८</sup>किं न्विमे मानवाः सर्वे दह्यन्ते कृष्णवर्त्मना<br>कच्चिन्न संक्षयः प्राप्तो लोकानाममरेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.१९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२०</sup>तच्छ्रुत्वा वृत्रहा तेभ्यः स्वयमेवान्ववेक्ष्य च<br>खाण्डवस्य विमोक्षार्थं प्रययौ हरिवाहनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२१</sup>महता मेघजालेन नानारूपेण वज्रभृत्<br>आकाशं समवस्तीर्य प्रववर्ष सुरेश्वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२२</sup>ततोऽक्षमात्रा विसृजन्धाराः शतसहस्रशः<br>अभ्यवर्षत्सहस्राक्षः पावकं खाण्डवं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२३</sup>असंप्राप्तास्तु ता धारास्तेजसा जातवेदसः<br>ख एव समशुष्यन्त न काश्चित्पावकं गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२४</sup>ततो नमुचिहा क्रुद्धो भृशमर्चिष्मतस्तदा<br>पुनरेवाभ्यवर्षत्तमम्भः प्रविसृजन्बहु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२१७.२५</sup>अर्चिर्धाराभिसंबद्धं धूमविद्युत्समाकुलम्<br>बभूव तद्वनं घोरं स्तनयित्नुसघोषवत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

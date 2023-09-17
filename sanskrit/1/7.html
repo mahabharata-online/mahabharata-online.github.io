@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/6.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/8.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,124 +64,89 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/6.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/8.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२</sup>शप्तस्तु भृगुणा वह्निः क्रुद्धो वाक्यमथाब्रवीत्<br>किमिदं साहसं ब्रह्मन्कृतवानसि सांप्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.३</sup>धर्मे प्रयतमानस्य सत्यं च वदतः समम्<br>पृष्टो यदब्रुवं सत्यं व्यभिचारोऽत्र को मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.४</sup>पृष्टो हि साक्षी यः साक्ष्यं जानमानोऽन्यथा वदेत्<br>स पूर्वानात्मनः सप्त कुले हन्यात्तथा परान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.५</sup>यश्च कार्यार्थतत्त्वज्ञो जानमानो न भाषते<br>सोऽपि तेनैव पापेन लिप्यते नात्र संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.६</sup>शक्तोऽहमपि शप्तुं त्वां मान्यास्तु ब्राह्मणा मम<br>जानतोऽपि च ते व्यक्तं कथयिष्ये निबोध तत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.७</sup>योगेन बहुधात्मानं कृत्वा तिष्ठामि मूर्तिषु<br>अग्निहोत्रेषु सत्रेषु क्रियास्वथ मखेषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.८</sup>वेदोक्तेन विधानेन मयि यद्धूयते हविः<br>देवताः पितरश्चैव तेन तृप्ता भवन्ति वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.९</sup>आपो देवगणाः सर्वे आपः पितृगणास्तथा<br>दर्शश्च पौर्णमासश्च देवानां पितृभिः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१०</sup>देवताः पितरस्तस्मात्पितरश्चापि देवताः<br>एकीभूताश्च पूज्यन्ते पृथक्त्वेन च पर्वसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.११</sup>देवताः पितरश्चैव जुह्वते मयि यत्सदा<br>त्रिदशानां पितॄणां च मुखमेवमहं स्मृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१२</sup>अमावास्यां च पितरः पौर्णमास्यां च देवताः<br>मन्मुखेनैव हूयन्ते भुञ्जते च हुतं हविः<br>सर्वभक्षः कथं तेषां भविष्यामि मुखं त्वहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१३</sup>चिन्तयित्वा ततो वह्निश्चक्रे संहारमात्मनः<br>द्विजानामग्निहोत्रेषु यज्ञसत्रक्रियासु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१४</sup>निरोंकारवषट्काराः स्वधास्वाहाविवर्जिताः<br>विनाग्निना प्रजाः सर्वास्तत आसन्सुदुःखिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१५</sup>अथर्षयः समुद्विग्ना देवान्गत्वाब्रुवन्वचः<br>अग्निनाशात्क्रियाभ्रंशाद्भ्रान्ता लोकास्त्रयोऽनघाः<br>विधध्वमत्र यत्कार्यं न स्यात्कालात्ययो यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१६</sup>अथर्षयश्च देवाश्च ब्रह्माणमुपगम्य तु<br>अग्नेरावेदयञ्शापं क्रियासंहारमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१७</sup>भृगुणा वै महाभाग शप्तोऽग्निः कारणान्तरे<br>कथं देवमुखो भूत्वा यज्ञभागाग्रभुक्तथा<br>हुतभुक्सर्वलोकेषु सर्वभक्षत्वमेष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१८</sup>श्रुत्वा तु तद्वचस्तेषामग्निमाहूय लोककृत्<br>उवाच वचनं श्लक्ष्णं भूतभावनमव्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.१९</sup>लोकानामिह सर्वेषां त्वं कर्ता चान्त एव च<br>त्वं धारयसि लोकांस्त्रीन्क्रियाणां च प्रवर्तकः<br>स तथा कुरु लोकेश नोच्छिद्येरन्क्रिया यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२०</sup>कस्मादेवं विमूढस्त्वमीश्वरः सन्हुताशनः<br>त्वं पवित्रं यदा लोके सर्वभूतगतश्च ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२१</sup>न त्वं सर्वशरीरेण सर्वभक्षत्वमेष्यसि<br>उपादानेऽर्चिषो यास्ते सर्वं धक्ष्यन्ति ताः शिखिन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२२</sup>यथा सूर्यांशुभिः स्पृष्टं सर्वं शुचि विभाव्यते<br>तथा त्वदर्चिर्निर्दग्धं सर्वं शुचि भविष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२३</sup>तदग्ने त्वं महत्तेजः स्वप्रभावाद्विनिर्गतम्<br>स्वतेजसैव तं शापं कुरु सत्यमृषेर्विभो<br>देवानां चात्मनो भागं गृहाण त्वं मुखे हुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२४</sup>एवमस्त्विति तं वह्निः प्रत्युवाच पितामहम्<br>जगाम शासनं कर्तुं देवस्य परमेष्ठिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२५</sup>देवर्षयश्च मुदितास्ततो जग्मुर्यथागतम्<br>ऋषयश्च यथापूर्वं क्रियाः सर्वाः प्रचक्रिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२६</sup>दिवि देवा मुमुदिरे भूतसंघाश्च लौकिकाः<br>अग्निश्च परमां प्रीतिमवाप हतकल्मषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.७.२७</sup>एवमेष पुरावृत्त इतिहासोऽग्निशापजः<br>पुलोमस्य विनाशश्च च्यवनस्य च संभवः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२</sup>शप्तस्तु भृगुणा वह्निः क्रुद्धो वाक्यमथाब्रवीत्<br>किमिदं साहसं ब्रह्मन्कृतवानसि सांप्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.३</sup>धर्मे प्रयतमानस्य सत्यं च वदतः समम्<br>पृष्टो यदब्रुवं सत्यं व्यभिचारोऽत्र को मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.४</sup>पृष्टो हि साक्षी यः साक्ष्यं जानमानोऽन्यथा वदेत्<br>स पूर्वानात्मनः सप्त कुले हन्यात्तथा परान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.५</sup>यश्च कार्यार्थतत्त्वज्ञो जानमानो न भाषते<br>सोऽपि तेनैव पापेन लिप्यते नात्र संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.६</sup>शक्तोऽहमपि शप्तुं त्वां मान्यास्तु ब्राह्मणा मम<br>जानतोऽपि च ते व्यक्तं कथयिष्ये निबोध तत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.७</sup>योगेन बहुधात्मानं कृत्वा तिष्ठामि मूर्तिषु<br>अग्निहोत्रेषु सत्रेषु क्रियास्वथ मखेषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.८</sup>वेदोक्तेन विधानेन मयि यद्धूयते हविः<br>देवताः पितरश्चैव तेन तृप्ता भवन्ति वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.९</sup>आपो देवगणाः सर्वे आपः पितृगणास्तथा<br>दर्शश्च पौर्णमासश्च देवानां पितृभिः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१०</sup>देवताः पितरस्तस्मात्पितरश्चापि देवताः<br>एकीभूताश्च पूज्यन्ते पृथक्त्वेन च पर्वसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.११</sup>देवताः पितरश्चैव जुह्वते मयि यत्सदा<br>त्रिदशानां पितॄणां च मुखमेवमहं स्मृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१२</sup>अमावास्यां च पितरः पौर्णमास्यां च देवताः<br>मन्मुखेनैव हूयन्ते भुञ्जते च हुतं हविः<br>सर्वभक्षः कथं तेषां भविष्यामि मुखं त्वहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१३</sup>चिन्तयित्वा ततो वह्निश्चक्रे संहारमात्मनः<br>द्विजानामग्निहोत्रेषु यज्ञसत्रक्रियासु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१४</sup>निरोंकारवषट्काराः स्वधास्वाहाविवर्जिताः<br>विनाग्निना प्रजाः सर्वास्तत आसन्सुदुःखिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१५</sup>अथर्षयः समुद्विग्ना देवान्गत्वाब्रुवन्वचः<br>अग्निनाशात्क्रियाभ्रंशाद्भ्रान्ता लोकास्त्रयोऽनघाः<br>विधध्वमत्र यत्कार्यं न स्यात्कालात्ययो यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१६</sup>अथर्षयश्च देवाश्च ब्रह्माणमुपगम्य तु<br>अग्नेरावेदयञ्शापं क्रियासंहारमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१७</sup>भृगुणा वै महाभाग शप्तोऽग्निः कारणान्तरे<br>कथं देवमुखो भूत्वा यज्ञभागाग्रभुक्तथा<br>हुतभुक्सर्वलोकेषु सर्वभक्षत्वमेष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१८</sup>श्रुत्वा तु तद्वचस्तेषामग्निमाहूय लोककृत्<br>उवाच वचनं श्लक्ष्णं भूतभावनमव्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.१९</sup>लोकानामिह सर्वेषां त्वं कर्ता चान्त एव च<br>त्वं धारयसि लोकांस्त्रीन्क्रियाणां च प्रवर्तकः<br>स तथा कुरु लोकेश नोच्छिद्येरन्क्रिया यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२०</sup>कस्मादेवं विमूढस्त्वमीश्वरः सन्हुताशनः<br>त्वं पवित्रं यदा लोके सर्वभूतगतश्च ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२१</sup>न त्वं सर्वशरीरेण सर्वभक्षत्वमेष्यसि<br>उपादानेऽर्चिषो यास्ते सर्वं धक्ष्यन्ति ताः शिखिन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२२</sup>यथा सूर्यांशुभिः स्पृष्टं सर्वं शुचि विभाव्यते<br>तथा त्वदर्चिर्निर्दग्धं सर्वं शुचि भविष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२३</sup>तदग्ने त्वं महत्तेजः स्वप्रभावाद्विनिर्गतम्<br>स्वतेजसैव तं शापं कुरु सत्यमृषेर्विभो<br>देवानां चात्मनो भागं गृहाण त्वं मुखे हुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२४</sup>एवमस्त्विति तं वह्निः प्रत्युवाच पितामहम्<br>जगाम शासनं कर्तुं देवस्य परमेष्ठिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२५</sup>देवर्षयश्च मुदितास्ततो जग्मुर्यथागतम्<br>ऋषयश्च यथापूर्वं क्रियाः सर्वाः प्रचक्रिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२६</sup>दिवि देवा मुमुदिरे भूतसंघाश्च लौकिकाः<br>अग्निश्च परमां प्रीतिमवाप हतकल्मषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.७.२७</sup>एवमेष पुरावृत्त इतिहासोऽग्निशापजः<br>पुलोमस्य विनाशश्च च्यवनस्य च संभवः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -162,8 +155,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

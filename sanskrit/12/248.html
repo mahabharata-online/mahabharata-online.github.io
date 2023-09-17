@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/247.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२४८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/249.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,112 +64,77 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/247.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२४८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/249.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.२</sup>य इमे पृथिवीपालाः शेरते पृथिवीतले<br>पृतनामध्य एते हि गतसत्त्वा महाबलाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.३</sup>एकैकशो भीमबला नागायुतबलास्तथा<br>एते हि निहताः संख्ये तुल्यतेजोबलैर्नरैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.४</sup>नैषां पश्यामि हन्तारं प्राणिनां संयुगे पुरा<br>विक्रमेणोपसंपन्नास्तेजोबलसमन्विताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.५</sup>अथ चेमे महाप्राज्ञ शेरते हि गतासवः<br>मृता इति च शब्दोऽयं वर्तत्येषु गतासुषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.६</sup>इमे मृता नृपतयः प्रायशो भीमविक्रमाः<br>तत्र मे संशयो जातः कुतः संज्ञा मृता इति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.७</sup>कस्य मृत्युः कुतो मृत्युः केन मृत्युरिह प्रजाः<br>हरत्यमरसंकाश तन्मे ब्रूहि पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.८</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.९</sup>पुरा कृतयुगे तात राजासीदविकम्पकः<br>स शत्रुवशमापन्नः संग्रामे क्षीणवाहनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१०</sup>तत्र पुत्रो हरिर्नाम नारायणसमो बले<br>स शत्रुभिर्हतः संख्ये सबलः सपदानुगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.११</sup>स राजा शत्रुवशगः पुत्रशोकसमन्वितः<br>यदृच्छयाशान्तिपरो ददर्श भुवि नारदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१२</sup>स तस्मै सर्वमाचष्ट यथा वृत्तं जनेश्वरः<br>शत्रुभिर्ग्रहणं संख्ये पुत्रस्य मरणं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१३</sup>तस्य तद्वचनं श्रुत्वा नारदोऽथ तपोधनः<br>आख्यानमिदमाचष्ट पुत्रशोकापहं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१४</sup>राजञ्शृणु समाख्यानमद्येदं बहुविस्तरम्<br>यथा वृत्तं श्रुतं चैव मयापि वसुधाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१५</sup>प्रजाः सृष्ट्वा महातेजाः प्रजासर्गे पितामहः<br>अतीव वृद्धा बहुला नामृष्यत पुनः प्रजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१६</sup>न ह्यन्तरमभूत्किंचित्क्वचिज्जन्तुभिरच्युत<br>निरुच्छ्वासमिवोन्नद्धं त्रैलोक्यमभवन्नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१७</sup>तस्य चिन्ता समुत्पन्ना संहारं प्रति भूपते<br>चिन्तयन्नाध्यगच्छच्च संहारे हेतुकारणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१८</sup>तस्य रोषान्महाराज खेभ्योऽग्निरुदतिष्ठत<br>तेन सर्वा दिशो राजन्ददाह स पितामहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.१९</sup>ततो दिवं भुवं खं च जगच्च सचराचरम्<br>ददाह पावको राजन्भगवत्कोपसंभवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.२०</sup>तत्रादह्यन्त भूतानि जङ्गमानि ध्रुवाणि च<br>महता कोपवेगेन कुपिते प्रपितामहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.२१</sup>ततो हरिजटः स्थाणुर्वेदाध्वरपतिः शिवः<br>जगाद शरणं देवो ब्रह्माणं परवीरहा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.२२</sup>तस्मिन्नभिगते स्थाणौ प्रजानां हितकाम्यया<br>अब्रवीद्वरदो देवो ज्वलन्निव तदा शिवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२४८.२३</sup>करवाण्यद्य कं कामं वरार्होऽसि मतो मम<br>कर्ता ह्यस्मि प्रियं शंभो तव यद्धृदि वर्तते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.२</sup>य इमे पृथिवीपालाः शेरते पृथिवीतले<br>पृतनामध्य एते हि गतसत्त्वा महाबलाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.३</sup>एकैकशो भीमबला नागायुतबलास्तथा<br>एते हि निहताः संख्ये तुल्यतेजोबलैर्नरैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.४</sup>नैषां पश्यामि हन्तारं प्राणिनां संयुगे पुरा<br>विक्रमेणोपसंपन्नास्तेजोबलसमन्विताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.५</sup>अथ चेमे महाप्राज्ञ शेरते हि गतासवः<br>मृता इति च शब्दोऽयं वर्तत्येषु गतासुषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.६</sup>इमे मृता नृपतयः प्रायशो भीमविक्रमाः<br>तत्र मे संशयो जातः कुतः संज्ञा मृता इति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.७</sup>कस्य मृत्युः कुतो मृत्युः केन मृत्युरिह प्रजाः<br>हरत्यमरसंकाश तन्मे ब्रूहि पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.८</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.९</sup>पुरा कृतयुगे तात राजासीदविकम्पकः<br>स शत्रुवशमापन्नः संग्रामे क्षीणवाहनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१०</sup>तत्र पुत्रो हरिर्नाम नारायणसमो बले<br>स शत्रुभिर्हतः संख्ये सबलः सपदानुगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.११</sup>स राजा शत्रुवशगः पुत्रशोकसमन्वितः<br>यदृच्छयाशान्तिपरो ददर्श भुवि नारदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१२</sup>स तस्मै सर्वमाचष्ट यथा वृत्तं जनेश्वरः<br>शत्रुभिर्ग्रहणं संख्ये पुत्रस्य मरणं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१३</sup>तस्य तद्वचनं श्रुत्वा नारदोऽथ तपोधनः<br>आख्यानमिदमाचष्ट पुत्रशोकापहं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१४</sup>राजञ्शृणु समाख्यानमद्येदं बहुविस्तरम्<br>यथा वृत्तं श्रुतं चैव मयापि वसुधाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१५</sup>प्रजाः सृष्ट्वा महातेजाः प्रजासर्गे पितामहः<br>अतीव वृद्धा बहुला नामृष्यत पुनः प्रजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१६</sup>न ह्यन्तरमभूत्किंचित्क्वचिज्जन्तुभिरच्युत<br>निरुच्छ्वासमिवोन्नद्धं त्रैलोक्यमभवन्नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१७</sup>तस्य चिन्ता समुत्पन्ना संहारं प्रति भूपते<br>चिन्तयन्नाध्यगच्छच्च संहारे हेतुकारणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१८</sup>तस्य रोषान्महाराज खेभ्योऽग्निरुदतिष्ठत<br>तेन सर्वा दिशो राजन्ददाह स पितामहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.१९</sup>ततो दिवं भुवं खं च जगच्च सचराचरम्<br>ददाह पावको राजन्भगवत्कोपसंभवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.२०</sup>तत्रादह्यन्त भूतानि जङ्गमानि ध्रुवाणि च<br>महता कोपवेगेन कुपिते प्रपितामहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.२१</sup>ततो हरिजटः स्थाणुर्वेदाध्वरपतिः शिवः<br>जगाद शरणं देवो ब्रह्माणं परवीरहा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.२२</sup>तस्मिन्नभिगते स्थाणौ प्रजानां हितकाम्यया<br>अब्रवीद्वरदो देवो ज्वलन्निव तदा शिवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२४८.२३</sup>करवाण्यद्य कं कामं वरार्होऽसि मतो मम<br>कर्ता ह्यस्मि प्रियं शंभो तव यद्धृदि वर्तते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -150,8 +143,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

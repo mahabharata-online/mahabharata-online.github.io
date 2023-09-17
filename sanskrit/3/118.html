@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/117.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:११८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/119.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/117.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:११८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/119.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२</sup>गच्छन्स तीर्थानि महानुभावः; पुण्यानि रम्याणि ददर्श राजा<br>सर्वाणि विप्रैरुपशोभितानि; क्वचित्क्वचिद्भारत सागरस्य
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.३</sup>स वृत्तवांस्तेषु कृताभिषेकः; सहानुजः पार्थिवपुत्रपौत्रः<br>समुद्रगां पुण्यतमां प्रशस्तां; जगाम पारिक्षित पाण्डुपुत्रः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.४</sup>तत्रापि चाप्लुत्य महानुभावः; संतर्पयामास पितॄन्सुरांश्च<br>द्विजातिमुख्येषु धनं विसृज्य; गोदावरीं सागरगामगच्छत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.५</sup>ततो विपाप्मा द्रविडेषु राज;न्समुद्रमासाद्य च लोकपुण्यम्<br>अगस्त्यतीर्थं च पवित्रपुण्यं; नारीतीर्थान्यथ वीरो ददर्श
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.६</sup>तत्रार्जुनस्याग्र्यधनुर्धरस्य; निशम्य तत्कर्म परैरसह्यम्<br>संपूज्यमानः परमर्षिसंघैः; परां मुदं पाण्डुसुतः स लेभे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.७</sup>स तेषु तीर्थेष्वभिषिक्तगात्रः; कृष्णासहायः सहितोऽनुजैश्च<br>संपूजयन्विक्रममर्जुनस्य; रेमे महीपालपतिः पृथिव्याम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.८</sup>ततः सहस्राणि गवां प्रदाय; तीर्थेषु तेष्वम्बुधरोत्तमस्य<br>हृष्टः सह भ्रातृभिरर्जुनस्य; संकीर्तयामास गवां प्रदानम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.९</sup>स तानि तीर्थानि च सागरस्य; पुण्यानि चान्यानि बहूनि राजन्<br>क्रमेण गच्छन्परिपूर्णकामः; शूर्पारकं पुण्यतमं ददर्श
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१०</sup>तत्रोदधेः कंचिदतीत्य देशं; ख्यातं पृथिव्यां वनमाससाद<br>तप्तं सुरैर्यत्र तपः पुरस्ता;दिष्टं तथा पुण्यतमैर्नरेन्द्रैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.११</sup>स तत्र तामग्र्यधनुर्धरस्य; वेदीं ददर्शायतपीनबाहुः<br>ऋचीकपुत्रस्य तपस्विसंघैः; समावृतां पुण्यकृदर्चनीयाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१२</sup>ततो वसूनां वसुधाधिपः स; मरुद्गणानां च तथाश्विनोश्च<br>वैवस्वतादित्यधनेश्वराणा;मिन्द्रस्य विष्णोः सवितुर्विभोश्च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१३</sup>भगस्य चन्द्रस्य दिवाकरस्य; पतेरपां साध्यगणस्य चैव<br>धातुः पितॄणां च तथा महात्मा; रुद्रस्य राजन्सगणस्य चैव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१४</sup>सरस्वत्याः सिद्धगणस्य चैव; पूष्णश्च ये चाप्यमरास्तथान्ये<br>पुण्यानि चाप्यायतनानि तेषां; ददर्श राजा सुमनोहराणि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१५</sup>तेषूपवासान्विविधानुपोष्य; दत्त्वा च रत्नानि महाधनानि<br>तीर्थेषु सर्वेषु परिप्लुताङ्गः; पुनः स शूर्पारकमाजगाम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१६</sup>स तेन तीर्थेन तु सागरस्य; पुनः प्रयातः सह सोदरीयैः<br>द्विजैः पृथिव्यां प्रथितं महद्भि;स्तीर्थं प्रभासं समुपाजगाम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१७</sup>तत्राभिषिक्तः पृथुलोहिताक्षः; सहानुजैर्देवगणान्पितॄंश्च<br>संतर्पयामास तथैव कृष्णा; ते चापि विप्राः सह लोमशेन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१८</sup>स द्वादशाहं जलवायुभक्षः; कुर्वन्क्षपाहःसु तदाभिषेकम्<br>समन्ततोऽग्नीनुपदीपयित्वा; तेपे तपो धर्मभृतां वरिष्ठः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.१९</sup>तमुग्रमास्थाय तपश्चरन्तं; शुश्राव रामश्च जनार्दनश्च<br>तौ सर्ववृष्णिप्रवरौ ससैन्यौ; युधिष्ठिरं जग्मतुराजमीढम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२०</sup>ते वृष्णयः पाण्डुसुतान्समीक्ष्य; भूमौ शयानान्मलदिग्धगात्रान्<br>अनर्हतीं द्रौपदीं चापि दृष्ट्वा; सुदुःखिताश्चुक्रुशुरार्तनादम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२१</sup>ततः स रामं च जनार्दनं च; कार्ष्णिं च साम्बं च शिनेश्च पौत्रम्<br>अन्यांश्च वृष्णीनुपगम्य पूजां; चक्रे यथाधर्ममदीनसत्त्वः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२२</sup>ते चापि सर्वान्प्रतिपूज्य पार्थां;स्तैः सत्कृताः पाण्डुसुतैस्तथैव<br>युधिष्ठिरं संपरिवार्य राज;न्नुपाविशन्देवगणा यथेन्द्रम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२३</sup>तेषां स सर्वं चरितं परेषां; वने च वासं परमप्रतीतः<br>अस्त्रार्थमिन्द्रस्य गतं च पार्थं; कृष्णे शशंसामरराजपुत्रम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.११८.२४</sup>श्रुत्वा तु ते तस्य वचः प्रतीता;स्तांश्चापि दृष्ट्वा सुकृशानतीव<br>नेत्रोद्भवं संमुमुचुर्दशार्हा; दुःखार्तिजं वारि महानुभावाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२</sup>गच्छन्स तीर्थानि महानुभावः; पुण्यानि रम्याणि ददर्श राजा<br>सर्वाणि विप्रैरुपशोभितानि; क्वचित्क्वचिद्भारत सागरस्य
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.३</sup>स वृत्तवांस्तेषु कृताभिषेकः; सहानुजः पार्थिवपुत्रपौत्रः<br>समुद्रगां पुण्यतमां प्रशस्तां; जगाम पारिक्षित पाण्डुपुत्रः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.४</sup>तत्रापि चाप्लुत्य महानुभावः; संतर्पयामास पितॄन्सुरांश्च<br>द्विजातिमुख्येषु धनं विसृज्य; गोदावरीं सागरगामगच्छत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.५</sup>ततो विपाप्मा द्रविडेषु राज;न्समुद्रमासाद्य च लोकपुण्यम्<br>अगस्त्यतीर्थं च पवित्रपुण्यं; नारीतीर्थान्यथ वीरो ददर्श
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.६</sup>तत्रार्जुनस्याग्र्यधनुर्धरस्य; निशम्य तत्कर्म परैरसह्यम्<br>संपूज्यमानः परमर्षिसंघैः; परां मुदं पाण्डुसुतः स लेभे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.७</sup>स तेषु तीर्थेष्वभिषिक्तगात्रः; कृष्णासहायः सहितोऽनुजैश्च<br>संपूजयन्विक्रममर्जुनस्य; रेमे महीपालपतिः पृथिव्याम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.८</sup>ततः सहस्राणि गवां प्रदाय; तीर्थेषु तेष्वम्बुधरोत्तमस्य<br>हृष्टः सह भ्रातृभिरर्जुनस्य; संकीर्तयामास गवां प्रदानम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.९</sup>स तानि तीर्थानि च सागरस्य; पुण्यानि चान्यानि बहूनि राजन्<br>क्रमेण गच्छन्परिपूर्णकामः; शूर्पारकं पुण्यतमं ददर्श
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१०</sup>तत्रोदधेः कंचिदतीत्य देशं; ख्यातं पृथिव्यां वनमाससाद<br>तप्तं सुरैर्यत्र तपः पुरस्ता;दिष्टं तथा पुण्यतमैर्नरेन्द्रैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.११</sup>स तत्र तामग्र्यधनुर्धरस्य; वेदीं ददर्शायतपीनबाहुः<br>ऋचीकपुत्रस्य तपस्विसंघैः; समावृतां पुण्यकृदर्चनीयाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१२</sup>ततो वसूनां वसुधाधिपः स; मरुद्गणानां च तथाश्विनोश्च<br>वैवस्वतादित्यधनेश्वराणा;मिन्द्रस्य विष्णोः सवितुर्विभोश्च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१३</sup>भगस्य चन्द्रस्य दिवाकरस्य; पतेरपां साध्यगणस्य चैव<br>धातुः पितॄणां च तथा महात्मा; रुद्रस्य राजन्सगणस्य चैव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१४</sup>सरस्वत्याः सिद्धगणस्य चैव; पूष्णश्च ये चाप्यमरास्तथान्ये<br>पुण्यानि चाप्यायतनानि तेषां; ददर्श राजा सुमनोहराणि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१५</sup>तेषूपवासान्विविधानुपोष्य; दत्त्वा च रत्नानि महाधनानि<br>तीर्थेषु सर्वेषु परिप्लुताङ्गः; पुनः स शूर्पारकमाजगाम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१६</sup>स तेन तीर्थेन तु सागरस्य; पुनः प्रयातः सह सोदरीयैः<br>द्विजैः पृथिव्यां प्रथितं महद्भि;स्तीर्थं प्रभासं समुपाजगाम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१७</sup>तत्राभिषिक्तः पृथुलोहिताक्षः; सहानुजैर्देवगणान्पितॄंश्च<br>संतर्पयामास तथैव कृष्णा; ते चापि विप्राः सह लोमशेन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१८</sup>स द्वादशाहं जलवायुभक्षः; कुर्वन्क्षपाहःसु तदाभिषेकम्<br>समन्ततोऽग्नीनुपदीपयित्वा; तेपे तपो धर्मभृतां वरिष्ठः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.१९</sup>तमुग्रमास्थाय तपश्चरन्तं; शुश्राव रामश्च जनार्दनश्च<br>तौ सर्ववृष्णिप्रवरौ ससैन्यौ; युधिष्ठिरं जग्मतुराजमीढम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२०</sup>ते वृष्णयः पाण्डुसुतान्समीक्ष्य; भूमौ शयानान्मलदिग्धगात्रान्<br>अनर्हतीं द्रौपदीं चापि दृष्ट्वा; सुदुःखिताश्चुक्रुशुरार्तनादम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२१</sup>ततः स रामं च जनार्दनं च; कार्ष्णिं च साम्बं च शिनेश्च पौत्रम्<br>अन्यांश्च वृष्णीनुपगम्य पूजां; चक्रे यथाधर्ममदीनसत्त्वः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२२</sup>ते चापि सर्वान्प्रतिपूज्य पार्थां;स्तैः सत्कृताः पाण्डुसुतैस्तथैव<br>युधिष्ठिरं संपरिवार्य राज;न्नुपाविशन्देवगणा यथेन्द्रम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२३</sup>तेषां स सर्वं चरितं परेषां; वने च वासं परमप्रतीतः<br>अस्त्रार्थमिन्द्रस्य गतं च पार्थं; कृष्णे शशंसामरराजपुत्रम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.११८.२४</sup>श्रुत्वा तु ते तस्य वचः प्रतीता;स्तांश्चापि दृष्ट्वा सुकृशानतीव<br>नेत्रोद्भवं संमुमुचुर्दशार्हा; दुःखार्तिजं वारि महानुभावाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

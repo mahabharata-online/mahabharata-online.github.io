@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/171.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:१७२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/173.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,97 +64,62 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/171.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:१७२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/173.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१</sup>गन्धर्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.२</sup>एवमुक्तः स विप्रर्षिर्वसिष्ठेन महात्मना<br>न्ययच्छदात्मनः कोपं सर्वलोकपराभवात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.३</sup>ईजे च स महातेजाः सर्ववेदविदां वरः<br>ऋषी राक्षससत्रेण शाक्तेयोऽथ पराशरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.४</sup>ततो वृद्धांश्च बालांश्च राक्षसान्स महामुनिः<br>ददाह वितते यज्ञे शक्तेर्वधमनुस्मरन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.५</sup>न हि तं वारयामास वसिष्ठो रक्षसां वधात्<br>द्वितीयामस्य मा भाङ्क्षं प्रतिज्ञामिति निश्चयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.६</sup>त्रयाणां पावकानां स सत्रे तस्मिन्महामुनिः<br>आसीत्पुरस्ताद्दीप्तानां चतुर्थ इव पावकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.७</sup>तेन यज्ञेन शुभ्रेण हूयमानेन युक्तितः<br>तद्विदीपितमाकाशं सूर्येणेव घनात्यये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.८</sup>तं वसिष्ठादयः सर्वे मुनयस्तत्र मेनिरे<br>तेजसा दिवि दीप्यन्तं द्वितीयमिव भास्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.९</sup>ततः परमदुष्प्रापमन्यैरृषिरुदारधीः<br>समापिपयिषुः सत्रं तमत्रिः समुपागमत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१०</sup>तथा पुलस्त्यः पुलहः क्रतुश्चैव महाक्रतुम्<br>उपाजग्मुरमित्रघ्न रक्षसां जीवितेप्सया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.११</sup>पुलस्त्यस्तु वधात्तेषां रक्षसां भरतर्षभ<br>उवाचेदं वचः पार्थ पराशरमरिंदमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१२</sup>कच्चित्तातापविघ्नं ते कच्चिन्नन्दसि पुत्रक<br>अजानतामदोषाणां सर्वेषां रक्षसां वधात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१३</sup>प्रजोच्छेदमिमं मह्यं सर्वं सोमपसत्तम<br>अधर्मिष्ठं वरिष्ठः सन्कुरुषे त्वं पराशर<br>राजा कल्माषपादश्च दिवमारोढुमिच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१४</sup>ये च शक्त्यवराः पुत्रा वसिष्ठस्य महामुनेः<br>ते च सर्वे मुदा युक्ता मोदन्ते सहिताः सुरैः<br>सर्वमेतद्वसिष्ठस्य विदितं वै महामुने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१५</sup>रक्षसां च समुच्छेद एष तात तपस्विनाम्<br>निमित्तभूतस्त्वं चात्र क्रतौ वासिष्ठनन्दन<br>स सत्रं मुञ्च भद्रं ते समाप्तमिदमस्तु ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१६</sup>एवमुक्तः पुलस्त्येन वसिष्ठेन च धीमता<br>तदा समापयामास सत्रं शाक्तिः पराशरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१७</sup>सर्वराक्षससत्राय संभृतं पावकं मुनिः<br>उत्तरे हिमवत्पार्श्वे उत्ससर्ज महावने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.१७२.१८</sup>स तत्राद्यापि रक्षांसि वृक्षानश्मान एव च<br>भक्षयन्दृश्यते वह्निः सदा पर्वणि पर्वणि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१</sup>गन्धर्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.२</sup>एवमुक्तः स विप्रर्षिर्वसिष्ठेन महात्मना<br>न्ययच्छदात्मनः कोपं सर्वलोकपराभवात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.३</sup>ईजे च स महातेजाः सर्ववेदविदां वरः<br>ऋषी राक्षससत्रेण शाक्तेयोऽथ पराशरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.४</sup>ततो वृद्धांश्च बालांश्च राक्षसान्स महामुनिः<br>ददाह वितते यज्ञे शक्तेर्वधमनुस्मरन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.५</sup>न हि तं वारयामास वसिष्ठो रक्षसां वधात्<br>द्वितीयामस्य मा भाङ्क्षं प्रतिज्ञामिति निश्चयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.६</sup>त्रयाणां पावकानां स सत्रे तस्मिन्महामुनिः<br>आसीत्पुरस्ताद्दीप्तानां चतुर्थ इव पावकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.७</sup>तेन यज्ञेन शुभ्रेण हूयमानेन युक्तितः<br>तद्विदीपितमाकाशं सूर्येणेव घनात्यये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.८</sup>तं वसिष्ठादयः सर्वे मुनयस्तत्र मेनिरे<br>तेजसा दिवि दीप्यन्तं द्वितीयमिव भास्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.९</sup>ततः परमदुष्प्रापमन्यैरृषिरुदारधीः<br>समापिपयिषुः सत्रं तमत्रिः समुपागमत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१०</sup>तथा पुलस्त्यः पुलहः क्रतुश्चैव महाक्रतुम्<br>उपाजग्मुरमित्रघ्न रक्षसां जीवितेप्सया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.११</sup>पुलस्त्यस्तु वधात्तेषां रक्षसां भरतर्षभ<br>उवाचेदं वचः पार्थ पराशरमरिंदमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१२</sup>कच्चित्तातापविघ्नं ते कच्चिन्नन्दसि पुत्रक<br>अजानतामदोषाणां सर्वेषां रक्षसां वधात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१३</sup>प्रजोच्छेदमिमं मह्यं सर्वं सोमपसत्तम<br>अधर्मिष्ठं वरिष्ठः सन्कुरुषे त्वं पराशर<br>राजा कल्माषपादश्च दिवमारोढुमिच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१४</sup>ये च शक्त्यवराः पुत्रा वसिष्ठस्य महामुनेः<br>ते च सर्वे मुदा युक्ता मोदन्ते सहिताः सुरैः<br>सर्वमेतद्वसिष्ठस्य विदितं वै महामुने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१५</sup>रक्षसां च समुच्छेद एष तात तपस्विनाम्<br>निमित्तभूतस्त्वं चात्र क्रतौ वासिष्ठनन्दन<br>स सत्रं मुञ्च भद्रं ते समाप्तमिदमस्तु ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१६</sup>एवमुक्तः पुलस्त्येन वसिष्ठेन च धीमता<br>तदा समापयामास सत्रं शाक्तिः पराशरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१७</sup>सर्वराक्षससत्राय संभृतं पावकं मुनिः<br>उत्तरे हिमवत्पार्श्वे उत्ससर्ज महावने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.१७२.१८</sup>स तत्राद्यापि रक्षांसि वृक्षानश्मान एव च<br>भक्षयन्दृश्यते वह्निः सदा पर्वणि पर्वणि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -135,8 +128,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

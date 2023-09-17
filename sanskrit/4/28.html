@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/27.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:२८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/29.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,88 +64,53 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/27.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:२८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/29.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.२</sup>ततः शारद्वतो वाक्यमित्युवाच कृपस्तदा<br>युक्तं प्राप्तं च वृद्धेन पाण्डवान्प्रति भाषितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.३</sup>धर्मार्थसहितं श्लक्ष्णं तत्त्वतश्च सहेतुमत्<br>तत्रानुरूपं भीष्मेण ममाप्यत्र गिरं शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.४</sup>तेषां चैव गतिस्तीर्थैर्वासश्चैषां प्रचिन्त्यताम्<br>नीतिर्विधीयतां चापि सांप्रतं या हिता भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.५</sup>नावज्ञेयो रिपुस्तात प्राकृतोऽपि बुभूषता<br>किं पुनः पाण्डवास्तात सर्वास्त्रकुशला रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.६</sup>तस्मात्सत्रं प्रविष्टेषु पाण्डवेषु महात्मसु<br>गूढभावेषु छन्नेषु काले चोदयमागते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.७</sup>स्वराष्ट्रपरराष्ट्रेषु ज्ञातव्यं बलमात्मनः<br>उदये पाण्डवानां च प्राप्ते काले न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.८</sup>निवृत्तसमयाः पार्था महात्मानो महाबलाः<br>महोत्साहा भविष्यन्ति पाण्डवा ह्यतितेजसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.९</sup>तस्माद्बलं च कोशं च नीतिश्चापि विधीयताम्<br>यथा कालोदये प्राप्ते सम्यक्तैः संदधामहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१०</sup>तात मन्यामि तत्सर्वं बुध्यस्व बलमात्मनः<br>नियतं सर्वमित्रेषु बलवत्स्वबलेषु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.११</sup>उच्चावचं बलं ज्ञात्वा मध्यस्थं चापि भारत<br>प्रहृष्टमप्रहृष्टं च संदधाम तथा परैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१२</sup>साम्ना भेदेन दानेन दण्डेन बलिकर्मणा<br>न्यायेनानम्य च परान्बलाच्चानम्य दुर्बलान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१३</sup>सान्त्वयित्वा च मित्राणि बलं चाभाष्यतां सुखम्<br>सकोशबलसंवृद्धः सम्यक्सिद्धिमवाप्स्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१४</sup>योत्स्यसे चापि बलिभिररिभिः प्रत्युपस्थितैः<br>अन्यैस्त्वं पाण्डवैर्वापि हीनस्वबलवाहनैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.२८.१५</sup>एवं सर्वं विनिश्चित्य व्यवसायं स्वधर्मतः<br>यथाकालं मनुष्येन्द्र चिरं सुखमवाप्स्यसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.२</sup>ततः शारद्वतो वाक्यमित्युवाच कृपस्तदा<br>युक्तं प्राप्तं च वृद्धेन पाण्डवान्प्रति भाषितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.३</sup>धर्मार्थसहितं श्लक्ष्णं तत्त्वतश्च सहेतुमत्<br>तत्रानुरूपं भीष्मेण ममाप्यत्र गिरं शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.४</sup>तेषां चैव गतिस्तीर्थैर्वासश्चैषां प्रचिन्त्यताम्<br>नीतिर्विधीयतां चापि सांप्रतं या हिता भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.५</sup>नावज्ञेयो रिपुस्तात प्राकृतोऽपि बुभूषता<br>किं पुनः पाण्डवास्तात सर्वास्त्रकुशला रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.६</sup>तस्मात्सत्रं प्रविष्टेषु पाण्डवेषु महात्मसु<br>गूढभावेषु छन्नेषु काले चोदयमागते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.७</sup>स्वराष्ट्रपरराष्ट्रेषु ज्ञातव्यं बलमात्मनः<br>उदये पाण्डवानां च प्राप्ते काले न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.८</sup>निवृत्तसमयाः पार्था महात्मानो महाबलाः<br>महोत्साहा भविष्यन्ति पाण्डवा ह्यतितेजसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.९</sup>तस्माद्बलं च कोशं च नीतिश्चापि विधीयताम्<br>यथा कालोदये प्राप्ते सम्यक्तैः संदधामहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१०</sup>तात मन्यामि तत्सर्वं बुध्यस्व बलमात्मनः<br>नियतं सर्वमित्रेषु बलवत्स्वबलेषु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.११</sup>उच्चावचं बलं ज्ञात्वा मध्यस्थं चापि भारत<br>प्रहृष्टमप्रहृष्टं च संदधाम तथा परैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१२</sup>साम्ना भेदेन दानेन दण्डेन बलिकर्मणा<br>न्यायेनानम्य च परान्बलाच्चानम्य दुर्बलान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१३</sup>सान्त्वयित्वा च मित्राणि बलं चाभाष्यतां सुखम्<br>सकोशबलसंवृद्धः सम्यक्सिद्धिमवाप्स्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१४</sup>योत्स्यसे चापि बलिभिररिभिः प्रत्युपस्थितैः<br>अन्यैस्त्वं पाण्डवैर्वापि हीनस्वबलवाहनैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.२८.१५</sup>एवं सर्वं विनिश्चित्य व्यवसायं स्वधर्मतः<br>यथाकालं मनुष्येन्द्र चिरं सुखमवाप्स्यसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -126,8 +119,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

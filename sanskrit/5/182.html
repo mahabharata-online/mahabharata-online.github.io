@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/181.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१८२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/183.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,94 +64,59 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/181.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१८२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/183.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.२</sup>समागतस्य रामेण पुनरेवातिदारुणम्<br>अन्येद्युस्तुमुलं युद्धं तदा भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.३</sup>ततो दिव्यास्त्रविच्छूरो दिव्यान्यस्त्राण्यनेकशः<br>अयोजयत धर्मात्मा दिवसे दिवसे विभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.४</sup>तान्यहं तत्प्रतीघातैरस्त्रैरस्त्राणि भारत<br>व्यधमं तुमुले युद्धे प्राणांस्त्यक्त्वा सुदुस्त्यजान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.५</sup>अस्त्रैरस्त्रेषु बहुधा हतेष्वथ च भार्गवः<br>अक्रुध्यत महातेजास्त्यक्तप्राणः स संयुगे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.६</sup>ततः शक्तिं प्राहिणोद्घोररूपा;मस्त्रै रुद्धो जामदग्न्यो महात्मा<br>कालोत्सृष्टां प्रज्वलितामिवोल्कां; संदीप्ताग्रां तेजसावृत्य लोकान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.७</sup>ततोऽहं तामिषुभिर्दीप्यमानैः; समायान्तीमन्तकालार्कदीप्ताम्<br>छित्त्वा त्रिधा पातयामास भूमौ; ततो ववौ पवनः पुण्यगन्धिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.८</sup>तस्यां छिन्नायां क्रोधदीप्तोऽथ रामः; शक्तीर्घोराः प्राहिणोद्द्वादशान्याः<br>तासां रूपं भारत नोत शक्यं; तेजस्वित्वाल्लाघवाच्चैव वक्तुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.९</sup>किं त्वेवाहं विह्वलः संप्रदृश्य; दिग्भ्यः सर्वास्ता महोल्का इवाग्नेः<br>नानारूपास्तेजसोग्रेण दीप्ता; यथादित्या द्वादश लोकसंक्षये
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१०</sup>ततो जालं बाणमयं विवृत्य; संदृश्य भित्त्वा शरजालेन राजन्<br>द्वादशेषून्प्राहिणवं रणेऽहं; ततः शक्तीर्व्यधमं घोररूपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.११</sup>ततोऽपरा जामदग्न्यो महात्मा; शक्तीर्घोराः प्राक्षिपद्धेमदण्डाः<br>विचित्रिताः काञ्चनपट्टनद्धा; यथा महोल्का ज्वलितास्तथा ताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१२</sup>ताश्चाप्युग्राश्चर्मणा वारयित्वा; खड्गेनाजौ पातिता मे नरेन्द्र<br>बाणैर्दिव्यैर्जामदग्न्यस्य संख्ये; दिव्यांश्चाश्वानभ्यवर्षं ससूतान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१३</sup>निर्मुक्तानां पन्नगानां सरूपा; दृष्ट्वा शक्तीर्हेमचित्रा निकृत्ताः<br>प्रादुश्चक्रे दिव्यमस्त्रं महात्मा; क्रोधाविष्टो हैहयेशप्रमाथी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१४</sup>ततः श्रेण्यः शलभानामिवोग्राः; समापेतुर्विशिखानां प्रदीप्ताः<br>समाचिनोच्चापि भृशं शरीरं; हयान्सूतं सरथं चैव मह्यम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१५</sup>रथः शरैर्मे निचितः सर्वतोऽभू;त्तथा हयाः सारथिश्चैव राजन्<br>युगं रथेषा च तथैव चक्रे; तथैवाक्षः शरकृत्तोऽथ भग्नः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१६</sup>ततस्तस्मिन्बाणवर्षे व्यतीते; शरौघेण प्रत्यवर्षं गुरुं तम्<br>स विक्षतो मार्गणैर्ब्रह्मराशि;र्देहादजस्रं मुमुचे भूरि रक्तम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८२.१७</sup>यथा रामो बाणजालाभितप्त;स्तथैवाहं सुभृशं गाढविद्धः<br>ततो युद्धं व्यरमच्चापराह्णे; भानावस्तं प्रार्थयाने महीध्रम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.२</sup>समागतस्य रामेण पुनरेवातिदारुणम्<br>अन्येद्युस्तुमुलं युद्धं तदा भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.३</sup>ततो दिव्यास्त्रविच्छूरो दिव्यान्यस्त्राण्यनेकशः<br>अयोजयत धर्मात्मा दिवसे दिवसे विभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.४</sup>तान्यहं तत्प्रतीघातैरस्त्रैरस्त्राणि भारत<br>व्यधमं तुमुले युद्धे प्राणांस्त्यक्त्वा सुदुस्त्यजान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.५</sup>अस्त्रैरस्त्रेषु बहुधा हतेष्वथ च भार्गवः<br>अक्रुध्यत महातेजास्त्यक्तप्राणः स संयुगे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.६</sup>ततः शक्तिं प्राहिणोद्घोररूपा;मस्त्रै रुद्धो जामदग्न्यो महात्मा<br>कालोत्सृष्टां प्रज्वलितामिवोल्कां; संदीप्ताग्रां तेजसावृत्य लोकान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.७</sup>ततोऽहं तामिषुभिर्दीप्यमानैः; समायान्तीमन्तकालार्कदीप्ताम्<br>छित्त्वा त्रिधा पातयामास भूमौ; ततो ववौ पवनः पुण्यगन्धिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.८</sup>तस्यां छिन्नायां क्रोधदीप्तोऽथ रामः; शक्तीर्घोराः प्राहिणोद्द्वादशान्याः<br>तासां रूपं भारत नोत शक्यं; तेजस्वित्वाल्लाघवाच्चैव वक्तुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.९</sup>किं त्वेवाहं विह्वलः संप्रदृश्य; दिग्भ्यः सर्वास्ता महोल्का इवाग्नेः<br>नानारूपास्तेजसोग्रेण दीप्ता; यथादित्या द्वादश लोकसंक्षये
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१०</sup>ततो जालं बाणमयं विवृत्य; संदृश्य भित्त्वा शरजालेन राजन्<br>द्वादशेषून्प्राहिणवं रणेऽहं; ततः शक्तीर्व्यधमं घोररूपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.११</sup>ततोऽपरा जामदग्न्यो महात्मा; शक्तीर्घोराः प्राक्षिपद्धेमदण्डाः<br>विचित्रिताः काञ्चनपट्टनद्धा; यथा महोल्का ज्वलितास्तथा ताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१२</sup>ताश्चाप्युग्राश्चर्मणा वारयित्वा; खड्गेनाजौ पातिता मे नरेन्द्र<br>बाणैर्दिव्यैर्जामदग्न्यस्य संख्ये; दिव्यांश्चाश्वानभ्यवर्षं ससूतान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१३</sup>निर्मुक्तानां पन्नगानां सरूपा; दृष्ट्वा शक्तीर्हेमचित्रा निकृत्ताः<br>प्रादुश्चक्रे दिव्यमस्त्रं महात्मा; क्रोधाविष्टो हैहयेशप्रमाथी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१४</sup>ततः श्रेण्यः शलभानामिवोग्राः; समापेतुर्विशिखानां प्रदीप्ताः<br>समाचिनोच्चापि भृशं शरीरं; हयान्सूतं सरथं चैव मह्यम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१५</sup>रथः शरैर्मे निचितः सर्वतोऽभू;त्तथा हयाः सारथिश्चैव राजन्<br>युगं रथेषा च तथैव चक्रे; तथैवाक्षः शरकृत्तोऽथ भग्नः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१६</sup>ततस्तस्मिन्बाणवर्षे व्यतीते; शरौघेण प्रत्यवर्षं गुरुं तम्<br>स विक्षतो मार्गणैर्ब्रह्मराशि;र्देहादजस्रं मुमुचे भूरि रक्तम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८२.१७</sup>यथा रामो बाणजालाभितप्त;स्तथैवाहं सुभृशं गाढविद्धः<br>ततो युद्धं व्यरमच्चापराह्णे; भानावस्तं प्रार्थयाने महीध्रम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -132,8 +125,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

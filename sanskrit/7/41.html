@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/40.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:४१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/42.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/40.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:४१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/42.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२</sup>बालमत्यन्तसुखिनमवार्यबलदर्पितम्<br>युद्धेषु कुशलं वीरं कुलपुत्रं तनुत्यजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.३</sup>गाहमानमनीकानि सदश्वैस्तं त्रिहायनैः<br>अपि यौधिष्ठिरात्सैन्यात्कश्चिदन्वपतद्रथी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.४</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.५</sup>युधिष्ठिरो भीमसेनः शिखण्डी सात्यकिर्यमौ<br>धृष्टद्युम्नो विराटश्च द्रुपदश्च सकेकयः<br>धृष्टकेतुश्च संरब्धो मत्स्याश्चान्वपतन्रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.६</sup>अभ्यद्रवन्परीप्सन्तो व्यूढानीकाः प्रहारिणः<br>तान्दृष्ट्वा द्रवतः शूरांस्त्वदीया विमुखाभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.७</sup>ततस्तद्विमुखं दृष्ट्वा तव सूनोर्महद्बलम्<br>जामाता तव तेजस्वी विष्टम्भयिषुराद्रवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.८</sup>सैन्धवस्य महाराज पुत्रो राजा जयद्रथः<br>स पुत्रगृद्धिनः पार्थान्सहसैन्यानवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.९</sup>उग्रधन्वा महेष्वासो दिव्यमस्त्रमुदीरयन्<br>वार्धक्षत्रिरुपासेधत्प्रवणादिव कुञ्जरान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१०</sup>धृतराष्ट्र उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.११</sup>अतिभारमहं मन्ये सैन्धवे संजयाहितम्<br>यदेकः पाण्डवान्क्रुद्धान्पुत्रगृद्धीनवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१२</sup>अत्यद्भुतमिदं मन्ये बलं शौर्यं च सैन्धवे<br>तदस्य ब्रूहि मे वीर्यं कर्म चाग्र्यं महात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१३</sup>किं दत्तं हुतमिष्टं वा सुतप्तमथ वा तपः<br>सिन्धुराजेन येनैकः क्रुद्धान्पार्थानवारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१४</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१५</sup>द्रौपदीहरणे यत्तद्भीमसेनेन निर्जितः<br>मानात्स तप्तवान्राजा वरार्थी सुमहत्तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१६</sup>इन्द्रियाणीन्द्रियार्थेभ्यः प्रियेभ्यः संनिवर्त्य सः<br>क्षुत्पिपासातपसहः कृशो धमनिसंततः<br>देवमाराधयच्छर्वं गृणन्ब्रह्म सनातनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१७</sup>भक्तानुकम्पी भगवांस्तस्य चक्रे ततो दयाम्<br>स्वप्नान्तेऽप्यथ चैवाह हरः सिन्धुपतेः सुतम्<br>वरं वृणीष्व प्रीतोऽस्मि जयद्रथ किमिच्छसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१८</sup>एवमुक्तस्तु शर्वेण सिन्धुराजो जयद्रथः<br>उवाच प्रणतो रुद्रं प्राञ्जलिर्नियतात्मवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.१९</sup>पाण्डवेयानहं संख्ये भीमवीर्यपराक्रमान्<br>एको रणे धारयेयं समस्तानिति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२०</sup>एवमुक्तस्तु देवेशो जयद्रथमथाब्रवीत्<br>ददामि ते वरं सौम्य विना पार्थं धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२१</sup>धारयिष्यसि संग्रामे चतुरः पाण्डुनन्दनान्<br>एवमस्त्विति देवेशमुक्त्वाबुध्यत पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२२</sup>स तेन वरदानेन दिव्येनास्त्रबलेन च<br>एकः संधारयामास पाण्डवानामनीकिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२३</sup>तस्य ज्यातलघोषेण क्षत्रियान्भयमाविशत्<br>परांस्तु तव सैन्यस्य हर्षः परमकोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.४१.२४</sup>दृष्ट्वा तु क्षत्रिया भारं सैन्धवे सर्वमर्पितम्<br>उत्क्रुश्याभ्यद्रवन्राजन्येन यौधिष्ठिरं बलम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२</sup>बालमत्यन्तसुखिनमवार्यबलदर्पितम्<br>युद्धेषु कुशलं वीरं कुलपुत्रं तनुत्यजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.३</sup>गाहमानमनीकानि सदश्वैस्तं त्रिहायनैः<br>अपि यौधिष्ठिरात्सैन्यात्कश्चिदन्वपतद्रथी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.४</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.५</sup>युधिष्ठिरो भीमसेनः शिखण्डी सात्यकिर्यमौ<br>धृष्टद्युम्नो विराटश्च द्रुपदश्च सकेकयः<br>धृष्टकेतुश्च संरब्धो मत्स्याश्चान्वपतन्रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.६</sup>अभ्यद्रवन्परीप्सन्तो व्यूढानीकाः प्रहारिणः<br>तान्दृष्ट्वा द्रवतः शूरांस्त्वदीया विमुखाभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.७</sup>ततस्तद्विमुखं दृष्ट्वा तव सूनोर्महद्बलम्<br>जामाता तव तेजस्वी विष्टम्भयिषुराद्रवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.८</sup>सैन्धवस्य महाराज पुत्रो राजा जयद्रथः<br>स पुत्रगृद्धिनः पार्थान्सहसैन्यानवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.९</sup>उग्रधन्वा महेष्वासो दिव्यमस्त्रमुदीरयन्<br>वार्धक्षत्रिरुपासेधत्प्रवणादिव कुञ्जरान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१०</sup>धृतराष्ट्र उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.११</sup>अतिभारमहं मन्ये सैन्धवे संजयाहितम्<br>यदेकः पाण्डवान्क्रुद्धान्पुत्रगृद्धीनवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१२</sup>अत्यद्भुतमिदं मन्ये बलं शौर्यं च सैन्धवे<br>तदस्य ब्रूहि मे वीर्यं कर्म चाग्र्यं महात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१३</sup>किं दत्तं हुतमिष्टं वा सुतप्तमथ वा तपः<br>सिन्धुराजेन येनैकः क्रुद्धान्पार्थानवारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१४</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१५</sup>द्रौपदीहरणे यत्तद्भीमसेनेन निर्जितः<br>मानात्स तप्तवान्राजा वरार्थी सुमहत्तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१६</sup>इन्द्रियाणीन्द्रियार्थेभ्यः प्रियेभ्यः संनिवर्त्य सः<br>क्षुत्पिपासातपसहः कृशो धमनिसंततः<br>देवमाराधयच्छर्वं गृणन्ब्रह्म सनातनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१७</sup>भक्तानुकम्पी भगवांस्तस्य चक्रे ततो दयाम्<br>स्वप्नान्तेऽप्यथ चैवाह हरः सिन्धुपतेः सुतम्<br>वरं वृणीष्व प्रीतोऽस्मि जयद्रथ किमिच्छसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१८</sup>एवमुक्तस्तु शर्वेण सिन्धुराजो जयद्रथः<br>उवाच प्रणतो रुद्रं प्राञ्जलिर्नियतात्मवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.१९</sup>पाण्डवेयानहं संख्ये भीमवीर्यपराक्रमान्<br>एको रणे धारयेयं समस्तानिति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२०</sup>एवमुक्तस्तु देवेशो जयद्रथमथाब्रवीत्<br>ददामि ते वरं सौम्य विना पार्थं धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२१</sup>धारयिष्यसि संग्रामे चतुरः पाण्डुनन्दनान्<br>एवमस्त्विति देवेशमुक्त्वाबुध्यत पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२२</sup>स तेन वरदानेन दिव्येनास्त्रबलेन च<br>एकः संधारयामास पाण्डवानामनीकिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२३</sup>तस्य ज्यातलघोषेण क्षत्रियान्भयमाविशत्<br>परांस्तु तव सैन्यस्य हर्षः परमकोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.४१.२४</sup>दृष्ट्वा तु क्षत्रिया भारं सैन्धवे सर्वमर्पितम्<br>उत्क्रुश्याभ्यद्रवन्राजन्येन यौधिष्ठिरं बलम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

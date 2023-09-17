@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/80.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:८१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/82.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,172 +64,137 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/80.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:८१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/82.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२</sup>यदप्यल्पतरं कर्म तदप्येकेन दुष्करम्<br>पुरुषेणासहायेन किमु राज्यं पितामह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३</sup>किंशीलः किंसमाचारो राज्ञोऽर्थसचिवो भवेत्<br>कीदृशे विश्वसेद्राजा कीदृशे नापि विश्वसेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.५</sup>चतुर्विधानि मित्राणि राज्ञां राजन्भवन्त्युत<br>सहार्थो भजमानश्च सहजः कृत्रिमस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.६</sup>धर्मात्मा पञ्चमं मित्रं स तु नैकस्य न द्वयोः<br>यतो धर्मस्ततो वा स्यान्मध्यस्थो वा ततो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.७</sup>यस्तस्यार्थो न रोचेत न तं तस्य प्रकाशयेत्<br>धर्माधर्मेण राजानश्चरन्ति विजिगीषवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.८</sup>चतुर्णां मध्यमौ श्रेष्ठौ नित्यं शङ्क्यौ तथापरौ<br>सर्वे नित्यं शङ्कितव्याः प्रत्यक्षं कार्यमात्मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.९</sup>न हि राज्ञा प्रमादो वै कर्तव्यो मित्ररक्षणे<br>प्रमादिनं हि राजानं लोकाः परिभवन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१०</sup>असाधुः साधुतामेति साधुर्भवति दारुणः<br>अरिश्च मित्रं भवति मित्रं चापि प्रदुष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.११</sup>अनित्यचित्तः पुरुषस्तस्मिन्को जातु विश्वसेत्<br>तस्मात्प्रधानं यत्कार्यं प्रत्यक्षं तत्समाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१२</sup>एकान्तेन हि विश्वासः कृत्स्नो धर्मार्थनाशकः<br>अविश्वासश्च सर्वत्र मृत्युना न विशिष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१३</sup>अकालमृत्युर्विश्वासो विश्वसन्हि विपद्यते<br>यस्मिन्करोति विश्वासमिच्छतस्तस्य जीवति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१४</sup>तस्माद्विश्वसितव्यं च शङ्कितव्यं च केषुचित्<br>एषा नीतिगतिस्तात लक्ष्मीश्चैव सनातनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१५</sup>यं मन्येत ममाभावादिममर्थागमः स्पृशेत्<br>नित्यं तस्माच्छङ्कितव्यममित्रं तं विदुर्बुधाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१६</sup>यस्य क्षेत्रादप्युदकं क्षेत्रमन्यस्य गच्छति<br>न तत्रानिच्छतस्तस्य भिद्येरन्सर्वसेतवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१७</sup>तथैवात्युदकाद्भीतस्तस्य भेदनमिच्छति<br>यमेवंलक्षणं विद्यात्तममित्रं विनिर्दिशेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१८</sup>यः समृद्ध्या न तुष्येत क्षये दीनतरो भवेत्<br>एतदुत्तममित्रस्य निमित्तमभिचक्षते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.१९</sup>यं मन्येत ममाभावादस्याभावो भवेदिति<br>तस्मिन्कुर्वीत विश्वासं यथा पितरि वै तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२०</sup>तं शक्त्या वर्धमानश्च सर्वतः परिबृंहयेत्<br>नित्यं क्षताद्वारयति यो धर्मेष्वपि कर्मसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२१</sup>क्षताद्भीतं विजानीयादुत्तमं मित्रलक्षणम्<br>ये तस्य क्षतमिच्छन्ति ते तस्य रिपवः स्मृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२२</sup>व्यसनान्नित्यभीतोऽसौ समृद्ध्यामेव तृप्यते<br>यत्स्यादेवंविधं मित्रं तदात्मसममुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२३</sup>रूपवर्णस्वरोपेतस्तितिक्षुरनसूयकः<br>कुलीनः शीलसंपन्नः स ते स्यात्प्रत्यनन्तरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२४</sup>मेधावी स्मृतिमान्दक्षः प्रकृत्या चानृशंसवान्<br>यो मानितोऽमानितो वा न संदूष्येत्कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२५</sup>ऋत्विग्वा यदि वाचार्यः सखा वात्यन्तसंस्तुतः<br>गृहे वसेदमात्यस्ते यः स्यात्परमपूजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२६</sup>स ते विद्यात्परं मन्त्रं प्रकृतिं चार्थधर्मयोः<br>विश्वासस्ते भवेत्तत्र यथा पितरि वै तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२७</sup>नैव द्वौ न त्रयः कार्या न मृष्येरन्परस्परम्<br>एकार्थादेव भूतानां भेदो भवति सर्वदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२८</sup>कीर्तिप्रधानो यश्च स्याद्यश्च स्यात्समये स्थितः<br>समर्थान्यश्च न द्वेष्टि समर्थान्कुरुते च यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.२९</sup>यो न कामाद्भयाल्लोभात्क्रोधाद्वा धर्ममुत्सृजेत्<br>दक्षः पर्याप्तवचनः स ते स्यात्प्रत्यनन्तरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३०</sup>शूरश्चार्यश्च विद्वांश्च प्रतिपत्तिविशारदः<br>कुलीनः शीलसंपन्नस्तितिक्षुरनसूयकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३१</sup>एते ह्यमात्याः कर्तव्याः सर्वकर्मस्ववस्थिताः<br>पूजिताः संविभक्ताश्च सुसहायाः स्वनुष्ठिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३२</sup>कृत्स्नमेते विनिक्षिप्ताः प्रतिरूपेषु कर्मसु<br>युक्ता महत्सु कार्येषु श्रेयांस्युत्पादयन्ति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३३</sup>एते कर्माणि कुर्वन्ति स्पर्धमाना मिथः सदा<br>अनुतिष्ठन्ति चैवार्थानाचक्षाणाः परस्परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३४</sup>ज्ञातिभ्यश्चैव बिभ्येथा मृत्योरिव यतः सदा<br>उपराजेव राजर्धिं ज्ञातिर्न सहते सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३५</sup>ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः<br>नान्यो ज्ञातेर्महाबाहो विनाशमभिनन्दति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३६</sup>अज्ञातिता नातिसुखा नावज्ञेयास्त्वतः परम्<br>अज्ञातिमन्तं पुरुषं परे परिभवन्त्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३७</sup>निकृतस्य नरैरन्यैर्ज्ञातिरेव परायणम्<br>नान्यैर्निकारं सहते ज्ञातेर्ज्ञातिः कदाचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३८</sup>आत्मानमेव जानाति निकृतं बान्धवैरपि<br>तेषु सन्ति गुणाश्चैव नैर्गुण्यं तेषु लक्ष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.३९</sup>नाज्ञातिरनुगृह्णाति नाज्ञातिर्दिग्धमस्यति<br>उभयं ज्ञातिलोकेषु दृश्यते साध्वसाधु च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.४०</sup>तान्मानयेत्पूजयेच्च नित्यं वाचा च कर्मणा<br>कुर्याच्च प्रियमेतेभ्यो नाप्रियं किंचिदाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.४१</sup>विश्वस्तवदविश्वस्तस्तेषु वर्तेत सर्वदा<br>न हि दोषो गुणो वेति निस्पृक्तस्तेषु दृश्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.४२</sup>तस्यैवं वर्तमानस्य पुरुषस्याप्रमादिनः<br>अमित्राः संप्रसीदन्ति तथा मित्रीभवन्त्यपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.८१.४३</sup>य एवं वर्तते नित्यं ज्ञातिसंबन्धिमण्डले<br>मित्रेष्वमित्रेष्वैश्वर्ये चिरं यशसि तिष्ठति
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२</sup>यदप्यल्पतरं कर्म तदप्येकेन दुष्करम्<br>पुरुषेणासहायेन किमु राज्यं पितामह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३</sup>किंशीलः किंसमाचारो राज्ञोऽर्थसचिवो भवेत्<br>कीदृशे विश्वसेद्राजा कीदृशे नापि विश्वसेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.५</sup>चतुर्विधानि मित्राणि राज्ञां राजन्भवन्त्युत<br>सहार्थो भजमानश्च सहजः कृत्रिमस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.६</sup>धर्मात्मा पञ्चमं मित्रं स तु नैकस्य न द्वयोः<br>यतो धर्मस्ततो वा स्यान्मध्यस्थो वा ततो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.७</sup>यस्तस्यार्थो न रोचेत न तं तस्य प्रकाशयेत्<br>धर्माधर्मेण राजानश्चरन्ति विजिगीषवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.८</sup>चतुर्णां मध्यमौ श्रेष्ठौ नित्यं शङ्क्यौ तथापरौ<br>सर्वे नित्यं शङ्कितव्याः प्रत्यक्षं कार्यमात्मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.९</sup>न हि राज्ञा प्रमादो वै कर्तव्यो मित्ररक्षणे<br>प्रमादिनं हि राजानं लोकाः परिभवन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१०</sup>असाधुः साधुतामेति साधुर्भवति दारुणः<br>अरिश्च मित्रं भवति मित्रं चापि प्रदुष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.११</sup>अनित्यचित्तः पुरुषस्तस्मिन्को जातु विश्वसेत्<br>तस्मात्प्रधानं यत्कार्यं प्रत्यक्षं तत्समाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१२</sup>एकान्तेन हि विश्वासः कृत्स्नो धर्मार्थनाशकः<br>अविश्वासश्च सर्वत्र मृत्युना न विशिष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१३</sup>अकालमृत्युर्विश्वासो विश्वसन्हि विपद्यते<br>यस्मिन्करोति विश्वासमिच्छतस्तस्य जीवति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१४</sup>तस्माद्विश्वसितव्यं च शङ्कितव्यं च केषुचित्<br>एषा नीतिगतिस्तात लक्ष्मीश्चैव सनातनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१५</sup>यं मन्येत ममाभावादिममर्थागमः स्पृशेत्<br>नित्यं तस्माच्छङ्कितव्यममित्रं तं विदुर्बुधाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१६</sup>यस्य क्षेत्रादप्युदकं क्षेत्रमन्यस्य गच्छति<br>न तत्रानिच्छतस्तस्य भिद्येरन्सर्वसेतवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१७</sup>तथैवात्युदकाद्भीतस्तस्य भेदनमिच्छति<br>यमेवंलक्षणं विद्यात्तममित्रं विनिर्दिशेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१८</sup>यः समृद्ध्या न तुष्येत क्षये दीनतरो भवेत्<br>एतदुत्तममित्रस्य निमित्तमभिचक्षते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.१९</sup>यं मन्येत ममाभावादस्याभावो भवेदिति<br>तस्मिन्कुर्वीत विश्वासं यथा पितरि वै तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२०</sup>तं शक्त्या वर्धमानश्च सर्वतः परिबृंहयेत्<br>नित्यं क्षताद्वारयति यो धर्मेष्वपि कर्मसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२१</sup>क्षताद्भीतं विजानीयादुत्तमं मित्रलक्षणम्<br>ये तस्य क्षतमिच्छन्ति ते तस्य रिपवः स्मृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२२</sup>व्यसनान्नित्यभीतोऽसौ समृद्ध्यामेव तृप्यते<br>यत्स्यादेवंविधं मित्रं तदात्मसममुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२३</sup>रूपवर्णस्वरोपेतस्तितिक्षुरनसूयकः<br>कुलीनः शीलसंपन्नः स ते स्यात्प्रत्यनन्तरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२४</sup>मेधावी स्मृतिमान्दक्षः प्रकृत्या चानृशंसवान्<br>यो मानितोऽमानितो वा न संदूष्येत्कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२५</sup>ऋत्विग्वा यदि वाचार्यः सखा वात्यन्तसंस्तुतः<br>गृहे वसेदमात्यस्ते यः स्यात्परमपूजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२६</sup>स ते विद्यात्परं मन्त्रं प्रकृतिं चार्थधर्मयोः<br>विश्वासस्ते भवेत्तत्र यथा पितरि वै तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२७</sup>नैव द्वौ न त्रयः कार्या न मृष्येरन्परस्परम्<br>एकार्थादेव भूतानां भेदो भवति सर्वदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२८</sup>कीर्तिप्रधानो यश्च स्याद्यश्च स्यात्समये स्थितः<br>समर्थान्यश्च न द्वेष्टि समर्थान्कुरुते च यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.२९</sup>यो न कामाद्भयाल्लोभात्क्रोधाद्वा धर्ममुत्सृजेत्<br>दक्षः पर्याप्तवचनः स ते स्यात्प्रत्यनन्तरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३०</sup>शूरश्चार्यश्च विद्वांश्च प्रतिपत्तिविशारदः<br>कुलीनः शीलसंपन्नस्तितिक्षुरनसूयकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३१</sup>एते ह्यमात्याः कर्तव्याः सर्वकर्मस्ववस्थिताः<br>पूजिताः संविभक्ताश्च सुसहायाः स्वनुष्ठिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३२</sup>कृत्स्नमेते विनिक्षिप्ताः प्रतिरूपेषु कर्मसु<br>युक्ता महत्सु कार्येषु श्रेयांस्युत्पादयन्ति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३३</sup>एते कर्माणि कुर्वन्ति स्पर्धमाना मिथः सदा<br>अनुतिष्ठन्ति चैवार्थानाचक्षाणाः परस्परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३४</sup>ज्ञातिभ्यश्चैव बिभ्येथा मृत्योरिव यतः सदा<br>उपराजेव राजर्धिं ज्ञातिर्न सहते सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३५</sup>ऋजोर्मृदोर्वदान्यस्य ह्रीमतः सत्यवादिनः<br>नान्यो ज्ञातेर्महाबाहो विनाशमभिनन्दति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३६</sup>अज्ञातिता नातिसुखा नावज्ञेयास्त्वतः परम्<br>अज्ञातिमन्तं पुरुषं परे परिभवन्त्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३७</sup>निकृतस्य नरैरन्यैर्ज्ञातिरेव परायणम्<br>नान्यैर्निकारं सहते ज्ञातेर्ज्ञातिः कदाचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३८</sup>आत्मानमेव जानाति निकृतं बान्धवैरपि<br>तेषु सन्ति गुणाश्चैव नैर्गुण्यं तेषु लक्ष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.३९</sup>नाज्ञातिरनुगृह्णाति नाज्ञातिर्दिग्धमस्यति<br>उभयं ज्ञातिलोकेषु दृश्यते साध्वसाधु च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.४०</sup>तान्मानयेत्पूजयेच्च नित्यं वाचा च कर्मणा<br>कुर्याच्च प्रियमेतेभ्यो नाप्रियं किंचिदाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.४१</sup>विश्वस्तवदविश्वस्तस्तेषु वर्तेत सर्वदा<br>न हि दोषो गुणो वेति निस्पृक्तस्तेषु दृश्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.४२</sup>तस्यैवं वर्तमानस्य पुरुषस्याप्रमादिनः<br>अमित्राः संप्रसीदन्ति तथा मित्रीभवन्त्यपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.८१.४३</sup>य एवं वर्तते नित्यं ज्ञातिसंबन्धिमण्डले<br>मित्रेष्वमित्रेष्वैश्वर्ये चिरं यशसि तिष्ठति
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -210,8 +203,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

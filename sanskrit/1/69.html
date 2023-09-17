@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/68.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:६९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/70.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,202 +64,167 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/68.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:६९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/70.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१</sup>शकुन्तलोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२</sup>राजन्सर्षपमात्राणि परच्छिद्राणि पश्यसि<br>आत्मनो बिल्वमात्राणि पश्यन्नपि न पश्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३</sup>मेनका त्रिदशेष्वेव त्रिदशाश्चानु मेनकाम्<br>ममैवोद्रिच्यते जन्म दुःषन्त तव जन्मतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४</sup>क्षितावटसि राजंस्त्वमन्तरिक्षे चराम्यहम्<br>आवयोरन्तरं पश्य मेरुसर्षपयोरिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.५</sup>महेन्द्रस्य कुबेरस्य यमस्य वरुणस्य च<br>भवनान्यनुसंयामि प्रभावं पश्य मे नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.६</sup>सत्यश्चापि प्रवादोऽयं यं प्रवक्ष्यामि तेऽनघ<br>निदर्शनार्थं न द्वेषात्तच्छ्रुत्वा क्षन्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.७</sup>विरूपो यावदादर्शे नात्मनः पश्यते मुखम्<br>मन्यते तावदात्मानमन्येभ्यो रूपवत्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.८</sup>यदा तु मुखमादर्शे विकृतं सोऽभिवीक्षते<br>तदेतरं विजानाति आत्मानं नेतरं जनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.९</sup>अतीव रूपसंपन्नो न किंचिदवमन्यते<br>अतीव जल्पन्दुर्वाचो भवतीह विहेठकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१०</sup>मूर्खो हि जल्पतां पुंसां श्रुत्वा वाचः शुभाशुभाः<br>अशुभं वाक्यमादत्ते पुरीषमिव सूकरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.११</sup>प्राज्ञस्तु जल्पतां पुंसां श्रुत्वा वाचः शुभाशुभाः<br>गुणवद्वाक्यमादत्ते हंसः क्षीरमिवाम्भसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१२</sup>अन्यान्परिवदन्साधुर्यथा हि परितप्यते<br>तथा परिवदन्नन्यांस्तुष्टो भवति दुर्जनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१३</sup>अभिवाद्य यथा वृद्धान्सन्तो गच्छन्ति निर्वृतिम्<br>एवं सज्जनमाक्रुश्य मूर्खो भवति निर्वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१४</sup>सुखं जीवन्त्यदोषज्ञा मूर्खा दोषानुदर्शिनः<br>यत्र वाच्याः परैः सन्तः परानाहुस्तथाविधान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१५</sup>अतो हास्यतरं लोके किंचिदन्यन्न विद्यते<br>यत्र दुर्जन इत्याह दुर्जनः सज्जनं स्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१६</sup>सत्यधर्मच्युतात्पुंसः क्रुद्धादाशीविषादिव<br>अनास्तिकोऽप्युद्विजते जनः किं पुनरास्तिकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१७</sup>स्वयमुत्पाद्य वै पुत्रं सदृशं योऽवमन्यते<br>तस्य देवाः श्रियं घ्नन्ति न च लोकानुपाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१८</sup>कुलवंशप्रतिष्ठां हि पितरः पुत्रमब्रुवन्<br>उत्तमं सर्वधर्माणां तस्मात्पुत्रं न संत्यजेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.१९</sup>स्वपत्नीप्रभवान्पञ्च लब्धान्क्रीतान्विवर्धितान्<br>कृतानन्यासु चोत्पन्नान्पुत्रान्वै मनुरब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२०</sup>धर्मकीर्त्यावहा नॄणां मनसः प्रीतिवर्धनाः<br>त्रायन्ते नरकाज्जाताः पुत्रा धर्मप्लवाः पितॄन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२१</sup>स त्वं नृपतिशार्दूल न पुत्रं त्यक्तुमर्हसि<br>आत्मानं सत्यधर्मौ च पालयानो महीपते<br>नरेन्द्रसिंह कपटं न वोढुं त्वमिहार्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२२</sup>वरं कूपशताद्वापी वरं वापीशतात्क्रतुः<br>वरं क्रतुशतात्पुत्रः सत्यं पुत्रशताद्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२३</sup>अश्वमेधसहस्रं च सत्यं च तुलया धृतम्<br>अश्वमेधसहस्राद्धि सत्यमेव विशिष्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२४</sup>सर्ववेदाधिगमनं सर्वतीर्थावगाहनम्<br>सत्यं च वदतो राजन्समं वा स्यान्न वा समम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२५</sup>नास्ति सत्यात्परो धर्मो न सत्याद्विद्यते परम्<br>न हि तीव्रतरं किंचिदनृतादिह विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२६</sup>राजन्सत्यं परं ब्रह्म सत्यं च समयः परः<br>मा त्याक्षीः समयं राजन्सत्यं संगतमस्तु ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२७</sup>अनृते चेत्प्रसङ्गस्ते श्रद्दधासि न चेत्स्वयम्<br>आत्मनो हन्त गच्छामि त्वादृशे नास्ति संगतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२८</sup>ऋतेऽपि त्वयि दुःषन्त शैलराजावतंसकाम्<br>चतुरन्तामिमामुर्वीं पुत्रो मे पालयिष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.२९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३०</sup>एतावदुक्त्वा वचनं प्रातिष्ठत शकुन्तला<br>अथान्तरिक्षे दुःषन्तं वागुवाचाशरीरिणी<br>ऋत्विक्पुरोहिताचार्यैर्मन्त्रिभिश्चावृतं तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३१</sup>भस्त्रा माता पितुः पुत्रो येन जातः स एव सः<br>भरस्व पुत्रं दुःषन्त मावमंस्थाः शकुन्तलाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३२</sup>रेतोधाः पुत्र उन्नयति नरदेव यमक्षयात्<br>त्वं चास्य धाता गर्भस्य सत्यमाह शकुन्तला
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३३</sup>जाया जनयते पुत्रमात्मनोऽङ्गं द्विधा कृतम्<br>तस्माद्भरस्व दुःषन्त पुत्रं शाकुन्तलं नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३४</sup>अभूतिरेषा कस्त्यज्याज्जीवञ्जीवन्तमात्मजम्<br>शाकुन्तलं महात्मानं दौःषन्तिं भर पौरव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३५</sup>भर्तव्योऽयं त्वया यस्मादस्माकं वचनादपि<br>तस्माद्भवत्वयं नाम्ना भरतो नाम ते सुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३६</sup>तच्छ्रुत्वा पौरवो राजा व्याहृतं वै दिवौकसाम्<br>पुरोहितममात्यांश्च संप्रहृष्टोऽब्रवीदिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३७</sup>शृण्वन्त्वेतद्भवन्तोऽस्य देवदूतस्य भाषितम्<br>अहमप्येवमेवैनं जानामि स्वयमात्मजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३८</sup>यद्यहं वचनादेव गृह्णीयामिममात्मजम्<br>भवेद्धि शङ्का लोकस्य नैवं शुद्धो भवेदयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.३९</sup>तं विशोध्य तदा राजा देवदूतेन भारत<br>हृष्टः प्रमुदितश्चापि प्रतिजग्राह तं सुतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४०</sup>मूर्ध्नि चैनमुपाघ्राय सस्नेहं परिषस्वजे<br>सभाज्यमानो विप्रैश्च स्तूयमानश्च बन्दिभिः<br>स मुदं परमां लेभे पुत्रसंस्पर्शजां नृपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४१</sup>तां चैव भार्यां धर्मज्ञः पूजयामास धर्मतः<br>अब्रवीच्चैव तां राजा सान्त्वपूर्वमिदं वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४२</sup>कृतो लोकपरोक्षोऽयं संबन्धो वै त्वया सह<br>तस्मादेतन्मया देवि त्वच्छुद्ध्यर्थं विचारितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४३</sup>मन्यते चैव लोकस्ते स्त्रीभावान्मयि संगतम्<br>पुत्रश्चायं वृतो राज्ये मया तस्माद्विचारितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४४</sup>यच्च कोपितयात्यर्थं त्वयोक्तोऽस्म्यप्रियं प्रिये<br>प्रणयिन्या विशालाक्षि तत्क्षान्तं ते मया शुभे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४५</sup>तामेवमुक्त्वा राजर्षिर्दुःषन्तो महिषीं प्रियाम्<br>वासोभिरन्नपानैश्च पूजयामास भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४६</sup>दुःषन्तश्च ततो राजा पुत्रं शाकुन्तलं तदा<br>भरतं नामतः कृत्वा यौवराज्येऽभ्यषेचयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४७</sup>तस्य तत्प्रथितं चक्रं प्रावर्तत महात्मनः<br>भास्वरं दिव्यमजितं लोकसंनादनं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४८</sup>स विजित्य महीपालांश्चकार वशवर्तिनः<br>चचार च सतां धर्मं प्राप चानुत्तमं यशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.४९</sup>स राजा चक्रवर्त्यासीत्सार्वभौमः प्रतापवान्<br>ईजे च बहुभिर्यज्ञैर्यथा शक्रो मरुत्पतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.५०</sup>याजयामास तं कण्वो दक्षवद्भूरिदक्षिणम्<br>श्रीमान्गोविततं नाम वाजिमेधमवाप सः<br>यस्मिन्सहस्रं पद्मानां कण्वाय भरतो ददौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.५१</sup>भरताद्भारती कीर्तिर्येनेदं भारतं कुलम्<br>अपरे ये च पूर्वे च भारता इति विश्रुताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.५२</sup>भरतस्यान्ववाये हि देवकल्पा महौजसः<br>बभूवुर्ब्रह्मकल्पाश्च बहवो राजसत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६९.५३</sup>येषामपरिमेयानि नामधेयानि सर्वशः<br>तेषां तु ते यथामुख्यं कीर्तयिष्यामि भारत<br>महाभागान्देवकल्पान्सत्यार्जवपरायणान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१</sup>शकुन्तलोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२</sup>राजन्सर्षपमात्राणि परच्छिद्राणि पश्यसि<br>आत्मनो बिल्वमात्राणि पश्यन्नपि न पश्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३</sup>मेनका त्रिदशेष्वेव त्रिदशाश्चानु मेनकाम्<br>ममैवोद्रिच्यते जन्म दुःषन्त तव जन्मतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४</sup>क्षितावटसि राजंस्त्वमन्तरिक्षे चराम्यहम्<br>आवयोरन्तरं पश्य मेरुसर्षपयोरिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.५</sup>महेन्द्रस्य कुबेरस्य यमस्य वरुणस्य च<br>भवनान्यनुसंयामि प्रभावं पश्य मे नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.६</sup>सत्यश्चापि प्रवादोऽयं यं प्रवक्ष्यामि तेऽनघ<br>निदर्शनार्थं न द्वेषात्तच्छ्रुत्वा क्षन्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.७</sup>विरूपो यावदादर्शे नात्मनः पश्यते मुखम्<br>मन्यते तावदात्मानमन्येभ्यो रूपवत्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.८</sup>यदा तु मुखमादर्शे विकृतं सोऽभिवीक्षते<br>तदेतरं विजानाति आत्मानं नेतरं जनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.९</sup>अतीव रूपसंपन्नो न किंचिदवमन्यते<br>अतीव जल्पन्दुर्वाचो भवतीह विहेठकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१०</sup>मूर्खो हि जल्पतां पुंसां श्रुत्वा वाचः शुभाशुभाः<br>अशुभं वाक्यमादत्ते पुरीषमिव सूकरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.११</sup>प्राज्ञस्तु जल्पतां पुंसां श्रुत्वा वाचः शुभाशुभाः<br>गुणवद्वाक्यमादत्ते हंसः क्षीरमिवाम्भसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१२</sup>अन्यान्परिवदन्साधुर्यथा हि परितप्यते<br>तथा परिवदन्नन्यांस्तुष्टो भवति दुर्जनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१३</sup>अभिवाद्य यथा वृद्धान्सन्तो गच्छन्ति निर्वृतिम्<br>एवं सज्जनमाक्रुश्य मूर्खो भवति निर्वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१४</sup>सुखं जीवन्त्यदोषज्ञा मूर्खा दोषानुदर्शिनः<br>यत्र वाच्याः परैः सन्तः परानाहुस्तथाविधान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१५</sup>अतो हास्यतरं लोके किंचिदन्यन्न विद्यते<br>यत्र दुर्जन इत्याह दुर्जनः सज्जनं स्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१६</sup>सत्यधर्मच्युतात्पुंसः क्रुद्धादाशीविषादिव<br>अनास्तिकोऽप्युद्विजते जनः किं पुनरास्तिकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१७</sup>स्वयमुत्पाद्य वै पुत्रं सदृशं योऽवमन्यते<br>तस्य देवाः श्रियं घ्नन्ति न च लोकानुपाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१८</sup>कुलवंशप्रतिष्ठां हि पितरः पुत्रमब्रुवन्<br>उत्तमं सर्वधर्माणां तस्मात्पुत्रं न संत्यजेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.१९</sup>स्वपत्नीप्रभवान्पञ्च लब्धान्क्रीतान्विवर्धितान्<br>कृतानन्यासु चोत्पन्नान्पुत्रान्वै मनुरब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२०</sup>धर्मकीर्त्यावहा नॄणां मनसः प्रीतिवर्धनाः<br>त्रायन्ते नरकाज्जाताः पुत्रा धर्मप्लवाः पितॄन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२१</sup>स त्वं नृपतिशार्दूल न पुत्रं त्यक्तुमर्हसि<br>आत्मानं सत्यधर्मौ च पालयानो महीपते<br>नरेन्द्रसिंह कपटं न वोढुं त्वमिहार्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२२</sup>वरं कूपशताद्वापी वरं वापीशतात्क्रतुः<br>वरं क्रतुशतात्पुत्रः सत्यं पुत्रशताद्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२३</sup>अश्वमेधसहस्रं च सत्यं च तुलया धृतम्<br>अश्वमेधसहस्राद्धि सत्यमेव विशिष्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२४</sup>सर्ववेदाधिगमनं सर्वतीर्थावगाहनम्<br>सत्यं च वदतो राजन्समं वा स्यान्न वा समम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२५</sup>नास्ति सत्यात्परो धर्मो न सत्याद्विद्यते परम्<br>न हि तीव्रतरं किंचिदनृतादिह विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२६</sup>राजन्सत्यं परं ब्रह्म सत्यं च समयः परः<br>मा त्याक्षीः समयं राजन्सत्यं संगतमस्तु ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२७</sup>अनृते चेत्प्रसङ्गस्ते श्रद्दधासि न चेत्स्वयम्<br>आत्मनो हन्त गच्छामि त्वादृशे नास्ति संगतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२८</sup>ऋतेऽपि त्वयि दुःषन्त शैलराजावतंसकाम्<br>चतुरन्तामिमामुर्वीं पुत्रो मे पालयिष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.२९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३०</sup>एतावदुक्त्वा वचनं प्रातिष्ठत शकुन्तला<br>अथान्तरिक्षे दुःषन्तं वागुवाचाशरीरिणी<br>ऋत्विक्पुरोहिताचार्यैर्मन्त्रिभिश्चावृतं तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३१</sup>भस्त्रा माता पितुः पुत्रो येन जातः स एव सः<br>भरस्व पुत्रं दुःषन्त मावमंस्थाः शकुन्तलाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३२</sup>रेतोधाः पुत्र उन्नयति नरदेव यमक्षयात्<br>त्वं चास्य धाता गर्भस्य सत्यमाह शकुन्तला
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३३</sup>जाया जनयते पुत्रमात्मनोऽङ्गं द्विधा कृतम्<br>तस्माद्भरस्व दुःषन्त पुत्रं शाकुन्तलं नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३४</sup>अभूतिरेषा कस्त्यज्याज्जीवञ्जीवन्तमात्मजम्<br>शाकुन्तलं महात्मानं दौःषन्तिं भर पौरव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३५</sup>भर्तव्योऽयं त्वया यस्मादस्माकं वचनादपि<br>तस्माद्भवत्वयं नाम्ना भरतो नाम ते सुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३६</sup>तच्छ्रुत्वा पौरवो राजा व्याहृतं वै दिवौकसाम्<br>पुरोहितममात्यांश्च संप्रहृष्टोऽब्रवीदिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३७</sup>शृण्वन्त्वेतद्भवन्तोऽस्य देवदूतस्य भाषितम्<br>अहमप्येवमेवैनं जानामि स्वयमात्मजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३८</sup>यद्यहं वचनादेव गृह्णीयामिममात्मजम्<br>भवेद्धि शङ्का लोकस्य नैवं शुद्धो भवेदयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.३९</sup>तं विशोध्य तदा राजा देवदूतेन भारत<br>हृष्टः प्रमुदितश्चापि प्रतिजग्राह तं सुतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४०</sup>मूर्ध्नि चैनमुपाघ्राय सस्नेहं परिषस्वजे<br>सभाज्यमानो विप्रैश्च स्तूयमानश्च बन्दिभिः<br>स मुदं परमां लेभे पुत्रसंस्पर्शजां नृपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४१</sup>तां चैव भार्यां धर्मज्ञः पूजयामास धर्मतः<br>अब्रवीच्चैव तां राजा सान्त्वपूर्वमिदं वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४२</sup>कृतो लोकपरोक्षोऽयं संबन्धो वै त्वया सह<br>तस्मादेतन्मया देवि त्वच्छुद्ध्यर्थं विचारितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४३</sup>मन्यते चैव लोकस्ते स्त्रीभावान्मयि संगतम्<br>पुत्रश्चायं वृतो राज्ये मया तस्माद्विचारितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४४</sup>यच्च कोपितयात्यर्थं त्वयोक्तोऽस्म्यप्रियं प्रिये<br>प्रणयिन्या विशालाक्षि तत्क्षान्तं ते मया शुभे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४५</sup>तामेवमुक्त्वा राजर्षिर्दुःषन्तो महिषीं प्रियाम्<br>वासोभिरन्नपानैश्च पूजयामास भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४६</sup>दुःषन्तश्च ततो राजा पुत्रं शाकुन्तलं तदा<br>भरतं नामतः कृत्वा यौवराज्येऽभ्यषेचयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४७</sup>तस्य तत्प्रथितं चक्रं प्रावर्तत महात्मनः<br>भास्वरं दिव्यमजितं लोकसंनादनं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४८</sup>स विजित्य महीपालांश्चकार वशवर्तिनः<br>चचार च सतां धर्मं प्राप चानुत्तमं यशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.४९</sup>स राजा चक्रवर्त्यासीत्सार्वभौमः प्रतापवान्<br>ईजे च बहुभिर्यज्ञैर्यथा शक्रो मरुत्पतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.५०</sup>याजयामास तं कण्वो दक्षवद्भूरिदक्षिणम्<br>श्रीमान्गोविततं नाम वाजिमेधमवाप सः<br>यस्मिन्सहस्रं पद्मानां कण्वाय भरतो ददौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.५१</sup>भरताद्भारती कीर्तिर्येनेदं भारतं कुलम्<br>अपरे ये च पूर्वे च भारता इति विश्रुताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.५२</sup>भरतस्यान्ववाये हि देवकल्पा महौजसः<br>बभूवुर्ब्रह्मकल्पाश्च बहवो राजसत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६९.५३</sup>येषामपरिमेयानि नामधेयानि सर्वशः<br>तेषां तु ते यथामुख्यं कीर्तयिष्यामि भारत<br>महाभागान्देवकल्पान्सत्यार्जवपरायणान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -240,8 +233,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

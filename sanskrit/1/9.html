@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/8.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:९</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/10.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,133 +64,98 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/8.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:९</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/10.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२</sup>तेषु तत्रोपविष्टेषु ब्राह्मणेषु समन्ततः<br>रुरुश्चुक्रोश गहनं वनं गत्वा सुदुःखितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.३</sup>शोकेनाभिहतः सोऽथ विलपन्करुणं बहु<br>अब्रवीद्वचनं शोचन्प्रियां चिन्त्य प्रमद्वराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.४</sup>शेते सा भुवि तन्वङ्गी मम शोकविवर्धिनी<br>बान्धवानां च सर्वेषां किं नु दुःखमतः परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.५</sup>यदि दत्तं तपस्तप्तं गुरवो वा मया यदि<br>सम्यगाराधितास्तेन संजीवतु मम प्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.६</sup>यथा जन्मप्रभृति वै यतात्माहं धृतव्रतः<br>प्रमद्वरा तथाद्यैव समुत्तिष्ठतु भामिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.७</sup>देवदूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.८</sup>अभिधत्से ह यद्वाचा रुरो दुःखेन तन्मृषा<br>न तु मर्त्यस्य धर्मात्मन्नायुरस्ति गतायुषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.९</sup>गतायुरेषा कृपणा गन्धर्वाप्सरसोः सुता<br>तस्माच्छोके मनस्तात मा कृथास्त्वं कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१०</sup>उपायश्चात्र विहितः पूर्वं देवैर्महात्मभिः<br>तं यदीच्छसि कर्तुं त्वं प्राप्स्यसीमां प्रमद्वराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.११</sup>रुरुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१२</sup>क उपायः कृतो देवैर्ब्रूहि तत्त्वेन खेचर<br>करिष्ये तं तथा श्रुत्वा त्रातुमर्हति मां भवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१३</sup>देवदूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१४</sup>आयुषोऽर्धं प्रयच्छस्व कन्यायै भृगुनन्दन<br>एवमुत्थास्यति रुरो तव भार्या प्रमद्वरा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१५</sup>रुरुरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१६</sup>आयुषोऽर्धं प्रयच्छामि कन्यायै खेचरोत्तम<br>शृङ्गाररूपाभरणा उत्तिष्ठतु मम प्रिया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१७</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१८</sup>ततो गन्धर्वराजश्च देवदूतश्च सत्तमौ<br>धर्मराजमुपेत्येदं वचनं प्रत्यभाषताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.१९</sup>धर्मराजायुषोऽर्धेन रुरोर्भार्या प्रमद्वरा<br>समुत्तिष्ठतु कल्याणी मृतैव यदि मन्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२०</sup>धर्मराज उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२१</sup>प्रमद्वरा रुरोर्भार्या देवदूत यदीच्छसि<br>उत्तिष्ठत्वायुषोऽर्धेन रुरोरेव समन्विता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२२</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२३</sup>एवमुक्ते ततः कन्या सोदतिष्ठत्प्रमद्वरा<br>रुरोस्तस्यायुषोऽर्धेन सुप्तेव वरवर्णिनी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२४</sup>एतद्दृष्टं भविष्ये हि रुरोरुत्तमतेजसः<br>आयुषोऽतिप्रवृद्धस्य भार्यार्थेऽर्धं ह्रसत्विति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२५</sup>तत इष्टेऽहनि तयोः पितरौ चक्रतुर्मुदा<br>विवाहं तौ च रेमाते परस्परहितैषिणौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२६</sup>स लब्ध्वा दुर्लभां भार्यां पद्मकिञ्जल्कसप्रभाम्<br>व्रतं चक्रे विनाशाय जिह्मगानां धृतव्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२७</sup>स दृष्ट्वा जिह्मगान्सर्वांस्तीव्रकोपसमन्वितः<br>अभिहन्ति यथासन्नं गृह्य प्रहरणं सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२८</sup>स कदाचिद्वनं विप्रो रुरुरभ्यागमन्महत्<br>शयानं तत्र चापश्यड्डुण्डुभं वयसान्वितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.२९</sup>तत उद्यम्य दण्डं स कालदण्डोपमं तदा<br>अभ्यघ्नद्रुषितो विप्रस्तमुवाचाथ डुण्डुभः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.९.३०</sup>नापराध्यामि ते किंचिदहमद्य तपोधन<br>संरम्भात्तत्किमर्थं मामभिहंसि रुषान्वितः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२</sup>तेषु तत्रोपविष्टेषु ब्राह्मणेषु समन्ततः<br>रुरुश्चुक्रोश गहनं वनं गत्वा सुदुःखितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.३</sup>शोकेनाभिहतः सोऽथ विलपन्करुणं बहु<br>अब्रवीद्वचनं शोचन्प्रियां चिन्त्य प्रमद्वराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.४</sup>शेते सा भुवि तन्वङ्गी मम शोकविवर्धिनी<br>बान्धवानां च सर्वेषां किं नु दुःखमतः परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.५</sup>यदि दत्तं तपस्तप्तं गुरवो वा मया यदि<br>सम्यगाराधितास्तेन संजीवतु मम प्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.६</sup>यथा जन्मप्रभृति वै यतात्माहं धृतव्रतः<br>प्रमद्वरा तथाद्यैव समुत्तिष्ठतु भामिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.७</sup>देवदूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.८</sup>अभिधत्से ह यद्वाचा रुरो दुःखेन तन्मृषा<br>न तु मर्त्यस्य धर्मात्मन्नायुरस्ति गतायुषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.९</sup>गतायुरेषा कृपणा गन्धर्वाप्सरसोः सुता<br>तस्माच्छोके मनस्तात मा कृथास्त्वं कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१०</sup>उपायश्चात्र विहितः पूर्वं देवैर्महात्मभिः<br>तं यदीच्छसि कर्तुं त्वं प्राप्स्यसीमां प्रमद्वराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.११</sup>रुरुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१२</sup>क उपायः कृतो देवैर्ब्रूहि तत्त्वेन खेचर<br>करिष्ये तं तथा श्रुत्वा त्रातुमर्हति मां भवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१३</sup>देवदूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१४</sup>आयुषोऽर्धं प्रयच्छस्व कन्यायै भृगुनन्दन<br>एवमुत्थास्यति रुरो तव भार्या प्रमद्वरा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१५</sup>रुरुरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१६</sup>आयुषोऽर्धं प्रयच्छामि कन्यायै खेचरोत्तम<br>शृङ्गाररूपाभरणा उत्तिष्ठतु मम प्रिया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१७</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१८</sup>ततो गन्धर्वराजश्च देवदूतश्च सत्तमौ<br>धर्मराजमुपेत्येदं वचनं प्रत्यभाषताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.१९</sup>धर्मराजायुषोऽर्धेन रुरोर्भार्या प्रमद्वरा<br>समुत्तिष्ठतु कल्याणी मृतैव यदि मन्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२०</sup>धर्मराज उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२१</sup>प्रमद्वरा रुरोर्भार्या देवदूत यदीच्छसि<br>उत्तिष्ठत्वायुषोऽर्धेन रुरोरेव समन्विता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२२</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२३</sup>एवमुक्ते ततः कन्या सोदतिष्ठत्प्रमद्वरा<br>रुरोस्तस्यायुषोऽर्धेन सुप्तेव वरवर्णिनी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२४</sup>एतद्दृष्टं भविष्ये हि रुरोरुत्तमतेजसः<br>आयुषोऽतिप्रवृद्धस्य भार्यार्थेऽर्धं ह्रसत्विति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२५</sup>तत इष्टेऽहनि तयोः पितरौ चक्रतुर्मुदा<br>विवाहं तौ च रेमाते परस्परहितैषिणौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२६</sup>स लब्ध्वा दुर्लभां भार्यां पद्मकिञ्जल्कसप्रभाम्<br>व्रतं चक्रे विनाशाय जिह्मगानां धृतव्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२७</sup>स दृष्ट्वा जिह्मगान्सर्वांस्तीव्रकोपसमन्वितः<br>अभिहन्ति यथासन्नं गृह्य प्रहरणं सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२८</sup>स कदाचिद्वनं विप्रो रुरुरभ्यागमन्महत्<br>शयानं तत्र चापश्यड्डुण्डुभं वयसान्वितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.२९</sup>तत उद्यम्य दण्डं स कालदण्डोपमं तदा<br>अभ्यघ्नद्रुषितो विप्रस्तमुवाचाथ डुण्डुभः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.९.३०</sup>नापराध्यामि ते किंचिदहमद्य तपोधन<br>संरम्भात्तत्किमर्थं मामभिहंसि रुषान्वितः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -171,8 +164,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

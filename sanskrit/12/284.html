@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/283.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२८४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/285.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,163 +64,128 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/283.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२८४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/285.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१</sup>पराशर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२</sup>एष धर्मविधिस्तात गृहस्थस्य प्रकीर्तितः<br>तपोविधिं तु वक्ष्यामि तन्मे निगदतः शृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३</sup>प्रायेण हि गृहस्थस्य ममत्वं नाम जायते<br>सङ्गागतं नरश्रेष्ठ भावैस्तामसराजसैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.४</sup>गृहाण्याश्रित्य गावश्च क्षेत्राणि च धनानि च<br>दाराः पुत्राश्च भृत्याश्च भवन्तीह नरस्य वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.५</sup>एवं तस्य प्रवृत्तस्य नित्यमेवानुपश्यतः<br>रागद्वेषौ विवर्धेते ह्यनित्यत्वमपश्यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.६</sup>रागद्वेषाभिभूतं च नरं द्रव्यवशानुगम्<br>मोहजाता रतिर्नाम समुपैति नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.७</sup>कृतार्थो भोगतो भूत्वा स वै रतिपरायणः<br>लाभं ग्राम्यसुखादन्यं रतितो नानुपश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.८</sup>ततो लोभाभिभूतात्मा सङ्गाद्वर्धयते जनम्<br>पुष्ट्यर्थं चैव तस्येह जनस्यार्थं चिकीर्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.९</sup>स जानन्नपि चाकार्यमर्थार्थं सेवते नरः<br>बालस्नेहपरीतात्मा तत्क्षयाच्चानुतप्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१०</sup>ततो मानेन संपन्नो रक्षन्नात्मपराजयम्<br>करोति येन भोगी स्यामिति तस्माद्विनश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.११</sup>तपो हि बुद्धियुक्तानां शाश्वतं ब्रह्मदर्शनम्<br>अन्विच्छतां शुभं कर्म नराणां त्यजतां सुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१२</sup>स्नेहायतननाशाच्च धननाशाच्च पार्थिव<br>आधिव्याधिप्रतापाच्च निर्वेदमुपगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१३</sup>निर्वेदादात्मसंबोधः संबोधाच्छास्त्रदर्शनम्<br>शास्त्रार्थदर्शनाद्राजंस्तप एवानुपश्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१४</sup>दुर्लभो हि मनुष्येन्द्र नरः प्रत्यवमर्शवान्<br>यो वै प्रियसुखे क्षीणे तपः कर्तुं व्यवस्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१५</sup>तपः सर्वगतं तात हीनस्यापि विधीयते<br>जितेन्द्रियस्य दान्तस्य स्वर्गमार्गप्रदेशकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१६</sup>प्रजापतिः प्रजाः पूर्वमसृजत्तपसा विभुः<br>क्वचित्क्वचिद्व्रतपरो व्रतान्यास्थाय पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१७</sup>आदित्या वसवो रुद्रास्तथैवाग्न्यश्विमारुताः<br>विश्वेदेवास्तथा साध्याः पितरोऽथ मरुद्गणाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१८</sup>यक्षराक्षसगन्धर्वाः सिद्धाश्चान्ये दिवौकसः<br>संसिद्धास्तपसा तात ये चान्ये स्वर्गवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.१९</sup>ये चादौ ब्रह्मणा सृष्टा ब्राह्मणास्तपसा पुरा<br>ते भावयन्तः पृथिवीं विचरन्ति दिवं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२०</sup>मर्त्यलोके च राजानो ये चान्ये गृहमेधिनः<br>महाकुलेषु दृश्यन्ते तत्सर्वं तपसः फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२१</sup>कौशिकानि च वस्त्राणि शुभान्याभरणानि च<br>वाहनासनयानानि सर्वं तत्तपसः फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२२</sup>मनोनुकूलाः प्रमदा रूपवत्यः सहस्रशः<br>वासः प्रासादपृष्ठे च तत्सर्वं तपसः फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२३</sup>शयनानि च मुख्यानि भोज्यानि विविधानि च<br>अभिप्रेतानि सर्वाणि भवन्ति कृतकर्मणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२४</sup>नाप्राप्यं तपसा किंचित्त्रैलोक्येऽस्मिन्परंतप<br>उपभोगपरित्यागः फलान्यकृतकर्मणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२५</sup>सुखितो दुःखितो वापि नरो लोभं परित्यजेत्<br>अवेक्ष्य मनसा शास्त्रं बुद्ध्या च नृपसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२६</sup>असंतोषोऽसुखायैव लोभादिन्द्रियविभ्रमः<br>ततोऽस्य नश्यति प्रज्ञा विद्येवाभ्यासवर्जिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२७</sup>नष्टप्रज्ञो यदा भवति तदा न्यायं न पश्यति<br>तस्मात्सुखक्षये प्राप्ते पुमानुग्रं तपश्चरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२८</sup>यदिष्टं तत्सुखं प्राहुर्द्वेष्यं दुःखमिहोच्यते<br>कृताकृतस्य तपसः फलं पश्यस्व यादृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.२९</sup>नित्यं भद्राणि पश्यन्ति विषयांश्चोपभुञ्जते<br>प्राकाश्यं चैव गच्छन्ति कृत्वा निष्कल्मषं तपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३०</sup>अप्रियाण्यवमानांश्च दुःखं बहुविधात्मकम्<br>फलार्थी सत्पथत्यक्तः प्राप्नोति विषयात्मकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३१</sup>धर्मे तपसि दाने च विचिकित्सास्य जायते<br>स कृत्वा पापकान्येव निरयं प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३२</sup>सुखे तु वर्तमानो वै दुःखे वापि नरोत्तम<br>स्ववृत्ताद्यो न चलति शास्त्रचक्षुः स मानवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३३</sup>इषुप्रपातमात्रं हि स्पर्शयोगे रतिः स्मृता<br>रसने दर्शने घ्राणे श्रवणे च विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३४</sup>ततोऽस्य जायते तीव्रा वेदना तत्क्षयात्पुनः<br>बुधा येन प्रशंसन्ति मोक्षं सुखमनुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३५</sup>ततः फलार्थं चरति भवन्ति ज्यायसो गुणाः<br>धर्मवृत्त्या च सततं कामार्थाभ्यां न हीयते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३६</sup>अप्रयत्नागताः सेव्या गृहस्थैर्विषयाः सदा<br>प्रयत्नेनोपगम्यश्च स्वधर्म इति मे मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३७</sup>मानिनां कुलजातानां नित्यं शास्त्रार्थचक्षुषाम्<br>धर्मक्रियावियुक्तानामशक्त्या संवृतात्मनाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३८</sup>क्रियमाणं यदा कर्म नाशं गच्छति मानुषम्<br>तेषां नान्यदृते लोके तपसः कर्म विद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.३९</sup>सर्वात्मना तु कुर्वीत गृहस्थः कर्मनिश्चयम्<br>दाक्ष्येण हव्यकव्यार्थं स्वधर्मं विचरेन्नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२८४.४०</sup>यथा नदीनदाः सर्वे सागरे यान्ति संस्थितिम्<br>एवमाश्रमिणः सर्वे गृहस्थे यान्ति संस्थितिम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१</sup>पराशर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२</sup>एष धर्मविधिस्तात गृहस्थस्य प्रकीर्तितः<br>तपोविधिं तु वक्ष्यामि तन्मे निगदतः शृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३</sup>प्रायेण हि गृहस्थस्य ममत्वं नाम जायते<br>सङ्गागतं नरश्रेष्ठ भावैस्तामसराजसैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.४</sup>गृहाण्याश्रित्य गावश्च क्षेत्राणि च धनानि च<br>दाराः पुत्राश्च भृत्याश्च भवन्तीह नरस्य वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.५</sup>एवं तस्य प्रवृत्तस्य नित्यमेवानुपश्यतः<br>रागद्वेषौ विवर्धेते ह्यनित्यत्वमपश्यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.६</sup>रागद्वेषाभिभूतं च नरं द्रव्यवशानुगम्<br>मोहजाता रतिर्नाम समुपैति नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.७</sup>कृतार्थो भोगतो भूत्वा स वै रतिपरायणः<br>लाभं ग्राम्यसुखादन्यं रतितो नानुपश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.८</sup>ततो लोभाभिभूतात्मा सङ्गाद्वर्धयते जनम्<br>पुष्ट्यर्थं चैव तस्येह जनस्यार्थं चिकीर्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.९</sup>स जानन्नपि चाकार्यमर्थार्थं सेवते नरः<br>बालस्नेहपरीतात्मा तत्क्षयाच्चानुतप्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१०</sup>ततो मानेन संपन्नो रक्षन्नात्मपराजयम्<br>करोति येन भोगी स्यामिति तस्माद्विनश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.११</sup>तपो हि बुद्धियुक्तानां शाश्वतं ब्रह्मदर्शनम्<br>अन्विच्छतां शुभं कर्म नराणां त्यजतां सुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१२</sup>स्नेहायतननाशाच्च धननाशाच्च पार्थिव<br>आधिव्याधिप्रतापाच्च निर्वेदमुपगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१३</sup>निर्वेदादात्मसंबोधः संबोधाच्छास्त्रदर्शनम्<br>शास्त्रार्थदर्शनाद्राजंस्तप एवानुपश्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१४</sup>दुर्लभो हि मनुष्येन्द्र नरः प्रत्यवमर्शवान्<br>यो वै प्रियसुखे क्षीणे तपः कर्तुं व्यवस्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१५</sup>तपः सर्वगतं तात हीनस्यापि विधीयते<br>जितेन्द्रियस्य दान्तस्य स्वर्गमार्गप्रदेशकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१६</sup>प्रजापतिः प्रजाः पूर्वमसृजत्तपसा विभुः<br>क्वचित्क्वचिद्व्रतपरो व्रतान्यास्थाय पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१७</sup>आदित्या वसवो रुद्रास्तथैवाग्न्यश्विमारुताः<br>विश्वेदेवास्तथा साध्याः पितरोऽथ मरुद्गणाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१८</sup>यक्षराक्षसगन्धर्वाः सिद्धाश्चान्ये दिवौकसः<br>संसिद्धास्तपसा तात ये चान्ये स्वर्गवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.१९</sup>ये चादौ ब्रह्मणा सृष्टा ब्राह्मणास्तपसा पुरा<br>ते भावयन्तः पृथिवीं विचरन्ति दिवं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२०</sup>मर्त्यलोके च राजानो ये चान्ये गृहमेधिनः<br>महाकुलेषु दृश्यन्ते तत्सर्वं तपसः फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२१</sup>कौशिकानि च वस्त्राणि शुभान्याभरणानि च<br>वाहनासनयानानि सर्वं तत्तपसः फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२२</sup>मनोनुकूलाः प्रमदा रूपवत्यः सहस्रशः<br>वासः प्रासादपृष्ठे च तत्सर्वं तपसः फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२३</sup>शयनानि च मुख्यानि भोज्यानि विविधानि च<br>अभिप्रेतानि सर्वाणि भवन्ति कृतकर्मणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२४</sup>नाप्राप्यं तपसा किंचित्त्रैलोक्येऽस्मिन्परंतप<br>उपभोगपरित्यागः फलान्यकृतकर्मणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२५</sup>सुखितो दुःखितो वापि नरो लोभं परित्यजेत्<br>अवेक्ष्य मनसा शास्त्रं बुद्ध्या च नृपसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२६</sup>असंतोषोऽसुखायैव लोभादिन्द्रियविभ्रमः<br>ततोऽस्य नश्यति प्रज्ञा विद्येवाभ्यासवर्जिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२७</sup>नष्टप्रज्ञो यदा भवति तदा न्यायं न पश्यति<br>तस्मात्सुखक्षये प्राप्ते पुमानुग्रं तपश्चरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२८</sup>यदिष्टं तत्सुखं प्राहुर्द्वेष्यं दुःखमिहोच्यते<br>कृताकृतस्य तपसः फलं पश्यस्व यादृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.२९</sup>नित्यं भद्राणि पश्यन्ति विषयांश्चोपभुञ्जते<br>प्राकाश्यं चैव गच्छन्ति कृत्वा निष्कल्मषं तपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३०</sup>अप्रियाण्यवमानांश्च दुःखं बहुविधात्मकम्<br>फलार्थी सत्पथत्यक्तः प्राप्नोति विषयात्मकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३१</sup>धर्मे तपसि दाने च विचिकित्सास्य जायते<br>स कृत्वा पापकान्येव निरयं प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३२</sup>सुखे तु वर्तमानो वै दुःखे वापि नरोत्तम<br>स्ववृत्ताद्यो न चलति शास्त्रचक्षुः स मानवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३३</sup>इषुप्रपातमात्रं हि स्पर्शयोगे रतिः स्मृता<br>रसने दर्शने घ्राणे श्रवणे च विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३४</sup>ततोऽस्य जायते तीव्रा वेदना तत्क्षयात्पुनः<br>बुधा येन प्रशंसन्ति मोक्षं सुखमनुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३५</sup>ततः फलार्थं चरति भवन्ति ज्यायसो गुणाः<br>धर्मवृत्त्या च सततं कामार्थाभ्यां न हीयते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३६</sup>अप्रयत्नागताः सेव्या गृहस्थैर्विषयाः सदा<br>प्रयत्नेनोपगम्यश्च स्वधर्म इति मे मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३७</sup>मानिनां कुलजातानां नित्यं शास्त्रार्थचक्षुषाम्<br>धर्मक्रियावियुक्तानामशक्त्या संवृतात्मनाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३८</sup>क्रियमाणं यदा कर्म नाशं गच्छति मानुषम्<br>तेषां नान्यदृते लोके तपसः कर्म विद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.३९</sup>सर्वात्मना तु कुर्वीत गृहस्थः कर्मनिश्चयम्<br>दाक्ष्येण हव्यकव्यार्थं स्वधर्मं विचरेन्नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२८४.४०</sup>यथा नदीनदाः सर्वे सागरे यान्ति संस्थितिम्<br>एवमाश्रमिणः सर्वे गृहस्थे यान्ति संस्थितिम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -201,8 +194,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/202.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:२०३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/204.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,142 +64,107 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/202.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:२०३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/204.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२</sup>ततो देवर्षयः सर्वे सिद्धाश्च परमर्षयः<br>जग्मुस्तदा परामार्तिं दृष्ट्वा तत्कदनं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.३</sup>तेऽभिजग्मुर्जितक्रोधा जितात्मानो जितेन्द्रियाः<br>पितामहस्य भवनं जगतः कृपया तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.४</sup>ततो ददृशुरासीनं सह देवैः पितामहम्<br>सिद्धैर्ब्रह्मर्षिभिश्चैव समन्तात्परिवारितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.५</sup>तत्र देवो महादेवस्तत्राग्निर्वायुना सह<br>चन्द्रादित्यौ च धर्मश्च परमेष्ठी तथा बुधः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.६</sup>वैखानसा वालखिल्या वानप्रस्था मरीचिपाः<br>अजाश्चैवाविमूढाश्च तेजोगर्भास्तपस्विनः<br>ऋषयः सर्व एवैते पितामहमुपासते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.७</sup>ततोऽभिगम्य सहिताः सर्व एव महर्षयः<br>सुन्दोपसुन्दयोः कर्म सर्वमेव शशंसिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.८</sup>यथाकृतं यथा चैव कृतं येन क्रमेण च<br>न्यवेदयंस्ततः सर्वमखिलेन पितामहे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.९</sup>ततो देवगणाः सर्वे ते चैव परमर्षयः<br>तमेवार्थं पुरस्कृत्य पितामहमचोदयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१०</sup>ततः पितामहः श्रुत्वा सर्वेषां तद्वचस्तदा<br>मुहूर्तमिव संचिन्त्य कर्तव्यस्य विनिश्चयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.११</sup>तयोर्वधं समुद्दिश्य विश्वकर्माणमाह्वयत्<br>दृष्ट्वा च विश्वकर्माणं व्यादिदेश पितामहः<br>सृज्यतां प्रार्थनीयेह प्रमदेति महातपाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१२</sup>पितामहं नमस्कृत्य तद्वाक्यमभिनन्द्य च<br>निर्ममे योषितं दिव्यां चिन्तयित्वा प्रयत्नतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१३</sup>त्रिषु लोकेषु यत्किंचिद्भूतं स्थावरजङ्गमम्<br>समानयद्दर्शनीयं तत्तद्यत्नात्ततस्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१४</sup>कोटिशश्चापि रत्नानि तस्या गात्रे न्यवेशयत्<br>तां रत्नसंघातमयीमसृजद्देवरूपिणीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१५</sup>सा प्रयत्नेन महता निर्मिता विश्वकर्मणा<br>त्रिषु लोकेषु नारीणां रूपेणाप्रतिमाभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१६</sup>न तस्याः सूक्ष्ममप्यस्ति यद्गात्रे रूपसंपदा<br>न युक्तं यत्र वा दृष्टिर्न सज्जति निरीक्षताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१७</sup>सा विग्रहवतीव श्रीः कान्तरूपा वपुष्मती<br>जहार सर्वभूतानां चक्षूंषि च मनांसि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१८</sup>तिलं तिलं समानीय रत्नानां यद्विनिर्मिता<br>तिलोत्तमेत्यतस्तस्या नाम चक्रे पितामहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.१९</sup>पितामह उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२०</sup>गच्छ सुन्दोपसुन्दाभ्यामसुराभ्यां तिलोत्तमे<br>प्रार्थनीयेन रूपेण कुरु भद्रे प्रलोभनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२१</sup>त्वत्कृते दर्शनादेव रूपसंपत्कृतेन वै<br>विरोधः स्याद्यथा ताभ्यामन्योन्येन तथा कुरु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२२</sup>नारद उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२३</sup>सा तथेति प्रतिज्ञाय नमस्कृत्य पितामहम्<br>चकार मण्डलं तत्र विबुधानां प्रदक्षिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२४</sup>प्राङ्मुखो भगवानास्ते दक्षिणेन महेश्वरः<br>देवाश्चैवोत्तरेणासन्सर्वतस्त्वृषयोऽभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२५</sup>कुर्वन्त्या तु तया तत्र मण्डलं तत्प्रदक्षिणम्<br>इन्द्रः स्थाणुश्च भगवान्धैर्येण प्रत्यवस्थितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२६</sup>द्रष्टुकामस्य चात्यर्थं गतायाः पार्श्वतस्तदा<br>अन्यदञ्चितपक्ष्मान्तं दक्षिणं निःसृतं मुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२७</sup>पृष्ठतः परिवर्तन्त्याः पश्चिमं निःसृतं मुखम्<br>गतायाश्चोत्तरं पार्श्वमुत्तरं निःसृतं मुखम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२८</sup>महेन्द्रस्यापि नेत्राणां पार्श्वतः पृष्ठतोऽग्रतः<br>रक्तान्तानां विशालानां सहस्रं सर्वतोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.२९</sup>एवं चतुर्मुखः स्थाणुर्महादेवोऽभवत्पुरा<br>तथा सहस्रनेत्रश्च बभूव बलसूदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.३०</sup>तथा देवनिकायानामृषीणां चैव सर्वशः<br>मुखान्यभिप्रवर्तन्ते येन याति तिलोत्तमा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.३१</sup>तस्या गात्रे निपतिता तेषां दृष्टिर्महात्मनाम्<br>सर्वेषामेव भूयिष्ठमृते देवं पितामहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.३२</sup>गच्छन्त्यास्तु तदा देवाः सर्वे च परमर्षयः<br>कृतमित्येव तत्कार्यं मेनिरे रूपसंपदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.२०३.३३</sup>तिलोत्तमायां तु तदा गतायां लोकभावनः<br>सर्वान्विसर्जयामास देवानृषिगणांश्च तान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२</sup>ततो देवर्षयः सर्वे सिद्धाश्च परमर्षयः<br>जग्मुस्तदा परामार्तिं दृष्ट्वा तत्कदनं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.३</sup>तेऽभिजग्मुर्जितक्रोधा जितात्मानो जितेन्द्रियाः<br>पितामहस्य भवनं जगतः कृपया तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.४</sup>ततो ददृशुरासीनं सह देवैः पितामहम्<br>सिद्धैर्ब्रह्मर्षिभिश्चैव समन्तात्परिवारितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.५</sup>तत्र देवो महादेवस्तत्राग्निर्वायुना सह<br>चन्द्रादित्यौ च धर्मश्च परमेष्ठी तथा बुधः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.६</sup>वैखानसा वालखिल्या वानप्रस्था मरीचिपाः<br>अजाश्चैवाविमूढाश्च तेजोगर्भास्तपस्विनः<br>ऋषयः सर्व एवैते पितामहमुपासते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.७</sup>ततोऽभिगम्य सहिताः सर्व एव महर्षयः<br>सुन्दोपसुन्दयोः कर्म सर्वमेव शशंसिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.८</sup>यथाकृतं यथा चैव कृतं येन क्रमेण च<br>न्यवेदयंस्ततः सर्वमखिलेन पितामहे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.९</sup>ततो देवगणाः सर्वे ते चैव परमर्षयः<br>तमेवार्थं पुरस्कृत्य पितामहमचोदयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१०</sup>ततः पितामहः श्रुत्वा सर्वेषां तद्वचस्तदा<br>मुहूर्तमिव संचिन्त्य कर्तव्यस्य विनिश्चयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.११</sup>तयोर्वधं समुद्दिश्य विश्वकर्माणमाह्वयत्<br>दृष्ट्वा च विश्वकर्माणं व्यादिदेश पितामहः<br>सृज्यतां प्रार्थनीयेह प्रमदेति महातपाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१२</sup>पितामहं नमस्कृत्य तद्वाक्यमभिनन्द्य च<br>निर्ममे योषितं दिव्यां चिन्तयित्वा प्रयत्नतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१३</sup>त्रिषु लोकेषु यत्किंचिद्भूतं स्थावरजङ्गमम्<br>समानयद्दर्शनीयं तत्तद्यत्नात्ततस्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१४</sup>कोटिशश्चापि रत्नानि तस्या गात्रे न्यवेशयत्<br>तां रत्नसंघातमयीमसृजद्देवरूपिणीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१५</sup>सा प्रयत्नेन महता निर्मिता विश्वकर्मणा<br>त्रिषु लोकेषु नारीणां रूपेणाप्रतिमाभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१६</sup>न तस्याः सूक्ष्ममप्यस्ति यद्गात्रे रूपसंपदा<br>न युक्तं यत्र वा दृष्टिर्न सज्जति निरीक्षताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१७</sup>सा विग्रहवतीव श्रीः कान्तरूपा वपुष्मती<br>जहार सर्वभूतानां चक्षूंषि च मनांसि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१८</sup>तिलं तिलं समानीय रत्नानां यद्विनिर्मिता<br>तिलोत्तमेत्यतस्तस्या नाम चक्रे पितामहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.१९</sup>पितामह उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२०</sup>गच्छ सुन्दोपसुन्दाभ्यामसुराभ्यां तिलोत्तमे<br>प्रार्थनीयेन रूपेण कुरु भद्रे प्रलोभनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२१</sup>त्वत्कृते दर्शनादेव रूपसंपत्कृतेन वै<br>विरोधः स्याद्यथा ताभ्यामन्योन्येन तथा कुरु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२२</sup>नारद उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२३</sup>सा तथेति प्रतिज्ञाय नमस्कृत्य पितामहम्<br>चकार मण्डलं तत्र विबुधानां प्रदक्षिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२४</sup>प्राङ्मुखो भगवानास्ते दक्षिणेन महेश्वरः<br>देवाश्चैवोत्तरेणासन्सर्वतस्त्वृषयोऽभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२५</sup>कुर्वन्त्या तु तया तत्र मण्डलं तत्प्रदक्षिणम्<br>इन्द्रः स्थाणुश्च भगवान्धैर्येण प्रत्यवस्थितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२६</sup>द्रष्टुकामस्य चात्यर्थं गतायाः पार्श्वतस्तदा<br>अन्यदञ्चितपक्ष्मान्तं दक्षिणं निःसृतं मुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२७</sup>पृष्ठतः परिवर्तन्त्याः पश्चिमं निःसृतं मुखम्<br>गतायाश्चोत्तरं पार्श्वमुत्तरं निःसृतं मुखम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२८</sup>महेन्द्रस्यापि नेत्राणां पार्श्वतः पृष्ठतोऽग्रतः<br>रक्तान्तानां विशालानां सहस्रं सर्वतोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.२९</sup>एवं चतुर्मुखः स्थाणुर्महादेवोऽभवत्पुरा<br>तथा सहस्रनेत्रश्च बभूव बलसूदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.३०</sup>तथा देवनिकायानामृषीणां चैव सर्वशः<br>मुखान्यभिप्रवर्तन्ते येन याति तिलोत्तमा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.३१</sup>तस्या गात्रे निपतिता तेषां दृष्टिर्महात्मनाम्<br>सर्वेषामेव भूयिष्ठमृते देवं पितामहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.३२</sup>गच्छन्त्यास्तु तदा देवाः सर्वे च परमर्षयः<br>कृतमित्येव तत्कार्यं मेनिरे रूपसंपदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.२०३.३३</sup>तिलोत्तमायां तु तदा गतायां लोकभावनः<br>सर्वान्विसर्जयामास देवानृषिगणांश्च तान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -180,8 +173,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

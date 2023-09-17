@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/199.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२००</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/201.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,187 +64,152 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/199.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२००</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/201.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२</sup>पितामह महाप्राज्ञ पुण्डरीकाक्षमच्युतम्<br>कर्तारमकृतं विष्णुं भूतानां प्रभवाप्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३</sup>नारायणं हृषीकेशं गोविन्दमपराजितम्<br>तत्त्वेन भरतश्रेष्ठ श्रोतुमिच्छामि केशवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.५</sup>श्रुतोऽयमर्थो रामस्य जामदग्न्यस्य जल्पतः<br>नारदस्य च देवर्षेः कृष्णद्वैपायनस्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.६</sup>असितो देवलस्तात वाल्मीकिश्च महातपाः<br>मार्कण्डेयश्च गोविन्दे कथयत्यद्भुतं महत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.७</sup>केशवो भरतश्रेष्ठ भगवानीश्वरः प्रभुः<br>पुरुषः सर्वमित्येव श्रूयते बहुधा विभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.८</sup>किं तु यानि विदुर्लोके ब्राह्मणाः शार्ङ्गधन्वनः<br>माहात्म्यानि महाबाहो शृणु तानि युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.९</sup>यानि चाहुर्मनुष्येन्द्र ये पुराणविदो जनाः<br>अशेषेण हि गोविन्दे कीर्तयिष्यामि तान्यहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१०</sup>महाभूतानि भूतात्मा महात्मा पुरुषोत्तमः<br>वायुर्ज्योतिस्तथा चापः खं गां चैवान्वकल्पयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.११</sup>स दृष्ट्वा पृथिवीं चैव सर्वभूतेश्वरः प्रभुः<br>अप्स्वेव शयनं चक्रे महात्मा पुरुषोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१२</sup>सर्वतेजोमयस्तस्मिञ्शयानः शयने शुभे<br>सोऽग्रजं सर्वभूतानां संकर्षणमचिन्तयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१३</sup>आश्रयं सर्वभूतानां मनसेति विशुश्रुम<br>स धारयति भूतात्मा उभे भूतभविष्यती
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१४</sup>ततस्तस्मिन्महाबाहो प्रादुर्भूते महात्मनि<br>भास्करप्रतिमं दिव्यं नाभ्यां पद्ममजायत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१५</sup>स तत्र भगवान्देवः पुष्करे भासयन्दिशः<br>ब्रह्मा समभवत्तात सर्वभूतपितामहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१६</sup>तस्मिन्नपि महाबाहो प्रादुर्भूते महात्मनि<br>तमसः पूर्वजो जज्ञे मधुर्नाम महासुरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१७</sup>तमुग्रमुग्रकर्माणमुग्रां बुद्धिं समास्थितम्<br>ब्रह्मणोपचितिं कुर्वञ्जघान पुरुषोत्तमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१८</sup>तस्य तात वधात्सर्वे देवदानवमानवाः<br>मधुसूदनमित्याहुर्वृषभं सर्वसात्वताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.१९</sup>ब्रह्मा तु ससृजे पुत्रान्मानसान्दक्षसप्तमान्<br>मरीचिमत्र्यङ्गिरसौ पुलस्त्यं पुलहं क्रतुम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२०</sup>मरीचिः कश्यपं तात पुत्रं चासृजदग्रजम्<br>मानसं जनयामास तैजसं ब्रह्मसत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२१</sup>अङ्गुष्ठादसृजद्ब्रह्मा मरीचेरपि पूर्वजम्<br>सोऽभवद्भरतश्रेष्ठ दक्षो नाम प्रजापतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२२</sup>तस्य पूर्वमजायन्त दश तिस्रश्च भारत<br>प्रजापतेर्दुहितरस्तासां ज्येष्ठाभवद्दितिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२३</sup>सर्वधर्मविशेषज्ञः पुण्यकीर्तिर्महायशाः<br>मारीचः कश्यपस्तात सर्वासामभवत्पतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२४</sup>उत्पाद्य तु महाभागस्तासामवरजा दश<br>ददौ धर्माय धर्मज्ञो दक्ष एव प्रजापतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२५</sup>धर्मस्य वसवः पुत्रा रुद्राश्चामिततेजसः<br>विश्वेदेवाश्च साध्याश्च मरुत्वन्तश्च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२६</sup>अपरास्तु यवीयस्यस्ताभ्योऽन्याः सप्तविंशतिः<br>सोमस्तासां महाभागः सर्वासामभवत्पतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२७</sup>इतरास्तु व्यजायन्त गन्धर्वांस्तुरगान्द्विजान्<br>गाश्च किंपुरुषान्मत्स्यानौद्भिदांश्च वनस्पतीन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२८</sup>आदित्यानदितिर्जज्ञे देवश्रेष्ठान्महाबलान्<br>तेषां विष्णुर्वामनोऽभूद्गोविन्दश्चाभवत्प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.२९</sup>तस्य विक्रमणादेव देवानां श्रीर्व्यवर्धत<br>दानवाश्च पराभूता दैतेयी चासुरी प्रजा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३०</sup>विप्रचित्तिप्रधानांश्च दानवानसृजद्दनुः<br>दितिस्तु सर्वानसुरान्महासत्त्वान्व्यजायत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३१</sup>अहोरात्रं च कालं च यथर्तु मधुसूदनः<br>पूर्वाह्णं चापराह्णं च सर्वमेवान्वकल्पयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३२</sup>बुद्ध्यापः सोऽसृजन्मेघांस्तथा स्थावरजङ्गमान्<br>पृथिवीं सोऽसृजद्विश्वां सहितां भूरितेजसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३३</sup>ततः कृष्णो महाबाहुः पुनरेव युधिष्ठिर<br>ब्राह्मणानां शतं श्रेष्ठं मुखादसृजत प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३४</sup>बाहुभ्यां क्षत्रियशतं वैश्यानामूरुतः शतम्<br>पद्भ्यां शूद्रशतं चैव केशवो भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३५</sup>स एवं चतुरो वर्णान्समुत्पाद्य महायशाः<br>अध्यक्षं सर्वभूतानां धातारमकरोत्प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३६</sup>यावद्यावदभूच्छ्रद्धा देहं धारयितुं नृणाम्<br>तावत्तावदजीवंस्ते नासीद्यमकृतं भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३७</sup>न चैषां मैथुनो धर्मो बभूव भरतर्षभ<br>संकल्पादेव चैतेषामपत्यमुदपद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३८</sup>तत्र त्रेतायुगे काले संकल्पाज्जायते प्रजा<br>न ह्यभून्मैथुनो धर्मस्तेषामपि जनाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.३९</sup>द्वापरे मैथुनो धर्मः प्रजानामभवन्नृप<br>तथा कलियुगे राजन्द्वंद्वमापेदिरे जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४०</sup>एष भूतपतिस्तात स्वध्यक्षश्च प्रकीर्तितः<br>निरध्यक्षांस्तु कौन्तेय कीर्तयिष्यामि तानपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४१</sup>दक्षिणापथजन्मानः सर्वे तलवरान्ध्रकाः<br>उत्साः पुलिन्दाः शबराश्चूचुपा मण्डपैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४२</sup>उत्तरापथजन्मानः कीर्तयिष्यामि तानपि<br>यौनकाम्बोजगान्धाराः किराता बर्बरैः सह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४३</sup>एते पापकृतस्तात चरन्ति पृथिवीमिमाम्<br>श्वकाकबलगृध्राणां सधर्माणो नराधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४४</sup>नैते कृतयुगे तात चरन्ति पृथिवीमिमाम्<br>त्रेताप्रभृति वर्तन्ते ते जना भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४५</sup>ततस्तस्मिन्महाघोरे संध्याकाले युगान्तिके<br>राजानः समसज्जन्त समासाद्येतरेतरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४६</sup>एवमेष कुरुश्रेष्ठ प्रादुर्भावो महात्मनः<br>देवदेवर्षिराचष्ट नारदः सर्वलोकदृक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४७</sup>नारदोऽप्यथ कृष्णस्य परं मेने नराधिप<br>शाश्वतत्वं महाबाहो यथावद्भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२००.४८</sup>एवमेष महाबाहुः केशवः सत्यविक्रमः<br>अचिन्त्यः पुण्डरीकाक्षो नैष केवलमानुषः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२</sup>पितामह महाप्राज्ञ पुण्डरीकाक्षमच्युतम्<br>कर्तारमकृतं विष्णुं भूतानां प्रभवाप्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३</sup>नारायणं हृषीकेशं गोविन्दमपराजितम्<br>तत्त्वेन भरतश्रेष्ठ श्रोतुमिच्छामि केशवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.५</sup>श्रुतोऽयमर्थो रामस्य जामदग्न्यस्य जल्पतः<br>नारदस्य च देवर्षेः कृष्णद्वैपायनस्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.६</sup>असितो देवलस्तात वाल्मीकिश्च महातपाः<br>मार्कण्डेयश्च गोविन्दे कथयत्यद्भुतं महत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.७</sup>केशवो भरतश्रेष्ठ भगवानीश्वरः प्रभुः<br>पुरुषः सर्वमित्येव श्रूयते बहुधा विभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.८</sup>किं तु यानि विदुर्लोके ब्राह्मणाः शार्ङ्गधन्वनः<br>माहात्म्यानि महाबाहो शृणु तानि युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.९</sup>यानि चाहुर्मनुष्येन्द्र ये पुराणविदो जनाः<br>अशेषेण हि गोविन्दे कीर्तयिष्यामि तान्यहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१०</sup>महाभूतानि भूतात्मा महात्मा पुरुषोत्तमः<br>वायुर्ज्योतिस्तथा चापः खं गां चैवान्वकल्पयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.११</sup>स दृष्ट्वा पृथिवीं चैव सर्वभूतेश्वरः प्रभुः<br>अप्स्वेव शयनं चक्रे महात्मा पुरुषोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१२</sup>सर्वतेजोमयस्तस्मिञ्शयानः शयने शुभे<br>सोऽग्रजं सर्वभूतानां संकर्षणमचिन्तयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१३</sup>आश्रयं सर्वभूतानां मनसेति विशुश्रुम<br>स धारयति भूतात्मा उभे भूतभविष्यती
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१४</sup>ततस्तस्मिन्महाबाहो प्रादुर्भूते महात्मनि<br>भास्करप्रतिमं दिव्यं नाभ्यां पद्ममजायत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१५</sup>स तत्र भगवान्देवः पुष्करे भासयन्दिशः<br>ब्रह्मा समभवत्तात सर्वभूतपितामहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१६</sup>तस्मिन्नपि महाबाहो प्रादुर्भूते महात्मनि<br>तमसः पूर्वजो जज्ञे मधुर्नाम महासुरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१७</sup>तमुग्रमुग्रकर्माणमुग्रां बुद्धिं समास्थितम्<br>ब्रह्मणोपचितिं कुर्वञ्जघान पुरुषोत्तमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१८</sup>तस्य तात वधात्सर्वे देवदानवमानवाः<br>मधुसूदनमित्याहुर्वृषभं सर्वसात्वताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.१९</sup>ब्रह्मा तु ससृजे पुत्रान्मानसान्दक्षसप्तमान्<br>मरीचिमत्र्यङ्गिरसौ पुलस्त्यं पुलहं क्रतुम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२०</sup>मरीचिः कश्यपं तात पुत्रं चासृजदग्रजम्<br>मानसं जनयामास तैजसं ब्रह्मसत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२१</sup>अङ्गुष्ठादसृजद्ब्रह्मा मरीचेरपि पूर्वजम्<br>सोऽभवद्भरतश्रेष्ठ दक्षो नाम प्रजापतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२२</sup>तस्य पूर्वमजायन्त दश तिस्रश्च भारत<br>प्रजापतेर्दुहितरस्तासां ज्येष्ठाभवद्दितिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२३</sup>सर्वधर्मविशेषज्ञः पुण्यकीर्तिर्महायशाः<br>मारीचः कश्यपस्तात सर्वासामभवत्पतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२४</sup>उत्पाद्य तु महाभागस्तासामवरजा दश<br>ददौ धर्माय धर्मज्ञो दक्ष एव प्रजापतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२५</sup>धर्मस्य वसवः पुत्रा रुद्राश्चामिततेजसः<br>विश्वेदेवाश्च साध्याश्च मरुत्वन्तश्च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२६</sup>अपरास्तु यवीयस्यस्ताभ्योऽन्याः सप्तविंशतिः<br>सोमस्तासां महाभागः सर्वासामभवत्पतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२७</sup>इतरास्तु व्यजायन्त गन्धर्वांस्तुरगान्द्विजान्<br>गाश्च किंपुरुषान्मत्स्यानौद्भिदांश्च वनस्पतीन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२८</sup>आदित्यानदितिर्जज्ञे देवश्रेष्ठान्महाबलान्<br>तेषां विष्णुर्वामनोऽभूद्गोविन्दश्चाभवत्प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.२९</sup>तस्य विक्रमणादेव देवानां श्रीर्व्यवर्धत<br>दानवाश्च पराभूता दैतेयी चासुरी प्रजा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३०</sup>विप्रचित्तिप्रधानांश्च दानवानसृजद्दनुः<br>दितिस्तु सर्वानसुरान्महासत्त्वान्व्यजायत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३१</sup>अहोरात्रं च कालं च यथर्तु मधुसूदनः<br>पूर्वाह्णं चापराह्णं च सर्वमेवान्वकल्पयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३२</sup>बुद्ध्यापः सोऽसृजन्मेघांस्तथा स्थावरजङ्गमान्<br>पृथिवीं सोऽसृजद्विश्वां सहितां भूरितेजसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३३</sup>ततः कृष्णो महाबाहुः पुनरेव युधिष्ठिर<br>ब्राह्मणानां शतं श्रेष्ठं मुखादसृजत प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३४</sup>बाहुभ्यां क्षत्रियशतं वैश्यानामूरुतः शतम्<br>पद्भ्यां शूद्रशतं चैव केशवो भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३५</sup>स एवं चतुरो वर्णान्समुत्पाद्य महायशाः<br>अध्यक्षं सर्वभूतानां धातारमकरोत्प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३६</sup>यावद्यावदभूच्छ्रद्धा देहं धारयितुं नृणाम्<br>तावत्तावदजीवंस्ते नासीद्यमकृतं भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३७</sup>न चैषां मैथुनो धर्मो बभूव भरतर्षभ<br>संकल्पादेव चैतेषामपत्यमुदपद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३८</sup>तत्र त्रेतायुगे काले संकल्पाज्जायते प्रजा<br>न ह्यभून्मैथुनो धर्मस्तेषामपि जनाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.३९</sup>द्वापरे मैथुनो धर्मः प्रजानामभवन्नृप<br>तथा कलियुगे राजन्द्वंद्वमापेदिरे जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४०</sup>एष भूतपतिस्तात स्वध्यक्षश्च प्रकीर्तितः<br>निरध्यक्षांस्तु कौन्तेय कीर्तयिष्यामि तानपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४१</sup>दक्षिणापथजन्मानः सर्वे तलवरान्ध्रकाः<br>उत्साः पुलिन्दाः शबराश्चूचुपा मण्डपैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४२</sup>उत्तरापथजन्मानः कीर्तयिष्यामि तानपि<br>यौनकाम्बोजगान्धाराः किराता बर्बरैः सह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४३</sup>एते पापकृतस्तात चरन्ति पृथिवीमिमाम्<br>श्वकाकबलगृध्राणां सधर्माणो नराधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४४</sup>नैते कृतयुगे तात चरन्ति पृथिवीमिमाम्<br>त्रेताप्रभृति वर्तन्ते ते जना भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४५</sup>ततस्तस्मिन्महाघोरे संध्याकाले युगान्तिके<br>राजानः समसज्जन्त समासाद्येतरेतरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४६</sup>एवमेष कुरुश्रेष्ठ प्रादुर्भावो महात्मनः<br>देवदेवर्षिराचष्ट नारदः सर्वलोकदृक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४७</sup>नारदोऽप्यथ कृष्णस्य परं मेने नराधिप<br>शाश्वतत्वं महाबाहो यथावद्भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२००.४८</sup>एवमेष महाबाहुः केशवः सत्यविक्रमः<br>अचिन्त्यः पुण्डरीकाक्षो नैष केवलमानुषः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -225,8 +218,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

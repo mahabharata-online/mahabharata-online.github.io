@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/14/91.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१४:९२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/14/93.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/14/91.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१४:९२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/14/93.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२</sup>पितामहस्य मे यज्ञे धर्मपुत्रस्य धीमतः<br>यदाश्चर्यमभूत्किंचित्तद्भवान्वक्तुमर्हति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.३</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.४</sup>श्रूयतां राजशार्दूल महदाश्चर्यमुत्तमम्<br>अश्वमेधे महायज्ञे निवृत्ते यदभूद्विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.५</sup>तर्पितेषु द्विजाग्र्येषु ज्ञातिसंबन्धिबन्धुषु<br>दीनान्धकृपणे चापि तदा भरतसत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.६</sup>घुष्यमाणे महादाने दिक्षु सर्वासु भारत<br>पतत्सु पुष्पवर्षेषु धर्मराजस्य मूर्धनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.७</sup>बिलान्निष्क्रम्य नकुलो रुक्मपार्श्वस्तदानघ<br>वज्राशनिसमं नादममुञ्चत विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.८</sup>सकृदुत्सृज्य तं नादं त्रासयानो मृगद्विजान्<br>मानुषं वचनं प्राह धृष्टो बिलशयो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.९</sup>सक्तुप्रस्थेन वो नायं यज्ञस्तुल्यो नराधिपाः<br>उञ्छवृत्तेर्वदान्यस्य कुरुक्षेत्रनिवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१०</sup>तस्य तद्वचनं श्रुत्वा नकुलस्य विशां पते<br>विस्मयं परमं जग्मुः सर्वे ते ब्राह्मणर्षभाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.११</sup>ततः समेत्य नकुलं पर्यपृच्छन्त ते द्विजाः<br>कुतस्त्वं समनुप्राप्तो यज्ञं साधुसमागमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१२</sup>किं बलं परमं तुभ्यं किं श्रुतं किं परायणम्<br>कथं भवन्तं विद्याम यो नो यज्ञं विगर्हसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१३</sup>अविलुप्यागमं कृत्स्नं विधिज्ञैर्याजकैः कृतम्<br>यथागमं यथान्यायं कर्तव्यं च यथाकृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१४</sup>पूजार्हाः पूजिताश्चात्र विधिवच्छास्त्रचक्षुषा<br>मन्त्रपूतं हुतश्चाग्निर्दत्तं देयममत्सरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१५</sup>तुष्टा द्विजर्षभाश्चात्र दानैर्बहुविधैरपि<br>क्षत्रियाश्च सुयुद्धेन श्राद्धैरपि पितामहाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१६</sup>पालनेन विशस्तुष्टाः कामैस्तुष्टा वरस्त्रियः<br>अनुक्रोशैस्तथा शूद्रा दानशेषैः पृथग्जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१७</sup>ज्ञातिसंबन्धिनस्तुष्टाः शौचेन च नृपस्य नः<br>देवा हविर्भिः पुण्यैश्च रक्षणैः शरणागताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१८</sup>यदत्र तथ्यं तद्ब्रूहि सत्यसंध द्विजातिषु<br>यथाश्रुतं यथादृष्टं पृष्टो ब्राह्मणकाम्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.१९</sup>श्रद्धेयवाक्यः प्राज्ञस्त्वं दिव्यं रूपं बिभर्षि च<br>समागतश्च विप्रैस्त्वं तत्त्वतो वक्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२०</sup>इति पृष्टो द्विजैस्तैः स प्रहस्य नकुलोऽब्रवीत्<br>नैषानृता मया वाणी प्रोक्ता दर्पेण वा द्विजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२१</sup>यन्मयोक्तमिदं किंचिद्युष्माभिश्चाप्युपश्रुतम्<br>सक्तुप्रस्थेन वो नायं यज्ञस्तुल्यो नराधिपाः<br>उञ्छवृत्तेर्वदान्यस्य कुरुक्षेत्रनिवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२२</sup>इत्यवश्यं मयैतद्वो वक्तव्यं द्विजपुंगवाः<br>शृणुताव्यग्रमनसः शंसतो मे द्विजर्षभाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२३</sup>अनुभूतं च दृष्टं च यन्मयाद्भुतमुत्तमम्<br>उञ्छवृत्तेर्यथावृत्तं कुरुक्षेत्रनिवासिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१४.९२.२४</sup>स्वर्गं येन द्विजः प्राप्तः सभार्यः ससुतस्नुषः<br>यथा चार्धं शरीरस्य ममेदं काञ्चनीकृतम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२</sup>पितामहस्य मे यज्ञे धर्मपुत्रस्य धीमतः<br>यदाश्चर्यमभूत्किंचित्तद्भवान्वक्तुमर्हति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.३</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.४</sup>श्रूयतां राजशार्दूल महदाश्चर्यमुत्तमम्<br>अश्वमेधे महायज्ञे निवृत्ते यदभूद्विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.५</sup>तर्पितेषु द्विजाग्र्येषु ज्ञातिसंबन्धिबन्धुषु<br>दीनान्धकृपणे चापि तदा भरतसत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.६</sup>घुष्यमाणे महादाने दिक्षु सर्वासु भारत<br>पतत्सु पुष्पवर्षेषु धर्मराजस्य मूर्धनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.७</sup>बिलान्निष्क्रम्य नकुलो रुक्मपार्श्वस्तदानघ<br>वज्राशनिसमं नादममुञ्चत विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.८</sup>सकृदुत्सृज्य तं नादं त्रासयानो मृगद्विजान्<br>मानुषं वचनं प्राह धृष्टो बिलशयो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.९</sup>सक्तुप्रस्थेन वो नायं यज्ञस्तुल्यो नराधिपाः<br>उञ्छवृत्तेर्वदान्यस्य कुरुक्षेत्रनिवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१०</sup>तस्य तद्वचनं श्रुत्वा नकुलस्य विशां पते<br>विस्मयं परमं जग्मुः सर्वे ते ब्राह्मणर्षभाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.११</sup>ततः समेत्य नकुलं पर्यपृच्छन्त ते द्विजाः<br>कुतस्त्वं समनुप्राप्तो यज्ञं साधुसमागमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१२</sup>किं बलं परमं तुभ्यं किं श्रुतं किं परायणम्<br>कथं भवन्तं विद्याम यो नो यज्ञं विगर्हसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१३</sup>अविलुप्यागमं कृत्स्नं विधिज्ञैर्याजकैः कृतम्<br>यथागमं यथान्यायं कर्तव्यं च यथाकृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१४</sup>पूजार्हाः पूजिताश्चात्र विधिवच्छास्त्रचक्षुषा<br>मन्त्रपूतं हुतश्चाग्निर्दत्तं देयममत्सरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१५</sup>तुष्टा द्विजर्षभाश्चात्र दानैर्बहुविधैरपि<br>क्षत्रियाश्च सुयुद्धेन श्राद्धैरपि पितामहाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१६</sup>पालनेन विशस्तुष्टाः कामैस्तुष्टा वरस्त्रियः<br>अनुक्रोशैस्तथा शूद्रा दानशेषैः पृथग्जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१७</sup>ज्ञातिसंबन्धिनस्तुष्टाः शौचेन च नृपस्य नः<br>देवा हविर्भिः पुण्यैश्च रक्षणैः शरणागताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१८</sup>यदत्र तथ्यं तद्ब्रूहि सत्यसंध द्विजातिषु<br>यथाश्रुतं यथादृष्टं पृष्टो ब्राह्मणकाम्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.१९</sup>श्रद्धेयवाक्यः प्राज्ञस्त्वं दिव्यं रूपं बिभर्षि च<br>समागतश्च विप्रैस्त्वं तत्त्वतो वक्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२०</sup>इति पृष्टो द्विजैस्तैः स प्रहस्य नकुलोऽब्रवीत्<br>नैषानृता मया वाणी प्रोक्ता दर्पेण वा द्विजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२१</sup>यन्मयोक्तमिदं किंचिद्युष्माभिश्चाप्युपश्रुतम्<br>सक्तुप्रस्थेन वो नायं यज्ञस्तुल्यो नराधिपाः<br>उञ्छवृत्तेर्वदान्यस्य कुरुक्षेत्रनिवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२२</sup>इत्यवश्यं मयैतद्वो वक्तव्यं द्विजपुंगवाः<br>शृणुताव्यग्रमनसः शंसतो मे द्विजर्षभाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२३</sup>अनुभूतं च दृष्टं च यन्मयाद्भुतमुत्तमम्<br>उञ्छवृत्तेर्यथावृत्तं कुरुक्षेत्रनिवासिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१४.९२.२४</sup>स्वर्गं येन द्विजः प्राप्तः सभार्यः ससुतस्नुषः<br>यथा चार्धं शरीरस्य ममेदं काञ्चनीकृतम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/121.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:१२२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/123.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,127 +64,92 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/121.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:१२२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/123.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१</sup>लोमश उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२</sup>भृगोर्महर्षेः पुत्रोऽभूच्च्यवनो नाम भार्गवः<br>समीपे सरसः सोऽस्य तपस्तेपे महाद्युतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.३</sup>स्थाणुभूतो महातेजा वीरस्थानेन पाण्डव<br>अतिष्ठत्सुबहून्कालानेकदेशे विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.४</sup>स वल्मीकोऽभवदृषिर्लताभिरभिसंवृतः<br>कालेन महता राजन्समाकीर्णः पिपीलिकैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.५</sup>तथा स संवृतो धीमान्मृत्पिण्ड इव सर्वशः<br>तप्यति स्म तपो राजन्वल्मीकेन समावृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.६</sup>अथ दीर्घस्य कालस्य शर्यातिर्नाम पार्थिवः<br>आजगाम सरो रम्यं विहर्तुमिदमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.७</sup>तस्य स्त्रीणां सहस्राणि चत्वार्यासन्परिग्रहः<br>एकैव च सुता शुभ्रा सुकन्या नाम भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.८</sup>सा सखीभिः परिवृता सर्वाभरणभूषिता<br>चङ्क्रम्यमाणा वल्मीकं भार्गवस्य समासदत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.९</sup>सा चैव सुदती तत्र पश्यमाना मनोरमान्<br>वनस्पतीन्विचिन्वन्ती विजहार सखीवृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१०</sup>रूपेण वयसा चैव मदनेन मदेन च<br>बभञ्ज वनवृक्षाणां शाखाः परमपुष्पिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.११</sup>तां सखीरहितामेकामेकवस्त्रामलंकृताम्<br>ददर्श भार्गवो धीमांश्चरन्तीमिव विद्युतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१२</sup>तां पश्यमानो विजने स रेमे परमद्युतिः<br>क्षामकण्ठश्च ब्रह्मर्षिस्तपोबलसमन्वितः<br>तामाबभाषे कल्याणीं सा चास्य न शृणोति वै
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१३</sup>ततः सुकन्या वल्मीके दृष्ट्वा भार्गवचक्षुषी<br>कौतूहलात्कण्टकेन बुद्धिमोहबलात्कृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१४</sup>किं नु खल्विदमित्युक्त्वा निर्बिभेदास्य लोचने<br>अक्रुध्यत्स तया विद्धे नेत्रे परममन्युमान्<br>ततः शर्यातिसैन्यस्य शकृन्मूत्रं समावृणोत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१५</sup>ततो रुद्धे शकृन्मूत्रे सैन्यमानाहदुःखितम्<br>तथागतमभिप्रेक्ष्य पर्यपृच्छत्स पार्थिवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१६</sup>तपोनित्यस्य वृद्धस्य रोषणस्य विशेषतः<br>केनापकृतमद्येह भार्गवस्य महात्मनः<br>ज्ञातं वा यदि वाज्ञातं तदृतं ब्रूत माचिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१७</sup>तमूचुः सैनिकाः सर्वे न विद्मोऽपकृतं वयम्<br>सर्वोपायैर्यथाकामं भवांस्तदधिगच्छतु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१८</sup>ततः स पृथिवीपालः साम्ना चोग्रेण च स्वयम्<br>पर्यपृच्छत्सुहृद्वर्गं प्रत्यजानन्न चैव ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.१९</sup>आनाहार्तं ततो दृष्ट्वा तत्सैन्यमसुखार्दितम्<br>पितरं दुःखितं चापि सुकन्येदमथाब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२०</sup>मयाटन्त्येह वल्मीके दृष्टं सत्त्वमभिज्वलत्<br>खद्योतवदभिज्ञातं तन्मया विद्धमन्तिकात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२१</sup>एतच्छ्रुत्वा तु शर्यातिर्वल्मीकं तूर्णमाद्रवत्<br>तत्रापश्यत्तपोवृद्धं वयोवृद्धं च भार्गवम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२२</sup>अयाचदथ सैन्यार्थं प्राञ्जलिः पृथिवीपतिः<br>अज्ञानाद्बालया यत्ते कृतं तत्क्षन्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२३</sup>ततोऽब्रवीन्महीपालं च्यवनो भार्गवस्तदा<br>रूपौदार्यसमायुक्तां लोभमोहबलात्कृताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२४</sup>तामेव प्रतिगृह्याहं राजन्दुहितरं तव<br>क्षमिष्यामि महीपाल सत्यमेतद्ब्रवीमि ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२५</sup>ऋषेर्वचनमाज्ञाय शर्यातिरविचारयन्<br>ददौ दुहितरं तस्मै च्यवनाय महात्मने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२६</sup>प्रतिगृह्य च तां कन्यां च्यवनः प्रससाद ह<br>प्राप्तप्रसादो राजा स ससैन्यः पुनराव्रजत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२७</sup>सुकन्यापि पतिं लब्ध्वा तपस्विनमनिन्दिता<br>नित्यं पर्यचरत्प्रीत्या तपसा नियमेन च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.१२२.२८</sup>अग्नीनामतिथीनां च शुश्रूषुरनसूयिका<br>समाराधयत क्षिप्रं च्यवनं सा शुभानना
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१</sup>लोमश उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२</sup>भृगोर्महर्षेः पुत्रोऽभूच्च्यवनो नाम भार्गवः<br>समीपे सरसः सोऽस्य तपस्तेपे महाद्युतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.३</sup>स्थाणुभूतो महातेजा वीरस्थानेन पाण्डव<br>अतिष्ठत्सुबहून्कालानेकदेशे विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.४</sup>स वल्मीकोऽभवदृषिर्लताभिरभिसंवृतः<br>कालेन महता राजन्समाकीर्णः पिपीलिकैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.५</sup>तथा स संवृतो धीमान्मृत्पिण्ड इव सर्वशः<br>तप्यति स्म तपो राजन्वल्मीकेन समावृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.६</sup>अथ दीर्घस्य कालस्य शर्यातिर्नाम पार्थिवः<br>आजगाम सरो रम्यं विहर्तुमिदमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.७</sup>तस्य स्त्रीणां सहस्राणि चत्वार्यासन्परिग्रहः<br>एकैव च सुता शुभ्रा सुकन्या नाम भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.८</sup>सा सखीभिः परिवृता सर्वाभरणभूषिता<br>चङ्क्रम्यमाणा वल्मीकं भार्गवस्य समासदत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.९</sup>सा चैव सुदती तत्र पश्यमाना मनोरमान्<br>वनस्पतीन्विचिन्वन्ती विजहार सखीवृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१०</sup>रूपेण वयसा चैव मदनेन मदेन च<br>बभञ्ज वनवृक्षाणां शाखाः परमपुष्पिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.११</sup>तां सखीरहितामेकामेकवस्त्रामलंकृताम्<br>ददर्श भार्गवो धीमांश्चरन्तीमिव विद्युतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१२</sup>तां पश्यमानो विजने स रेमे परमद्युतिः<br>क्षामकण्ठश्च ब्रह्मर्षिस्तपोबलसमन्वितः<br>तामाबभाषे कल्याणीं सा चास्य न शृणोति वै
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१३</sup>ततः सुकन्या वल्मीके दृष्ट्वा भार्गवचक्षुषी<br>कौतूहलात्कण्टकेन बुद्धिमोहबलात्कृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१४</sup>किं नु खल्विदमित्युक्त्वा निर्बिभेदास्य लोचने<br>अक्रुध्यत्स तया विद्धे नेत्रे परममन्युमान्<br>ततः शर्यातिसैन्यस्य शकृन्मूत्रं समावृणोत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१५</sup>ततो रुद्धे शकृन्मूत्रे सैन्यमानाहदुःखितम्<br>तथागतमभिप्रेक्ष्य पर्यपृच्छत्स पार्थिवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१६</sup>तपोनित्यस्य वृद्धस्य रोषणस्य विशेषतः<br>केनापकृतमद्येह भार्गवस्य महात्मनः<br>ज्ञातं वा यदि वाज्ञातं तदृतं ब्रूत माचिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१७</sup>तमूचुः सैनिकाः सर्वे न विद्मोऽपकृतं वयम्<br>सर्वोपायैर्यथाकामं भवांस्तदधिगच्छतु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१८</sup>ततः स पृथिवीपालः साम्ना चोग्रेण च स्वयम्<br>पर्यपृच्छत्सुहृद्वर्गं प्रत्यजानन्न चैव ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.१९</sup>आनाहार्तं ततो दृष्ट्वा तत्सैन्यमसुखार्दितम्<br>पितरं दुःखितं चापि सुकन्येदमथाब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२०</sup>मयाटन्त्येह वल्मीके दृष्टं सत्त्वमभिज्वलत्<br>खद्योतवदभिज्ञातं तन्मया विद्धमन्तिकात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२१</sup>एतच्छ्रुत्वा तु शर्यातिर्वल्मीकं तूर्णमाद्रवत्<br>तत्रापश्यत्तपोवृद्धं वयोवृद्धं च भार्गवम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२२</sup>अयाचदथ सैन्यार्थं प्राञ्जलिः पृथिवीपतिः<br>अज्ञानाद्बालया यत्ते कृतं तत्क्षन्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२३</sup>ततोऽब्रवीन्महीपालं च्यवनो भार्गवस्तदा<br>रूपौदार्यसमायुक्तां लोभमोहबलात्कृताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२४</sup>तामेव प्रतिगृह्याहं राजन्दुहितरं तव<br>क्षमिष्यामि महीपाल सत्यमेतद्ब्रवीमि ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२५</sup>ऋषेर्वचनमाज्ञाय शर्यातिरविचारयन्<br>ददौ दुहितरं तस्मै च्यवनाय महात्मने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२६</sup>प्रतिगृह्य च तां कन्यां च्यवनः प्रससाद ह<br>प्राप्तप्रसादो राजा स ससैन्यः पुनराव्रजत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२७</sup>सुकन्यापि पतिं लब्ध्वा तपस्विनमनिन्दिता<br>नित्यं पर्यचरत्प्रीत्या तपसा नियमेन च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.१२२.२८</sup>अग्नीनामतिथीनां च शुश्रूषुरनसूयिका<br>समाराधयत क्षिप्रं च्यवनं सा शुभानना
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -165,8 +158,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

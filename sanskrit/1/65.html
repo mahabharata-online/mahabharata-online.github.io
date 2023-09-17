@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/1/64.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१:६५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/1/66.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,187 +64,152 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/1/64.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१:६५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/1/66.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२</sup>ततो गच्छन्महाबाहुरेकोऽमात्यान्विसृज्य तान्<br>नापश्यदाश्रमे तस्मिंस्तमृषिं संशितव्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३</sup>सोऽपश्यमानस्तमृषिं शून्यं दृष्ट्वा तमाश्रमम्<br>उवाच क इहेत्युच्चैर्वनं संनादयन्निव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४</sup>श्रुत्वाथ तस्य तं शब्दं कन्या श्रीरिव रूपिणी<br>निश्चक्रामाश्रमात्तस्मात्तापसीवेषधारिणी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.५</sup>सा तं दृष्ट्वैव राजानं दुःषन्तमसितेक्षणा<br>स्वागतं त इति क्षिप्रमुवाच प्रतिपूज्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.६</sup>आसनेनार्चयित्वा च पाद्येनार्घ्येण चैव हि<br>पप्रच्छानामयं राजन्कुशलं च नराधिपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.७</sup>यथावदर्चयित्वा सा पृष्ट्वा चानामयं तदा<br>उवाच स्मयमानेव किं कार्यं क्रियतामिति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.८</sup>तामब्रवीत्ततो राजा कन्यां मधुरभाषिणीम्<br>दृष्ट्वा सर्वानवद्याङ्गीं यथावत्प्रतिपूजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.९</sup>आगतोऽहं महाभागमृषिं कण्वमुपासितुम्<br>क्व गतो भगवान्भद्रे तन्ममाचक्ष्व शोभने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१०</sup>शकुन्तलोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.११</sup>गतः पिता मे भगवान्फलान्याहर्तुमाश्रमात्<br>मुहूर्तं संप्रतीक्षस्व द्रक्ष्यस्येनमिहागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१२</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१३</sup>अपश्यमानस्तमृषिं तया चोक्तस्तथा नृपः<br>तां च दृष्ट्वा वरारोहां श्रीमतीं चारुहासिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१४</sup>विभ्राजमानां वपुषा तपसा च दमेन च<br>रूपयौवनसंपन्नामित्युवाच महीपतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१५</sup>कासि कस्यासि सुश्रोणि किमर्थं चागता वनम्<br>एवंरूपगुणोपेता कुतस्त्वमसि शोभने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१६</sup>दर्शनादेव हि शुभे त्वया मेऽपहृतं मनः<br>इच्छामि त्वामहं ज्ञातुं तन्ममाचक्ष्व शोभने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१७</sup>एवमुक्ता तदा कन्या तेन राज्ञा तदाश्रमे<br>उवाच हसती वाक्यमिदं सुमधुराक्षरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१८</sup>कण्वष्याहं भगवतो दुःषन्त दुहिता मता<br>तपस्विनो धृतिमतो धर्मज्ञस्य यशस्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.१९</sup>दुःषन्त उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२०</sup>ऊर्ध्वरेता महाभागो भगवाँल्लोकपूजितः<br>चलेद्धि वृत्ताद्धर्मोऽपि न चलेत्संशितव्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२१</sup>कथं त्वं तस्य दुहिता संभूता वरवर्णिनी<br>संशयो मे महानत्र तं मे छेत्तुमिहार्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२२</sup>शकुन्तलोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२३</sup>यथायमागमो मह्यं यथा चेदमभूत्पुरा<br>शृणु राजन्यथातत्त्वं यथास्मि दुहिता मुनेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२४</sup>ऋषिः कश्चिदिहागम्य मम जन्माभ्यचोदयत्<br>तस्मै प्रोवाच भगवान्यथा तच्छृणु पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२५</sup>तप्यमानः किल पुरा विश्वामित्रो महत्तपः<br>सुभृशं तापयामास शक्रं सुरगणेश्वरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२६</sup>तपसा दीप्तवीर्योऽयं स्थानान्मां च्यावयेदिति<br>भीतः पुरंदरस्तस्मान्मेनकामिदमब्रवीत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२७</sup>गुणैर्दिव्यैरप्सरसां मेनके त्वं विशिष्यसे<br>श्रेयो मे कुरु कल्याणि यत्त्वां वक्ष्यामि तच्छृणु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२८</sup>असावादित्यसंकाशो विश्वामित्रो महातपाः<br>तप्यमानस्तपो घोरं मम कम्पयते मनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.२९</sup>मेनके तव भारोऽयं विश्वामित्रः सुमध्यमे<br>संशितात्मा सुदुर्धर्ष उग्रे तपसि वर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३०</sup>स मां न च्यावयेत्स्थानात्तं वै गत्वा प्रलोभय<br>चर तस्य तपोविघ्नं कुरु मे प्रियमुत्तमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३१</sup>रूपयौवनमाधुर्यचेष्टितस्मितभाषितैः<br>लोभयित्वा वरारोहे तपसः संनिवर्तय
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३२</sup>मेनकोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३३</sup>महातेजाः स भगवान्सदैव च महातपाः<br>कोपनश्च तथा ह्येनं जानाति भगवानपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३४</sup>तेजसस्तपसश्चैव कोपस्य च महात्मनः<br>त्वमप्युद्विजसे यस्य नोद्विजेयमहं कथम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३५</sup>महाभागं वसिष्ठं यः पुत्रैरिष्टैर्व्ययोजयत्<br>क्षत्रे जातश्च यः पूर्वमभवद्ब्राह्मणो बलात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३६</sup>शौचार्थं यो नदीं चक्रे दुर्गमां बहुभिर्जलैः<br>यां तां पुण्यतमां लोके कौशिकीति विदुर्जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३७</sup>बभार यत्रास्य पुरा काले दुर्गे महात्मनः<br>दारान्मतङ्गो धर्मात्मा राजर्षिर्व्याधतां गतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३८</sup>अतीतकाले दुर्भिक्षे यत्रैत्य पुनराश्रमम्<br>मुनिः पारेति नद्या वै नाम चक्रे तदा प्रभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.३९</sup>मतङ्गं याजयां चक्रे यत्र प्रीतमनाः स्वयम्<br>त्वं च सोमं भयाद्यस्य गतः पातुं शुरेश्वर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४०</sup>अति नक्षत्रवंशांश्च क्रुद्धो नक्षत्रसंपदा<br>प्रति श्रवणपूर्वाणि नक्षत्राणि ससर्ज यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४१</sup>एतानि यस्य कर्माणि तस्याहं भृशमुद्विजे<br>यथा मां न दहेत्क्रुद्धस्तथाज्ञापय मां विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४२</sup>तेजसा निर्दहेल्लोकान्कम्पयेद्धरणीं पदा<br>संक्षिपेच्च महामेरुं तूर्णमावर्तयेत्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४३</sup>तादृशं तपसा युक्तं प्रदीप्तमिव पावकम्<br>कथमस्मद्विधा बाला जितेन्द्रियमभिस्पृशेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४४</sup>हुताशनमुखं दीप्तं सूर्यचन्द्राक्षितारकम्<br>कालजिह्वं सुरश्रेष्ठ कथमस्मद्विधा स्पृशेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४५</sup>यमश्च सोमश्च महर्षयश्च; साध्या विश्वे वालखिल्याश्च सर्वे<br>एतेऽपि यस्योद्विजन्ते प्रभावा;त्कस्मात्तस्मान्मादृशी नोद्विजेत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४६</sup>त्वयैवमुक्ता च कथं समीप;मृषेर्न गच्छेयमहं सुरेन्द्र<br>रक्षां तु मे चिन्तय देवराज; यथा त्वदर्थं रक्षिताहं चरेयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४७</sup>कामं तु मे मारुतस्तत्र वासः; प्रक्रीडिताया विवृणोतु देव<br>भवेच्च मे मन्मथस्तत्र कार्ये; सहायभूतस्तव देवप्रसादात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१.६५.४८</sup>वनाच्च वायुः सुरभिः प्रवाये;त्तस्मिन्काले तमृषिं लोभयन्त्याः<br>तथेत्युक्त्वा विहिते चैव तस्मिं;स्ततो ययौ साश्रमं कौशिकस्य
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२</sup>ततो गच्छन्महाबाहुरेकोऽमात्यान्विसृज्य तान्<br>नापश्यदाश्रमे तस्मिंस्तमृषिं संशितव्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३</sup>सोऽपश्यमानस्तमृषिं शून्यं दृष्ट्वा तमाश्रमम्<br>उवाच क इहेत्युच्चैर्वनं संनादयन्निव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४</sup>श्रुत्वाथ तस्य तं शब्दं कन्या श्रीरिव रूपिणी<br>निश्चक्रामाश्रमात्तस्मात्तापसीवेषधारिणी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.५</sup>सा तं दृष्ट्वैव राजानं दुःषन्तमसितेक्षणा<br>स्वागतं त इति क्षिप्रमुवाच प्रतिपूज्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.६</sup>आसनेनार्चयित्वा च पाद्येनार्घ्येण चैव हि<br>पप्रच्छानामयं राजन्कुशलं च नराधिपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.७</sup>यथावदर्चयित्वा सा पृष्ट्वा चानामयं तदा<br>उवाच स्मयमानेव किं कार्यं क्रियतामिति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.८</sup>तामब्रवीत्ततो राजा कन्यां मधुरभाषिणीम्<br>दृष्ट्वा सर्वानवद्याङ्गीं यथावत्प्रतिपूजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.९</sup>आगतोऽहं महाभागमृषिं कण्वमुपासितुम्<br>क्व गतो भगवान्भद्रे तन्ममाचक्ष्व शोभने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१०</sup>शकुन्तलोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.११</sup>गतः पिता मे भगवान्फलान्याहर्तुमाश्रमात्<br>मुहूर्तं संप्रतीक्षस्व द्रक्ष्यस्येनमिहागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१२</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१३</sup>अपश्यमानस्तमृषिं तया चोक्तस्तथा नृपः<br>तां च दृष्ट्वा वरारोहां श्रीमतीं चारुहासिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१४</sup>विभ्राजमानां वपुषा तपसा च दमेन च<br>रूपयौवनसंपन्नामित्युवाच महीपतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१५</sup>कासि कस्यासि सुश्रोणि किमर्थं चागता वनम्<br>एवंरूपगुणोपेता कुतस्त्वमसि शोभने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१६</sup>दर्शनादेव हि शुभे त्वया मेऽपहृतं मनः<br>इच्छामि त्वामहं ज्ञातुं तन्ममाचक्ष्व शोभने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१७</sup>एवमुक्ता तदा कन्या तेन राज्ञा तदाश्रमे<br>उवाच हसती वाक्यमिदं सुमधुराक्षरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१८</sup>कण्वष्याहं भगवतो दुःषन्त दुहिता मता<br>तपस्विनो धृतिमतो धर्मज्ञस्य यशस्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.१९</sup>दुःषन्त उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२०</sup>ऊर्ध्वरेता महाभागो भगवाँल्लोकपूजितः<br>चलेद्धि वृत्ताद्धर्मोऽपि न चलेत्संशितव्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२१</sup>कथं त्वं तस्य दुहिता संभूता वरवर्णिनी<br>संशयो मे महानत्र तं मे छेत्तुमिहार्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२२</sup>शकुन्तलोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२३</sup>यथायमागमो मह्यं यथा चेदमभूत्पुरा<br>शृणु राजन्यथातत्त्वं यथास्मि दुहिता मुनेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२४</sup>ऋषिः कश्चिदिहागम्य मम जन्माभ्यचोदयत्<br>तस्मै प्रोवाच भगवान्यथा तच्छृणु पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२५</sup>तप्यमानः किल पुरा विश्वामित्रो महत्तपः<br>सुभृशं तापयामास शक्रं सुरगणेश्वरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२६</sup>तपसा दीप्तवीर्योऽयं स्थानान्मां च्यावयेदिति<br>भीतः पुरंदरस्तस्मान्मेनकामिदमब्रवीत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२७</sup>गुणैर्दिव्यैरप्सरसां मेनके त्वं विशिष्यसे<br>श्रेयो मे कुरु कल्याणि यत्त्वां वक्ष्यामि तच्छृणु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२८</sup>असावादित्यसंकाशो विश्वामित्रो महातपाः<br>तप्यमानस्तपो घोरं मम कम्पयते मनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.२९</sup>मेनके तव भारोऽयं विश्वामित्रः सुमध्यमे<br>संशितात्मा सुदुर्धर्ष उग्रे तपसि वर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३०</sup>स मां न च्यावयेत्स्थानात्तं वै गत्वा प्रलोभय<br>चर तस्य तपोविघ्नं कुरु मे प्रियमुत्तमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३१</sup>रूपयौवनमाधुर्यचेष्टितस्मितभाषितैः<br>लोभयित्वा वरारोहे तपसः संनिवर्तय
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३२</sup>मेनकोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३३</sup>महातेजाः स भगवान्सदैव च महातपाः<br>कोपनश्च तथा ह्येनं जानाति भगवानपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३४</sup>तेजसस्तपसश्चैव कोपस्य च महात्मनः<br>त्वमप्युद्विजसे यस्य नोद्विजेयमहं कथम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३५</sup>महाभागं वसिष्ठं यः पुत्रैरिष्टैर्व्ययोजयत्<br>क्षत्रे जातश्च यः पूर्वमभवद्ब्राह्मणो बलात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३६</sup>शौचार्थं यो नदीं चक्रे दुर्गमां बहुभिर्जलैः<br>यां तां पुण्यतमां लोके कौशिकीति विदुर्जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३७</sup>बभार यत्रास्य पुरा काले दुर्गे महात्मनः<br>दारान्मतङ्गो धर्मात्मा राजर्षिर्व्याधतां गतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३८</sup>अतीतकाले दुर्भिक्षे यत्रैत्य पुनराश्रमम्<br>मुनिः पारेति नद्या वै नाम चक्रे तदा प्रभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.३९</sup>मतङ्गं याजयां चक्रे यत्र प्रीतमनाः स्वयम्<br>त्वं च सोमं भयाद्यस्य गतः पातुं शुरेश्वर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४०</sup>अति नक्षत्रवंशांश्च क्रुद्धो नक्षत्रसंपदा<br>प्रति श्रवणपूर्वाणि नक्षत्राणि ससर्ज यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४१</sup>एतानि यस्य कर्माणि तस्याहं भृशमुद्विजे<br>यथा मां न दहेत्क्रुद्धस्तथाज्ञापय मां विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४२</sup>तेजसा निर्दहेल्लोकान्कम्पयेद्धरणीं पदा<br>संक्षिपेच्च महामेरुं तूर्णमावर्तयेत्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४३</sup>तादृशं तपसा युक्तं प्रदीप्तमिव पावकम्<br>कथमस्मद्विधा बाला जितेन्द्रियमभिस्पृशेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४४</sup>हुताशनमुखं दीप्तं सूर्यचन्द्राक्षितारकम्<br>कालजिह्वं सुरश्रेष्ठ कथमस्मद्विधा स्पृशेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४५</sup>यमश्च सोमश्च महर्षयश्च; साध्या विश्वे वालखिल्याश्च सर्वे<br>एतेऽपि यस्योद्विजन्ते प्रभावा;त्कस्मात्तस्मान्मादृशी नोद्विजेत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४६</sup>त्वयैवमुक्ता च कथं समीप;मृषेर्न गच्छेयमहं सुरेन्द्र<br>रक्षां तु मे चिन्तय देवराज; यथा त्वदर्थं रक्षिताहं चरेयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४७</sup>कामं तु मे मारुतस्तत्र वासः; प्रक्रीडिताया विवृणोतु देव<br>भवेच्च मे मन्मथस्तत्र कार्ये; सहायभूतस्तव देवप्रसादात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१.६५.४८</sup>वनाच्च वायुः सुरभिः प्रवाये;त्तस्मिन्काले तमृषिं लोभयन्त्याः<br>तथेत्युक्त्वा विहिते चैव तस्मिं;स्ततो ययौ साश्रमं कौशिकस्य
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -225,8 +218,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

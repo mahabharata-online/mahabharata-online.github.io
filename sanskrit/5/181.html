@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/180.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:१८१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/182.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/180.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:१८१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/182.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२</sup>आत्मनस्तु ततः सूतो हयानां च विशां पते<br>मम चापनयामास शल्यान्कुशलसंमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३</sup>स्नातोपवृत्तैस्तुरगैर्लब्धतोयैरविह्वलैः<br>प्रभात उदिते सूर्ये ततो युद्धमवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.४</sup>दृष्ट्वा मां तूर्णमायान्तं दंशितं स्यन्दने स्थितम्<br>अकरोद्रथमत्यर्थं रामः सज्जं प्रतापवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.५</sup>ततोऽहं राममायान्तं दृष्ट्वा समरकाङ्क्षिणम्<br>धनुःश्रेष्ठं समुत्सृज्य सहसावतरं रथात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.६</sup>अभिवाद्य तथैवाहं रथमारुह्य भारत<br>युयुत्सुर्जामदग्न्यस्य प्रमुखे वीतभीः स्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.७</sup>ततो मां शरवर्षेण महता समवाकिरत्<br>अहं च शरवर्षेण वर्षन्तं समवाकिरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.८</sup>संक्रुद्धो जामदग्न्यस्तु पुनरेव पतत्रिणः<br>प्रेषयामास मे राजन्दीप्तास्यानुरगानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.९</sup>तानहं निशितैर्भल्लैः शतशोऽथ सहस्रशः<br>अच्छिदं सहसा राजन्नन्तरिक्षे पुनः पुनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१०</sup>ततस्त्वस्त्राणि दिव्यानि जामदग्न्यः प्रतापवान्<br>मयि प्रचोदयामास तान्यहं प्रत्यषेधयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.११</sup>अस्त्रैरेव महाबाहो चिकीर्षन्नधिकां क्रियाम्<br>ततो दिवि महान्नादः प्रादुरासीत्समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१२</sup>ततोऽहमस्त्रं वायव्यं जामदग्न्ये प्रयुक्तवान्<br>प्रत्याजघ्ने च तद्रामो गुह्यकास्त्रेण भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१३</sup>ततोऽस्त्रमहमाग्नेयमनुमन्त्र्य प्रयुक्तवान्<br>वारुणेनैव रामस्तद्वारयामास मे विभुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१४</sup>एवमस्त्राणि दिव्यानि रामस्याहमवारयम्<br>रामश्च मम तेजस्वी दिव्यास्त्रविदरिंदमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१५</sup>ततो मां सव्यतो राजन्रामः कुर्वन्द्विजोत्तमः<br>उरस्यविध्यत्संक्रुद्धो जामदग्न्यो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१६</sup>ततोऽहं भरतश्रेष्ठ संन्यषीदं रथोत्तमे<br>अथ मां कश्मलाविष्टं सूतस्तूर्णमपावहत्<br>गोरुतं भरतश्रेष्ठ रामबाणप्रपीडितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१७</sup>ततो मामपयातं वै भृशं विद्धमचेतसम्<br>रामस्यानुचरा हृष्टाः सर्वे दृष्ट्वा प्रचुक्रुशुः<br>अकृतव्रणप्रभृतयः काशिकन्या च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१८</sup>ततस्तु लब्धसंज्ञोऽहं ज्ञात्वा सूतमथाब्रुवम्<br>याहि सूत यतो रामः सज्जोऽहं गतवेदनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.१९</sup>ततो मामवहत्सूतो हयैः परमशोभितैः<br>नृत्यद्भिरिव कौरव्य मारुतप्रतिमैर्गतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२०</sup>ततोऽहं राममासाद्य बाणजालेन कौरव<br>अवाकिरं सुसंरब्धः संरब्धं विजिगीषया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२१</sup>तानापतत एवासौ रामो बाणानजिह्मगान्<br>बाणैरेवाच्छिनत्तूर्णमेकैकं त्रिभिराहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२२</sup>ततस्ते मृदिताः सर्वे मम बाणाः सुसंशिताः<br>रामबाणैर्द्विधा छिन्नाः शतशोऽथ महाहवे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२३</sup>ततः पुनः शरं दीप्तं सुप्रभं कालसंमितम्<br>असृजं जामदग्न्याय रामायाहं जिघांसया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२४</sup>तेन त्वभिहतो गाढं बाणच्छेदवशं गतः<br>मुमोह सहसा रामो भूमौ च निपपात ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२५</sup>ततो हाहाकृतं सर्वं रामे भूतलमाश्रिते<br>जगद्भारत संविग्नं यथार्कपतनेऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२६</sup>तत एनं सुसंविग्नाः सर्व एवाभिदुद्रुवुः<br>तपोधनास्ते सहसा काश्या च भृगुनन्दनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२७</sup>त एनं संपरिष्वज्य शनैराश्वासयंस्तदा<br>पाणिभिर्जलशीतैश्च जयाशीर्भिश्च कौरव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२८</sup>ततः स विह्वलो वाक्यं राम उत्थाय माब्रवीत्<br>तिष्ठ भीष्म हतोऽसीति बाणं संधाय कार्मुके
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.२९</sup>स मुक्तो न्यपतत्तूर्णं पार्श्वे सव्ये महाहवे<br>येनाहं भृशसंविग्नो व्याघूर्णित इव द्रुमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३०</sup>हत्वा हयांस्ततो राजञ्शीघ्रास्त्रेण महाहवे<br>अवाकिरन्मां विश्रब्धो बाणैस्तैर्लोमवाहिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३१</sup>ततोऽहमपि शीघ्रास्त्रं समरेऽप्रतिवारणम्<br>अवासृजं महाबाहो तेऽन्तराधिष्ठिताः शराः<br>रामस्य मम चैवाशु व्योमावृत्य समन्ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३२</sup>न स्म सूर्यः प्रतपति शरजालसमावृतः<br>मातरिश्वान्तरे तस्मिन्मेघरुद्ध इवानदत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३३</sup>ततो वायोः प्रकम्पाच्च सूर्यस्य च मरीचिभिः<br>अभितापात्स्वभावाच्च पावकः समजायत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३४</sup>ते शराः स्वसमुत्थेन प्रदीप्ताश्चित्रभानुना<br>भूमौ सर्वे तदा राजन्भस्मभूताः प्रपेदिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३५</sup>तदा शतसहस्राणि प्रयुतान्यर्बुदानि च<br>अयुतान्यथ खर्वाणि निखर्वाणि च कौरव<br>रामः शराणां संक्रुद्धो मयि तूर्णमपातयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३६</sup>ततोऽहं तानपि रणे शरैराशीविषोपमैः<br>संछिद्य भूमौ नृपतेऽपातयं पन्नगानिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.१८१.३७</sup>एवं तदभवद्युद्धं तदा भरतसत्तम<br>संध्याकाले व्यतीते तु व्यपायात्स च मे गुरुः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२</sup>आत्मनस्तु ततः सूतो हयानां च विशां पते<br>मम चापनयामास शल्यान्कुशलसंमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३</sup>स्नातोपवृत्तैस्तुरगैर्लब्धतोयैरविह्वलैः<br>प्रभात उदिते सूर्ये ततो युद्धमवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.४</sup>दृष्ट्वा मां तूर्णमायान्तं दंशितं स्यन्दने स्थितम्<br>अकरोद्रथमत्यर्थं रामः सज्जं प्रतापवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.५</sup>ततोऽहं राममायान्तं दृष्ट्वा समरकाङ्क्षिणम्<br>धनुःश्रेष्ठं समुत्सृज्य सहसावतरं रथात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.६</sup>अभिवाद्य तथैवाहं रथमारुह्य भारत<br>युयुत्सुर्जामदग्न्यस्य प्रमुखे वीतभीः स्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.७</sup>ततो मां शरवर्षेण महता समवाकिरत्<br>अहं च शरवर्षेण वर्षन्तं समवाकिरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.८</sup>संक्रुद्धो जामदग्न्यस्तु पुनरेव पतत्रिणः<br>प्रेषयामास मे राजन्दीप्तास्यानुरगानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.९</sup>तानहं निशितैर्भल्लैः शतशोऽथ सहस्रशः<br>अच्छिदं सहसा राजन्नन्तरिक्षे पुनः पुनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१०</sup>ततस्त्वस्त्राणि दिव्यानि जामदग्न्यः प्रतापवान्<br>मयि प्रचोदयामास तान्यहं प्रत्यषेधयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.११</sup>अस्त्रैरेव महाबाहो चिकीर्षन्नधिकां क्रियाम्<br>ततो दिवि महान्नादः प्रादुरासीत्समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१२</sup>ततोऽहमस्त्रं वायव्यं जामदग्न्ये प्रयुक्तवान्<br>प्रत्याजघ्ने च तद्रामो गुह्यकास्त्रेण भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१३</sup>ततोऽस्त्रमहमाग्नेयमनुमन्त्र्य प्रयुक्तवान्<br>वारुणेनैव रामस्तद्वारयामास मे विभुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१४</sup>एवमस्त्राणि दिव्यानि रामस्याहमवारयम्<br>रामश्च मम तेजस्वी दिव्यास्त्रविदरिंदमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१५</sup>ततो मां सव्यतो राजन्रामः कुर्वन्द्विजोत्तमः<br>उरस्यविध्यत्संक्रुद्धो जामदग्न्यो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१६</sup>ततोऽहं भरतश्रेष्ठ संन्यषीदं रथोत्तमे<br>अथ मां कश्मलाविष्टं सूतस्तूर्णमपावहत्<br>गोरुतं भरतश्रेष्ठ रामबाणप्रपीडितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१७</sup>ततो मामपयातं वै भृशं विद्धमचेतसम्<br>रामस्यानुचरा हृष्टाः सर्वे दृष्ट्वा प्रचुक्रुशुः<br>अकृतव्रणप्रभृतयः काशिकन्या च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१८</sup>ततस्तु लब्धसंज्ञोऽहं ज्ञात्वा सूतमथाब्रुवम्<br>याहि सूत यतो रामः सज्जोऽहं गतवेदनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.१९</sup>ततो मामवहत्सूतो हयैः परमशोभितैः<br>नृत्यद्भिरिव कौरव्य मारुतप्रतिमैर्गतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२०</sup>ततोऽहं राममासाद्य बाणजालेन कौरव<br>अवाकिरं सुसंरब्धः संरब्धं विजिगीषया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२१</sup>तानापतत एवासौ रामो बाणानजिह्मगान्<br>बाणैरेवाच्छिनत्तूर्णमेकैकं त्रिभिराहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२२</sup>ततस्ते मृदिताः सर्वे मम बाणाः सुसंशिताः<br>रामबाणैर्द्विधा छिन्नाः शतशोऽथ महाहवे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२३</sup>ततः पुनः शरं दीप्तं सुप्रभं कालसंमितम्<br>असृजं जामदग्न्याय रामायाहं जिघांसया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२४</sup>तेन त्वभिहतो गाढं बाणच्छेदवशं गतः<br>मुमोह सहसा रामो भूमौ च निपपात ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२५</sup>ततो हाहाकृतं सर्वं रामे भूतलमाश्रिते<br>जगद्भारत संविग्नं यथार्कपतनेऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२६</sup>तत एनं सुसंविग्नाः सर्व एवाभिदुद्रुवुः<br>तपोधनास्ते सहसा काश्या च भृगुनन्दनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२७</sup>त एनं संपरिष्वज्य शनैराश्वासयंस्तदा<br>पाणिभिर्जलशीतैश्च जयाशीर्भिश्च कौरव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२८</sup>ततः स विह्वलो वाक्यं राम उत्थाय माब्रवीत्<br>तिष्ठ भीष्म हतोऽसीति बाणं संधाय कार्मुके
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.२९</sup>स मुक्तो न्यपतत्तूर्णं पार्श्वे सव्ये महाहवे<br>येनाहं भृशसंविग्नो व्याघूर्णित इव द्रुमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३०</sup>हत्वा हयांस्ततो राजञ्शीघ्रास्त्रेण महाहवे<br>अवाकिरन्मां विश्रब्धो बाणैस्तैर्लोमवाहिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३१</sup>ततोऽहमपि शीघ्रास्त्रं समरेऽप्रतिवारणम्<br>अवासृजं महाबाहो तेऽन्तराधिष्ठिताः शराः<br>रामस्य मम चैवाशु व्योमावृत्य समन्ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३२</sup>न स्म सूर्यः प्रतपति शरजालसमावृतः<br>मातरिश्वान्तरे तस्मिन्मेघरुद्ध इवानदत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३३</sup>ततो वायोः प्रकम्पाच्च सूर्यस्य च मरीचिभिः<br>अभितापात्स्वभावाच्च पावकः समजायत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३४</sup>ते शराः स्वसमुत्थेन प्रदीप्ताश्चित्रभानुना<br>भूमौ सर्वे तदा राजन्भस्मभूताः प्रपेदिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३५</sup>तदा शतसहस्राणि प्रयुतान्यर्बुदानि च<br>अयुतान्यथ खर्वाणि निखर्वाणि च कौरव<br>रामः शराणां संक्रुद्धो मयि तूर्णमपातयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३६</sup>ततोऽहं तानपि रणे शरैराशीविषोपमैः<br>संछिद्य भूमौ नृपतेऽपातयं पन्नगानिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.१८१.३७</sup>एवं तदभवद्युद्धं तदा भरतसत्तम<br>संध्याकाले व्यतीते तु व्यपायात्स च मे गुरुः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

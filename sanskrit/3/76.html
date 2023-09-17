@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/75.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:७६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/77.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,109 +64,74 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/75.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:७६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/77.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१</sup>बृहदश्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.२</sup>अथ तां व्युषितो रात्रिं नलो राजा स्वलंकृतः<br>वैदर्भ्या सहितः काल्यं ददर्श वसुधाधिपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.३</sup>ततोऽभिवादयामास प्रयतः श्वशुरं नलः<br>तस्यानु दमयन्ती च ववन्दे पितरं शुभा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.४</sup>तं भीमः प्रतिजग्राह पुत्रवत्परया मुदा<br>यथार्हं पूजयित्वा तु समाश्वासयत प्रभुः<br>नलेन सहितां तत्र दमयन्तीं पतिव्रताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.५</sup>तामर्हणां नलो राजा प्रतिगृह्य यथाविधि<br>परिचर्यां स्वकां तस्मै यथावत्प्रत्यवेदयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.६</sup>ततो बभूव नगरे सुमहान्हर्षनिस्वनः<br>जनस्य संप्रहृष्टस्य नलं दृष्ट्वा तथागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.७</sup>अशोभयच्च नगरं पताकाध्वजमालिनम्<br>सिक्तसंमृष्टपुष्पाढ्या राजमार्गाः कृतास्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.८</sup>द्वारि द्वारि च पौराणां पुष्पभङ्गः प्रकल्पितः<br>अर्चितानि च सर्वाणि देवतायतनानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.९</sup>ऋतुपर्णोऽपि शुश्राव बाहुकच्छद्मिनं नलम्<br>दमयन्त्या समायुक्तं जहृषे च नराधिपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१०</sup>तमानाय्य नलो राजा क्षमयामास पार्थिवम्<br>स च तं क्षमयामास हेतुभिर्बुद्धिसंमतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.११</sup>स सत्कृतो महीपालो नैषधं विस्मयान्वितः<br>दिष्ट्या समेतो दारैः स्वैर्भवानित्यभ्यनन्दत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१२</sup>कच्चित्तु नापराधं ते कृतवानस्मि नैषध<br>अज्ञातवासं वसतो मद्गृहे निषधाधिप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१३</sup>यदि वा बुद्धिपूर्वाणि यद्यबुद्धानि कानिचित्<br>मया कृतान्यकार्याणि तानि मे क्षन्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१४</sup>नल उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१५</sup>न मेऽपराधं कृतवांस्त्वं स्वल्पमपि पार्थिव<br>कृतेऽपि च न मे कोपः क्षन्तव्यं हि मया तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१६</sup>पूर्वं ह्यसि सखा मेऽसि संबन्धी च नराधिप<br>अत ऊर्ध्वं तु भूयस्त्वं प्रीतिमाहर्तुमर्हसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१७</sup>सर्वकामैः सुविहितः सुखमस्म्युषितस्त्वयि<br>न तथा स्वगृहे राजन्यथा तव गृहे सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१८</sup>इदं चैव हयज्ञानं त्वदीयं मयि तिष्ठति<br>तदुपाकर्तुमिच्छामि मन्यसे यदि पार्थिव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.१९</sup>बृहदश्व उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.२०</sup>एवमुक्त्वा ददौ विद्यामृतुपर्णाय नैषधः<br>स च तां प्रतिजग्राह विधिदृष्टेन कर्मणा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.२१</sup>ततो गृह्याश्वहृदयं तदा भाङ्गस्वरिर्नृपः<br>सूतमन्यमुपादाय ययौ स्वपुरमेव हि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.७६.२२</sup>ऋतुपर्णे प्रतिगते नलो राजा विशां पते<br>नगरे कुण्डिने कालं नातिदीर्घमिवावसत्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१</sup>बृहदश्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.२</sup>अथ तां व्युषितो रात्रिं नलो राजा स्वलंकृतः<br>वैदर्भ्या सहितः काल्यं ददर्श वसुधाधिपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.३</sup>ततोऽभिवादयामास प्रयतः श्वशुरं नलः<br>तस्यानु दमयन्ती च ववन्दे पितरं शुभा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.४</sup>तं भीमः प्रतिजग्राह पुत्रवत्परया मुदा<br>यथार्हं पूजयित्वा तु समाश्वासयत प्रभुः<br>नलेन सहितां तत्र दमयन्तीं पतिव्रताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.५</sup>तामर्हणां नलो राजा प्रतिगृह्य यथाविधि<br>परिचर्यां स्वकां तस्मै यथावत्प्रत्यवेदयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.६</sup>ततो बभूव नगरे सुमहान्हर्षनिस्वनः<br>जनस्य संप्रहृष्टस्य नलं दृष्ट्वा तथागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.७</sup>अशोभयच्च नगरं पताकाध्वजमालिनम्<br>सिक्तसंमृष्टपुष्पाढ्या राजमार्गाः कृतास्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.८</sup>द्वारि द्वारि च पौराणां पुष्पभङ्गः प्रकल्पितः<br>अर्चितानि च सर्वाणि देवतायतनानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.९</sup>ऋतुपर्णोऽपि शुश्राव बाहुकच्छद्मिनं नलम्<br>दमयन्त्या समायुक्तं जहृषे च नराधिपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१०</sup>तमानाय्य नलो राजा क्षमयामास पार्थिवम्<br>स च तं क्षमयामास हेतुभिर्बुद्धिसंमतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.११</sup>स सत्कृतो महीपालो नैषधं विस्मयान्वितः<br>दिष्ट्या समेतो दारैः स्वैर्भवानित्यभ्यनन्दत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१२</sup>कच्चित्तु नापराधं ते कृतवानस्मि नैषध<br>अज्ञातवासं वसतो मद्गृहे निषधाधिप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१३</sup>यदि वा बुद्धिपूर्वाणि यद्यबुद्धानि कानिचित्<br>मया कृतान्यकार्याणि तानि मे क्षन्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१४</sup>नल उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१५</sup>न मेऽपराधं कृतवांस्त्वं स्वल्पमपि पार्थिव<br>कृतेऽपि च न मे कोपः क्षन्तव्यं हि मया तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१६</sup>पूर्वं ह्यसि सखा मेऽसि संबन्धी च नराधिप<br>अत ऊर्ध्वं तु भूयस्त्वं प्रीतिमाहर्तुमर्हसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१७</sup>सर्वकामैः सुविहितः सुखमस्म्युषितस्त्वयि<br>न तथा स्वगृहे राजन्यथा तव गृहे सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१८</sup>इदं चैव हयज्ञानं त्वदीयं मयि तिष्ठति<br>तदुपाकर्तुमिच्छामि मन्यसे यदि पार्थिव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.१९</sup>बृहदश्व उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.२०</sup>एवमुक्त्वा ददौ विद्यामृतुपर्णाय नैषधः<br>स च तां प्रतिजग्राह विधिदृष्टेन कर्मणा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.२१</sup>ततो गृह्याश्वहृदयं तदा भाङ्गस्वरिर्नृपः<br>सूतमन्यमुपादाय ययौ स्वपुरमेव हि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.७६.२२</sup>ऋतुपर्णे प्रतिगते नलो राजा विशां पते<br>नगरे कुण्डिने कालं नातिदीर्घमिवावसत्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -147,8 +140,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

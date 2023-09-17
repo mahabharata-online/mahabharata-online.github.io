@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/15/40.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१५:४१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/15/42.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,130 +64,95 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/15/40.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१५:४१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/15/42.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२</sup>ततस्ते भरतश्रेष्ठाः समाजग्मुः परस्परम्<br>विगतक्रोधमात्सर्याः सर्वे विगतकल्मषाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.३</sup>विधिं परममास्थाय ब्रह्मर्षिविहितं शुभम्<br>संप्रीतमनसः सर्वे देवलोक इवामराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.४</sup>पुत्रः पित्रा च मात्रा च भार्या च पतिना सह<br>भ्राता भ्रात्रा सखा चैव सख्या राजन्समागताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.५</sup>पाण्डवास्तु महेष्वासं कर्णं सौभद्रमेव च<br>संप्रहर्षात्समाजग्मुर्द्रौपदेयांश्च सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.६</sup>ततस्ते प्रीयमाणा वै कर्णेन सह पाण्डवाः<br>समेत्य पृथिवीपालाः सौहृदेऽवस्थिताभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.७</sup>ऋषिप्रसादात्तेऽन्ये च क्षत्रिया नष्टमन्यवः<br>असौहृदं परित्यज्य सौहृदे पर्यवस्थिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.८</sup>एवं समागताः सर्वे गुरुभिर्बान्धवैस्तथा<br>पुत्रैश्च पुरुषव्याघ्राः कुरवोऽन्ये च मानवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.९</sup>तां रात्रिमेकां कृत्स्नां ते विहृत्य प्रीतमानसाः<br>मेनिरे परितोषेण नृपाः स्वर्गसदो यथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१०</sup>नात्र शोको भयं त्रासो नारतिर्नायशोऽभवत्<br>परस्परं समागम्य योधानां भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.११</sup>समागतास्ताः पितृभिर्भ्रातृभिः पतिभिः सुतैः<br>मुदं परमिकां प्राप्य नार्यो दुःखमथात्यजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१२</sup>एकां रात्रिं विहृत्यैवं ते वीरास्ताश्च योषितः<br>आमन्त्र्यान्योन्यमाश्लिष्य ततो जग्मुर्यथागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१३</sup>ततो विसर्जयामास लोकांस्तान्मुनिपुंगवः<br>क्षणेनान्तर्हिताश्चैव प्रेक्षतामेव तेऽभवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१४</sup>अवगाह्य महात्मानः पुण्यां त्रिपथगां नदीम्<br>सरथाः सध्वजाश्चैव स्वानि स्थानानि भेजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१५</sup>देवलोकं ययुः केचित्केचिद्ब्रह्मसदस्तथा<br>केचिच्च वारुणं लोकं केचित्कौबेरमाप्नुवन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१६</sup>तथा वैवस्वतं लोकं केचिच्चैवाप्नुवन्नृपाः<br>राक्षसानां पिशाचानां केचिच्चाप्युत्तरान्कुरून्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१७</sup>विचित्रगतयः सर्वे या अवाप्यामरैः सह<br>आजग्मुस्ते महात्मानः सवाहाः सपदानुगाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१८</sup>गतेषु तेषु सर्वेषु सलिलस्थो महामुनिः<br>धर्मशीलो महातेजाः कुरूणां हितकृत्सदा<br>ततः प्रोवाच ताः सर्वाः क्षत्रिया निहतेश्वराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.१९</sup>या याः पतिकृताँल्लोकानिच्छन्ति परमस्त्रियः<br>ता जाह्नवीजलं क्षिप्रमवगाहन्त्वतन्द्रिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२०</sup>ततस्तस्य वचः श्रुत्वा श्रद्दधाना वराङ्गनाः<br>श्वशुरं समनुज्ञाप्य विविशुर्जाह्नवीजलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२१</sup>विमुक्ता मानुषैर्देहैस्ततस्ता भर्तृभिः सह<br>समाजग्मुस्तदा साध्व्यः सर्वा एव विशां पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२२</sup>एवं क्रमेण सर्वास्ताः शीलवत्यः कुलस्त्रियः<br>प्रविश्य तोयं निर्मुक्ता जग्मुर्भर्तृसलोकताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२३</sup>दिव्यरूपसमायुक्ता दिव्याभरणभूषिताः<br>दिव्यमाल्याम्बरधरा यथासां पतयस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२४</sup>ताः शीलसत्त्वसंपन्ना वितमस्का गतक्लमाः<br>सर्वाः सर्वगुणैर्युक्ताः स्वं स्वं स्थानं प्रपेदिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२५</sup>यस्य यस्य च यः कामस्तस्मिन्कालेऽभवत्तदा<br>तं तं विसृष्टवान्व्यासो वरदो धर्मवत्सलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२६</sup>तच्छ्रुत्वा नरदेवानां पुनरागमनं नराः<br>जहृषुर्मुदिताश्चासन्नन्यदेहगता अपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२७</sup>प्रियैः समागमं तेषां य इमं शृणुयान्नरः<br>प्रियाणि लभते नित्यमिह च प्रेत्य चैव ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२८</sup>इष्टबान्धवसंयोगमनायासमनामयम्<br>य इमं श्रावयेद्विद्वान्संसिद्धिं प्राप्नुयात्पराम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१५.४१.२९</sup>स्वाध्याययुक्ताः पुरुषाः क्रियायुक्ताश्च भारत<br>अध्यात्मयोगयुक्ताश्च धृतिमन्तश्च मानवाः<br>श्रुत्वा पर्व त्विदं नित्यमवाप्स्यन्ति परां गतिम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२</sup>ततस्ते भरतश्रेष्ठाः समाजग्मुः परस्परम्<br>विगतक्रोधमात्सर्याः सर्वे विगतकल्मषाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.३</sup>विधिं परममास्थाय ब्रह्मर्षिविहितं शुभम्<br>संप्रीतमनसः सर्वे देवलोक इवामराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.४</sup>पुत्रः पित्रा च मात्रा च भार्या च पतिना सह<br>भ्राता भ्रात्रा सखा चैव सख्या राजन्समागताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.५</sup>पाण्डवास्तु महेष्वासं कर्णं सौभद्रमेव च<br>संप्रहर्षात्समाजग्मुर्द्रौपदेयांश्च सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.६</sup>ततस्ते प्रीयमाणा वै कर्णेन सह पाण्डवाः<br>समेत्य पृथिवीपालाः सौहृदेऽवस्थिताभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.७</sup>ऋषिप्रसादात्तेऽन्ये च क्षत्रिया नष्टमन्यवः<br>असौहृदं परित्यज्य सौहृदे पर्यवस्थिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.८</sup>एवं समागताः सर्वे गुरुभिर्बान्धवैस्तथा<br>पुत्रैश्च पुरुषव्याघ्राः कुरवोऽन्ये च मानवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.९</sup>तां रात्रिमेकां कृत्स्नां ते विहृत्य प्रीतमानसाः<br>मेनिरे परितोषेण नृपाः स्वर्गसदो यथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१०</sup>नात्र शोको भयं त्रासो नारतिर्नायशोऽभवत्<br>परस्परं समागम्य योधानां भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.११</sup>समागतास्ताः पितृभिर्भ्रातृभिः पतिभिः सुतैः<br>मुदं परमिकां प्राप्य नार्यो दुःखमथात्यजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१२</sup>एकां रात्रिं विहृत्यैवं ते वीरास्ताश्च योषितः<br>आमन्त्र्यान्योन्यमाश्लिष्य ततो जग्मुर्यथागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१३</sup>ततो विसर्जयामास लोकांस्तान्मुनिपुंगवः<br>क्षणेनान्तर्हिताश्चैव प्रेक्षतामेव तेऽभवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१४</sup>अवगाह्य महात्मानः पुण्यां त्रिपथगां नदीम्<br>सरथाः सध्वजाश्चैव स्वानि स्थानानि भेजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१५</sup>देवलोकं ययुः केचित्केचिद्ब्रह्मसदस्तथा<br>केचिच्च वारुणं लोकं केचित्कौबेरमाप्नुवन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१६</sup>तथा वैवस्वतं लोकं केचिच्चैवाप्नुवन्नृपाः<br>राक्षसानां पिशाचानां केचिच्चाप्युत्तरान्कुरून्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१७</sup>विचित्रगतयः सर्वे या अवाप्यामरैः सह<br>आजग्मुस्ते महात्मानः सवाहाः सपदानुगाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१८</sup>गतेषु तेषु सर्वेषु सलिलस्थो महामुनिः<br>धर्मशीलो महातेजाः कुरूणां हितकृत्सदा<br>ततः प्रोवाच ताः सर्वाः क्षत्रिया निहतेश्वराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.१९</sup>या याः पतिकृताँल्लोकानिच्छन्ति परमस्त्रियः<br>ता जाह्नवीजलं क्षिप्रमवगाहन्त्वतन्द्रिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२०</sup>ततस्तस्य वचः श्रुत्वा श्रद्दधाना वराङ्गनाः<br>श्वशुरं समनुज्ञाप्य विविशुर्जाह्नवीजलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२१</sup>विमुक्ता मानुषैर्देहैस्ततस्ता भर्तृभिः सह<br>समाजग्मुस्तदा साध्व्यः सर्वा एव विशां पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२२</sup>एवं क्रमेण सर्वास्ताः शीलवत्यः कुलस्त्रियः<br>प्रविश्य तोयं निर्मुक्ता जग्मुर्भर्तृसलोकताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२३</sup>दिव्यरूपसमायुक्ता दिव्याभरणभूषिताः<br>दिव्यमाल्याम्बरधरा यथासां पतयस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२४</sup>ताः शीलसत्त्वसंपन्ना वितमस्का गतक्लमाः<br>सर्वाः सर्वगुणैर्युक्ताः स्वं स्वं स्थानं प्रपेदिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२५</sup>यस्य यस्य च यः कामस्तस्मिन्कालेऽभवत्तदा<br>तं तं विसृष्टवान्व्यासो वरदो धर्मवत्सलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२६</sup>तच्छ्रुत्वा नरदेवानां पुनरागमनं नराः<br>जहृषुर्मुदिताश्चासन्नन्यदेहगता अपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२७</sup>प्रियैः समागमं तेषां य इमं शृणुयान्नरः<br>प्रियाणि लभते नित्यमिह च प्रेत्य चैव ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२८</sup>इष्टबान्धवसंयोगमनायासमनामयम्<br>य इमं श्रावयेद्विद्वान्संसिद्धिं प्राप्नुयात्पराम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१५.४१.२९</sup>स्वाध्याययुक्ताः पुरुषाः क्रियायुक्ताश्च भारत<br>अध्यात्मयोगयुक्ताश्च धृतिमन्तश्च मानवाः<br>श्रुत्वा पर्व त्विदं नित्यमवाप्स्यन्ति परां गतिम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -168,8 +161,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

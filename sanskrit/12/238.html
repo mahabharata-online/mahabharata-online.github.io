@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/237.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२३८</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/239.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,106 +64,71 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/237.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२३८</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/239.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.२</sup>प्रकृतेस्तु विकारा ये क्षेत्रज्ञस्तैः परिश्रितः<br>ते चैनं न प्रजानन्ति स तु जानाति तानपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.३</sup>तैश्चैष कुरुते कार्यं मनःषष्ठैरिहेन्द्रियैः<br>सुदान्तैरिव संयन्ता दृढैः परमवाजिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.४</sup>इन्द्रियेभ्यः परा ह्यर्था अर्थेभ्यः परमं मनः<br>मनसस्तु परा बुद्धिर्बुद्धेरात्मा महान्परः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.५</sup>महतः परमव्यक्तमव्यक्तात्परतोऽमृतम्<br>अमृतान्न परं किंचित्सा काष्ठा सा परा गतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.६</sup>एवं सर्वेषु भूतेषु गूढोऽऽत्मा न प्रकाशते<br>दृश्यते त्वग्र्यया बुद्ध्या सूक्ष्मया तत्त्वदर्शिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.७</sup>अन्तरात्मनि संलीय मनःषष्ठानि मेधया<br>इन्द्रियाणीन्द्रियार्थांश्च बहु चिन्त्यमचिन्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.८</sup>ध्यानोपरमणं कृत्वा विद्यासंपादितं मनः<br>अनीश्वरः प्रशान्तात्मा ततोऽर्छत्यमृतं पदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.९</sup>इन्द्रियाणां तु सर्वेषां वश्यात्मा चलितस्मृतिः<br>आत्मनः संप्रदानेन मर्त्यो मृत्युमुपाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१०</sup>हित्वा तु सर्वसंकल्पान्सत्त्वे चित्तं निवेशयेत्<br>सत्त्वे चित्तं समावेश्य ततः कालंजरो भवेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.११</sup>चित्तप्रसादेन यतिर्जहाति हि शुभाशुभम्<br>प्रसन्नात्मात्मनि स्थित्वा सुखमानन्त्यमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१२</sup>लक्षणं तु प्रसादस्य यथा तृप्तः सुखं स्वपेत्<br>निवाते वा यथा दीपो दीप्यमानो न कम्पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१३</sup>एवं पूर्वापरे रात्रे युञ्जन्नात्मानमात्मना<br>सत्त्वाहारविशुद्धात्मा पश्यत्यात्मानमात्मनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१४</sup>रहस्यं सर्ववेदानामनैतिह्यमनागमम्<br>आत्मप्रत्ययिकं शास्त्रमिदं पुत्रानुशासनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१५</sup>धर्माख्यानेषु सर्वेषु सत्याख्यानेषु यद्वसु<br>दशेदमृक्सहस्राणि निर्मथ्यामृतमुद्धृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१६</sup>नवनीतं यथा दध्नः काष्ठादग्निर्यथैव च<br>तथैव विदुषां ज्ञानं पुत्रहेतोः समुद्धृतम्<br>स्नातकानामिदं शास्त्रं वाच्यं पुत्रानुशासनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१७</sup>तदिदं नाप्रशान्ताय नादान्तायातपस्विने<br>नावेदविदुषे वाच्यं तथा नानुगताय च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१८</sup>नासूयकायानृजवे न चानिर्दिष्टकारिणे<br>न तर्कशास्त्रदग्धाय तथैव पिशुनाय च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.१९</sup>श्लाघते श्लाघनीयाय प्रशान्ताय तपस्विने<br>इदं प्रियाय पुत्राय शिष्यायानुगताय च<br>रहस्यधर्मं वक्तव्यं नान्यस्मै तु कथंचन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.२०</sup>यद्यप्यस्य महीं दद्याद्रत्नपूर्णामिमां नरः<br>इदमेव ततः श्रेय इति मन्येत तत्त्ववित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२३८.२१</sup>अतो गुह्यतरार्थं तदध्यात्ममतिमानुषम्<br>यत्तन्महर्षिभिर्दृष्टं वेदान्तेषु च गीयते<br>तत्तेऽहं संप्रवक्ष्यामि यन्मां त्वं परिपृच्छसि
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.२</sup>प्रकृतेस्तु विकारा ये क्षेत्रज्ञस्तैः परिश्रितः<br>ते चैनं न प्रजानन्ति स तु जानाति तानपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.३</sup>तैश्चैष कुरुते कार्यं मनःषष्ठैरिहेन्द्रियैः<br>सुदान्तैरिव संयन्ता दृढैः परमवाजिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.४</sup>इन्द्रियेभ्यः परा ह्यर्था अर्थेभ्यः परमं मनः<br>मनसस्तु परा बुद्धिर्बुद्धेरात्मा महान्परः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.५</sup>महतः परमव्यक्तमव्यक्तात्परतोऽमृतम्<br>अमृतान्न परं किंचित्सा काष्ठा सा परा गतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.६</sup>एवं सर्वेषु भूतेषु गूढोऽऽत्मा न प्रकाशते<br>दृश्यते त्वग्र्यया बुद्ध्या सूक्ष्मया तत्त्वदर्शिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.७</sup>अन्तरात्मनि संलीय मनःषष्ठानि मेधया<br>इन्द्रियाणीन्द्रियार्थांश्च बहु चिन्त्यमचिन्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.८</sup>ध्यानोपरमणं कृत्वा विद्यासंपादितं मनः<br>अनीश्वरः प्रशान्तात्मा ततोऽर्छत्यमृतं पदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.९</sup>इन्द्रियाणां तु सर्वेषां वश्यात्मा चलितस्मृतिः<br>आत्मनः संप्रदानेन मर्त्यो मृत्युमुपाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१०</sup>हित्वा तु सर्वसंकल्पान्सत्त्वे चित्तं निवेशयेत्<br>सत्त्वे चित्तं समावेश्य ततः कालंजरो भवेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.११</sup>चित्तप्रसादेन यतिर्जहाति हि शुभाशुभम्<br>प्रसन्नात्मात्मनि स्थित्वा सुखमानन्त्यमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१२</sup>लक्षणं तु प्रसादस्य यथा तृप्तः सुखं स्वपेत्<br>निवाते वा यथा दीपो दीप्यमानो न कम्पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१३</sup>एवं पूर्वापरे रात्रे युञ्जन्नात्मानमात्मना<br>सत्त्वाहारविशुद्धात्मा पश्यत्यात्मानमात्मनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१४</sup>रहस्यं सर्ववेदानामनैतिह्यमनागमम्<br>आत्मप्रत्ययिकं शास्त्रमिदं पुत्रानुशासनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१५</sup>धर्माख्यानेषु सर्वेषु सत्याख्यानेषु यद्वसु<br>दशेदमृक्सहस्राणि निर्मथ्यामृतमुद्धृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१६</sup>नवनीतं यथा दध्नः काष्ठादग्निर्यथैव च<br>तथैव विदुषां ज्ञानं पुत्रहेतोः समुद्धृतम्<br>स्नातकानामिदं शास्त्रं वाच्यं पुत्रानुशासनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१७</sup>तदिदं नाप्रशान्ताय नादान्तायातपस्विने<br>नावेदविदुषे वाच्यं तथा नानुगताय च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१८</sup>नासूयकायानृजवे न चानिर्दिष्टकारिणे<br>न तर्कशास्त्रदग्धाय तथैव पिशुनाय च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.१९</sup>श्लाघते श्लाघनीयाय प्रशान्ताय तपस्विने<br>इदं प्रियाय पुत्राय शिष्यायानुगताय च<br>रहस्यधर्मं वक्तव्यं नान्यस्मै तु कथंचन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.२०</sup>यद्यप्यस्य महीं दद्याद्रत्नपूर्णामिमां नरः<br>इदमेव ततः श्रेय इति मन्येत तत्त्ववित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२३८.२१</sup>अतो गुह्यतरार्थं तदध्यात्ममतिमानुषम्<br>यत्तन्महर्षिभिर्दृष्टं वेदान्तेषु च गीयते<br>तत्तेऽहं संप्रवक्ष्यामि यन्मां त्वं परिपृच्छसि
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -144,8 +137,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

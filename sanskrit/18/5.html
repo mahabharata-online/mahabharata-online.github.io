@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/18/4.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१८:५</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="//" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,217 +64,182 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/18/4.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१८:५</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                                <a href="/" style="float:right;" id="next-parva-btn"
-                                        class="btn btn-warning my-2 disabled">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१</sup>जनमेजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२</sup>भीष्मद्रोणौ महात्मानौ धृतराष्ट्रश्च पार्थिवः<br>विराटद्रुपदौ चोभौ शङ्खश्चैवोत्तरस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३</sup>धृष्टकेतुर्जयत्सेनो राजा चैव स सत्यजित्<br>दुर्योधनसुताश्चैव शकुनिश्चैव सौबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४</sup>कर्णपुत्राश्च विक्रान्ता राजा चैव जयद्रथः<br>घटोत्कचादयश्चैव ये चान्ये नानुकीर्तिताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५</sup>ये चान्ये कीर्तितास्तत्र राजानो दीप्तमूर्तयः<br>स्वर्गे कालं कियन्तं ते तस्थुस्तदपि शंस मे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.६</sup>आहोस्विच्छाश्वतं स्थानं तेषां तत्र द्विजोत्तम<br>अन्ते वा कर्मणः कां ते गतिं प्राप्ता नरर्षभाः<br>एतदिच्छाम्यहं श्रोतुं प्रोच्यमानं त्वया द्विज
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.७</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.८</sup>इत्युक्तः स तु विप्रर्षिरनुज्ञातो महात्मना<br>व्यासेन तस्य नृपतेराख्यातुमुपचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.९</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१०</sup>गन्तव्यं कर्मणामन्ते सर्वेण मनुजाधिप<br>शृणु गुह्यमिदं राजन्देवानां भरतर्षभ<br>यदुवाच महातेजा दिव्यचक्षुः प्रतापवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.११</sup>मुनिः पुराणः कौरव्य पाराशर्यो महाव्रतः<br>अगाधबुद्धिः सर्वज्ञो गतिज्ञः सर्वकर्मणाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१२</sup>वसूनेव महातेजा भीष्मः प्राप महाद्युतिः<br>अष्टावेव हि दृश्यन्ते वसवो भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१३</sup>बृहस्पतिं विवेशाथ द्रोणो ह्यङ्गिरसां वरम्<br>कृतवर्मा तु हार्दिक्यः प्रविवेश मरुद्गणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१४</sup>सनत्कुमारं प्रद्युम्नः प्रविवेश यथागतम्<br>धृतराष्ट्रो धनेशस्य लोकान्प्राप दुरासदान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१५</sup>धृतराष्ट्रेण सहिता गान्धारी च यशस्विनी<br>पत्नीभ्यां सहितः पाण्डुर्महेन्द्रसदनं ययौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१६</sup>विराटद्रुपदौ चोभौ धृष्टकेतुश्च पार्थिवः<br>निशठाक्रूरसाम्बाश्च भानुः कम्पो विडूरथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१७</sup>भूरिश्रवाः शलश्चैव भूरिश्च पृथिवीपतिः<br>उग्रसेनस्तथा कंसो वसुदेवश्च वीर्यवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१८</sup>उत्तरश्च सह भ्रात्रा शङ्खेन नरपुंगवः<br>विश्वेषां देवतानां ते विविशुर्नरसत्तमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.१९</sup>वर्चा नाम महातेजाः सोमपुत्रः प्रतापवान्<br>सोऽभिमन्युर्नृसिंहस्य फल्गुनस्य सुतोऽभवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२०</sup>स युद्ध्वा क्षत्रधर्मेण यथा नान्यः पुमान्क्वचित्<br>विवेश सोमं धर्मात्मा कर्मणोऽन्ते महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२१</sup>आविवेश रविं कर्णः पितरं पुरुषर्षभ<br>द्वापरं शकुनिः प्राप धृष्टद्युम्नस्तु पावकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२२</sup>धृतराष्ट्रात्मजाः सर्वे यातुधाना बलोत्कटाः<br>ऋद्धिमन्तो महात्मानः शस्त्रपूता दिवं गताः<br>धर्ममेवाविशत्क्षत्ता राजा चैव युधिष्ठिरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२३</sup>अनन्तो भगवान्देवः प्रविवेश रसातलम्<br>पितामहनियोगाद्धि यो योगाद्गामधारयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२४</sup>षोडशस्त्रीसहस्राणि वासुदेवपरिग्रहः<br>न्यमज्जन्त सरस्वत्यां कालेन जनमेजय<br>ताश्चाप्यप्सरसो भूत्वा वासुदेवमुपागमन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२५</sup>हतास्तस्मिन्महायुद्धे ये वीरास्तु महारथाः<br>घटोत्कचादयः सर्वे देवान्यक्षांश्च भेजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२६</sup>दुर्योधनसहायाश्च राक्षसाः परिकीर्तिताः<br>प्राप्तास्ते क्रमशो राजन्सर्वलोकाननुत्तमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२७</sup>भवनं च महेन्द्रस्य कुबेरस्य च धीमतः<br>वरुणस्य तथा लोकान्विविशुः पुरुषर्षभाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२८</sup>एतत्ते सर्वमाख्यातं विस्तरेण महाद्युते<br>कुरूणां चरितं कृत्स्नं पाण्डवानां च भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.२९</sup>सूत उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३०</sup>एतच्छ्रुत्वा द्विजश्रेष्ठात्स राजा जनमेजयः<br>विस्मितोऽभवदत्यर्थं यज्ञकर्मान्तरेष्वथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३१</sup>ततः समापयामासुः कर्म तत्तस्य याजकाः<br>आस्तीकश्चाभवत्प्रीतः परिमोक्ष्य भुजंगमान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३२</sup>ततो द्विजातीन्सर्वांस्तान्दक्षिणाभिरतोषयत्<br>पूजिताश्चापि ते राज्ञा ततो जग्मुर्यथागतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३३</sup>विसर्जयित्वा विप्रांस्तान्राजापि जनमेजयः<br>ततस्तक्षशिलायाः स पुनरायाद्गजाह्वयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३४</sup>एतत्ते सर्वमाख्यातं वैशंपायनकीर्तितम्<br>व्यासाज्ञया समाख्यातं सर्पसत्रे नृपस्य ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३५</sup>पुण्योऽयमितिहासाख्यः पवित्रं चेदमुत्तमम्<br>कृष्णेन मुनिना विप्र नियतं सत्यवादिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३६</sup>सर्वज्ञेन विधिज्ञेन धर्मज्ञानवता सता<br>अतीन्द्रियेण शुचिना तपसा भावितात्मना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३७</sup>ऐश्वर्ये वर्तता चैव सांख्ययोगविदा तथा<br>नैकतन्त्रविबुद्धेन दृष्ट्वा दिव्येन चक्षुषा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३८</sup>कीर्तिं प्रथयता लोके पाण्डवानां महात्मनाम्<br>अन्येषां क्षत्रियाणां च भूरिद्रविणतेजसाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.३९</sup>य इदं श्रावयेद्विद्वान्सदा पर्वणि पर्वणि<br>धूतपाप्मा जितस्वर्गो ब्रह्मभूयाय गच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४०</sup>यश्चेदं श्रावयेच्छ्राद्धे ब्राह्मणान्पादमन्ततः<br>अक्षय्यमन्नपानं वै पितॄंस्तस्योपतिष्ठते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४१</sup>अह्ना यदेनः कुरुते इन्द्रियैर्मनसापि वा<br>महाभारतमाख्याय पश्चात्संध्यां प्रमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४२</sup>धर्मे चार्थे च कामे च मोक्षे च भरतर्षभ<br>यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्वचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४३</sup>जयो नामेतिहासोऽयं श्रोतव्यो भूतिमिच्छता<br>राज्ञा राजसुतैश्चापि गर्भिण्या चैव योषिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४४</sup>स्वर्गकामो लभेत्स्वर्गं जयकामो लभेज्जयम्<br>गर्भिणी लभते पुत्रं कन्यां वा बहुभागिनीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४५</sup>अनागतं त्रिभिर्वर्षैः कृष्णद्वैपायनः प्रभुः<br>संदर्भं भारतस्यास्य कृतवान्धर्मकाम्यया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४६</sup>नारदोऽश्रावयद्देवानसितो देवलः पितॄन्<br>रक्षो यक्षाञ्शुको मर्त्यान्वैशंपायन एव तु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४७</sup>इतिहासमिमं पुण्यं महार्थं वेदसंमितम्<br>श्रावयेद्यस्तु वर्णांस्त्रीन्कृत्वा ब्राह्मणमग्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४८</sup>स नरः पापनिर्मुक्तः कीर्तिं प्राप्येह शौनक<br>गच्छेत्परमिकां सिद्धिमत्र मे नास्ति संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.४९</sup>भारताध्ययनात्पुण्यादपि पादमधीयतः<br>श्रद्दधानस्य पूयन्ते सर्वपापान्यशेषतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५०</sup>महर्षिर्भगवान्व्यासः कृत्वेमां संहितां पुरा<br>श्लोकैश्चतुर्भिर्भगवान्पुत्रमध्यापयच्छुकम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५१</sup>मातापितृसहस्राणि पुत्रदारशतानि च<br>संसारेष्वनुभूतानि यान्ति यास्यन्ति चापरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५२</sup>हर्षस्थानसहस्राणि भयस्थानशतानि च<br>दिवसे दिवसे मूढमाविशन्ति न पण्डितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५३</sup>ऊर्ध्वबाहुर्विरौम्येष न च कश्चिच्छृणोति मे<br>धर्मादर्थश्च कामश्च स किमर्थं न सेव्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५४</sup>न जातु कामान्न भयान्न लोभा;द्धर्मं त्यजेज्जीवितस्यापि हेतोः<br>नित्यो धर्मः सुखदुःखे त्वनित्ये; जीवो नित्यो हेतुरस्य त्वनित्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५५</sup>इमां भारतसावित्रीं प्रातरुत्थाय यः पठेत्<br>स भारतफलं प्राप्य परं ब्रह्माधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५६</sup>यथा समुद्रो भगवान्यथा च हिमवान्गिरिः<br>ख्यातावुभौ रत्ननिधी तथा भारतमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५७</sup>महाभारतमाख्यानं यः पठेत्सुसमाहितः<br>स गच्छेत्परमां सिद्धिमिति मे नास्ति संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१८.५.५८</sup>द्वैपायनोष्ठपुटनिःसृतमप्रमेयं; पुण्यं पवित्रमथ पापहरं शिवं च<br>यो भारतं समधिगच्छति वाच्यमानं; किं तस्य पुष्करजलैरभिषेचनेन
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१</sup>जनमेजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२</sup>भीष्मद्रोणौ महात्मानौ धृतराष्ट्रश्च पार्थिवः<br>विराटद्रुपदौ चोभौ शङ्खश्चैवोत्तरस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३</sup>धृष्टकेतुर्जयत्सेनो राजा चैव स सत्यजित्<br>दुर्योधनसुताश्चैव शकुनिश्चैव सौबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४</sup>कर्णपुत्राश्च विक्रान्ता राजा चैव जयद्रथः<br>घटोत्कचादयश्चैव ये चान्ये नानुकीर्तिताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५</sup>ये चान्ये कीर्तितास्तत्र राजानो दीप्तमूर्तयः<br>स्वर्गे कालं कियन्तं ते तस्थुस्तदपि शंस मे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.६</sup>आहोस्विच्छाश्वतं स्थानं तेषां तत्र द्विजोत्तम<br>अन्ते वा कर्मणः कां ते गतिं प्राप्ता नरर्षभाः<br>एतदिच्छाम्यहं श्रोतुं प्रोच्यमानं त्वया द्विज
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.७</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.८</sup>इत्युक्तः स तु विप्रर्षिरनुज्ञातो महात्मना<br>व्यासेन तस्य नृपतेराख्यातुमुपचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.९</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१०</sup>गन्तव्यं कर्मणामन्ते सर्वेण मनुजाधिप<br>शृणु गुह्यमिदं राजन्देवानां भरतर्षभ<br>यदुवाच महातेजा दिव्यचक्षुः प्रतापवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.११</sup>मुनिः पुराणः कौरव्य पाराशर्यो महाव्रतः<br>अगाधबुद्धिः सर्वज्ञो गतिज्ञः सर्वकर्मणाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१२</sup>वसूनेव महातेजा भीष्मः प्राप महाद्युतिः<br>अष्टावेव हि दृश्यन्ते वसवो भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१३</sup>बृहस्पतिं विवेशाथ द्रोणो ह्यङ्गिरसां वरम्<br>कृतवर्मा तु हार्दिक्यः प्रविवेश मरुद्गणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१४</sup>सनत्कुमारं प्रद्युम्नः प्रविवेश यथागतम्<br>धृतराष्ट्रो धनेशस्य लोकान्प्राप दुरासदान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१५</sup>धृतराष्ट्रेण सहिता गान्धारी च यशस्विनी<br>पत्नीभ्यां सहितः पाण्डुर्महेन्द्रसदनं ययौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१६</sup>विराटद्रुपदौ चोभौ धृष्टकेतुश्च पार्थिवः<br>निशठाक्रूरसाम्बाश्च भानुः कम्पो विडूरथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१७</sup>भूरिश्रवाः शलश्चैव भूरिश्च पृथिवीपतिः<br>उग्रसेनस्तथा कंसो वसुदेवश्च वीर्यवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१८</sup>उत्तरश्च सह भ्रात्रा शङ्खेन नरपुंगवः<br>विश्वेषां देवतानां ते विविशुर्नरसत्तमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.१९</sup>वर्चा नाम महातेजाः सोमपुत्रः प्रतापवान्<br>सोऽभिमन्युर्नृसिंहस्य फल्गुनस्य सुतोऽभवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२०</sup>स युद्ध्वा क्षत्रधर्मेण यथा नान्यः पुमान्क्वचित्<br>विवेश सोमं धर्मात्मा कर्मणोऽन्ते महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२१</sup>आविवेश रविं कर्णः पितरं पुरुषर्षभ<br>द्वापरं शकुनिः प्राप धृष्टद्युम्नस्तु पावकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२२</sup>धृतराष्ट्रात्मजाः सर्वे यातुधाना बलोत्कटाः<br>ऋद्धिमन्तो महात्मानः शस्त्रपूता दिवं गताः<br>धर्ममेवाविशत्क्षत्ता राजा चैव युधिष्ठिरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२३</sup>अनन्तो भगवान्देवः प्रविवेश रसातलम्<br>पितामहनियोगाद्धि यो योगाद्गामधारयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२४</sup>षोडशस्त्रीसहस्राणि वासुदेवपरिग्रहः<br>न्यमज्जन्त सरस्वत्यां कालेन जनमेजय<br>ताश्चाप्यप्सरसो भूत्वा वासुदेवमुपागमन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२५</sup>हतास्तस्मिन्महायुद्धे ये वीरास्तु महारथाः<br>घटोत्कचादयः सर्वे देवान्यक्षांश्च भेजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२६</sup>दुर्योधनसहायाश्च राक्षसाः परिकीर्तिताः<br>प्राप्तास्ते क्रमशो राजन्सर्वलोकाननुत्तमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२७</sup>भवनं च महेन्द्रस्य कुबेरस्य च धीमतः<br>वरुणस्य तथा लोकान्विविशुः पुरुषर्षभाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२८</sup>एतत्ते सर्वमाख्यातं विस्तरेण महाद्युते<br>कुरूणां चरितं कृत्स्नं पाण्डवानां च भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.२९</sup>सूत उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३०</sup>एतच्छ्रुत्वा द्विजश्रेष्ठात्स राजा जनमेजयः<br>विस्मितोऽभवदत्यर्थं यज्ञकर्मान्तरेष्वथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३१</sup>ततः समापयामासुः कर्म तत्तस्य याजकाः<br>आस्तीकश्चाभवत्प्रीतः परिमोक्ष्य भुजंगमान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३२</sup>ततो द्विजातीन्सर्वांस्तान्दक्षिणाभिरतोषयत्<br>पूजिताश्चापि ते राज्ञा ततो जग्मुर्यथागतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३३</sup>विसर्जयित्वा विप्रांस्तान्राजापि जनमेजयः<br>ततस्तक्षशिलायाः स पुनरायाद्गजाह्वयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३४</sup>एतत्ते सर्वमाख्यातं वैशंपायनकीर्तितम्<br>व्यासाज्ञया समाख्यातं सर्पसत्रे नृपस्य ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३५</sup>पुण्योऽयमितिहासाख्यः पवित्रं चेदमुत्तमम्<br>कृष्णेन मुनिना विप्र नियतं सत्यवादिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३६</sup>सर्वज्ञेन विधिज्ञेन धर्मज्ञानवता सता<br>अतीन्द्रियेण शुचिना तपसा भावितात्मना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३७</sup>ऐश्वर्ये वर्तता चैव सांख्ययोगविदा तथा<br>नैकतन्त्रविबुद्धेन दृष्ट्वा दिव्येन चक्षुषा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३८</sup>कीर्तिं प्रथयता लोके पाण्डवानां महात्मनाम्<br>अन्येषां क्षत्रियाणां च भूरिद्रविणतेजसाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.३९</sup>य इदं श्रावयेद्विद्वान्सदा पर्वणि पर्वणि<br>धूतपाप्मा जितस्वर्गो ब्रह्मभूयाय गच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४०</sup>यश्चेदं श्रावयेच्छ्राद्धे ब्राह्मणान्पादमन्ततः<br>अक्षय्यमन्नपानं वै पितॄंस्तस्योपतिष्ठते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४१</sup>अह्ना यदेनः कुरुते इन्द्रियैर्मनसापि वा<br>महाभारतमाख्याय पश्चात्संध्यां प्रमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४२</sup>धर्मे चार्थे च कामे च मोक्षे च भरतर्षभ<br>यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्वचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४३</sup>जयो नामेतिहासोऽयं श्रोतव्यो भूतिमिच्छता<br>राज्ञा राजसुतैश्चापि गर्भिण्या चैव योषिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४४</sup>स्वर्गकामो लभेत्स्वर्गं जयकामो लभेज्जयम्<br>गर्भिणी लभते पुत्रं कन्यां वा बहुभागिनीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४५</sup>अनागतं त्रिभिर्वर्षैः कृष्णद्वैपायनः प्रभुः<br>संदर्भं भारतस्यास्य कृतवान्धर्मकाम्यया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४६</sup>नारदोऽश्रावयद्देवानसितो देवलः पितॄन्<br>रक्षो यक्षाञ्शुको मर्त्यान्वैशंपायन एव तु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४७</sup>इतिहासमिमं पुण्यं महार्थं वेदसंमितम्<br>श्रावयेद्यस्तु वर्णांस्त्रीन्कृत्वा ब्राह्मणमग्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४८</sup>स नरः पापनिर्मुक्तः कीर्तिं प्राप्येह शौनक<br>गच्छेत्परमिकां सिद्धिमत्र मे नास्ति संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.४९</sup>भारताध्ययनात्पुण्यादपि पादमधीयतः<br>श्रद्दधानस्य पूयन्ते सर्वपापान्यशेषतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५०</sup>महर्षिर्भगवान्व्यासः कृत्वेमां संहितां पुरा<br>श्लोकैश्चतुर्भिर्भगवान्पुत्रमध्यापयच्छुकम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५१</sup>मातापितृसहस्राणि पुत्रदारशतानि च<br>संसारेष्वनुभूतानि यान्ति यास्यन्ति चापरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५२</sup>हर्षस्थानसहस्राणि भयस्थानशतानि च<br>दिवसे दिवसे मूढमाविशन्ति न पण्डितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५३</sup>ऊर्ध्वबाहुर्विरौम्येष न च कश्चिच्छृणोति मे<br>धर्मादर्थश्च कामश्च स किमर्थं न सेव्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५४</sup>न जातु कामान्न भयान्न लोभा;द्धर्मं त्यजेज्जीवितस्यापि हेतोः<br>नित्यो धर्मः सुखदुःखे त्वनित्ये; जीवो नित्यो हेतुरस्य त्वनित्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५५</sup>इमां भारतसावित्रीं प्रातरुत्थाय यः पठेत्<br>स भारतफलं प्राप्य परं ब्रह्माधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५६</sup>यथा समुद्रो भगवान्यथा च हिमवान्गिरिः<br>ख्यातावुभौ रत्ननिधी तथा भारतमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५७</sup>महाभारतमाख्यानं यः पठेत्सुसमाहितः<br>स गच्छेत्परमां सिद्धिमिति मे नास्ति संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१८.५.५८</sup>द्वैपायनोष्ठपुटनिःसृतमप्रमेयं; पुण्यं पवित्रमथ पापहरं शिवं च<br>यो भारतं समधिगच्छति वाच्यमानं; किं तस्य पुष्करजलैरभिषेचनेन
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -255,8 +248,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/13/121.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१३:१२२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/13/123.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,100 +64,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/13/121.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१३:१२२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/13/123.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.२</sup>एवमुक्तः प्रत्युवाच मैत्रेयः कर्मपूजकः<br>अत्यन्तं श्रीमति कुले जातः प्राज्ञो बहुश्रुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.३</sup>असंशयं महाप्राज्ञ यथैवात्थ तथैव तत्<br>अनुज्ञातस्तु भवता किंचिद्ब्रूयामहं विभो
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.४</sup>व्यास उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.५</sup>यद्यदिच्छसि मैत्रेय यावद्यावद्यथा तथा<br>ब्रूहि तावन्महाप्राज्ञ शुश्रूषे वचनं तव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.६</sup>मैत्रेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.७</sup>निर्दोषं निर्मलं चैव वचनं दानसंहितम्<br>विद्यातपोभ्यां हि भवान्भावितात्मा न संशयः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.८</sup>भवतो भावितात्मत्वाद्दायोऽयं सुमहान्मम<br>भूयो बुद्ध्यानुपश्यामि सुसमृद्धतपा इव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.९</sup>अपि मे दर्शनादेव भवतोऽभ्युदयो महान्<br>मन्ये भवत्प्रसादोऽयं तद्धि कर्म स्वभावतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१०</sup>तपः श्रुतं च योनिश्चाप्येतद्ब्राह्मण्यकारणम्<br>त्रिभिर्गुणैः समुदितस्ततो भवति वै द्विजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.११</sup>तस्मिंस्तृप्ते च तृप्यन्ते पितरो दैवतानि च<br>न हि श्रुतवतां किंचिदधिकं ब्राह्मणादृते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१२</sup>यथा हि सुकृते क्षेत्रे फलं विन्दति मानवः<br>एवं दत्त्वा श्रुतवति फलं दाता समश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१३</sup>ब्राह्मणश्चेन्न विद्येत श्रुतवृत्तोपसंहितः<br>प्रतिग्रहीता दानस्य मोघं स्याद्धनिनां धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१४</sup>अदन्ह्यविद्वान्हन्त्यन्नमद्यमानं च हन्ति तम्<br>तं च हन्यति यस्यान्नं स हत्वा हन्यतेऽबुधः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१५</sup>प्रभुर्ह्यन्नमदन्विद्वान्पुनर्जनयतीश्वरः<br>स चान्नाज्जायते तस्मात्सूक्ष्म एव व्यतिक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१६</sup>यदेव ददतः पुण्यं तदेव प्रतिगृह्णतः<br>न ह्येकचक्रं वर्तेत इत्येवमृषयो विदुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१७</sup>यत्र वै ब्राह्मणाः सन्ति श्रुतवृत्तोपसंहिताः<br>तत्र दानफलं पुण्यमिह चामुत्र चाश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१८</sup>ये योनिशुद्धाः सततं तपस्यभिरता भृशम्<br>दानाध्ययनसंपन्नास्ते वै पूज्यतमाः सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१३.१२२.१९</sup>तैर्हि सद्भिः कृतः पन्थाश्चेतयानो न मुह्यते<br>ते हि स्वर्गस्य नेतारो यज्ञवाहाः सनातनाः
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.२</sup>एवमुक्तः प्रत्युवाच मैत्रेयः कर्मपूजकः<br>अत्यन्तं श्रीमति कुले जातः प्राज्ञो बहुश्रुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.३</sup>असंशयं महाप्राज्ञ यथैवात्थ तथैव तत्<br>अनुज्ञातस्तु भवता किंचिद्ब्रूयामहं विभो
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.४</sup>व्यास उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.५</sup>यद्यदिच्छसि मैत्रेय यावद्यावद्यथा तथा<br>ब्रूहि तावन्महाप्राज्ञ शुश्रूषे वचनं तव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.६</sup>मैत्रेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.७</sup>निर्दोषं निर्मलं चैव वचनं दानसंहितम्<br>विद्यातपोभ्यां हि भवान्भावितात्मा न संशयः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.८</sup>भवतो भावितात्मत्वाद्दायोऽयं सुमहान्मम<br>भूयो बुद्ध्यानुपश्यामि सुसमृद्धतपा इव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.९</sup>अपि मे दर्शनादेव भवतोऽभ्युदयो महान्<br>मन्ये भवत्प्रसादोऽयं तद्धि कर्म स्वभावतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१०</sup>तपः श्रुतं च योनिश्चाप्येतद्ब्राह्मण्यकारणम्<br>त्रिभिर्गुणैः समुदितस्ततो भवति वै द्विजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.११</sup>तस्मिंस्तृप्ते च तृप्यन्ते पितरो दैवतानि च<br>न हि श्रुतवतां किंचिदधिकं ब्राह्मणादृते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१२</sup>यथा हि सुकृते क्षेत्रे फलं विन्दति मानवः<br>एवं दत्त्वा श्रुतवति फलं दाता समश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१३</sup>ब्राह्मणश्चेन्न विद्येत श्रुतवृत्तोपसंहितः<br>प्रतिग्रहीता दानस्य मोघं स्याद्धनिनां धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१४</sup>अदन्ह्यविद्वान्हन्त्यन्नमद्यमानं च हन्ति तम्<br>तं च हन्यति यस्यान्नं स हत्वा हन्यतेऽबुधः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१५</sup>प्रभुर्ह्यन्नमदन्विद्वान्पुनर्जनयतीश्वरः<br>स चान्नाज्जायते तस्मात्सूक्ष्म एव व्यतिक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१६</sup>यदेव ददतः पुण्यं तदेव प्रतिगृह्णतः<br>न ह्येकचक्रं वर्तेत इत्येवमृषयो विदुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१७</sup>यत्र वै ब्राह्मणाः सन्ति श्रुतवृत्तोपसंहिताः<br>तत्र दानफलं पुण्यमिह चामुत्र चाश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१८</sup>ये योनिशुद्धाः सततं तपस्यभिरता भृशम्<br>दानाध्ययनसंपन्नास्ते वै पूज्यतमाः सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१३.१२२.१९</sup>तैर्हि सद्भिः कृतः पन्थाश्चेतयानो न मुह्यते<br>ते हि स्वर्गस्य नेतारो यज्ञवाहाः सनातनाः
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -138,8 +131,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

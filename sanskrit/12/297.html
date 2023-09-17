@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/296.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:२९७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/298.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,121 +64,86 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/296.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:२९७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/298.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२</sup>मृगयां विचरन्कश्चिद्विजने जनकात्मजः<br>वने ददर्श विप्रेन्द्रमृषिं वंशधरं भृगोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.३</sup>तमासीनमुपासीनः प्रणम्य शिरसा मुनिम्<br>पश्चादनुमतस्तेन पप्रच्छ वसुमानिदम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.४</sup>भगवन्किमिदं श्रेयः प्रेत्य वापीह वा भवेत्<br>पुरुषस्याध्रुवे देहे कामस्य वशवर्तिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.५</sup>सत्कृत्य परिपृष्टः सन्सुमहात्मा महातपाः<br>निजगाद ततस्तस्मै श्रेयस्करमिदं वचः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.६</sup>मनसोऽप्रतिकूलानि प्रेत्य चेह च वाञ्छसि<br>भूतानां प्रतिकूलेभ्यो निवर्तस्व यतेन्द्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.७</sup>धर्मः सतां हितः पुंसां धर्मश्चैवाश्रयः सताम्<br>धर्माल्लोकास्त्रयस्तात प्रवृत्ताः सचराचराः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.८</sup>स्वादुकामुक कामानां वैतृष्ण्यं किं न गच्छसि<br>मधु पश्यसि दुर्बुद्धे प्रपातं नानुपश्यसि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.९</sup>यथा ज्ञाने परिचयः कर्तव्यस्तत्फलार्थिना<br>तथा धर्मे परिचयः कर्तव्यस्तत्फलार्थिना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१०</sup>असता धर्मकामेन विशुद्धं कर्म दुष्करम्<br>सता तु धर्मकामेन सुकरं कर्म दुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.११</sup>वने ग्राम्यसुखाचारो यथा ग्राम्यस्तथैव सः<br>ग्रामे वनसुखाचारो यथा वनचरस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१२</sup>मनोवाक्कर्मके धर्मे कुरु श्रद्धां समाहितः<br>निवृत्तौ वा प्रवृत्तौ वा संप्रधार्य गुणागुणान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१३</sup>नित्यं च बहु दातव्यं साधुभ्यश्चानसूयता<br>प्रार्थितं व्रतशौचाभ्यां सत्कृतं देशकालयोः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१४</sup>शुभेन विधिना लब्धमर्हाय प्रतिपादयेत्<br>क्रोधमुत्सृज्य दत्त्वा च नानुतप्येन्न कीर्तयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१५</sup>अनृशंसः शुचिर्दान्तः सत्यवागार्जवे स्थितः<br>योनिकर्मविशुद्धश्च पात्रं स्याद्वेदविद्द्विजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१६</sup>सत्कृता चैकपत्नी च जात्या योनिरिहेष्यते<br>ऋग्यजुःसामगो विद्वान्षट्कर्मा पात्रमुच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१७</sup>स एव धर्मः सोऽधर्मस्तं तं प्रतिनरं भवेत्<br>पात्रकर्मविशेषेण देशकालाववेक्ष्य च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१८</sup>लीलयाल्पं यथा गात्रात्प्रमृज्याद्रजसः पुमान्<br>बहुयत्नेन महता पापनिर्हरणं तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.१९</sup>विरिक्तस्य यथा सम्यग्घृतं भवति भेषजम्<br>तथा निर्हृतदोषस्य प्रेत्यधर्मः सुखावहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२०</sup>मानसं सर्वभूतेषु वर्तते वै शुभाशुभे<br>अशुभेभ्यः समाक्षिप्य शुभेष्वेवावतारयेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२१</sup>सर्वं सर्वेण सर्वत्र क्रियमाणं च पूजय<br>स्वधर्मे यत्र रागस्ते कामं धर्मो विधीयताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२२</sup>अधृतात्मन्धृतौ तिष्ठ दुर्बुद्धे बुद्धिमान्भव<br>अप्रशान्त प्रशाम्य त्वमप्राज्ञ प्राज्ञवच्चर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२३</sup>तेजसा शक्यते प्राप्तुमुपायसहचारिणा<br>इह च प्रेत्य च श्रेयस्तस्य मूलं धृतिः परा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२४</sup>राजर्षिरधृतिः स्वर्गात्पतितो हि महाभिषः<br>ययातिः क्षीणपुण्यश्च धृत्या लोकानवाप्तवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२५</sup>तपस्विनां धर्मवतां विदुषां चोपसेवनात्<br>प्राप्स्यसे विपुलां बुद्धिं तथा श्रेयोऽभिपत्स्यसे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.२९७.२६</sup>स तु स्वभावसंपन्नस्तच्छ्रुत्वा मुनिभाषितम्<br>विनिवर्त्य मनः कामाद्धर्मे बुद्धिं चकार ह
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२</sup>मृगयां विचरन्कश्चिद्विजने जनकात्मजः<br>वने ददर्श विप्रेन्द्रमृषिं वंशधरं भृगोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.३</sup>तमासीनमुपासीनः प्रणम्य शिरसा मुनिम्<br>पश्चादनुमतस्तेन पप्रच्छ वसुमानिदम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.४</sup>भगवन्किमिदं श्रेयः प्रेत्य वापीह वा भवेत्<br>पुरुषस्याध्रुवे देहे कामस्य वशवर्तिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.५</sup>सत्कृत्य परिपृष्टः सन्सुमहात्मा महातपाः<br>निजगाद ततस्तस्मै श्रेयस्करमिदं वचः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.६</sup>मनसोऽप्रतिकूलानि प्रेत्य चेह च वाञ्छसि<br>भूतानां प्रतिकूलेभ्यो निवर्तस्व यतेन्द्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.७</sup>धर्मः सतां हितः पुंसां धर्मश्चैवाश्रयः सताम्<br>धर्माल्लोकास्त्रयस्तात प्रवृत्ताः सचराचराः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.८</sup>स्वादुकामुक कामानां वैतृष्ण्यं किं न गच्छसि<br>मधु पश्यसि दुर्बुद्धे प्रपातं नानुपश्यसि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.९</sup>यथा ज्ञाने परिचयः कर्तव्यस्तत्फलार्थिना<br>तथा धर्मे परिचयः कर्तव्यस्तत्फलार्थिना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१०</sup>असता धर्मकामेन विशुद्धं कर्म दुष्करम्<br>सता तु धर्मकामेन सुकरं कर्म दुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.११</sup>वने ग्राम्यसुखाचारो यथा ग्राम्यस्तथैव सः<br>ग्रामे वनसुखाचारो यथा वनचरस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१२</sup>मनोवाक्कर्मके धर्मे कुरु श्रद्धां समाहितः<br>निवृत्तौ वा प्रवृत्तौ वा संप्रधार्य गुणागुणान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१३</sup>नित्यं च बहु दातव्यं साधुभ्यश्चानसूयता<br>प्रार्थितं व्रतशौचाभ्यां सत्कृतं देशकालयोः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१४</sup>शुभेन विधिना लब्धमर्हाय प्रतिपादयेत्<br>क्रोधमुत्सृज्य दत्त्वा च नानुतप्येन्न कीर्तयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१५</sup>अनृशंसः शुचिर्दान्तः सत्यवागार्जवे स्थितः<br>योनिकर्मविशुद्धश्च पात्रं स्याद्वेदविद्द्विजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१६</sup>सत्कृता चैकपत्नी च जात्या योनिरिहेष्यते<br>ऋग्यजुःसामगो विद्वान्षट्कर्मा पात्रमुच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१७</sup>स एव धर्मः सोऽधर्मस्तं तं प्रतिनरं भवेत्<br>पात्रकर्मविशेषेण देशकालाववेक्ष्य च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१८</sup>लीलयाल्पं यथा गात्रात्प्रमृज्याद्रजसः पुमान्<br>बहुयत्नेन महता पापनिर्हरणं तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.१९</sup>विरिक्तस्य यथा सम्यग्घृतं भवति भेषजम्<br>तथा निर्हृतदोषस्य प्रेत्यधर्मः सुखावहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२०</sup>मानसं सर्वभूतेषु वर्तते वै शुभाशुभे<br>अशुभेभ्यः समाक्षिप्य शुभेष्वेवावतारयेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२१</sup>सर्वं सर्वेण सर्वत्र क्रियमाणं च पूजय<br>स्वधर्मे यत्र रागस्ते कामं धर्मो विधीयताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२२</sup>अधृतात्मन्धृतौ तिष्ठ दुर्बुद्धे बुद्धिमान्भव<br>अप्रशान्त प्रशाम्य त्वमप्राज्ञ प्राज्ञवच्चर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२३</sup>तेजसा शक्यते प्राप्तुमुपायसहचारिणा<br>इह च प्रेत्य च श्रेयस्तस्य मूलं धृतिः परा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२४</sup>राजर्षिरधृतिः स्वर्गात्पतितो हि महाभिषः<br>ययातिः क्षीणपुण्यश्च धृत्या लोकानवाप्तवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२५</sup>तपस्विनां धर्मवतां विदुषां चोपसेवनात्<br>प्राप्स्यसे विपुलां बुद्धिं तथा श्रेयोऽभिपत्स्यसे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.२९७.२६</sup>स तु स्वभावसंपन्नस्तच्छ्रुत्वा मुनिभाषितम्<br>विनिवर्त्य मनः कामाद्धर्मे बुद्धिं चकार ह
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -159,8 +152,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

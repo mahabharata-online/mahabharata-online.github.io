@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/8/46.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>८:४७</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/8/48.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,88 +64,53 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/8/46.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">८:४७</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/8/48.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.२</sup>तद्धर्मशीलस्य वचो निशम्य; राज्ञः क्रुद्धस्याधिरथौ महात्मा<br>उवाच दुर्धर्षमदीनसत्त्वं; युधिष्ठिरं जिष्णुरनन्तवीर्यः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.३</sup>संशप्तकैर्युध्यमानस्य मेऽद्य; सेनाग्रयायी कुरुसैन्यस्य राजन्<br>आशीविषाभान्खगमान्प्रमुञ्च;न्द्रौणिः पुरस्तात्सहसा व्यतिष्ठत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.४</sup>दृष्ट्वा रथं मेघनिभं ममेम;मम्बष्ठसेना मरणे व्यतिष्ठत्<br>तेषामहं पञ्च शतानि हत्वा; ततो द्रौणिमगमं पार्थिवाग्र्य
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.५</sup>ततोऽपरान्बाणसंघाननेका;नाकर्णपूर्णायतविप्रमुक्तान्<br>ससर्ज शिक्षास्त्रबलप्रयत्नै;स्तथा यथा प्रावृषि कालमेघः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.६</sup>नैवाददानं न च संदधानं; जानीमहे कतरेणास्यतीति<br>वामेन वा यदि वा दक्षिणेन; स द्रोणपुत्रः समरे पर्यवर्तत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.७</sup>अविध्यन्मां पञ्चभिर्द्रोणपुत्रः; शितैः शरैः पञ्चभिर्वासुदेवम्<br>अहं तु तं त्रिंशता वज्रकल्पैः; समार्दयं निमिषस्यान्तरेण
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.८</sup>स विक्षरन्रुधिरं सर्वगात्रै; रथानीकं सूतसूनोर्विवेश<br>मयाभिभूतः सैनिकानां प्रबर्हा;नसावपश्यन्रुधिरेण प्रदिग्धान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.९</sup>ततोऽभिभूतं युधि वीक्ष्य सैन्यं; विध्वस्तयोधं द्रुतवाजिनागम्<br>पञ्चाशता रथमुख्यैः समेतः; कर्णस्त्वरन्मामुपायात्प्रमाथी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१०</sup>तान्सूदयित्वाहमपास्य कर्णं; द्रष्टुं भवन्तं त्वरयाभियातः<br>सर्वे पाञ्चाला ह्युद्विजन्ते स्म कर्णा;द्गन्धाद्गावः केसरिणो यथैव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.११</sup>महाझषस्येव मुखं प्रपन्नाः; प्रभद्रकाः कर्णमभि द्रवन्ति<br>मृत्योरास्यं व्यात्तमिवान्वपद्य;न्प्रभद्रकाः कर्णमासाद्य राजन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१२</sup>आयाहि पश्याद्य युयुत्समानं; मां सूतपुत्रं च वृतौ जयाय<br>षट्साहस्रा भारत राजपुत्राः; स्वर्गाय लोकाय रथा निमग्नाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१३</sup>समेत्याहं सूतपुत्रेण संख्ये; वृत्रेण वज्रीव नरेन्द्रमुख्य<br>योत्स्ये भृशं भारत सूतपुत्र;मस्मिन्संग्रामे यदि वै दृश्यतेऽद्य
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१४</sup>कर्णं न चेदद्य निहन्मि राज;न्सबान्धवं युध्यमानं प्रसह्य<br>प्रतिश्रुत्याकुर्वतां वै गतिर्या; कष्टां गच्छेयं तामहं राजसिंह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">८.४७.१५</sup>आमन्त्रये त्वां ब्रूहि जयं रणे मे; पुरा भीमं धार्तराष्ट्रा ग्रसन्ते<br>सौतिं हनिष्यामि नरेन्द्रसिंह; सैन्यं तथा शत्रुगणांश्च सर्वान्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.२</sup>तद्धर्मशीलस्य वचो निशम्य; राज्ञः क्रुद्धस्याधिरथौ महात्मा<br>उवाच दुर्धर्षमदीनसत्त्वं; युधिष्ठिरं जिष्णुरनन्तवीर्यः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.३</sup>संशप्तकैर्युध्यमानस्य मेऽद्य; सेनाग्रयायी कुरुसैन्यस्य राजन्<br>आशीविषाभान्खगमान्प्रमुञ्च;न्द्रौणिः पुरस्तात्सहसा व्यतिष्ठत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.४</sup>दृष्ट्वा रथं मेघनिभं ममेम;मम्बष्ठसेना मरणे व्यतिष्ठत्<br>तेषामहं पञ्च शतानि हत्वा; ततो द्रौणिमगमं पार्थिवाग्र्य
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.५</sup>ततोऽपरान्बाणसंघाननेका;नाकर्णपूर्णायतविप्रमुक्तान्<br>ससर्ज शिक्षास्त्रबलप्रयत्नै;स्तथा यथा प्रावृषि कालमेघः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.६</sup>नैवाददानं न च संदधानं; जानीमहे कतरेणास्यतीति<br>वामेन वा यदि वा दक्षिणेन; स द्रोणपुत्रः समरे पर्यवर्तत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.७</sup>अविध्यन्मां पञ्चभिर्द्रोणपुत्रः; शितैः शरैः पञ्चभिर्वासुदेवम्<br>अहं तु तं त्रिंशता वज्रकल्पैः; समार्दयं निमिषस्यान्तरेण
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.८</sup>स विक्षरन्रुधिरं सर्वगात्रै; रथानीकं सूतसूनोर्विवेश<br>मयाभिभूतः सैनिकानां प्रबर्हा;नसावपश्यन्रुधिरेण प्रदिग्धान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.९</sup>ततोऽभिभूतं युधि वीक्ष्य सैन्यं; विध्वस्तयोधं द्रुतवाजिनागम्<br>पञ्चाशता रथमुख्यैः समेतः; कर्णस्त्वरन्मामुपायात्प्रमाथी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१०</sup>तान्सूदयित्वाहमपास्य कर्णं; द्रष्टुं भवन्तं त्वरयाभियातः<br>सर्वे पाञ्चाला ह्युद्विजन्ते स्म कर्णा;द्गन्धाद्गावः केसरिणो यथैव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.११</sup>महाझषस्येव मुखं प्रपन्नाः; प्रभद्रकाः कर्णमभि द्रवन्ति<br>मृत्योरास्यं व्यात्तमिवान्वपद्य;न्प्रभद्रकाः कर्णमासाद्य राजन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१२</sup>आयाहि पश्याद्य युयुत्समानं; मां सूतपुत्रं च वृतौ जयाय<br>षट्साहस्रा भारत राजपुत्राः; स्वर्गाय लोकाय रथा निमग्नाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१३</sup>समेत्याहं सूतपुत्रेण संख्ये; वृत्रेण वज्रीव नरेन्द्रमुख्य<br>योत्स्ये भृशं भारत सूतपुत्र;मस्मिन्संग्रामे यदि वै दृश्यतेऽद्य
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१४</sup>कर्णं न चेदद्य निहन्मि राज;न्सबान्धवं युध्यमानं प्रसह्य<br>प्रतिश्रुत्याकुर्वतां वै गतिर्या; कष्टां गच्छेयं तामहं राजसिंह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">८.४७.१५</sup>आमन्त्रये त्वां ब्रूहि जयं रणे मे; पुरा भीमं धार्तराष्ट्रा ग्रसन्ते<br>सौतिं हनिष्यामि नरेन्द्रसिंह; सैन्यं तथा शत्रुगणांश्च सर्वान्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -126,8 +119,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

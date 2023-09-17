@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/7/123.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>७:१२४</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/7/125.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,145 +64,110 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/7/123.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">७:१२४</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/7/125.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१</sup>संजय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२</sup>ततो युधिष्ठिरो राजा रथादाप्लुत्य भारत<br>पर्यष्वजत्तदा कृष्णावानन्दाश्रुपरिप्लुतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३</sup>प्रमृज्य वदनं शुभ्रं पुण्डरीकसमप्रभम्<br>अब्रवीद्वासुदेवं च पाण्डवं च धनंजयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.४</sup>दिष्ट्या पश्यामि संग्रामे तीर्णभारौ महारथौ<br>दिष्ट्या च निहतः पापः सैन्धवः पुरुषाधमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.५</sup>कृष्ण दिष्ट्या मम प्रीतिर्महती प्रतिपादिता<br>दिष्ट्या शत्रुगणाश्चैव निमग्नाः शोकसागरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.६</sup>न तेषां दुष्करं किंचित्त्रिषु लोकेषु विद्यते<br>सर्वलोकगुरुर्येषां त्वं नाथो मधुसूदन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.७</sup>तव प्रसादाद्गोविन्द वयं जेष्यामहे रिपून्<br>यथा पूर्वं प्रसादात्ते दानवान्पाकशासनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.८</sup>पृथिवीविजयो वापि त्रैलोक्यविजयोऽपि वा<br>ध्रुवो हि तेषां वार्ष्णेय येषां तुष्टोऽसि माधव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.९</sup>न तेषां विद्यते पापं संग्रामे वा पराजयः<br>त्रिदशेश्वरनाथस्त्वं येषां तुष्टोऽसि माधव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१०</sup>त्वत्प्रसादाद्धृषीकेश शक्रः सुरगणेश्वरः<br>त्रैलोक्यविजयं श्रीमान्प्राप्तवान्रणमूर्धनि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.११</sup>तव चैव प्रसादेन त्रिदशास्त्रिदशेश्वर<br>अमरत्वं गताः कृष्ण लोकांश्चाश्नुवतेऽक्षयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१२</sup>त्वत्प्रसादसमुत्थेन विक्रमेणारिसूदन<br>सुरेशत्वं गतः शक्रो हत्वा दैत्यान्सहस्रशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१३</sup>त्वत्प्रसादाद्धृषीकेश जगत्स्थावरजङ्गमम्<br>स्ववर्त्मनि स्थितं वीर जपहोमेषु वर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१४</sup>एकार्णवमिदं पूर्वं सर्वमासीत्तमोमयम्<br>त्वत्प्रसादात्प्रकाशत्वं जगत्प्राप्तं नरोत्तम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१५</sup>स्रष्टारं सर्वलोकानां परमात्मानमच्युतम्<br>ये प्रपन्ना हृषीकेशं न ते मुह्यन्ति कर्हिचित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१६</sup>अनादिनिधनं देवं लोककर्तारमव्ययम्<br>त्वां भक्ता ये हृषीकेश दुर्गाण्यतितरन्ति ते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१७</sup>परं पुराणं पुरुषं पुराणानां परं च यत्<br>प्रपद्यतस्तं परमं परा भूतिर्विधीयते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१८</sup>योऽगात चतुरो वेदान्यश्च वेदेषु गीयते<br>तं प्रपद्य महात्मानं भूतिमाप्नोत्यनुत्तमाम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.१९</sup>धनंजयसखा यश्च धनंजयहितश्च यः<br>तं धनंजयगोप्तारं प्रपद्य सुखमेधते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२०</sup>इत्युक्तौ तौ महात्मानावुभौ केशवपाण्डवौ<br>तावब्रूतां तदा हृष्टौ राजानं पृथिवीपतिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२१</sup>तव कोपाग्निना दग्धः पापो राजा जयद्रथः<br>उदीर्णं चापि सुमहद्धार्तराष्ट्रबलं रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२२</sup>हन्यते निहतं चैव विनङ्क्ष्यति च भारत<br>तव क्रोधहता ह्येते कौरवाः शत्रुसूदन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२३</sup>त्वां हि चक्षुर्हणं वीरं कोपयित्वा सुयोधनः<br>समित्रबन्धुः समरे प्राणांस्त्यक्ष्यति दुर्मतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२४</sup>तव क्रोधहतः पूर्वं देवैरपि सुदुर्जयः<br>शरतल्पगतः शेते भीष्मः कुरुपितामहः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२५</sup>दुर्लभो हि जयस्तेषां संग्रामे रिपुसूदन<br>याता मृत्युवशं ते वै येषां क्रुद्धोऽसि पाण्डव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२६</sup>राज्यं प्राणाः प्रियाः पुत्राः सौख्यानि विविधानि च<br>अचिरात्तस्य नश्यन्ति येषां क्रुद्धोऽसि मानद
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२७</sup>विनष्टान्कौरवान्मन्ये सपुत्रपशुबान्धवान्<br>राजधर्मपरे नित्यं त्वयि क्रुद्धे युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२८</sup>ततो भीमो महाबाहुः सात्यकिश्च महारथः<br>अभिवाद्य गुरुं ज्येष्ठं मार्गणैः क्षतविक्षतौ<br>स्थितावास्तां महेष्वासौ पाञ्चाल्यैः परिवारितौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.२९</sup>तौ दृष्ट्व मुदितौ वीरौ प्राञ्जली चाग्रतः स्थितौ<br>अभ्यनन्दत कौन्तेयस्तावुभौ भीमसात्यकी
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३०</sup>दिष्ट्या पश्यामि वां वीरौ विमुक्तौ सैन्यसागरात्<br>द्रोणग्राहाद्दुराधर्षाद्धार्दिक्यमकरालयात्<br>दिष्ट्या च निर्जिताः संख्ये पृथिव्यां सर्वपार्थिवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३१</sup>युवां विजयिनौ चापि दिष्ट्या पश्यामि संयुगे<br>दिष्ट्या द्रोणो जितः संख्ये हार्दिक्यश्च महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३२</sup>सैन्यार्णवं समुत्तीर्णौ दिष्ट्या पश्यामि चानघौ<br>समरश्लाघिनौ वीरौ समरेष्वपलायिनौ<br>मम प्राणसमौ चैव दिष्ट्या पश्यामि वामहम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३३</sup>इत्युक्त्वा पाण्डवो राजा युयुधानवृकोदरौ<br>सस्वजे पुरुषव्याघ्रौ हर्षाद्बाष्पं मुमोच ह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">७.१२४.३४</sup>ततः प्रमुदितं सर्वं बलमासीद्विशां पते<br>पाण्डवानां जयं दृष्ट्वा युद्धाय च मनो दधे
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१</sup>संजय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२</sup>ततो युधिष्ठिरो राजा रथादाप्लुत्य भारत<br>पर्यष्वजत्तदा कृष्णावानन्दाश्रुपरिप्लुतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३</sup>प्रमृज्य वदनं शुभ्रं पुण्डरीकसमप्रभम्<br>अब्रवीद्वासुदेवं च पाण्डवं च धनंजयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.४</sup>दिष्ट्या पश्यामि संग्रामे तीर्णभारौ महारथौ<br>दिष्ट्या च निहतः पापः सैन्धवः पुरुषाधमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.५</sup>कृष्ण दिष्ट्या मम प्रीतिर्महती प्रतिपादिता<br>दिष्ट्या शत्रुगणाश्चैव निमग्नाः शोकसागरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.६</sup>न तेषां दुष्करं किंचित्त्रिषु लोकेषु विद्यते<br>सर्वलोकगुरुर्येषां त्वं नाथो मधुसूदन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.७</sup>तव प्रसादाद्गोविन्द वयं जेष्यामहे रिपून्<br>यथा पूर्वं प्रसादात्ते दानवान्पाकशासनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.८</sup>पृथिवीविजयो वापि त्रैलोक्यविजयोऽपि वा<br>ध्रुवो हि तेषां वार्ष्णेय येषां तुष्टोऽसि माधव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.९</sup>न तेषां विद्यते पापं संग्रामे वा पराजयः<br>त्रिदशेश्वरनाथस्त्वं येषां तुष्टोऽसि माधव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१०</sup>त्वत्प्रसादाद्धृषीकेश शक्रः सुरगणेश्वरः<br>त्रैलोक्यविजयं श्रीमान्प्राप्तवान्रणमूर्धनि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.११</sup>तव चैव प्रसादेन त्रिदशास्त्रिदशेश्वर<br>अमरत्वं गताः कृष्ण लोकांश्चाश्नुवतेऽक्षयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१२</sup>त्वत्प्रसादसमुत्थेन विक्रमेणारिसूदन<br>सुरेशत्वं गतः शक्रो हत्वा दैत्यान्सहस्रशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१३</sup>त्वत्प्रसादाद्धृषीकेश जगत्स्थावरजङ्गमम्<br>स्ववर्त्मनि स्थितं वीर जपहोमेषु वर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१४</sup>एकार्णवमिदं पूर्वं सर्वमासीत्तमोमयम्<br>त्वत्प्रसादात्प्रकाशत्वं जगत्प्राप्तं नरोत्तम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१५</sup>स्रष्टारं सर्वलोकानां परमात्मानमच्युतम्<br>ये प्रपन्ना हृषीकेशं न ते मुह्यन्ति कर्हिचित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१६</sup>अनादिनिधनं देवं लोककर्तारमव्ययम्<br>त्वां भक्ता ये हृषीकेश दुर्गाण्यतितरन्ति ते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१७</sup>परं पुराणं पुरुषं पुराणानां परं च यत्<br>प्रपद्यतस्तं परमं परा भूतिर्विधीयते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१८</sup>योऽगात चतुरो वेदान्यश्च वेदेषु गीयते<br>तं प्रपद्य महात्मानं भूतिमाप्नोत्यनुत्तमाम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.१९</sup>धनंजयसखा यश्च धनंजयहितश्च यः<br>तं धनंजयगोप्तारं प्रपद्य सुखमेधते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२०</sup>इत्युक्तौ तौ महात्मानावुभौ केशवपाण्डवौ<br>तावब्रूतां तदा हृष्टौ राजानं पृथिवीपतिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२१</sup>तव कोपाग्निना दग्धः पापो राजा जयद्रथः<br>उदीर्णं चापि सुमहद्धार्तराष्ट्रबलं रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२२</sup>हन्यते निहतं चैव विनङ्क्ष्यति च भारत<br>तव क्रोधहता ह्येते कौरवाः शत्रुसूदन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२३</sup>त्वां हि चक्षुर्हणं वीरं कोपयित्वा सुयोधनः<br>समित्रबन्धुः समरे प्राणांस्त्यक्ष्यति दुर्मतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२४</sup>तव क्रोधहतः पूर्वं देवैरपि सुदुर्जयः<br>शरतल्पगतः शेते भीष्मः कुरुपितामहः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२५</sup>दुर्लभो हि जयस्तेषां संग्रामे रिपुसूदन<br>याता मृत्युवशं ते वै येषां क्रुद्धोऽसि पाण्डव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२६</sup>राज्यं प्राणाः प्रियाः पुत्राः सौख्यानि विविधानि च<br>अचिरात्तस्य नश्यन्ति येषां क्रुद्धोऽसि मानद
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२७</sup>विनष्टान्कौरवान्मन्ये सपुत्रपशुबान्धवान्<br>राजधर्मपरे नित्यं त्वयि क्रुद्धे युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२८</sup>ततो भीमो महाबाहुः सात्यकिश्च महारथः<br>अभिवाद्य गुरुं ज्येष्ठं मार्गणैः क्षतविक्षतौ<br>स्थितावास्तां महेष्वासौ पाञ्चाल्यैः परिवारितौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.२९</sup>तौ दृष्ट्व मुदितौ वीरौ प्राञ्जली चाग्रतः स्थितौ<br>अभ्यनन्दत कौन्तेयस्तावुभौ भीमसात्यकी
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३०</sup>दिष्ट्या पश्यामि वां वीरौ विमुक्तौ सैन्यसागरात्<br>द्रोणग्राहाद्दुराधर्षाद्धार्दिक्यमकरालयात्<br>दिष्ट्या च निर्जिताः संख्ये पृथिव्यां सर्वपार्थिवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३१</sup>युवां विजयिनौ चापि दिष्ट्या पश्यामि संयुगे<br>दिष्ट्या द्रोणो जितः संख्ये हार्दिक्यश्च महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३२</sup>सैन्यार्णवं समुत्तीर्णौ दिष्ट्या पश्यामि चानघौ<br>समरश्लाघिनौ वीरौ समरेष्वपलायिनौ<br>मम प्राणसमौ चैव दिष्ट्या पश्यामि वामहम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३३</sup>इत्युक्त्वा पाण्डवो राजा युयुधानवृकोदरौ<br>सस्वजे पुरुषव्याघ्रौ हर्षाद्बाष्पं मुमोच ह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">७.१२४.३४</sup>ततः प्रमुदितं सर्वं बलमासीद्विशां पते<br>पाण्डवानां जयं दृष्ट्वा युद्धाय च मनो दधे
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -183,8 +176,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

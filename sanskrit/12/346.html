@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/12/345.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>१२:३४६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/12/347.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,91 +64,56 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/12/345.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">१२:३४६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/12/347.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.२</sup>अथ तेन नरश्रेष्ठ ब्राह्मणेन तपस्विना<br>निराहारेण वसता दुःखितास्ते भुजंगमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.३</sup>सर्वे संभूय सहितास्तस्य नागस्य बान्धवाः<br>भ्रातरस्तनया भार्या ययुस्तं ब्राह्मणं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.४</sup>तेऽपश्यन्पुलिने तं वै विविक्ते नियतव्रतम्<br>समासीनं निराहारं द्विजं जप्यपरायणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.५</sup>ते सर्वे समभिक्रम्य विप्रमभ्यर्च्य चासकृत्<br>ऊचुर्वाक्यमसंदिग्धमातिथेयस्य बान्धवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.६</sup>षष्ठो हि दिवसस्तेऽद्य प्राप्तस्येह तपोधन<br>न चाभिलषसे किंचिदाहारं धर्मवत्सल
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.७</sup>अस्मानभिगतश्चासि वयं च त्वामुपस्थिताः<br>कार्यं चातिथ्यमस्माभिर्वयं सर्वे कुटुम्बिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.८</sup>मूलं फलं वा पर्णं वा पयो वा द्विजसत्तम<br>आहारहेतोरन्नं वा भोक्तुमर्हसि ब्राह्मण
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.९</sup>त्यक्ताहारेण भवता वने निवसता सता<br>बालवृद्धमिदं सर्वं पीड्यते धर्मसंकटात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१०</sup>न हि नो भ्रूणहा कश्चिद्राजापथ्योऽनृतोऽपि वा<br>पूर्वाशी वा कुले ह्यस्मिन्देवतातिथिबन्धुषु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.११</sup>ब्राह्मण उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१२</sup>उपदेशेन युष्माकमाहारोऽयं मया वृतः<br>द्विरूनं दशरात्रं वै नागस्यागमनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१३</sup>यद्यष्टरात्रे निर्याते नागमिष्यति पन्नगः<br>तदाहारं करिष्यामि तन्निमित्तमिदं व्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१४</sup>कर्तव्यो न च संतापो गम्यतां च यथागतम्<br>तन्निमित्तं व्रतं मह्यं नैतद्भेत्तुमिहार्हथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१५</sup>भीष्म उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">१२.३४६.१६</sup>तेन ते समनुज्ञाता ब्राह्मणेन भुजंगमाः<br>स्वमेव भवनं जग्मुरकृतार्था नरर्षभ
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.२</sup>अथ तेन नरश्रेष्ठ ब्राह्मणेन तपस्विना<br>निराहारेण वसता दुःखितास्ते भुजंगमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.३</sup>सर्वे संभूय सहितास्तस्य नागस्य बान्धवाः<br>भ्रातरस्तनया भार्या ययुस्तं ब्राह्मणं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.४</sup>तेऽपश्यन्पुलिने तं वै विविक्ते नियतव्रतम्<br>समासीनं निराहारं द्विजं जप्यपरायणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.५</sup>ते सर्वे समभिक्रम्य विप्रमभ्यर्च्य चासकृत्<br>ऊचुर्वाक्यमसंदिग्धमातिथेयस्य बान्धवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.६</sup>षष्ठो हि दिवसस्तेऽद्य प्राप्तस्येह तपोधन<br>न चाभिलषसे किंचिदाहारं धर्मवत्सल
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.७</sup>अस्मानभिगतश्चासि वयं च त्वामुपस्थिताः<br>कार्यं चातिथ्यमस्माभिर्वयं सर्वे कुटुम्बिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.८</sup>मूलं फलं वा पर्णं वा पयो वा द्विजसत्तम<br>आहारहेतोरन्नं वा भोक्तुमर्हसि ब्राह्मण
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.९</sup>त्यक्ताहारेण भवता वने निवसता सता<br>बालवृद्धमिदं सर्वं पीड्यते धर्मसंकटात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१०</sup>न हि नो भ्रूणहा कश्चिद्राजापथ्योऽनृतोऽपि वा<br>पूर्वाशी वा कुले ह्यस्मिन्देवतातिथिबन्धुषु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.११</sup>ब्राह्मण उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१२</sup>उपदेशेन युष्माकमाहारोऽयं मया वृतः<br>द्विरूनं दशरात्रं वै नागस्यागमनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१३</sup>यद्यष्टरात्रे निर्याते नागमिष्यति पन्नगः<br>तदाहारं करिष्यामि तन्निमित्तमिदं व्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१४</sup>कर्तव्यो न च संतापो गम्यतां च यथागतम्<br>तन्निमित्तं व्रतं मह्यं नैतद्भेत्तुमिहार्हथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१५</sup>भीष्म उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">१२.३४६.१६</sup>तेन ते समनुज्ञाता ब्राह्मणेन भुजंगमाः<br>स्वमेव भवनं जग्मुरकृतार्था नरर्षभ
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -129,8 +122,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

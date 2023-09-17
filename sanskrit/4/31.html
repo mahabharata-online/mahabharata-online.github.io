@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/4/30.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>४:३१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/4/32.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,118 +64,83 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/4/30.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">४:३१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/4/32.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२</sup>निर्याय नगराच्छूरा व्यूढानीकाः प्रहारिणः<br>त्रिगर्तानस्पृशन्मत्स्याः सूर्ये परिणते सति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.३</sup>ते त्रिगर्ताश्च मत्स्याश्च संरब्धा युद्धदुर्मदाः<br>अन्योन्यमभिगर्जन्तो गोषु गृद्धा महाबलाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.४</sup>भीमाश्च मत्तमातङ्गास्तोमराङ्कुशचोदिताः<br>ग्रामणीयैः समारूढाः कुशलैर्हस्तिसादिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.५</sup>तेषां समागमो घोरस्तुमुलो लोमहर्षणः<br>देवासुरसमो राजन्नासीत्सूर्ये विलम्बति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.६</sup>उदतिष्ठद्रजो भौमं न प्रज्ञायत किंचन<br>पक्षिणश्चापतन्भूमौ सैन्येन रजसावृताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.७</sup>इषुभिर्व्यतिसंयद्भिरादित्योऽन्तरधीयत<br>खद्योतैरिव संयुक्तमन्तरिक्षं व्यराजत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.८</sup>रुक्मपृष्ठानि चापानि व्यतिषक्तानि धन्विनाम्<br>पततां लोकवीराणां सव्यदक्षिणमस्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.९</sup>रथा रथैः समाजग्मुः पादातैश्च पदातयः<br>सादिभिः सादिनश्चैव गजैश्चापि महागजाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१०</sup>असिभिः पट्टिशैः प्रासैः शक्तिभिस्तोमरैरपि<br>संरब्धाः समरे राजन्निजघ्नुरितरेतरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.११</sup>निघ्नन्तः समरेऽन्योन्यं शूराः परिघबाहवः<br>न शेकुरभिसंरब्धाः शूरान्कर्तुं पराङ्मुखान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१२</sup>कॢप्तोत्तरोष्ठं सुनसं कॢप्तकेशमलंकृतम्<br>अदृश्यत शिरश्छिन्नं रजोध्वस्तं सकुण्डलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१३</sup>अदृश्यंस्तत्र गात्राणि शरैश्छिन्नानि भागशः<br>शालस्कन्धनिकाशानि क्षत्रियाणां महामृधे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१४</sup>नागभोगनिकाशैश्च बाहुभिश्चन्दनोक्षितैः<br>आकीर्णा वसुधा तत्र शिरोभिश्च सकुण्डलैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१५</sup>उपशाम्यद्रजो भौमं रुधिरेण प्रसर्पता<br>कश्मलं प्राविशद्घोरं निर्मर्यादमवर्तत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१६</sup>शतानीकः शतं हत्वा विशालाक्षश्चतुःशतम्<br>प्रविष्टौ महतीं सेनां त्रिगर्तानां महारथौ<br>आर्च्छेतां बहुसंरब्धौ केशाकेशि नखानखि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१७</sup>लक्षयित्वा त्रिगर्तानां तौ प्रविष्टौ रथव्रजम्<br>जग्मतुः सूर्यदत्तश्च मदिराश्वश्च पृष्ठतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१८</sup>विराटस्तत्र संग्रामे हत्वा पञ्चशतान्रथान्<br>हयानां च शतान्यत्र हत्वा पञ्च महारथान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.१९</sup>चरन्स विविधान्मार्गान्रथेषु रथयूथपः<br>त्रिगर्तानां सुशर्माणमार्च्छद्रुक्मरथं रणे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२०</sup>तौ व्यावहरतां तत्र महात्मानौ महाबलौ<br>अन्योन्यमभिगर्जन्तौ गोष्ठे गोवृषभाविव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२१</sup>ततो रथाभ्यां रथिनौ व्यतियाय समन्ततः<br>शरान्व्यसृजतां शीघ्रं तोयधारा घनाविव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२२</sup>अन्योन्यं चातिसंरब्धौ विचेरतुरमर्षणौ<br>कृतास्त्रौ निशितैर्बाणैरसिशक्तिगदाभृतौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२३</sup>ततो राजा सुशर्माणं विव्याध दशभिः शरैः<br>पञ्चभिः पञ्चभिश्चास्य विव्याध चतुरो हयान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२४</sup>तथैव मत्स्यराजानं सुशर्मा युद्धदुर्मदः<br>पञ्चाशता शितैर्बाणैर्विव्याध परमास्त्रवित्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">४.३१.२५</sup>ततः सैन्यं समावृत्य मत्स्यराजसुशर्मणोः<br>नाभ्यजानंस्तदान्योन्यं प्रदोषे रजसावृते
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२</sup>निर्याय नगराच्छूरा व्यूढानीकाः प्रहारिणः<br>त्रिगर्तानस्पृशन्मत्स्याः सूर्ये परिणते सति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.३</sup>ते त्रिगर्ताश्च मत्स्याश्च संरब्धा युद्धदुर्मदाः<br>अन्योन्यमभिगर्जन्तो गोषु गृद्धा महाबलाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.४</sup>भीमाश्च मत्तमातङ्गास्तोमराङ्कुशचोदिताः<br>ग्रामणीयैः समारूढाः कुशलैर्हस्तिसादिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.५</sup>तेषां समागमो घोरस्तुमुलो लोमहर्षणः<br>देवासुरसमो राजन्नासीत्सूर्ये विलम्बति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.६</sup>उदतिष्ठद्रजो भौमं न प्रज्ञायत किंचन<br>पक्षिणश्चापतन्भूमौ सैन्येन रजसावृताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.७</sup>इषुभिर्व्यतिसंयद्भिरादित्योऽन्तरधीयत<br>खद्योतैरिव संयुक्तमन्तरिक्षं व्यराजत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.८</sup>रुक्मपृष्ठानि चापानि व्यतिषक्तानि धन्विनाम्<br>पततां लोकवीराणां सव्यदक्षिणमस्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.९</sup>रथा रथैः समाजग्मुः पादातैश्च पदातयः<br>सादिभिः सादिनश्चैव गजैश्चापि महागजाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१०</sup>असिभिः पट्टिशैः प्रासैः शक्तिभिस्तोमरैरपि<br>संरब्धाः समरे राजन्निजघ्नुरितरेतरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.११</sup>निघ्नन्तः समरेऽन्योन्यं शूराः परिघबाहवः<br>न शेकुरभिसंरब्धाः शूरान्कर्तुं पराङ्मुखान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१२</sup>कॢप्तोत्तरोष्ठं सुनसं कॢप्तकेशमलंकृतम्<br>अदृश्यत शिरश्छिन्नं रजोध्वस्तं सकुण्डलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१३</sup>अदृश्यंस्तत्र गात्राणि शरैश्छिन्नानि भागशः<br>शालस्कन्धनिकाशानि क्षत्रियाणां महामृधे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१४</sup>नागभोगनिकाशैश्च बाहुभिश्चन्दनोक्षितैः<br>आकीर्णा वसुधा तत्र शिरोभिश्च सकुण्डलैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१५</sup>उपशाम्यद्रजो भौमं रुधिरेण प्रसर्पता<br>कश्मलं प्राविशद्घोरं निर्मर्यादमवर्तत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१६</sup>शतानीकः शतं हत्वा विशालाक्षश्चतुःशतम्<br>प्रविष्टौ महतीं सेनां त्रिगर्तानां महारथौ<br>आर्च्छेतां बहुसंरब्धौ केशाकेशि नखानखि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१७</sup>लक्षयित्वा त्रिगर्तानां तौ प्रविष्टौ रथव्रजम्<br>जग्मतुः सूर्यदत्तश्च मदिराश्वश्च पृष्ठतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१८</sup>विराटस्तत्र संग्रामे हत्वा पञ्चशतान्रथान्<br>हयानां च शतान्यत्र हत्वा पञ्च महारथान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.१९</sup>चरन्स विविधान्मार्गान्रथेषु रथयूथपः<br>त्रिगर्तानां सुशर्माणमार्च्छद्रुक्मरथं रणे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२०</sup>तौ व्यावहरतां तत्र महात्मानौ महाबलौ<br>अन्योन्यमभिगर्जन्तौ गोष्ठे गोवृषभाविव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२१</sup>ततो रथाभ्यां रथिनौ व्यतियाय समन्ततः<br>शरान्व्यसृजतां शीघ्रं तोयधारा घनाविव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२२</sup>अन्योन्यं चातिसंरब्धौ विचेरतुरमर्षणौ<br>कृतास्त्रौ निशितैर्बाणैरसिशक्तिगदाभृतौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२३</sup>ततो राजा सुशर्माणं विव्याध दशभिः शरैः<br>पञ्चभिः पञ्चभिश्चास्य विव्याध चतुरो हयान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२४</sup>तथैव मत्स्यराजानं सुशर्मा युद्धदुर्मदः<br>पञ्चाशता शितैर्बाणैर्विव्याध परमास्त्रवित्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">४.३१.२५</sup>ततः सैन्यं समावृत्य मत्स्यराजसुशर्मणोः<br>नाभ्यजानंस्तदान्योन्यं प्रदोषे रजसावृते
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -156,8 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

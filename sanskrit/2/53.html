@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/2/52.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>२:५३</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/2/54.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,154 +64,119 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/2/52.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">२:५३</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/2/54.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१</sup>शकुनिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२</sup>उपस्तीर्णा सभा राजन्रन्तुं चैते कृतक्षणाः<br>अक्षानुप्त्वा देवनस्य समयोऽस्तु युधिष्ठिर
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.४</sup>निकृतिर्देवनं पापं न क्षात्रोऽत्र पराक्रमः<br>न च नीतिर्ध्रुवा राजन्किं त्वं द्यूतं प्रशंससि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.५</sup>न हि मानं प्रशंसन्ति निकृतौ कितवस्य ह<br>शकुने मैव नो जैषीरमार्गेण नृशंसवत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.६</sup>शकुनिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.७</sup>योऽन्वेति संख्यां निकृतौ विधिज्ञ;श्चेष्टास्वखिन्नः कितवोऽक्षजासु<br>महामतिर्यश्च जानाति द्यूतं; स वै सर्वं सहते प्रक्रियासु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.८</sup>अक्षग्लहः सोऽभिभवेत्परं न;स्तेनैव कालो भवतीदमात्थ<br>दीव्यामहे पार्थिव मा विशङ्कां; कुरुष्व पाणं च चिरं च मा कृथाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.९</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१०</sup>एवमाहायमसितो देवलो मुनिसत्तमः<br>इमानि लोकद्वाराणि यो वै संचरते सदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.११</sup>इदं वै देवनं पापं मायया कितवैः सह<br>धर्मेण तु जयो युद्धे तत्परं साधु देवनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१२</sup>नार्या म्लेच्छन्ति भाषाभिर्मायया न चरन्त्युत<br>अजिह्ममशठं युद्धमेतत्सत्पुरुषव्रतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१३</sup>शक्तितो ब्राह्मणान्वन्द्याञ्शिक्षितुं प्रयतामहे<br>तद्वै वित्तं मातिदेवीर्मा जैषीः शकुने परम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१४</sup>नाहं निकृत्या कामये सुखान्युत धनानि वा<br>कितवस्याप्यनिकृतेर्वृत्तमेतन्न पूज्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१५</sup>शकुनिरुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१६</sup>श्रोत्रियोऽश्रोत्रियमुत निकृत्यैव युधिष्ठिर<br>विद्वानविदुषोऽभ्येति नाहुस्तां निकृतिं जनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१७</sup>एवं त्वं मामिहाभ्येत्य निकृतिं यदि मन्यसे<br>देवनाद्विनिवर्तस्व यदि ते विद्यते भयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१८</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.१९</sup>आहूतो न निवर्तेयमिति मे व्रतमाहितम्<br>विधिश्च बलवान्राजन्दिष्टस्यास्मि वशे स्थितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२०</sup>अस्मिन्समागमे केन देवनं मे भविष्यति<br>प्रतिपाणश्च कोऽन्योऽस्ति ततो द्यूतं प्रवर्तताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२१</sup>दुर्योधन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२२</sup>अहं दातास्मि रत्नानां धनानां च विशां पते<br>मदर्थे देविता चायं शकुनिर्मातुलो मम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२३</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२४</sup>अन्येनान्यस्य विषमं देवनं प्रतिभाति मे<br>एतद्विद्वन्नुपादत्स्व काममेवं प्रवर्तताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२५</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२६</sup>उपोह्यमाने द्यूते तु राजानः सर्व एव ते<br>धृतराष्ट्रं पुरस्कृत्य विविशुस्तां सभां ततः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२७</sup>भीष्मो द्रोणः कृपश्चैव विदुरश्च महामतिः<br>नातीवप्रीतमनसस्तेऽन्ववर्तन्त भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२८</sup>ते द्वंद्वशः पृथक्चैव सिंहग्रीवा महौजसः<br>सिंहासनानि भूरीणि विचित्राणि च भेजिरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.२९</sup>शुशुभे सा सभा राजन्राजभिस्तैः समागतैः<br>देवैरिव महाभागैः समवेतैस्त्रिविष्टपम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३०</sup>सर्वे वेदविदः शूराः सर्वे भास्वरमूर्तयः<br>प्रावर्तत महाराज सुहृद्द्यूतमनन्तरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३१</sup>युधिष्ठिर उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३२</sup>अयं बहुधनो राजन्सागरावर्तसंभवः<br>मणिर्हारोत्तरः श्रीमान्कनकोत्तमभूषणः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३३</sup>एतद्राजन्धनं मह्यं प्रतिपाणस्तु कस्तव<br>भवत्वेष क्रमस्तात जयाम्येनं दुरोदरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३४</sup>दुर्योधन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३५</sup>सन्ति मे मणयश्चैव धनानि विविधानि च<br>मत्सरश्च न मेऽर्थेषु जयाम्येनं दुरोदरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३६</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">२.५३.३७</sup>ततो जग्राह शकुनिस्तानक्षानक्षतत्त्ववित्<br>जितमित्येव शकुनिर्युधिष्ठिरमभाषत
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१</sup>शकुनिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२</sup>उपस्तीर्णा सभा राजन्रन्तुं चैते कृतक्षणाः<br>अक्षानुप्त्वा देवनस्य समयोऽस्तु युधिष्ठिर
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.४</sup>निकृतिर्देवनं पापं न क्षात्रोऽत्र पराक्रमः<br>न च नीतिर्ध्रुवा राजन्किं त्वं द्यूतं प्रशंससि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.५</sup>न हि मानं प्रशंसन्ति निकृतौ कितवस्य ह<br>शकुने मैव नो जैषीरमार्गेण नृशंसवत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.६</sup>शकुनिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.७</sup>योऽन्वेति संख्यां निकृतौ विधिज्ञ;श्चेष्टास्वखिन्नः कितवोऽक्षजासु<br>महामतिर्यश्च जानाति द्यूतं; स वै सर्वं सहते प्रक्रियासु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.८</sup>अक्षग्लहः सोऽभिभवेत्परं न;स्तेनैव कालो भवतीदमात्थ<br>दीव्यामहे पार्थिव मा विशङ्कां; कुरुष्व पाणं च चिरं च मा कृथाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.९</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१०</sup>एवमाहायमसितो देवलो मुनिसत्तमः<br>इमानि लोकद्वाराणि यो वै संचरते सदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.११</sup>इदं वै देवनं पापं मायया कितवैः सह<br>धर्मेण तु जयो युद्धे तत्परं साधु देवनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१२</sup>नार्या म्लेच्छन्ति भाषाभिर्मायया न चरन्त्युत<br>अजिह्ममशठं युद्धमेतत्सत्पुरुषव्रतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१३</sup>शक्तितो ब्राह्मणान्वन्द्याञ्शिक्षितुं प्रयतामहे<br>तद्वै वित्तं मातिदेवीर्मा जैषीः शकुने परम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१४</sup>नाहं निकृत्या कामये सुखान्युत धनानि वा<br>कितवस्याप्यनिकृतेर्वृत्तमेतन्न पूज्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१५</sup>शकुनिरुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१६</sup>श्रोत्रियोऽश्रोत्रियमुत निकृत्यैव युधिष्ठिर<br>विद्वानविदुषोऽभ्येति नाहुस्तां निकृतिं जनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१७</sup>एवं त्वं मामिहाभ्येत्य निकृतिं यदि मन्यसे<br>देवनाद्विनिवर्तस्व यदि ते विद्यते भयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१८</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.१९</sup>आहूतो न निवर्तेयमिति मे व्रतमाहितम्<br>विधिश्च बलवान्राजन्दिष्टस्यास्मि वशे स्थितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२०</sup>अस्मिन्समागमे केन देवनं मे भविष्यति<br>प्रतिपाणश्च कोऽन्योऽस्ति ततो द्यूतं प्रवर्तताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२१</sup>दुर्योधन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२२</sup>अहं दातास्मि रत्नानां धनानां च विशां पते<br>मदर्थे देविता चायं शकुनिर्मातुलो मम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२३</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२४</sup>अन्येनान्यस्य विषमं देवनं प्रतिभाति मे<br>एतद्विद्वन्नुपादत्स्व काममेवं प्रवर्तताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२५</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२६</sup>उपोह्यमाने द्यूते तु राजानः सर्व एव ते<br>धृतराष्ट्रं पुरस्कृत्य विविशुस्तां सभां ततः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२७</sup>भीष्मो द्रोणः कृपश्चैव विदुरश्च महामतिः<br>नातीवप्रीतमनसस्तेऽन्ववर्तन्त भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२८</sup>ते द्वंद्वशः पृथक्चैव सिंहग्रीवा महौजसः<br>सिंहासनानि भूरीणि विचित्राणि च भेजिरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.२९</sup>शुशुभे सा सभा राजन्राजभिस्तैः समागतैः<br>देवैरिव महाभागैः समवेतैस्त्रिविष्टपम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३०</sup>सर्वे वेदविदः शूराः सर्वे भास्वरमूर्तयः<br>प्रावर्तत महाराज सुहृद्द्यूतमनन्तरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३१</sup>युधिष्ठिर उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३२</sup>अयं बहुधनो राजन्सागरावर्तसंभवः<br>मणिर्हारोत्तरः श्रीमान्कनकोत्तमभूषणः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३३</sup>एतद्राजन्धनं मह्यं प्रतिपाणस्तु कस्तव<br>भवत्वेष क्रमस्तात जयाम्येनं दुरोदरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३४</sup>दुर्योधन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३५</sup>सन्ति मे मणयश्चैव धनानि विविधानि च<br>मत्सरश्च न मेऽर्थेषु जयाम्येनं दुरोदरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३६</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">२.५३.३७</sup>ततो जग्राह शकुनिस्तानक्षानक्षतत्त्ववित्<br>जितमित्येव शकुनिर्युधिष्ठिरमभाषत
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -192,8 +185,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

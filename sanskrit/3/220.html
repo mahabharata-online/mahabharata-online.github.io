@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/3/219.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>३:२२०</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/3/221.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,136 +64,101 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/3/219.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">३:२२०</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/3/221.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२</sup>यदा स्कन्देन मातॄणामेवमेतत्प्रियं कृतम्<br>अथैनमब्रवीत्स्वाहा मम पुत्रस्त्वमौरसः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.३</sup>इच्छाम्यहं त्वया दत्तां प्रीतिं परमदुर्लभाम्<br>तामब्रवीत्ततः स्कन्दः प्रीतिमिच्छसि कीदृशीम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.४</sup>स्वाहोवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.५</sup>दक्षस्याहं प्रिया कन्या स्वाहा नाम महाभुज<br>बाल्यात्प्रभृति नित्यं च जातकामा हुताशने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.६</sup>न च मां कामिनीं पुत्र सम्यग्जानाति पावकः<br>इच्छामि शाश्वतं वासं वस्तुं पुत्र सहाग्निना
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.७</sup>स्कन्द उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.८</sup>हव्यं कव्यं च यत्किंचिद्द्विजा मन्त्रपुरस्कृतम्<br>होष्यन्त्यग्नौ सदा देवि स्वाहेत्युक्त्वा समुद्यतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.९</sup>अद्य प्रभृति दास्यन्ति सुवृत्ताः सत्पथे स्थिताः<br>एवमग्निस्त्वया सार्धं सदा वत्स्यति शोभने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१०</sup>मार्कण्डेय उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.११</sup>एवमुक्ता ततः स्वाहा तुष्टा स्कन्देन पूजिता<br>पावकेन समायुक्ता भर्त्रा स्कन्दमपूजयत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१२</sup>ततो ब्रह्मा महासेनं प्रजापतिरथाब्रवीत्<br>अभिगच्छ महादेवं पितरं त्रिपुरार्दनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१३</sup>रुद्रेणाग्निं समाविश्य स्वाहामाविश्य चोमया<br>हितार्थं सर्वलोकानां जातस्त्वमपराजितः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१४</sup>उमायोन्यां च रुद्रेण शुक्रं सिक्तं महात्मना<br>आस्ते गिरौ निपतितं मिञ्जिकामिञ्जिकं यतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१५</sup>संभूतं लोहितोदे तु शुक्रशेषमवापतत्<br>सूर्यरश्मिषु चाप्यन्यदन्यच्चैवापतद्भुवि<br>आसक्तमन्यद्वृक्षेषु तदेवं पञ्चधापतत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१६</sup>त एते विविधाकारा गणा ज्ञेया मनीषिभिः<br>तव पारिषदा घोरा य एते पिशिताशनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१७</sup>एवमस्त्विति चाप्युक्त्वा महासेनो महेश्वरम्<br>अपूजयदमेयात्मा पितरं पितृवत्सलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१८</sup>अर्कपुष्पैस्तु ते पञ्च गणाः पूज्या धनार्थिभिः<br>व्याधिप्रशमनार्थं च तेषां पूजां समाचरेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.१९</sup>मिञ्जिकामिञ्जिकं चैव मिथुनं रुद्रसंभवम्<br>नमस्कार्यं सदैवेह बालानां हितमिच्छता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२०</sup>स्त्रियो मानुषमांसादा वृद्धिका नाम नामतः<br>वृक्षेषु जातास्ता देव्यो नमस्कार्याः प्रजार्थिभिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२१</sup>एवमेते पिशाचानामसंख्येया गणाः स्मृताः<br>घण्टायाः सपताकायाः शृणु मे संभवं नृप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२२</sup>ऐरावतस्य घण्टे द्वे वैजयन्त्याविति श्रुते<br>गुहस्य ते स्वयं दत्ते शक्रेणानाय्य धीमता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२३</sup>एका तत्र विशाखस्य घण्टा स्कन्दस्य चापरा<br>पताका कार्त्तिकेयस्य विशाखस्य च लोहिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२४</sup>यानि क्रीडनकान्यस्य देवैर्दत्तानि वै तदा<br>तैरेव रमते देवो महासेनो महाबलः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२५</sup>स संवृतः पिशाचानां गणैर्देवगणैस्तथा<br>शुशुभे काञ्चने शैले दीप्यमानः श्रिया वृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२६</sup>तेन वीरेण शुशुभे स शैलः शुभकाननः<br>आदित्येनेवांशुमता मन्दरश्चारुकन्दरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२७</sup>संतानकवनैः फुल्लैः करवीरवनैरपि<br>पारिजातवनैश्चैव जपाशोकवनैस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२८</sup>कदम्बतरुषण्डैश्च दिव्यैर्मृगगणैरपि<br>दिव्यैः पक्षिगणैश्चैव शुशुभे श्वेतपर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.२९</sup>तत्र देवगणाः सर्वे सर्वे चैव महर्षयः<br>मेघतूर्यरवाश्चैव क्षुब्धोदधिसमस्वनाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.३०</sup>तत्र दिव्याश्च गन्धर्वा नृत्यन्त्यप्सरसस्तथा<br>हृष्टानां तत्र भूतानां श्रूयते निनदो महान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">३.२२०.३१</sup>एवं सेन्द्रं जगत्सर्वं श्वेतपर्वतसंस्थितम्<br>प्रहृष्टं प्रेक्षते स्कन्दं न च ग्लायति दर्शनात्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२</sup>यदा स्कन्देन मातॄणामेवमेतत्प्रियं कृतम्<br>अथैनमब्रवीत्स्वाहा मम पुत्रस्त्वमौरसः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.३</sup>इच्छाम्यहं त्वया दत्तां प्रीतिं परमदुर्लभाम्<br>तामब्रवीत्ततः स्कन्दः प्रीतिमिच्छसि कीदृशीम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.४</sup>स्वाहोवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.५</sup>दक्षस्याहं प्रिया कन्या स्वाहा नाम महाभुज<br>बाल्यात्प्रभृति नित्यं च जातकामा हुताशने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.६</sup>न च मां कामिनीं पुत्र सम्यग्जानाति पावकः<br>इच्छामि शाश्वतं वासं वस्तुं पुत्र सहाग्निना
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.७</sup>स्कन्द उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.८</sup>हव्यं कव्यं च यत्किंचिद्द्विजा मन्त्रपुरस्कृतम्<br>होष्यन्त्यग्नौ सदा देवि स्वाहेत्युक्त्वा समुद्यतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.९</sup>अद्य प्रभृति दास्यन्ति सुवृत्ताः सत्पथे स्थिताः<br>एवमग्निस्त्वया सार्धं सदा वत्स्यति शोभने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१०</sup>मार्कण्डेय उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.११</sup>एवमुक्ता ततः स्वाहा तुष्टा स्कन्देन पूजिता<br>पावकेन समायुक्ता भर्त्रा स्कन्दमपूजयत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१२</sup>ततो ब्रह्मा महासेनं प्रजापतिरथाब्रवीत्<br>अभिगच्छ महादेवं पितरं त्रिपुरार्दनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१३</sup>रुद्रेणाग्निं समाविश्य स्वाहामाविश्य चोमया<br>हितार्थं सर्वलोकानां जातस्त्वमपराजितः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१४</sup>उमायोन्यां च रुद्रेण शुक्रं सिक्तं महात्मना<br>आस्ते गिरौ निपतितं मिञ्जिकामिञ्जिकं यतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१५</sup>संभूतं लोहितोदे तु शुक्रशेषमवापतत्<br>सूर्यरश्मिषु चाप्यन्यदन्यच्चैवापतद्भुवि<br>आसक्तमन्यद्वृक्षेषु तदेवं पञ्चधापतत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१६</sup>त एते विविधाकारा गणा ज्ञेया मनीषिभिः<br>तव पारिषदा घोरा य एते पिशिताशनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१७</sup>एवमस्त्विति चाप्युक्त्वा महासेनो महेश्वरम्<br>अपूजयदमेयात्मा पितरं पितृवत्सलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१८</sup>अर्कपुष्पैस्तु ते पञ्च गणाः पूज्या धनार्थिभिः<br>व्याधिप्रशमनार्थं च तेषां पूजां समाचरेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.१९</sup>मिञ्जिकामिञ्जिकं चैव मिथुनं रुद्रसंभवम्<br>नमस्कार्यं सदैवेह बालानां हितमिच्छता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२०</sup>स्त्रियो मानुषमांसादा वृद्धिका नाम नामतः<br>वृक्षेषु जातास्ता देव्यो नमस्कार्याः प्रजार्थिभिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२१</sup>एवमेते पिशाचानामसंख्येया गणाः स्मृताः<br>घण्टायाः सपताकायाः शृणु मे संभवं नृप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२२</sup>ऐरावतस्य घण्टे द्वे वैजयन्त्याविति श्रुते<br>गुहस्य ते स्वयं दत्ते शक्रेणानाय्य धीमता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२३</sup>एका तत्र विशाखस्य घण्टा स्कन्दस्य चापरा<br>पताका कार्त्तिकेयस्य विशाखस्य च लोहिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२४</sup>यानि क्रीडनकान्यस्य देवैर्दत्तानि वै तदा<br>तैरेव रमते देवो महासेनो महाबलः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२५</sup>स संवृतः पिशाचानां गणैर्देवगणैस्तथा<br>शुशुभे काञ्चने शैले दीप्यमानः श्रिया वृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२६</sup>तेन वीरेण शुशुभे स शैलः शुभकाननः<br>आदित्येनेवांशुमता मन्दरश्चारुकन्दरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२७</sup>संतानकवनैः फुल्लैः करवीरवनैरपि<br>पारिजातवनैश्चैव जपाशोकवनैस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२८</sup>कदम्बतरुषण्डैश्च दिव्यैर्मृगगणैरपि<br>दिव्यैः पक्षिगणैश्चैव शुशुभे श्वेतपर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.२९</sup>तत्र देवगणाः सर्वे सर्वे चैव महर्षयः<br>मेघतूर्यरवाश्चैव क्षुब्धोदधिसमस्वनाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.३०</sup>तत्र दिव्याश्च गन्धर्वा नृत्यन्त्यप्सरसस्तथा<br>हृष्टानां तत्र भूतानां श्रूयते निनदो महान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">३.२२०.३१</sup>एवं सेन्द्रं जगत्सर्वं श्वेतपर्वतसंस्थितम्<br>प्रहृष्टं प्रेक्षते स्कन्दं न च ग्लायति दर्शनात्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -174,8 +167,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

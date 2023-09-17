@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/80.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:८१</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/82.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,268 +64,233 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/80.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:८१</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/82.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२</sup>कुरूणामद्य सर्वेषां भवान्सुहृदनुत्तमः<br>संबन्धी दयितो नित्यमुभयोः पक्षयोरपि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३</sup>पाण्डवैर्धार्तराष्ट्राणां प्रतिपाद्यमनामयम्<br>समर्थः प्रशमं चैषां कर्तुं त्वमसि केशव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४</sup>त्वमितः पुण्डरीकाक्ष सुयोधनममर्षणम्<br>शान्त्यर्थं भारतं ब्रूया यत्तद्वाच्यममित्रहन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५</sup>त्वया धर्मार्थयुक्तं चेदुक्तं शिवमनामयम्<br>हितं नादास्यते बालो दिष्टस्य वशमेष्यति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६</sup>भगवानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७</sup>धर्म्यमस्मद्धितं चैव कुरूणां यदनामयम्<br>एष यास्यामि राजानं धृतराष्ट्रमभीप्सया
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.८</sup>वैशंपायन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.९</sup>ततो व्यपेते तमसि सूर्ये विमल उद्गते<br>मैत्रे मुहूर्ते संप्राप्ते मृद्वर्चिषि दिवाकरे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१०</sup>कौमुदे मासि रेवत्यां शरदन्ते हिमागमे<br>स्फीतसस्यसुखे काले कल्यः सत्त्ववतां वरः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.११</sup>मङ्गल्याः पुण्यनिर्घोषा वाचः शृण्वंश्च सूनृताः<br>ब्राह्मणानां प्रतीतानामृषीणामिव वासवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१२</sup>कृत्वा पौर्वाह्णिकं कृत्यं स्नातः शुचिरलंकृतः<br>उपतस्थे विवस्वन्तं पावकं च जनार्दनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१३</sup>ऋषभं पृष्ठ आलभ्य ब्राह्मणानभिवाद्य च<br>अग्निं प्रदक्षिणं कृत्वा पश्यन्कल्याणमग्रतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१४</sup>तत्प्रतिज्ञाय वचनं पाण्डवस्य जनार्दनः<br>शिनेर्नप्तारमासीनमभ्यभाषत सात्यकिम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१५</sup>रथ आरोप्यतां शङ्खश्चक्रं च गदया सह<br>उपासङ्गाश्च शक्त्यश्च सर्वप्रहरणानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१६</sup>दुर्योधनो हि दुष्टात्मा कर्णश्च सहसौबलः<br>न च शत्रुरवज्ञेयः प्राकृतोऽपि बलीयसा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१७</sup>ततस्तन्मतमाज्ञाय केशवस्य पुरःसराः<br>प्रसस्रुर्योजयिष्यन्तो रथं चक्रगदाभृतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१८</sup>तं दीप्तमिव कालाग्निमाकाशगमिवाध्वगम्<br>चन्द्रसूर्यप्रकाशाभ्यां चक्राभ्यां समलंकृतम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.१९</sup>अर्धचन्द्रैश्च चन्द्रैश्च मत्स्यैः समृगपक्षिभिः<br>पुष्पैश्च विविधैश्चित्रं मणिरत्नैश्च सर्वशः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२०</sup>तरुणादित्यसंकाशं बृहन्तं चारुदर्शनम्<br>मणिहेमविचित्राङ्गं सुध्वजं सुपताकिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२१</sup>सूपस्करमनाधृष्यं वैयाघ्रपरिवारणम्<br>यशोघ्नं प्रत्यमित्राणां यदूनां नन्दिवर्धनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२२</sup>वाजिभिः सैन्यसुग्रीवमेघपुष्पबलाहकैः<br>स्नातैः संपादयां चक्रुः संपन्नैः सर्वसंपदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२३</sup>महिमानं तु कृष्णस्य भूय एवाभिवर्धयन्<br>सुघोषः पतगेन्द्रेण ध्वजेन युयुजे रथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२४</sup>तं मेरुशिखरप्रख्यं मेघदुन्दुभिनिस्वनम्<br>आरुरोह रथं शौरिर्विमानमिव पुण्यकृत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२५</sup>ततः सात्यकिमारोप्य प्रययौ पुरुषोत्तमः<br>पृथिवीं चान्तरिक्षं च रथघोषेण नादयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२६</sup>व्यपोढाभ्रघनः कालः क्षणेन समपद्यत<br>शिवश्चानुववौ वायुः प्रशान्तमभवद्रजः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२७</sup>प्रदक्षिणानुलोमाश्च मङ्गल्या मृगपक्षिणः<br>प्रयाणे वासुदेवस्य बभूवुरनुयायिनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२८</sup>मङ्गल्यार्थपदैः शब्दैरन्ववर्तन्त सर्वशः<br>सारसाः शतपत्राश्च हंसाश्च मधुसूदनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.२९</sup>मन्त्राहुतिमहाहोमैर्हूयमानश्च पावकः<br>प्रदक्षिणशिखो भूत्वा विधूमः समपद्यत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३०</sup>वसिष्ठो वामदेवश्च भूरिद्युम्नो गयः क्रथः<br>शुक्रनारदवाल्मीका मरुतः कुशिको भृगुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३१</sup>ब्रह्मदेवर्षयश्चैव कृष्णं यदुसुखावहम्<br>प्रदक्षिणमवर्तन्त सहिता वासवानुजम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३२</sup>एवमेतैर्महाभागैर्महर्षिगणसाधुभिः<br>पूजितः प्रययौ कृष्णः कुरूणां सदनं प्रति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३३</sup>तं प्रयान्तमनुप्रायात्कुन्तीपुत्रो युधिष्ठिरः<br>भीमसेनार्जुनौ चोभौ माद्रीपुत्रौ च पाण्डवौ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३४</sup>चेकितानश्च विक्रान्तो धृष्टकेतुश्च चेदिपः<br>द्रुपदः काशिराजश्च शिखण्डी च महारथः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३५</sup>धृष्टद्युम्नः सपुत्रश्च विराटः केकयैः सह<br>संसाधनार्थं प्रययुः क्षत्रियाः क्षत्रियर्षभम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३६</sup>ततोऽनुव्रज्य गोविन्दं धर्मराजो युधिष्ठिरः<br>राज्ञां सकाशे द्युतिमानुवाचेदं वचस्तदा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३७</sup>यो नैव कामान्न भयान्न लोभान्नार्थकारणात्<br>अन्यायमनुवर्तेत स्थिरबुद्धिरलोलुपः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३८</sup>धर्मज्ञो धृतिमान्प्राज्ञः सर्वभूतेषु केशवः<br>ईश्वरः सर्वभूतानां देवदेवः प्रतापवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.३९</sup>तं सर्वगुणसंपन्नं श्रीवत्सकृतलक्षणम्<br>संपरिष्वज्य कौन्तेयः संदेष्टुमुपचक्रमे
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४०</sup>या सा बाल्यात्प्रभृत्यस्मान्पर्यवर्धयताबला<br>उपवासतपःशीला सदा स्वस्त्ययने रता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४१</sup>देवतातिथिपूजासु गुरुशुश्रूषणे रता<br>वत्सला प्रियपुत्रा च प्रियास्माकं जनार्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४२</sup>सुयोधनभयाद्या नोऽत्रायतामित्रकर्शन<br>महतो मृत्युसंबाधादुत्तरन्नौरिवार्णवात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४३</sup>अस्मत्कृते च सततं यया दुःखानि माधव<br>अनुभूतान्यदुःखार्हा तां स्म पृच्छेरनामयम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४४</sup>भृशमाश्वासयेश्चैनां पुत्रशोकपरिप्लुताम्<br>अभिवाद्य स्वजेथाश्च पाण्डवान्परिकीर्तयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४५</sup>ऊढात्प्रभृति दुःखानि श्वशुराणामरिंदम<br>निकारानतदर्हा च पश्यन्ती दुःखमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४६</sup>अपि जातु स कालः स्यात्कृष्ण दुःखविपर्ययः<br>यदहं मातरं क्लिष्टां सुखे दध्यामरिंदम
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४७</sup>प्रव्रजन्तोऽन्वधावत्सा कृपणा पुत्रगृद्धिनी<br>रुदतीमपहायैनामुपगच्छाम यद्वनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४८</sup>न नूनं म्रियते दुःखैः सा चेज्जीवति केशव<br>तथा पुत्राधिभिर्गाढमार्ता ह्यानर्तसत्कृता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.४९</sup>अभिवाद्या तु सा कृष्ण त्वया मद्वचनाद्विभो<br>धृतराष्ट्रश्च कौरव्यो राजानश्च वयोऽधिकाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५०</sup>भीष्मं द्रोणं कृपं चैव महाराजं च बाह्लिकम्<br>द्रौणिं च सोमदत्तं च सर्वांश्च भरतान्पृथक्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५१</sup>विदुरं च महाप्राज्ञं कुरूणां मन्त्रधारिणम्<br>अगाधबुद्धिं धर्मज्ञं स्वजेथा मधुसूदन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५२</sup>इत्युक्त्वा केशवं तत्र राजमध्ये युधिष्ठिरः<br>अनुज्ञातो निववृते कृष्णं कृत्वा प्रदक्षिणम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५३</sup>व्रजन्नेव तु बीभत्सुः सखायं पुरुषर्षभम्<br>अब्रवीत्परवीरघ्नं दाशार्हमपराजितम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५४</sup>यदस्माकं विभो वृत्तं पुरा वै मन्त्रनिश्चये<br>अर्धराज्यस्य गोविन्द विदितं सर्वराजसु
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५५</sup>तच्चेद्दद्यादसङ्गेन सत्कृत्यानवमन्य च<br>प्रियं मे स्यान्महाबाहो मुच्येरन्महतो भयात्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५६</sup>अतश्चेदन्यथा कर्ता धार्तराष्ट्रोऽनुपायवित्<br>अन्तं नूनं करिष्यामि क्षत्रियाणां जनार्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५७</sup>एवमुक्ते पाण्डवेन पर्यहृष्यद्वृकोदरः<br>मुहुर्मुहुः क्रोधवशात्प्रावेपत च पाण्डवः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५८</sup>वेपमानश्च कौन्तेयः प्राक्रोशन्महतो रवान्<br>धनंजयवचः श्रुत्वा हर्षोत्सिक्तमना भृशम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.५९</sup>तस्य तं निनदं श्रुत्वा संप्रावेपन्त धन्विनः<br>वाहनानि च सर्वाणि शकृन्मूत्रं प्रसुस्रुवुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६०</sup>इत्युक्त्वा केशवं तत्र तथा चोक्त्वा विनिश्चयम्<br>अनुज्ञातो निववृते परिष्वज्य जनार्दनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६१</sup>तेषु राजसु सर्वेषु निवृत्तेषु जनार्दनः<br>तूर्णमभ्यपतद्धृष्टः सैन्यसुग्रीववाहनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६२</sup>ते हया वासुदेवस्य दारुकेण प्रचोदिताः<br>पन्थानमाचेमुरिव ग्रसमाना इवाम्बरम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६३</sup>अथापश्यन्महाबाहुरृषीनध्वनि केशवः<br>ब्राह्म्या श्रिया दीप्यमानान्स्थितानुभयतः पथि
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६४</sup>सोऽवतीर्य रथात्तूर्णमभिवाद्य जनार्दनः<br>यथावत्तानृषीन्सर्वानभ्यभाषत पूजयन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६५</sup>कच्चिल्लोकेषु कुशलं कच्चिद्धर्मः स्वनुष्ठितः<br>ब्राह्मणानां त्रयो वर्णाः कच्चित्तिष्ठन्ति शासने
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६६</sup>तेभ्यः प्रयुज्य तां पूजां प्रोवाच मधुसूदनः<br>भगवन्तः क्व संसिद्धाः का वीथी भवतामिह
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६७</sup>किं वा भगवतां कार्यमहं किं करवाणि वः<br>केनार्थेनोपसंप्राप्ता भगवन्तो महीतलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६८</sup>तमब्रवीज्जामदग्न्य उपेत्य मधुसूदनम्<br>परिष्वज्य च गोविन्दं पुरा सुचरिते सखा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.६९</sup>देवर्षयः पुण्यकृतो ब्राह्मणाश्च बहुश्रुताः<br>राजर्षयश्च दाशार्ह मानयन्तस्तपस्विनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७०</sup>देवासुरस्य द्रष्टारः पुराणस्य महाद्युते<br>समेतं पार्थिवं क्षत्रं दिदृक्षन्तश्च सर्वतः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७१</sup>सभासदश्च राजानस्त्वां च सत्यं जनार्दन<br>एतन्महत्प्रेक्षणीयं द्रष्टुं गच्छाम केशव
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७२</sup>धर्मार्थसहिता वाचः श्रोतुमिच्छाम माधव<br>त्वयोच्यमानाः कुरुषु राजमध्ये परंतप
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७३</sup>भीष्मद्रोणादयश्चैव विदुरश्च महामतिः<br>त्वं च यादवशार्दूल सभायां वै समेष्यथ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७४</sup>तव वाक्यानि दिव्यानि तत्र तेषां च माधव<br>श्रोतुमिच्छाम गोविन्द सत्यानि च शुभानि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.८१.७५</sup>आपृष्टोऽसि महाबाहो पुनर्द्रक्ष्यामहे वयम्<br>याह्यविघ्नेन वै वीर द्रक्ष्यामस्त्वां सभागतम्
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२</sup>कुरूणामद्य सर्वेषां भवान्सुहृदनुत्तमः<br>संबन्धी दयितो नित्यमुभयोः पक्षयोरपि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३</sup>पाण्डवैर्धार्तराष्ट्राणां प्रतिपाद्यमनामयम्<br>समर्थः प्रशमं चैषां कर्तुं त्वमसि केशव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४</sup>त्वमितः पुण्डरीकाक्ष सुयोधनममर्षणम्<br>शान्त्यर्थं भारतं ब्रूया यत्तद्वाच्यममित्रहन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५</sup>त्वया धर्मार्थयुक्तं चेदुक्तं शिवमनामयम्<br>हितं नादास्यते बालो दिष्टस्य वशमेष्यति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६</sup>भगवानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७</sup>धर्म्यमस्मद्धितं चैव कुरूणां यदनामयम्<br>एष यास्यामि राजानं धृतराष्ट्रमभीप्सया
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.८</sup>वैशंपायन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.९</sup>ततो व्यपेते तमसि सूर्ये विमल उद्गते<br>मैत्रे मुहूर्ते संप्राप्ते मृद्वर्चिषि दिवाकरे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१०</sup>कौमुदे मासि रेवत्यां शरदन्ते हिमागमे<br>स्फीतसस्यसुखे काले कल्यः सत्त्ववतां वरः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.११</sup>मङ्गल्याः पुण्यनिर्घोषा वाचः शृण्वंश्च सूनृताः<br>ब्राह्मणानां प्रतीतानामृषीणामिव वासवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१२</sup>कृत्वा पौर्वाह्णिकं कृत्यं स्नातः शुचिरलंकृतः<br>उपतस्थे विवस्वन्तं पावकं च जनार्दनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१३</sup>ऋषभं पृष्ठ आलभ्य ब्राह्मणानभिवाद्य च<br>अग्निं प्रदक्षिणं कृत्वा पश्यन्कल्याणमग्रतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१४</sup>तत्प्रतिज्ञाय वचनं पाण्डवस्य जनार्दनः<br>शिनेर्नप्तारमासीनमभ्यभाषत सात्यकिम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१५</sup>रथ आरोप्यतां शङ्खश्चक्रं च गदया सह<br>उपासङ्गाश्च शक्त्यश्च सर्वप्रहरणानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१६</sup>दुर्योधनो हि दुष्टात्मा कर्णश्च सहसौबलः<br>न च शत्रुरवज्ञेयः प्राकृतोऽपि बलीयसा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१७</sup>ततस्तन्मतमाज्ञाय केशवस्य पुरःसराः<br>प्रसस्रुर्योजयिष्यन्तो रथं चक्रगदाभृतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१८</sup>तं दीप्तमिव कालाग्निमाकाशगमिवाध्वगम्<br>चन्द्रसूर्यप्रकाशाभ्यां चक्राभ्यां समलंकृतम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.१९</sup>अर्धचन्द्रैश्च चन्द्रैश्च मत्स्यैः समृगपक्षिभिः<br>पुष्पैश्च विविधैश्चित्रं मणिरत्नैश्च सर्वशः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२०</sup>तरुणादित्यसंकाशं बृहन्तं चारुदर्शनम्<br>मणिहेमविचित्राङ्गं सुध्वजं सुपताकिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२१</sup>सूपस्करमनाधृष्यं वैयाघ्रपरिवारणम्<br>यशोघ्नं प्रत्यमित्राणां यदूनां नन्दिवर्धनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२२</sup>वाजिभिः सैन्यसुग्रीवमेघपुष्पबलाहकैः<br>स्नातैः संपादयां चक्रुः संपन्नैः सर्वसंपदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२३</sup>महिमानं तु कृष्णस्य भूय एवाभिवर्धयन्<br>सुघोषः पतगेन्द्रेण ध्वजेन युयुजे रथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२४</sup>तं मेरुशिखरप्रख्यं मेघदुन्दुभिनिस्वनम्<br>आरुरोह रथं शौरिर्विमानमिव पुण्यकृत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२५</sup>ततः सात्यकिमारोप्य प्रययौ पुरुषोत्तमः<br>पृथिवीं चान्तरिक्षं च रथघोषेण नादयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२६</sup>व्यपोढाभ्रघनः कालः क्षणेन समपद्यत<br>शिवश्चानुववौ वायुः प्रशान्तमभवद्रजः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२७</sup>प्रदक्षिणानुलोमाश्च मङ्गल्या मृगपक्षिणः<br>प्रयाणे वासुदेवस्य बभूवुरनुयायिनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२८</sup>मङ्गल्यार्थपदैः शब्दैरन्ववर्तन्त सर्वशः<br>सारसाः शतपत्राश्च हंसाश्च मधुसूदनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.२९</sup>मन्त्राहुतिमहाहोमैर्हूयमानश्च पावकः<br>प्रदक्षिणशिखो भूत्वा विधूमः समपद्यत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३०</sup>वसिष्ठो वामदेवश्च भूरिद्युम्नो गयः क्रथः<br>शुक्रनारदवाल्मीका मरुतः कुशिको भृगुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३१</sup>ब्रह्मदेवर्षयश्चैव कृष्णं यदुसुखावहम्<br>प्रदक्षिणमवर्तन्त सहिता वासवानुजम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३२</sup>एवमेतैर्महाभागैर्महर्षिगणसाधुभिः<br>पूजितः प्रययौ कृष्णः कुरूणां सदनं प्रति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३३</sup>तं प्रयान्तमनुप्रायात्कुन्तीपुत्रो युधिष्ठिरः<br>भीमसेनार्जुनौ चोभौ माद्रीपुत्रौ च पाण्डवौ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३४</sup>चेकितानश्च विक्रान्तो धृष्टकेतुश्च चेदिपः<br>द्रुपदः काशिराजश्च शिखण्डी च महारथः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३५</sup>धृष्टद्युम्नः सपुत्रश्च विराटः केकयैः सह<br>संसाधनार्थं प्रययुः क्षत्रियाः क्षत्रियर्षभम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३६</sup>ततोऽनुव्रज्य गोविन्दं धर्मराजो युधिष्ठिरः<br>राज्ञां सकाशे द्युतिमानुवाचेदं वचस्तदा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३७</sup>यो नैव कामान्न भयान्न लोभान्नार्थकारणात्<br>अन्यायमनुवर्तेत स्थिरबुद्धिरलोलुपः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३८</sup>धर्मज्ञो धृतिमान्प्राज्ञः सर्वभूतेषु केशवः<br>ईश्वरः सर्वभूतानां देवदेवः प्रतापवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.३९</sup>तं सर्वगुणसंपन्नं श्रीवत्सकृतलक्षणम्<br>संपरिष्वज्य कौन्तेयः संदेष्टुमुपचक्रमे
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४०</sup>या सा बाल्यात्प्रभृत्यस्मान्पर्यवर्धयताबला<br>उपवासतपःशीला सदा स्वस्त्ययने रता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४१</sup>देवतातिथिपूजासु गुरुशुश्रूषणे रता<br>वत्सला प्रियपुत्रा च प्रियास्माकं जनार्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४२</sup>सुयोधनभयाद्या नोऽत्रायतामित्रकर्शन<br>महतो मृत्युसंबाधादुत्तरन्नौरिवार्णवात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४३</sup>अस्मत्कृते च सततं यया दुःखानि माधव<br>अनुभूतान्यदुःखार्हा तां स्म पृच्छेरनामयम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४४</sup>भृशमाश्वासयेश्चैनां पुत्रशोकपरिप्लुताम्<br>अभिवाद्य स्वजेथाश्च पाण्डवान्परिकीर्तयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४५</sup>ऊढात्प्रभृति दुःखानि श्वशुराणामरिंदम<br>निकारानतदर्हा च पश्यन्ती दुःखमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४६</sup>अपि जातु स कालः स्यात्कृष्ण दुःखविपर्ययः<br>यदहं मातरं क्लिष्टां सुखे दध्यामरिंदम
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४७</sup>प्रव्रजन्तोऽन्वधावत्सा कृपणा पुत्रगृद्धिनी<br>रुदतीमपहायैनामुपगच्छाम यद्वनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४८</sup>न नूनं म्रियते दुःखैः सा चेज्जीवति केशव<br>तथा पुत्राधिभिर्गाढमार्ता ह्यानर्तसत्कृता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.४९</sup>अभिवाद्या तु सा कृष्ण त्वया मद्वचनाद्विभो<br>धृतराष्ट्रश्च कौरव्यो राजानश्च वयोऽधिकाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५०</sup>भीष्मं द्रोणं कृपं चैव महाराजं च बाह्लिकम्<br>द्रौणिं च सोमदत्तं च सर्वांश्च भरतान्पृथक्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५१</sup>विदुरं च महाप्राज्ञं कुरूणां मन्त्रधारिणम्<br>अगाधबुद्धिं धर्मज्ञं स्वजेथा मधुसूदन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५२</sup>इत्युक्त्वा केशवं तत्र राजमध्ये युधिष्ठिरः<br>अनुज्ञातो निववृते कृष्णं कृत्वा प्रदक्षिणम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५३</sup>व्रजन्नेव तु बीभत्सुः सखायं पुरुषर्षभम्<br>अब्रवीत्परवीरघ्नं दाशार्हमपराजितम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५४</sup>यदस्माकं विभो वृत्तं पुरा वै मन्त्रनिश्चये<br>अर्धराज्यस्य गोविन्द विदितं सर्वराजसु
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५५</sup>तच्चेद्दद्यादसङ्गेन सत्कृत्यानवमन्य च<br>प्रियं मे स्यान्महाबाहो मुच्येरन्महतो भयात्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५६</sup>अतश्चेदन्यथा कर्ता धार्तराष्ट्रोऽनुपायवित्<br>अन्तं नूनं करिष्यामि क्षत्रियाणां जनार्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५७</sup>एवमुक्ते पाण्डवेन पर्यहृष्यद्वृकोदरः<br>मुहुर्मुहुः क्रोधवशात्प्रावेपत च पाण्डवः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५८</sup>वेपमानश्च कौन्तेयः प्राक्रोशन्महतो रवान्<br>धनंजयवचः श्रुत्वा हर्षोत्सिक्तमना भृशम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.५९</sup>तस्य तं निनदं श्रुत्वा संप्रावेपन्त धन्विनः<br>वाहनानि च सर्वाणि शकृन्मूत्रं प्रसुस्रुवुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६०</sup>इत्युक्त्वा केशवं तत्र तथा चोक्त्वा विनिश्चयम्<br>अनुज्ञातो निववृते परिष्वज्य जनार्दनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६१</sup>तेषु राजसु सर्वेषु निवृत्तेषु जनार्दनः<br>तूर्णमभ्यपतद्धृष्टः सैन्यसुग्रीववाहनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६२</sup>ते हया वासुदेवस्य दारुकेण प्रचोदिताः<br>पन्थानमाचेमुरिव ग्रसमाना इवाम्बरम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६३</sup>अथापश्यन्महाबाहुरृषीनध्वनि केशवः<br>ब्राह्म्या श्रिया दीप्यमानान्स्थितानुभयतः पथि
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६४</sup>सोऽवतीर्य रथात्तूर्णमभिवाद्य जनार्दनः<br>यथावत्तानृषीन्सर्वानभ्यभाषत पूजयन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६५</sup>कच्चिल्लोकेषु कुशलं कच्चिद्धर्मः स्वनुष्ठितः<br>ब्राह्मणानां त्रयो वर्णाः कच्चित्तिष्ठन्ति शासने
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६६</sup>तेभ्यः प्रयुज्य तां पूजां प्रोवाच मधुसूदनः<br>भगवन्तः क्व संसिद्धाः का वीथी भवतामिह
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६७</sup>किं वा भगवतां कार्यमहं किं करवाणि वः<br>केनार्थेनोपसंप्राप्ता भगवन्तो महीतलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६८</sup>तमब्रवीज्जामदग्न्य उपेत्य मधुसूदनम्<br>परिष्वज्य च गोविन्दं पुरा सुचरिते सखा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.६९</sup>देवर्षयः पुण्यकृतो ब्राह्मणाश्च बहुश्रुताः<br>राजर्षयश्च दाशार्ह मानयन्तस्तपस्विनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७०</sup>देवासुरस्य द्रष्टारः पुराणस्य महाद्युते<br>समेतं पार्थिवं क्षत्रं दिदृक्षन्तश्च सर्वतः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७१</sup>सभासदश्च राजानस्त्वां च सत्यं जनार्दन<br>एतन्महत्प्रेक्षणीयं द्रष्टुं गच्छाम केशव
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७२</sup>धर्मार्थसहिता वाचः श्रोतुमिच्छाम माधव<br>त्वयोच्यमानाः कुरुषु राजमध्ये परंतप
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७३</sup>भीष्मद्रोणादयश्चैव विदुरश्च महामतिः<br>त्वं च यादवशार्दूल सभायां वै समेष्यथ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७४</sup>तव वाक्यानि दिव्यानि तत्र तेषां च माधव<br>श्रोतुमिच्छाम गोविन्द सत्यानि च शुभानि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.८१.७५</sup>आपृष्टोऽसि महाबाहो पुनर्द्रक्ष्यामहे वयम्<br>याह्यविघ्नेन वै वीर द्रक्ष्यामस्त्वां सभागतम्
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -306,8 +299,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

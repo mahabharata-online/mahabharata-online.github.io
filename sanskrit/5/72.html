@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/5/71.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>५:७२</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/5/73.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,115 +64,80 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/5/71.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">५:७२</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/5/73.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१</sup>भीमसेन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२</sup>यथा यथैव शान्तिः स्यात्कुरूणां मधुसूदन<br>तथा तथैव भाषेथा मा स्म युद्धेन भीषयेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.३</sup>अमर्षी नित्यसंरब्धः श्रेयोद्वेषी महामनाः<br>नोग्रं दुर्योधनो वाच्यः साम्नैवैनं समाचरेः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.४</sup>प्रकृत्या पापसत्त्वश्च तुल्यचेताश्च दस्युभिः<br>ऐश्वर्यमदमत्तश्च कृतवैरश्च पाण्डवैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.५</sup>अदीर्घदर्शी निष्ठूरी क्षेप्ता क्रूरपराक्रमः<br>दीर्घमन्युरनेयश्च पापात्मा निकृतिप्रियः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.६</sup>म्रियेतापि न भज्येत नैव जह्यात्स्वकं मतम्<br>तादृशेन शमं कृष्ण मन्ये परमदुष्करम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.७</sup>सुहृदामप्यवाचीनस्त्यक्तधर्मः प्रियानृतः<br>प्रतिहन्त्येव सुहृदां वाचश्चैव मनांसि च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.८</sup>स मन्युवशमापन्नः स्वभावं दुष्टमास्थितः<br>स्वभावात्पापमन्वेति तृणैस्तुन्न इवोरगः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.९</sup>दुर्योधनो हि यत्सेनः सर्वथा विदितस्तव<br>यच्छीलो यत्स्वभावश्च यद्बलो यत्पराक्रमः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१०</sup>पुरा प्रसन्नाः कुरवः सहपुत्रास्तथा वयम्<br>इन्द्रज्येष्ठा इवाभूम मोदमानाः सबान्धवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.११</sup>दुर्योधनस्य क्रोधेन भारता मधुसूदन<br>धक्ष्यन्ते शिशिरापाये वनानीव हुताशनैः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१२</sup>अष्टादशेमे राजानः प्रख्याता मधुसूदन<br>ये समुच्चिच्छिदुर्ज्ञातीन्सुहृदश्च सबान्धवान्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१३</sup>असुराणां समृद्धानां ज्वलतामिव तेजसा<br>पर्यायकाले धर्मस्य प्राप्ते बलिरजायत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१४</sup>हैहयानामुदावर्तो नीपानां जनमेजयः<br>बहुलस्तालजङ्घानां कृमीणामुद्धतो वसुः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१५</sup>अजबिन्दुः सुवीराणां सुराष्ट्राणां कुशर्द्धिकः<br>अर्कजश्च बलीहानां चीनानां धौतमूलकः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१६</sup>हयग्रीवो विदेहानां वरप्रश्च महौजसाम्<br>बाहुः सुन्दरवेगानां दीप्ताक्षाणां पुरूरवाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१७</sup>सहजश्चेदिमत्स्यानां प्रचेतानां बृहद्बलः<br>धारणश्चेन्द्रवत्सानां मुकुटानां विगाहनः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१८</sup>शमश्च नन्दिवेगानामित्येते कुलपांसनाः<br>युगान्ते कृष्ण संभूताः कुलेषु पुरुषाधमाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.१९</sup>अप्ययं नः कुरूणां स्याद्युगान्ते कालसंभृतः<br>दुर्योधनः कुलाङ्गारो जघन्यः पापपूरुषः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२०</sup>तस्मान्मृदु शनैरेनं ब्रूया धर्मार्थसंहितम्<br>कामानुबन्धबहुलं नोग्रमुग्रपराक्रमम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२१</sup>अपि दुर्योधनं कृष्ण सर्वे वयमधश्चराः<br>नीचैर्भूत्वानुयास्यामो मा स्म नो भरता नशन्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२२</sup>अप्युदासीनवृत्तिः स्याद्यथा नः कुरुभिः सह<br>वासुदेव तथा कार्यं न कुरूननयः स्पृशेत्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२३</sup>वाच्यः पितामहो वृद्धो ये च कृष्ण सभासदः<br>भ्रातॄणामस्तु सौभ्रात्रं धार्तराष्ट्रः प्रशाम्यताम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">५.७२.२४</sup>अहमेतद्ब्रवीम्येवं राजा चैव प्रशंसति<br>अर्जुनो नैव युद्धार्थी भूयसी हि दयार्जुने
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१</sup>भीमसेन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२</sup>यथा यथैव शान्तिः स्यात्कुरूणां मधुसूदन<br>तथा तथैव भाषेथा मा स्म युद्धेन भीषयेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.३</sup>अमर्षी नित्यसंरब्धः श्रेयोद्वेषी महामनाः<br>नोग्रं दुर्योधनो वाच्यः साम्नैवैनं समाचरेः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.४</sup>प्रकृत्या पापसत्त्वश्च तुल्यचेताश्च दस्युभिः<br>ऐश्वर्यमदमत्तश्च कृतवैरश्च पाण्डवैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.५</sup>अदीर्घदर्शी निष्ठूरी क्षेप्ता क्रूरपराक्रमः<br>दीर्घमन्युरनेयश्च पापात्मा निकृतिप्रियः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.६</sup>म्रियेतापि न भज्येत नैव जह्यात्स्वकं मतम्<br>तादृशेन शमं कृष्ण मन्ये परमदुष्करम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.७</sup>सुहृदामप्यवाचीनस्त्यक्तधर्मः प्रियानृतः<br>प्रतिहन्त्येव सुहृदां वाचश्चैव मनांसि च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.८</sup>स मन्युवशमापन्नः स्वभावं दुष्टमास्थितः<br>स्वभावात्पापमन्वेति तृणैस्तुन्न इवोरगः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.९</sup>दुर्योधनो हि यत्सेनः सर्वथा विदितस्तव<br>यच्छीलो यत्स्वभावश्च यद्बलो यत्पराक्रमः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१०</sup>पुरा प्रसन्नाः कुरवः सहपुत्रास्तथा वयम्<br>इन्द्रज्येष्ठा इवाभूम मोदमानाः सबान्धवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.११</sup>दुर्योधनस्य क्रोधेन भारता मधुसूदन<br>धक्ष्यन्ते शिशिरापाये वनानीव हुताशनैः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१२</sup>अष्टादशेमे राजानः प्रख्याता मधुसूदन<br>ये समुच्चिच्छिदुर्ज्ञातीन्सुहृदश्च सबान्धवान्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१३</sup>असुराणां समृद्धानां ज्वलतामिव तेजसा<br>पर्यायकाले धर्मस्य प्राप्ते बलिरजायत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१४</sup>हैहयानामुदावर्तो नीपानां जनमेजयः<br>बहुलस्तालजङ्घानां कृमीणामुद्धतो वसुः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१५</sup>अजबिन्दुः सुवीराणां सुराष्ट्राणां कुशर्द्धिकः<br>अर्कजश्च बलीहानां चीनानां धौतमूलकः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१६</sup>हयग्रीवो विदेहानां वरप्रश्च महौजसाम्<br>बाहुः सुन्दरवेगानां दीप्ताक्षाणां पुरूरवाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१७</sup>सहजश्चेदिमत्स्यानां प्रचेतानां बृहद्बलः<br>धारणश्चेन्द्रवत्सानां मुकुटानां विगाहनः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१८</sup>शमश्च नन्दिवेगानामित्येते कुलपांसनाः<br>युगान्ते कृष्ण संभूताः कुलेषु पुरुषाधमाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.१९</sup>अप्ययं नः कुरूणां स्याद्युगान्ते कालसंभृतः<br>दुर्योधनः कुलाङ्गारो जघन्यः पापपूरुषः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२०</sup>तस्मान्मृदु शनैरेनं ब्रूया धर्मार्थसंहितम्<br>कामानुबन्धबहुलं नोग्रमुग्रपराक्रमम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२१</sup>अपि दुर्योधनं कृष्ण सर्वे वयमधश्चराः<br>नीचैर्भूत्वानुयास्यामो मा स्म नो भरता नशन्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२२</sup>अप्युदासीनवृत्तिः स्याद्यथा नः कुरुभिः सह<br>वासुदेव तथा कार्यं न कुरूननयः स्पृशेत्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२३</sup>वाच्यः पितामहो वृद्धो ये च कृष्ण सभासदः<br>भ्रातॄणामस्तु सौभ्रात्रं धार्तराष्ट्रः प्रशाम्यताम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">५.७२.२४</sup>अहमेतद्ब्रवीम्येवं राजा चैव प्रशंसति<br>अर्जुनो नैव युद्धार्थी भूयसी हि दयार्जुने
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -153,8 +146,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>

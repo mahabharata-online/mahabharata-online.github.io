@@ -20,6 +20,34 @@
     <img src="/resources/images/sidebar.png" class="sidebar-button" type="button" data-bs-toggle="offcanvas"
         data-bs-target="#parva_offcanvas" aria-controls="parva_offcanvas">
 
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/sanskrit/6/35.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/" class="btn btn-nav btn-secondary-outline"><span class="fa fa-home"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>६:३६</h2>
+        </div>
+        <div class="col-1">
+
+        </div>
+        <div class="col-1">
+            <a href="/sanskrit/6/37.html" class="btn btn-nav btn-secondary-outline w-5"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+
     <div class="offcanvas offcanvas-start" tabindex="-1" id="parva_offcanvas" aria-labelledby="parva_offcanvas_label">
 
         <div class="offcanvas-header">
@@ -36,133 +64,98 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="card shadow-lg my-2">
-                    <div class="card-header">
-                        <div class="row">
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                
-                                <a href="/sanskrit/6/35.html" id="previous-parva-btn" style="float:left;"
-                                    class="btn btn-warning my-2">
-                                
-                                        <span class="fa fa-xl fa-arrow-left"></span>
-                                    </a>
-                            </div>
-
-                            <div class="col-lg-1 col-md-1 col-sm-2">
-                                <a href="/" style="float:left;" class="btn btn-warning my-2">
-                                    <span class="fa fa-home"></span>
-                                </a>
-                            </div>
-
-                            <div class="col-lg-8 col-md-8 col-sm-6">
-                                <h1 style="text-align:center" class="card-title">६:३६</h1>
-                            </div>
-
-                            <div class="col-lg-2 col-md-2 col-sm-2">
-                            
-                            <a href="/sanskrit/6/37.html" id="next-parva-btn" style="float:right;"
-                                class="btn btn-warning my-2">
-                            
-                            <span class="fa fa-xl fa-arrow-right"></span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <div class="mbh-skt-verse mbh-content" id="to_index">
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१</sup>श्रीभगवानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२</sup>परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्<br>यज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.३</sup>इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः<br>सर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.४</sup>मम योनिर्महद्ब्रह्म तस्मिन्गर्भं दधाम्यहम्<br>संभवः सर्वभूतानां ततो भवति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.५</sup>सर्वयोनिषु कौन्तेय मूर्तयः संभवन्ति याः<br>तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.६</sup>सत्त्वं रजस्तम इति गुणाः प्रकृतिसंभवाः<br>निबध्नन्ति महाबाहो देहे देहिनमव्ययम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.७</sup>तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्<br>सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.८</sup>रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम्<br>तन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.९</sup>तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम्<br>प्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१०</sup>सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत<br>ज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.११</sup>रजस्तमश्चाभिभूय सत्त्वं भवति भारत<br>रजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१२</sup>सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते<br>ज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१३</sup>लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा<br>रजस्येतानि जायन्ते विवृद्धे भरतर्षभ
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१४</sup>अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च<br>तमस्येतानि जायन्ते विवृद्धे कुरुनन्दन
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१५</sup>यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत्<br>तदोत्तमविदां लोकानमलान्प्रतिपद्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१६</sup>रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते<br>तथा प्रलीनस्तमसि मूढयोनिषु जायते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१७</sup>कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम्<br>रजसस्तु फलं दुःखमज्ञानं तमसः फलम्
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१८</sup>सत्त्वात्संजायते ज्ञानं रजसो लोभ एव च<br>प्रमादमोहौ तमसो भवतोऽज्ञानमेव च
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.१९</sup>ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः<br>जघन्यगुणवृत्तस्था अधो गच्छन्ति तामसाः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२०</sup>नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति<br>गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२१</sup>गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान्<br>जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२२</sup>अर्जुन उवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२३</sup>कैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो<br>किमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२४</sup>श्रीभगवानुवाच
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२५</sup>प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव<br>न द्वेष्टि संप्रवृत्तानि न निवृत्तानि काङ्क्षति
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२६</sup>उदासीनवदासीनो गुणैर्यो न विचाल्यते<br>गुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२७</sup>समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः<br>तुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२८</sup>मानावमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः<br>सर्वारम्भपरित्यागी गुणातीतः स उच्यते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.२९</sup>मां च योऽव्यभिचारेण भक्तियोगेन सेवते<br>स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते
-                            <br><br>
-                            
-                            <sup class="mbh-skt-verse-index">६.३६.३०</sup>ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च<br>शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च
-                            <br><br>
-                            
-                        </div>
-                    </div>
+                <div class="mbh-skt-verse mbh-content" id="to_index">
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१</sup>श्रीभगवानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२</sup>परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्<br>यज्ज्ञात्वा मुनयः सर्वे परां सिद्धिमितो गताः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.३</sup>इदं ज्ञानमुपाश्रित्य मम साधर्म्यमागताः<br>सर्गेऽपि नोपजायन्ते प्रलये न व्यथन्ति च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.४</sup>मम योनिर्महद्ब्रह्म तस्मिन्गर्भं दधाम्यहम्<br>संभवः सर्वभूतानां ततो भवति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.५</sup>सर्वयोनिषु कौन्तेय मूर्तयः संभवन्ति याः<br>तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.६</sup>सत्त्वं रजस्तम इति गुणाः प्रकृतिसंभवाः<br>निबध्नन्ति महाबाहो देहे देहिनमव्ययम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.७</sup>तत्र सत्त्वं निर्मलत्वात्प्रकाशकमनामयम्<br>सुखसङ्गेन बध्नाति ज्ञानसङ्गेन चानघ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.८</sup>रजो रागात्मकं विद्धि तृष्णासङ्गसमुद्भवम्<br>तन्निबध्नाति कौन्तेय कर्मसङ्गेन देहिनम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.९</sup>तमस्त्वज्ञानजं विद्धि मोहनं सर्वदेहिनाम्<br>प्रमादालस्यनिद्राभिस्तन्निबध्नाति भारत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१०</sup>सत्त्वं सुखे सञ्जयति रजः कर्मणि भारत<br>ज्ञानमावृत्य तु तमः प्रमादे सञ्जयत्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.११</sup>रजस्तमश्चाभिभूय सत्त्वं भवति भारत<br>रजः सत्त्वं तमश्चैव तमः सत्त्वं रजस्तथा
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१२</sup>सर्वद्वारेषु देहेऽस्मिन्प्रकाश उपजायते<br>ज्ञानं यदा तदा विद्याद्विवृद्धं सत्त्वमित्युत
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१३</sup>लोभः प्रवृत्तिरारम्भः कर्मणामशमः स्पृहा<br>रजस्येतानि जायन्ते विवृद्धे भरतर्षभ
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१४</sup>अप्रकाशोऽप्रवृत्तिश्च प्रमादो मोह एव च<br>तमस्येतानि जायन्ते विवृद्धे कुरुनन्दन
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१५</sup>यदा सत्त्वे प्रवृद्धे तु प्रलयं याति देहभृत्<br>तदोत्तमविदां लोकानमलान्प्रतिपद्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१६</sup>रजसि प्रलयं गत्वा कर्मसङ्गिषु जायते<br>तथा प्रलीनस्तमसि मूढयोनिषु जायते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१७</sup>कर्मणः सुकृतस्याहुः सात्त्विकं निर्मलं फलम्<br>रजसस्तु फलं दुःखमज्ञानं तमसः फलम्
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१८</sup>सत्त्वात्संजायते ज्ञानं रजसो लोभ एव च<br>प्रमादमोहौ तमसो भवतोऽज्ञानमेव च
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.१९</sup>ऊर्ध्वं गच्छन्ति सत्त्वस्था मध्ये तिष्ठन्ति राजसाः<br>जघन्यगुणवृत्तस्था अधो गच्छन्ति तामसाः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२०</sup>नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति<br>गुणेभ्यश्च परं वेत्ति मद्भावं सोऽधिगच्छति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२१</sup>गुणानेतानतीत्य त्रीन्देही देहसमुद्भवान्<br>जन्ममृत्युजरादुःखैर्विमुक्तोऽमृतमश्नुते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२२</sup>अर्जुन उवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२३</sup>कैर्लिङ्गैस्त्रीन्गुणानेतानतीतो भवति प्रभो<br>किमाचारः कथं चैतांस्त्रीन्गुणानतिवर्तते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२४</sup>श्रीभगवानुवाच
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२५</sup>प्रकाशं च प्रवृत्तिं च मोहमेव च पाण्डव<br>न द्वेष्टि संप्रवृत्तानि न निवृत्तानि काङ्क्षति
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२६</sup>उदासीनवदासीनो गुणैर्यो न विचाल्यते<br>गुणा वर्तन्त इत्येव योऽवतिष्ठति नेङ्गते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२७</sup>समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः<br>तुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२८</sup>मानावमानयोस्तुल्यस्तुल्यो मित्रारिपक्षयोः<br>सर्वारम्भपरित्यागी गुणातीतः स उच्यते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.२९</sup>मां च योऽव्यभिचारेण भक्तियोगेन सेवते<br>स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते
+                    <br><br>
+                    
+                    <sup class="mbh-skt-verse-index">६.३६.३०</sup>ब्रह्मणो हि प्रतिष्ठाहममृतस्याव्ययस्य च<br>शाश्वतस्य च धर्मस्य सुखस्यैकान्तिकस्य च
+                    <br><br>
+                    
                 </div>
             </div>
         </div>
@@ -171,8 +164,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/resources/js/build-parva-sidebar.js"></script>
     <script src="/resources/js/translate.js"></script>
+    <script src="/resources/js/progressbar.js"></script>
     <script>
-        $(document).ready( () => {
+        $(document).ready(() => {
             build_parva_sidebar_sanskrit();
         });
     </script>
